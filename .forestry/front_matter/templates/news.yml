@@ -1,0 +1,22 @@
+---
+label: news
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: file
+  name: featuredImage
+  label: featuredImage
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: description
+  label: description
+- type: list
+  name: tags
+  label: tags
