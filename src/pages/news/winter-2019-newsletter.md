@@ -7,7 +7,7 @@ description: Our Winter 2019 Newsletter is now out as we approach the end of our
   sponsored training courses. Read about the difference this has made in our community.
 tags:
 - newsletters
-pdf_upload: ''
+pdf_upload: "/img/AVM-Newsletter-Winter-2019-Hi_res.pdf"
 
 ---
 Our Winter 2019 Newsletter is now out as we approach the end of our UNESCO sponsored training courses. Read about the difference this has made in our community.
