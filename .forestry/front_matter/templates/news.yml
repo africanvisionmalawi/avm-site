@@ -6,6 +6,7 @@ fields:
   name: templateKey
   label: templateKey
   hidden: true
+  default: blog-post
 - type: file
   name: featuredImage
   label: featuredImage
