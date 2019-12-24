@@ -5,6 +5,7 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
 - type: text
   name: title
   label: title
