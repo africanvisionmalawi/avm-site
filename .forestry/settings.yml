@@ -5,6 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: src/pages/events
+  label: Events
+  create: all
+  match: "**/*"
+- type: directory
+  path: src/pages/news
+  label: News
+  create: all
+  match: "**/*"
+- type: directory
   path: src/pages/about-us
   label: About Us
   create: all
@@ -17,11 +27,6 @@ sections:
 - type: directory
   path: src/pages/health
   label: Health
-  create: all
-  match: "**/*"
-- type: directory
-  path: src/pages/news
-  label: News
   create: all
   match: "**/*"
 - type: directory
