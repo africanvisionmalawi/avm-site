@@ -7,6 +7,12 @@ fields:
   label: templateKey
   hidden: true
   default: blog-post
+- name: pdf_upload
+  type: file
+  config:
+    maxSize: 250
+  label: PDF upload
+  description: 'Use this to add  newsletter PDF '
 - type: file
   name: featuredImage
   label: featuredImage
