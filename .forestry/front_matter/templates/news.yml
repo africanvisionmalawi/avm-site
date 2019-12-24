@@ -24,3 +24,4 @@ fields:
   label: tags
 pages:
 - src/pages/news/2019-09-03-winter-2018-newsletter-now-out.md
+- src/pages/news/winter-2019-newsletter.md
