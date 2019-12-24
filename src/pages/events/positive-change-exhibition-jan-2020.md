@@ -6,7 +6,7 @@ date: 2020-01-07T19:00:00Z
 endDate: 2020-01-07T21:00:00Z
 description: Come and celebrate AVM’s first 15 years. A photo and film presentation
   introduced by the photographers showing positive change in Malawi since AVM started
-  back in 2005.
+  back in 2005
 allDay: false
 location: the cornerHOUSE 116 Douglas Road Surbiton, Surrey KT6 7SB United Kingdom
 cost: 0
