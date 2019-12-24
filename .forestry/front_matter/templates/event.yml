@@ -1,0 +1,37 @@
+---
+label: event
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: file
+  name: photo
+  label: photo
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: endDate
+  label: endDate
+- type: textarea
+  name: description
+  label: description
+- type: boolean
+  name: allDay
+  label: allDay
+- type: text
+  name: location
+  label: location
+- type: number
+  name: cost
+  label: cost
+- type: text
+  name: url
+  label: url
+- type: list
+  name: tags
+  label: tags
