@@ -14,4 +14,6 @@ cost: 0
 url: http://www.thecornerhouse.org/
 tags:
   - event
----Come and celebrate AVM’s first 15 years. A photo and film presentation introduced by the photographers showing positive change in Malawi since AVM started back in 2005. The exhibition will be on display throughout all of January 2020, with a gala evening on 7th January.
+---
+
+Come and celebrate AVM’s first 15 years. A photo and film presentation introduced by the photographers showing positive change in Malawi since AVM started back in 2005. The exhibition will be on display throughout all of January 2020, with a gala evening on 7th January.
