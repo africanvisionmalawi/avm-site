@@ -60,6 +60,7 @@ export const ShopProductTemplate = ({
                     <span className={shopStyles.price}>&pound;{price}</span>
                     <BuyButton
                       productId={productId}
+                      name={title}
                       description={title}
                       price={price}
                       image={productImage.childImageSharp.fluid.src}

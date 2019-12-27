@@ -1,24 +1,32 @@
 .ctaButton {
-    
-    display: block;
-    
-    /* text-align: center;     */
-    
+  display: block;
+
+  /* text-align: center;     */
 }
 .ctaButton a {
-    background: #58B5D7;
-    border-radius: 4px;    
-    display: inline-block;
-    font-weight: bold;
-    padding: 10px 20px;
-    text-align: center; 
-    text-transform: uppercase;
+  background: #58b5d7;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
-.ctaButton a:link, 
+.ctaButton a:link,
 .ctaButton a:visited {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .ctaButton a:hover {
-    background: #6dbedc;
+  background: #6dbedc;
+}
+.cartLink {
+  padding: 4px;
+}
+.cartLinkIcon {
+  height: 32px;
+  width: auto;
+}
+.cartLinkText {
+  color: #fff;
 }

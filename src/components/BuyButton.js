@@ -20,11 +20,19 @@ const Button = styled.div`
   }
 `;
 
-export const BuyButton = ({ productId, price, description, image, url }) => {
+export const BuyButton = ({
+  productId,
+  name,
+  price,
+  description,
+  image,
+  url
+}) => {
   return (
     <Button
       className="snipcart-add-item"
       data-item-id={productId}
+      data-item-name={name}
       data-item-price={price}
       data-item-description={description}
       data-item-image={image}

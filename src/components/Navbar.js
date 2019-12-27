@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 // import github from '../img/github-icon.svg'
 import logo from "../img/logo-full.png";
 import CtaButton from "../components/CtaButton";
+import CartLink from "../components/CartLink";
 import navbarStyles from "./navbar.module.css";
 
 const Navbar = class extends React.Component {
@@ -65,9 +66,7 @@ const Navbar = class extends React.Component {
               </Link>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
-                  className={`navbar-link navbar-parent ${
-                    navbarStyles.navbarArrow
-                  }`}
+                  className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
                   to="/projects"
                 >
                   Projects
@@ -111,9 +110,7 @@ const Navbar = class extends React.Component {
               </div>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
-                  className={`navbar-link navbar-parent ${
-                    navbarStyles.navbarArrow
-                  }`}
+                  className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
                   to="/get-involved"
                 >
                   Get involved
@@ -153,9 +150,7 @@ const Navbar = class extends React.Component {
               </div>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
-                  className={`navbar-link navbar-parent ${
-                    navbarStyles.navbarArrow
-                  }`}
+                  className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
                   to="/about-us"
                 >
                   About us
@@ -192,6 +187,7 @@ const Navbar = class extends React.Component {
               link="https://www.charitycheckout.co.uk/1113786/"
               text="Donate"
             />
+            <CartLink />
           </div>
         </div>
       </nav>
