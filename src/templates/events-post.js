@@ -43,9 +43,7 @@ export const EventsPostTemplate = ({
               Date(s): <EventDate date={date} endDate={endDate} />
             </p>
             <p>Location: {location}</p>
-            <p>contact: none
-telephone: 0
-cost: &pound;{cost}</p>
+            <p>contact: none telephone: 0 cost: &pound;{cost}</p>
             <p>{description}</p>
             <PostContent content={content} />
 
@@ -85,9 +83,9 @@ EventsPostTemplate.propTypes = {
   endDate: PropTypes.string,
   allday: PropTypes.bool,
   location: PropTypes.string,
-  contact: none
-telephone: 0
-cost: PropTypes.number,
+  contact: PropTypes.number,
+  telephone: PropTypes.number,
+  cost: PropTypes.number,
   url: PropTypes.string,
   tags: PropTypes.array,
   helmet: PropTypes.object,
@@ -118,6 +116,8 @@ const EventsPost = ({ data }) => {
         endDate={post.frontmatter.endDate}
         allDay={post.frontmatter.allDay}
         location={post.frontmatter.location}
+        contact={post.frontmatter.number}
+        telephone={post.frontmatter.number}
         cost={post.frontmatter.cost}
         url={post.frontmatter.url}
         photo={post.frontmatter.photo}
