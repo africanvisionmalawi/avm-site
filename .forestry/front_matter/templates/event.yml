@@ -42,7 +42,7 @@ fields:
 - name: telephone
   type: number
   label: Telephone
-  description: ''
+  description: Leave as 0 if there isn't one
   default: 0
   required: true
   config:
