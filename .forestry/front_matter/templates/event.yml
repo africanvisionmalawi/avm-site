@@ -39,6 +39,8 @@ fields:
   config:
     required: false
   label: Contact
+  default: none
+  description: Leave as none if there isn't one
 - name: telephone
   type: number
   label: Telephone
