@@ -34,6 +34,23 @@ fields:
 - type: text
   name: url
   label: url
+- name: contact
+  type: text
+  config:
+    required: false
+  label: Contact
+  default: none
+  description: Leave as none if there isn't one
+- name: telephone
+  type: number
+  label: Telephone
+  description: Leave as 0 if there isn't one
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: list
   name: tags
   label: tags
