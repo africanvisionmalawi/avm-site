@@ -13,6 +13,8 @@ allDay: true
 location: |2-
       Sam’s Village 
       13°44'55.7"S 33°43'45.4"E Lilongwe Malawi
+contact: none
+telephone: 0
 cost: 0
 url: /here/
 tags:

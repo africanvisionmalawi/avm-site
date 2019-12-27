@@ -9,6 +9,8 @@ description: >-
   Challenge 2020 with optional Mulanje Hike.
 allDay: true
 location: '     Sam’s Village, 13°44''55.7"S 33°43''45.4"E, Lilongwe Malawi '
+contact: none
+telephone: 0
 cost: 1350
 url: /here/
 tags:

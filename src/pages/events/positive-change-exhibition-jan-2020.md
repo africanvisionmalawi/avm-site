@@ -10,6 +10,8 @@ description:
   back in 2005
 allDay: false
 location: the cornerHOUSE 116 Douglas Road Surbiton, Surrey KT6 7SB United Kingdom
+contact: none
+telephone: 0
 cost: 0
 url: http://www.thecornerhouse.org/
 tags:

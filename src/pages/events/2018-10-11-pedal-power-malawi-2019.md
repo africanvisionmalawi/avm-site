@@ -7,6 +7,8 @@ date: 2019-04-08T22:07:16.531Z
 endDate: 2019-04-22T19:50:09.959Z
 allDay: true
 location: Malawi
+contact: none
+telephone: 0
 cost: 950
 url: null
 description: some description text here

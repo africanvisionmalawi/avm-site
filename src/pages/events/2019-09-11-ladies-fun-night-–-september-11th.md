@@ -10,6 +10,8 @@ location: |-
   158 Ewell Road
   Surbiton
   KT6 6HE 
+contact: none
+telephone: 0
 cost: 30
 url: >-
   https://www.eventbrite.co.uk/e/ladies-fun-night-tickets-66450480175?utm_campaign=new_event_email&utm_medium=email&utm_source=eb_email&utm_term=viewmyevent_button

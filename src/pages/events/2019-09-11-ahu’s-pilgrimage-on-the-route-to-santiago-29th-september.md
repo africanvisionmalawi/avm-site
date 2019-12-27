@@ -11,6 +11,8 @@ location: |2-
       Cathedral of Santiago de Compostela 
       Praza do Obradoiro, s/n, 15704
       Santiago de Compostela, A Coruña Spain 
+contact: none
+telephone: 0
 cost: 0
 url: >-
   http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf

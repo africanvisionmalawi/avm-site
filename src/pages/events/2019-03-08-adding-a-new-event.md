@@ -7,6 +7,8 @@ date: 2019-08-09T17:17:29.696Z
 endDate: 2019-08-09T17:17:29.696Z
 allDay: true
 location: 1, any street, somewhere, here and there
+contact: none
+telephone: 0
 cost: 10
 url: https://www.nigelbunner.co.uk
 description: here is a description
