@@ -12,6 +12,7 @@ const TotalItems = styled.span`
   background: #fff;
   border-radius: 50%;
   color: #9a563f;
+  font-weight: bold;
   left: 12px;
   position: absolute;
   text-align: center;
