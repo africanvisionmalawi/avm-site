@@ -8,6 +8,9 @@ fields:
   hidden: true
   default: shop-product-page
 - type: text
+  name: title
+  label: title
+- type: text
   name: productId
   label: productId
   config:
@@ -15,9 +18,6 @@ fields:
 - type: file
   name: productImage
   label: productImage
-- type: text
-  name: title
-  label: title
 - type: text
   name: description
   label: description
