@@ -1,7 +1,7 @@
 ---
 templateKey: shop-product-page
 productId: buildWellPump
-productImage: /img/4b0c05483d2d6working_borehole.jpg
+productImage: "/img/4b0c02b2efd72cnv00023.jpg"
 title: Build a well and pump
 description: Give a gift that will make a difference We will send you the gift card/s
 price: 500
@@ -13,7 +13,7 @@ width: 104
 height: 3
 shippingClass: na
 tags:
-  - giftlist
----
+- giftlist
 
+---
 Give a gift that will make a difference We will send you the gift card/s
