@@ -12,8 +12,7 @@ length: 147
 width: 104
 height: 3
 shippingClass: na
-tags:
-- giftlist
+tags: giftlist
 
 ---
 Give a gift that will make a difference We will send you the gift card/s
