@@ -56,8 +56,25 @@ fields:
 - type: text
   name: shippingClass
   label: shippingClass
-- type: list
-  name: tags
-  label: tags
+- name: tags
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - christmas
+    - postcards
+    - giftlist
+    - education packs
+    - malawi gifts
+    - books
+    - cds
+    - dvds
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Tags
 pages:
 - src/pages/shop/buy-a-sleeping-mat.md
