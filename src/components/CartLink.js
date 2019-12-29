@@ -1,15 +1,16 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 // import { Link } from 'gatsby'
 import buttonStyles from "./button.module.css";
 import styled from "styled-components";
 
 const CartTop = styled.div`
+  cursor: pointer;
   margin-top: -10px;
   position: relative;
 `;
 const TotalItems = styled.span`
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.75);
   border-radius: 50%;
   color: #9a563f;
   font-weight: bold;
@@ -27,8 +28,7 @@ const TotalPrice = styled.div`
 `;
 
 const CartLink = ({ link, text }) => (
-  <a
-    href="#"
+  <div
     className={`Header__summary snipcart-summary snipcart-checkout ${buttonStyles.cartLink}`}
   >
     <CartTop>
@@ -55,7 +55,7 @@ const CartLink = ({ link, text }) => (
       <TotalItems className="snipcart-total-items" />
     </CartTop>
     <TotalPrice className="snipcart-total-price" />
-  </a>
+  </div>
 );
 
 export default CartLink;

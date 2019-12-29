@@ -3,7 +3,6 @@
 templateKey: shop-product-page
 productId: buildUpWell
 title: Build up a well
-date: 2019-05-25
 productImage: /img/shop/build-a-well-1.jpg
 description: Give a gift that will make a difference...
 price: 100
