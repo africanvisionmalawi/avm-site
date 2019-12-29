@@ -23,6 +23,8 @@ sections:
   label: Shop
   create: all
   match: "**/*"
+  templates:
+  - shop-product
 - type: directory
   path: src/pages/about-us
   label: About Us
