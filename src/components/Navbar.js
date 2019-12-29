@@ -187,7 +187,9 @@ const Navbar = class extends React.Component {
               link="https://www.charitycheckout.co.uk/1113786/"
               text="Donate"
             />
-            <CartLink />
+            <div className={navbarStyles.cartLinkCont}>
+              <CartLink />
+            </div>
           </div>
         </div>
       </nav>

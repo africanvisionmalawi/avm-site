@@ -9,7 +9,6 @@ import Content, { HTMLContent } from "../components/Content";
 import CtaButton from "../components/CtaButton";
 import BuyButton from "../components/BuyButton";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import styled from "styled-components";
 import shopStyles from "../components/shop.module.css";
 
 export const ShopProductTemplate = ({
