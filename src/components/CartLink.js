@@ -9,7 +9,7 @@ const CartTop = styled.div`
   position: relative;
 `;
 const TotalItems = styled.span`
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   color: #9a563f;
   font-weight: bold;
