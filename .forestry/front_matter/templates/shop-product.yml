@@ -24,6 +24,7 @@ fields:
 - type: number
   name: price
   label: price
+  description: "(price in pounds)"
 - type: number
   name: salePrice
   label: salePrice
@@ -36,18 +37,22 @@ fields:
   name: weight
   label: weight
   default: '0'
+  description: "(weight in g)"
 - type: number
   name: length
   label: length
   default: '0'
+  description: "(mm)"
 - type: number
   name: width
   label: width
   default: '0'
+  description: "(mm)"
 - type: number
   name: height
   label: height
   default: '0'
+  description: "(mm)"
 - type: text
   name: shippingClass
   label: shippingClass
