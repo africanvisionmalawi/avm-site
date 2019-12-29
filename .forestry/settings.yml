@@ -19,6 +19,11 @@ sections:
   templates:
   - news
 - type: directory
+  path: src/pages/shop
+  label: Shop
+  create: all
+  match: "**/*"
+- type: directory
   path: src/pages/about-us
   label: About Us
   create: all
