@@ -5,18 +5,19 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
+  default: shop-product-page
 - type: text
   name: productId
   label: productId
+  config:
+    required: true
 - type: file
   name: productImage
   label: productImage
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: description
   label: description
@@ -26,21 +27,27 @@ fields:
 - type: number
   name: salePrice
   label: salePrice
+  default: '0'
 - type: number
   name: inStock
   label: inStock
+  default: '0'
 - type: number
   name: weight
   label: weight
+  default: '0'
 - type: number
   name: length
   label: length
+  default: '0'
 - type: number
   name: width
   label: width
+  default: '0'
 - type: number
   name: height
   label: height
+  default: '0'
 - type: text
   name: shippingClass
   label: shippingClass
