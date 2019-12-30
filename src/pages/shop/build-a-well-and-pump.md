@@ -14,4 +14,6 @@ height: 3
 shippingClass: na
 tags:
   - giftlist
----Give a gift that will make a difference We will send you the gift card/s
+---
+
+Give a gift that will make a difference We will send you the gift card/s

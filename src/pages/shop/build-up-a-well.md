@@ -14,4 +14,6 @@ height: 0
 shippingClass: na
 tags:
   - giftlist
----Give a gift that will make a difference When you place this order we will send you a form to fill out with the details of the recipient so we can make a plaque with their name on it to go on the well when we build it. Thank you…
+---
+
+Give a gift that will make a difference When you place this order we will send you a form to fill out with the details of the recipient so we can make a plaque with their name on it to go on the well when we build it. Thank you…
