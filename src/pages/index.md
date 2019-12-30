@@ -6,10 +6,10 @@ metaDescription: Since 2005 African Vision Malawi has been helping children and 
   a healthy, educated and self-sufficient community in Malawi.
 
 ---
-Over the summer, we have all sorts of events planned. Do join us if you can at any of them. How about our [Ladies Fun Night in Surbiton](/event/ladies-fun-night/) 11th September?
+If Winter weather is getting you down, have a look at our 2 bike rides in the warmth of Malawi. One for families, one without .. take your pick.
 
-More details just to the right or go to Upcoming Events [here](http://www.africanvision.org.uk/events/) ...
+More about our our Upcoming Events [here ...](/events/ "View events")
 
-Our Summer Newsletter is now out, have a [read here](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/AVM-Newsletter-Summer-2019-hi_res.pdf) ...
+Our Christmas Newsletter is now out, have a [read ...](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/12/AVM-Newsletter-Winter-2019-Low_res.pdf "Christmas newsletter")..
 
 ## **Matched Funding is still here but not for long. Please support our 2019 Appeal ...** [**READ MORE**](http://www.africanvision.org.uk/2018/11/21/sams-village-christmas-appeal-matched-funding-is-back/)
