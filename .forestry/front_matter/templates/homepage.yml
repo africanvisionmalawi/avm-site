@@ -1,0 +1,13 @@
+---
+label: homepage
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: metaTitle
+  label: metaTitle
+- type: textarea
+  name: metaDescription
+  label: metaDescription
