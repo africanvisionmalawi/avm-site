@@ -5,9 +5,17 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
+  default: homepage
 - type: text
   name: metaTitle
   label: metaTitle
+  default: Welcome to African Vision Malawi, the new name for the Landirani Trust
+  hidden: true
 - type: textarea
   name: metaDescription
   label: metaDescription
+  default: Since 2005 African Vision Malawi has been helping children and vulnerable
+    people in Malawi, one of the poorest countries in the world. Our vision is to
+    see a healthy, educated and self-sufficient community in Malawi.
+  hidden: true
