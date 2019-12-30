@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: src/pages/index.md
-  label: Homepage
+  label: Latest news box
 - type: directory
   path: src/pages/events
   label: Events
