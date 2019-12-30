@@ -60,5 +60,7 @@ fields:
   type: tag_list
   default: []
   label: Tags
+  description: "(e.g. giftlist, christmas, postcards, malawi gifts, education packs,
+    books, cds, dvds"
 pages:
 - src/pages/shop/buy-a-sleeping-mat.md
