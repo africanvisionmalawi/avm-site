@@ -1,9 +1,11 @@
 ---
 templateKey: homepage
 metaTitle: Welcome to African Vision Malawi, the new name for the Landirani Trust
-metaDescription: Since 2005 African Vision Malawi has been helping children and vulnerable people in Malawi, one of the poorest countries in the world. Our vision is to see a healthy, educated and self-sufficient community in Malawi.
----
+metaDescription: Since 2005 African Vision Malawi has been helping children and vulnerable
+  people in Malawi, one of the poorest countries in the world. Our vision is to see
+  a healthy, educated and self-sufficient community in Malawi.
 
+---
 Over the summer, we have all sorts of events planned. Do join us if you can at any of them. How about our [Ladies Fun Night in Surbiton](/event/ladies-fun-night/) 11th September?
 
 More details just to the right or go to Upcoming Events [here](http://www.africanvision.org.uk/events/) ...
