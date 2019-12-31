@@ -11,4 +11,5 @@ fields:
   name: title
   label: title
 pages:
+- src/pages/about-us/african-vision-malawi-our-new-name/index.md
 - src/pages/about-us/thank-yous/index.md

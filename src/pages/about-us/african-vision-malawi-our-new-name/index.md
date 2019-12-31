@@ -2,9 +2,9 @@
 templateKey: page-basic
 title: African Vision Malawi – our change of name
 description: About our change of name from the Landirani Trust
-headerImage: /img/chemex.jpg
----
+headerImage: "/img/chemex.jpg"
 
+---
 In 2005, the Landirani Trust was born out of a visit to Malawi by Heather and two friends. In those early days the charity hoped to be able to provide some basic necessities such as clothing and blankets. It wasn’t long before we recognised the desperate need to put in clean water and build schools. These became two of our major activities in recent years, which in turn led to health and our building a maternity unit in 2013/14.
 
 The word ‘Landirani’ means ‘please receive’ in the local language Chichewa and over time the charity has achieved significant awareness in Malawi and is recognised by major agencies such as UNICEF as well as the Government of Malawi. Therefore we will continue to be called the Landirani Trust in Malawi.
