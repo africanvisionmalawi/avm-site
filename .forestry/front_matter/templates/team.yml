@@ -1,0 +1,57 @@
+---
+label: team
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: malawiTeam
+  label: malawiTeam
+  fields:
+  - type: number
+    name: order
+    label: order
+  - type: file
+    name: photo
+    label: photo
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: role
+    label: role
+- type: field_group_list
+  name: ukTeam
+  label: ukTeam
+  fields:
+  - type: number
+    name: order
+    label: order
+  - type: file
+    name: photo
+    label: photo
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: role
+    label: role
+- type: text
+  name: malawiTitle
+  label: malawiTitle
+- type: textarea
+  name: malawiText
+  label: malawiText
+- type: text
+  name: ukTitle
+  label: ukTitle
+- type: textarea
+  name: ukText
+  label: ukText
