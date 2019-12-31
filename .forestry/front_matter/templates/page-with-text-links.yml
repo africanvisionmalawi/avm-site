@@ -5,6 +5,8 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
+  default: page-text-links
 - type: text
   name: title
   label: title
