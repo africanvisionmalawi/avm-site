@@ -1,6 +1,7 @@
 ---
 templateKey: page-basic
 title: Where we work
+
 ---
 ![Centres map](/img/centres.png "Centres Map")
 
