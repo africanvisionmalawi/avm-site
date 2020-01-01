@@ -5,6 +5,8 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
+  default: featured-project-simple
 - type: text
   name: currentProject
   label: currentProject
