@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Reforestation
-description: How our Reforestation Project is promoting self-sufficiency within our support area
-headerImage: /img/chemex.jpg
----
+description: How our Reforestation Project is promoting self-sufficiency within our
+  support area
+headerImage: "/img/chemex.jpg"
 
+---
 Wood is the main source of fuel for keeping warm, cooking and firing of bricks for community buildings. As the population has grown the land has slowly but surely been taken over by farming and trees are also chopped down in the fields. There is very little replanting, therefore it is essential that these stocks of wood are replenished.
 
 Our Reforestation Project is promoting self-sufficiency within our support area.
