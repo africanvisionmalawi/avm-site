@@ -10,6 +10,12 @@ fields:
 - type: text
   name: title
   label: title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  default: African Vision Malawi
 pages:
 - src/pages/about-us/african-vision-malawi-our-new-name/index.md
 - src/pages/about-us/thank-yous/index.md
