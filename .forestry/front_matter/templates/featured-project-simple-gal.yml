@@ -5,9 +5,13 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
+  default: featured-project-simple-gal
 - type: text
   name: currentProject
   label: currentProject
+  hidden: true
+  default: water
 - type: number
   name: columns
   label: columns
