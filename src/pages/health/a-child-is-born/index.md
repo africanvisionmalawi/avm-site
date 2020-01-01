@@ -1,7 +1,10 @@
 ---
 templateKey: page-basic
 title: A child is born
-headerImage: /img/chemex.jpg
+headerImage: "/img/chemex.jpg"
+description: We will be building a waiting home for new mothers at the recently completed
+  maternity unit.
+
 ---
 So far we have raised £13,940 towards the cost of building a Safe Motherhood Unit at the maternity unit in M’bang’ombe. Thank you to every single person who contributed so generously. Over the next 2 years we intend to push for the final amount needed of £35,600. We hope to start the extension and renovations in 2019, and we will post updates here and on our Facebook page.
 
