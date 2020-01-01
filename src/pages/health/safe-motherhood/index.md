@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Safe Motherhood
-description: The opening of the Maternity Unit in M’bang’ombe was held on 12th November 2013 and was attended by Dorothy Ngoma, who is the President’s Advisor on Safe Motherhood.
-headerImage: /img/chemex.jpg
----
+description: The opening of the Maternity Unit in M’bang’ombe was held on 12th November
+  2013 and was attended by Dorothy Ngoma, who is the President’s Advisor on Safe Motherhood.
+headerImage: "/img/chemex.jpg"
 
+---
 The opening of the Maternity Unit in M’bang’ombe was held on 12th November 2013 and was attended by Dorothy Ngoma, who is the President’s Advisor on Safe Motherhood. Amazingly the first baby was born in the unit that very day! This 10 bed unit is the first in our area to have lighting and internal running water via a solar pump.
 Maternity Unit
 
