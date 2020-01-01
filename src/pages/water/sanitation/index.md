@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Sanitation
-description: Sanitation, access to clean water and health projects are all closely intertwined.
-headerImage: /img/chemex.jpg
----
+description: Sanitation, access to clean water and health projects are all closely
+  intertwined.
+headerImage: "/img/chemex.jpg"
 
+---
 Sanitation, access to clean water and health projects are all closely intertwined.
 
 In 2015, Enactus Sheffield set up a Tapping Potential project in our area. The training they delivered combined borehole maintenance training, soap making and hygiene information.
