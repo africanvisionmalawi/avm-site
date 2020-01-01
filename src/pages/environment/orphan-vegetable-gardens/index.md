@@ -2,9 +2,9 @@
 templateKey: page-basic
 title: Orphan Vegetable Gardens
 description: About out various orphan vegetable gardens
-headerImage: /img/chemex.jpg
----
+headerImage: "/img/chemex.jpg"
 
+---
 So far we have set up six vegetable gardens at Masiye, M’bang’ombe, Chitsime, Kakoma, Kafutwe and Namanyanga schools.
 
 We prepared the land, planted the seeds and set up the irrigation systems as shown in the picture.
