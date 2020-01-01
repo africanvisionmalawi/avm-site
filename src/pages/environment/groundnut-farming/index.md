@@ -2,9 +2,9 @@
 templateKey: page-basic
 title: Groundnut Farming
 description: Training local people to learn how to cultivate and harvest groundnuts
-headerImage: /img/chemex.jpg
----
+headerImage: "/img/chemex.jpg"
 
+---
 We run training for local people to learn how to cultivate and harvest groundnuts.
 
 We also organise collecting and selling the groundnuts to a buyer en masse, so that everybody can get a better price.
