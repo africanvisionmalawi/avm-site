@@ -2,9 +2,9 @@
 templateKey: page-basic
 title: Kafutwe Food Mill
 description: About our food mill at Kafutwe
-headerImage: /img/chemex.jpg
----
+headerImage: "/img/chemex.jpg"
 
+---
 We are building a Food Mill at Kafutwe.
 
 The mill can be used to grind millet, sorghum and legumes, as well as maize.
