@@ -38,6 +38,8 @@ sections:
   label: Environment
   create: all
   match: "**/*"
+  templates:
+  - page-basic
 - type: directory
   path: src/pages/health
   label: Health
