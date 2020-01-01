@@ -10,6 +10,8 @@ fields:
 - type: text
   name: currentProject
   label: currentProject
+  hidden: true
+  default: health
 - type: text
   name: title
   label: title
