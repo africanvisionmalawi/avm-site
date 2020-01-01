@@ -1,10 +1,13 @@
 ---
 templateKey: page-basic
 title: Disability
-description: e have found over the years that people with disabilities are the most poverty stricken and often outcast from their community. They are often viewed as being possessed with an evil spirit and people think if you touch them, that evil spirit will come on to you and your family.
-headerImage: /img/chemex.jpg
----
+description: We have found over the years that people with disabilities are the most
+  poverty stricken and often outcast from their community. They are often viewed as
+  being possessed with an evil spirit and people think if you touch them, that evil
+  spirit will come on to you and your family.
+headerImage: "/img/chemex.jpg"
 
+---
 We have found over the years that people with disabilities are the most poverty stricken and often outcast from their community. They are often viewed as being possessed with an evil spirit and people think if you touch them, that evil spirit will come on to you and your family. In 2012 we set up our Disability Register of which we now have over 300 beneficiaries.
 
 One of the groups we work with closely is 500 Miles, who support the development and delivery of prosthetic and orthotic services. We facilitate regular visits of 500 Miles doctors to hold clinics in the area centres which we serve, we organise check up visits and we transport patients to Kamuzu Central Hospital, Lilongwe when needed.
