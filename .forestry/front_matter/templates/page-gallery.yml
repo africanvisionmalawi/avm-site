@@ -1,0 +1,23 @@
+---
+label: page-gallery
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: field_group_list
+  name: gallery
+  label: gallery
+  fields:
+  - type: text
+    name: alt
+    label: alt
+  - type: file
+    name: photo
+    label: photo
