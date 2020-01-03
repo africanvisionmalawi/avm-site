@@ -24,9 +24,15 @@ fields:
 - type: file
   name: heroImage
   label: heroImage
-- type: text
-  name: heroMsg
-  label: heroMsg
+- name: heroMsg
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hero Message
 - type: field_group_list
   name: gallery
   label: gallery
