@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Biogas
-description: We are planning to build and run a biogas disgester at Sam’s Village, as part of our commitment to sustainability in Malawi.
-headerImage: /img/chemex.jpg
----
+description: We are planning to build and run a biogas disgester at Sam’s Village,
+  as part of our commitment to sustainability in Malawi.
+headerImage: "/img/chemex.jpg"
 
+---
 We are planning to build and run a biogas disgester at Sam’s Village, as part of our commitment to sustainability in Malawi.
 
 With the forthcoming influx of students to Sam’s Village for our Training Programme, we need a more sustainable way to feed them, rather than cooking on firewood. Using so much firewood would only contribute to the severe deforestation in our area.
