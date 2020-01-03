@@ -1,7 +1,9 @@
 ---
 templateKey: page-basic
 title: Permaculture
-headerImage: /img/chemex.jpg
+headerImage: "/img/chemex.jpg"
+description: African Vision Malawi
+
 ---
 Sam’s Village is set in and surrounded by permaculture gardens.
 
