@@ -1,7 +1,9 @@
 ---
 templateKey: page-basic
 title: Library
-headerImage: /img/chemex.jpg
+headerImage: "/img/chemex.jpg"
+description: African Vision Malawi
+
 ---
 The Community Library at Sam’s Village in Lilongwe rural North-West, was officially opened to the public on 1st February 2017. This means that the communities around the 400 km2 of Traditional Authorities M’bang’ombe, Mtema, Chitukula, Kayembe (Dowa district) and Mkukula (Dowa district) can fully access diverse books for their knowledge and personal development. More information about the opening event [here](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2015/11/REPORT-ON-OPENING-LIBRARY-010217.pdf)
 
