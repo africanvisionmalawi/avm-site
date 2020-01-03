@@ -1,0 +1,61 @@
+---
+label: featured-project
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: currentProject
+  label: currentProject
+- type: number
+  name: columns
+  label: columns
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: heroImage
+  label: heroImage
+- type: text
+  name: heroMsg
+  label: heroMsg
+- type: field_group_list
+  name: videos
+  label: videos
+  fields:
+  - type: text
+    name: videourl
+    label: videourl
+  - type: text
+    name: videotext
+    label: videotext
+- type: field_group_list
+  name: gallery
+  label: gallery
+  fields:
+  - type: text
+    name: alt
+    label: alt
+  - type: file
+    name: photo
+    label: photo
+- type: field_group_list
+  name: links
+  label: links
+  fields:
+  - type: text
+    name: linkTitle
+    label: linkTitle
+  - type: textarea
+    name: linkText
+    label: linkText
+  - type: file
+    name: photo
+    label: photo
+  - type: text
+    name: url
+    label: url
