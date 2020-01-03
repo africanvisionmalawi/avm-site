@@ -1,15 +1,17 @@
 ---
-templateKey: page-basic
+templateKey: page-gallery
 title: Maternity unit
-description: Gandys ‘Orphans for Orphans’ has funded the building of a pre-school at Funsani, Lumbadzi Centre. This has been much needed and the community have been asking for support for the last three years.
-headerImage: /img/chemex.jpg
+description: Gandys ‘Orphans for Orphans’ has funded the building of a pre-school
+  at Funsani, Lumbadzi Centre. This has been much needed and the community have been
+  asking for support for the last three years.
+headerImage: "/img/chemex.jpg"
 gallery:
-  - alt: Kitchen photo
-    photo: /img/chemex.jpg
-  - alt: Office photo
-    photo: /img/jumbotron.jpg
----
+- alt: Kitchen photo
+  photo: "/img/chemex.jpg"
+- alt: Office photo
+  photo: "/img/jumbotron.jpg"
 
+---
 The opening of the Maternity Unit in M’bang’ombe was held on 12th November 2013 and was attended by Dorothy Ngoma, who is the President’s Advisor on Safe Motherhood. Amazingly the first baby was born in the unit that very day! This 10 bed unit is the first in our area to have lighting and internal running water via a solar pump.
 Maternity Unit
 
