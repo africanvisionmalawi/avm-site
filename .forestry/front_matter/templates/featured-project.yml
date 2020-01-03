@@ -63,3 +63,5 @@ fields:
   - type: text
     name: url
     label: url
+pages:
+- src/pages/projects/sams-village/index.md
