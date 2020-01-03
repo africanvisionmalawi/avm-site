@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Rammed earth building
-description: We build in rammed earth because it is a sustainable and affordable way of building.
-headerImage: /img/chemex.jpg
----
+description: We build in rammed earth because it is a sustainable and affordable way
+  of building.
+headerImage: "/img/chemex.jpg"
 
+---
 We build in rammed earth because it is a sustainable and affordable way of building. It is an alternative to brick buildings (firing bricks uses firewood and contributes to deforestation) and an alternative to building from concrete (making cement causes lots of environmental damage).
 
 We have built and are building many buildings from rammed earth at Sam’s Training Village and are now building an office for African Vision Malawi in Njewa, a suburb of Lilongwe. Njewa is also a demonstration site for the benefit of people who cannot travel from Lilongwe to Sam’s Village.
