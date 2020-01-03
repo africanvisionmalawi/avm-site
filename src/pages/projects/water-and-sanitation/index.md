@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Water and sanitation
-description: We have initiated a safe water program and intend to ensure that everyone in our area (around 45,000 people) has access to clean, safe water.
-headerImage: /img/chemex.jpg
----
+description: We have initiated a safe water program and intend to ensure that everyone
+  in our area (around 45,000 people) has access to clean, safe water.
+headerImage: "/img/chemex.jpg"
 
+---
 45,000 people in our area need clean, safe water.
 
 We have initiated a safe water program and intend to ensure that everyone in our area (around 45,000 people) has access to clean, safe water.
