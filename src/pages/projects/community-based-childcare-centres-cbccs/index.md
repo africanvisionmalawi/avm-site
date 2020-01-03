@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Community Based Childcare Centres (CBCCs)
-description: African Vision Malawi runs 9 Community Based Childcare Centres (CBCCs) across our area.  In the UK they would be called pre-schools.
-headerImage: /img/chemex.jpg
----
+description: African Vision Malawi runs 9 Community Based Childcare Centres (CBCCs)
+  across our area.  In the UK they would be called pre-schools.
+headerImage: "/img/chemex.jpg"
 
+---
 African Vision Malawi runs 9 Community Based Childcare Centres (CBCCs) across our area. In the UK they would be called pre-schools.
 
 They are located in Chipasula, Chiweza II, Kafutwe, Masiye, Mkhambwe, Mlumbwira, Mngwizi, M’teza and Namanyanga.
