@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Bicycle Ambulances
-description: This project helps to ensure that people can get to a health service.  In our area of support there is a huge issue with lack of transport to hospital/clinics.
-headerImage: /img/chemex.jpg
----
+description: This project helps to ensure that people can get to a health service.  In
+  our area of support there is a huge issue with lack of transport to hospital/clinics.
+headerImage: "/img/chemex.jpg"
 
+---
 This project helps to ensure that people can get to a health service. In our area of support there is a huge issue with lack of transport to hospital/clinics.
 
 There are two small Health Centres in our area and they serve a catchment area of 45,000 people!
