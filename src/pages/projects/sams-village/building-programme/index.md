@@ -2,9 +2,9 @@
 templateKey: page-basic
 title: Building programme
 description: The building programme at Sam’s Village is now almost finished.
-headerImage: /img/chemex.jpg
----
+headerImage: "/img/chemex.jpg"
 
+---
 The building programme at Sam’s Village is now almost finished.
 
 The Library, Kitchen/Restaurant, Guardhouse, Site Manager’s house, Roundhouse, Community Based Childcare Centre and compost toilets have all been completed.
