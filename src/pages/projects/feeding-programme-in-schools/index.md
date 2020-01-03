@@ -1,10 +1,12 @@
 ---
 templateKey: page-basic
 title: Feeding programme in schools
-description: The under 5’s are the most vulnerable group in our area.  Providing a nutritional meal at our pre-schools not only encourages the children to come to school, it helps them learn more effectively.
-headerImage: /img/chemex.jpg
----
+description: The under 5’s are the most vulnerable group in our area.  Providing a
+  nutritional meal at our pre-schools not only encourages the children to come to
+  school, it helps them learn more effectively.
+headerImage: "/img/chemex.jpg"
 
+---
 We have set up 9 feeding centres in our area at our Community Based Children Centres (CBCCs).
 
 The under 5’s are the most vulnerable group in our area. Providing a nutritional meal at our pre-schools not only encourages the children to come to school, it helps them learn more effectively. Their bodies are stronger to fight any infections and diseases and their bodies are not stunted, as many are in our area, due to poor nutrition.
