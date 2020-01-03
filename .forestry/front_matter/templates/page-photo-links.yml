@@ -13,6 +13,8 @@ fields:
 - type: number
   name: columns
   label: columns
+  hidden: true
+  default: '1'
 - type: text
   name: title
   label: title
