@@ -54,6 +54,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: src/pages/projects
+  label: Projects
+  create: all
+  match: "**/*"
+- type: directory
   path: src/pages/water
   label: Water
   create: all
