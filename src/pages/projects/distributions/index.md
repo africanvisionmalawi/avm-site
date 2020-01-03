@@ -1,10 +1,12 @@
 ---
 templateKey: page-basic
 title: Distributions
-description: Our projects in general are focussed on building up a more self-sufficient community, for example through our training village, Sam’s Village, and in time we will be able to reduce the distributions.
-headerImage: /img/chemex.jpg
----
+description: Our projects in general are focussed on building up a more self-sufficient
+  community, for example through our training village, Sam’s Village, and in time
+  we will be able to reduce the distributions.
+headerImage: "/img/chemex.jpg"
 
+---
 Distributions are part of our work, and are vital to the orphans who have nothing. Our projects in general are focussed on building up a more self-sufficient community, for example through our training village, Sam’s Village, and in time we will be able to reduce the distributions.
 
 We do regular distributions throughout our area, often of food, mosquito nets, sleeping mats, clothes and toys.
