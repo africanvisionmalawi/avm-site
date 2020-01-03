@@ -1,10 +1,11 @@
 ---
 templateKey: page-basic
 title: Project4Africa
-description: Project4Africa is a group who raise funds to help various projects in Africa.
-headerImage: /img/chemex.jpg
----
+description: Project4Africa is a group who raise funds to help various projects in
+  Africa.
+headerImage: "/img/chemex.jpg"
 
+---
 Project4Africa is a group who raise funds to help various projects in Africa. Over the years – since 2009 – we have worked with them on a number of projects.
 
 Projects carried out together include:
