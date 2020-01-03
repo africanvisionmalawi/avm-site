@@ -52,4 +52,5 @@ fields:
     name: url
     label: url
 pages:
+- src/pages/education/index.md
 - src/pages/environment/index.md

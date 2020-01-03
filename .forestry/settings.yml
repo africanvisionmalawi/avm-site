@@ -36,7 +36,6 @@ sections:
 - type: document
   path: src/pages/education/index.md
   label: Education
-  match: "**/*"
 - type: directory
   path: src/pages/environment
   label: Environment
