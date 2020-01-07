@@ -63,6 +63,10 @@ sections:
   label: Water
   create: all
   match: "**/*"
+- type: document
+  path: src/pages/why-malawi/index.md
+  label: Why Malawi?
+  match: "**/*"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
