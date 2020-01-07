@@ -36,7 +36,6 @@ sections:
 - type: document
   path: src/pages/celebrate-and-give/index.md
   label: Celebrate and Give
-  match: "**/*"
 - type: document
   path: src/pages/education/index.md
   label: Education

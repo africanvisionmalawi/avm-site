@@ -1,27 +1,27 @@
 ---
 templateKey: featured-project-simple
 currentProject: celebrate
-columns: 2
+columns: 1
 title: Celebrate & Give
 description: Ways in which you can donate through gifts
-heroImage: /img/mainphoto_celebrate.jpg
-heroMsg: null
+heroImage: "/img/mainphoto_celebrate.jpg"
+heroMsg: ''
 gallery:
-  - photo: /img/chemex.jpg
-    alt: Kitchen photo
-  - photo: /img/jumbotron.jpg
-    alt: Office photo
+- photo: "/img/chemex.jpg"
+  alt: Kitchen photo
+- photo: "/img/jumbotron.jpg"
+  alt: Office photo
 links:
-  - linkText: and some link text goes here
-    linkTitle: This is a link
-    photo: /img/jumbotron.jpg
-    url: /about-us/
-  - linkText: and some more link text goes here
-    linkTitle: This is another link
-    photo: /img/jumbotron.jpg
-    url: /about-us/
----
+- linkText: and some link text goes here
+  linkTitle: This is a link
+  photo: "/img/jumbotron.jpg"
+  url: "/about-us/"
+- linkText: and some more link text goes here
+  linkTitle: This is another link
+  photo: "/img/jumbotron.jpg"
+  url: "/about-us/"
 
+---
 Most fundraising comes from personal donations.
 
 The four most common are:
