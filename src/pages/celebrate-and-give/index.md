@@ -26,10 +26,10 @@ Most fundraising comes from personal donations.
 
 The four most common are:
 
-- leaving a legacy
-- pledging gifts from an anniversary or event
-- pledging your birthday
-- regular monthly donations by standing order
+* leaving a legacy
+* pledging gifts from an anniversary or event
+* pledging your birthday
+* regular monthly donations by standing order
 
 Please consider one or more of those as it’s so easy to help:
 
@@ -37,7 +37,7 @@ Please consider one or more of those as it’s so easy to help:
 
 Many people die without leaving a will, and many people wish that their money could go to a good cause. At that difficult time, when you do have to write your will, please remember us.
 
-If you would like to find out more about leaving a legacy, please give us a call on 020 8287 8169 for a no-strings-attached chat. Or you may prefer to send us an email at info@africanvision.org.uk
+If you would like to find out more about leaving a legacy, please give us a call on 020 8287 8169 for a no-strings-attached chat. Or you may prefer to send us an email at [info@africanvision.org.uk](mailto:info@africanvision.org.uk "email us")
 
 You can also find useful information on leaving a gift in your will here and request more information here.
 
