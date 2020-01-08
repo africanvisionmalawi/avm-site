@@ -136,6 +136,24 @@
   margin-top: 30px;
   width: 100%;
 }
+.fileDownload {
+  align-items: center;
+  background: #f2f2f2; /*#e7ebf1 */
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  max-width: 300px;
+  padding: 8px;
+}
+.pdfDownload {
+  display: inline-block;
+  fill: #58b5d7;
+  height: 40px;
+  margin: 0 8px;
+  width: auto;
+}
 
 @media only screen and (min-width: 640px) {
   .list__item {
