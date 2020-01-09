@@ -4,17 +4,15 @@ title: Kafutwe Food Mill
 description: About our food mill at Kafutwe
 headerImage: "/img/chemex.jpg"
 gallery:
-- alt: Kafutwe chiefs maize mill meeting
-  photo: "/img/Kafutwe-chiefs-maize-mill-meeting.jpg"
-- alt: "(th Dec update"
-  photo: "/img/9-Dec-update.jpg"
-- alt: Food Mill update
-  photo: "/img/IMG_9479.jpg"
-- alt: Food Mill update
-  photo: "/img/IMG_9478.jpg"
-
----
-We are building a Food Mill at Kafutwe.
+  - alt: Kafutwe chiefs maize mill meeting
+    photo: "/img/Kafutwe-chiefs-maize-mill-meeting.jpg"
+  - alt: "9th Dec update"
+    photo: "/img/9-Dec-update.jpg"
+  - alt: Food Mill update
+    photo: "/img/IMG_9479.jpg"
+  - alt: Food Mill update
+    photo: "/img/IMG_9478.jpg"
+---We are building a Food Mill at Kafutwe.
 
 The mill can be used to grind millet, sorghum and legumes, as well as maize.
 
