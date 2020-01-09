@@ -12,7 +12,9 @@ gallery:
     photo: "/img/IMG_9479.jpg"
   - alt: Food Mill update
     photo: "/img/IMG_9478.jpg"
----We are building a Food Mill at Kafutwe.
+---
+
+We are building a Food Mill at Kafutwe.
 
 The mill can be used to grind millet, sorghum and legumes, as well as maize.
 
