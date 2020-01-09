@@ -2,8 +2,14 @@
   background: #f2f2f2 url("/img/common/body-back-grey.png") repeat-x 0 0;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   justify-content: flex-start;
+}
+.container__top {
+  flex: 1 0 auto;
+}
+.container__lower {
+  flex-shrink: 0;
 }
 body {
   font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

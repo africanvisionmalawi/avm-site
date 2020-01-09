@@ -6,6 +6,7 @@ import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import layoutStyles from "./layout.module.css";
+// import styled from "styled-components";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -50,9 +51,13 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
-      <div className="main-body">{children}</div>
-      <Footer />
+      <div className={layoutStyles.container__top}>
+        <Navbar />
+        <div className="main-body">{children}</div>
+      </div>
+      <div className={layoutStyles.container__lower}>
+        <Footer />
+      </div>
     </div>
   );
 };
