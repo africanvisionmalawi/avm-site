@@ -14,12 +14,13 @@ import homepageStyles from "../components/homepage.module.css";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
+const HomepageMain = styled.section`
+  background: #fff;
+  padding: 3rem 1.5rem;
+`;
+
 export default class IndexPage extends React.Component {
   render() {
-    const HomepageMain = styled.section`
-      background: #fff;
-      padding: 3rem 1.5rem;
-    `;
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     const { edges: events } = data.eventsPosts;
