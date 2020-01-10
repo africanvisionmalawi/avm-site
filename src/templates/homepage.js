@@ -16,7 +16,8 @@ import styled from "styled-components";
 
 const HomepageMain = styled.section`
   background: #fff;
-  padding: 3rem 1.5rem;
+  margin-top: 3rem;
+  padding: 0 1.5rem 3rem;
 `;
 
 export default class IndexPage extends React.Component {
