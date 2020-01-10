@@ -12,9 +12,14 @@ import EventsRollCol from "../components/EventsRollCol";
 import postStyles from "../components/posts.module.css";
 import homepageStyles from "../components/homepage.module.css";
 import { Link } from "gatsby";
+import styled from "styled-components";
 
 export default class IndexPage extends React.Component {
   render() {
+    const HomepageMain = styled.section`
+      background: #fff;
+      padding: 3rem 1.5rem;
+    `;
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     const { edges: events } = data.eventsPosts;
@@ -25,7 +30,7 @@ export default class IndexPage extends React.Component {
     const promoVideo = "https://www.youtube.com/watch?v=ghHoDBf9z2c";
     return (
       <Layout>
-        <section className="section">
+        <HomepageMain>
           <div className="container">
             <section>
               <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
@@ -114,7 +119,7 @@ export default class IndexPage extends React.Component {
               </div>
             </section>
           </div>
-        </section>
+        </HomepageMain>
       </Layout>
     );
   }
