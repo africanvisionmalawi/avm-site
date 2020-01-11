@@ -1,48 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
+import FooterForm from "./FooterForm";
 import footerStyles from "./footer.module.css";
 
 const Footer = () => (
   <footer className={footerStyles.footer} role="contentinfo">
     <div className="container">
-      <div className="columns">
-        <div className="column is-half is-centered">
-          <h3>Join our Mailing List</h3>
-
-          <form
-            action="https://landirani.createsend.com/t/y/s/jdhiii/"
-            method="post"
-            id="subForm"
-            className="form-inline"
-          >
-            <div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  name="cm-name"
-                  id="name"
-                  placeholder="Name"
-                  required
-                  className="form-control"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  id="fieldEmail"
-                  placeholder="Email"
-                  required
-                  className="form-control"
-                />
-
-                <button className="btn btn-primary" type="submit">
-                  Join list
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-
+      <FooterForm />
       <nav role="navigation">
         <div className="columns is-centered">
           <div className="nav column">
