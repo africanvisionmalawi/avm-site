@@ -12,6 +12,7 @@ function encode(data) {
 
 const FormGroup = styled.div`
   display: flex;
+  flex-wrap: wrap;
   margin: 8px 0 2em;
 `;
 
