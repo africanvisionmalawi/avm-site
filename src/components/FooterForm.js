@@ -40,14 +40,7 @@ const Button = styled.button`
   }
 `;
 
-export const MailingForm = ({
-  productId,
-  name,
-  price,
-  description,
-  image,
-  url
-}) => {
+export const MailingForm = ({}) => {
   const [state, setState] = React.useState({});
 
   const handleChange = e => {
