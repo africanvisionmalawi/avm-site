@@ -24,6 +24,7 @@ fields:
     name: photo
     label: photo
 pages:
+- src/pages/environment/groundnut-farming/index.md
 - src/pages/environment/kafutwe-food-mill/index.md
 - src/pages/projects/funsani-rammed-earth-community-based-childcare-centre-cbcc/index.md
 - src/pages/projects/maternity-unit/index.md
