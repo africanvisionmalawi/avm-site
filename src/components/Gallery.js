@@ -43,6 +43,9 @@ class Gallery extends Component {
               })
             }
             key={v4()}
+            onKeyPress={this.handleKeyPress}
+            role="button"
+            tabIndex={0}
           >
             <figure className="image">
               <PreviewCompatibleImage imageInfo={gall.photo} />

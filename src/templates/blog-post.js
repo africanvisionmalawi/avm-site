@@ -17,12 +17,11 @@ export const BlogPostTemplate = ({
   pdf_upload
 }) => {
   const PostContent = contentComponent || Content;
+  var pdfUrl = "";
+  var pdfName = "";
   if (pdf_upload !== null && pdf_upload !== "") {
-    var pdfUrl = pdf_upload.replace("../../../static", "");
-    var pdfName = pdf_upload.replace("../../../static/img/", "");
-  } else {
-    var pdfUrl = "";
-    var pdfName = "";
+    pdfUrl = pdf_upload.replace("../../../static", "");
+    pdfName = pdf_upload.replace("../../../static/img/", "");
   }
 
   return (
