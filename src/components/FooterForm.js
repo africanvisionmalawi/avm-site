@@ -40,7 +40,7 @@ const Button = styled.button`
   }
 `;
 
-export const MailingForm = ({}) => {
+export const MailingForm = () => {
   const [state, setState] = React.useState({});
 
   const handleChange = e => {
