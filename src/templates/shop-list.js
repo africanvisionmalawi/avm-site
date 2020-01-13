@@ -1,9 +1,8 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Img from "gatsby-image";
-import shopStyles from "../components/shop.module.css";
-
 import Layout from "../components/Layout";
+import shopStyles from "../components/shop.module.css";
 
 const ShopIndex = ({ data }) => (
   <Layout>
