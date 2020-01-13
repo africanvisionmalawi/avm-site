@@ -48,5 +48,3 @@ links:
 
 ---
 Environment content goes here.
-
-![](https://res.cloudinary.com/african-vision-malawi/image/upload/v1551472964/sample.jpg)
