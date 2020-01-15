@@ -4,6 +4,7 @@ import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
+import Seo from "../components/seo";
 import Content, { HTMLContent } from "../components/Content";
 import postStyles from "../components/posts.module.css";
 
@@ -84,6 +85,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
+      <Seo post={post.frontmatter} />
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}

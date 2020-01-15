@@ -31,3 +31,7 @@
   top: -30px;
   width: auto;
 }
+.leftRightCont {
+  display: flex;
+  justify-content: space-between;
+}
