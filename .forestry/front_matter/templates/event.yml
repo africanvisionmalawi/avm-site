@@ -54,5 +54,8 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: published
+  type: boolean
+  label: Published
 pages:
 - src/pages/events/positive-change-exhibition-jan-2020.md
