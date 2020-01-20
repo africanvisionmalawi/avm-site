@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 title: Ahu’s Pilgrimage on the Route to Santiago 29th September
 photo: /img/ahu-pilgrimage-2019.jpeg
 date: 2019-09-23T21:18:07.186Z

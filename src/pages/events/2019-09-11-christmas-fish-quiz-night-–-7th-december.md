@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 title: Christmas Fish & Quiz night – 7th December
 photo: /img/fish.jpg
 date: 2019-12-07T18:30:07.611Z

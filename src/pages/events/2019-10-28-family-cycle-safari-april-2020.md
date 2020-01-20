@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 title: Family Cycle Safari April 2020
 photo: /img/family-cycle-safari-1.jpg
 date: 2020-04-06T13:05:53.407Z

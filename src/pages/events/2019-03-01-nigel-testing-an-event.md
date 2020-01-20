@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 layout: post
 title: Nigel testing an event
 photo: /img/shop/build-a-well-1.jpg

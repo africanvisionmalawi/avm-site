@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 title: Pedal Power Malawi – May 2020
 photo: "/img/img_2438-medium.jpg"
 date: 2020-05-18T13:00:43.545+00:00

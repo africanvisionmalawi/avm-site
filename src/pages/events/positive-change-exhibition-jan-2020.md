@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 title: Positive Change Exhibition Jan 2020
 photo: "/img/Positive-Change-Exhibition-invite-2-1536x822.jpg"
 date: 2020-01-07T19:00:00Z

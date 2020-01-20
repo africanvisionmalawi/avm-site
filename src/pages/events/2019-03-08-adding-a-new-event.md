@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 layout: post
 title: adding a new event
 photo: /img/shop/build-a-well-1.jpg

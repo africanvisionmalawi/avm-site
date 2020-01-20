@@ -1,5 +1,6 @@
 ---
 templateKey: events-post
+published: true
 layout: post
 title: Pedal Power Malawi 2019
 photo: /img/img_5263.jpg
