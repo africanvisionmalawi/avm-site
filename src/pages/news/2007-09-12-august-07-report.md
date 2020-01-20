@@ -1,6 +1,7 @@
 ---
 layout: post
 templateKey: blog-post
+published: true
 featuredImage: /img/blog/default-image.jpg
 title: "August '07 Report"
 published: true

@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+published: true
 featuredImage: /img/indulgence-day-2019.jpg
 title: Summer Indulgence Day 2019
 date: 2019-05-14T20:53:18.493Z

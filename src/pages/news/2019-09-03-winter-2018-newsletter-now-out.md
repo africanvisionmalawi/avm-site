@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+published: true
 featuredImage: "/img/avm-newsletter-december-2018_page_1.jpg"
 title: Winter 2018 Newsletter now out!
 date: 2018-11-30T21:48:16Z

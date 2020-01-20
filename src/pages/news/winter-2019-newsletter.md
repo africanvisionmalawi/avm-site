@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+published: true
 featuredImage: ''
 title: Winter 2019 Newsletter
 date: 2019-12-11T00:00:00Z

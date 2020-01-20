@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+published: true
 featuredImage: /img/p1070981-1.jpg
 title: Sam's Village 2019 Appeal - Matched Funding is back!
 date: 2018-11-21T21:47:21.643Z

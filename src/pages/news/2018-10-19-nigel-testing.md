@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+published: true
 featuredImage: /img/blog/default-image.jpg
 title: Nigel testing
 date: 2018-10-18T22:01:49.190Z
