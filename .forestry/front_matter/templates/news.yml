@@ -2,6 +2,10 @@
 label: news
 hide_body: false
 fields:
+- name: published
+  type: boolean
+  label: Published
+  default: false
 - type: text
   name: templateKey
   label: templateKey
