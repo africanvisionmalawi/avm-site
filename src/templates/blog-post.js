@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
-import Helmet from "react-helmet";
+// import Helmet from "react-helmet";
+import useSiteMetadata from "../hooks/use-site-metadata";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
@@ -14,7 +15,6 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  helmet,
   pdf_upload
 }) => {
   const PostContent = contentComponent || Content;
@@ -27,7 +27,6 @@ export const BlogPostTemplate = ({
 
   return (
     <section className="section">
-      {helmet || ""}
       <div className="container content">
         <div className="columns">
           <div
@@ -76,29 +75,24 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object,
   pdf_upload: PropTypes.string
 };
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-
+  const { siteUrl } = useSiteMetadata();
   return (
     <Layout>
-      <Seo post={post.frontmatter} />
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={true}
+      />
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         pdf_upload={post.frontmatter.pdf_upload}
@@ -120,6 +114,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title

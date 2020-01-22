@@ -1,56 +1,65 @@
 import React from "react";
-import Helmet from "react-helmet";
-import { useStaticQuery, graphql } from "gatsby";
+import { Helmet } from "react-helmet";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
 
-const SEO = ({ post }) => {
-  const data = useStaticQuery(graphql`
-    {
-      site {
-        siteMetadata {
-          title
-          description
-          siteUrl
-        }
+const SEO = ({ title, description, pathname, article }) => (
+  <StaticQuery
+    query={query}
+    render={({
+      site: {
+        siteMetadata: { defaultTitle, defaultDescription, siteUrl }
       }
-    }
-  `);
+    }) => {
+      const seo = {
+        title: title || defaultTitle,
+        description: description || defaultDescription,
+        url: `${siteUrl}${pathname || "/"}`
+      };
 
-  const defaults = data.site.siteMetadata;
-
-  if (defaults.siteUrl === "" && typeof window !== "undefined") {
-    defaults.siteUrl = window.location.origin;
-  }
-
-  if (defaults.siteUrl === "") {
-    console.error("Please set a siteUrl in your site metadata!");
-    return null;
-  }
-
-  const title = post.title || defaults.title;
-  const description = post.description || defaults.description;
-  const url = new URL(post.path || "", defaults.siteUrl);
-  const image = post.image ? new URL(post.image, defaults.siteUrl) : false;
-
-  return (
-    <Helmet>
-      <title>{title}</title>
-      <link rel="canonical" href={url} />
-      <meta name="description" content={description} />
-      {image && <meta name="image" content={image} />}
-
-      <meta property="og:url" content={url} />
-      <meta property="og:type" content="article" />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      {image && <meta property="og:image" content={image} />}
-
-      <meta name="twitter:card" content="summary_large_image" />
-      {/* <meta name="twitter:creator" content={post.author.twitter} /> */}
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      {image && <meta name="twitter:image" content={image} />}
-    </Helmet>
-  );
-};
+      return (
+        <>
+          <Helmet title={seo.title}>
+            <meta name="description" content={seo.description} />
+            {seo.url && <meta property="og:url" content={seo.url} />}
+            {(article ? true : null) && (
+              <meta property="og:type" content="article" />
+            )}
+            {seo.title && <meta property="og:title" content={seo.title} />}
+            {seo.description && (
+              <meta property="og:description" content={seo.description} />
+            )}
+          </Helmet>
+        </>
+      );
+    }}
+  />
+);
 
 export default SEO;
+
+SEO.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  pathname: PropTypes.string,
+  article: PropTypes.bool
+};
+
+SEO.defaultProps = {
+  title: null,
+  description: null,
+  pathname: null,
+  article: false
+};
+
+const query = graphql`
+  query SEO {
+    site {
+      siteMetadata {
+        defaultTitle: title
+        defaultDescription: description
+        siteUrl: siteUrl
+      }
+    }
+  }
+`;

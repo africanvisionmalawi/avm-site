@@ -1,9 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Helmet from "react-helmet";
+import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Seo from "../components/seo";
 import FeaturedProjects from "../components/FeaturedProjects";
 import CtaButton from "../components/CtaButton";
 import pageBasicStyles from "../components/pageBasic.module.css";
@@ -13,13 +14,14 @@ export const PageBasicTemplate = ({
   description,
   content,
   contentComponent,
-  helmet
+  pageContext
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <section className="section section--gradient">
-      {helmet || ""}
+      {/* {helmet || ""} */}
+
       <div className="container">
         <div className="columns">
           <div className="column is-14 is-offset-1">
@@ -54,28 +56,27 @@ PageBasicTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
+  pageContext: PropTypes.object
 };
 
-const PageBasic = ({ data }) => {
+const PageBasic = ({ data, pathContext }) => {
   const { markdownRemark: post } = data;
+  const { siteUrl } = useSiteMetadata();
 
   return (
     <Layout>
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={false}
+      />
       <PageBasicTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | African Vision Malawi">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
       />
     </Layout>
   );
@@ -91,6 +92,9 @@ export const pageBasicQuery = graphql`
   query PageBasic($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         description

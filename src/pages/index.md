@@ -1,11 +1,12 @@
 ---
 templateKey: homepage
-metaTitle: Welcome to African Vision Malawi, the new name for the Landirani Trust
-metaDescription: Since 2005 African Vision Malawi has been helping children and vulnerable
+title: Welcome to African Vision Malawi, the new name for the Landirani Trust
+description:
+  Since 2005 African Vision Malawi has been helping children and vulnerable
   people in Malawi, one of the poorest countries in the world. Our vision is to see
   a healthy, educated and self-sufficient community in Malawi.
-
 ---
+
 If Winter weather is getting you down, have a look at our 2 bike rides in the warmth of Malawi. One for families, one without .. take your pick.
 
 More about our our Upcoming Events [here ...](/events/ "View events")

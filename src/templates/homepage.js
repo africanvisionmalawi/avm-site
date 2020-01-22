@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+// import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
+import Seo from "../components/seo";
 import FeaturedProjects from "../components/FeaturedProjects";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
@@ -26,12 +28,21 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
     const { edges: events } = data.eventsPosts;
     const { edges: homeContent } = data.homePage;
+    const { edges: homeMeta } = data.homePage;
     const heroImage = this.props.data.heroImage;
     const heroMsg =
       "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
     const promoVideo = "https://www.youtube.com/watch?v=ghHoDBf9z2c";
+    // const { siteUrl } = useSiteMetadata();
+
     return (
       <Layout>
+        <Seo
+          title={homeMeta[0].node.frontmatter.title}
+          description={homeMeta[0].node.frontmatter.description}
+          pathname={"/"}
+          article={false}
+        />
         <HomepageMain>
           <div className="container">
             <section>
@@ -45,7 +56,7 @@ export default class IndexPage extends React.Component {
               </h1>
             </div>
             <section className={homepageStyles.topSection}>
-              <div class="column">
+              <div className="column">
                 <div className={homepageStyles.box}>
                   <h2 className="has-text-weight-bold is-size-3">Our vision</h2>
                   <p>
@@ -158,6 +169,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            description
             templateKey
             date(formatString: "MMMM DD, YYYY")
             featuredImage {
@@ -176,6 +188,10 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            description
+          }
           html
         }
       }
