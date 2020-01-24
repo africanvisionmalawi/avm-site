@@ -19,5 +19,12 @@ fields:
     people in Malawi, one of the poorest countries in the world. Our vision is to
     see a healthy, educated and self-sufficient community in Malawi.
   hidden: true
+- name: promoVideo
+  type: text
+  config:
+    required: true
+  label: Promotional Video
+  description: enter the full Vimeo or Youtube url here
 pages:
+- src/pages/index.md
 - src/pages/index.md
