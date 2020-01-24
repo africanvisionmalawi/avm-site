@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
+import useSiteMetadata from "../hooks/use-site-metadata";
+import Seo from "../components/seo";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 // import Img from "gatsby-image";
@@ -94,9 +96,15 @@ EventsPostTemplate.propTypes = {
 
 const EventsPost = ({ data }) => {
   const { markdownRemark: post } = data;
-
+  const { siteUrl } = useSiteMetadata();
   return (
     <Layout>
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={true}
+      />
       <EventsPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -139,6 +147,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         templateKey
         layout

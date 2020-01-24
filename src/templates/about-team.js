@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Seo from "../components/seo";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FeaturedProjects from "../components/FeaturedProjects";
 import CtaButton from "../components/CtaButton";
@@ -84,6 +86,7 @@ export const TeamTemplate = ({
 
 TeamTemplate.propTypes = {
   title: PropTypes.string,
+  description: PropTypes.string,
   malawiTeam: PropTypes.array,
   ukTeam: PropTypes.array,
   malawiTitle: PropTypes.string,
@@ -95,9 +98,16 @@ TeamTemplate.propTypes = {
 
 const TeamPage = ({ data }) => {
   const { markdownRemark: post } = data;
+  const { siteUrl } = useSiteMetadata();
 
   return (
     <Layout>
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={false}
+      />
       <TeamTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -127,8 +137,12 @@ export const TeamPageQuery = graphql`
   query TeamPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
+        description
         malawiTitle
         malawiText
         ukTitle

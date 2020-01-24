@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import useSiteMetadata from "../hooks/use-site-metadata";
 // import { Location } from "@reach/router";
 import Layout from "../components/Layout";
+import Seo from "../components/seo";
 import Content, { HTMLContent } from "../components/Content";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import CtaButton from "../components/CtaButton";
@@ -88,9 +89,15 @@ export const ShopProductTemplate = ({
 
 const ShopProductPage = ({ data }) => {
   const { markdownRemark: post } = data;
-
+  const { siteUrl } = useSiteMetadata();
   return (
     <Layout>
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={true}
+      />
       <ShopProductTemplate
         id={post.id}
         slug={post.fields.slug}
