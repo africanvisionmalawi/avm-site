@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/pages/index.md
-  label: Latest news box
 - type: directory
   path: src/pages/events
   label: Events
@@ -21,6 +18,13 @@ sections:
   match: "**/*"
   templates:
   - news
+- type: document
+  path: src/pages/index.md
+  label: Latest news box
+- type: document
+  path: src/pages/index.md
+  label: Homepage
+  match: "**/*"
 - type: directory
   path: src/pages/shop
   label: Shop
