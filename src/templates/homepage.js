@@ -32,7 +32,7 @@ export default class IndexPage extends React.Component {
     const heroImage = this.props.data.heroImage;
     const heroMsg =
       "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
-    const promoVideo = "https://www.youtube.com/watch?v=ghHoDBf9z2c";
+    const promoVideo = homeContent[0].node.frontmatter.promoVideo;
     // const { siteUrl } = useSiteMetadata();
 
     return (
@@ -191,6 +191,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             description
+            promoVideo
           }
           html
         }

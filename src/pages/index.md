@@ -5,6 +5,7 @@ description:
   Since 2005 African Vision Malawi has been helping children and vulnerable
   people in Malawi, one of the poorest countries in the world. Our vision is to see
   a healthy, educated and self-sufficient community in Malawi.
+promoVideo: https://www.youtube.com/watch?v=ghHoDBf9z2c
 ---
 
 If Winter weather is getting you down, have a look at our 2 bike rides in the warmth of Malawi. One for families, one without .. take your pick.
