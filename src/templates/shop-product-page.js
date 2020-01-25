@@ -96,7 +96,7 @@ const ShopProductPage = ({ data }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description}
         pathname={`${siteUrl}${post.fields.slug}`}
-        article={true}
+        article={false}
       />
       <ShopProductTemplate
         id={post.id}
