@@ -22,6 +22,7 @@ exports.createPages = ({ actions, graphql }) => {
             }
             frontmatter {
               title
+              published
               tags
               templateKey
               date(formatString: "MMMM DD, YYYY")
@@ -42,7 +43,11 @@ exports.createPages = ({ actions, graphql }) => {
     let posts = [];
     // Iterate through each post/page, putting all found posts (where templateKey = article-page) into `posts`
     postsAndPages.forEach(edge => {
-      if (_.isMatch(edge.node.frontmatter, { templateKey: "blog-post" })) {
+      if (
+        _.isMatch(edge.node.frontmatter, {
+          templateKey: "blog-post"
+        })
+      ) {
         posts = posts.concat(edge);
       }
     });

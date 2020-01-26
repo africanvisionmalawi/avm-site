@@ -17,34 +17,38 @@ const EventsCol = ({ events }) => (
         <div className={eventsColStyles.eventsColInner}>
           {dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
             dayjs().format("MMMM DD, YYYY")
-          ) && (
-            <div className={eventsColStyles.card} key={event.fields.slug}>
-              <div className="card-image">
-                <Link to={event.fields.slug}>
-                  <span className={eventsColStyles.cardImage}>
-                    <Img
-                      fixed={event.frontmatter.photo.childImageSharp.fixed}
-                    />
-                  </span>
-                </Link>
-              </div>
-              <div className={eventsColStyles.cardContent}>
-                <div className="content">
-                  <h3>{event.frontmatter.title}</h3>
-                  <p>
-                    <EventDate
-                      date={event.frontmatter.date}
-                      endDate={event.frontmatter.endDate}
-                    />
-                  </p>
-                  <p>{event.excerpt}</p>
-                  <Link to={event.fields.slug} className={eventsColStyles.btn}>
-                    find out more
+          ) &&
+            event.frontmatter.published && (
+              <div className={eventsColStyles.card} key={event.fields.slug}>
+                <div className="card-image">
+                  <Link to={event.fields.slug}>
+                    <span className={eventsColStyles.cardImage}>
+                      <Img
+                        fixed={event.frontmatter.photo.childImageSharp.fixed}
+                      />
+                    </span>
                   </Link>
                 </div>
+                <div className={eventsColStyles.cardContent}>
+                  <div className="content">
+                    <h3>{event.frontmatter.title}</h3>
+                    <p>
+                      <EventDate
+                        date={event.frontmatter.date}
+                        endDate={event.frontmatter.endDate}
+                      />
+                    </p>
+                    <p>{event.excerpt}</p>
+                    <Link
+                      to={event.fields.slug}
+                      className={eventsColStyles.btn}
+                    >
+                      find out more
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
-          )}
+            )}
         </div>
       ))}
   </div>

@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import useSiteMetadata from "../hooks/use-site-metadata";
+import Seo from "../components/seo";
 import Content, { HTMLContent } from "../components/Content";
 import HeroImage from "../components/HeroImage";
 // import Gallery from '../components/Gallery'
@@ -113,9 +115,17 @@ FeaturedProjectsSimpleVidTemplate.propTypes = {
 
 const FeaturedProjectsPageSimpleVid = ({ data }) => {
   const { markdownRemark: post } = data;
+  const { siteUrl } = useSiteMetadata();
+  const { title } = useSiteMetadata();
 
   return (
     <Layout>
+      <Seo
+        title={`${post.frontmatter.title} - ${title}`}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={false}
+      />
       <FeaturedProjectsSimpleVidTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -145,8 +155,12 @@ export const FeaturedProjectsPageSimpleVidQuery = graphql`
   query FeaturedProjectsPageSimpleVid($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
+        description
         heroImage {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 60) {

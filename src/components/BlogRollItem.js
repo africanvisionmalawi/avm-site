@@ -6,26 +6,28 @@ import postStyles from "./posts.module.css";
 
 const BlogItem = ({ post }) => (
   <div className={postStyles.list} key={post.id}>
-    <article className={postStyles.listContent}>
-      <p>
-        <Link
-          className="title has-text-primary is-size-4"
-          to={post.fields.slug}
-        >
-          {post.frontmatter.title}
-        </Link>
-        <span> &bull; </span>
-        <span className={postStyles.date}>{post.frontmatter.date}</span>
-      </p>
-      <p>
-        {post.excerpt}
-        <br />
-        <br />
-        <Link className="button" to={post.fields.slug}>
-          Keep Reading →
-        </Link>
-      </p>
-    </article>
+    {post.frontmatter.published && (
+      <article className={postStyles.listContent}>
+        <p>
+          <Link
+            className="title has-text-primary is-size-4"
+            to={post.fields.slug}
+          >
+            {post.frontmatter.title}
+          </Link>
+          <span> &bull; </span>
+          <span className={postStyles.date}>{post.frontmatter.date}</span>
+        </p>
+        <p>
+          {post.excerpt}
+          <br />
+          <br />
+          <Link className="button" to={post.fields.slug}>
+            Keep Reading →
+          </Link>
+        </p>
+      </article>
+    )}
   </div>
 );
 

@@ -170,6 +170,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             description
+            published
             templateKey
             date(formatString: "MMMM DD, YYYY")
             featuredImage {
@@ -210,6 +211,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            published
             templateKey
             date(formatString: "MMMM DD, YYYY")
             photo {

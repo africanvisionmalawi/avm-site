@@ -10,14 +10,16 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <section className={postStyles.cont}>
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div key={post.fields.slug}>
-              <BlogItem post={post} />
-            </div>
-          ))}
-      </section>
+      posts.frontmatter.published === true && (
+        <section className={postStyles.cont}>
+          {posts &&
+            posts.map(({ node: post }) => (
+              <div key={post.fields.slug}>
+                <BlogItem post={post} />
+              </div>
+            ))}
+        </section>
+      )
     );
   }
 }
@@ -46,6 +48,7 @@ export default () => (
                 slug
               }
               frontmatter {
+                published
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")

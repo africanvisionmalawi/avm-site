@@ -21,6 +21,7 @@ class TagRoute extends React.Component {
       </li>
     ));
     const tag = this.props.pageContext.tag;
+    const tagMetaTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
     const title = this.props.data.site.siteMetadata.title;
     const totalCount = this.props.data.allMarkdownRemark.totalCount;
     const tagHeader = `${totalCount} post${
@@ -30,7 +31,7 @@ class TagRoute extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <Helmet title={`${tag} | ${title}`} />
+          <Helmet title={`${tagMetaTitle} | ${title}`} />
           <div className="container content">
             <div className="columns">
               <div
