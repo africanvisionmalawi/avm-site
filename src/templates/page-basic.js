@@ -63,11 +63,12 @@ PageBasicTemplate.propTypes = {
 const PageBasic = ({ data, pathContext }) => {
   const { markdownRemark: post } = data;
   const { siteUrl } = useSiteMetadata();
+  const { title } = useSiteMetadata();
 
   return (
     <Layout>
       <Seo
-        title={post.frontmatter.title}
+        title={`${post.frontmatter.title} - ${title}`}
         description={post.frontmatter.description}
         pathname={`${siteUrl}${post.fields.slug}`}
         article={false}

@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 import FeaturedProjects from "../components/FeaturedProjects";
 import Gallery from "../components/Gallery";
 import CtaButton from "../components/CtaButton";
@@ -73,9 +75,17 @@ PageGalleryTemplate.propTypes = {
 
 const PageGallery = ({ data }) => {
   const { markdownRemark: post } = data;
+  const { siteUrl } = useSiteMetadata();
+  const { title } = useSiteMetadata();
 
   return (
     <Layout>
+      <Seo
+        title={`${post.frontmatter.title} - ${title}`}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={false}
+      />
       <PageGalleryTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -96,8 +106,12 @@ export const pageBasicQuery = graphql`
   query PageGallery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
+        description
         gallery {
           photo {
             childImageSharp {

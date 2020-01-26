@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 import Content, { HTMLContent } from "../components/Content";
 import FeaturedProjects from "../components/FeaturedProjects";
 import PageLinks from "../components/PageLinks";
@@ -57,9 +59,17 @@ PageTextLinksTemplate.propTypes = {
 
 const PageTextLinks = ({ data }) => {
   const { markdownRemark: post } = data;
+  const { siteUrl } = useSiteMetadata();
+  const { title } = useSiteMetadata();
 
   return (
     <Layout>
+      <Seo
+        title={`${post.frontmatter.title} - ${title}`}
+        description={post.frontmatter.description}
+        pathname={`${siteUrl}${post.fields.slug}`}
+        article={false}
+      />
       <PageTextLinksTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -80,8 +90,12 @@ export const pageBasicQuery = graphql`
   query PageTextLinks($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
+        description
         links {
           linkTitle
           linkText
