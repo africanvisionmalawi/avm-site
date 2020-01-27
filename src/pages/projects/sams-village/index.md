@@ -10,6 +10,8 @@ description: Sam’s Training Village is a self-sustaining training village, bui
 heroImage: "/img/mainphoto_village-ver3.jpg"
 heroMsg: ''
 videos:
+- videourl: https://vimeo.com/385059031
+  videotext: ''
 - videourl: https://www.youtube.com/watch?v=n-n0jU215fQ
   videotext: A brief overview of Sam's Village and our first training course for Tailors
 - videourl: https://vimeo.com/188256678
