@@ -11,11 +11,9 @@ heroImage: "/img/mainphoto_village-ver3.jpg"
 heroMsg: ''
 videos:
 - videourl: https://vimeo.com/385059031
-  videotext: ''
+  videotext: Sam's Village - An update for 2020
 - videourl: https://www.youtube.com/watch?v=n-n0jU215fQ
   videotext: A brief overview of Sam's Village and our first training course for Tailors
-- videourl: https://vimeo.com/188256678
-  videotext: Sam's Village - Drone update Sept 2016 from Sam Palmer on Vimeo.
 - videourl: https://vimeo.com/153218473
   videotext: Sam's Training Village from Sam Palmer on Vimeo.
 gallery:
