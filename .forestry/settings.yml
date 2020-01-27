@@ -20,9 +20,6 @@ sections:
   - news
 - type: document
   path: src/pages/index.md
-  label: Latest news box
-- type: document
-  path: src/pages/index.md
   label: Homepage
 - type: directory
   path: src/pages/shop

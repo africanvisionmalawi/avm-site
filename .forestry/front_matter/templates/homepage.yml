@@ -34,4 +34,3 @@ fields:
   description: enter the full Vimeo or Youtube url here
 pages:
 - src/pages/index.md
-- src/pages/index.md
