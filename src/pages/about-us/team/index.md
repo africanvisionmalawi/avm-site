@@ -4,6 +4,18 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
+  photo: "/img/Kondwani-permaculture-small-150x150.jpg"
+  name: Kondwani Galanga
+  role: Permaculture Officer
+- order: 
+  photo: "/img/Bokela-for-website-150x150.jpg"
+  name: Bokela Gunda
+  role: Sam's Village Site Support
+- order: 
+  photo: "/img/Chikondi-for-website-150x150.jpg"
+  name: Chikondi Kanambo
+  role: Reception and Admin Officer
+- order: 
   photo: "/img/Ireen-for-website-150x150.jpg"
   name: Ireen Mwale
   role: Assistant Librarian
