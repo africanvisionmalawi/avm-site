@@ -131,22 +131,6 @@ malawiTeam:
   photo: "/img/Takondwa-150x150.jpg"
   name: Takondwa
   role: Sam's Village Guard Dog
-- order: 1
-  photo: "/img/team/Alinafe-4-150x150.jpg"
-  name: Alinafe Kasiya
-  role: Trustee
-- order: 3
-  photo: "/img/team/Duncan-photo-150x150.jpg"
-  name: Duncan Chiyani
-  role: Country Manager
-- order: 5
-  photo: "/img/team/Jeruzye-150x150.jpg"
-  name: Jeruzye Munthali
-  role: Sam's Village Manager
-- order: 6
-  photo: "/img/team/Fixon-for-website-150x150.jpg"
-  name: Fixon Phiri
-  role: Field Manager
 ukTeam:
 - order: 1
   photo: "/img/team/Heather-150x150.jpg"
