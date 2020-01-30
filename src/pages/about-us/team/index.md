@@ -7,14 +7,30 @@ malawiTeam:
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
   role: Trustee
+- order: 2
+  photo: "/img/team/William-Nyasulu-photo-150x150.jpg"
+  name: William Nyasulu
+  role: Trustee
 - order: 
   photo: "/img/Chrispin-2-150x150.jpg"
   name: Chrispin Chinunda
   role: Country Manager
+- order: 4
+  photo: "/img/team/Eric-Munthali-150x150.jpg"
+  name: Eric Munthali
+  role: Finance and Operations Manager
 - order: 
   photo: "/img/Bisweck-2-150x150.jpg"
   name: Bisweck Chipwaila
   role: Sam's Village Manager
+- order: 7
+  photo: "/img/team/Wezie-Gwaluka-150x150.jpg"
+  name: Wezie Gwaluka
+  role: Education Manager
+- order: 8
+  photo: "/img/team/Ruth-Katchere-150x150.jpg"
+  name: Ruth Katchere
+  role: Finance Officer
 - order: 
   photo: "/img/Julie-for-website-150x150.jpg"
   name: Julie Ndalama
@@ -119,18 +135,10 @@ malawiTeam:
   photo: "/img/team/Alinafe-4-150x150.jpg"
   name: Alinafe Kasiya
   role: Trustee
-- order: 2
-  photo: "/img/team/William-Nyasulu-photo-150x150.jpg"
-  name: William Nyasulu
-  role: Trustee
 - order: 3
   photo: "/img/team/Duncan-photo-150x150.jpg"
   name: Duncan Chiyani
   role: Country Manager
-- order: 4
-  photo: "/img/team/Eric-Munthali-150x150.jpg"
-  name: Eric Munthali
-  role: Finance and Operations Manager
 - order: 5
   photo: "/img/team/Jeruzye-150x150.jpg"
   name: Jeruzye Munthali
@@ -139,14 +147,6 @@ malawiTeam:
   photo: "/img/team/Fixon-for-website-150x150.jpg"
   name: Fixon Phiri
   role: Field Manager
-- order: 7
-  photo: "/img/team/Wezie-Gwaluka-150x150.jpg"
-  name: Wezie Gwaluka
-  role: Education Manager
-- order: 8
-  photo: "/img/team/Ruth-Katchere-150x150.jpg"
-  name: Ruth Katchere
-  role: Finance Officer
 ukTeam:
 - order: 1
   photo: "/img/team/Heather-150x150.jpg"
