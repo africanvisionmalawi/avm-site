@@ -4,6 +4,38 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
+  photo: "/img/Kumbukani-2-150x150.jpg"
+  name: Kumbukani Kuntiya
+  role: Trustee
+- order: 
+  photo: "/img/Chrispin-2-150x150.jpg"
+  name: Chrispin Chinunda
+  role: Country Manager
+- order: 
+  photo: "/img/Bisweck-2-150x150.jpg"
+  name: Bisweck Chipwaila
+  role: Sam's Village Manager
+- order: 
+  photo: "/img/Julie-for-website-150x150.jpg"
+  name: Julie Ndalama
+  role: Disability Outreach Worker
+- order: 
+  photo: "/img/Atupele-2-150x150.jpg"
+  name: Atupele Mkulichi
+  role: PA to Country Manager
+- order: 
+  photo: "/img/Green-150x150.jpg"
+  name: Green Phiri
+  role: Agriculture Outreach Worker
+- order: 
+  photo: "/img/Richard-150x150.jpg"
+  name: Richard Chinthochi
+  role: Mechanic / Driver
+- order: 
+  photo: "/img/Thomas-Lighton-150x150.jpg"
+  name: Thomas Lighton
+  role: Office Assistant / Driver
+- order: 
   photo: "/img/Kondwani-permaculture-small-150x150.jpg"
   name: Kondwani Galanga
   role: Permaculture Officer
