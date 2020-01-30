@@ -140,6 +140,50 @@ ukTeam:
   photo: "/img/team/Nigel-for-website-150x150.jpg"
   name: Nigel Palmer
   role: Chairman
+- order: 
+  photo: "/img/David-for-website-150x150.jpg"
+  name: David Stead
+  role: Treasurer
+- order: 
+  photo: "/img/Andy-for-website-150x150.jpg"
+  name: Andy Walker
+  role: HR Trustee
+- order: 
+  photo: "/img/Sara-Butterfield-150x150.jpg"
+  name: Sara Butterfield
+  role: Trustee
+- order: 
+  photo: "/img/Andrew-informal-headshot-150x150.jpg"
+  name: Andrew Ridley-Barker
+  role: Trustee
+- order: 
+  photo: "/img/Beth-photo-150x150.jpg"
+  name: Beth Sheehan
+  role: Trustee
+- order: 
+  photo: "/img/Photo-109-150x150.jpg"
+  name: Nigel Bunner
+  role: Web Design & Development
+- order: 
+  name: Lorraine Mole
+  role: Office Administrator
+  photo: "/img/Lorraine-150x150.jpg"
+- order: 
+  photo: "/img/David-Itcovitz-150x150.jpg"
+  name: David Itcovitz
+  role: Accountant
+- order: 
+  photo: "/img/Tina-for-website-150x150.jpg"
+  name: Tina Walker
+  role: Bookkeeper
+- order: 
+  photo: "/img/Kira-150x150.jpg"
+  name: Kira Palmer
+  role: Social Media Coordinator
+- order: 
+  photo: "/img/JNT-AVM-150x150.jpg"
+  name: Jane Thompson
+  role: Office Support
 malawiTitle: Locally Based Committee Members
 malawiText: The team also includes 98 volunteers who are members of 14 Locally Based
   Committees and are residents of our focus area.
