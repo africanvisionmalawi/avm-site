@@ -3,6 +3,62 @@ templateKey: about-team
 title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
+- order: 
+  photo: "/img/Mistone-150x150.png"
+  name: Mistone Abison
+  role: Site Officer
+- order: 
+  photo: "/img/Chipiliro-150x150.jpg"
+  name: Chipiliro Mbiridzi
+  role: Office Guard
+- order: 
+  photo: "/img/Overton-Banda-150x150.jpg"
+  name: Overton Banda
+  role: Office Guard
+- order: 
+  photo: "/img/Cosmas-1-e1511197451643-150x150.jpg"
+  name: Cosmas Mithi
+  role: Office Guard
+- order: 
+  photo: "/img/Ibrahim-e1511197486614-150x150.jpg"
+  name: Ibrahim Bwanali
+  role: Office Guard
+- order: 
+  photo: "/img/Aziel-Pemba-150x150.jpg"
+  name: Aziel Pemba
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/Biton-Mwale-150x150.jpg"
+  name: Biton Mwale
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/Fiason-for-website-150x150.jpg"
+  name: Fiason Kambizeni
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/Kingsley-Belo-150x150.jpg"
+  name: Kingsley Belo
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/Paul-Bowa-150x150.jpg"
+  name: Paul Bowa
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/Simeon-Lamuel-150x150.jpg"
+  name: Simeon Lamuel
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/William-Chapota-150x150.jpg"
+  name: William Chapota
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/Kazula-and-Sheba-150x150.jpg"
+  name: Kazula and Sheba
+  role: Office Guard Dogs
+- order: 
+  photo: "/img/Takondwa-150x150.jpg"
+  name: Takondwa
+  role: Sam's Village Guard Dog
 - order: 1
   photo: "/img/team/Alinafe-4-150x150.jpg"
   name: Alinafe Kasiya
