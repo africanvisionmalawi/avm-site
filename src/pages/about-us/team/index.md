@@ -4,6 +4,18 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
+  photo: "/img/Ireen-for-website-150x150.jpg"
+  name: Ireen Mwale
+  role: Assistant Librarian
+- order: 
+  photo: "/img/Mercy1-150x150.jpg"
+  name: Mercy Daniel
+  role: Assistant Permaculture Worker
+- order: 
+  photo: "/img/Walter-2-1-150x150.jpg"
+  name: Walter Malikesi
+  role: Office Gardener and Support
+- order: 
   photo: "/img/Mistone-150x150.png"
   name: Mistone Abison
   role: Site Officer
