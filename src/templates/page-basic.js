@@ -60,7 +60,7 @@ PageBasicTemplate.propTypes = {
   pageContext: PropTypes.object
 };
 
-const PageBasic = ({ data, pathContext }) => {
+const PageBasic = ({ data }) => {
   const { markdownRemark: post } = data;
   const { siteUrl } = useSiteMetadata();
   const { title } = useSiteMetadata();
