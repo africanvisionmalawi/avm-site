@@ -22,6 +22,12 @@ const HomepageMain = styled.section`
   padding: 0 1.5rem 3rem;
 `;
 
+const TopSection = styled.section`
+  /* background-image: url(/img/hero/homepage-village-faded.jpg); */
+  background-position: 50% 50%;
+  background-size: cover;
+`;
+
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
@@ -49,39 +55,41 @@ export default class IndexPage extends React.Component {
               <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
             </section>
             <FeaturedProjects currentProject="home" />
-            <div className="content">
+            <TopSection>
               <h1 className="has-text-weight-bold is-size-2">
                 Welcome to African Vision Malawi (known as The Landirani Trust
                 in Malawi).
               </h1>
-            </div>
-            <section className={homepageStyles.topSection}>
-              <div className="column">
-                <div className={homepageStyles.box}>
-                  <h2 className="has-text-weight-bold is-size-3">Our vision</h2>
-                  <p>
-                    Since 2005 African Vision Malawi has been helping children
-                    and vulnerable people in Malawi, one of the poorest
-                    countries in the world.
-                  </p>
-                  <p>
-                    Our vision is to see a "healthy, educated and
-                    self-sufficient community in Malawi".
-                  </p>
+              <div className={homepageStyles.topSection}>
+                <div className="column">
+                  <div className={homepageStyles.box}>
+                    <h2 className="has-text-weight-bold is-size-3">
+                      Our vision
+                    </h2>
+                    <p>
+                      Since 2005 African Vision Malawi has been helping children
+                      and vulnerable people in Malawi, one of the poorest
+                      countries in the world.
+                    </p>
+                    <p>
+                      Our vision is to see a "healthy, educated and
+                      self-sufficient community in Malawi".
+                    </p>
+                  </div>
+                </div>
+                <div className="column">
+                  <div className={videoStyles.playerWrapper}>
+                    <ReactPlayer
+                      url={promoVideo}
+                      width="100%"
+                      height="100%"
+                      className={videoStyles.reactPlayer}
+                      controls={true}
+                    />
+                  </div>
                 </div>
               </div>
-              <div className="column">
-                <div className={videoStyles.playerWrapper}>
-                  <ReactPlayer
-                    url={promoVideo}
-                    width="100%"
-                    height="100%"
-                    className={videoStyles.reactPlayer}
-                    controls={true}
-                  />
-                </div>
-              </div>
-            </section>
+            </TopSection>
 
             <section>
               <div className={homepageStyles.latestNewsCont}>
