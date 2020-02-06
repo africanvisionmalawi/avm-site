@@ -13,8 +13,7 @@ export const PageBasicTemplate = ({
   title,
   description,
   content,
-  contentComponent,
-  pageContext
+  contentComponent
 }) => {
   const PageContent = contentComponent || Content;
 
