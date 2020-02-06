@@ -77,10 +77,17 @@ export default class IndexPage extends React.Component {
                     width="100%"
                     height="100%"
                     className={videoStyles.reactPlayer}
+                    controls={true}
                   />
                 </div>
               </div>
             </section>
+
+            <p>
+              <a href="https://vimeo.com/383324868">Positive Change</a> from{" "}
+              <a href="https://vimeo.com/sampalmerfilms">Sam Palmer</a> on{" "}
+              <a href="https://vimeo.com">Vimeo</a>.
+            </p>
             <section>
               <div className={homepageStyles.latestNewsCont}>
                 {homeContent.map(({ node: home }) => (
