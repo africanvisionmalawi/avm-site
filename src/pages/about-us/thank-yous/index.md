@@ -16,7 +16,7 @@ All our UK partnership schools, and especially those who have raised money for t
 
 Thank you so much to:
 
-500 Miles
+[500 Miles](http://www.500miles.co.uk/ "500 Miiles")
 
 Alex Walker
 
