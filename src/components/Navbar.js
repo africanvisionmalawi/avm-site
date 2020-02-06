@@ -58,18 +58,43 @@ const Navbar = class extends React.Component {
           </div>
           <div id="navMenu" className="navbar-menu">
             <div className="navbar-start">
-              <Link className="navbar-item navbar-parent" to="/shop">
-                Shop
-              </Link>
               <Link className="navbar-item navbar-single" to="/why-malawi">
                 Why malawi?
               </Link>
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link
                   className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
+                  to="/about-us"
+                >
+                  About us
+                </Link>
+                <div className="navbar-dropdown">
+                  <Link className="navbar-item" to="/about-us/team">
+                    Team
+                  </Link>
+                  <Link className="navbar-item" to="/about-us/where-we-work">
+                    Where we work
+                  </Link>
+                  <Link className="navbar-item" to="/about-us/how-we-started">
+                    How we started
+                  </Link>
+                  <Link
+                    className="navbar-item"
+                    to="/about-us/african-vision-malawi-our-new-name"
+                  >
+                    African Vision Malawi - our new name
+                  </Link>
+                  <Link className="navbar-item" to="/about-us/thank-yous">
+                    Thank yous
+                  </Link>
+                </div>
+              </div>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <Link
+                  className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
                   to="/projects"
                 >
-                  Projects
+                  Our work
                 </Link>
                 <div className="navbar-dropdown">
                   <Link
@@ -148,34 +173,9 @@ const Navbar = class extends React.Component {
                   </Link>
                 </div>
               </div>
-              <div className="navbar-item has-dropdown is-hoverable">
-                <Link
-                  className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                  to="/about-us"
-                >
-                  About us
-                </Link>
-                <div className="navbar-dropdown">
-                  <Link className="navbar-item" to="/about-us/team">
-                    Team
-                  </Link>
-                  <Link className="navbar-item" to="/about-us/where-we-work">
-                    Where we work
-                  </Link>
-                  <Link className="navbar-item" to="/about-us/how-we-started">
-                    How we started
-                  </Link>
-                  <Link
-                    className="navbar-item"
-                    to="/about-us/african-vision-malawi-our-new-name"
-                  >
-                    African Vision Malawi - our new name
-                  </Link>
-                  <Link className="navbar-item" to="/about-us/thank-yous">
-                    Thank yous
-                  </Link>
-                </div>
-              </div>
+              <Link className="navbar-item navbar-parent" to="/shop">
+                Shop
+              </Link>
             </div>
           </div>
           <div className={navbarStyles.navbarBtns}>

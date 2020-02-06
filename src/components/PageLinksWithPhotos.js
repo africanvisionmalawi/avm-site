@@ -9,11 +9,11 @@ const PageLinks = ({ pagelinks }) => (
   <div className={pageLinksStyles.cardCont}>
     {pagelinks.map(pagelink => (
       <div className={pageLinksStyles.card} key={pagelink.linkTitle}>
-        <div className="card-image">
+        <Link to={pagelink.url} className="card-image">
           <span className={pageLinksStyles.cardImage}>
             <PreviewCompatibleImage imageInfo={pagelink.photo} />
           </span>
-        </div>
+        </Link>
         <div className={pageLinksStyles.cardContent}>
           <div className="content">
             <h3>{pagelink.linkTitle}</h3>

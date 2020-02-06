@@ -138,8 +138,8 @@
 }
 .fileDownload {
   align-items: center;
-  background: #f2f2f2; /*#e7ebf1 */
-  border: 1px solid #e5e5e5;
+  background: #fff; /*#e7ebf1 */
+
   border-radius: 4px;
   display: flex;
   justify-content: center;

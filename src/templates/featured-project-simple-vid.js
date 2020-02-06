@@ -65,8 +65,7 @@ export const FeaturedProjectsSimpleVidTemplate = ({
                   <section
                     className="full-width-container margin-top-0"
                     style={{
-                      background: "#f2f2f2",
-                      borderBottom: "1px solid #e5e5e5",
+                      background: "#fff",
                       marginBottom: "0",
                       paddingBottom: "30px"
                     }}
@@ -81,8 +80,7 @@ export const FeaturedProjectsSimpleVidTemplate = ({
                   <section
                     className="full-width-container margin-top-0"
                     style={{
-                      background: "#f2f2f2",
-                      borderBottom: "1px solid #e5e5e5",
+                      background: "#fff",
                       marginBottom: "0",
                       paddingBottom: "30px"
                     }}

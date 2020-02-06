@@ -1,5 +1,5 @@
 .container {
-  background: #f2f2f2 url("/img/common/body-back-grey.png") repeat-x 0 0;
+  background: #fff url("/img/common/body-back-grey.png") repeat-x 0 0;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -26,7 +26,7 @@ h4,
 .h4,
 h5,
 .h5 {
-  font-family: "Londrina Solid", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 p {
   font-size: 1.1rem;
