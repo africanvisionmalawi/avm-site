@@ -3,7 +3,21 @@ import useSiteMetadata from "../../hooks/use-site-metadata";
 import Seo from "../../components/seo";
 import Layout from "../../components/Layout";
 import EventsRoll from "../../components/EventsRoll";
+import FeaturedProjectsTiles from "../../components/FeaturedProjectsTiles";
+import Donate from "../../components/Donate";
 import HeroImage from "../../components/HeroImage";
+import styled from "styled-components";
+
+const Section = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: 0 auto;
+  max-width: 1050px;
+  padding: 2em;
+  position: relative;
+  width: 100%;
+`;
 
 const BlogIndexPage = () => {
   const heroImage = "/img/hero/retreat-yurt.jpg";
@@ -20,20 +34,23 @@ const BlogIndexPage = () => {
         pathname={pathname}
         article={false}
       />
-      <section className="section">
-        <div className="container">
-          <div className="content">
-            <section>
+
+      <div className="container">
+        <article>
+          {/* <section>
               <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
-            </section>
-            <section className="columns">
-              <main className="column">
-                <EventsRoll />
-              </main>
-            </section>
-          </div>
-        </div>
-      </section>
+            </section> */}
+          <Section>
+            <main>
+              <EventsRoll />
+            </main>
+          </Section>
+        </article>
+        <Donate
+          link="https://www.charitycheckout.co.uk/1113786/"
+          text="Donate"
+        />
+      </div>
     </Layout>
   );
 };

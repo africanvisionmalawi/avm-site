@@ -3,12 +3,31 @@ import Layout from "../components/Layout";
 import { Link } from "gatsby";
 // import BlogRoll from "../components/BlogRoll";
 import ArticleList from "../components/ArticleList";
-import FeaturedProjects from "../components/FeaturedProjects";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Seo from "../components/seo";
-import CtaButton from "../components/CtaButton";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import Donate from "../components/Donate";
 import postStyles from "../components/posts.module.css";
 import paginationStyles from "../components/pagination.module.css";
+import styled from "styled-components";
+
+const Section = styled.section`
+  margin: 0 auto;
+  max-width: 1050px;
+  width: 100%;
+`;
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
 
 const PaginationLink = props => {
   if (!props.test) {
@@ -50,55 +69,50 @@ const ShopIndex = ({ location, pageContext }) => {
       />
       <section className="section section--gradient">
         <div className="container">
-          <div className="columns">
-            <div className="column is-14 is-offset-1">
-              <article className="content">
-                <div className="columns">
-                  <main className={`column is-8 ${postStyles.postWide}`}>
-                    <h1 className="has-text-weight-semibold is-size-2">
-                      Latest news
-                    </h1>
-                    <ArticleList posts={group} />
-                    <div>
-                      {!first && (
+          <article className="content">
+            <div className="columns">
+              <main className={`column is-8 ${postStyles.postWide}`}>
+                <TextSection>
+                  <h1 className="has-text-weight-semibold is-size-2">
+                    Latest news
+                  </h1>
+                  <ArticleList posts={group} />
+                  <div>
+                    {!first && (
+                      <PaginationLink
+                        test={first}
+                        url={previousUrl}
+                        text="← Prev"
+                      />
+                    )}
+                    {pageNumbers.map(number => {
+                      const isActive =
+                        location.pathname.indexOf(number) > -1 ||
+                        (location.pathname === "/blog/" && number === 1);
+                      return (
                         <PaginationLink
-                          test={first}
-                          url={previousUrl}
-                          text="← Prev"
+                          test={isActive}
+                          url={`/${number === 1 ? "" : number}/`}
+                          text={number}
                         />
-                      )}
-                      {pageNumbers.map(number => {
-                        const isActive =
-                          location.pathname.indexOf(number) > -1 ||
-                          (location.pathname === "/blog/" && number === 1);
-                        return (
-                          <PaginationLink
-                            test={isActive}
-                            url={`/${number === 1 ? "" : number}/`}
-                            text={number}
-                          />
-                        );
-                      })}
-                      {!last && (
-                        <PaginationLink
-                          test={last}
-                          url={nextUrl}
-                          text="Next →"
-                        />
-                      )}
-                    </div>
-                    <CtaButton
-                      link="https://www.charitycheckout.co.uk/1113786/"
-                      text="Donate"
-                    />
-                  </main>
-                  <aside className="column is-4">
-                    <FeaturedProjects currentProject="default" />
-                  </aside>
-                </div>
-              </article>
+                      );
+                    })}
+                    {!last && (
+                      <PaginationLink test={last} url={nextUrl} text="Next →" />
+                    )}
+                  </div>
+                </TextSection>
+              </main>
+              <Donate
+                link="https://www.charitycheckout.co.uk/1113786/"
+                text="Donate"
+              />
             </div>
-          </div>
+          </article>
+          <FeaturedProjectsTiles
+            currentProject="default"
+            displayHeading={true}
+          />
         </div>
       </section>
     </Layout>

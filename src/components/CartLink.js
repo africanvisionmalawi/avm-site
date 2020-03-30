@@ -11,10 +11,11 @@ const CartTop = styled.div`
 const TotalItems = styled.span`
   background: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
-  color: #202325;
+  color: #c17d3d;
+  font-size: 0.8em;
   font-weight: bold;
   height: 18px;
-  left: 7px;
+  left: 6px;
   position: absolute;
   text-align: center;
   top: 10px;
@@ -50,7 +51,6 @@ const CartLink = ({ link, text }) => (
 
       <TotalItems className="snipcart-total-items" />
     </CartTop>
-    <TotalPrice className="snipcart-total-price" />
   </div>
 );
 
