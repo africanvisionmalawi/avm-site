@@ -1,13 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { Row, Col } from "antd";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Content, { HTMLContent } from "../components/Content";
-import FeaturedProjects from "../components/FeaturedProjects";
+// import FeaturedProjects from "../components/FeaturedProjects";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import PageLinks from "../components/PageLinks";
 import CtaButton from "../components/CtaButton";
+import styled from "styled-components";
+
+const Section = styled.section`
+  margin: 100px auto;
+  max-width: 980px;
+  width: 100%;
+`;
 
 export const PageTextLinksTemplate = ({
   title,
@@ -18,35 +27,28 @@ export const PageTextLinksTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <Section className="section">
+      {/* {helmet || ""} */}
+
       <div className="container">
-        <div className="columns">
-          <div className="column is-14 is-offset-1">
+        <Row justify="center">
+          <Col span={20} offset={2}>
             <article className="content">
-              <div className="columns">
-                <main className="column is-8">
-                  <h1 className="has-text-weight-semibold is-size-2">
-                    {title}
-                  </h1>
-                  <PageContent className="content" content={content} />
-                  <PageLinks pagelinks={links} />
-                  <CtaButton
-                    link="https://www.charitycheckout.co.uk/1113786/"
-                    text="Donate"
-                  />
-                </main>
-                <aside className="column is-4">
-                  <FeaturedProjects
-                    currentProject="default"
-                    displayHeading={true}
-                  />
-                </aside>
-              </div>
+              <main>
+                <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+                <PageContent className="content" content={content} />
+                <PageLinks pagelinks={links} />
+                <CtaButton
+                  link="https://www.charitycheckout.co.uk/1113786/"
+                  text="Donate"
+                />
+              </main>
             </article>
-          </div>
-        </div>
+          </Col>
+        </Row>
+        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>
-    </section>
+    </Section>
   );
 };
 

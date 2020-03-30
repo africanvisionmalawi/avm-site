@@ -10,10 +10,30 @@ function encode(data) {
     .join("&");
 }
 
+const FormCont = styled.div`
+  background: #f7f7f7;
+  border-top: 1px solid #d7dade;
+  border-bottom: 1px solid #d7dade;
+  margin: 30px 0;
+  padding: 30px 0;
+`;
+
+const FormContInner = styled.div`
+  margin: 0 auto;
+  max-width: 980px;
+  text-align: center;
+  width: 100%;
+`;
+
+const FormInner = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 const FormGroup = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: 8px 0 2em;
+  margin: 8px auto 2em;
 `;
 
 const FormExtra = styled.div`
@@ -25,14 +45,16 @@ const TextInput = styled.input`
 `;
 
 const Button = styled.button`
-  background: #3177b3;
-  border: 2px solid #245580;
+  background: #6cbede;
+  border: 1px solid #6cbede;
   color: #fff;
-  border-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   cursor: pointer;
+  display: inline-block;
   font-size: 0.9em;
   font-weight: bold;
-  padding: 6px 12px;
+  padding: 6px 20px;
   text-align: center;
   :hover {
     background: #58b5d7;
@@ -63,8 +85,8 @@ export const MailingForm = () => {
   };
 
   return (
-    <div>
-      <div>
+    <FormCont>
+      <FormContInner>
         <h3>Join our Mailing List</h3>
 
         <form
@@ -76,7 +98,7 @@ export const MailingForm = () => {
           data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
         >
-          <div>
+          <FormInner>
             <FormGroup>
               <TextInput
                 type="text"
@@ -99,7 +121,7 @@ export const MailingForm = () => {
                 Join list
               </Button>
             </FormGroup>
-          </div>
+          </FormInner>
           <FormExtra>
             <label>
               Don’t fill this out:{" "}
@@ -108,8 +130,8 @@ export const MailingForm = () => {
           </FormExtra>
           <input type="hidden" name="form-name" value="contact" />
         </form>
-      </div>
-    </div>
+      </FormContInner>
+    </FormCont>
   );
 };
 

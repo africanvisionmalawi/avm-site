@@ -17,6 +17,28 @@ module.exports = {
       }
     },
     "gatsby-plugin-sass",
+    "gatsby-plugin-antd",
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          // {
+          //   family: `Raleway`,
+          //   variants: [`400`, "700"]
+          // },
+          {
+            family: `Clicker Script`,
+            variants: [`400`, `700`]
+          }
+        ]
+      }
+    },
     "gatsby-remark-embed-video",
     "gatsby-remark-responsive-iframe",
     "gatsby-plugin-styled-components",
@@ -25,7 +47,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
-        name: "uploads"
+        name: "img"
       }
     },
     {
@@ -88,19 +110,19 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
-    {
-      resolve: "gatsby-plugin-google-fonts",
-      options: {
-        fonts: ["noto sans:400,700,400italic,700italic", "londrina solid"]
-      }
-    },
-    {
-      resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
-      options: {
-        develop: true, // Activates purging in npm run develop
-        purgeOnly: ["/all.sass"] // applies purging only on the bulma css file
-      }
-    }, // must be after other CSS plugins
+    // {
+    //   resolve: "gatsby-plugin-google-fonts",
+    //   options: {
+    //     fonts: ["noto sans:400,700,400italic,700italic", "londrina solid"]
+    //   }
+    // },
+    // {
+    //   resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
+    //   options: {
+    //     develop: true, // Activates purging in npm run develop
+    //     purgeOnly: ["/all.sass"] // applies purging only on the bulma css file
+    //   }
+    // }, // must be after other CSS plugins
     {
       resolve: "gatsby-plugin-snipcart",
       options: {

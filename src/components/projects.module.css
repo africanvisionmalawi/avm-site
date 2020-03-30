@@ -1,4 +1,4 @@
-.featuredProjects,
+/* .featuredProjects,
 .featuredProjects li {
   list-style-type: none;
   margin: 0;
@@ -8,14 +8,13 @@
   display: flex;
   justify-content: center;
   left: 50%;
-  margin: 0 -50vw 30px;
+  margin: 0 -50vw 0;
   position: relative;
   right: 50%;
   width: 100vw;
 }
 .featuredProjects {
-  font-size: 18px;
-  margin-bottom: 30px;
+  font-size: 18px;  
   max-width: 1368px;
   overflow: hidden;
   width: 100%;
@@ -48,7 +47,7 @@
 .featuredProjects .active a {
   background: #fff;
   color: #494949;
-}
+} */
 aside .featuredProjectsCont {
   display: block;
   /* justify-content: flex-start; */
@@ -81,7 +80,7 @@ aside .featuredProjects li:last-child a {
 
 @media only screen and (min-width: 1020px) {
   .featuredProjectsCont {
-    margin-top: -2.5rem;
+    margin-top: -2.1rem;
   }
   aside .featuredProjectsCont {
     margin-top: 0;

@@ -1,12 +1,33 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Row, Col } from "antd";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import "./all.sass";
+import NavLogo from "../components/NavLogo";
+import "./css/all.css";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import layoutStyles from "./layout.module.css";
-// import styled from "styled-components";
+import styled from "styled-components";
+
+const Header = styled.div`
+  background: #c27e34;
+`;
+
+const HeaderInner = styled.div`
+  margin: 0 auto;
+  max-width: 980px;
+  position: relative;
+  width: 100%;
+`;
+
+const Wrapper = styled.div`
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+  width: 100%;
+`;
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -51,13 +72,20 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
-      <div className={layoutStyles.container__top}>
-        <Navbar />
-        <div className="main-body">{children}</div>
-      </div>
-      <div className={layoutStyles.container__lower}>
-        <Footer />
-      </div>
+      <Header>
+        <HeaderInner>
+          <NavLogo />
+          <Navbar />
+        </HeaderInner>
+      </Header>
+      <Wrapper>
+        <div className={layoutStyles.container__top}>
+          <div className="main-body">{children}</div>
+        </div>
+        <div className={layoutStyles.container__lower}>
+          <Footer />
+        </div>
+      </Wrapper>
     </div>
   );
 };

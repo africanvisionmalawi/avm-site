@@ -1,16 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { Row, Col } from "antd";
 // import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
-import FeaturedProjects from "../components/FeaturedProjects";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
 import ReactPlayer from "react-player";
-// import BlogRollCard from "../components/BlogRollCard";
-import BlogRollLandscape from "../components/BlogRollLandscape";
-import EventsRollCol from "../components/EventsRollCol";
+import BlogRollCard from "../components/BlogRollCard";
+// import BlogRollLandscape from "../components/BlogRollLandscape";
+import EventsRollCard from "../components/EventsRollCard";
 import postStyles from "../components/posts.module.css";
 import homepageStyles from "../components/homepage.module.css";
 import { Link } from "gatsby";
@@ -18,14 +19,60 @@ import styled from "styled-components";
 
 const HomepageMain = styled.section`
   background: #fff;
-  margin-top: 3rem;
-  padding: 0 1.5rem 3rem;
 `;
 
 const TopSection = styled.section`
-  /* background-image: url(/img/hero/homepage-village-faded.jpg); */
-  background-position: 50% 50%;
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 3em 2em;
+  position: relative;
+  width: 100%;
+`;
+
+const TopHero = styled.div`
+  background-image: url(/img/hero/homepage-hero.jpg);
+  background-position: 50% 0;
   background-size: cover;
+  min-height: 600px;
+`;
+
+const TopHeroText = styled(Col)`
+  padding: 30px 0 0;
+  text-align: center;
+`;
+
+const H1Heading = styled.h1`
+  font-family: "Clicker Script", Cursive;
+  font-size: 3.4em;
+  text-align: center;
+`;
+
+const SubHeading = styled.p`
+  text-align: center;
+`;
+
+const ContentSection = styled.section`
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+`;
+
+const SectionHeading = styled.span`
+  display: block;
+  font-family: "Raleway";
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-right: 12px;
+`;
+
+const SectionSubHeading = styled.span`
+  display: block;
+  font-family: "Raleway";
+  font-size: 1.4em;
+  padding-right: 12px;
 `;
 
 export default class IndexPage extends React.Component {
@@ -51,33 +98,39 @@ export default class IndexPage extends React.Component {
         />
         <HomepageMain>
           <div className="container">
-            <section>
-              <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
-            </section>
-            <FeaturedProjects currentProject="home" />
+            <Row type="flex" justify="center">
+              <TopHeroText sm={14}>
+                <H1Heading>Welcome to African Vision Malawi</H1Heading>
+                <SubHeading>
+                  (known as The Landirani Trust in Malawi).
+                </SubHeading>
+                <h2>Our vision</h2>
+                <p>
+                  Since 2005 African Vision Malawi has been helping children and
+                  vulnerable people in Malawi, one of the poorest countries in
+                  the world.
+                </p>
+                <p>
+                  Our vision is to see a "healthy, educated and self-sufficient
+                  community in Malawi".
+                </p>
+              </TopHeroText>
+            </Row>
+            <HeroImage heroImage={heroImage} heroMsg="" />
+            {/* <TopHero></TopHero> */}
+
             <TopSection>
-              <h1 className="has-text-weight-bold is-size-2">
-                Welcome to African Vision Malawi (known as The Landirani Trust
-                in Malawi).
-              </h1>
-              <div className={homepageStyles.topSection}>
-                <div className="column">
-                  <div className={homepageStyles.box}>
-                    <h2 className="has-text-weight-bold is-size-3">
-                      Our vision
-                    </h2>
-                    <p>
-                      Since 2005 African Vision Malawi has been helping children
-                      and vulnerable people in Malawi, one of the poorest
-                      countries in the world.
-                    </p>
-                    <p>
-                      Our vision is to see a "healthy, educated and
-                      self-sufficient community in Malawi".
-                    </p>
-                  </div>
-                </div>
-                <div className="column">
+              <Row type="flex" justify="center">
+                <Col xs={24} md={8}>
+                  <SectionHeading>
+                    The people of Malawi want to help themselves.
+                  </SectionHeading>
+                  <SectionSubHeading>
+                    We can empower them to become self-sufficient and
+                    independent.
+                  </SectionSubHeading>
+                </Col>
+                <Col xs={24} md={16}>
                   <div className={videoStyles.playerWrapper}>
                     <ReactPlayer
                       url={promoVideo}
@@ -87,28 +140,35 @@ export default class IndexPage extends React.Component {
                       controls={true}
                     />
                   </div>
-                </div>
-              </div>
+                </Col>
+              </Row>
             </TopSection>
 
+            <ContentSection>
+              <FeaturedProjectsTiles
+                currentProject="home"
+                displayHeading={true}
+              />
+            </ContentSection>
+
             <section>
-              <div className={homepageStyles.latestNewsCont}>
-                {homeContent.map(({ node: home }) => (
-                  <div className={`${homepageStyles.latestNewsBox}`}>
-                    <h2 className="has-text-weight-bold is-size-3">
-                      Latest news
-                    </h2>
-                    <div
-                      className={homepageStyles.latestNews}
-                      dangerouslySetInnerHTML={{ __html: home.html }}
-                    />
-                  </div>
-                ))}
-                <div className={postStyles.contLandscape}>
+              {homeContent.map(({ node: home }) => (
+                <div className={`${homepageStyles.latestNewsBox}`}>
+                  <h2 className={homepageStyles.latestNewsHeading}>
+                    Latest news
+                  </h2>
+                  <div
+                    className={homepageStyles.latestNews}
+                    dangerouslySetInnerHTML={{ __html: home.html }}
+                  />
+                </div>
+              ))}
+              <div className={homepageStyles.newsCont}>
+                <div className={homepageStyles.cardCont}>
                   {posts &&
                     posts.map(({ node: post }) => (
                       <div key={post.fields.slug}>
-                        <BlogRollLandscape post={post} />
+                        <BlogRollCard post={post} />
                       </div>
                     ))}
                 </div>
@@ -129,11 +189,18 @@ export default class IndexPage extends React.Component {
             </div>
             <section>
               <h2
-                className={`has-text-weight-bold is-size-3 ${homepageStyles.sectionHeading}`}
+                className={`has-text-weight-bold is-size-3 ${homepageStyles.eventsHeading}`}
               >
                 Latest events
               </h2>
-              <EventsRollCol events={events} />
+              <div className={homepageStyles.newsCont}>
+                <div className={homepageStyles.cardCont}>
+                  {events &&
+                    events.map(({ node: event }) => (
+                      <EventsRollCard event={event} key={event.fields.slug} />
+                    ))}
+                </div>
+              </div>
 
               <div className={homepageStyles.allPostsFooter}>
                 <Link to="/events" className={homepageStyles.allPostsLink}>
@@ -156,18 +223,38 @@ IndexPage.propTypes = {
   })
 };
 
+export const lgRectImage = graphql`
+  fragment photoTileFixedLgRect on File {
+    childImageSharp {
+      fixed(width: 980, height: 300) {
+        ...GatsbyImageSharpFixed
+      }
+    }
+  }
+`;
+
+export const mdRectImage = graphql`
+  fragment photoTileFixedMdRect on File {
+    childImageSharp {
+      fixed(width: 480, height: 300) {
+        ...GatsbyImageSharpFixed
+      }
+    }
+  }
+`;
+
 export const pageQuery = graphql`
   query IndexQuery {
-    heroImage: file(relativePath: { eq: "mainphoto_home.jpg" }) {
+    heroImage: file(relativePath: { eq: "hero/homepage-hero.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 2048, quality: 60) {
+        fluid(maxWidth: 1918, quality: 50) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 3
+      limit: 5
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
     ) {
       edges {
@@ -185,7 +272,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             featuredImage {
               childImageSharp {
-                fixed(width: 280, height: 160) {
+                fixed(width: 300, height: 180) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -226,7 +313,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             photo {
               childImageSharp {
-                fixed(width: 280, height: 160) {
+                fixed(width: 300, height: 180) {
                   ...GatsbyImageSharpFixed
                 }
               }

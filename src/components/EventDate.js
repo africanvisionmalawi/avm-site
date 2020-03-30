@@ -11,12 +11,11 @@ export const EventDate = ({ date, endDate }) => {
     dayjs(endDate, "MMMM DD, YYYY").isAfter(dayjs(date).format("MMMM DD, YYYY"))
   ) {
     dateString =
-      "Dates: " +
       dayjs(date).format("Do MMMM ") +
       " to " +
       dayjs(endDate).format("Do MMMM, YYYY");
   } else {
-    dateString = "Date: " + date;
+    dateString = date;
   }
 
   EventDate.propTypes = {

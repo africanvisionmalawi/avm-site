@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { Row, Col } from "antd";
 import Layout from "../components/Layout";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Seo from "../components/seo";
@@ -10,10 +11,29 @@ import Gallery from "../components/Gallery";
 // import Lightbox from "../components/lightbox"
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 // import Videos from '../components/Videos'
-import FeaturedProjects from "../components/FeaturedProjects";
-import CtaButton from "../components/CtaButton";
+// import FeaturedProjects from "../components/FeaturedProjects";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import Donate from "../components/Donate";
 import pageBasicStyles from "../components/pageBasic.module.css";
-// import { Link } from 'gatsby'
+import styled from "styled-components";
+
+const Section = styled.section`
+  margin: 0 auto;
+  max-width: 1050px;
+  width: 100%;
+`;
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 2em;
+  position: relative;
+  width: 100%;
+`;
 
 export const FeaturedProjectsSimpleGalTemplate = ({
   heroImage,
@@ -29,77 +49,74 @@ export const FeaturedProjectsSimpleGalTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section
+    <div
       className="section section--gradient"
       style={{
         paddingBottom: "0"
       }}
     >
       <div className="container">
-        <div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <section>
-                <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
-              </section>
-              <FeaturedProjects currentProject={currentProject} />
-              <article className="content">
-                <div className="columns">
-                  <main className={`column is-9 ${pageBasicStyles.main}`}>
-                    <h1 className="has-text-weight-semibold is-size-2">
-                      {title}
-                    </h1>
-                    <PageContent className="content" content={content} />{" "}
-                    <CtaButton
-                      link="https://www.charitycheckout.co.uk/1113786/"
-                      text="Donate"
-                    />
-                  </main>
-                  {columns === 2 ? (
-                    <aside className="column is-5">side col goes here</aside>
-                  ) : (
-                    ""
-                  )}
-                </div>
-                {links.length && (
-                  <section
-                    className="full-width-container margin-top-0"
-                    style={{
-                      background: "#fff",
-                      marginBottom: "0",
-                      paddingBottom: "30px"
-                    }}
-                  >
-                    <div className="column is-10 is-offset-1">
-                      <h2>Find out more...</h2>
-                      <PageLinksWithPhotos pagelinks={links} />
-                    </div>
-                  </section>
-                )}
-                {gallery.length && (
-                  <section
-                    className="full-width-container margin-top-0"
-                    style={{
-                      background: "#ffffff",
-                      marginBottom: "0",
-                      paddingBottom: "30px"
-                    }}
-                  >
-                    <div className="column is-10 is-offset-1">
-                      <h2>Photo updates</h2>
-                      <Gallery
-                        gallery={gallery}
-                        initialState={{ showDialog: false }}
-                      />
-                    </div>
-                  </section>
-                )}
-              </article>
-            </div>
-          </div>
-        </div>
+        <section>
+          <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
+        </section>
+
+        <article>
+          <main className={`${pageBasicStyles.main}`}>
+            <TextSection>
+              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              <PageContent className="content" content={content} />{" "}
+            </TextSection>
+            <Donate
+              link="https://www.charitycheckout.co.uk/1113786/"
+              text="Donate"
+            />
+          </main>
+          {columns === 2 ? (
+            <aside className="column is-5">side col goes here</aside>
+          ) : (
+            ""
+          )}
+          {links.length && (
+            <Section
+              className="full-width-container margin-top-0"
+              style={{
+                background: "#fff",
+                marginBottom: "0",
+                paddingBottom: "30px"
+              }}
+            >
+              <div className="column is-10 is-offset-1">
+                <h2>Find out more...</h2>
+                <PageLinksWithPhotos pagelinks={links} />
+              </div>
+            </Section>
+          )}
+          {gallery.length && (
+            <Section
+              className="full-width-container margin-top-0"
+              style={{
+                background: "#ffffff",
+                marginBottom: "0",
+                paddingBottom: "30px"
+              }}
+            >
+              <div className="column is-10 is-offset-1">
+                <h2>Photo updates</h2>
+                <Gallery
+                  gallery={gallery}
+                  initialState={{ showDialog: false }}
+                />
+              </div>
+            </Section>
+          )}
+        </article>
+
+        <FeaturedProjectsTiles
+          currentProject={currentProject}
+          displayHeading={true}
+        />
       </div>
-    </section>
+    </div>
   );
 };
 

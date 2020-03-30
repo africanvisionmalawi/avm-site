@@ -1,13 +1,34 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Row, Col } from "antd";
 import { graphql } from "gatsby";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Seo from "../components/seo";
-import FeaturedProjects from "../components/FeaturedProjects";
-import CtaButton from "../components/CtaButton";
-import pageBasicStyles from "../components/pageBasic.module.css";
+// import FeaturedProjects from "../components/FeaturedProjects";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import Donate from "../components/Donate";
+// import pageBasicStyles from "../components/pageBasic.module.css";
+import styled from "styled-components";
+
+const Section = styled.section`
+  margin: 0 auto;
+  max-width: 1050px;
+  width: 100%;
+`;
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
 
 export const PageBasicTemplate = ({
   title,
@@ -18,36 +39,26 @@ export const PageBasicTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <div className="section">
       {/* {helmet || ""} */}
 
       <div className="container">
-        <div className="columns">
-          <div className="column is-14 is-offset-1">
-            <article className="content">
-              <div className="columns">
-                <main className={`column is-8 ${pageBasicStyles.main}`}>
-                  <h1 className="has-text-weight-semibold is-size-2">
-                    {title}
-                  </h1>
-                  <PageContent className="content" content={content} />
-                  <CtaButton
-                    link="https://www.charitycheckout.co.uk/1113786/"
-                    text="Donate"
-                  />
-                </main>
-                <aside className="column is-4">
-                  <FeaturedProjects
-                    currentProject="default"
-                    displayHeading={true}
-                  />
-                </aside>
-              </div>
-            </article>
-          </div>
-        </div>
+        <article className="content">
+          <main>
+            <TextSection>
+              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              <PageContent className="content" content={content} />
+            </TextSection>
+          </main>
+        </article>
+
+        <Donate
+          link="https://www.charitycheckout.co.uk/1113786/"
+          text="Donate"
+        />
+        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -6,18 +6,18 @@ import styled from "styled-components";
 
 const CartTop = styled.div`
   cursor: pointer;
-  margin-top: -10px;
   position: relative;
 `;
 const TotalItems = styled.span`
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
-  color: #9a563f;
+  color: #202325;
   font-weight: bold;
-  left: 12px;
+  height: 18px;
+  left: 7px;
   position: absolute;
   text-align: center;
-  top: 6px;
+  top: 10px;
   width: 18px;
 `;
 
@@ -27,31 +27,27 @@ const TotalPrice = styled.div`
   text-align: center;
 `;
 
+const Icon = styled.svg`
+  height: auto;
+  width: 30px;
+`;
+
 const CartLink = ({ link, text }) => (
   <div
     className={`Header__summary snipcart-summary snipcart-checkout ${buttonStyles.cartLink}`}
   >
     <CartTop>
-      <svg
-        version="1.1"
+      <Icon
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
         className={buttonStyles.cartLink}
-        width="37"
-        height="37"
-        viewBox="0 0 16 16"
       >
         <path
           fill="#fff"
-          d="M6 14.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5c0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5z"
-        ></path>
-        <path
-          fill="#fff"
-          d="M16 14.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5c0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5z"
-        ></path>
-        <path
-          fill="#fff"
-          d="M16 8v-6h-12c0-0.552-0.448-1-1-1h-3v1h2l0.751 6.438c-0.458 0.367-0.751 0.93-0.751 1.562 0 1.105 0.895 2 2 2h12v-1h-12c-0.552 0-1-0.448-1-1 0-0.003 0-0.007 0-0.010l13-1.99z"
-        ></path>
-      </svg>
+          d="M352 160v-32C352 57.42 294.579 0 224 0 153.42 0 96 57.42 96 128v32H0v272c0 44.183 35.817 80 80 80h288c44.183 0 80-35.817 80-80V160h-96zm-192-32c0-35.29 28.71-64 64-64s64 28.71 64 64v32H160v-32zm160 120c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24zm-192 0c-13.255 0-24-10.745-24-24s10.745-24 24-24 24 10.745 24 24-10.745 24-24 24z"
+        />
+      </Icon>
+
       <TotalItems className="snipcart-total-items" />
     </CartTop>
     <TotalPrice className="snipcart-total-price" />

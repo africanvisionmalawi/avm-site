@@ -2,11 +2,21 @@ import React from "react";
 import PropTypes from "prop-types";
 import videoStyles from "./videos.module.css";
 import ReactPlayer from "react-player";
+import styled from "styled-components";
+
+const Container = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(326px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(380px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+  padding: 15px;
+`;
 
 const Videos = ({ videos }) => (
-  <div className="columns">
+  <Container>
     {videos.map(video => (
-      <div key={video.videourl} className="column">
+      <div key={video.videourl}>
         <div className={videoStyles.playerWrapper}>
           <ReactPlayer
             url={video.videourl}
@@ -19,7 +29,7 @@ const Videos = ({ videos }) => (
         <p className={videoStyles.vidText}>{video.videotext}</p>
       </div>
     ))}
-  </div>
+  </Container>
 );
 
 Videos.propTypes = {

@@ -1,24 +1,16 @@
-.vid-container {
-    /* display: flex;
-    width: 100%; */
-}
-.vid {
-    /* overflow: hidden;
-    width: 33%; */
-}
 .playerWrapper {
-    position: relative;
-    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
 }
 
 .reactPlayer {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .vidText {
-    background: #fff;
-    font-size: 0.9em;
-    padding: 4px;
+  background: #fff;
+  font-size: 0.9em;
+  padding: 4px;
 }

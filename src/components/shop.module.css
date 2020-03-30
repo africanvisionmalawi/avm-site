@@ -30,9 +30,9 @@
   color: #4a4a4a;
   font-style: italic;
 }
-h2.itemTitle {
+/* h2.itemTitle {
   margin: 0 !important;
-}
+} */
 .price {
   display: block;
   font-size: 2rem;
