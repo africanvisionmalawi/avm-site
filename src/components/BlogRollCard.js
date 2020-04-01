@@ -27,9 +27,9 @@ const BlogCard = ({ post }) => (
                 fixed={post.frontmatter.featuredImage.childImageSharp.fixed}
               />
             </div>
-          ) : null
-          // <DefaultImage />
-          }
+          ) : (
+            <DefaultImage />
+          )}
 
           <span className={postStyles.postHeading}>
             {post.frontmatter.title}

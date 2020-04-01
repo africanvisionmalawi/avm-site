@@ -72,7 +72,7 @@
 }
 
 .cartLinkCont {
-  align-items: middle;
+  align-items: center;
   display: flex;
   justify-content: center;
   /* position: absolute;

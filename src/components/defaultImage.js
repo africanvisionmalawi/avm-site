@@ -1,6 +1,11 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import styled from "styled-components";
+
+const ImageCont = styled.div`
+  border: 1px solid #cacaca;
+`;
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -26,7 +31,11 @@ const DefaultImage = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return (
+    <ImageCont>
+      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+    </ImageCont>
+  );
 };
 
 export default DefaultImage;

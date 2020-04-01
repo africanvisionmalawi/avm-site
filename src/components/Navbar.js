@@ -18,7 +18,7 @@ const DesktopNav = styled.nav`
 `;
 
 const MobileNav = styled.div`
-  align-content: center;
+  align-items: center;
   display: flex;
   height: 68px;
   justify-content: flex-end;
@@ -35,6 +35,7 @@ const MobileNavIcon = styled.svg`
   fill: #fff;
   height: 28px;
   margin-right: 15px;
+  margin-left: 8px;
   width: 28px;
 `;
 
@@ -271,6 +272,9 @@ const Navbar = class extends React.Component {
           />
         </div>
         <MobileNav>
+          <div className={navbarStyles.cartLinkCont}>
+            <CartLink />
+          </div>
           <MobileNavIcon
             type="primary"
             onClick={this.showDrawer}
