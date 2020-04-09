@@ -5,64 +5,70 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
-import FeaturedProjects from "../components/FeaturedProjects";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import Donate from "../components/Donate";
 import Gallery from "../components/Gallery";
 import CtaButton from "../components/CtaButton";
 import pageBasicStyles from "../components/pageBasic.module.css";
+import styled from "styled-components";
+
+const Section = styled.section`
+  margin: 0 auto;
+  max-width: 1050px;
+  width: 100%;
+`;
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
 
 export const PageGalleryTemplate = ({
   title,
   content,
   contentComponent,
-  gallery
+  gallery,
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <div className="section section--gradient">
       <div className="container">
-        <div className="columns">
-          <div className="column is-14 is-offset-1">
-            <article className="content">
-              <div className="columns">
-                <main className={`column is-8 ${pageBasicStyles.main}`}>
-                  <h1 className="has-text-weight-semibold is-size-2">
-                    {title}
-                  </h1>
-                  <PageContent className="content" content={content} />
-                  {gallery.length && (
-                    <section
-                      className=""
-                      style={{
-                        background: "#ffffff",
-                        marginBottom: "0",
-                        paddingBottom: "30px"
-                      }}
-                    >
-                      <h2>Photo updates</h2>
-                      <Gallery
-                        gallery={gallery}
-                        initialState={{ showDialog: false }}
-                      />
-                    </section>
-                  )}
-                  <CtaButton
-                    link="https://www.charitycheckout.co.uk/1113786/"
-                    text="Donate"
-                  />
-                </main>
-                <aside className="column is-4">
-                  <FeaturedProjects
-                    currentProject="default"
-                    displayHeading={true}
-                  />
-                </aside>
-              </div>
-            </article>
-          </div>
-        </div>
+        <article className="content">
+          <main className={`column is-8 ${pageBasicStyles.main}`}>
+            <TextSection>
+              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              <PageContent className="content" content={content} />
+            </TextSection>
+            <Donate
+              link="https://www.charitycheckout.co.uk/1113786/"
+              text="Donate"
+            />
+          </main>
+          {gallery.length && (
+            <Section
+              className=""
+              style={{
+                background: "#ffffff",
+                marginBottom: "0",
+                paddingBottom: "30px",
+              }}
+            >
+              <h2>Photo updates</h2>
+              <Gallery gallery={gallery} initialState={{ showDialog: false }} />
+            </Section>
+          )}
+        </article>
+        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>
-    </section>
+    </div>
   );
 };
 
@@ -70,7 +76,7 @@ PageGalleryTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  gallery: PropTypes.array
+  gallery: PropTypes.array,
 };
 
 const PageGallery = ({ data }) => {
@@ -97,7 +103,7 @@ const PageGallery = ({ data }) => {
 };
 
 PageGallery.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default PageGallery;
