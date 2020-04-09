@@ -6,6 +6,7 @@ title: Environment
 description: Details about our various environment projects
 heroImage: "/img/mainphoto_environment.jpg"
 heroMsg: ""
+heroMsgSource: ""
 gallery:
   - photo: "/img/chemex.jpg"
     alt: Kitchen photo

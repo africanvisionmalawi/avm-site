@@ -9,15 +9,15 @@ const hero = ({ heroImage, heroMsg }) => (
     className={`full-width-image-container margin-top-0 margin-bottom-0 ${heroStyles.heroCont}`}
   >
     <Img fluid={heroImage.childImageSharp.fluid} alt="" />
-    {heroMsg !== "null" ? (
+    {/* {heroMsg !== "null" ? (
       <div className={heroStyles.heroText}>{heroMsg}</div>
-    ) : null}
+    ) : null} */}
   </div>
 );
 
 hero.propTypes = {
   heroImage: PropTypes.object,
-  heroMsg: PropTypes.string
+  heroMsg: PropTypes.string,
 };
 
 export default hero;

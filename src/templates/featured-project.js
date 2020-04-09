@@ -101,7 +101,7 @@ export const FeaturedProjectsTemplate = ({
               style={{
                 // borderBottom: "1px solid #e5e5e5",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "90px"
               }}
             >
               <div className="column is-10">
@@ -120,7 +120,7 @@ export const FeaturedProjectsTemplate = ({
                 background: "#fff",
                 // borderBottom: "1px solid #e5e5e5",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "90px"
               }}
             >
               <div className="column is-10">

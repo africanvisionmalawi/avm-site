@@ -14,6 +14,7 @@ import Videos from "../components/Videos";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
+import HeroMsg from "../components/HeroMsg";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -39,13 +40,14 @@ const TextSection = styled.section`
 export const FeaturedProjectsSimpleVidTemplate = ({
   heroImage,
   heroMsg,
+  heroMsgSource,
   title,
   currentProject,
   columns,
   content,
   videos,
   links,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -53,7 +55,7 @@ export const FeaturedProjectsSimpleVidTemplate = ({
     <div
       className="section section--gradient"
       style={{
-        paddingBottom: "0"
+        paddingBottom: "0",
       }}
     >
       <div className="container">
@@ -66,6 +68,9 @@ export const FeaturedProjectsSimpleVidTemplate = ({
             <main className={`column is-10 ${pageBasicStyles.main}`}>
               <TextSection>
                 <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+                {heroMsg && (
+                  <HeroMsg heroMsg={heroMsg} heroMsgSource={heroMsgSource} />
+                )}
                 <PageContent className="content" content={content} />{" "}
               </TextSection>
               <Donate
@@ -85,7 +90,7 @@ export const FeaturedProjectsSimpleVidTemplate = ({
               style={{
                 background: "#fff",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "30px",
               }}
             >
               <div className="column is-10">
@@ -100,7 +105,7 @@ export const FeaturedProjectsSimpleVidTemplate = ({
               style={{
                 background: "#fff",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "30px",
               }}
             >
               <div className="column is-10">
@@ -128,7 +133,7 @@ FeaturedProjectsSimpleVidTemplate.propTypes = {
   columns: PropTypes.number,
   content: PropTypes.string,
   videos: PropTypes.array,
-  links: PropTypes.array
+  links: PropTypes.array,
 };
 
 const FeaturedProjectsPageSimpleVid = ({ data }) => {
@@ -152,6 +157,7 @@ const FeaturedProjectsPageSimpleVid = ({ data }) => {
         content={post.html}
         heroImage={post.frontmatter.heroImage}
         heroMsg={post.frontmatter.heroMsg}
+        heroMsgSource={post.frontmatter.heroMsgSource}
         videos={post.frontmatter.videos}
         links={post.frontmatter.links}
       />
@@ -162,9 +168,9 @@ const FeaturedProjectsPageSimpleVid = ({ data }) => {
 FeaturedProjectsPageSimpleVid.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default FeaturedProjectsPageSimpleVid;
@@ -187,6 +193,7 @@ export const FeaturedProjectsPageSimpleVidQuery = graphql`
           }
         }
         heroMsg
+        heroMsgSource
         currentProject
         columns
         videos {

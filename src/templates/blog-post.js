@@ -15,7 +15,7 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  pdf_upload
+  pdf_upload,
 }) => {
   const PostContent = contentComponent || Content;
   var pdfUrl = "";
@@ -55,7 +55,7 @@ export const BlogPostTemplate = ({
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
-                  {tags.map(tag => (
+                  {tags.map((tag) => (
                     <li key={tag + `tag`}>
                       <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>
@@ -75,7 +75,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  pdf_upload: PropTypes.string
+  pdf_upload: PropTypes.string,
 };
 
 const BlogPost = ({ data }) => {
@@ -103,8 +103,8 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default BlogPost;
@@ -122,7 +122,6 @@ export const pageQuery = graphql`
         title
         description
         tags
-        pdf_upload
       }
     }
   }

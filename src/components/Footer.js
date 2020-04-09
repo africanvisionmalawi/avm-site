@@ -14,12 +14,16 @@ const LogoImg = styled.img`
   width: auto;
 `;
 
+const FooterMain = styled.div`
+  width: 100%;
+`;
+
 const Footer = () => (
   <footer className={footerStyles.footer} role="contentinfo">
     <FooterForm />
     <div className={footerStyles.footerInner}>
       <LogoImg src={logo} alt="" />
-      <div>
+      <FooterMain>
         <nav role="navigation">
           <Row justify="center">
             <Col xs={12} sm={8}>
@@ -151,7 +155,7 @@ const Footer = () => (
           &copy; 2019 African Vision Malawi. Registered charity 1113786.{" "}
           <a href="/privacy-statement/">View our Privacy Statement</a>
         </p>
-      </div>
+      </FooterMain>
     </div>
   </footer>
 );

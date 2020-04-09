@@ -14,6 +14,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
+import HeroMsg from "../components/HeroMsg";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -39,12 +40,13 @@ const TextSection = styled.section`
 export const FeaturedProjectsSimpleTemplate = ({
   heroImage,
   heroMsg,
+  heroMsgSource,
   title,
   currentProject,
   columns,
   content,
   links,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -52,7 +54,7 @@ export const FeaturedProjectsSimpleTemplate = ({
     <div
       className="section section--gradient"
       style={{
-        paddingBottom: "0"
+        paddingBottom: "0",
       }}
     >
       <div className="container">
@@ -65,6 +67,9 @@ export const FeaturedProjectsSimpleTemplate = ({
             <main className={`column is-9 ${pageBasicStyles.main}`}>
               <TextSection>
                 <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+                {heroMsg && (
+                  <HeroMsg heroMsg={heroMsg} heroMsgSource={heroMsgSource} />
+                )}
                 <PageContent className="content" content={content} />{" "}
               </TextSection>
               <Donate
@@ -85,7 +90,7 @@ export const FeaturedProjectsSimpleTemplate = ({
                 background: "#fff",
                 // borderBottom: "1px solid #e5e5e5",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "30px",
               }}
             >
               <div className="column is-10 is-offset-1">
@@ -108,11 +113,12 @@ export const FeaturedProjectsSimpleTemplate = ({
 FeaturedProjectsSimpleTemplate.propTypes = {
   heroImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   heroMsg: PropTypes.string,
+  heroMsgSource: PropTypes.string,
   title: PropTypes.string,
   currentProject: PropTypes.string,
   columns: PropTypes.number,
   content: PropTypes.string,
-  links: PropTypes.array
+  links: PropTypes.array,
 };
 
 const FeaturedProjectsPageSimple = ({ data }) => {
@@ -136,6 +142,7 @@ const FeaturedProjectsPageSimple = ({ data }) => {
         content={post.html}
         heroImage={post.frontmatter.heroImage}
         heroMsg={post.frontmatter.heroMsg}
+        heroMsgSource={post.frontmatter.heroMsgSource}
         links={post.frontmatter.links}
       />
     </Layout>
@@ -145,9 +152,9 @@ const FeaturedProjectsPageSimple = ({ data }) => {
 FeaturedProjectsPageSimple.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default FeaturedProjectsPageSimple;
@@ -170,6 +177,7 @@ export const FeaturedProjectsPageSimpleQuery = graphql`
           }
         }
         heroMsg
+        heroMsgSource
         currentProject
         columns
         links {

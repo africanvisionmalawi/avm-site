@@ -14,6 +14,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
+import HeroMsg from "../components/HeroMsg";
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
@@ -38,13 +39,14 @@ const TextSection = styled.section`
 export const FeaturedProjectsSimpleGalTemplate = ({
   heroImage,
   heroMsg,
+  heroMsgSource,
   title,
   currentProject,
   columns,
   content,
   gallery,
   links,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -52,7 +54,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
     <div
       className="section section--gradient"
       style={{
-        paddingBottom: "0"
+        paddingBottom: "0",
       }}
     >
       <div className="container">
@@ -64,6 +66,9 @@ export const FeaturedProjectsSimpleGalTemplate = ({
           <main className={`${pageBasicStyles.main}`}>
             <TextSection>
               <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              {heroMsg && (
+                <HeroMsg heroMsg={heroMsg} heroMsgSource={heroMsgSource} />
+              )}
               <PageContent className="content" content={content} />{" "}
             </TextSection>
             <Donate
@@ -82,7 +87,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
               style={{
                 background: "#fff",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "30px",
               }}
             >
               <div className="column is-10 is-offset-1">
@@ -97,7 +102,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
               style={{
                 background: "#ffffff",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "30px",
               }}
             >
               <div className="column is-10 is-offset-1">
@@ -128,7 +133,7 @@ FeaturedProjectsSimpleGalTemplate.propTypes = {
   columns: PropTypes.number,
   content: PropTypes.string,
   gallery: PropTypes.array,
-  links: PropTypes.array
+  links: PropTypes.array,
 };
 
 const FeaturedProjectsPageSimpleGal = ({ data }) => {
@@ -152,6 +157,7 @@ const FeaturedProjectsPageSimpleGal = ({ data }) => {
         content={post.html}
         heroImage={post.frontmatter.heroImage}
         heroMsg={post.frontmatter.heroMsg}
+        heroMsgSource={post.frontmatter.heroMsgSource}
         gallery={post.frontmatter.gallery}
         links={post.frontmatter.links}
       />
@@ -162,9 +168,9 @@ const FeaturedProjectsPageSimpleGal = ({ data }) => {
 FeaturedProjectsPageSimpleGal.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default FeaturedProjectsPageSimpleGal;
@@ -187,6 +193,7 @@ export const FeaturedProjectsPageSimpleGalQuery = graphql`
           }
         }
         heroMsg
+        heroMsgSource
         currentProject
         columns
         gallery {
