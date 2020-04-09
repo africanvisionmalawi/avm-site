@@ -122,6 +122,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        pdf_upload
       }
     }
   }
