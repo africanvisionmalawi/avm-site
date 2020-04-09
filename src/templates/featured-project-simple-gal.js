@@ -128,6 +128,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
 FeaturedProjectsSimpleGalTemplate.propTypes = {
   heroImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   heroMsg: PropTypes.string,
+  heroMsgSource: PropTypes.string,
   title: PropTypes.string,
   currentProject: PropTypes.string,
   columns: PropTypes.number,
