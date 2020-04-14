@@ -50,6 +50,13 @@ const H1Heading = styled.h1`
   text-align: center;
 `;
 
+const H2Heading = styled.h2`
+  font-size: 2.3em;
+`;
+const Statement = styled.p`
+  font-size: 1.3em;
+`;
+
 const SubHeading = styled.p`
   text-align: center;
 `;
@@ -104,16 +111,16 @@ export default class IndexPage extends React.Component {
                 <SubHeading>
                   (known as The Landirani Trust in Malawi).
                 </SubHeading>
-                <h2>Our vision</h2>
-                <p>
+                <H2Heading>Our vision</H2Heading>
+                <Statement>
                   Since 2005 African Vision Malawi has been helping children and
                   vulnerable people in Malawi, one of the poorest countries in
                   the world.
-                </p>
-                <p>
+                </Statement>
+                <Statement>
                   Our vision is to see a "healthy, educated and self-sufficient
                   community in Malawi".
-                </p>
+                </Statement>
               </TopHeroText>
             </Row>
             <HeroImage heroImage={heroImage} heroMsg="" />
@@ -218,9 +225,9 @@ export default class IndexPage extends React.Component {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export const lgRectImage = graphql`
