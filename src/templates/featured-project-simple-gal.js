@@ -15,6 +15,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import HeroMsg from "../components/HeroMsg";
+import Breadcrumbs from "../components/Breadcrumbs";
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
@@ -47,6 +48,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
   gallery,
   links,
   contentComponent,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -57,6 +59,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
         paddingBottom: "0",
       }}
     >
+      <Breadcrumbs path={path} />
       <div className="container">
         <section>
           <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
@@ -161,6 +164,7 @@ const FeaturedProjectsPageSimpleGal = ({ data }) => {
         heroMsgSource={post.frontmatter.heroMsgSource}
         gallery={post.frontmatter.gallery}
         links={post.frontmatter.links}
+        path={post.fields.slug}
       />
     </Layout>
   );

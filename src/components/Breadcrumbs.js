@@ -6,9 +6,21 @@ const Section = styled.div`
   background: #fff;
   margin: 0 auto;
   max-width: 750px;
-  padding: 3em 2em 0;
+  padding: 2.5em 12px 0.5em;
   position: relative;
   width: 100%;
+  @media (min-width: 480px) {
+    padding: 0.5em 100px 12px;
+  }
+  @media (min-width: 800px) {
+    padding-left: 80px;
+  }
+  @media (min-width: 900px) {
+    padding-left: 12px;
+  }
+  @media (min-width: 992px) {
+    padding-left: 0;
+  }
 `;
 
 const Links = styled.div`
@@ -22,18 +34,27 @@ const CrumbLinkBase = css`
   text-transform: capitalize;
 `;
 
-const HomeLink = styled(Link)`
-  ${CrumbLinkBase}
-`;
-
-const CrumbLink = styled(Link)`
-  ${CrumbLinkBase}
+const CrumbDividerBase = css`
   &:before {
     color: #cacaca;
     content: ">";
     display: inline-block;
     margin: 0 8px;
   }
+`;
+
+const HomeLink = styled(Link)`
+  ${CrumbLinkBase}
+`;
+
+const CrumbCurrent = styled.span`
+  ${CrumbLinkBase}
+  ${CrumbDividerBase}
+`;
+
+const CrumbLink = styled(Link)`
+  ${CrumbLinkBase}
+  ${CrumbDividerBase}
 `;
 
 let crumbLink = "";
@@ -58,9 +79,15 @@ const Breadcrumbs = (props) => {
       <Links>
         <HomeLink to="/">Home</HomeLink>
         {crumbFiltered.map((c, i) => (
-          <CrumbLink to={`${getLinks(c, i)}/`}>
-            {c.replace(/-/g, " ")}
-          </CrumbLink>
+          <>
+            {i < crumbFiltered.length - 1 ? (
+              <CrumbLink to={`${getLinks(c, i)}/`}>
+                {c.replace(/-/g, " ")}
+              </CrumbLink>
+            ) : (
+              <CrumbCurrent>{c.replace(/-/g, " ")}</CrumbCurrent>
+            )}
+          </>
         ))}
       </Links>
     </Section>

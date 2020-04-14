@@ -15,6 +15,7 @@ import Videos from "../components/Videos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import HeroMsg from "../components/HeroMsg";
+import Breadcrumbs from "../components/Breadcrumbs";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -48,6 +49,7 @@ export const FeaturedProjectsSimpleVidTemplate = ({
   videos,
   links,
   contentComponent,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -58,6 +60,7 @@ export const FeaturedProjectsSimpleVidTemplate = ({
         paddingBottom: "0",
       }}
     >
+      <Breadcrumbs path={path} />
       <div className="container">
         <section>
           <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
@@ -160,6 +163,7 @@ const FeaturedProjectsPageSimpleVid = ({ data }) => {
         heroMsgSource={post.frontmatter.heroMsgSource}
         videos={post.frontmatter.videos}
         links={post.frontmatter.links}
+        path={post.fields.slug}
       />
     </Layout>
   );

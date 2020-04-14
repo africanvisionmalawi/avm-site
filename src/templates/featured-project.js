@@ -12,6 +12,7 @@ import Gallery from "../components/Gallery";
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import Videos from "../components/Videos";
 // import FeaturedProjects from "../components/FeaturedProjects";
+import Breadcrumbs from "../components/Breadcrumbs";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 // import { Link } from 'gatsby'
@@ -46,7 +47,8 @@ export const FeaturedProjectsTemplate = ({
   videos,
   gallery,
   links,
-  contentComponent
+  contentComponent,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -54,9 +56,10 @@ export const FeaturedProjectsTemplate = ({
     <div
       className="section section--gradient"
       style={{
-        paddingBottom: "0"
+        paddingBottom: "0",
       }}
     >
+      <Breadcrumbs path={path} />
       <div className="container">
         <section>
           <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
@@ -86,7 +89,7 @@ export const FeaturedProjectsTemplate = ({
                 background: "#fff",
                 // borderBottom: "1px solid #e5e5e5",
                 marginBottom: "0",
-                paddingBottom: "30px"
+                paddingBottom: "30px",
               }}
             >
               <div className="column is-10">
@@ -101,7 +104,7 @@ export const FeaturedProjectsTemplate = ({
               style={{
                 // borderBottom: "1px solid #e5e5e5",
                 marginBottom: "0",
-                paddingBottom: "90px"
+                paddingBottom: "90px",
               }}
             >
               <div className="column is-10">
@@ -120,7 +123,7 @@ export const FeaturedProjectsTemplate = ({
                 background: "#fff",
                 // borderBottom: "1px solid #e5e5e5",
                 marginBottom: "0",
-                paddingBottom: "90px"
+                paddingBottom: "90px",
               }}
             >
               <div className="column is-10">
@@ -145,7 +148,7 @@ FeaturedProjectsTemplate.propTypes = {
   content: PropTypes.string,
   videos: PropTypes.array,
   gallery: PropTypes.array,
-  links: PropTypes.array
+  links: PropTypes.array,
 };
 
 const FeaturedProjectsPage = ({ data }) => {
@@ -172,6 +175,7 @@ const FeaturedProjectsPage = ({ data }) => {
         videos={post.frontmatter.videos}
         gallery={post.frontmatter.gallery}
         links={post.frontmatter.links}
+        path={post.fields.slug}
       />
     </Layout>
   );
@@ -180,9 +184,9 @@ const FeaturedProjectsPage = ({ data }) => {
 FeaturedProjectsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default FeaturedProjectsPage;

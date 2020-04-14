@@ -15,6 +15,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import HeroMsg from "../components/HeroMsg";
+import Breadcrumbs from "../components/Breadcrumbs";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -47,6 +48,7 @@ export const FeaturedProjectsSimpleTemplate = ({
   content,
   links,
   contentComponent,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -57,6 +59,7 @@ export const FeaturedProjectsSimpleTemplate = ({
         paddingBottom: "0",
       }}
     >
+      <Breadcrumbs path={path} />
       <div className="container">
         <section>
           <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
@@ -144,6 +147,7 @@ const FeaturedProjectsPageSimple = ({ data }) => {
         heroMsg={post.frontmatter.heroMsg}
         heroMsgSource={post.frontmatter.heroMsgSource}
         links={post.frontmatter.links}
+        path={post.fields.slug}
       />
     </Layout>
   );

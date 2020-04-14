@@ -9,12 +9,19 @@ import Content, { HTMLContent } from "../components/Content";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import PageLinks from "../components/PageLinks";
-import CtaButton from "../components/CtaButton";
+import Breadcrumbs from "../components/Breadcrumbs";
+import Donate from "../components/Donate";
 import styled from "styled-components";
 
-const Section = styled.section`
-  margin: 100px auto;
-  max-width: 980px;
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 3em 2em 2em;
+  position: relative;
   width: 100%;
 `;
 
@@ -22,33 +29,31 @@ export const PageTextLinksTemplate = ({
   title,
   content,
   contentComponent,
-  links
+  links,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <Section className="section">
+    <div>
       {/* {helmet || ""} */}
-
+      <Breadcrumbs path={path} />
       <div className="container">
-        <Row justify="center">
-          <Col span={20} offset={2}>
-            <article className="content">
-              <main>
-                <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
-                <PageContent className="content" content={content} />
-                <PageLinks pagelinks={links} />
-                <CtaButton
-                  link="https://www.charitycheckout.co.uk/1113786/"
-                  text="Donate"
-                />
-              </main>
-            </article>
-          </Col>
-        </Row>
+        <article className="content">
+          <TextSection>
+            <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+            <PageContent className="content" content={content} />
+            <PageLinks pagelinks={links} />
+          </TextSection>
+        </article>
+
+        <Donate
+          link="https://www.charitycheckout.co.uk/1113786/"
+          text="Donate"
+        />
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>
-    </Section>
+    </div>
   );
 };
 
@@ -56,7 +61,7 @@ PageTextLinksTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  links: PropTypes.array
+  links: PropTypes.array,
 };
 
 const PageTextLinks = ({ data }) => {
@@ -77,13 +82,14 @@ const PageTextLinks = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         links={post.frontmatter.links}
+        path={post.fields.slug}
       />
     </Layout>
   );
 };
 
 PageTextLinks.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default PageTextLinks;

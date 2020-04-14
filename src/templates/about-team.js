@@ -8,6 +8,7 @@ import Seo from "../components/seo";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
+import Breadcrumbs from "../components/Breadcrumbs";
 import teamStyles from "../components/team.module.css";
 import styled from "styled-components";
 
@@ -37,12 +38,14 @@ export const TeamTemplate = ({
   malawiText,
   ukTitle,
   ukText,
-  contentComponent
+  contentComponent,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <div className="section section--gradient">
+      <Breadcrumbs path={path} />
       <div className="container">
         <article className="content">
           <div className="columns">
@@ -53,7 +56,7 @@ export const TeamTemplate = ({
                 </h1>
                 <h2>Team in Malawi</h2>
                 <ul className={teamStyles.teamList}>
-                  {malawiTeam.map(team => (
+                  {malawiTeam.map((team) => (
                     <li key={team.name}>
                       <div className={teamStyles.teamPhoto}>
                         <PreviewCompatibleImage imageInfo={team.photo} />
@@ -74,7 +77,7 @@ export const TeamTemplate = ({
                 </div>
                 <h2>Team in the UK</h2>
                 <ul className={teamStyles.teamList}>
-                  {ukTeam.map(team => (
+                  {ukTeam.map((team) => (
                     <li key={team.name}>
                       <div className={teamStyles.teamPhoto}>
                         <PreviewCompatibleImage imageInfo={team.photo} />
@@ -107,7 +110,7 @@ TeamTemplate.propTypes = {
   malawiText: PropTypes.string,
   ukTitle: PropTypes.string,
   ukText: PropTypes.string,
-  content: PropTypes.string
+  content: PropTypes.string,
 };
 
 const TeamPage = ({ data }) => {
@@ -132,6 +135,7 @@ const TeamPage = ({ data }) => {
         malawiText={post.frontmatter.malawiText}
         ukTitle={post.frontmatter.ukTitle}
         ukText={post.frontmatter.ukText}
+        path={post.fields.slug}
       />
     </Layout>
   );
@@ -140,9 +144,9 @@ const TeamPage = ({ data }) => {
 TeamPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default TeamPage;
