@@ -9,6 +9,7 @@ import Seo from "../components/seo";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
+import Breadcrumbs from "../components/Breadcrumbs";
 // import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
@@ -34,14 +35,15 @@ export const PageBasicTemplate = ({
   title,
   description,
   content,
-  contentComponent
+  contentComponent,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <div className="section">
       {/* {helmet || ""} */}
-
+      <Breadcrumbs path={path} />
       <div className="container">
         <article className="content">
           <main>
@@ -67,7 +69,7 @@ PageBasicTemplate.propTypes = {
   description: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
-  pageContext: PropTypes.object
+  pageContext: PropTypes.object,
 };
 
 const PageBasic = ({ data }) => {
@@ -88,13 +90,14 @@ const PageBasic = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         description={post.frontmatter.description}
+        path={post.fields.slug}
       />
     </Layout>
   );
 };
 
 PageBasic.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default PageBasic;

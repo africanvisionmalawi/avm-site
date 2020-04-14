@@ -8,7 +8,7 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import Gallery from "../components/Gallery";
-import CtaButton from "../components/CtaButton";
+import Breadcrumbs from "../components/Breadcrumbs";
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
@@ -35,12 +35,14 @@ export const PageGalleryTemplate = ({
   content,
   contentComponent,
   gallery,
+  path,
 }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <div className="section section--gradient">
       <div className="container">
+        <Breadcrumbs path={path} />
         <article className="content">
           <main className={`column is-8 ${pageBasicStyles.main}`}>
             <TextSection>
@@ -97,6 +99,7 @@ const PageGallery = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         gallery={post.frontmatter.gallery}
+        path={post.fields.slug}
       />
     </Layout>
   );
