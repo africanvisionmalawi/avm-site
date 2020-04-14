@@ -100,22 +100,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
             </Section>
           )}
           {gallery.length && (
-            <Section
-              className="full-width-container margin-top-0"
-              style={{
-                background: "#ffffff",
-                marginBottom: "0",
-                paddingBottom: "30px",
-              }}
-            >
-              <div className="column is-10 is-offset-1">
-                <h2>Photo updates</h2>
-                <Gallery
-                  gallery={gallery}
-                  initialState={{ showDialog: false }}
-                />
-              </div>
-            </Section>
+            <Gallery gallery={gallery} initialState={{ showDialog: false }} />
           )}
         </article>
 

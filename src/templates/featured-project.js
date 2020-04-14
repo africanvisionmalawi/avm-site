@@ -37,6 +37,19 @@ const TextSection = styled.section`
   width: 100%;
 `;
 
+// const GalleryCont = styled.section`
+// background: #f7f7f7;
+//   border-top: 1px solid #d7dade;
+//   border-bottom: 1px solid #d7dade;
+//   width: 100%;
+// `;
+
+// const GalleryInner = styled.div`
+//   margin: 0 auto;
+//   max-width: 1050px;
+//   width: 100%;
+// `
+
 export const FeaturedProjectsTemplate = ({
   heroImage,
   heroMsg,
@@ -99,22 +112,7 @@ export const FeaturedProjectsTemplate = ({
             </Section>
           )}
           {gallery.length && (
-            <Section
-              className="full-width-container margin-top-0"
-              style={{
-                // borderBottom: "1px solid #e5e5e5",
-                marginBottom: "0",
-                paddingBottom: "90px",
-              }}
-            >
-              <div className="column is-10">
-                <h2>Photo updates</h2>
-                <Gallery
-                  gallery={gallery}
-                  initialState={{ showDialog: false }}
-                />
-              </div>
-            </Section>
+            <Gallery gallery={gallery} initialState={{ showDialog: false }} />
           )}
           {links.length && (
             <Section

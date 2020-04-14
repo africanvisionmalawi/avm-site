@@ -55,17 +55,7 @@ export const PageGalleryTemplate = ({
             />
           </main>
           {gallery.length && (
-            <Section
-              className=""
-              style={{
-                background: "#ffffff",
-                marginBottom: "0",
-                paddingBottom: "30px",
-              }}
-            >
-              <h2>Photo updates</h2>
-              <Gallery gallery={gallery} initialState={{ showDialog: false }} />
-            </Section>
+            <Gallery gallery={gallery} initialState={{ showDialog: false }} />
           )}
         </article>
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
