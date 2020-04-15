@@ -8,6 +8,19 @@ import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import Content, { HTMLContent } from "../components/Content";
 import postStyles from "../components/posts.module.css";
+import styled from "styled-components";
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
 
 export const BlogPostTemplate = ({
   content,
@@ -27,11 +40,9 @@ export const BlogPostTemplate = ({
 
   return (
     <section className="section">
-      <div className="container content">
-        <div className="columns">
-          <div
-            className={`column is-10 is-offset-1 ${postStyles.singleContent}`}
-          >
+      <div className="container">
+        <article>
+          <TextSection>
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
@@ -63,8 +74,8 @@ export const BlogPostTemplate = ({
                 </ul>
               </div>
             ) : null}
-          </div>
-        </div>
+          </TextSection>
+        </article>
       </div>
     </section>
   );

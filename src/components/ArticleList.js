@@ -4,12 +4,12 @@ import BlogItem from "./BlogRollItem";
 
 const PostCard = ({ posts }) => {
   return (
-    <div>
+    <>
       {posts &&
         posts
-          .filter(post => post.node.frontmatter.templateKey === "blog-post")
+          .filter((post) => post.node.frontmatter.templateKey === "blog-post")
           .map(({ node: post }) => <BlogItem post={post} />)}
-    </div>
+    </>
   );
 };
 

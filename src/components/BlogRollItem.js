@@ -1,38 +1,44 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
-import postStyles from "./posts.module.css";
+// import postStyles from "./posts.module.css";
+import styled from "styled-components";
 // import Img from "gatsby-image";
 
+const Article = styled.article`
+  border-bottom: 1px solid #494949;
+  margin: 0;
+  padding: 2.4em 0;
+`;
+
+const PostDate = styled.div`
+  color: #ababad;
+  font-size: 0.9rem;
+  margin-top: 0.5em;
+  padding: 0 2px 8px;
+`;
+
 const BlogItem = ({ post }) => (
-  <div className={postStyles.list} key={post.id}>
+  <>
     {post.frontmatter.published && (
-      <article className={postStyles.listContent}>
+      <Article key={post.id}>
+        <h3>
+          <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+          <PostDate>{post.frontmatter.date}</PostDate>
+        </h3>
         <p>
-          <Link
-            className="title has-text-primary is-size-4"
-            to={post.fields.slug}
-          >
-            {post.frontmatter.title}
-          </Link>
-          <span> &bull; </span>
-          <span className={postStyles.date}>{post.frontmatter.date}</span>
-        </p>
-        <p>
-          {post.excerpt}
-          <br />
-          <br />
+          {post.excerpt}{" "}
           <Link className="button" to={post.fields.slug}>
-            Keep Reading →
+            Read more
           </Link>
         </p>
-      </article>
+      </Article>
     )}
-  </div>
+  </>
 );
 
 BlogItem.propTypes = {
-  post: PropTypes.object
+  post: PropTypes.object,
 };
 
 export default BlogItem;
