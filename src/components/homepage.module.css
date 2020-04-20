@@ -74,7 +74,7 @@
 .cardCont {
   align-items: grid-start;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 373px);
   grid-gap: 30px;
   flex-shrink: 2;
   max-width: 1525px;
@@ -98,7 +98,7 @@
   .newsCont {
     display: flex;
     margin: 2rem auto;
-    max-width: 980px;
+    max-width: 1180px;
     /* flex-wrap: none; */
   }
   .latestNewsBox {

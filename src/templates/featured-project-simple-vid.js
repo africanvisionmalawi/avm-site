@@ -22,7 +22,7 @@ import styled from "styled-components";
 
 const Section = styled.section`
   margin: 0 auto;
-  max-width: 1050px;
+  max-width: 1180px;
   width: 100%;
 `;
 
@@ -32,8 +32,8 @@ const TextSection = styled.section`
   border-top-right-radius: 6px;
   min-height: 24rem;
   margin: 0 auto;
-  max-width: 750px;
-  padding: 2em;
+  max-width: 1180px;
+  padding: 4em 8em;
   position: relative;
   width: 100%;
 `;

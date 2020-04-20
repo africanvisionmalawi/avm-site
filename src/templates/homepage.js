@@ -26,7 +26,7 @@ const TopSection = styled.section`
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1180px;
   padding: 3em 2em;
   position: relative;
   width: 100%;
@@ -279,7 +279,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             featuredImage {
               childImageSharp {
-                fixed(width: 300, height: 180) {
+                fixed(width: 371, height: 222) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -320,7 +320,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             photo {
               childImageSharp {
-                fixed(width: 300, height: 180) {
+                fixed(width: 371, height: 222) {
                   ...GatsbyImageSharpFixed
                 }
               }
