@@ -233,8 +233,8 @@ IndexPage.propTypes = {
 export const lgRectImage = graphql`
   fragment photoTileFixedLgRect on File {
     childImageSharp {
-      fixed(width: 980, height: 300) {
-        ...GatsbyImageSharpFixed
+      fluid(maxWidth: 980, maxHeight: 300) {
+        ...GatsbyImageSharpFluid
       }
     }
   }
@@ -243,8 +243,8 @@ export const lgRectImage = graphql`
 export const mdRectImage = graphql`
   fragment photoTileFixedMdRect on File {
     childImageSharp {
-      fixed(width: 480, height: 300) {
-        ...GatsbyImageSharpFixed
+      fluid(maxWidth: 480, maxHeight: 300) {
+        ...GatsbyImageSharpFluid
       }
     }
   }

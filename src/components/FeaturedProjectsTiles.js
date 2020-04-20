@@ -14,8 +14,8 @@ const projects = [
     imageId: "PhotoVillage",
     colWidth: {
       xs: 24,
-      sm: 24
-    }
+      sm: 24,
+    },
   },
   {
     id: "water",
@@ -24,8 +24,8 @@ const projects = [
     imageId: "PhotoWater",
     colWidth: {
       xs: 24,
-      sm: 12
-    }
+      sm: 12,
+    },
   },
   {
     id: "health",
@@ -34,8 +34,8 @@ const projects = [
     imageId: "PhotoHealth",
     colWidth: {
       xs: 24,
-      sm: 12
-    }
+      sm: 12,
+    },
   },
   {
     id: "education",
@@ -44,8 +44,8 @@ const projects = [
     imageId: "PhotoEducation",
     colWidth: {
       xs: 24,
-      sm: 24
-    }
+      sm: 24,
+    },
   },
   {
     id: "environment",
@@ -54,8 +54,8 @@ const projects = [
     imageId: "PhotoEnvironment",
     colWidth: {
       xs: 24,
-      sm: 12
-    }
+      sm: 12,
+    },
   },
   {
     id: "celebrate",
@@ -64,9 +64,9 @@ const projects = [
     imageId: "PhotoCelebrate",
     colWidth: {
       xs: 24,
-      sm: 12
-    }
-  }
+      sm: 12,
+    },
+  },
 ];
 
 const Container = styled.section`
@@ -79,8 +79,8 @@ const Container = styled.section`
 const TileCont = styled.div``;
 
 const Tile = styled(Col)`
-  border-radius: 4px;
   overflow: hidden;
+  padding: 4px;
   position: relative;
   & img {
     border-radius: 4px;
@@ -88,8 +88,15 @@ const Tile = styled(Col)`
 `;
 
 const TileLink = styled(Link)`
-  display: inline-block;
+  border-radius: 4px;
+  display: block;
+  overflow: hidden;
   position: relative;
+  & img {
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+  }
 `;
 
 const Heading = styled.h2`
@@ -155,7 +162,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
       <TileCont>
         {displayHeading === true ? <Heading>Featured projects</Heading> : ""}
         <Row className={projectLinkStyles.featuredProjects}>
-          {projects.map(project => (
+          {projects.map((project) => (
             <Tile
               className={
                 project.id === currentProject ? projectLinkStyles.active : ``
@@ -169,7 +176,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
                   <SubHeading>{project.name}</SubHeading>
                 </Overlay>
                 <Img
-                  fixed={featuredImage[project.imageId].childImageSharp.fixed}
+                  fluid={featuredImage[project.imageId].childImageSharp.fluid}
                   alt=""
                 />
               </TileLink>
@@ -183,7 +190,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
 
 FeaturedProjects.propTypes = {
   currentProject: PropTypes.string,
-  displayHeading: PropTypes.bool
+  displayHeading: PropTypes.bool,
 };
 
 export default FeaturedProjects;
