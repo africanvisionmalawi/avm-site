@@ -54,4 +54,4 @@ links:
     url: "./environment/fruit-trees/"
 ---
 
-Environment content goes here.
+We have a number of environmental projects including Groundnut Farming, Fuel-Saving Stoves, Reforestation, Food Mills, Vegetable Gardens and Fruit Trees.

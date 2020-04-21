@@ -29,4 +29,8 @@ links:
     url: "./water/sanitation/"
 ---
 
-Text about Water and sanitation goes here.
+45,000 people in our area need clean, safe water.
+
+We have initiated a safe water program and intend to ensure that everyone in our area (around 45,000 people) has access to clean, safe water.
+
+We support 14 centres, each with a number of satellite villages (anything up to 40).

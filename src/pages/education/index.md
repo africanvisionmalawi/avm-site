@@ -43,4 +43,4 @@ links:
 columns:
 ---
 
-Education content goes here.
+We have setup 9 Community Based Childcare Centres to date to support the under 5's and support pupils in Primary, Secondary and University/Further Edication.
