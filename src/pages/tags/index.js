@@ -1,8 +1,35 @@
-import React from 'react'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
-import Layout from '../../components/Layout'
+import React from "react";
+import { kebabCase } from "lodash";
+import Helmet from "react-helmet";
+import { Link, graphql } from "gatsby";
+import Layout from "../../components/Layout";
+import styled from "styled-components";
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
+
+const List = styled.ul`
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  width: 100%;
+`;
+const ListItem = styled.li`
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+`;
 
 const TagsPage = ({
   data: {
@@ -15,30 +42,29 @@ const TagsPage = ({
   <Layout>
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
-      <div className="container content">
-        <div className="columns">
-          <div
-            className="column is-10 is-offset-1"
-            style={{ marginBottom: '6rem' }}
-          >
-            <h1 className="title is-size-2 is-bold-light">Tags</h1>
-            <ul className="taglist">
-              {group.map(tag => (
-                <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                    {tag.fieldValue} ({tag.totalCount})
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
+      <article>
+        <TextSection>
+          <h1>Tags</h1>
+          <List>
+            {group.map((tag) => (
+              <>
+                {tag.fieldValue ? (
+                  <ListItem key={tag.fieldValue}>
+                    <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                      {tag.fieldValue} ({tag.totalCount})
+                    </Link>
+                  </ListItem>
+                ) : null}
+              </>
+            ))}
+          </List>
+        </TextSection>
+      </article>
     </section>
   </Layout>
-)
+);
 
-export default TagsPage
+export default TagsPage;
 
 export const tagPageQuery = graphql`
   query TagsQuery {
@@ -54,4 +80,4 @@ export const tagPageQuery = graphql`
       }
     }
   }
-`
+`;

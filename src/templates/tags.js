@@ -40,43 +40,41 @@ const BrowseAll = styled.div`
   text-align: center;
 `;
 
-class TagRoute extends React.Component {
-  render() {
-    const posts = this.props.data.allMarkdownRemark.edges;
-    const postLinks = posts.map((post) => (
-      <ListItem key={post.node.fields.slug}>
-        <h3>
-          <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link>
-        </h3>
-        <p>
-          {post.node.excerpt} <Link to={post.node.fields.slug}>Read more</Link>
-        </p>
-      </ListItem>
-    ));
-    const tag = this.props.pageContext.tag;
-    const tagMetaTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
-    const title = this.props.data.site.siteMetadata.title;
-    const totalCount = this.props.data.allMarkdownRemark.totalCount;
-    const tagHeader = `${totalCount} post${
-      totalCount === 1 ? "" : "s"
-    } archive tagged with “${tag}”`;
+const TagRoute = (props) => {
+  const posts = props.data.allMarkdownRemark.edges;
+  const postLinks = posts.map((post) => (
+    <ListItem key={post.node.fields.slug}>
+      <h3>
+        <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link>
+      </h3>
+      <p>
+        {post.node.excerpt} <Link to={post.node.fields.slug}>Read more</Link>
+      </p>
+    </ListItem>
+  ));
+  const tag = props.pageContext.tag;
+  const tagMetaTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
+  const title = props.data.site.siteMetadata.title;
+  const totalCount = props.data.allMarkdownRemark.totalCount;
+  const tagHeader = `${totalCount} post${
+    totalCount === 1 ? "" : "s"
+  } archive tagged with “${tag}”`;
 
-    return (
-      <Layout>
-        <Helmet title={`${tagMetaTitle} | ${title}`} />
-        <article>
-          <TextSection>
-            <h1 className="title is-bold-light">{tagHeader}</h1>
-            <List>{postLinks}</List>
-            <BrowseAll>
-              <Link to="/tags/">Browse all tags</Link>
-            </BrowseAll>
-          </TextSection>
-        </article>
-      </Layout>
-    );
-  }
-}
+  return (
+    <Layout>
+      <Helmet title={`${tagMetaTitle} | ${title}`} />
+      <article>
+        <TextSection>
+          <h1 className="title is-bold-light">{tagHeader}</h1>
+          <List>{postLinks}</List>
+          <BrowseAll>
+            <Link to="/tags/">Browse all tags</Link>
+          </BrowseAll>
+        </TextSection>
+      </article>
+    </Layout>
+  );
+};
 
 export default TagRoute;
 
