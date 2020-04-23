@@ -6,23 +6,24 @@ module.exports = {
     description:
       "Since 2005 African Vision Malawi has been helping children and vulnerable people in Malawi, one of the poorest countries in the world. Our vision is to see a healthy, educated and self-sufficient community in Malawi..",
     siteUrl: "https://www.africanvision.org.uk",
-    baseUrl: "https://www.africanvision.org.uk"
+    baseUrl: "https://www.africanvision.org.uk",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.africanvision.org.uk`
-      }
+        siteUrl: `https://www.africanvision.org.uk`,
+      },
     },
     "gatsby-plugin-sass",
     "gatsby-plugin-antd",
+    "gatsby-plugin-linaria",
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`
-      }
+        pathToConfigModule: `src/utils/typography`,
+      },
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -34,10 +35,10 @@ module.exports = {
           // },
           {
             family: `Clicker Script`,
-            variants: [`400`, `700`]
-          }
-        ]
-      }
+            variants: [`400`, `700`],
+          },
+        ],
+      },
     },
     "gatsby-remark-embed-video",
     "gatsby-remark-responsive-iframe",
@@ -47,22 +48,22 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
-        name: "img"
-      }
+        name: "img",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: "pages"
-      }
+        name: "pages",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/img`,
-        name: "images"
-      }
+        name: "images",
+      },
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -73,8 +74,8 @@ module.exports = {
           {
             resolve: "gatsby-remark-relative-images",
             options: {
-              name: "uploads"
-            }
+              name: "uploads",
+            },
           },
           {
             resolve: "gatsby-remark-images",
@@ -82,14 +83,14 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 2048
-            }
+              maxWidth: 2048,
+            },
           },
           {
             resolve: "gatsby-remark-copy-linked-files",
             options: {
-              destinationDir: "static"
-            }
+              destinationDir: "static",
+            },
           },
           {
             resolve: "gatsby-remark-embed-video",
@@ -98,18 +99,18 @@ module.exports = {
               ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
               height: 311, // Optional: Overrides optional.ratio
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
-              noIframeBorder: true //Optional: Disable insertion of <style> border: 0
-            }
-          }
-        ]
-      }
+              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+            },
+          },
+        ],
+      },
     },
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
-    },
+    // {
+    //   resolve: "gatsby-plugin-netlify-cms",
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`,
+    //   },
+    // },
     // {
     //   resolve: "gatsby-plugin-google-fonts",
     //   options: {
@@ -128,10 +129,10 @@ module.exports = {
       options: {
         apiKey:
           "YmFjZGVkZGEtZDc4Yi00YWY1LThjOTctOWM5MDMxYWM3OGVkNjM3MDYyNTAzOTQwMzU0MTUz",
-        autopop: true
-      }
+        autopop: true,
+      },
     },
 
-    "gatsby-plugin-netlify" // make sure to keep it last in the array
-  ]
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
+  ],
 };
