@@ -6,11 +6,42 @@ import { graphql, Link } from "gatsby";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Seo from "../components/seo";
 import Layout from "../components/Layout";
+import HeroImage from "../components/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 // import Img from "gatsby-image";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import pageBasicStyles from "../components/pageBasic.module.css";
+import Breadcrumbs from "../components/Breadcrumbs";
 import EventDate from "../components/EventDate";
+import { styled } from "linaria/react";
+
+const Section = styled.section`
+  margin: 0 auto;
+  max-width: 1180px;
+  width: 100%;
+`;
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 1em 2em;
+  position: relative;
+  width: 100%;
+  @media (min-width: 768px) {
+    padding: 2em 4em;
+  }
+  @media (min-width: 1040px) {
+    padding: 4em 8em;
+  }
+`;
+
+const Main = styled.main`
+  background: #fff;
+  border-radius: 2px;
+`;
 
 export const EventsPostTemplate = ({
   content,
@@ -25,73 +56,49 @@ export const EventsPostTemplate = ({
   cost,
   url,
   helmet,
-  photo
+  photo,
+  path,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
     <section className="section">
       {helmet || ""}
+      <Breadcrumbs path={path} />
       <div className="container content">
-        <div className="columns">
-          <main className={`column is-8 is-offset-1 ${pageBasicStyles.main}`}>
-            {photo && Object.keys(photo.childImageSharp.fluid).length ? (
-              <PreviewCompatibleImage imageInfo={photo} />
-            ) : null}
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>
-              Date(s): <EventDate date={date} endDate={endDate} />
-            </p>
-            <p>Location: {location}</p>
-            <p>contact: none telephone: 0 cost: &pound;{cost}</p>
-            <p>{description}</p>
-            <PostContent content={content} />
-
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </main>
-          <aside className="column is-4">
-            <ul>
-              <li>
-                <Link to="/events/">View all events</Link>
-              </li>
-              {/* component with latest 5 events goes here */}
-            </ul>
-          </aside>
-        </div>
+        <section>
+          <HeroImage heroImage={photo} heroMsg={null} />
+        </section>
+        <article>
+          <Main>
+            <TextSection>
+              <h1>{title}</h1>
+              <p>
+                Date(s): <EventDate date={date} endDate={endDate} />
+              </p>
+              <p>Location: {location}</p>
+              <p>contact: none telephone: 0 cost: &pound;{cost}</p>
+              <p>{description}</p>
+              <PostContent content={content} />
+              {tags && tags.length ? (
+                <div style={{ marginTop: `4rem` }}>
+                  <h4>Tags</h4>
+                  <ul className="taglist">
+                    {tags.map((tag) => (
+                      <li key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+              <Link to="/events/">View all events</Link>
+            </TextSection>
+          </Main>
+        </article>
       </div>
     </section>
   );
-};
-
-EventsPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  date: PropTypes.string,
-  endDate: PropTypes.string,
-  allday: PropTypes.bool,
-  location: PropTypes.string,
-  contact: PropTypes.number,
-  telephone: PropTypes.number,
-  cost: PropTypes.number,
-  url: PropTypes.string,
-  tags: PropTypes.array,
-  helmet: PropTypes.object,
-  photo: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const EventsPost = ({ data }) => {
@@ -129,6 +136,7 @@ const EventsPost = ({ data }) => {
         cost={post.frontmatter.cost}
         url={post.frontmatter.url}
         photo={post.frontmatter.photo}
+        path={post.fields.slug}
       />
     </Layout>
   );
@@ -136,8 +144,8 @@ const EventsPost = ({ data }) => {
 
 EventsPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
-  })
+    markdownRemark: PropTypes.object,
+  }),
 };
 
 export default EventsPost;

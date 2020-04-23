@@ -12,7 +12,7 @@ All of the individuals and companies who are donors, fundraisers, sponsors and v
 
 All our regular partners, in Malawi and the UK.
 
-All our UK partnership schools, and especially those who have raised money for their Malawian partnership schools.
+All our [UK partnership schools](http://www.africanvision.org.uk/projects/school-partnerships/#schools), and especially those who have raised money for their Malawian partnership schools.
 
 Thank you so much to:
 
@@ -26,7 +26,7 @@ Allan and Nesta Ferguson Charitable Trust
 
 Anna Pearson
 
-AidCamps
+[AidCamps](http://www.aidcamps.org/)
 
 Bobby Wyeth
 
@@ -36,17 +36,17 @@ Brian Heywood
 
 Bryony Meek
 
-CED Natural Stone
+[CED Natural Stone](http://www.ced.ltd.uk/)
 
-Child.org (was Seeds for Africa)
+[Child.org](http://child.org/) (was Seeds for Africa)
 
-cornerHOUSE
+[cornerHOUSE](http://www.thech.org/)
 
-Coventry City Football Club
+[Coventry City Football Club](http://www.ccfc.co.uk/)
 
 Eileen Speak
 
-Fatbrain
+[Fatbrain](http://fatbrain.co.uk/)
 
 Felix Dyer
 

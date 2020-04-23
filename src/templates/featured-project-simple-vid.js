@@ -33,9 +33,15 @@ const TextSection = styled.section`
   min-height: 24rem;
   margin: 0 auto;
   max-width: 1180px;
-  padding: 4em 8em;
+  padding: 1em 2em;
   position: relative;
   width: 100%;
+  @media (min-width: 768px) {
+    padding: 2em 4em;
+  }
+  @media (min-width: 1040px) {
+    padding: 4em 8em;
+  }
 `;
 
 export const FeaturedProjectsSimpleVidTemplate = ({
