@@ -16,8 +16,9 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 // import { Link } from 'gatsby'
-import pageBasicStyles from "../components/pageBasic.module.css";
-import styled from "styled-components";
+// import pageBasicStyles from "../components/pageBasic.module.css";
+// import styled from "styled-components";
+import { styled } from "linaria/react";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -32,10 +33,23 @@ const TextSection = styled.section`
   min-height: 24rem;
   margin: 0 auto;
   max-width: 1180px;
-  padding: 4em 8em;
+  padding: 1em 2em;
   position: relative;
   width: 100%;
+  @media (min-width: 768px) {
+    padding: 2em 4em;
+  }
+  @media (min-width: 1040px) {
+    padding: 4em 8em;
+  }
 `;
+
+const Main = styled.main`
+  background: #fff;
+  border-radius: 2px;
+`;
+
+const Container = styled.div``;
 
 // const GalleryCont = styled.section`
 // background: #f7f7f7;
@@ -73,13 +87,13 @@ export const FeaturedProjectsTemplate = ({
       }}
     >
       <Breadcrumbs path={path} />
-      <div className="container">
+      <Container>
         <section>
           <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
         </section>
 
         <article className="content">
-          <main className={`${pageBasicStyles.main}`}>
+          <Main>
             <TextSection>
               <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
               <PageContent className="content" content={content} />{" "}
@@ -88,7 +102,7 @@ export const FeaturedProjectsTemplate = ({
               link="https://www.charitycheckout.co.uk/1113786/"
               text="Donate"
             />
-          </main>
+          </Main>
           {columns === 2 ? (
             <aside className="column is-4">side col goes here</aside>
           ) : (
@@ -132,7 +146,7 @@ export const FeaturedProjectsTemplate = ({
           )}
         </article>
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
-      </div>
+      </Container>
     </div>
   );
 };
