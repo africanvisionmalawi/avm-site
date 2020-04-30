@@ -26,6 +26,4 @@ links:
     linkText: Many people travelling to Malawi often don't need the full 46kg weight allowance offered by some airlines ..... please let us use it by giving you a bag of clothes to take out ... we can collect it or you can see how it reaches those in need yourself
 ---
 
-Raise funds for a sponsored event of your own. Using BT mydonate you can start your own fundraising campaign to support the work of African Vision Malawi.
-
-<a href="https://mydonate.bt.com/charities/thelandiranitrust" style="display: block; margin: 0 auto 30px; width: 144px;" onclick="javascript:window.open('https://mydonate.bt.com/charities/thelandiranitrust'); return false;"><img src="http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2012/07/my-donate-sml.gif" alt="BTMyDonate"></a>
+Raise funds for a sponsored event of your own. Using [BT mydonate](https://mydonate.bt.com/charities/thelandiranitrust) you can start your own fundraising campaign to support the work of African Vision Malawi.

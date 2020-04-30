@@ -178,7 +178,11 @@ const Navbar = class extends React.Component {
                         >
                           <Menu.Item>Current Projects</Menu.Item>
                           <Menu.Item>Past Projects</Menu.Item>
-                          <Menu.Item>Stories from the field</Menu.Item>
+                          <Menu.Item>
+                            <Link to="/projects/stories-from-the-field/">
+                              Stories from the field
+                            </Link>
+                          </Menu.Item>
                         </SubMenu>
                         <SubMenu
                           key="getInvolved"

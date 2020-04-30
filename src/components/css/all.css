@@ -11,6 +11,11 @@ img {
   margin-bottom: 0;
 }
 
+span.gatsby-resp-image-wrapper + em {
+  display: block;
+  text-align: center;
+}
+
 /* h1:after,
 h2:after {
   border-bottom: 3px solid #c48449;
