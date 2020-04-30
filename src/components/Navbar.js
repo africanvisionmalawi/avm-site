@@ -66,26 +66,26 @@ const Navbar = class extends React.Component {
 
   state = {
     current: "mail",
-    drawerVisible: false
+    drawerVisible: false,
   };
 
-  handleClick = e => {
+  handleClick = (e) => {
     console.log("click ", e);
     this.setState({
-      current: e.key
+      current: e.key,
     });
   };
 
   // Mobile nav drawer
   showDrawer = () => {
     this.setState({
-      drawerVisible: true
+      drawerVisible: true,
     });
   };
 
   onClose = () => {
     this.setState({
-      drawerVisible: false
+      drawerVisible: false,
     });
   };
 
@@ -229,6 +229,14 @@ const Navbar = class extends React.Component {
                               to="/get-involved/use-your-baggage-allowance-to-lilongwe/"
                             >
                               Take a suitcase to Lilongwe for us!
+                            </Link>
+                          </Menu.Item>
+                          <Menu.Item>
+                            <Link
+                              className="navbar-item"
+                              to="/get-involved/vacancies/"
+                            >
+                              Work for us
                             </Link>
                           </Menu.Item>
                           <Menu.Item>

@@ -18,26 +18,26 @@ We like to use volunteers to do research, programme proposals, evaluations, impl
 
 ## Process
 
-1. Complete the registration form and payment and show your project interest and skills
+1. Complete the [registration form](/pdfs/Volunteer-application-form.docx) and payment and show your project interest and skills
 2. Discuss your application and potential dates with our team in the UK
 3. Prepare for your trip (book flights, get vaccinations, get insurance, plan activities, raise funds, pack)
 4. Go to Malawi and have an experience of a lifetime by making a difference to a community!
 5. Complete our Volunteer evaluation, so we can make the most of future volunteers’ time and skills in making a difference.
-   Literacy session in Library
-
-Literacy session in the Library
+   
+![Literacy session in Library](/img/volunteer/Jennie-Hawley-literacy-in-library.jpg "Literacy session in the Library")
+_Literacy session in the Library_
 
 ## Downloadable information:
 
-Click here for the volunteering information and costs (including all the information on this page). Please note: accommodation at Sam’s Village and the Landirani Trust office is planned for completion in 2016.
+Click [here](/pdfs/volunteering-info-and-costs-2015.pdf) for the volunteering information and costs (including all the information on this page). Please note: accommodation at Sam’s Village and the Landirani Trust office is planned for completion in 2016.
 
-Click here for the volunteer application registration form.
+Click [here](/pdfs/Volunteer-application-form.docx) for the volunteer application registration form.
 
-Click here for the volunteer cost calculator Excel file.
+Click [here](/pdfs/Volunteer-calculator.xlsx) for the volunteer cost calculator Excel file.
 
-You can email us at info@africanvision.org.uk or our phone number in the UK is 020 8287 8169.
+You can email us at [info@africanvision.org.uk](mailto:info@africanvision.org.uk) or our phone number in the UK is 020 8287 8169.
 
-You can also read Lucy Bromley’s account of volunteering for African Vision Malawi.
+You can also read Lucy Bromley’s account of [volunteering for African Vision Malawi](/volunteering/volunteering-for-african-vision-malawi/).
 
 ## Volunteer Programme Costs:
 
@@ -82,6 +82,8 @@ It is important to read the Staff Handbook and Volunteer Pack, which will give y
 
 ## Example volunteer costs
 
+![Example volunteer costs](/img/volunteer/Example-volunteer-costs.jpg "Example volunteer costs")
+
 The above is an indicative table – Please use the volunteer calculator excel file to do your own calculations.
 
-You can email us at info@africanvision.org.uk or our phone number in the UK is 020 8287 8169.
+You can email us at [info@africanvision.org.uk](mailto:info@africanvision.org.uk) or our phone number in the UK is 020 8287 8169.

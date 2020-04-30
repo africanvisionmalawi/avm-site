@@ -4,20 +4,20 @@ title: Holiday in France for us
 description: Support us whilst holidaying in France
 gallery:
   - alt: House in France
-    photo: /img/projects/France-1.jpg
+    photo: "/img/france/France-1.jpg"
   - alt: House in France
-    photo: /img/projects/France-2.jpg
+    photo: "/img/france/France-2.jpg"
   - alt: House in France
-    photo: /img/projects/France-3.jpg
+    photo: "/img/france/France-3.jpg"
   - alt: House in France
-    photo: /img/projects/France-4.jpg
+    photo: "/img/france/France-4.jpg"
   - alt: House in France
-    photo: /img/projects/France-5.jpg
+    photo: "/img/france/France-5.jpg"
   - alt: House in France
-    photo: /img/projects/France-8.jpg
+    photo: "/img/france/France-8.jpg"
 ---
 
-La Guimarderie in France
+![La Guimarderie in France](/img/france/France-3.jpg "La Guimarderie in France")
 
 Two of our supporters own a beautiful holiday home in the Loire Valley in France and they have offered that all money raised from renting it out goes to African Vision Malawi projects.
 
@@ -38,7 +38,7 @@ The stone-built barbecue overlooks the neighbouring château. Delightful eating 
 
 There is an adjacent Barn which can be let also to same occupants, upon request. There are an additional 2 single beds plus fold-up bed upstairs, with a double sofabed downstairs.
 
-You can check availability by sending us an email at [info@africanvision.org.uk](mailto:info@africanvision.org.uk) or give us a call on 020 8287 8169 to book your holiday! You can also book directly on Airbnb here
+You can check availability by sending us an email at [info@africanvision.org.uk](mailto:info@africanvision.org.uk) or give us a call on 020 8287 8169 to book your holiday! You can also book directly on [Airbnb here](https://www.airbnb.co.uk/manage-your-space/8624563/details)
 
 And if that weren’t enough to whet your appetite…
 
