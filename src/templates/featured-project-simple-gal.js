@@ -100,7 +100,6 @@ export const FeaturedProjectsSimpleGalTemplate = ({
               }}
             >
               <div className="column is-10 is-offset-1">
-                <h2>Find out more...</h2>
                 <PageLinksWithPhotos pagelinks={links} />
               </div>
             </Section>

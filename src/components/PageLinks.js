@@ -3,10 +3,19 @@ import PropTypes from "prop-types";
 import { v4 } from "uuid";
 import { Link } from "gatsby";
 import pageLinksStyles from "./pagelinks.module.css";
+// import styled from "styled-components";
+
+// const Heading = styled.h2`
+//   text-align: center;
+//   @media (min-width: 768px) {
+//     padding-left: 15px;
+//     text-align: left;
+//   }
+// `;
 
 const PageLinks = ({ pagelinks }) => (
   <div>
-    {pagelinks.map(pagelink => (
+    {pagelinks.map((pagelink) => (
       <article key={v4()} className={pageLinksStyles.linkRow}>
         <h3 className={pageLinksStyles.linkHeading}>
           <Link to={pagelink.url}>{pagelink.linkTitle}</Link>
@@ -27,9 +36,9 @@ PageLinks.propTypes = {
     PropTypes.shape({
       linkTitle: PropTypes.string,
       linkText: PropTypes.string,
-      url: PropTypes.string
+      url: PropTypes.string,
     })
-  )
+  ),
 };
 
 export default PageLinks;

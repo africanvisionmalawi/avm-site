@@ -13,32 +13,39 @@ const Container = styled.div`
   padding: 15px;
 `;
 
+const Heading = styled.h2`
+  text-align: center;
+`;
+
 const Videos = ({ videos }) => (
-  <Container>
-    {videos.map(video => (
-      <div key={video.videourl}>
-        <div className={videoStyles.playerWrapper}>
-          <ReactPlayer
-            url={video.videourl}
-            width="100%"
-            height="100%"
-            className={videoStyles.reactPlayer}
-            controls={true}
-          />
+  <div>
+    <Heading>Videos</Heading>
+    <Container>
+      {videos.map((video) => (
+        <div key={video.videourl}>
+          <div className={videoStyles.playerWrapper}>
+            <ReactPlayer
+              url={video.videourl}
+              width="100%"
+              height="100%"
+              className={videoStyles.reactPlayer}
+              controls={true}
+            />
+          </div>
+          <p className={videoStyles.vidText}>{video.videotext}</p>
         </div>
-        <p className={videoStyles.vidText}>{video.videotext}</p>
-      </div>
-    ))}
-  </Container>
+      ))}
+    </Container>
+  </div>
 );
 
 Videos.propTypes = {
   videos: PropTypes.arrayOf(
     PropTypes.shape({
       videourl: PropTypes.string,
-      videotext: PropTypes.string
+      videotext: PropTypes.string,
     })
-  )
+  ),
 };
 
 export default Videos;

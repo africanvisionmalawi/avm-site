@@ -6,7 +6,11 @@ import "@reach/dialog/styles.css";
 import galleryStyles from "./gallery.module.css";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Img from "gatsby-image";
-// import { renderComponent } from "recompose";
+import styled from "styled-components";
+
+const Heading = styled.h2`
+  text-align: center;
+`;
 
 class Gallery extends Component {
   state = {
@@ -46,7 +50,7 @@ class Gallery extends Component {
     return (
       <div className={galleryStyles.container}>
         <div className={galleryStyles.galleryInner}>
-          <h2>Photo updates</h2>
+          <Heading>Photo updates</Heading>
           <div className={galleryStyles.gallery}>
             {gallery.map((gall, i) => (
               <span

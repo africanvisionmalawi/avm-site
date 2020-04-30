@@ -105,6 +105,13 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.africanvision.org.uk`,
+        stripQueryString: true,
+      },
+    },
     // {
     //   resolve: "gatsby-plugin-netlify-cms",
     //   options: {

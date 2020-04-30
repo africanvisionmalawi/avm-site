@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Row, Col } from "antd";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import NavLogo from "../components/NavLogo";
@@ -41,7 +40,6 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-
         <link
           rel="apple-touch-icon"
           sizes="180x180"

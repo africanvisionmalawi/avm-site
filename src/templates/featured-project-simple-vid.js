@@ -103,7 +103,6 @@ export const FeaturedProjectsSimpleVidTemplate = ({
               }}
             >
               <div className="column is-10">
-                <h2>Videos</h2>
                 <Videos videos={videos} />
               </div>
             </Section>
@@ -118,7 +117,6 @@ export const FeaturedProjectsSimpleVidTemplate = ({
               }}
             >
               <div className="column is-10">
-                <h2>Find out more...</h2>
                 <PageLinksWithPhotos pagelinks={links} />
               </div>
             </Section>
