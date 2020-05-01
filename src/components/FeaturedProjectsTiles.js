@@ -2,20 +2,114 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Row, Col } from "antd";
 import Img from "gatsby-image";
+// import BackgroundImage from "gatsby-background-image";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import projectLinkStyles from "./projects.module.css";
 import styled from "styled-components";
+
+const FeaturedProjects = ({ currentProject, displayHeading }) => {
+  const featuredImage = useStaticQuery(
+    graphql`
+      query {
+        PhotoVillageDesktop: file(
+          relativePath: { eq: "mainphoto_village-ver3.jpg" }
+        ) {
+          ...photoTileFixedLgRect
+        }
+        PhotoVillageMobile: file(
+          relativePath: { eq: "mainphoto_village-ver3.jpg" }
+        ) {
+          ...photoTileFixedMdRect
+        }
+        PhotoWater: file(relativePath: { eq: "mainphoto_water.jpg" }) {
+          ...photoTileFixedMdRect
+        }
+        PhotoHealth: file(relativePath: { eq: "mainphoto_health.jpg" }) {
+          ...photoTileFixedMdRect
+        }
+        PhotoEducationDesktop: file(
+          relativePath: { eq: "mainphoto_education.jpg" }
+        ) {
+          ...photoTileFixedLgRect
+        }
+        PhotoEducationMobile: file(
+          relativePath: { eq: "mainphoto_education.jpg" }
+        ) {
+          ...photoTileFixedMdRect
+        }
+        PhotoEnvironment: file(
+          relativePath: { eq: "mainphoto_environment.jpg" }
+        ) {
+          ...photoTileFixedMdRect
+        }
+        PhotoCelebrate: file(relativePath: { eq: "mainphoto_celebrate.jpg" }) {
+          ...photoTileFixedMdRect
+        }
+      }
+    `
+  );
+
+  return (
+    <Container>
+      <TileCont>
+        {displayHeading === true ? <Heading>Featured projects</Heading> : ""}
+        <Row className={projectLinkStyles.featuredProjects}>
+          {projects.map((project) => (
+            <Tile
+              className={
+                project.id === currentProject ? projectLinkStyles.active : ``
+              }
+              key={project.id}
+              xs={project.colWidth.xs}
+              sm={project.colWidth.sm}
+            >
+              <TileLink to={project.src}>
+                <Overlay>
+                  <SubHeading>{project.name}</SubHeading>
+                </Overlay>
+                <Img
+                  fluid={
+                    project.hasMobileImage === true
+                      ? [
+                          featuredImage[project.imageIdMobile].childImageSharp
+                            .fluid,
+                          {
+                            ...featuredImage[project.imageIdDesktop]
+                              .childImageSharp.fluid,
+                            media: `(min-width: 576px)`,
+                          },
+                        ]
+                      : featuredImage[project.imageId].childImageSharp.fluid
+                  }
+                  alt=""
+                  imgStyle={{ objectFit: "contain" }}
+                />
+              </TileLink>
+            </Tile>
+          ))}
+        </Row>
+      </TileCont>
+    </Container>
+  );
+};
+
+FeaturedProjects.propTypes = {
+  currentProject: PropTypes.string,
+  displayHeading: PropTypes.bool,
+};
 
 const projects = [
   {
     id: "village",
     name: "Sam's Village",
     src: "/projects/sams-village/",
-    imageId: "PhotoVillage",
+    imageIdDesktop: "PhotoVillageDesktop",
+    imageIdMobile: "PhotoVillageMobile",
     colWidth: {
       xs: 24,
       sm: 24,
     },
+    hasMobileImage: true,
   },
   {
     id: "water",
@@ -26,6 +120,7 @@ const projects = [
       xs: 24,
       sm: 12,
     },
+    hasMobileImage: false,
   },
   {
     id: "health",
@@ -36,16 +131,19 @@ const projects = [
       xs: 24,
       sm: 12,
     },
+    hasMobileImage: false,
   },
   {
     id: "education",
     name: "Education",
     src: "/education/",
-    imageId: "PhotoEducation",
+    imageIdDesktop: "PhotoEducationDesktop",
+    imageIdMobile: "PhotoEducationMobile",
     colWidth: {
       xs: 24,
       sm: 24,
     },
+    hasMobileImage: true,
   },
   {
     id: "environment",
@@ -56,6 +154,7 @@ const projects = [
       xs: 24,
       sm: 12,
     },
+    hasMobileImage: false,
   },
   {
     id: "celebrate",
@@ -66,6 +165,7 @@ const projects = [
       xs: 24,
       sm: 12,
     },
+    hasMobileImage: false,
   },
 ];
 
@@ -128,69 +228,5 @@ const SubHeading = styled.span`
   text-shadow: 5px 0px 15px rgba(150, 150, 150, 0.84);
   z-index: 1000;
 `;
-
-const FeaturedProjects = ({ currentProject, displayHeading }) => {
-  const featuredImage = useStaticQuery(
-    graphql`
-      query {
-        PhotoVillage: file(relativePath: { eq: "mainphoto_village-ver3.jpg" }) {
-          ...photoTileFixedLgRect
-        }
-        PhotoWater: file(relativePath: { eq: "mainphoto_water.jpg" }) {
-          ...photoTileFixedMdRect
-        }
-        PhotoHealth: file(relativePath: { eq: "mainphoto_health.jpg" }) {
-          ...photoTileFixedMdRect
-        }
-        PhotoEducation: file(relativePath: { eq: "mainphoto_education.jpg" }) {
-          ...photoTileFixedLgRect
-        }
-        PhotoEnvironment: file(
-          relativePath: { eq: "mainphoto_environment.jpg" }
-        ) {
-          ...photoTileFixedMdRect
-        }
-        PhotoCelebrate: file(relativePath: { eq: "mainphoto_celebrate.jpg" }) {
-          ...photoTileFixedMdRect
-        }
-      }
-    `
-  );
-
-  return (
-    <Container>
-      <TileCont>
-        {displayHeading === true ? <Heading>Featured projects</Heading> : ""}
-        <Row className={projectLinkStyles.featuredProjects}>
-          {projects.map((project) => (
-            <Tile
-              className={
-                project.id === currentProject ? projectLinkStyles.active : ``
-              }
-              key={project.id}
-              xs={project.colWidth.xs}
-              sm={project.colWidth.sm}
-            >
-              <TileLink to={project.src}>
-                <Overlay>
-                  <SubHeading>{project.name}</SubHeading>
-                </Overlay>
-                <Img
-                  fluid={featuredImage[project.imageId].childImageSharp.fluid}
-                  alt=""
-                />
-              </TileLink>
-            </Tile>
-          ))}
-        </Row>
-      </TileCont>
-    </Container>
-  );
-};
-
-FeaturedProjects.propTypes = {
-  currentProject: PropTypes.string,
-  displayHeading: PropTypes.bool,
-};
 
 export default FeaturedProjects;
