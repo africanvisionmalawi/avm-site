@@ -13,13 +13,9 @@ import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(advancedFormat);
 
 const ColLink = styled.span`
-  border: 1px solid #dee8fa;
-  border-radius: 4px;
   color: #3273dc;
   display: block;
   font-weight: bold;
-  padding: 8px;
-  text-align: center;
 `;
 
 const EventsCol = ({ event }) => (
@@ -45,7 +41,7 @@ const EventsCol = ({ event }) => (
                 />
               </span>
               <p className={postStyles.cardExcerpt}>{event.excerpt}</p>
-              <ColLink>find out more</ColLink>
+              <ColLink>Find out more</ColLink>
             </Link>
           </article>
         </div>
@@ -54,7 +50,7 @@ const EventsCol = ({ event }) => (
 );
 
 EventsCol.propTypes = {
-  events: PropTypes.object
+  events: PropTypes.object,
 };
 
 export default EventsCol;

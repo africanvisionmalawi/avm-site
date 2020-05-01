@@ -7,13 +7,9 @@ import DefaultImage from "./defaultImage";
 import styled from "styled-components";
 
 const ColLink = styled.span`
-  border: 1px solid #3273dc;
-  border-radius: 4px;
   color: #3273dc;
   display: block;
   font-weight: bold;
-  padding: 8px;
-  text-align: center;
 `;
 
 const BlogCard = ({ post }) => (
@@ -36,7 +32,7 @@ const BlogCard = ({ post }) => (
           </span>
           <span className={postStyles.cardDate}>{post.frontmatter.date}</span>
           <p className={postStyles.cardExcerpt}>{post.excerpt}</p>
-          <ColLink>find out more</ColLink>
+          <ColLink>Find out more</ColLink>
         </Link>
       </article>
     )}
@@ -44,7 +40,7 @@ const BlogCard = ({ post }) => (
 );
 
 BlogCard.propTypes = {
-  post: PropTypes.object
+  post: PropTypes.object,
 };
 
 export default BlogCard;
