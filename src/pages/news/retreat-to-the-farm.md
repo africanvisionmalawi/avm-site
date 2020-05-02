@@ -2,7 +2,7 @@
 templateKey: blog-post
 published: true
 pdf_upload: ''
-featuredImage: "/img/retreat-web-145.jpg"
+featuredImage: /img/retreat-web-145.jpg
 title: Retreat to the Farm
 date: 2020-01-24T00:00:00Z
 description: 2020 brings another year of wonderful retreats in the heart of the Loire

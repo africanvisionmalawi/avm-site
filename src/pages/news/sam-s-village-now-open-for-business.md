@@ -2,7 +2,7 @@
 templateKey: blog-post
 published: true
 pdf_upload: "/img/SVV-Flyer-2020.pdf"
-featuredImage: "/img/sams-village-13.jpg"
+featuredImage: /img/sams-village-13.jpg
 title: Sam’s Village now open for business!
 date: 2020-01-14T00:00:00Z
 description: This amazing eco earth-built village, fully booked through 2018 and 2019
