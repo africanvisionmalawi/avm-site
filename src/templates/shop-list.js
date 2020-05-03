@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import { Row, Col } from "antd";
+// import { Row, Col } from "antd";
 import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import useSiteMetadata from "../hooks/use-site-metadata";
@@ -41,7 +41,7 @@ const ShopIndex = ({ data }) => {
             African Vision Malawi Online Shop
           </h1>
           <ul className={shopStyles.shopIndexList}>
-            {data.allMarkdownRemark.edges.map(document => (
+            {data.allMarkdownRemark.edges.map((document) => (
               <li key={document.node.id}>
                 <Link to={document.node.fields.slug}>
                   <Img

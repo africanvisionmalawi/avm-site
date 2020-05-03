@@ -2,6 +2,43 @@ import React from "react";
 import { Link } from "gatsby";
 import styled, { css } from "styled-components";
 
+let crumbLink = "";
+let crumbLinkArray = [];
+const getLinks = (currentLink, index) => {
+  crumbLink = crumbLink + "/" + currentLink;
+  crumbLinkArray.push(crumbLink);
+
+  return crumbLinkArray[index];
+};
+
+const Breadcrumbs = (props) => {
+  //   console.log("path is " + props.path);
+  const crumb = props.path.split("/");
+  const crumbFiltered = crumb.filter(
+    (value) => Object.keys(value).length !== 0
+  );
+
+  //   console.log("crumb is " + crumbFiltered);
+  return (
+    <Section>
+      <Links>
+        <HomeLink to="/">Home</HomeLink>
+        {crumbFiltered.map((c, i) => (
+          <>
+            {i < crumbFiltered.length - 1 ? (
+              <CrumbLink to={`${getLinks(c, i)}/`}>
+                {c.replace(/-/g, " ")}
+              </CrumbLink>
+            ) : (
+              <CrumbCurrent>{c.replace(/-/g, " ")}</CrumbCurrent>
+            )}
+          </>
+        ))}
+      </Links>
+    </Section>
+  );
+};
+
 const Section = styled.div`
   background: #fff;
   margin: 0 auto;
@@ -56,42 +93,5 @@ const CrumbLink = styled(Link)`
   ${CrumbLinkBase}
   ${CrumbDividerBase}
 `;
-
-let crumbLink = "";
-let crumbLinkArray = [];
-const getLinks = (currentLink, index) => {
-  crumbLink = crumbLink + "/" + currentLink;
-  crumbLinkArray.push(crumbLink);
-
-  return crumbLinkArray[index];
-};
-
-const Breadcrumbs = (props) => {
-  //   console.log("path is " + props.path);
-  const crumb = props.path.split("/");
-  const crumbFiltered = crumb.filter(
-    (value) => Object.keys(value).length !== 0
-  );
-
-  //   console.log("crumb is " + crumbFiltered);
-  return (
-    <Section>
-      <Links>
-        <HomeLink to="/">Home</HomeLink>
-        {crumbFiltered.map((c, i) => (
-          <>
-            {i < crumbFiltered.length - 1 ? (
-              <CrumbLink to={`${getLinks(c, i)}/`}>
-                {c.replace(/-/g, " ")}
-              </CrumbLink>
-            ) : (
-              <CrumbCurrent>{c.replace(/-/g, " ")}</CrumbCurrent>
-            )}
-          </>
-        ))}
-      </Links>
-    </Section>
-  );
-};
 
 export default Breadcrumbs;

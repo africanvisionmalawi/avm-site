@@ -12,11 +12,11 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
-const Section = styled.section`
-  margin: 0 auto;
-  max-width: 1050px;
-  width: 100%;
-`;
+// const Section = styled.section`
+//   margin: 0 auto;
+//   max-width: 1050px;
+//   width: 100%;
+// `;
 
 const TextSection = styled.section`
   background: #fff;

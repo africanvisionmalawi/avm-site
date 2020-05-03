@@ -9,16 +9,16 @@ import Layout from "../components/Layout";
 import HeroImage from "../components/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 // import Img from "gatsby-image";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Breadcrumbs from "../components/Breadcrumbs";
 import EventDate from "../components/EventDate";
 import { styled } from "linaria/react";
 
-const Section = styled.section`
-  margin: 0 auto;
-  max-width: 1180px;
-  width: 100%;
-`;
+// const Section = styled.section`
+//   margin: 0 auto;
+//   max-width: 1180px;
+//   width: 100%;
+// `;
 
 const TextSection = styled.section`
   background: #fff;

@@ -12,7 +12,7 @@ import ReactPlayer from "react-player";
 import BlogRollCard from "../components/BlogRollCard";
 // import BlogRollLandscape from "../components/BlogRollLandscape";
 import EventsRollCard from "../components/EventsRollCard";
-import postStyles from "../components/posts.module.css";
+// import postStyles from "../components/posts.module.css";
 import homepageStyles from "../components/homepage.module.css";
 import { Link } from "gatsby";
 import styled from "styled-components";
@@ -32,12 +32,12 @@ const TopSection = styled.section`
   width: 100%;
 `;
 
-const TopHero = styled.div`
-  background-image: url(/img/hero/homepage-hero.jpg);
-  background-position: 50% 0;
-  background-size: cover;
-  min-height: 600px;
-`;
+// const TopHero = styled.div`
+//   background-image: url(/img/hero/homepage-hero.jpg);
+//   background-position: 50% 0;
+//   background-size: cover;
+//   min-height: 600px;
+// `;
 
 const TopHeroText = styled(Col)`
   padding: 30px 0 0;
@@ -90,8 +90,8 @@ export default class IndexPage extends React.Component {
     const { edges: homeContent } = data.homePage;
     const { edges: homeMeta } = data.homePage;
     const heroImage = this.props.data.heroImage;
-    const heroMsg =
-      "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
+    // const heroMsg =
+    //   "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
     const promoVideo = homeContent[0].node.frontmatter.promoVideo;
     // const { siteUrl } = useSiteMetadata();
 

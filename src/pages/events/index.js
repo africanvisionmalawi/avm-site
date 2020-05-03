@@ -3,9 +3,9 @@ import useSiteMetadata from "../../hooks/use-site-metadata";
 import Seo from "../../components/seo";
 import Layout from "../../components/Layout";
 import EventsRoll from "../../components/EventsRoll";
-import FeaturedProjectsTiles from "../../components/FeaturedProjectsTiles";
+// import FeaturedProjectsTiles from "../../components/FeaturedProjectsTiles";
 import Donate from "../../components/Donate";
-import HeroImage from "../../components/HeroImage";
+// import HeroImage from "../../components/HeroImage";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -20,8 +20,8 @@ const Section = styled.section`
 `;
 
 const BlogIndexPage = () => {
-  const heroImage = "/img/hero/retreat-yurt.jpg";
-  const heroMsg = "Forthcoming events";
+  // const heroImage = "/img/hero/retreat-yurt.jpg";
+  // const heroMsg = "Forthcoming events";
   const { siteUrl } = useSiteMetadata();
   const title = "Latest events - African Vision Malawi";
   const description = "Latest events from African Vision Malawi.";

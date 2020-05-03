@@ -8,36 +8,6 @@ import CartLink from "../components/CartLink";
 import navbarStyles from "./navbar.module.css";
 import styled from "styled-components";
 const { SubMenu } = Menu;
-const DesktopNav = styled.nav`
-  display: none;
-  position: relative;
-  @media (min-width: 992px) {
-    display: flex;
-    margin: 0 1em 0 auto;
-  }
-`;
-
-const MobileNav = styled.div`
-  align-items: center;
-  display: flex;
-  height: 68px;
-  justify-content: flex-end;
-  margin: 4px 0 0;
-  width: 100%;
-  @media (min-width: 992px) {
-    display: none;
-  }
-`;
-
-const MobileNavIcon = styled.svg`
-  cursor: pointer;
-  display: block;
-  fill: #fff;
-  height: 28px;
-  margin-right: 15px;
-  margin-left: 8px;
-  width: 28px;
-`;
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -434,5 +404,36 @@ const Navbar = class extends React.Component {
     );
   }
 };
+
+const DesktopNav = styled.nav`
+  display: none;
+  position: relative;
+  @media (min-width: 992px) {
+    display: flex;
+    margin: 0 1em 0 auto;
+  }
+`;
+
+const MobileNav = styled.div`
+  align-items: center;
+  display: flex;
+  height: 68px;
+  justify-content: flex-end;
+  margin: 4px 0 0;
+  width: 100%;
+  @media (min-width: 992px) {
+    display: none;
+  }
+`;
+
+const MobileNavIcon = styled.svg`
+  cursor: pointer;
+  display: block;
+  fill: #fff;
+  height: 28px;
+  margin-right: 15px;
+  margin-left: 8px;
+  width: 28px;
+`;
 
 export default Navbar;

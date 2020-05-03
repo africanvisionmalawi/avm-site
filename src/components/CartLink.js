@@ -4,35 +4,6 @@ import React from "react";
 import buttonStyles from "./button.module.css";
 import styled from "styled-components";
 
-const CartTop = styled.div`
-  cursor: pointer;
-  position: relative;
-`;
-const TotalItems = styled.span`
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
-  color: #c17d3d;
-  font-size: 0.8em;
-  font-weight: bold;
-  height: 18px;
-  left: 6px;
-  position: absolute;
-  text-align: center;
-  top: 10px;
-  width: 18px;
-`;
-
-const TotalPrice = styled.div`
-  color: #fff;
-  margin-top: -8px;
-  text-align: center;
-`;
-
-const Icon = styled.svg`
-  height: auto;
-  width: 30px;
-`;
-
 const CartLink = ({ link, text }) => (
   <div
     className={`Header__summary snipcart-summary snipcart-checkout ${buttonStyles.cartLink}`}
@@ -53,5 +24,34 @@ const CartLink = ({ link, text }) => (
     </CartTop>
   </div>
 );
+
+const CartTop = styled.div`
+  cursor: pointer;
+  position: relative;
+`;
+const TotalItems = styled.span`
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  color: #c17d3d;
+  font-size: 0.8em;
+  font-weight: bold;
+  height: 18px;
+  left: 6px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 18px;
+`;
+
+// const TotalPrice = styled.div`
+//   color: #fff;
+//   margin-top: -8px;
+//   text-align: center;
+// `;
+
+const Icon = styled.svg`
+  height: auto;
+  width: 30px;
+`;
 
 export default CartLink;

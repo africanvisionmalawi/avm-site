@@ -9,29 +9,6 @@ import { withPrefix } from "gatsby";
 import layoutStyles from "./layout.module.css";
 import styled from "styled-components";
 
-const Header = styled.div`
-  background: #c27e34;
-`;
-
-const HeaderInner = styled.div`
-  margin: 0 auto;
-  max-width: 980px;
-  position: relative;
-  width: 100%;
-`;
-
-const Wrapper = styled.div`
-  background: #fff;
-  margin: 0 auto;
-  max-width: 1920px;
-  position: relative;
-  width: 100%;
-  @media (min-width: 1920px) {
-    border-left: 1px solid #d7dade;
-    border-right: 1px solid #d7dade;
-  }
-`;
-
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
@@ -91,5 +68,28 @@ const TemplateWrapper = ({ children }) => {
     </div>
   );
 };
+
+const Header = styled.div`
+  background: #c27e34;
+`;
+
+const HeaderInner = styled.div`
+  margin: 0 auto;
+  max-width: 980px;
+  position: relative;
+  width: 100%;
+`;
+
+const Wrapper = styled.div`
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1920px;
+  position: relative;
+  width: 100%;
+  @media (min-width: 1920px) {
+    border-left: 1px solid #d7dade;
+    border-right: 1px solid #d7dade;
+  }
+`;
 
 export default TemplateWrapper;

@@ -11,11 +11,11 @@ import postStyles from "../components/posts.module.css";
 import paginationStyles from "../components/pagination.module.css";
 import styled from "styled-components";
 
-const Section = styled.section`
-  margin: 0 auto;
-  max-width: 1050px;
-  width: 100%;
-`;
+// const Section = styled.section`
+//   margin: 0 auto;
+//   max-width: 1050px;
+//   width: 100%;
+// `;
 
 const TextSection = styled.section`
   background: #fff;
@@ -29,7 +29,7 @@ const TextSection = styled.section`
   width: 100%;
 `;
 
-const PaginationLink = props => {
+const PaginationLink = (props) => {
   if (!props.test) {
     return (
       <Link
@@ -85,7 +85,7 @@ const ShopIndex = ({ location, pageContext }) => {
                         text="← Prev"
                       />
                     )}
-                    {pageNumbers.map(number => {
+                    {pageNumbers.map((number) => {
                       const isActive =
                         location.pathname.indexOf(number) > -1 ||
                         (location.pathname === "/blog/" && number === 1);

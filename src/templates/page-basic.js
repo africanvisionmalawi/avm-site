@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Row, Col } from "antd";
+// import { Row, Col } from "antd";
 import { graphql } from "gatsby";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
@@ -13,11 +13,11 @@ import Breadcrumbs from "../components/Breadcrumbs";
 // import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
-const Section = styled.section`
-  margin: 0 auto;
-  max-width: 1050px;
-  width: 100%;
-`;
+// const Section = styled.section`
+//   margin: 0 auto;
+//   max-width: 1050px;
+//   width: 100%;
+// `;
 
 const TextSection = styled.section`
   background: #fff;

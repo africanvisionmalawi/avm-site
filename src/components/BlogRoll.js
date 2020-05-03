@@ -4,32 +4,30 @@ import { graphql, StaticQuery } from "gatsby";
 import postStyles from "./posts.module.css";
 import BlogItem from "./BlogRollItem";
 
-class BlogRoll extends React.Component {
-  render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+const BlogRoll = (props) => {
+  const { data } = props;
+  const { edges: posts } = data.allMarkdownRemark;
 
-    return (
-      posts.frontmatter.published === true && (
-        <section className={postStyles.cont}>
-          {posts &&
-            posts.map(({ node: post }) => (
-              <div key={post.fields.slug}>
-                <BlogItem post={post} />
-              </div>
-            ))}
-        </section>
-      )
-    );
-  }
-}
+  return (
+    posts.frontmatter.published === true && (
+      <section className={postStyles.cont}>
+        {posts &&
+          posts.map(({ node: post }) => (
+            <div key={post.fields.slug}>
+              <BlogItem post={post} />
+            </div>
+          ))}
+      </section>
+    )
+  );
+};
 
 BlogRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export default () => (
