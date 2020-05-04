@@ -1,77 +1,77 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
-webhook_url: 
+admin_path: ""
+webhook_url:
 sections:
-- type: directory
-  path: src/pages/events
-  label: Events
-  create: all
-  match: "**/*"
-  templates:
-  - event
-- type: directory
-  path: src/pages/news
-  label: News
-  create: all
-  match: "**/*"
-  templates:
-  - news
-- type: document
-  path: src/pages/index.md
-  label: Homepage
-- type: directory
-  path: src/pages/shop
-  label: Shop
-  create: all
-  match: "**/*"
-  templates:
-  - shop-product
-- type: directory
-  path: src/pages/about-us
-  label: About Us
-  create: all
-  match: "**/*"
-- type: document
-  path: src/pages/celebrate-and-give/index.md
-  label: Celebrate and Give
-- type: document
-  path: src/pages/education/index.md
-  label: Education
-- type: directory
-  path: src/pages/environment
-  label: Environment
-  create: all
-  match: "**/*"
-- type: directory
-  path: src/pages/get-involved
-  label: Get Involved
-  create: all
-  match: "**/*"
-  templates:
-  - page-basic
-- type: directory
-  path: src/pages/health
-  label: Health
-  create: all
-  match: "**/*"
-- type: directory
-  path: src/pages/projects
-  label: Projects
-  create: all
-  match: "**/*"
-- type: directory
-  path: src/pages/water
-  label: Water
-  create: all
-  match: "**/*"
-- type: document
-  path: src/pages/why-malawi/index.md
-  label: Why Malawi?
+  - type: directory
+    path: src/pages/events
+    label: Events
+    create: all
+    match: "**/*"
+    templates:
+      - event
+  - type: directory
+    path: src/pages/news
+    label: News
+    create: all
+    match: "**/*"
+    templates:
+      - news
+  - type: document
+    path: src/pages/index.md
+    label: Homepage
+  - type: directory
+    path: src/pages/shop
+    label: Shop
+    create: all
+    match: "**/*"
+    templates:
+      - shop-product
+  - type: directory
+    path: src/pages/about-us
+    label: About Us
+    create: all
+    match: "**/*"
+  - type: document
+    path: src/pages/celebrate-and-give/index.md
+    label: Celebrate and Give
+  - type: document
+    path: src/pages/education/index.md
+    label: Education
+  - type: directory
+    path: src/pages/environment
+    label: Environment
+    create: all
+    match: "**/*"
+  - type: directory
+    path: src/pages/get-involved
+    label: Get Involved
+    create: all
+    match: "**/*"
+    templates:
+      - page-basic
+  - type: directory
+    path: src/pages/health
+    label: Health
+    create: all
+    match: "**/*"
+  - type: directory
+    path: src/pages/projects
+    label: Projects
+    create: all
+    match: "**/*"
+  - type: directory
+    path: src/pages/water
+    label: Water
+    create: all
+    match: "**/*"
+  - type: document
+    path: src/pages/why-malawi/index.md
+    label: Why Malawi?
 upload_dir: static/img
 public_path: "/img"
-front_matter_path: ''
+front_matter_path: ""
 use_front_matter_path: false
 file_template: ":filename:"
 build:
@@ -80,4 +80,4 @@ build:
   preview_docker_image: node:10
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: npm run forestry:preview

@@ -68,7 +68,8 @@
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "forestry:preview": "gatsby develop -H 0.0.0.0 -p 8080"
   },
   "devDependencies": {
     "http-proxy-middleware": "^0.19.1",

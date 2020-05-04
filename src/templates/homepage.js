@@ -149,14 +149,11 @@ export default class IndexPage extends React.Component {
                   </div>
                 </Col>
               </Row>
-            </TopSection>
-
-            <ContentSection>
               <FeaturedProjectsTiles
                 currentProject="home"
                 displayHeading={true}
               />
-            </ContentSection>
+            </TopSection>
 
             <section>
               {homeContent.map(({ node: home }) => (

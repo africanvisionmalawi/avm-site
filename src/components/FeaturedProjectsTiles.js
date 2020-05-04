@@ -171,7 +171,7 @@ const projects = [
 
 const Container = styled.section`
   margin: 0 auto 3rem;
-  max-width: 980px;
+  max-width: 1080px;
   position: relative;
   width: 100%;
 `;
@@ -184,6 +184,10 @@ const Tile = styled(Col)`
   position: relative;
   & img {
     border-radius: 4px;
+    transition: transform 0.5s ease;
+  }
+  &:hover img {
+    transform: scale(1.05);
   }
 `;
 
@@ -204,6 +208,18 @@ const Heading = styled.h2`
   text-align: center;
 `;
 
+const SubHeading = styled.span`
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.4rem;
+  margin: 0 9px;
+  padding: 0 0.6em;
+  text-align: center;
+  text-shadow: 5px 0px 15px rgba(150, 150, 150, 0.84);
+  z-index: 1000;
+`;
+
 const Overlay = styled.div`
   align-items: center;
   background: rgba(0, 0, 0, 0.4);
@@ -215,18 +231,12 @@ const Overlay = styled.div`
   top: left;
   width: 100%;
   z-index: 900;
-`;
-
-const SubHeading = styled.span`
-  border-radius: 4px;
-  color: #fff;
-  display: inline-block;
-  font-size: 2.4rem;
-  margin: 0 9px;
-  padding: 0 0.6em;
-  text-align: center;
-  text-shadow: 5px 0px 15px rgba(150, 150, 150, 0.84);
-  z-index: 1000;
+  &:hover {
+    span {
+      font-size: 2.8rem;
+      transition: 0.5s ease all;
+    }
+  }
 `;
 
 export default FeaturedProjects;

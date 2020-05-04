@@ -20,50 +20,6 @@ import Donate from "../components/Donate";
 // import styled from "styled-components";
 import { styled } from "linaria/react";
 
-const Section = styled.section`
-  margin: 0 auto;
-  max-width: 1180px;
-  width: 100%;
-`;
-
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  min-height: 24rem;
-  margin: 0 auto;
-  max-width: 1180px;
-  padding: 1em 2em;
-  position: relative;
-  width: 100%;
-  @media (min-width: 768px) {
-    padding: 2em 4em;
-  }
-  @media (min-width: 1040px) {
-    padding: 4em 8em;
-  }
-`;
-
-const Main = styled.main`
-  background: #fff;
-  border-radius: 2px;
-`;
-
-const Container = styled.div``;
-
-// const GalleryCont = styled.section`
-// background: #f7f7f7;
-//   border-top: 1px solid #d7dade;
-//   border-bottom: 1px solid #d7dade;
-//   width: 100%;
-// `;
-
-// const GalleryInner = styled.div`
-//   margin: 0 auto;
-//   max-width: 1050px;
-//   width: 100%;
-// `
-
 export const FeaturedProjectsTemplate = ({
   heroImage,
   heroMsg,
@@ -198,6 +154,50 @@ FeaturedProjectsPage.propTypes = {
     }),
   }),
 };
+
+const Section = styled.section`
+  margin: 0 auto;
+  max-width: 1180px;
+  width: 100%;
+`;
+
+const TextSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  min-height: 24rem;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 1em 2em;
+  position: relative;
+  width: 100%;
+  @media (min-width: 768px) {
+    padding: 2em 4em;
+  }
+  @media (min-width: 1040px) {
+    padding: 4em 8em;
+  }
+`;
+
+const Main = styled.main`
+  background: #fff;
+  border-radius: 2px;
+`;
+
+const Container = styled.div``;
+
+// const GalleryCont = styled.section`
+// background: #f7f7f7;
+//   border-top: 1px solid #d7dade;
+//   border-bottom: 1px solid #d7dade;
+//   width: 100%;
+// `;
+
+// const GalleryInner = styled.div`
+//   margin: 0 auto;
+//   max-width: 1050px;
+//   width: 100%;
+// `
 
 export default FeaturedProjectsPage;
 
