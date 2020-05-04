@@ -12,17 +12,24 @@ const ColLink = styled.span`
   font-weight: bold;
 `;
 
+const ImgCont = styled.div`
+  border: 1px solid #cacaca;
+  & .gatsby-image-wrapper {
+    display: block !important;
+  }
+`;
+
 const BlogCard = ({ post }) => (
   <div className={postStyles.card} key={post.id}>
     {post.frontmatter.published && (
       <article className={postStyles.cardContent}>
         <Link to={post.fields.slug}>
           {post.frontmatter.featuredImage != null ? (
-            <div className={postStyles.imageCont}>
+            <ImgCont>
               <Img
                 fixed={post.frontmatter.featuredImage.childImageSharp.fixed}
               />
-            </div>
+            </ImgCont>
           ) : (
             <DefaultImage />
           )}

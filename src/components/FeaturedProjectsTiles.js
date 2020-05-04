@@ -183,11 +183,11 @@ const Tile = styled(Col)`
   padding: 4px;
   position: relative;
   & img {
+    transition: transform 0.8s ease-in-out;
     border-radius: 4px;
-    transition: transform 0.5s ease;
   }
   &:hover img {
-    transform: scale(1.05);
+    transform: scale(1.01);
   }
 `;
 
@@ -209,7 +209,6 @@ const Heading = styled.h2`
 `;
 
 const SubHeading = styled.span`
-  border-radius: 4px;
   color: #fff;
   display: inline-block;
   font-size: 2.4rem;
@@ -234,7 +233,8 @@ const Overlay = styled.div`
   &:hover {
     span {
       font-size: 2.8rem;
-      transition: 0.5s ease all;
+      border-bottom: 1px solid #fff;
+      transition: all 0.5s ease-in-out;
     }
   }
 `;

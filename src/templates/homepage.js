@@ -82,6 +82,13 @@ const SectionSubHeading = styled.span`
   padding-right: 12px;
 `;
 
+const TopVideoSection = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 120px;
+  max-width: 1080px;
+`;
+
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
@@ -127,7 +134,7 @@ export default class IndexPage extends React.Component {
             {/* <TopHero></TopHero> */}
 
             <TopSection>
-              <Row type="flex" justify="center">
+              <TopVideoSection>
                 <Col xs={24} md={8}>
                   <SectionHeading>
                     The people of Malawi want to help themselves.
@@ -148,7 +155,7 @@ export default class IndexPage extends React.Component {
                     />
                   </div>
                 </Col>
-              </Row>
+              </TopVideoSection>
               <FeaturedProjectsTiles
                 currentProject="home"
                 displayHeading={true}

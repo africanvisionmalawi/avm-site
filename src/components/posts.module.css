@@ -15,9 +15,7 @@
   padding-bottom: 8px;
   position: relative;
 }
-.imageCont {
-  border: 1px solid #cacaca;
-}
+
 .cardContent p {
   padding: 0 2px;
 }
