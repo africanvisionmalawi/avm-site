@@ -59,7 +59,7 @@ links:
       that will primarily be an education site for agricultural teaching and vocational
       training. "
     linkTitle: Sam's Village
-    url: "/projects/sams-village/"
+    url: "./projects/sams-village/"
   - linkText: "..."
     linkTitle: Biogas
     url: "./projects/sams-village/biogas/"
