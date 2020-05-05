@@ -183,13 +183,17 @@ const Tile = styled(Col)`
   padding: 4px;
   position: relative;
   & img {
-    transition: transform 0.8s ease-in-out;
     border-radius: 4px;
   }
-  &:hover img {
-    transform: scale(1.01);
-  }
 `;
+
+// & img {
+//     transition: transform 0.8s ease-in-out;
+//     border-radius: 4px;
+//   }
+//   &:hover img {
+//     transform: scale(1.01);
+//   }
 
 const TileLink = styled(Link)`
   border-radius: 4px;

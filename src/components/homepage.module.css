@@ -21,7 +21,7 @@
 .sectionHeading {
   margin-top: 1.44rem;
 }
-.allPostsLink {
+/* .allPostsLink {
   background: #fff;
   border: 1px solid #3273dc;
   border-radius: 4px;
@@ -31,14 +31,14 @@
   margin: 0.5rem 0;
   padding: 8px 12px;
   text-align: center;
-}
-.allPostsFooter {
+} */
+/* .allPostsFooter {
   border-bottom: 1px solid #d5d5d6;
   display: flex;
   justify-content: flex-end;
   margin: 8px 0 2rem;
   padding: 0 8px;
-}
+} */
 /* .latestNewsCont,
 .latestNewsBox {
   background: #f4f1ed;

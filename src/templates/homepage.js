@@ -89,6 +89,28 @@ const TopVideoSection = styled.div`
   max-width: 1080px;
 `;
 
+const PostsFooter = styled.div`
+  border-bottom: 1px solid #d5d5d6;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto 2rem;
+  max-width: 1180px;
+  padding: 0 0 0 8px;
+`;
+
+const PostsFooterLink = styled(Link)`
+  background: #fff;
+  border: 1px solid #d5d5d6;
+  border-bottom: none;
+  border-radius: 4px;
+  border-bottom-right-radius: 0;
+  color: #3273dc;
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 8px 12px;
+  text-align: center;
+`;
+
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
@@ -193,11 +215,9 @@ export default class IndexPage extends React.Component {
                   </div>
                 ))}
             </div> */}
-            <div className={homepageStyles.allPostsFooter}>
-              <Link to="/news" className={homepageStyles.allPostsLink}>
-                View all news
-              </Link>
-            </div>
+            <PostsFooter>
+              <PostsFooterLink to="/news">View all news</PostsFooterLink>
+            </PostsFooter>
             <section>
               <h2
                 className={`has-text-weight-bold is-size-3 ${homepageStyles.eventsHeading}`}
@@ -213,11 +233,9 @@ export default class IndexPage extends React.Component {
                 </div>
               </div>
 
-              <div className={homepageStyles.allPostsFooter}>
-                <Link to="/events" className={homepageStyles.allPostsLink}>
-                  View all events
-                </Link>
-              </div>
+              <PostsFooter>
+                <PostsFooterLink to="/events">View all events</PostsFooterLink>
+              </PostsFooter>
             </section>
           </div>
         </HomepageMain>
