@@ -256,7 +256,7 @@ export const lgRectImage = graphql`
   fragment photoTileFixedLgRect on File {
     childImageSharp {
       fluid(maxWidth: 980, maxHeight: 300) {
-        ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }
@@ -266,7 +266,7 @@ export const mdRectImage = graphql`
   fragment photoTileFixedMdRect on File {
     childImageSharp {
       fluid(maxWidth: 480, maxHeight: 300) {
-        ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }
@@ -277,7 +277,7 @@ export const pageQuery = graphql`
     heroImage: file(relativePath: { eq: "hero/homepage-hero.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1918, quality: 50) {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
@@ -302,7 +302,7 @@ export const pageQuery = graphql`
             featuredImage {
               childImageSharp {
                 fixed(width: 371, height: 222) {
-                  ...GatsbyImageSharpFixed
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
                 }
               }
             }
@@ -343,7 +343,7 @@ export const pageQuery = graphql`
             photo {
               childImageSharp {
                 fixed(width: 371, height: 222) {
-                  ...GatsbyImageSharpFixed
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
                 }
               }
             }
