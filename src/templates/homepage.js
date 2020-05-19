@@ -17,6 +17,135 @@ import homepageStyles from "../components/homepage.module.css";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
+const IndexPage = (props) => {
+  const { data } = props;
+  const { edges: posts } = data.allMarkdownRemark;
+  const { edges: events } = data.eventsPosts;
+  const { edges: homeContent } = data.homePage;
+  const { edges: homeMeta } = data.homePage;
+  const heroImage = data.heroImage;
+  // const heroMsg =
+  //   "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
+  const promoVideo = homeContent[0].node.frontmatter.promoVideo;
+  // const { siteUrl } = useSiteMetadata();
+
+  return (
+    <Layout>
+      <Seo
+        title={homeMeta[0].node.frontmatter.title}
+        description={homeMeta[0].node.frontmatter.description}
+        pathname={"/"}
+        article={false}
+      />
+      <HomepageMain>
+        <div className="container">
+          <Row type="flex" justify="center">
+            <TopHeroText sm={16}>
+              <H1Heading>Welcome to African Vision Malawi</H1Heading>
+              <SubHeading>(known as The Landirani Trust in Malawi).</SubHeading>
+              <H2Heading>Our vision</H2Heading>
+              <Statement>
+                Since 2005 African Vision Malawi has been helping children and
+                vulnerable people in Malawi, one of the poorest countries in the
+                world.
+              </Statement>
+              <Statement>
+                Our vision is to see a "healthy, educated and self-sufficient
+                community in Malawi".
+              </Statement>
+            </TopHeroText>
+          </Row>
+          <HeroImage heroImage={heroImage} heroMsg="" />
+          {/* <TopHero></TopHero> */}
+
+          <TopSection>
+            <TopVideoSection>
+              <Col xs={24} md={8}>
+                <SectionHeading>
+                  The people of Malawi want to help themselves.
+                </SectionHeading>
+                <SectionSubHeading>
+                  We can empower them to become self-sufficient and independent.
+                </SectionSubHeading>
+              </Col>
+              <Col xs={24} md={16}>
+                <div className={videoStyles.playerWrapper}>
+                  <ReactPlayer
+                    url={promoVideo}
+                    width="100%"
+                    height="100%"
+                    className={videoStyles.reactPlayer}
+                    controls={true}
+                  />
+                </div>
+              </Col>
+            </TopVideoSection>
+            <FeaturedProjectsTiles
+              currentProject="home"
+              displayHeading={true}
+            />
+          </TopSection>
+
+          <section>
+            <div className={`${homepageStyles.latestNewsBox}`}>
+              <h2 className={homepageStyles.latestNewsHeading}>Latest news</h2>
+              <div
+                className={homepageStyles.latestNews}
+                dangerouslySetInnerHTML={{
+                  __html: homeContent[0].node.html,
+                }}
+              />
+            </div>
+
+            <div className={homepageStyles.newsCont}>
+              <div className={homepageStyles.cardCont}>
+                {posts &&
+                  posts.map(({ node: post }) => (
+                    <div key={post.fields.slug}>
+                      <BlogRollCard post={post} />
+                    </div>
+                  ))}
+              </div>
+            </div>
+          </section>
+          <PostsFooter>
+            <PostsFooterLink to="/news">View all news</PostsFooterLink>
+          </PostsFooter>
+          {events && events.length ? (
+            <section>
+              <h2
+                className={`has-text-weight-bold is-size-3 ${homepageStyles.eventsHeading}`}
+              >
+                Latest events
+              </h2>
+              <div className={homepageStyles.newsCont}>
+                <div className={homepageStyles.cardCont}>
+                  {events &&
+                    events.map(({ node: event }) => (
+                      <EventsRollCard event={event} key={event.fields.slug} />
+                    ))}
+                </div>
+              </div>
+
+              <PostsFooter>
+                <PostsFooterLink to="/events">View all events</PostsFooterLink>
+              </PostsFooter>
+            </section>
+          ) : null}
+        </div>
+      </HomepageMain>
+    </Layout>
+  );
+};
+
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+};
+
 const HomepageMain = styled.section`
   background: #fff;
 `;
@@ -31,13 +160,6 @@ const TopSection = styled.section`
   position: relative;
   width: 100%;
 `;
-
-// const TopHero = styled.div`
-//   background-image: url(/img/hero/homepage-hero.jpg);
-//   background-position: 50% 0;
-//   background-size: cover;
-//   min-height: 600px;
-// `;
 
 const TopHeroText = styled(Col)`
   padding: 30px 0 0;
@@ -79,14 +201,23 @@ const SectionSubHeading = styled.span`
   display: block;
   font-family: "Raleway";
   font-size: 1.4em;
+  margin-bottom: 2.5em;
   padding-right: 12px;
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
 `;
 
 const TopVideoSection = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto 120px;
   max-width: 1080px;
+  text-align: center;
+  @media (min-width: 778px) {
+    text-align: left;
+  }
 `;
 
 const PostsFooter = styled.div`
@@ -111,146 +242,7 @@ const PostsFooterLink = styled(Link)`
   text-align: center;
 `;
 
-export default class IndexPage extends React.Component {
-  render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
-    const { edges: events } = data.eventsPosts;
-    const { edges: homeContent } = data.homePage;
-    const { edges: homeMeta } = data.homePage;
-    const heroImage = this.props.data.heroImage;
-    // const heroMsg =
-    //   "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
-    const promoVideo = homeContent[0].node.frontmatter.promoVideo;
-    // const { siteUrl } = useSiteMetadata();
-
-    return (
-      <Layout>
-        <Seo
-          title={homeMeta[0].node.frontmatter.title}
-          description={homeMeta[0].node.frontmatter.description}
-          pathname={"/"}
-          article={false}
-        />
-        <HomepageMain>
-          <div className="container">
-            <Row type="flex" justify="center">
-              <TopHeroText sm={14}>
-                <H1Heading>Welcome to African Vision Malawi</H1Heading>
-                <SubHeading>
-                  (known as The Landirani Trust in Malawi).
-                </SubHeading>
-                <H2Heading>Our vision</H2Heading>
-                <Statement>
-                  Since 2005 African Vision Malawi has been helping children and
-                  vulnerable people in Malawi, one of the poorest countries in
-                  the world.
-                </Statement>
-                <Statement>
-                  Our vision is to see a "healthy, educated and self-sufficient
-                  community in Malawi".
-                </Statement>
-              </TopHeroText>
-            </Row>
-            <HeroImage heroImage={heroImage} heroMsg="" />
-            {/* <TopHero></TopHero> */}
-
-            <TopSection>
-              <TopVideoSection>
-                <Col xs={24} md={8}>
-                  <SectionHeading>
-                    The people of Malawi want to help themselves.
-                  </SectionHeading>
-                  <SectionSubHeading>
-                    We can empower them to become self-sufficient and
-                    independent.
-                  </SectionSubHeading>
-                </Col>
-                <Col xs={24} md={16}>
-                  <div className={videoStyles.playerWrapper}>
-                    <ReactPlayer
-                      url={promoVideo}
-                      width="100%"
-                      height="100%"
-                      className={videoStyles.reactPlayer}
-                      controls={true}
-                    />
-                  </div>
-                </Col>
-              </TopVideoSection>
-              <FeaturedProjectsTiles
-                currentProject="home"
-                displayHeading={true}
-              />
-            </TopSection>
-
-            <section>
-              {homeContent.map(({ node: home }) => (
-                <div className={`${homepageStyles.latestNewsBox}`}>
-                  <h2 className={homepageStyles.latestNewsHeading}>
-                    Latest news
-                  </h2>
-                  <div
-                    className={homepageStyles.latestNews}
-                    dangerouslySetInnerHTML={{ __html: home.html }}
-                  />
-                </div>
-              ))}
-              <div className={homepageStyles.newsCont}>
-                <div className={homepageStyles.cardCont}>
-                  {posts &&
-                    posts.map(({ node: post }) => (
-                      <div key={post.fields.slug}>
-                        <BlogRollCard post={post} />
-                      </div>
-                    ))}
-                </div>
-              </div>
-            </section>
-            {/* <div className={postStyles.cont}>
-              {posts &&
-                posts.map(({ node: post }) => (
-                  <div key={post.fields.slug}>
-                    <BlogRollCard post={post} />
-                  </div>
-                ))}
-            </div> */}
-            <PostsFooter>
-              <PostsFooterLink to="/news">View all news</PostsFooterLink>
-            </PostsFooter>
-            <section>
-              <h2
-                className={`has-text-weight-bold is-size-3 ${homepageStyles.eventsHeading}`}
-              >
-                Latest events
-              </h2>
-              <div className={homepageStyles.newsCont}>
-                <div className={homepageStyles.cardCont}>
-                  {events &&
-                    events.map(({ node: event }) => (
-                      <EventsRollCard event={event} key={event.fields.slug} />
-                    ))}
-                </div>
-              </div>
-
-              <PostsFooter>
-                <PostsFooterLink to="/events">View all events</PostsFooterLink>
-              </PostsFooter>
-            </section>
-          </div>
-        </HomepageMain>
-      </Layout>
-    );
-  }
-}
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-};
+export default IndexPage;
 
 export const lgRectImage = graphql`
   fragment photoTileFixedLgRect on File {

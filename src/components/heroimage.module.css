@@ -1,7 +1,7 @@
 .heroCont {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 420px;
+  /* height: 420px; */
   justify-content: center;
   position: relative;
 }
