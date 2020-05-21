@@ -26,6 +26,10 @@ module.exports = {
       },
     },
     {
+      resolve: "@bundle-analyzer/gatsby-plugin",
+      options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
+    },
+    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
