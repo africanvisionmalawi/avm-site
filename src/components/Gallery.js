@@ -6,7 +6,7 @@ import "@reach/dialog/styles.css";
 import galleryStyles from "./gallery.module.css";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Img from "gatsby-image";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const Heading = styled.h2`
   text-align: center;
@@ -28,11 +28,17 @@ const Gallery = (props) => {
   };
 
   const goBack = () => {
-    setSelectedImageState(selectedImageState - 1);
+    // console.log("state is " + selectedImageState);
+    setSelectedImageState(() => {
+      return selectedImageState - 1;
+    });
   };
 
   const goForward = () => {
-    setSelectedImageState(selectedImageState + 1);
+    // console.log("state is " + selectedImageState);
+    setSelectedImageState((prevState) => {
+      return selectedImageState + 1;
+    });
   };
 
   const { gallery } = props;
@@ -65,7 +71,6 @@ const Gallery = (props) => {
             <DialogOverlay style={dialogStyles}>
               <DialogContent>
                 <div className={galleryStyles.dialogInner}>
-                  {/* img is {this.state.selectedImage} */}
                   <Img
                     fluid={
                       gallery[selectedImageState].photo.childImageSharp.fluid
@@ -83,17 +88,16 @@ const Gallery = (props) => {
                     />
                   </svg>
                 </div>
-                <div className={galleryStyles.leftRightCont}>
-                  <button onClick={goBack} disabled={selectedImageState === 0}>
-                    Previous
-                  </button>
-                  <button
-                    onClick={goForward}
-                    disabled={selectedImageState === gallery.length - 1}
-                  >
-                    Next
-                  </button>
-                </div>
+                {selectedImageState === 0 ? (
+                  <LeftArrow className="disabled" />
+                ) : (
+                  <LeftArrow onClick={goBack} />
+                )}
+                {selectedImageState === gallery.length - 1 ? (
+                  <RightArrow className="disabled" />
+                ) : (
+                  <RightArrow onClick={goForward} />
+                )}
               </DialogContent>
             </DialogOverlay>
           )}
@@ -102,6 +106,34 @@ const Gallery = (props) => {
     </div>
   );
 };
+
+const arrowsCss = css`
+  border-bottom: 20px solid transparent;
+  border-top: 20px solid transparent;
+  color: #fff;
+  cursor: pointer;
+  height: 0;
+  position: fixed;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 0;
+  &.disabled {
+    cursor: default;
+    opacity: 0.6;
+  }
+`;
+
+const LeftArrow = styled.span`
+  ${arrowsCss}
+  border-right: 30px solid #fff;
+  left: 30px;
+`;
+
+const RightArrow = styled.span`
+  ${arrowsCss}
+  border-left: 30px solid #fff;
+  right: 30px;
+`;
 
 Gallery.propTypes = {
   gallery: PropTypes.arrayOf(
