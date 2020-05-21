@@ -29,10 +29,14 @@ module.exports = {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
-          // {
-          //   family: `Raleway`,
-          //   variants: [`400`, "700"]
-          // },
+          {
+            family: `Roboto`,
+            variants: [`400`, "700"],
+          },
+          {
+            family: `Raleway`,
+            variants: [`400`, "700"],
+          },
           {
             family: `Clicker Script`,
             variants: [`400`, `700`],

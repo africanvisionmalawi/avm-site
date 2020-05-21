@@ -24,7 +24,7 @@ const Breadcrumbs = (props) => {
       <Links>
         <HomeLink to="/">Home</HomeLink>
         {crumbFiltered.map((c, i) => (
-          <>
+          <React.Fragment key={i}>
             {i < crumbFiltered.length - 1 ? (
               <CrumbLink to={`${getLinks(c, i)}/`}>
                 {c.replace(/-/g, " ")}
@@ -32,7 +32,7 @@ const Breadcrumbs = (props) => {
             ) : (
               <CrumbCurrent>{c.replace(/-/g, " ")}</CrumbCurrent>
             )}
-          </>
+          </React.Fragment>
         ))}
       </Links>
     </Section>

@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   /* height: 420px; */
   justify-content: center;
+  max-height: 540px;
   position: relative;
 }
 .heroText {
