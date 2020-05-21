@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: News and events
+  label: News and Events
 - type: directory
   path: src/pages/events
   label: Events
@@ -20,6 +20,8 @@ sections:
   match: "**/*"
   templates:
   - news
+- type: heading
+  label: Homepage & Shop
 - type: document
   path: src/pages/index.md
   label: Homepage
