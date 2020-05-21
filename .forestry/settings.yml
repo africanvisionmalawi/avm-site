@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: News and events
 - type: directory
   path: src/pages/events
   label: Events
@@ -28,6 +30,8 @@ sections:
   match: "**/*"
   templates:
   - shop-product
+- type: heading
+  label: All other pages
 - type: directory
   path: src/pages/about-us
   label: About Us
