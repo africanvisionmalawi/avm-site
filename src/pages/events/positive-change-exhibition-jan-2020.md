@@ -3,8 +3,8 @@ templateKey: events-post
 published: true
 title: Positive Change Exhibition Jan 2020
 photo: "/img/Positive-Change-Exhibition-invite-2-1536x822.jpg"
-date: 586840
-endDate: 594040
+date: 1578423646840
+endDate: 1578430854040
 description: Come and celebrate AVM’s first 15 years. A photo and film presentation
   introduced by the photographers showing positive change in Malawi since AVM started
   back in 2005
