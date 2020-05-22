@@ -26,12 +26,20 @@ fields:
   label: endDate
   config:
     export_format: X
-- type: textarea
-  name: description
-  label: description
+- name: hide_time
+  type: boolean
+  label: Hide Time
+  description: Select if you don't want the time displayed i.e. if there is no fixed
+    time for this event.
 - type: boolean
   name: allDay
   label: allDay
+  description: Select if this is an all day event.
+- type: textarea
+  name: description
+  label: description
+  description: Write  a short description here. Use the big box on the right to add
+    a full description with links, photos etc.
 - type: text
   name: location
   label: location
