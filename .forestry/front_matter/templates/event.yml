@@ -19,9 +19,13 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    export_format: X
 - type: datetime
   name: endDate
   label: endDate
+  config:
+    export_format: X
 - type: textarea
   name: description
   label: description
