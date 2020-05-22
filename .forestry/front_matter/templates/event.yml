@@ -20,12 +20,12 @@ fields:
   name: date
   label: date
   config:
-    export_format: X
+    export_format: x
 - type: datetime
   name: endDate
   label: endDate
   config:
-    export_format: X
+    export_format: x
 - type: textarea
   name: description
   label: description
