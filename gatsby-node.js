@@ -4,6 +4,65 @@ const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 const createPaginatedPages = require("gatsby-paginate");
 
+/**
+ * Returns the current date in YYYY-MM-DD format
+ */
+function getCurrentDate() {
+  const d = new Date();
+  let month = (d.getMonth() + 1).toString();
+  if (month.length < 2) {
+    month = `0${month}`;
+  }
+  let day = d.getDate().toString();
+  if (day.length < 2) {
+    day = `0${day}`;
+  }
+  return `${d.getFullYear()}-${month}-${day}`;
+}
+
+// exports.createSchemaCustomization = ({ actions }) => {
+//   const { createTypes } = actions;
+//   const typeDefs = `
+//     type MarkdownRemark implements Node @dontInfer {
+//       slug: String
+//       frontmatter: Frontmatter
+//     }
+//     type Frontmatter {
+//       date: [Date]
+//       endDate: [Date]
+//       title: String
+//       published: Boolean
+//       tags: String
+//       templateKey: String
+//     }
+//   `;
+//   createTypes(typeDefs);
+// };
+
+// exports.createSchemaCustomization = ({ actions, schema }) => {
+//   const { createTypes } = actions;
+//   const typeDefs = [
+//     "type MarkdownRemark implements Node { frontmatter: Frontmatter }",
+//     `type Frontmatter {
+//       date: Date @dateformat(formatString: "MMMM DD, YYYY")
+//       endDate: Date @dateformat(formatString: "MMMM DD, YYYY")
+//       title: String
+//       published: Boolean
+//       tags: String
+//       templateKey: String
+//     }`,
+//     schema.postsAndPages({
+//       name: "AuthorJson",
+//       fields: {
+//         slug: {
+//           type: String,
+//         },
+//       },
+//     }),
+//   ];
+//   createTypes(typeDefs);
+// };
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
@@ -11,7 +70,7 @@ exports.createPages = ({ actions, graphql }) => {
     {
       allMarkdownRemark(
         limit: 1000
-        sort: { order: DESC, fields: [frontmatter___date] }
+        sort: { order: DESC, fields: [frontmatter___title] }
       ) {
         edges {
           node {
@@ -31,9 +90,9 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()));
+      result.errors.forEach((e) => console.error(e.toString()));
       return Promise.reject(result.errors);
     }
 
@@ -42,17 +101,17 @@ exports.createPages = ({ actions, graphql }) => {
     // Post pages:
     let posts = [];
     // Iterate through each post/page, putting all found posts (where templateKey = article-page) into `posts`
-    postsAndPages.forEach(edge => {
+    postsAndPages.forEach((edge) => {
       if (
         _.isMatch(edge.node.frontmatter, {
-          templateKey: "blog-post"
+          templateKey: "blog-post",
         })
       ) {
         posts = posts.concat(edge);
       }
     });
 
-    postsAndPages.forEach(edge => {
+    postsAndPages.forEach((edge) => {
       const id = edge.node.id;
       createPage({
         path: edge.node.fields.slug,
@@ -62,8 +121,9 @@ exports.createPages = ({ actions, graphql }) => {
         ),
         // additional data can be passed via context
         context: {
-          id
-        }
+          id,
+          currentDate: getCurrentDate(),
+        },
       });
     });
 
@@ -90,13 +150,13 @@ exports.createPages = ({ actions, graphql }) => {
       pageTemplate: "src/templates/news-list.js",
       pageLength: 5, // This is optional and defaults to 10 if not used
       pathPrefix: "news", // This is optional and defaults to an empty string if not used
-      context: {} // This is optional and defaults to an empty object if not used
+      context: {}, // This is optional and defaults to an empty object if not used
     });
 
     // Tag pages:
     let tags = [];
     // Iterate through each post, putting all found tags into `tags`
-    postsAndPages.forEach(edge => {
+    postsAndPages.forEach((edge) => {
       if (_.get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags);
       }
@@ -105,15 +165,15 @@ exports.createPages = ({ actions, graphql }) => {
     tags = _.uniq(tags);
 
     // Make tag pages
-    tags.forEach(tag => {
+    tags.forEach((tag) => {
       const tagPath = `/tags/${_.kebabCase(tag)}/`;
 
       createPage({
         path: tagPath,
         component: path.resolve(`src/templates/tags.js`),
         context: {
-          tag
-        }
+          tag,
+        },
       });
     });
   });
@@ -128,7 +188,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value
+      value,
     });
   }
 };

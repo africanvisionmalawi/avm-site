@@ -51,6 +51,7 @@ export const EventsPostTemplate = ({
   title,
   date,
   endDate,
+  hideTime,
   allDay,
   location,
   cost,
@@ -74,7 +75,12 @@ export const EventsPostTemplate = ({
             <TextSection>
               <h1>{title}</h1>
               <p>
-                Date(s): <EventDate date={date} endDate={endDate} />
+                <EventDate
+                  date={date}
+                  endDate={endDate}
+                  hideTime={hideTime}
+                  allDay={allDay}
+                />
               </p>
               <p>Location: {location}</p>
               <p>contact: none telephone: 0 cost: &pound;{cost}</p>
@@ -129,6 +135,7 @@ const EventsPost = ({ data }) => {
         title={post.frontmatter.title}
         date={post.frontmatter.date}
         endDate={post.frontmatter.endDate}
+        hideTime={post.frontmatter.hideTime}
         allDay={post.frontmatter.allDay}
         location={post.frontmatter.location}
         contact={post.frontmatter.number}
@@ -162,8 +169,9 @@ export const pageQuery = graphql`
         templateKey
         layout
         title
-        date(formatString: "MMMM DD, YYYY")
-        endDate(formatString: "MMMM DD, YYYY")
+        date
+        endDate
+        hideTime
         allDay
         location
         cost

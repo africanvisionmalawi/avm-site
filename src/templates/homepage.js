@@ -328,7 +328,8 @@ export const pageQuery = graphql`
             title
             published
             templateKey
-            date(formatString: "MMMM DD, YYYY")
+            date
+            endDate
             photo {
               childImageSharp {
                 fixed(width: 371, height: 222) {

@@ -9,6 +9,7 @@ description:
   Ever thought you couldn’t possibly cycle 500km in Africa? Malawi Cycle
   Challenge 2020 with optional Mulanje Hike.
 allDay: true
+hideTime: true
 location: '     Sam’s Village, 13°44''55.7"S 33°43''45.4"E, Lilongwe Malawi '
 contact: Heather
 telephone: 0

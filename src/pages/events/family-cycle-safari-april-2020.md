@@ -11,6 +11,7 @@ description: >-
   new ride – perfect for families or individuals who want a gentle introduction
   to Africa.
 allDay: true
+hideTime: false
 location: |2-
       Sam’s Village 
       13°44'55.7"S 33°43'45.4"E Lilongwe Malawi

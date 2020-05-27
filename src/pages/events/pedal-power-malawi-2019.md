@@ -7,6 +7,7 @@ photo: /img/img_5263.jpg
 date: 2019-04-08T22:07:16.531Z
 endDate: 2019-04-22T19:50:09.959Z
 allDay: true
+hideTime: false
 location: Malawi
 contact: none
 telephone: 0

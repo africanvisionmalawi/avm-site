@@ -6,6 +6,7 @@ photo: /img/lhdc5845.jpg
 date: 2019-09-11T18:00:39.226Z
 description: 3 course meal with inclusive drinks (£30 with wine and £22 non-alcoholic).
 allDay: false
+hideTime: false
 location: |-
   Langleys Restaurant & Wine Bar
   158 Ewell Road

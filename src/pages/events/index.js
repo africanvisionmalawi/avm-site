@@ -19,13 +19,31 @@ const Section = styled.section`
   width: 100%;
 `;
 
-const BlogIndexPage = () => {
+/**
+ * Returns the current date in YYYY-MM-DD format
+ */
+function getCurrentDate() {
+  const d = new Date();
+  let month = (d.getMonth() + 1).toString();
+  if (month.length < 2) {
+    month = `0${month}`;
+  }
+  let day = d.getDate().toString();
+  if (day.length < 2) {
+    day = `0${day}`;
+  }
+  return `${d.getFullYear()}-${month}-${day}`;
+}
+var currentDate = getCurrentDate();
+
+const EventsIndexPage = () => {
   // const heroImage = "/img/hero/retreat-yurt.jpg";
   // const heroMsg = "Forthcoming events";
   const { siteUrl } = useSiteMetadata();
   const title = "Latest events - African Vision Malawi";
   const description = "Latest events from African Vision Malawi.";
   const pathname = siteUrl + "/events/";
+
   return (
     <Layout>
       <Seo
@@ -55,4 +73,89 @@ const BlogIndexPage = () => {
   );
 };
 
-export default BlogIndexPage;
+export default EventsIndexPage;
+
+// export const pageQuery = graphql`
+//   query EventsQuery($currentDate: Date!) {
+//     pastEvents: allMarkdownRemark(
+//       sort: { order: ASC, fields: [frontmatter___date] }
+//       filter: {
+//         frontmatter: {
+//           templateKey: { eq: "events-post" }
+//           date: { lte: $currentDate }
+//         }
+//       }
+//     ) {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 400)
+//           id
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             templateKey
+//             layout
+//             title
+//             date
+//             endDate
+//             hideTime
+//             allDay
+//             location
+//             cost
+//             url
+//             description
+//             tags
+//             photo {
+//               childImageSharp {
+//                 fixed(width: 240, height: 240) {
+//                   ...GatsbyImageSharpFixed
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     futureEvents: allMarkdownRemark(
+//       sort: { order: ASC, fields: [frontmatter___date] }
+//       filter: {
+//         frontmatter: {
+//           templateKey: { eq: "events-post" }
+//           date: { lte: $currentDate }
+//         }
+//       }
+//     ) {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 400)
+//           id
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             templateKey
+//             layout
+//             title
+//             date
+//             endDate
+//             hideTime
+//             allDay
+//             location
+//             cost
+//             url
+//             description
+//             tags
+//             photo {
+//               childImageSharp {
+//                 fixed(width: 240, height: 240) {
+//                   ...GatsbyImageSharpFixed
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;

@@ -8,10 +8,11 @@ description: >-
   Ahu is walking 111km over 5 days to support us. Please support her and read
   about her amazing pilgrimage here …
 allDay: true
+hideTime: false
 location: |2-
       Cathedral of Santiago de Compostela 
       Praza do Obradoiro, s/n, 15704
-      Santiago de Compostela, A Coruña Spain 
+      Santiago de Compostela, A Coruña Spain
 contact: none
 telephone: 0
 cost: 0
@@ -20,4 +21,5 @@ url: >-
 tags:
   - events
 ---
+
 Ahu is walking 111km over 5 days to support us. Please support her and read about her [amazing pilgrimage here …](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf)
