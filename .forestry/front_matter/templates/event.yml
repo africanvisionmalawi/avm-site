@@ -12,34 +12,42 @@ fields:
   default: events-post
 - type: text
   name: title
-  label: title
+  label: Title of the event
 - type: file
   name: photo
-  label: photo
+  label: Add a main photo
 - type: datetime
   name: date
-  label: date
+  label: Date of the event
   config:
-    export_format: X
+    export_format: YYYY/MM/DD h:mm A ZZ
+    date_format: DD/MM/YYYY
+    display_utc: false
+- name: multidate_event
+  type: boolean
+  label: Multidate event?
+  description: Select if this events ends on a different date to the one it starts
+    on e.g. a 3 day festival
 - type: datetime
   name: endDate
-  label: endDate
   config:
-    export_format: X
-- name: hide_time
-  type: boolean
-  label: Hide Time
-  description: Select if you don't want the time displayed i.e. if there is no fixed
-    time for this event.
+    export_format: YYYY/MM/DD h:mm A ZZ
+    date_format: DD/MM/YYYY
+  showOnly:
+    field: multidate_event
+    value: true
+  default: '43'
+  label: End Date
 - type: boolean
   name: allDay
-  label: allDay
-  description: Select if this is an all day event.
+  label: All Day event?
+  description: Select if this is an all day event. This will hide the start and end
+    time when it is displayed on the site.
 - type: textarea
   name: description
-  label: description
-  description: Write  a short description here. Use the big box on the right to add
-    a full description with links, photos etc.
+  label: Description
+  description: Write a short description here. Use the big box on the right to add
+    a full description with more links, photos etc.
 - type: text
   name: location
   label: location
