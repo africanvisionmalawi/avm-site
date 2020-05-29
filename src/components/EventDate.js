@@ -1,15 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styled from "styled-components";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(advancedFormat);
 
 // todo: tidy up this mess of if satements
 
-export const EventDate = ({ date, endDate, allDay }) => {
+export const EventDate = ({ date, endDate, allDay, layout }) => {
   let dateString = "";
   let timeString = "";
   let timeStringEnd = "";
+  let dateHtml = "";
   if (
     // endDate is either null or at least a day after the start date
     endDate != null &&
@@ -27,7 +29,6 @@ export const EventDate = ({ date, endDate, allDay }) => {
         dayjs(endDate).format("HH:mm");
     }
     dateString =
-      "Dates: " +
       dayjs(date).format("Do MMMM ") +
       " to " +
       dayjs(endDate).format("Do MMMM, YYYY") +
@@ -40,11 +41,12 @@ export const EventDate = ({ date, endDate, allDay }) => {
           "hour"
         )
       ) {
-        timeStringEnd = " to " + dayjs(endDate).format("HH:mm");
+        timeStringEnd =
+          "<span> to " + dayjs(endDate).format("HH:mm") + "</span>";
       }
       timeString = " at " + dayjs(date).format("HH:mm") + timeStringEnd;
     }
-    dateString = "Date: " + dayjs(date).format("Do MMMM, YYYY ") + timeString;
+    dateString = dayjs(date).format("Do MMMM, YYYY ") + timeString;
   }
 
   EventDate.propTypes = {
@@ -52,7 +54,24 @@ export const EventDate = ({ date, endDate, allDay }) => {
     endDate: PropTypes.string,
   };
 
-  return <span>{dateString}</span>;
+  if (layout && layout === "card") {
+    dateHtml = <Notice>{dateString}</Notice>;
+  } else {
+    dateHtml = <span>Dates: {dateString}</span>;
+  }
+
+  return dateHtml;
 };
+
+const Notice = styled.div`
+  background: #fff;
+  border: 1px solid #c07d44;
+  border-radius: 8px;
+  color: #c07d44;
+  font-size: 1.2em;
+  padding: 12px;
+  text-align: center;
+  width: 300px;
+`;
 
 export default EventDate;

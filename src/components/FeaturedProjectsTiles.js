@@ -208,9 +208,13 @@ const TileLink = styled(Link)`
 `;
 
 const Heading = styled.h2`
-  margin: 2rem 0 1rem;
+  font-family: "Clicker Script", Cursive;
+  font-size: 3.2em;
+  margin: 0 0 0.5em;
   text-align: center;
 `;
+// margin: 2rem 0 1rem;
+// text-align: center;
 
 const SubHeading = styled.span`
   color: #fff;

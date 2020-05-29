@@ -40,7 +40,7 @@ const IndexPage = (props) => {
             <TopHeroText sm={16}>
               <H1Heading>Welcome to African Vision Malawi</H1Heading>
               <SubHeading>(known as The Landirani Trust in Malawi).</SubHeading>
-              <H2Heading>Our vision</H2Heading>
+              <H2HeadingTop>Our vision</H2HeadingTop>
               <Statement>
                 Since 2005 African Vision Malawi has been helping children and
                 vulnerable people in Malawi, one of the poorest countries in the
@@ -85,7 +85,7 @@ const IndexPage = (props) => {
 
           <section>
             <div className={`${homepageStyles.latestNewsBox}`}>
-              <h2 className={homepageStyles.latestNewsHeading}>Latest news</h2>
+              <H2Heading>Latest news</H2Heading>
               <div
                 className={homepageStyles.latestNews}
                 dangerouslySetInnerHTML={{
@@ -110,11 +110,7 @@ const IndexPage = (props) => {
           </PostsFooter>
           {events && events.length ? (
             <section>
-              <h2
-                className={`has-text-weight-bold is-size-3 ${homepageStyles.eventsHeading}`}
-              >
-                Latest events
-              </h2>
+              <H2Heading>Latest events</H2Heading>
               <div className={homepageStyles.newsCont}>
                 <div className={homepageStyles.cardCont}>
                   {events &&
@@ -170,6 +166,13 @@ const H1Heading = styled.h1`
 `;
 
 const H2Heading = styled.h2`
+  font-family: "Clicker Script", Cursive;
+  font-size: 3.2em;
+  margin: 0 0 0.5em;
+  text-align: center;
+`;
+
+const H2HeadingTop = styled.h2`
   font-size: 2.3em;
 `;
 const Statement = styled.p`

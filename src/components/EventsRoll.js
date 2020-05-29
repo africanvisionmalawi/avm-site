@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import postStyles from "./posts.module.css";
-import EventsRollRow from "./EventsRollRow";
+import CardWide from "./CardWide";
+import styled from "styled-components";
 // import Img from "gatsby-image";
 // import EventDate from "./EventDate";
 import dayjs from "dayjs";
@@ -27,23 +28,23 @@ const EventsRoll = (props) => {
     }
   });
 
-  console.log(pastEvents);
-  console.log(futureEvents);
+  // console.log(pastEvents);
+  // console.log(futureEvents);
 
   return (
     <section className={postStyles.list}>
-      <h2>Future events</h2>
+      <Heading>Future events</Heading>
       {futureEvents &&
         futureEvents.map((event) => (
           <div className={postStyles.events} key={event.id}>
-            <EventsRollRow event={event} />
+            <CardWide content={event} />
           </div>
         ))}
-      <h2>Past events</h2>
+      <Heading>Past events</Heading>
       {pastEvents &&
         pastEvents.map((event) => (
           <div className={postStyles.events} key={event.id}>
-            <EventsRollRow event={event} />
+            <CardWide content={event} />
           </div>
         ))}
     </section>
@@ -57,6 +58,13 @@ EventsRoll.propTypes = {
     }),
   }),
 };
+
+const Heading = styled.h2`
+  font-family: "Clicker Script", Cursive;
+  font-size: 3.4em;
+  margin: 0;
+  text-align: center;
+`;
 
 export default () => (
   <StaticQuery
@@ -88,8 +96,8 @@ export default () => (
                 tags
                 photo {
                   childImageSharp {
-                    fixed(width: 240, height: 240) {
-                      ...GatsbyImageSharpFixed
+                    fluid(maxWidth: 700) {
+                      ...GatsbyImageSharpFluid
                     }
                   }
                 }
