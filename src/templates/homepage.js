@@ -55,7 +55,7 @@ const IndexPage = (props) => {
           <HeroImage heroImage={heroImage} heroMsg="" />
           {/* <TopHero></TopHero> */}
 
-          <TopSection>
+          <AltTopSection>
             <TopVideoSection>
               <Col xs={24} md={8}>
                 <SectionHeading>
@@ -77,13 +77,16 @@ const IndexPage = (props) => {
                 </div>
               </Col>
             </TopVideoSection>
+          </AltTopSection>
+
+          <LowerSection>
             <FeaturedProjectsTiles
               currentProject="home"
               displayHeading={true}
             />
-          </TopSection>
+          </LowerSection>
 
-          <section>
+          <AltTopSection>
             <div className={`${homepageStyles.latestNewsBox}`}>
               <H2Heading>Latest news</H2Heading>
               <div
@@ -93,7 +96,8 @@ const IndexPage = (props) => {
                 }}
               />
             </div>
-
+          </AltTopSection>
+          <section>
             <div className={homepageStyles.newsCont}>
               <div className={homepageStyles.cardCont}>
                 {posts &&
@@ -150,6 +154,28 @@ const TopSection = styled.section`
   margin: 0 auto;
   max-width: 1180px;
   padding: 3em 2em;
+  position: relative;
+  width: 100%;
+`;
+
+const AltTopSection = styled.section`
+  background: #f7f7f7;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 2.5em 2em 1em;
+  position: relative;
+  width: 100%;
+`;
+
+const LowerSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 3em 0;
   position: relative;
   width: 100%;
 `;
@@ -221,24 +247,26 @@ const TopVideoSection = styled.div`
 `;
 
 const PostsFooter = styled.div`
-  border-bottom: 1px solid #d5d5d6;
+  border-bottom: 2px solid #3273dc;
   display: flex;
-  justify-content: flex-end;
-  margin: 0 auto 2rem;
+  justify-content: center;
+  margin: 0 auto 5rem;
   max-width: 1180px;
   padding: 0 0 0 8px;
 `;
 
 const PostsFooterLink = styled(Link)`
   background: #fff;
-  border: 1px solid #d5d5d6;
+  border: 2px solid #3273dc;
   border-bottom: none;
-  border-radius: 4px;
+  border-radius: 12px;
   border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
   color: #3273dc;
   display: inline-block;
   font-size: 0.8em;
-  padding: 8px 12px;
+  margin-bottom: 0px;
+  padding: 4px 24px;
   text-align: center;
 `;
 
