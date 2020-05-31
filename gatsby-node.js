@@ -4,6 +4,16 @@ const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 const createPaginatedPages = require("gatsby-paginate");
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type BlogPostByID implements Node {
+      pdf_upload: String
+    }
+  `;
+  createTypes(typeDefs);
+};
+
 /**
  * Returns the current date in YYYY-MM-DD format
  */
