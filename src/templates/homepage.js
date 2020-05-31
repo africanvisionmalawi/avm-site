@@ -247,27 +247,35 @@ const TopVideoSection = styled.div`
 `;
 
 const PostsFooter = styled.div`
-  border-bottom: 2px solid #3273dc;
-  display: flex;
-  justify-content: center;
+  height: 50px;
   margin: 0 auto 5rem;
   max-width: 1180px;
-  padding: 0 0 0 8px;
+  position: relative;
+  &::before {
+    bottom: 50%;
+    content: "";
+    border-bottom: 1px solid #3273dc;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
 `;
 
 const PostsFooterLink = styled(Link)`
   background: #fff;
   border: 2px solid #3273dc;
-  border-bottom: none;
   border-radius: 12px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
   color: #3273dc;
   display: inline-block;
   font-size: 0.8em;
-  margin-bottom: 0px;
+  left: 50%;
+  margin-left: -80px;
   padding: 4px 24px;
+  position: absolute;
   text-align: center;
+  top: 10%;
+  width: 160px;
+  z-index: 20;
 `;
 
 export default IndexPage;
@@ -291,6 +299,26 @@ export const mdRectImage = graphql`
     }
   }
 `;
+
+// export const mobileCardImage = graphql`
+//   fragment fixedMobileCardIMage on File {
+//     childImageSharp {
+//       fixed(width: 280) {
+//         ...GatsbyImageSharpFixed_withWebp_tracedSVG
+//       }
+//     }
+//   }
+// `;
+
+// export const desktopCardImage = graphql`
+//   fragment desktopCardImage on File {
+//     childImageSharp {
+//       fixed(width: 371, height: 222) {
+//         ...GatsbyImageSharpFixed_withWebp_tracedSVG
+//       }
+//     }
+//   }
+// `;
 
 export const pageQuery = graphql`
   query IndexQuery {

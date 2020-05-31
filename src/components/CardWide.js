@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 // import { v4 } from 'uuid'
 import { Link } from "gatsby";
 // import eventsColStyles from "./eventsCol.module.css";
