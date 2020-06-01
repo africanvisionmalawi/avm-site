@@ -16,9 +16,9 @@ links:
       to go back. I didn’t, however, want to return to Malawi as a tourist. I had been
       supporting a charity called “Child Survival in Malawi” for some years and contacted
       them to see if anything could be done to help while I was there
-  - url: "/about-us"
-    linkTitle: This is another link
-    linkText: and some more link text goes here
+  - url: "./about-us/team/"
+    linkTitle: Team
+    linkText: About our teams working in both the UK and Malawi.
   - url: "/about-us"
     linkTitle: This is another link
     linkText: and some more link text goes here

@@ -197,14 +197,14 @@ ukText: All of our UK staff are volunteers, so as a supporter you can be sure th
 
 Would you like to know more about our staff in Malawi? These are stories from our staff, past and present, written in their own words.
 
-The first story is from Anold Mankhambira, Project Accountant. Anold sadly passed away at Chritmas 2017 aged only 37.
+The first story is from [Anold Mankhambira](/about-us/team/staff-stories/anold-mankambira/), Project Accountant. Anold sadly passed away at Chritmas 2017 aged only 37.
 
-Jack Maduka, Education Manager, had a tough time himself getting his education in his early years and is currently completing his Masters in the USA. He’s glad to be able to give something back now.
+[Jack Maduka](/about-us/team/staff-stories/jack-maduka/), Education Manager, had a tough time himself getting his education in his early years and is currently completing his Masters in the USA. He’s glad to be able to give something back now.
 
-Gift Banda our Monitoring and Evaluation Officer and an orphan himself. He talks about the importance of Education and how it has ultimately got him to where he is today.
+[Gift Banda](/about-us/team/staff-stories/gift-banda/) our Monitoring and Evaluation Officer and an orphan himself. He talks about the importance of Education and how it has ultimately got him to where he is today.
 
-Ireen Mwale is the Assistant Librarian at Sam’s Village.
+[Ireen Mwale](/about-us/team/staff-stories/ireen-mwale/) is the Assistant Librarian at Sam’s Village.
 
-Bokela Gunda is Site Support at Sam’s Village and our master thatcher, having learnt to thatch while working for us.
+[Bokela Gunda](/about-us/team/staff-stories/bokela-gunda/) is Site Support at Sam’s Village and our master thatcher, having learnt to thatch while working for us.
 
 Working for African Vision Malawi as our Assistant Permaculture Worker has given Mercy Daniel enough income to buy her own livestock.
