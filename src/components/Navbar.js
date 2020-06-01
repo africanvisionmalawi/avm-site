@@ -375,10 +375,14 @@ const DesktopNav = styled.nav`
 const MobileNav = styled.div`
   align-items: center;
   display: flex;
+  flex-direction: column;
   height: 68px;
   justify-content: flex-end;
   margin: 4px 0 0;
   width: 100%;
+  @media (min-width: 370px) {
+    flex-direction: row;
+  }
   @media (min-width: 992px) {
     display: none;
   }
