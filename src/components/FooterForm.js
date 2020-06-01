@@ -105,8 +105,14 @@ const FormInner = styled.div`
 
 const FormGroup = styled.div`
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 8px auto 2em;
+  width: 90%;
+  @media (min-width: 540px) {
+    flex-direction: row;
+    width: auto;
+  }
 `;
 
 const FormExtra = styled.div`
@@ -115,23 +121,29 @@ const FormExtra = styled.div`
 
 const TextInput = styled.input`
   font-size: 1em;
+  padding: 0 8px;
 `;
 
 const Button = styled.button`
   background: #6cbede;
   border: 1px solid #6cbede;
   color: #fff;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-radius: 4px;
   cursor: pointer;
   display: inline-block;
   font-size: 0.9em;
   font-weight: bold;
+  margin-top: 12px;
   padding: 6px 20px;
   text-align: center;
   :hover {
     background: #58b5d7;
     color: #fff;
+  }
+  @media (min-width: 540px) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 0;
   }
 `;
 

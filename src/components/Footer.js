@@ -10,12 +10,43 @@ const LogoImg = styled.img`
   align-self: flex-end;
   display: block;
   height: 120px;
-  margin-right: 12px;
+  margin: 0 12px 1em 0;
   width: auto;
 `;
 
 const FooterMain = styled.div`
   width: 100%;
+`;
+
+const FooterRow = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (min-width: 650px) {
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    margin-bottom: 45px;
+  }
+`;
+
+const FooterCol = styled.div`
+  margin-bottom: 45px;
+  width: 100%;
+  @media (min-width: 650px) {
+    flex: 0 0 33.33333333%;
+    margin-bottom: 0;
+    max-width: 33.33333333%;
+  }
+`;
+
+const FooterContact = styled.div`
+  margin-bottom: 45px;
+`;
+
+const FooterSocial = styled.div`
+  & p {
+    font-size: 0.8em;
+  }
 `;
 
 const Footer = () => (
@@ -25,8 +56,8 @@ const Footer = () => (
       <LogoImg src={logo} alt="" />
       <FooterMain>
         <nav role="navigation">
-          <Row justify="center">
-            <Col xs={12} sm={8}>
+          <FooterRow justify="center">
+            <FooterCol xs={12} sm={8}>
               <h3>Featured Projects</h3>
               <ul className={footerStyles.list}>
                 <li>
@@ -45,9 +76,9 @@ const Footer = () => (
                   <Link to="/environment/">Environment</Link>
                 </li>
               </ul>
-            </Col>
+            </FooterCol>
 
-            <Col xs={12} sm={8}>
+            <FooterCol xs={12} sm={8}>
               <h3>
                 <a href="/news">News</a>
               </h3>
@@ -74,9 +105,9 @@ const Footer = () => (
                   <a href="/tags/newsletters/">Newsletters</a>
                 </li>
               </ul>
-            </Col>
+            </FooterCol>
 
-            <Col xs={12} sm={8}>
+            <FooterCol xs={12} sm={8}>
               <h3>
                 <a href="/shop/">Store</a>
               </h3>
@@ -91,24 +122,29 @@ const Footer = () => (
                   <a href="/shop/checkout/">Checkout</a>
                 </li>
               </ul>
-            </Col>
-          </Row>
+            </FooterCol>
+          </FooterRow>
         </nav>
 
-        <h3 className="footer_contact">Contact</h3>
-        <p>
-          email: info@africanvision.org.uk
-          <br />
-          tel (United Kingdom): +44 (0)20 8287 8169
-          <br />
-          tel (Malawi): +265 (0)759 005
-          <br />
-          post (United Kingdom): 31 Upper Brighton Road, Surbiton, Surrey KT6
-          6QX
-          <br />
-          post (Malawi): P.O. Box 30928, Lilongwe
-        </p>
-        <div className="nav column">
+        <FooterContact>
+          <h3 className="footer_contact">Contact</h3>
+          <p>
+            email:{" "}
+            <a href="mailto:info@africanvision.org.uk">
+              info@africanvision.org.uk
+            </a>
+            <br />
+            tel (United Kingdom): +44 (0)20 8287 8169
+            <br />
+            tel (Malawi): +265 (0)759 005
+            <br />
+            post (United Kingdom): 31 Upper Brighton Road, Surbiton, Surrey KT6
+            6QX
+            <br />
+            post (Malawi): P.O. Box 30928, Lilongwe
+          </p>
+        </FooterContact>
+        <FooterSocial>
           <h3>
             <a href="/news">Join us on&hellip;</a>
           </h3>
@@ -147,11 +183,11 @@ const Footer = () => (
               </a>
             </li>
           </ul>
-        </div>
-        <p className="source-org copyright">
-          &copy; 2019 African Vision Malawi. Registered charity 1113786.{" "}
-          <a href="/privacy-statement/">View our Privacy Statement</a>
-        </p>
+          <p className="source-org copyright">
+            &copy; 2019 African Vision Malawi. Registered charity 1113786.{" "}
+            <a href="/privacy-statement/">View our Privacy Statement</a>
+          </p>
+        </FooterSocial>
       </FooterMain>
     </div>
   </footer>
