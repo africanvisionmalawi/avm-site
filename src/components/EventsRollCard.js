@@ -18,36 +18,45 @@ const ColLink = styled.span`
   font-weight: bold;
 `;
 
-const EventsCol = ({ event }) => (
-  <>
-    {dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
-      dayjs().format("MMMM DD, YYYY")
-    ) &&
-      event.frontmatter.published && (
-        <div className={postStyles.card} key={event.fields.slug}>
-          <article className={postStyles.cardContent}>
-            <Link to={event.fields.slug}>
-              <div className={postStyles.imageCont}>
-                <Img fixed={event.frontmatter.photo.childImageSharp.fixed} />
-              </div>
+const EventsCol = ({ event }) => {
+  const sources = [
+    event.frontmatter.eventMobileImage.childImageSharp.fixed,
+    {
+      ...event.frontmatter.eventDesktopImage.childImageSharp.fixed,
+      media: `(min-width: 414px)`,
+    },
+  ];
+  return (
+    <>
+      {dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
+        dayjs().format("MMMM DD, YYYY")
+      ) &&
+        event.frontmatter.published && (
+          <div className={postStyles.card} key={event.fields.slug}>
+            <article className={postStyles.cardContent}>
+              <Link to={event.fields.slug}>
+                <div className={postStyles.imageCont}>
+                  <Img fixed={sources} />
+                </div>
 
-              <span className={postStyles.postHeading}>
-                {event.frontmatter.title}
-              </span>
-              <span className={postStyles.cardDate}>
-                <EventDate
-                  date={event.frontmatter.date}
-                  endDate={event.frontmatter.endDate}
-                />
-              </span>
-              <p className={postStyles.cardExcerpt}>{event.excerpt}</p>
-              <ColLink>Find out more</ColLink>
-            </Link>
-          </article>
-        </div>
-      )}
-  </>
-);
+                <span className={postStyles.postHeading}>
+                  {event.frontmatter.title}
+                </span>
+                <span className={postStyles.cardDate}>
+                  <EventDate
+                    date={event.frontmatter.date}
+                    endDate={event.frontmatter.endDate}
+                  />
+                </span>
+                <p className={postStyles.cardExcerpt}>{event.excerpt}</p>
+                <ColLink>Find out more</ColLink>
+              </Link>
+            </article>
+          </div>
+        )}
+    </>
+  );
+};
 
 EventsCol.propTypes = {
   events: PropTypes.object,

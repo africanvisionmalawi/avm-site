@@ -19,32 +19,42 @@ const ImgCont = styled.div`
   }
 `;
 
-const BlogCard = ({ post }) => (
-  <div className={postStyles.card} key={post.id}>
-    {post.frontmatter.published && (
-      <article className={postStyles.cardContent}>
-        <Link to={post.fields.slug}>
-          {post.frontmatter.featuredImage != null ? (
-            <ImgCont>
-              <Img
-                fixed={post.frontmatter.featuredImage.childImageSharp.fixed}
-              />
-            </ImgCont>
-          ) : (
-            <DefaultImage />
-          )}
-
-          <span className={postStyles.postHeading}>
-            {post.frontmatter.title}
-          </span>
-          <span className={postStyles.cardDate}>{post.frontmatter.date}</span>
-          <p className={postStyles.cardExcerpt}>{post.excerpt}</p>
-          <ColLink>Find out more</ColLink>
-        </Link>
-      </article>
-    )}
-  </div>
-);
+const BlogCard = ({ post }) => {
+  let postImage;
+  if (post.frontmatter.postMobileImage) {
+    const sources = [
+      post.frontmatter.postMobileImage.childImageSharp.fixed,
+      {
+        ...post.frontmatter.postDesktopImage.childImageSharp.fixed,
+        media: `(min-width: 414px)`,
+      },
+    ];
+    postImage = (
+      <ImgCont>
+        <Img fixed={sources} />
+      </ImgCont>
+    );
+  } else {
+    postImage = <DefaultImage />;
+  }
+  return (
+    <div className={postStyles.card} key={post.id}>
+      {post.frontmatter.published && (
+        <article className={postStyles.cardContent}>
+          <Link to={post.fields.slug}>
+            {postImage}
+            <span className={postStyles.postHeading}>
+              {post.frontmatter.title}
+            </span>
+            <span className={postStyles.cardDate}>{post.frontmatter.date}</span>
+            <p className={postStyles.cardExcerpt}>{post.excerpt}</p>
+            <ColLink>Find out more</ColLink>
+          </Link>
+        </article>
+      )}
+    </div>
+  );
+};
 
 BlogCard.propTypes = {
   post: PropTypes.object,

@@ -347,7 +347,14 @@ export const pageQuery = graphql`
             published
             templateKey
             date(formatString: "MMMM DD, YYYY")
-            featuredImage {
+            postMobileImage: featuredImage {
+              childImageSharp {
+                fixed(width: 280, height: 168) {
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                }
+              }
+            }
+            postDesktopImage: featuredImage {
               childImageSharp {
                 fixed(width: 371, height: 222) {
                   ...GatsbyImageSharpFixed_withWebp_tracedSVG
@@ -389,7 +396,14 @@ export const pageQuery = graphql`
             templateKey
             date
             endDate
-            photo {
+            eventMobileImage: photo {
+              childImageSharp {
+                fixed(width: 280) {
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                }
+              }
+            }
+            eventDesktopImage: photo {
               childImageSharp {
                 fixed(width: 371, height: 222) {
                   ...GatsbyImageSharpFixed_withWebp_tracedSVG

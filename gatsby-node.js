@@ -7,9 +7,12 @@ const createPaginatedPages = require("gatsby-paginate");
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
   const typeDefs = `
-    type BlogPostByID implements Node {
-      pdf_upload: String
+      type BlogPostByID implements Node {
+      frontmatter: Frontmatter
     }
+    type Frontmatter {
+      pdf_upload: String
+    }    
   `;
   createTypes(typeDefs);
 };
