@@ -10,9 +10,9 @@ const Heading = styled.h2`
   text-align: center;
 `;
 
-const PageLinks = ({ pagelinks }) => (
+const PageLinks = ({ pagelinks, displayHeading }) => (
   <div>
-    <Heading>Find out more</Heading>
+    {displayHeading && <Heading>Find out more</Heading>}
     <div className={pageLinksStyles.cardCont}>
       {pagelinks.map((pagelink) => (
         <div className={pageLinksStyles.card} key={pagelink.linkTitle}>
@@ -46,6 +46,10 @@ PageLinks.propTypes = {
       url: PropTypes.string,
     })
   ),
+};
+
+PageLinks.defaultProps = {
+  displayHeading: true,
 };
 
 export default PageLinks;

@@ -9,10 +9,10 @@ description: >-
   about her amazing pilgrimage here …
 allDay: true
 hideTime: false
-location: |2-
-      Cathedral of Santiago de Compostela 
-      Praza do Obradoiro, s/n, 15704
-      Santiago de Compostela, A Coruña Spain
+location: >-
+  Cathedral of Santiago de Compostela 
+  Praza do Obradoiro, s/n, 15704
+  Santiago de Compostela, A Coruña Spain
 contact: none
 telephone: 0
 cost: 0
