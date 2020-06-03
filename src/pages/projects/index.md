@@ -8,7 +8,7 @@ links:
       is a huge issue with lack of transport to hospital/clinics. There are not enough
       health centres/hospitals in our area and therefore the catchment area for each
       centre is huge.
-    linkTitle: Bicycle **ambulances**
+    linkTitle: Bicycle ambulances
     photo: "/img/page-links/link-bicycle-ambulance.jpg"
     url: "./projects/bicycle-ambulances/"
   - linkText:
@@ -16,7 +16,7 @@ links:
       (which is 6 classrooms) Two out of four teacher's houses The kitchen and store
       room The renovation of the pre school."
     linkTitle: Building schools
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-secondary-schools.jpg"
     url: "./projects/building-schools/"
   - linkText:
       What is a CBCC? A CBCC is a building with a multiple use - as a pre-school
@@ -29,7 +29,7 @@ links:
       the orphans who have nothing. We do regular distributions throughout our area.
       We distribute clothes, toys, sleeping mats, blankets, monsquito nets.
     linkTitle: Distributions
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-distributions.jpg"
     url: "./projects/distributions/"
   - linkText:
       We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
@@ -38,7 +38,7 @@ links:
       of the feeding programme. We have to provide the fuel saving oven and the bowls
       and spoons.
     linkTitle: Feeding Programme in Schools
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-feeding.jpg"
     url: "./projects/feeding-programme-in-schools/"
   - linkText:
       Gandys ‘Orphans for Orphans’ has funded the building of a pre-school at
@@ -53,7 +53,7 @@ links:
       was one Medical Assistant and one Midwife to run the two units. The Midwife was
       pregnant.
     linkTitle: Maternity
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-motherhood.jpg"
     url: "./projects/maternity-unit/"
   - linkText:
       Project4Africa is a group who raise funds to help various projects in
@@ -61,47 +61,43 @@ links:
       us again. This time the funds will be raised to help us renovate a maternity unit
       and staff housing in our area.
     linkTitle: Project4Africa
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-project4africa.jpg"
     url: "./projects/project4africa/"
   - linkText:
       "Using traditional techniques and resources we will be building a village
       that will primarily be an education site for agricultural teaching and vocational
       training. "
     linkTitle: Sam's Village
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-village-building.jpg"
     url: "./projects/sams-village/"
   - linkText: "..."
     linkTitle: Biogas
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-biogas.jpg"
     url: "./projects/sams-village/biogas/"
   - linkText: "..."
     linkTitle: Building Programme
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-village-building.jpg"
     url: "./projects/sams-village/building-programme/"
   - linkText: "..."
     linkTitle: Library
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-library.jpg"
     url: "./projects/sams-village/library/"
   - linkText: "..."
     linkTitle: Njewa New Office
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-njewa.jpg"
     url: "./projects/sams-village/njewa-new-office/"
   - linkText: "..."
     linkTitle: Rammed Earth Building
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-building-with-roof.jpg"
     url: "./projects/sams-village/njewa-new-office/rammed-earth-building/"
   - linkText: "..."
     linkTitle: Permaculture
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-permaculture.jpg"
     url: "./projects/sams-village/permaculture/"
   - linkText: "..."
     linkTitle: Training Programme
     photo: "/img/page-links/link-crowd-children.jpg"
     url: "./projects/sams-village/training-programme/"
-  - linkText: "..."
-    linkTitle: Christmas Appeal to complete Sam's Village
-    photo: "/img/page-links/link-crowd-children.jpg"
-    url: "./projects/sams-village/training-programme/christmas-appeal-to-complete-sams-village/"
   - linkText:
       Education is free to children up to the end of primary school but if they
       want to go on and get a full education (and hopefully go onto university) it costs
@@ -109,11 +105,11 @@ links:
       fees, school materials, boarding fees, food and school uniform. We are currently
       sponsoring 28 teenagers to go to Secondary school.
     linkTitle: Secondary School Sponsorship
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-secondary-schools.jpg"
     url: "./projects/secondary-school-sponsorship/"
   - linkText: "..."
     linkTitle: University Scholarships
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-university.jpg"
     url: "./projects/university-scholarships/"
   - linkText: "..."
     linkTitle: Lobiner Kanthenga - story of a University Student
@@ -130,7 +126,7 @@ links:
       to go on the well - we will then take pictures of the well upon completion and
       send it to them.
     linkTitle: Water and Sanitation
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-water-green-bucket.jpg"
     url: "./projects/water-and-sanitation/"
   - linkText: "..."
     linkTitle: Water boreholes
