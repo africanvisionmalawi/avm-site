@@ -68,13 +68,16 @@ export const FeaturedProjectsSimpleGalTemplate = ({
       <Breadcrumbs path={path} />
       <div className="container">
         <section>
-          <HeroImage heroImage={heroImage} heroMsg={heroMsg} />
+          <HeroImage
+            heroImage={heroImage}
+            heroMsg={heroMsg}
+            headingText={title}
+          />
         </section>
 
         <article>
           <main className={`${pageBasicStyles.main}`}>
             <TextSection>
-              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
               {heroMsg && (
                 <HeroMsg heroMsg={heroMsg} heroMsgSource={heroMsgSource} />
               )}

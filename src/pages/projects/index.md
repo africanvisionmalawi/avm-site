@@ -9,7 +9,7 @@ links:
       health centres/hospitals in our area and therefore the catchment area for each
       centre is huge.
     linkTitle: Bicycle **ambulances**
-    photo: "/img/page-links/link-crowd-children.jpg"
+    photo: "/img/page-links/link-bicycle-ambulance.jpg"
     url: "./projects/bicycle-ambulances/"
   - linkText:
       "Building started 2006 We have completed: Three out of four school blocks
