@@ -27,34 +27,27 @@ const EventsCol = ({ event }) => {
     },
   ];
   return (
-    <>
-      {dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
-        dayjs().format("MMMM DD, YYYY")
-      ) &&
-        event.frontmatter.published && (
-          <div className={postStyles.card} key={event.fields.slug}>
-            <article className={postStyles.cardContent}>
-              <Link to={event.fields.slug}>
-                <div className={postStyles.imageCont}>
-                  <Img fixed={sources} />
-                </div>
-
-                <span className={postStyles.postHeading}>
-                  {event.frontmatter.title}
-                </span>
-                <span className={postStyles.cardDate}>
-                  <EventDate
-                    date={event.frontmatter.date}
-                    endDate={event.frontmatter.endDate}
-                  />
-                </span>
-                <p className={postStyles.cardExcerpt}>{event.excerpt}</p>
-                <ColLink>Find out more</ColLink>
-              </Link>
-            </article>
+    <div className={postStyles.card} key={event.fields.slug}>
+      <article className={postStyles.cardContent}>
+        <Link to={event.fields.slug}>
+          <div className={postStyles.imageCont}>
+            <Img fixed={sources} />
           </div>
-        )}
-    </>
+
+          <span className={postStyles.postHeading}>
+            {event.frontmatter.title}
+          </span>
+          <span className={postStyles.cardDate}>
+            <EventDate
+              date={event.frontmatter.date}
+              endDate={event.frontmatter.endDate}
+            />
+          </span>
+          <p className={postStyles.cardExcerpt}>{event.excerpt}</p>
+          <ColLink>Find out more</ColLink>
+        </Link>
+      </article>
+    </div>
   );
 };
 

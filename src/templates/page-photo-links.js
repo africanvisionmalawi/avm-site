@@ -10,7 +10,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import Breadcrumbs from "../components/Breadcrumbs";
-import EventsRoll from "../components/EventsRoll";
+import EventsCardLayout from "../components/EventsCardLayout";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -86,7 +86,7 @@ export const PagePhotoLinksTemplate = ({
           text="Donate"
         />
         <Section>
-          <EventsRoll />
+          <EventsCardLayout />
         </Section>
         <FeaturedProjectsTiles displayHeading={true} />
       </div>
