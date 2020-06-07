@@ -9,18 +9,24 @@
 
 .galleryInner {
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1180px;
   position: relative;
   width: 100%;
 }
 .gallery {
   background: #f7f7f7;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(110px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap: 2rem;
   grid-auto-flow: dense;
   padding: 15px;
+}
+
+@media (min-width: 1180px) {
+  .gallery {
+    padding: 15px 0;
+  }
 }
 .gallery .gatsby-image-wrapper {
   height: 100%;

@@ -10,6 +10,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import Breadcrumbs from "../components/Breadcrumbs";
+import EventsCardLayout from "../components/EventsCardLayout";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -37,7 +38,7 @@ const TextSection = styled.section`
   }
 `;
 
-export const PagePhotoLinksTemplate = ({
+export const PagePhotoLinksEventsTemplate = ({
   title,
   content,
   links,
@@ -82,13 +83,16 @@ export const PagePhotoLinksTemplate = ({
           link="https://www.charitycheckout.co.uk/1113786/"
           text="Donate"
         />
+        <Section>
+          <EventsCardLayout />
+        </Section>
         <FeaturedProjectsTiles displayHeading={true} />
       </div>
     </div>
   );
 };
 
-const PagePhotoLinks = ({ data }) => {
+const PagePhotoLinksEvents = ({ data }) => {
   const { markdownRemark: post } = data;
   const { siteUrl } = useSiteMetadata();
   const { title } = useSiteMetadata();
@@ -101,7 +105,7 @@ const PagePhotoLinks = ({ data }) => {
         pathname={`${siteUrl}${post.fields.slug}`}
         article={false}
       />
-      <PagePhotoLinksTemplate
+      <PagePhotoLinksEventsTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -112,10 +116,10 @@ const PagePhotoLinks = ({ data }) => {
   );
 };
 
-export default PagePhotoLinks;
+export default PagePhotoLinksEvents;
 
-export const PagePhotoLinksQuery = graphql`
-  query PagePhotoLinks($id: String!) {
+export const PagePhotoLinksEventsQuery = graphql`
+  query PagePhotoLinksEvents($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       fields {

@@ -1,5 +1,5 @@
 ---
-templateKey: page-photo-links
+templateKey: page-photo-links-events
 title: Projects
 description: Details about our projects
 links:

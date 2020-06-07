@@ -5,11 +5,12 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Seo from "../components/seo";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import Breadcrumbs from "../components/Breadcrumbs";
 import teamStyles from "../components/team.module.css";
+import TeamList from "../components/team/TeamList";
 import styled from "styled-components";
 
 // const Section = styled.section`
@@ -44,60 +45,34 @@ export const TeamTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <div className="section section--gradient">
+    <>
       <Breadcrumbs path={path} />
-      <div className="container">
-        <article className="content">
-          <div className="columns">
-            <main className="column is-8">
-              <TextSection>
-                <h1 className="has-text-weight-semibold is-size-2">
-                  Meet the team
-                </h1>
-                <h2>Team in Malawi</h2>
-                <ul className={teamStyles.teamList}>
-                  {malawiTeam.map((team) => (
-                    <li key={team.name}>
-                      <div className={teamStyles.teamPhoto}>
-                        <PreviewCompatibleImage imageInfo={team.photo} />
-                      </div>
-                      <h4>{team.name}</h4>
-                      <p>{team.role}</p>
-                    </li>
-                  ))}
-                </ul>
-                <div className={teamStyles.contentBox}>
-                  <h2>{malawiTitle}</h2>
-                  <p>{malawiText}</p>
-                  <PageContent className="content" content={content} />
-                </div>
-                <div className={teamStyles.contentBox}>
-                  <h2>{ukTitle}</h2>
-                  <p>{ukText}</p>
-                </div>
-                <h2>Team in the UK</h2>
-                <ul className={teamStyles.teamList}>
-                  {ukTeam.map((team) => (
-                    <li key={team.name}>
-                      <div className={teamStyles.teamPhoto}>
-                        <PreviewCompatibleImage imageInfo={team.photo} />
-                      </div>
-                      <h4>{team.name}</h4>
-                      <p>{team.role}</p>
-                    </li>
-                  ))}
-                </ul>
-              </TextSection>
-            </main>
-            <Donate
-              link="https://www.charitycheckout.co.uk/1113786/"
-              text="Donate"
-            />
-          </div>
-        </article>
-        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
-      </div>
-    </div>
+      <article>
+        <main className="column is-8">
+          <TextSection>
+            <h1 className="has-text-weight-semibold is-size-2">
+              Meet the team
+            </h1>
+            <TeamList heading="Team in Malawi" teamData={malawiTeam} />
+            <div className={teamStyles.contentBox}>
+              <h2>{malawiTitle}</h2>
+              <p>{malawiText}</p>
+              <PageContent className="content" content={content} />
+            </div>
+            <div className={teamStyles.contentBox}>
+              <h2>{ukTitle}</h2>
+              <p>{ukText}</p>
+            </div>
+            <TeamList heading="Team in the UK" teamData={ukTeam} />
+          </TextSection>
+        </main>
+        <Donate
+          link="https://www.charitycheckout.co.uk/1113786/"
+          text="Donate"
+        />
+      </article>
+      <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
+    </>
   );
 };
 
