@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
 // import Helmet from "react-helmet";
 import useSiteMetadata from "../hooks/use-site-metadata";
@@ -81,13 +81,13 @@ export const BlogPostTemplate = ({
   );
 };
 
-BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  pdf_upload: PropTypes.string,
-};
+// BlogPostTemplate.propTypes = {
+//   content: PropTypes.node.isRequired,
+//   contentComponent: PropTypes.func,
+//   description: PropTypes.string,
+//   title: PropTypes.string,
+//   pdf_upload: PropTypes.string,
+// };
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -112,11 +112,11 @@ const BlogPost = ({ data }) => {
   );
 };
 
-BlogPost.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-};
+// BlogPost.propTypes = {
+//   data: PropTypes.shape({
+//     markdownRemark: PropTypes.object,
+//   }),
+// };
 
 export default BlogPost;
 

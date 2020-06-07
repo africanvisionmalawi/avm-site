@@ -3,6 +3,8 @@ const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 const createPaginatedPages = require("gatsby-paginate");
+const { isFuture } = require("date-fns");
+const { format } = require("date-fns");
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
@@ -33,51 +35,52 @@ function getCurrentDate() {
   return `${d.getFullYear()}-${month}-${day}`;
 }
 
-// exports.createSchemaCustomization = ({ actions }) => {
-//   const { createTypes } = actions;
-//   const typeDefs = `
-//     type MarkdownRemark implements Node @dontInfer {
-//       slug: String
-//       frontmatter: Frontmatter
-//     }
-//     type Frontmatter {
-//       date: [Date]
-//       endDate: [Date]
-//       title: String
-//       published: Boolean
-//       tags: String
-//       templateKey: String
-//     }
-//   `;
-//   createTypes(typeDefs);
-// };
-
-// exports.createSchemaCustomization = ({ actions, schema }) => {
-//   const { createTypes } = actions;
-//   const typeDefs = [
-//     "type MarkdownRemark implements Node { frontmatter: Frontmatter }",
-//     `type Frontmatter {
-//       date: Date @dateformat(formatString: "MMMM DD, YYYY")
-//       endDate: Date @dateformat(formatString: "MMMM DD, YYYY")
-//       title: String
-//       published: Boolean
-//       tags: String
-//       templateKey: String
-//     }`,
-//     schema.postsAndPages({
-//       name: "AuthorJson",
-//       fields: {
-//         slug: {
-//           type: String,
-//         },
-//       },
-//     }),
-//   ];
-//   createTypes(typeDefs);
-// };
-
-exports.createPages = ({ actions, graphql }) => {
+async function createBlogPostPages(graphql, actions) {
   const { createPage } = actions;
+  const result = await graphql(`
+    {
+      allSanityPost(
+        filter: { slug: { current: { ne: null } }, publishedAt: { ne: null } }
+      ) {
+        edges {
+          node {
+            id
+            publishedAt
+            slug {
+              current
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  if (result.errors) throw result.errors;
+
+  const postEdges = (result.data.allSanityPost || {}).edges || [];
+
+  postEdges
+    .filter((edge) => !isFuture(edge.node.publishedAt))
+    .forEach((edge, index) => {
+      const { id, slug = {}, publishedAt } = edge.node;
+      // const dateSegment = format(publishedAt, "YYYY/MM");
+      const path = `/blog/${slug.current}/`;
+
+      createPage({
+        path,
+        component: require.resolve("./src/templates/sanity-blog-post.js"),
+        context: { id },
+      });
+    });
+}
+
+// exports.createPages = async ({ graphql, actions }) => {
+
+// };
+
+exports.createPages = async ({ actions, graphql }) => {
+  const { createPage } = actions;
+  await createBlogPostPages(graphql, actions);
 
   return graphql(`
     {

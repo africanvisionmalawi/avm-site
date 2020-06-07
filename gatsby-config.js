@@ -1,4 +1,11 @@
+// Load variables from `.env` as soon as possible
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV || "development"}`,
+});
 var proxy = require("http-proxy-middleware");
+
+const clientConfig = require("./client-config");
+const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   siteMetadata: {
@@ -28,6 +35,15 @@ module.exports = {
     {
       resolve: "@bundle-analyzer/gatsby-plugin",
       options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
+    },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        ...clientConfig.sanity,
+        token: process.env.SANITY_READ_TOKEN,
+        watchMode: !isProd,
+        overlayDrafts: !isProd,
+      },
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
