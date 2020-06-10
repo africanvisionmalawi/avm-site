@@ -56,7 +56,7 @@ const IndexPage = (props) => {
           <HeroImage heroImage={heroImage} heroMsg="" />
           {/* <TopHero></TopHero> */}
 
-          <AltTopSection>
+          <TopSection>
             <TopVideoSection>
               <Col xs={24} md={8}>
                 <SectionHeading>
@@ -78,7 +78,7 @@ const IndexPage = (props) => {
                 </div>
               </Col>
             </TopVideoSection>
-          </AltTopSection>
+          </TopSection>
           <Donate
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"
@@ -151,16 +151,16 @@ const HomepageMain = styled.section`
   background: #fff;
 `;
 
-// const TopSection = styled.section`
-//   background: #fff;
-//   border-top-left-radius: 6px;
-//   border-top-right-radius: 6px;
-//   margin: 0 auto;
-//   max-width: 1180px;
-//   padding: 3em 2em;
-//   position: relative;
-//   width: 100%;
-// `;
+const TopSection = styled.section`
+  background: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 3em 2em 1em;
+  position: relative;
+  width: 100%;
+`;
 
 const AltTopSection = styled.section`
   background: #f7f7f7;
