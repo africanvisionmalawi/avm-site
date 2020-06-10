@@ -11,6 +11,7 @@ import ReactPlayer from "react-player";
 import BlogRollCard from "../components/BlogRollCard";
 import EventsRollCard from "../components/EventsRollCard";
 import homepageStyles from "../components/homepage.module.css";
+import Donate from "../components/Donate";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
@@ -40,15 +41,15 @@ const IndexPage = (props) => {
             <TopHeroText sm={16}>
               <H1Heading>Welcome to African Vision Malawi</H1Heading>
               <SubHeading>(known as The Landirani Trust in Malawi).</SubHeading>
-              <H2HeadingTop>Our vision</H2HeadingTop>
               <Statement>
-                Since 2005 African Vision Malawi has been helping children and
+                Since 2005 African Vision Malawi has been helping children &amp;
                 vulnerable people in Malawi, one of the poorest countries in the
                 world.
               </Statement>
+              <H2HeadingTop>Our vision...</H2HeadingTop>
               <Statement>
-                Our vision is to see a "healthy, educated and self-sufficient
-                community in Malawi".
+                to see a "healthy, educated and self-sufficient community in
+                Malawi".
               </Statement>
             </TopHeroText>
           </Row>
@@ -78,7 +79,10 @@ const IndexPage = (props) => {
               </Col>
             </TopVideoSection>
           </AltTopSection>
-
+          <Donate
+            link="https://www.charitycheckout.co.uk/1113786/"
+            text="Donate"
+          />
           <LowerSection>
             <FeaturedProjectsTiles
               currentProject="home"
@@ -147,16 +151,16 @@ const HomepageMain = styled.section`
   background: #fff;
 `;
 
-const TopSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  margin: 0 auto;
-  max-width: 1180px;
-  padding: 3em 2em;
-  position: relative;
-  width: 100%;
-`;
+// const TopSection = styled.section`
+//   background: #fff;
+//   border-top-left-radius: 6px;
+//   border-top-right-radius: 6px;
+//   margin: 0 auto;
+//   max-width: 1180px;
+//   padding: 3em 2em;
+//   position: relative;
+//   width: 100%;
+// `;
 
 const AltTopSection = styled.section`
   background: #f7f7f7;
@@ -203,17 +207,19 @@ const H2HeadingTop = styled.h2`
 `;
 const Statement = styled.p`
   font-size: 1.3em;
+  margin: 0 auto 1em;
+  max-width: 750px;
 `;
 
 const SubHeading = styled.p`
   text-align: center;
 `;
 
-const ContentSection = styled.section`
-  margin: 0 auto;
-  max-width: 980px;
-  width: 100%;
-`;
+// const ContentSection = styled.section`
+//   margin: 0 auto;
+//   max-width: 980px;
+//   width: 100%;
+// `;
 
 const SectionHeading = styled.span`
   display: block;

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Row, Col } from "antd";
 import FooterForm from "./FooterForm";
 import logo from "../img/logo-full.png";
 import footerStyles from "./footer.module.css";
