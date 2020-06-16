@@ -47,8 +47,9 @@ export const FeaturedProjectsTemplate = ({
         <section>
           <HeroImage
             heroImage={heroImage}
-            heroMsg={heroMsg}
-            headingText={title}
+            displayHeroMsg={true}
+            heroHeading={title}
+            heroHeadingType="h1"
           />
         </section>
 
@@ -216,7 +217,7 @@ export const FeaturedProjectsPageQuery = graphql`
         description
         heroImage {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 60) {
+            fluid(maxWidth: 1918, maxHeight: 540, quality: 60) {
               ...GatsbyImageSharpFluid
             }
           }

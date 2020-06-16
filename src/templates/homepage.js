@@ -46,14 +46,21 @@ const IndexPage = (props) => {
                 vulnerable people in Malawi, one of the poorest countries in the
                 world.
               </Statement>
-              <H2HeadingTop>Our vision...</H2HeadingTop>
+              {/* <H2HeadingTop>Our vision...</H2HeadingTop>
               <Statement>
                 to see a "healthy, educated and self-sufficient community in
                 Malawi".
-              </Statement>
+              </Statement> */}
             </TopHeroText>
           </Row>
-          <HeroImage heroImage={heroImage} heroMsg="" />
+          <HeroImage
+            heroImage={heroImage}
+            displayHeroMsg={true}
+            heroHeading="Our vision..."
+            heroHeadingType="h2"
+            heroMsg='to see a "healthy, educated and self-sufficient community in
+                Malawi."'
+          />
           {/* <TopHero></TopHero> */}
 
           <TopSection>
