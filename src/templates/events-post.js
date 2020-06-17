@@ -68,12 +68,16 @@ export const EventsPostTemplate = ({
       <Breadcrumbs path={path} />
       <div className="container content">
         <section>
-          <HeroImage heroImage={photo} heroMsg={null} />
+          <HeroImage
+            heroImage={photo}
+            displayHeroMsg={true}
+            heroHeading={title}
+            heroHeadingType="h1"
+          />
         </section>
         <article>
           <Main>
             <TextSection>
-              <h1>{title}</h1>
               <p>
                 <EventDate
                   date={date}
@@ -180,8 +184,8 @@ export const pageQuery = graphql`
         tags
         photo {
           childImageSharp {
-            fluid(maxWidth: 450, quality: 50) {
-              ...GatsbyImageSharpFluid
+            fluid(maxWidth: 1918, maxHeight: 540, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
