@@ -218,7 +218,7 @@ export const FeaturedProjectsPageQuery = graphql`
         heroImage {
           childImageSharp {
             fluid(maxWidth: 1918, maxHeight: 540, quality: 60) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -233,7 +233,7 @@ export const FeaturedProjectsPageQuery = graphql`
           photo {
             childImageSharp {
               fluid(maxWidth: 800, quality: 60) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -244,7 +244,7 @@ export const FeaturedProjectsPageQuery = graphql`
           photo {
             childImageSharp {
               fluid(maxWidth: 250, quality: 50) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }

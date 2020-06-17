@@ -338,7 +338,7 @@ export const pageQuery = graphql`
     heroImage: file(relativePath: { eq: "hero/homepage-hero.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1918, quality: 50) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -363,14 +363,14 @@ export const pageQuery = graphql`
             postMobileImage: featuredImage {
               childImageSharp {
                 fixed(width: 280, height: 168) {
-                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                  ...GatsbyImageSharpFixed_withWebp
                 }
               }
             }
             postDesktopImage: featuredImage {
               childImageSharp {
                 fixed(width: 371, height: 222) {
-                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                  ...GatsbyImageSharpFixed_withWebp
                 }
               }
             }
@@ -412,14 +412,14 @@ export const pageQuery = graphql`
             eventMobileImage: photo {
               childImageSharp {
                 fixed(width: 280) {
-                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                  ...GatsbyImageSharpFixed_withWebp
                 }
               }
             }
             eventDesktopImage: photo {
               childImageSharp {
                 fixed(width: 371, height: 222) {
-                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                  ...GatsbyImageSharpFixed_withWebp
                 }
               }
             }
