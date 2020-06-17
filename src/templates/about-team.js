@@ -19,11 +19,15 @@ import styled from "styled-components";
 //   width: 100%;
 // `;
 
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  min-height: 24rem;
+const PictureSection = styled.div`
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
+
+const TextSection = styled.div`
   margin: 0 auto;
   max-width: 750px;
   padding: 3em 2em 2em;
@@ -53,18 +57,22 @@ export const TeamTemplate = ({
             <h1 className="has-text-weight-semibold is-size-2">
               Meet the team
             </h1>
-            <TeamList heading="Team in Malawi" teamData={malawiTeam} />
-            <div className={teamStyles.contentBox}>
-              <h2>{malawiTitle}</h2>
-              <p>{malawiText}</p>
-              <PageContent className="content" content={content} />
-            </div>
-            <div className={teamStyles.contentBox}>
-              <h2>{ukTitle}</h2>
-              <p>{ukText}</p>
-            </div>
-            <TeamList heading="Team in the UK" teamData={ukTeam} />
           </TextSection>
+          <PictureSection>
+            <TeamList heading="Team in Malawi" teamData={malawiTeam} />
+            <TextSection>
+              <div className={teamStyles.contentBox}>
+                <h2>{malawiTitle}</h2>
+                <p>{malawiText}</p>
+                <PageContent className="content" content={content} />
+              </div>
+              <div className={teamStyles.contentBox}>
+                <h2>{ukTitle}</h2>
+                <p>{ukText}</p>
+              </div>
+            </TextSection>
+            <TeamList heading="Team in the UK" teamData={ukTeam} />
+          </PictureSection>
         </main>
         <Donate
           link="https://www.charitycheckout.co.uk/1113786/"
