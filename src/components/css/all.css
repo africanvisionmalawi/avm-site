@@ -2,11 +2,13 @@ li {
   margin: 0;
 }
 body {
-  background: #e6e2e0;
-  font-family: "Roboto", "Helvetica Neue", "Segoe UI", "Helvetica", "Arial",
-    sans-serif;
+  background: #fff;
+  color: #595959;
   font-size: 18.38px;
+  font-weight: 300;
 }
+/* font-family: "Raleway", "Helvetica Neue", "Segoe UI", "Helvetica", "Arial",
+    sans-serif; */
 img {
   margin-bottom: 0;
 }
@@ -57,3 +59,22 @@ li.ant-menu-submenu-active a {
 }
 
 /* h1, h2, h3, h4, h5 {font-family: } */
+a:link,
+a:visited {
+  color: #f99d1c;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #246a73;
+  font-weight: 300;
+}
+
+p + h2 {
+  margin-top: 1.4em;
+}

@@ -4,7 +4,8 @@ import { graphql } from "gatsby";
 import { Row, Col } from "antd";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+// import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import HomepageProjects from "../components/HomepageProjects";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
 import ReactPlayer from "react-player";
@@ -37,43 +38,36 @@ const IndexPage = (props) => {
       />
       <HomepageMain>
         <div className="container">
-          <Row type="flex" justify="center">
-            <TopHeroText sm={16}>
-              <H1Heading>Welcome to African Vision Malawi</H1Heading>
-              <SubHeading>(known as The Landirani Trust in Malawi).</SubHeading>
-              <Statement>
-                Since 2005 African Vision Malawi has been helping children &amp;
-                vulnerable people in Malawi, one of the poorest countries in the
-                world.
-              </Statement>
-              {/* <H2HeadingTop>Our vision...</H2HeadingTop>
-              <Statement>
-                to see a "healthy, educated and self-sufficient community in
-                Malawi".
-              </Statement> */}
-            </TopHeroText>
-          </Row>
           <HeroImage
             heroImage={heroImage}
             displayHeroMsg={true}
-            heroHeading="Our vision..."
-            heroHeadingType="h2"
-            heroMsg='to see a "healthy, educated and self-sufficient community in
-                Malawi."'
+            heroHeading="Welcome to African Vision Malawi"
+            heroHeadingType="h1"
+            heroMsg="(known as The Landirani Trust in Malawi)."
           />
           {/* <TopHero></TopHero> */}
 
           <TopSection>
             <TopVideoSection>
-              <Col xs={24} md={8}>
+              <Col xs={24} md={12}>
+                <SectionHeading>Our vision...</SectionHeading>
+                <p>
+                  to see a "healthy, educated and self-sufficient community in
+                  Malawi".
+                </p>
                 <SectionHeading>
                   The people of Malawi want to help themselves.
                 </SectionHeading>
-                <SectionSubHeading>
+                <p>
+                  Since 2005 African Vision Malawi has been helping children
+                  &amp; vulnerable people in Malawi, one of the poorest
+                  countries in the world.
+                </p>
+                <p>
                   We can empower them to become self-sufficient and independent.
-                </SectionSubHeading>
+                </p>
               </Col>
-              <Col xs={24} md={16}>
+              <Col xs={24} md={12}>
                 <div className={videoStyles.playerWrapper}>
                   <ReactPlayer
                     url={promoVideo}
@@ -91,10 +85,7 @@ const IndexPage = (props) => {
             text="Donate"
           />
           <LowerSection>
-            <FeaturedProjectsTiles
-              currentProject="home"
-              displayHeading={true}
-            />
+            <HomepageProjects currentProject="home" displayHeading={true} />
           </LowerSection>
 
           <AltTopSection>
@@ -163,7 +154,7 @@ const TopSection = styled.section`
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   margin: 0 auto;
-  max-width: 1180px;
+  max-width: 1280px;
   padding: 3em 2em 1em;
   position: relative;
   width: 100%;
@@ -197,20 +188,18 @@ const TopHeroText = styled(Col)`
 `;
 
 const H1Heading = styled.h1`
-  font-family: "Clicker Script", Cursive;
-  font-size: 3.4em;
+  // font-size: 3.4em;
   text-align: center;
 `;
 
 const H2Heading = styled.h2`
-  font-family: "Clicker Script", Cursive;
-  font-size: 3.2em;
+  // font-size: 3.2em;
   margin: 0 0 0.5em;
   text-align: center;
 `;
 
 const H2HeadingTop = styled.h2`
-  font-size: 2.3em;
+  // font-size: 2.3em;
 `;
 const Statement = styled.p`
   font-size: 1.3em;
@@ -228,17 +217,15 @@ const SubHeading = styled.p`
 //   width: 100%;
 // `;
 
-const SectionHeading = styled.span`
+const SectionHeading = styled.h2`
   display: block;
-  font-family: "Raleway";
-  font-size: 1.8em;
-  font-weight: bold;
+  // font-size: 1.8em;
+  // font-weight: bold;
   padding-right: 12px;
 `;
 
 const SectionSubHeading = styled.span`
   display: block;
-  font-family: "Raleway";
   font-size: 1.4em;
   margin-bottom: 2.5em;
   padding-right: 12px;
@@ -252,7 +239,7 @@ const TopVideoSection = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto 120px;
-  max-width: 1080px;
+  // max-width: 1080px;
   text-align: center;
   @media (min-width: 778px) {
     text-align: left;
@@ -267,7 +254,7 @@ const PostsFooter = styled.div`
   &::before {
     bottom: 50%;
     content: "";
-    border-bottom: 1px solid #3273dc;
+    border-bottom: 1px solid #c17d3d;
     position: absolute;
     width: 100%;
     z-index: 10;
@@ -276,9 +263,9 @@ const PostsFooter = styled.div`
 
 const PostsFooterLink = styled(Link)`
   background: #fff;
-  border: 2px solid #3273dc;
+  border: 2px solid #c17d3d;
   border-radius: 12px;
-  color: #3273dc;
+  // color: #3273dc;
   display: inline-block;
   font-size: 0.8em;
   left: 50%;
@@ -335,7 +322,7 @@ export const mdRectImage = graphql`
 
 export const pageQuery = graphql`
   query IndexQuery {
-    heroImage: file(relativePath: { eq: "hero/homepage-hero.jpg" }) {
+    heroImage: file(relativePath: { eq: "hero/homepage-hero-2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1918, quality: 50) {
           ...GatsbyImageSharpFluid_withWebp

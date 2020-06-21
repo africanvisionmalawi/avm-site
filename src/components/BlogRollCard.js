@@ -7,9 +7,9 @@ import DefaultImage from "./defaultImage";
 import styled from "styled-components";
 
 const ColLink = styled.span`
-  color: #3273dc;
+  // color: #3273dc;
   display: block;
-  font-weight: bold;
+  // font-weight: bold;
 `;
 
 const ImgCont = styled.div`
@@ -17,6 +17,7 @@ const ImgCont = styled.div`
   & .gatsby-image-wrapper {
     display: block !important;
   }
+  margin-bottom: 0.8em;
 `;
 
 const BlogCard = ({ post }) => {
@@ -35,7 +36,11 @@ const BlogCard = ({ post }) => {
       </ImgCont>
     );
   } else {
-    postImage = <DefaultImage />;
+    postImage = (
+      <ImgCont>
+        <DefaultImage />
+      </ImgCont>
+    );
   }
   return (
     <div className={postStyles.card} key={post.id}>
@@ -43,9 +48,7 @@ const BlogCard = ({ post }) => {
         <article className={postStyles.cardContent}>
           <Link to={post.fields.slug}>
             {postImage}
-            <span className={postStyles.postHeading}>
-              {post.frontmatter.title}
-            </span>
+            <h3>{post.frontmatter.title}</h3>
             <span className={postStyles.cardDate}>{post.frontmatter.date}</span>
             <p className={postStyles.cardExcerpt}>{post.excerpt}</p>
             <ColLink>Find out more</ColLink>

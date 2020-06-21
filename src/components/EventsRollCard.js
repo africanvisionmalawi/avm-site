@@ -13,9 +13,17 @@ import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(advancedFormat);
 
 const ColLink = styled.span`
-  color: #3273dc;
+  // color: #3273dc;
   display: block;
-  font-weight: bold;
+  // font-weight: bold;
+`;
+
+const ImgCont = styled.div`
+  border: 1px solid #cacaca;
+  & .gatsby-image-wrapper {
+    display: block !important;
+  }
+  margin-bottom: 0.8em;
 `;
 
 const EventsCol = ({ event }) => {
@@ -30,13 +38,11 @@ const EventsCol = ({ event }) => {
     <div className={postStyles.card} key={event.fields.slug}>
       <article className={postStyles.cardContent}>
         <Link to={event.fields.slug}>
-          <div className={postStyles.imageCont}>
+          <ImgCont>
             <Img fixed={sources} />
-          </div>
+          </ImgCont>
 
-          <span className={postStyles.postHeading}>
-            {event.frontmatter.title}
-          </span>
+          <h3>{event.frontmatter.title}</h3>
           <span className={postStyles.cardDate}>
             <EventDate
               date={event.frontmatter.date}

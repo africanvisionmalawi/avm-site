@@ -82,6 +82,10 @@ const CrumbDividerBase = css`
 
 const HomeLink = styled(Link)`
   ${CrumbLinkBase}
+  &:link,
+  &:visited {
+    color: #ababad;
+  }
 `;
 
 const CrumbCurrent = styled.span`
@@ -92,6 +96,10 @@ const CrumbCurrent = styled.span`
 const CrumbLink = styled(Link)`
   ${CrumbLinkBase}
   ${CrumbDividerBase}
+  &:link,
+  &:visited {
+    color: #ababad;
+  }
 `;
 
 export default Breadcrumbs;

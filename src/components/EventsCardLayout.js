@@ -52,9 +52,8 @@ const EventsCardLayout = (props) => {
 };
 
 const Heading = styled.h2`
-  font-family: "Clicker Script", Cursive;
-  font-size: 3.4em;
-  margin: 0;
+  // font-size: 3.4em;
+  // margin: 0;
   text-align: center;
 `;
 

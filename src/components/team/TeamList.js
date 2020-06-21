@@ -12,7 +12,7 @@ const TeamList = (props) => (
             <PreviewCompatibleImage imageInfo={team.photo} />
           </TeamPhoto>
           <SubHeading>{team.name}</SubHeading>
-          <p>{team.role}</p>
+          <About>{team.role}</About>
         </li>
       ))}
     </List>
@@ -49,6 +49,11 @@ const TeamPhoto = styled.div`
     border: 1px solid #e5e5e5;
     border-radius: 50%;
   }
+`;
+
+const About = styled.p`
+  font-size: 0.8em;
+  padding-bottom: 1.2em;
 `;
 
 export default TeamList;

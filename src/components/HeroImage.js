@@ -154,7 +154,7 @@ const Divider = styled.div`
       position: relative;
       display: block;
       width: calc(100% + 1.3px);
-      height: 50px;
+      height: 25px;
     }
 
     & .shape-fill {

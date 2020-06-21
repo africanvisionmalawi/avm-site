@@ -86,10 +86,6 @@ const Wrapper = styled.div`
   max-width: 1920px;
   position: relative;
   width: 100%;
-  @media (min-width: 1920px) {
-    border-left: 1px solid #d7dade;
-    border-right: 1px solid #d7dade;
-  }
 `;
 
 export default TemplateWrapper;

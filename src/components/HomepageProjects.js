@@ -1,48 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Row, Col } from "antd";
+// import { Col } from "antd";
 import Img from "gatsby-image";
 // import BackgroundImage from "gatsby-background-image";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import projectLinkStyles from "./projects.module.css";
 import styled from "styled-components";
 
-const FeaturedProjects = ({ currentProject, displayHeading }) => {
+const HomepageProjects = ({ currentProject, displayHeading }) => {
   const featuredImage = useStaticQuery(
     graphql`
       query {
-        PhotoVillageDesktop: file(
-          relativePath: { eq: "mainphoto_village-ver3.jpg" }
-        ) {
-          ...photoTileFixedLgRect
-        }
-        PhotoVillageMobile: file(
-          relativePath: { eq: "mainphoto_village-ver3.jpg" }
-        ) {
-          ...photoTileFixedMdRect
-        }
-        PhotoWater: file(relativePath: { eq: "mainphoto_water.jpg" }) {
+        PhotoVillage: file(relativePath: { eq: "mainphoto_village-ver3.jpg" }) {
           ...photoTileFixedMdRect
         }
         PhotoHealth: file(relativePath: { eq: "mainphoto_health.jpg" }) {
           ...photoTileFixedMdRect
         }
-        PhotoEducationDesktop: file(
-          relativePath: { eq: "mainphoto_education.jpg" }
-        ) {
-          ...photoTileFixedLgRect
-        }
-        PhotoEducationMobile: file(
-          relativePath: { eq: "mainphoto_education.jpg" }
-        ) {
-          ...photoTileFixedMdRect
-        }
-        PhotoEnvironment: file(
-          relativePath: { eq: "mainphoto_environment.jpg" }
-        ) {
-          ...photoTileFixedMdRect
-        }
-        PhotoCelebrate: file(relativePath: { eq: "mainphoto_celebrate.jpg" }) {
+        PhotoEducation: file(relativePath: { eq: "mainphoto_education.jpg" }) {
           ...photoTileFixedMdRect
         }
       }
@@ -53,20 +28,11 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
     <Container>
       <TileCont>
         {displayHeading === true ? <Heading>Featured projects</Heading> : ""}
-        <Row className={projectLinkStyles.featuredProjects}>
-          {projects.map((project) => (
-            <Tile
-              className={
-                project.id === currentProject ? projectLinkStyles.active : ``
-              }
-              key={project.id}
-              xs={project.colWidth.xs}
-              sm={project.colWidth.sm}
-            >
+
+        {projects.map((project) => (
+          <ProjectRow className={project.layout} key={project.id}>
+            <Tile xs={project.colWidth.xs} sm={project.colWidth.sm}>
               <TileLink to={project.src}>
-                <Overlay>
-                  <SubHeading>{project.name}</SubHeading>
-                </Overlay>
                 <Img
                   fluid={
                     project.hasMobileImage === true
@@ -86,16 +52,16 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
                 />
               </TileLink>
             </Tile>
-          ))}
-        </Row>
+            <Excerpt xs={24} sm={14}>
+              <h3>{project.name}</h3>
+              <p>{project.excerpt}</p>
+              <Link to={project.src}>Find out more</Link>
+            </Excerpt>
+          </ProjectRow>
+        ))}
       </TileCont>
     </Container>
   );
-};
-
-FeaturedProjects.propTypes = {
-  currentProject: PropTypes.string,
-  displayHeading: PropTypes.bool,
 };
 
 const projects = [
@@ -103,24 +69,15 @@ const projects = [
     id: "village",
     name: "Sam's Village",
     src: "/projects/sams-village/",
-    imageIdDesktop: "PhotoVillageDesktop",
-    imageIdMobile: "PhotoVillageMobile",
+    imageId: "PhotoVillage",
     colWidth: {
       xs: 24,
-      sm: 24,
-    },
-    hasMobileImage: true,
-  },
-  {
-    id: "water",
-    name: "Water",
-    src: "/water/",
-    imageId: "PhotoWater",
-    colWidth: {
-      xs: 24,
-      sm: 12,
+      sm: 10,
     },
     hasMobileImage: false,
+    layout: "default",
+    excerpt:
+      "Sam’s Training Village is a self-sustaining training village, built on a 10 acre site with a further 7 acres of agricultural support. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people.",
   },
   {
     id: "health",
@@ -129,43 +86,26 @@ const projects = [
     imageId: "PhotoHealth",
     colWidth: {
       xs: 24,
-      sm: 12,
+      sm: 10,
     },
     hasMobileImage: false,
+    layout: "alt",
+    excerpt:
+      "One of our big forthcoming projects is to build a Waiting Home for new mothers at the Maternity Unit. This second stage will provide essential care for pre-term births - which are higher in Malawi than anywhere else in the world. The project will include nutritional permaculture gardens in front of the new wing, and education on good nutrition for new mothers.",
   },
   {
     id: "education",
     name: "Education",
     src: "/education/",
-    imageIdDesktop: "PhotoEducationDesktop",
-    imageIdMobile: "PhotoEducationMobile",
+    imageId: "PhotoEducation",
     colWidth: {
       xs: 24,
-      sm: 24,
-    },
-    hasMobileImage: true,
-  },
-  {
-    id: "environment",
-    name: "Environment",
-    src: "/environment/",
-    imageId: "PhotoEnvironment",
-    colWidth: {
-      xs: 24,
-      sm: 12,
+      sm: 10,
     },
     hasMobileImage: false,
-  },
-  {
-    id: "celebrate",
-    name: "Celebrate & Give",
-    src: "/celebrate-and-give/",
-    imageId: "PhotoCelebrate",
-    colWidth: {
-      xs: 24,
-      sm: 12,
-    },
-    hasMobileImage: false,
+    layout: "default",
+    excerpt:
+      "We have setup 9 Community Based Childcare Centres to date to support the under 5's and support pupils in Primary, Secondary and University/Further Edication.",
   },
 ];
 
@@ -176,14 +116,31 @@ const Container = styled.section`
   width: 100%;
 `;
 
+const ProjectRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0 60px;
+  @media (min-width: 768px) {
+    &.alt {
+      flex-direction: row-reverse;
+    }
+  }
+`;
+
 const TileCont = styled.div``;
 
-const Tile = styled(Col)`
+const Tile = styled.div`
+  margin-bottom: 1.4em;
   overflow: hidden;
   padding: 4px;
   position: relative;
+  width: 100%;
   & img {
     border-radius: 4px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    width: 41.66666667%;
   }
 `;
 
@@ -198,7 +155,7 @@ const Tile = styled(Col)`
 const TileLink = styled(Link)`
   border-radius: 4px;
   display: block;
-  overflow: hidden;
+  //   overflow: hidden;
   position: relative;
   & img {
     border-radius: 4px;
@@ -246,4 +203,12 @@ const Overlay = styled.div`
   }
 `;
 
-export default FeaturedProjects;
+const Excerpt = styled.div`
+  padding: 0 30px;
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 58.33333333%;
+  }
+`;
+
+export default HomepageProjects;

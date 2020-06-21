@@ -27,11 +27,11 @@
   color: #565656;
 }
 .btn {
-  border: 1px solid #3273dc;
+  border: 1px solid #f99d1c;
   border-radius: 4px;
-  color: #3273dc;
+  color: #f99d1c;
   display: block;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: 8px;
   text-align: center;
 }

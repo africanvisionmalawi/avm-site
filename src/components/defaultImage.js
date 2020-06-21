@@ -3,10 +3,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 import styled from "styled-components";
 
-const ImageCont = styled.div`
-  border: 1px solid #cacaca;
-`;
-
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a
@@ -31,11 +27,7 @@ const DefaultImage = () => {
     }
   `);
 
-  return (
-    <ImageCont>
-      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-    </ImageCont>
-  );
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
 };
 
 export default DefaultImage;

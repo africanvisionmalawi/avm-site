@@ -35,16 +35,16 @@ module.exports = {
         fonts: [
           {
             family: `Roboto`,
-            variants: [`400`, "700"],
+            variants: [`300`, `400`, `700`],
           },
-          {
-            family: `Raleway`,
-            variants: [`400`, "700"],
-          },
-          {
-            family: `Clicker Script`,
-            variants: [`400`, `700`],
-          },
+          // {
+          //   family: `Raleway`,
+          //   variants: [`300`],
+          // },
+          // {
+          //   family: `Dosis`,
+          //   variants: [`400`, `700`],
+          // },
         ],
       },
     },
