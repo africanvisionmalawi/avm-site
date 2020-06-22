@@ -23,7 +23,7 @@ const TextSection = styled.section`
   border-top-right-radius: 6px;
   min-height: 24rem;
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 885px;
   padding: 3em 2em 2em;
   position: relative;
   width: 100%;
@@ -46,7 +46,7 @@ const PaginationLink = (props) => {
   }
 };
 
-const ShopIndex = ({ location, pageContext }) => {
+const NewsIndex = ({ location, pageContext }) => {
   // const { location, pageContext } = props;
   const { group, index, pageCount, first, last } = pageContext;
   const previousUrl = index - 1 === 1 ? "" : (index - 1).toString() + "/";
@@ -119,4 +119,4 @@ const ShopIndex = ({ location, pageContext }) => {
   );
 };
 
-export default ShopIndex;
+export default NewsIndex;

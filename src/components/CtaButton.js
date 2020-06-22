@@ -41,7 +41,7 @@ const BtnLink = styled.a`
   &.alt {
     background: #fff;
     border: 2px solid #fff;
-    color: #294c60;
+    color: #58b5d7;
   }
 `;
 

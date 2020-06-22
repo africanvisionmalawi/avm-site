@@ -24,7 +24,7 @@ const TextSection = styled.section`
   border-top-right-radius: 6px;
   min-height: 24rem;
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 885px;
   padding: 3em 2em 2em;
   position: relative;
   width: 100%;

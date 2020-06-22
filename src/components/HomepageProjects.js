@@ -77,7 +77,7 @@ const projects = [
     hasMobileImage: false,
     layout: "default",
     excerpt:
-      "Sam’s Training Village is a self-sustaining training village, built on a 10 acre site with a further 7 acres of agricultural support. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people.",
+      "Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas.",
   },
   {
     id: "health",
@@ -119,7 +119,7 @@ const Container = styled.section`
 const ProjectRow = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 0 60px;
+  margin: 60px 0 120px;
   @media (min-width: 768px) {
     &.alt {
       flex-direction: row-reverse;

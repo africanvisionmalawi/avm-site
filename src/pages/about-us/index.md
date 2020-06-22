@@ -10,7 +10,7 @@ links:
   - linkText:
       We work in an area some 30km from the capital city, Lilongwe which is
       400km squared and with 45,000 population.
-    url: "/about-us/where-we-work/"
+    url: "./about-us/where-we-work/"
     linkTitle: Where we work
     photo: "/img/page-links/link-bicycle-ambulance.jpg"
   - linkText:

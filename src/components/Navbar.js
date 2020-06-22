@@ -393,8 +393,8 @@ const MobileNavIcon = styled.svg`
   display: block;
   fill: #fff;
   height: 28px;
-  margin-right: 15px;
-  margin-left: 8px;
+  // margin-right: 15px;
+  // margin-left: 8px;
   width: 28px;
 `;
 

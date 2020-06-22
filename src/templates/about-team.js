@@ -29,7 +29,7 @@ const PictureSection = styled.div`
 
 const TextSection = styled.div`
   margin: 0 auto;
-  max-width: 750px;
+  max-width: 885px;
   padding: 3em 2em 2em;
   position: relative;
   width: 100%;

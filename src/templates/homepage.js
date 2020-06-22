@@ -147,6 +147,7 @@ IndexPage.propTypes = {
 
 const HomepageMain = styled.section`
   background: #fff;
+  padding-top: 2.6em;
 `;
 
 const TopSection = styled.section`
@@ -254,7 +255,7 @@ const PostsFooter = styled.div`
   &::before {
     bottom: 50%;
     content: "";
-    border-bottom: 1px solid #c17d3d;
+    border-bottom: 1px solid #b75906;
     position: absolute;
     width: 100%;
     z-index: 10;
@@ -263,7 +264,7 @@ const PostsFooter = styled.div`
 
 const PostsFooterLink = styled(Link)`
   background: #fff;
-  border: 2px solid #c17d3d;
+  border: 2px solid #b75906;
   border-radius: 12px;
   // color: #3273dc;
   display: inline-block;

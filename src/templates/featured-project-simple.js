@@ -30,7 +30,7 @@ const TextSection = styled.section`
   background: #fff;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  min-height: 24rem;
+  // min-height: 24rem;
   margin: 0 auto;
   max-width: 1180px;
   padding: 1em 2em;

@@ -3,7 +3,7 @@ import CtaButton from "./CtaButton";
 import styled from "styled-components";
 
 const Container = styled.div`
-  background: #294c60;
+  background: #58b5d7;
   margin-bottom: 3em;
   padding: 30px 0;
   text-align: center;

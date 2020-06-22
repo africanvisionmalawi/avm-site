@@ -3,7 +3,7 @@ templateKey: page-text-links
 title: Current Vacancies
 description: Current Vacancies at African Vision Malawi
 links:
-  - url: "./vacancies/fundraising-manager/"
+  - url: "./get-involved/vacancies/fundraising-manager/"
     linkTitle: Fundraisers
     linkText: African Vision Malawi is looking for new Fundraisers. Can you help maximize the generation of funds for the charity to allow us to sustain and develop further our support to orphans and vulnerable people in Malawi?
   - url: "./get-involved/vacancies/me-officer-malawi/"
