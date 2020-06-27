@@ -1,12 +1,11 @@
 ---
 templateKey: page-basic
-title: Why Malawi
-description: About 74 per cent of the population of Malawi still lives below the income
+title: Malawi
+description:
+  About 74 per cent of the population of Malawi still lives below the income
   poverty line of US$1.25 a day and 90 per cent below the US$2 a day threshold. Only
   12 per cent of households have access to credit.
-
----
-Malawi is one of the world’s 20 poorest countries. About 74 per cent of the population still lives below the income poverty line of US$1.25 a day and 90 per cent below the US$2 a day threshold. Only 12 per cent of households have access to credit.
+---Malawi is one of the world’s 20 poorest countries. About 74 per cent of the population still lives below the income poverty line of US$1.25 a day and 90 per cent below the US$2 a day threshold. Only 12 per cent of households have access to credit.
 
 The average Malawian can expect to live just 40 years due to HIV/AIDS, malaria, and malnutrition. 15 million Malawians live in a country a little smaller than England
 

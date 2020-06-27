@@ -44,14 +44,6 @@ const Navbar = () => {
                       selectedKeys={[current]}
                       mode="horizontal"
                     >
-                      <Menu.Item key="whyMalawi">
-                        <Link
-                          className="navbar-item navbar-single"
-                          to="/why-malawi"
-                        >
-                          Why Malawi?
-                        </Link>
-                      </Menu.Item>
                       <SubMenu
                         key="aboutUs"
                         title={
@@ -112,8 +104,12 @@ const Navbar = () => {
                           </Link>
                         }
                       >
-                        <Menu.Item>Current Projects</Menu.Item>
-                        <Menu.Item>Past Projects</Menu.Item>
+                        <Menu.Item>
+                          <Link to="/projects">Projects</Link>
+                        </Menu.Item>
+                        <Menu.Item>
+                          <Link to="/events">Events</Link>
+                        </Menu.Item>
                         <Menu.Item>
                           <Link to="/projects/stories-from-the-field/">
                             Stories from the field
@@ -241,11 +237,6 @@ const Navbar = () => {
         visible={drawerVisible}
       >
         <Menu onClick={handleClick} selectedKeys={[current]} mode="vertical">
-          <Menu.Item key="whyMalawi">
-            <Link className="navbar-item navbar-single" to="/why-malawi">
-              Why Malawi?
-            </Link>
-          </Menu.Item>
           <SubMenu
             key="aboutUs"
             title={
@@ -257,6 +248,9 @@ const Navbar = () => {
               </Link>
             }
           >
+            <Link className="navbar-item navbar-single" to="/about-us/malawi">
+              Malawi
+            </Link>
             <Menu.Item>
               <Link className="navbar-item" to="/about-us/team">
                 Team
@@ -297,9 +291,17 @@ const Navbar = () => {
               </Link>
             }
           >
-            <Menu.Item>Current Projects</Menu.Item>
-            <Menu.Item>Past Projects</Menu.Item>
-            <Menu.Item>Stories from the field</Menu.Item>
+            <Menu.Item>
+              <Link to="/projects">Projects</Link>
+            </Menu.Item>
+            <Menu.Item>
+              <Link to="/events">Events</Link>
+            </Menu.Item>
+            <Menu.Item>
+              <Link to="/projects/stories-from-the-field/">
+                Stories from the field
+              </Link>
+            </Menu.Item>
           </SubMenu>
           <SubMenu
             key="getInvolved"
@@ -366,9 +368,10 @@ const Navbar = () => {
 const DesktopNav = styled.nav`
   display: none;
   position: relative;
+  text-transform: uppercase;
   @media (min-width: 992px) {
     display: flex;
-    margin: 0 1em 0 auto;
+    margin: 0 1em 0 0;
   }
 `;
 
@@ -379,6 +382,7 @@ const MobileNav = styled.div`
   height: 68px;
   justify-content: flex-end;
   margin: 4px 0 0;
+  text-transform: uppercase;
   width: 100%;
   @media (min-width: 370px) {
     flex-direction: row;

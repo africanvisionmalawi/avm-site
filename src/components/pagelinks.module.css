@@ -1,12 +1,22 @@
-.cardCont {
+.cardCont,
+.cardContWide {
   align-items: grid-start;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
   grid-gap: 3.2rem;
   justify-content: center;
+  margin: 30px 0;
+}
+.cardCont {
+  grid-template-columns: repeat(auto-fill, 250px);
+}
+.cardContWide {
+  grid-template-columns: repeat(auto-fill, 560px);
 }
 .card {
   width: 250px;
+}
+.cardWide {
+  width: 560px;
 }
 .cardContent {
   background: #fff;

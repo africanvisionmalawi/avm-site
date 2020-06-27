@@ -84,9 +84,6 @@ export const FeaturedProjectsTemplate = ({
               </div>
             </Section>
           )}
-          {gallery.length && (
-            <Gallery gallery={gallery} initialState={{ showDialog: false }} />
-          )}
           {links.length && (
             <Section
               className="full-width-container margin-top-0"
@@ -101,6 +98,9 @@ export const FeaturedProjectsTemplate = ({
                 <PageLinksWithPhotos pagelinks={links} />
               </div>
             </Section>
+          )}
+          {gallery.length && (
+            <Gallery gallery={gallery} initialState={{ showDialog: false }} />
           )}
         </article>
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />

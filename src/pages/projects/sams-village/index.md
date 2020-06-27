@@ -2,7 +2,7 @@
 templateKey: featured-project
 currentProject: village
 columns: 1
-title: Sams Village
+title: Sam's Village
 description:
   Sam’s Training Village is a self-sustaining training village, built on
   a 10 acre site. The construction phase is now almost complete and the objective
@@ -88,8 +88,9 @@ Sam’s Training Village is situated opposite M’teza School in Chigonti villag
 
 We believe the Village will become a best-practice example for Malawi (and in time other parts of Africa) of how to encourage and develop sustainable, forward looking and skilled communities.
 
-## Why is it called Sam’s Village? 
-Sadly Sam Hayes passed away tragically on September 10th 2013, at the age of 23, and his parents are creating a legacy that makes a positive change by supporting the building of the “Sam’s Village” Training Village. Sam’s friends and family have raised the £250,000 to build this amazing project. 
+## Why is it called Sam’s Village?
+
+Sadly Sam Hayes passed away tragically on September 10th 2013, at the age of 23, and his parents are creating a legacy that makes a positive change by supporting the building of the “Sam’s Village” Training Village. Sam’s friends and family have raised the £250,000 to build this amazing project.
 
 Two mulberry trees have been planted at the main entrance to the Training Village in dedication to Sam’s memory. Our condolences are always with Sam’s family and we thank them for all their support.
 

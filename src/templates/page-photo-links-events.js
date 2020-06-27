@@ -14,10 +14,12 @@ import EventsCardLayout from "../components/EventsCardLayout";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
+import { getFeaturedLinks } from "../utils/helpers";
 
 const Section = styled.section`
   margin: 0 auto;
   max-width: 1180px;
+  padding-bottom: 30px;
   width: 100%;
 `;
 
@@ -47,6 +49,9 @@ export const PagePhotoLinksEventsTemplate = ({
 }) => {
   const PageContent = contentComponent || Content;
 
+  const featuredLinks = getFeaturedLinks(links, true);
+  const otherLinks = getFeaturedLinks(links, false);
+
   return (
     <div
       className="section section--gradient"
@@ -65,17 +70,24 @@ export const PagePhotoLinksEventsTemplate = ({
               </TextSection>
             </main>
           </div>
-          {links.length && (
-            <Section
-              className="full-width-container margin-top-0"
-              style={{
-                background: "#fff",
-                // borderBottom: "1px solid #e5e5e5",
-                marginBottom: "0",
-                paddingBottom: "30px",
-              }}
-            >
-              <PageLinksWithPhotos pagelinks={links} displayHeading={false} />
+          {featuredLinks.length && (
+            <Section>
+              <PageLinksWithPhotos
+                pagelinks={featuredLinks}
+                displayHeading={true}
+                heading="Featured projects"
+                featured={true}
+              />
+            </Section>
+          )}
+          {otherLinks.length && (
+            <Section className="full-width-container margin-top-0">
+              <PageLinksWithPhotos
+                pagelinks={otherLinks}
+                displayHeading={true}
+                heading="Other projects"
+                featured={false}
+              />
             </Section>
           )}
         </article>
@@ -83,9 +95,7 @@ export const PagePhotoLinksEventsTemplate = ({
           link="https://www.charitycheckout.co.uk/1113786/"
           text="Donate"
         />
-        <Section>
-          <EventsCardLayout />
-        </Section>
+
         <FeaturedProjectsTiles displayHeading={true} />
       </div>
     </div>
@@ -132,13 +142,14 @@ export const PagePhotoLinksEventsQuery = graphql`
           linkTitle
           photo {
             childImageSharp {
-              fluid(maxWidth: 250, quality: 50) {
+              fluid(maxWidth: 560, quality: 50) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
           linkText
           url
+          featured
         }
       }
     }
