@@ -34,3 +34,5 @@ fields:
     label: featured
     description: This will move it to the top of the page &amp; make it displayed
       larger
+pages:
+- src/pages/projects/index.md
