@@ -19,12 +19,12 @@ fields:
   name: links
   label: Links to other pages from this page
   fields:
-  - type: textarea
-    name: linkText
-    label: Short descriptive text
   - type: text
     name: linkTitle
     label: Heading or Title
+  - type: textarea
+    name: linkText
+    label: Short descriptive text
   - type: file
     name: photo
     label: photo
