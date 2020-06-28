@@ -7,26 +7,30 @@ fields:
   label: templateKey
 - type: text
   name: title
-  label: title
+  label: Page title
 - type: text
   name: description
-  label: description
+  label: Page description
+  description: Short amount of text used by search engines within the code &amp; not
+    displayed on the main part of the site.
 - type: field_group_list
   name: links
-  label: links
+  label: Links to other pages from this page
   fields:
   - type: textarea
     name: linkText
-    label: linkText
+    label: Short descriptive text
   - type: text
     name: linkTitle
-    label: linkTitle
+    label: Heading or Title
   - type: file
     name: photo
     label: photo
   - type: text
     name: url
-    label: url
+    label: Link to the page
   - type: boolean
     name: featured
     label: featured
+    description: This will move it to the top of the page &amp; make it displayed
+      larger
