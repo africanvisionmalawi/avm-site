@@ -59,7 +59,3 @@ fields:
   - type: text
     name: url
     label: url
-pages:
-- src/pages/celebrate-and-give/index.md
-- src/pages/education/index.md
-- src/pages/environment/index.md

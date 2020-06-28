@@ -1,0 +1,32 @@
+---
+label: featured-project-featured-links
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: links
+  label: links
+  fields:
+  - type: textarea
+    name: linkText
+    label: linkText
+  - type: text
+    name: linkTitle
+    label: linkTitle
+  - type: file
+    name: photo
+    label: photo
+  - type: text
+    name: url
+    label: url
+  - type: boolean
+    name: featured
+    label: featured
