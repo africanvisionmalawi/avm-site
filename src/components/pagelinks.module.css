@@ -10,13 +10,23 @@
   grid-template-columns: repeat(auto-fill, 250px);
 }
 .cardContWide {
-  grid-template-columns: repeat(auto-fill, 560px);
+  grid-template-columns: repeat(auto-fill, 1fr);
 }
 .card {
   width: 250px;
 }
 .cardWide {
-  width: 560px;
+  padding: 0 8%;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .cardContWide {
+    grid-template-columns: repeat(auto-fill, 560px);
+  }
+  .cardWide {
+    padding: 0;
+    width: 560px;
+  }
 }
 .cardContent {
   background: #fff;

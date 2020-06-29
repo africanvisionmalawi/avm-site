@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { Row, Col } from "antd";
+import { Col } from "antd";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
 // import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
@@ -183,15 +183,15 @@ const LowerSection = styled.section`
   width: 100%;
 `;
 
-const TopHeroText = styled(Col)`
-  padding: 30px 0 0;
-  text-align: center;
-`;
+// const TopHeroText = styled(Col)`
+//   padding: 30px 0 0;
+//   text-align: center;
+// `;
 
-const H1Heading = styled.h1`
-  // font-size: 3.4em;
-  text-align: center;
-`;
+// const H1Heading = styled.h1`
+//   // font-size: 3.4em;
+//   text-align: center;
+// `;
 
 const H2Heading = styled.h2`
   // font-size: 3.2em;
@@ -199,18 +199,18 @@ const H2Heading = styled.h2`
   text-align: center;
 `;
 
-const H2HeadingTop = styled.h2`
-  // font-size: 2.3em;
-`;
-const Statement = styled.p`
-  font-size: 1.3em;
-  margin: 0 auto 1em;
-  max-width: 750px;
-`;
+// const H2HeadingTop = styled.h2`
+//   // font-size: 2.3em;
+// `;
+// const Statement = styled.p`
+//   font-size: 1.3em;
+//   margin: 0 auto 1em;
+//   max-width: 750px;
+// `;
 
-const SubHeading = styled.p`
-  text-align: center;
-`;
+// const SubHeading = styled.p`
+//   text-align: center;
+// `;
 
 // const ContentSection = styled.section`
 //   margin: 0 auto;
@@ -225,15 +225,15 @@ const SectionHeading = styled.h2`
   padding-right: 12px;
 `;
 
-const SectionSubHeading = styled.span`
-  display: block;
-  font-size: 1.4em;
-  margin-bottom: 2.5em;
-  padding-right: 12px;
-  @media (min-width: 768px) {
-    margin-bottom: 0;
-  }
-`;
+// const SectionSubHeading = styled.span`
+//   display: block;
+//   font-size: 1.4em;
+//   margin-bottom: 2.5em;
+//   padding-right: 12px;
+//   @media (min-width: 768px) {
+//     margin-bottom: 0;
+//   }
+// `;
 
 const TopVideoSection = styled.div`
   display: flex;

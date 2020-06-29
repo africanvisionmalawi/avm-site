@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 // import { Row, Col } from "antd";
 import Layout from "../components/Layout";
@@ -10,7 +10,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import Breadcrumbs from "../components/Breadcrumbs";
-import EventsCardLayout from "../components/EventsCardLayout";
+// import EventsCardLayout from "../components/EventsCardLayout";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -140,10 +140,17 @@ export const PagePhotoLinksEventsQuery = graphql`
         description
         links {
           linkTitle
-          photo {
+          largeImage: photo {
             childImageSharp {
-              fluid(maxWidth: 560, quality: 50) {
-                ...GatsbyImageSharpFluid
+              fluid(maxWidth: 560, maxHeight: 280) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          smallImage: photo {
+            childImageSharp {
+              fixed(width: 250, height: 125) {
+                ...GatsbyImageSharpFixed_withWebp
               }
             }
           }

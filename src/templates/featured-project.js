@@ -241,10 +241,10 @@ export const FeaturedProjectsPageQuery = graphql`
         }
         links {
           linkTitle
-          photo {
+          smallImage: photo {
             childImageSharp {
-              fluid(maxWidth: 250, quality: 50) {
-                ...GatsbyImageSharpFluid_withWebp
+              fixed(width: 250, height: 125) {
+                ...GatsbyImageSharpFixed_withWebp
               }
             }
           }

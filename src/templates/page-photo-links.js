@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 // import { Row, Col } from "antd";
 import Layout from "../components/Layout";
@@ -126,10 +126,10 @@ export const PagePhotoLinksQuery = graphql`
         description
         links {
           linkTitle
-          photo {
+          smallImage: photo {
             childImageSharp {
-              fluid(maxWidth: 250, quality: 50) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 250, height: 125) {
+                ...GatsbyImageSharpFixed_withWebp
               }
             }
           }

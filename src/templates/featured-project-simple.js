@@ -195,10 +195,10 @@ export const FeaturedProjectsPageSimpleQuery = graphql`
         columns
         links {
           linkTitle
-          photo {
+          smallImage: photo {
             childImageSharp {
-              fluid(maxWidth: 250, quality: 50) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 250, height: 125) {
+                ...GatsbyImageSharpFixed_withWebp
               }
             }
           }
