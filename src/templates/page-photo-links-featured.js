@@ -40,7 +40,7 @@ const TextSection = styled.section`
   }
 `;
 
-export const PagePhotoLinksEventsTemplate = ({
+export const PagePhotoLinksFeaturedTemplate = ({
   title,
   content,
   links,
@@ -102,7 +102,7 @@ export const PagePhotoLinksEventsTemplate = ({
   );
 };
 
-const PagePhotoLinksEvents = ({ data }) => {
+const PagePhotoLinksFeatured = ({ data }) => {
   const { markdownRemark: post } = data;
   const { siteUrl } = useSiteMetadata();
   const { title } = useSiteMetadata();
@@ -115,7 +115,7 @@ const PagePhotoLinksEvents = ({ data }) => {
         pathname={`${siteUrl}${post.fields.slug}`}
         article={false}
       />
-      <PagePhotoLinksEventsTemplate
+      <PagePhotoLinksFeaturedTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -126,10 +126,10 @@ const PagePhotoLinksEvents = ({ data }) => {
   );
 };
 
-export default PagePhotoLinksEvents;
+export default PagePhotoLinksFeatured;
 
-export const PagePhotoLinksEventsQuery = graphql`
-  query PagePhotoLinksEvents($id: String!) {
+export const PagePhotoLinksFeaturedQuery = graphql`
+  query PagePhotoLinksFeatured($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       fields {
