@@ -46,6 +46,9 @@ export const PagePhotoLinksFeaturedTemplate = ({
   links,
   contentComponent,
   path,
+  displayHeadings,
+  heading1,
+  heading2,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -118,6 +121,9 @@ const PagePhotoLinksFeatured = ({ data }) => {
       <PagePhotoLinksFeaturedTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        displayHeadings={post.frontmatter.displayHeadings}
+        heading1={post.frontmatter.heading1}
+        heading2={post.frontmatter.heading2}
         content={post.html}
         links={post.frontmatter.links}
         path={post.fields.slug}
@@ -137,6 +143,9 @@ export const PagePhotoLinksFeaturedQuery = graphql`
       }
       frontmatter {
         title
+        displayHeadings
+        heading1
+        heading2
         description
         links {
           linkTitle

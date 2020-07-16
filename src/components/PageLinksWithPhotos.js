@@ -36,6 +36,30 @@ const PageLinks = ({ pagelinks, displayHeading, heading, featured }) => {
           // ];
           // console.log("sources", sources);
           // console.log("here", pagelink.smallImage.childImageSharp.fluid);
+          let largeImage;
+          let smallImage;
+          if (pagelink.largeImage) {
+            largeImage = (
+              <Img
+                fluid={pagelink.largeImage.childImageSharp.fluid}
+                alt=""
+                imgStyle={{ objectFit: "contain" }}
+              />
+            );
+          } else {
+            largeImage = <img src="/img/default-image.jpg" alt="" />;
+          }
+          if (pagelink.smallImage) {
+            smallImage = (
+              <Img
+                fixed={pagelink.smallImage.childImageSharp.fixed}
+                alt=""
+                imgStyle={{ objectFit: "contain" }}
+              />
+            );
+          } else {
+            smallImage = <img src="/img/default-image.jpg" alt="" />;
+          }
           return (
             <div
               className={
@@ -47,19 +71,7 @@ const PageLinks = ({ pagelinks, displayHeading, heading, featured }) => {
             >
               <Link to={pagelink.url} className="card-image">
                 <span className={pageLinksStyles.cardImage}>
-                  {featured === true ? (
-                    <Img
-                      fluid={pagelink.largeImage.childImageSharp.fluid}
-                      alt=""
-                      imgStyle={{ objectFit: "contain" }}
-                    />
-                  ) : (
-                    <Img
-                      fixed={pagelink.smallImage.childImageSharp.fixed}
-                      alt=""
-                      imgStyle={{ objectFit: "contain" }}
-                    />
-                  )}
+                  {featured === true ? largeImage : smallImage}
                 </span>
               </Link>
               <div className={pageLinksStyles.cardContent}>

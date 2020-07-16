@@ -1,5 +1,9 @@
 ---
 templateKey: page-photo-links-featured
+pageType: projects
+displayHeadings: true
+heading1: Featured projects
+heading2: Other projects
 title: Projects
 description: Details about our projects
 links:

@@ -1,51 +1,114 @@
 ---
 templateKey: page-photo-links-featured
+pageType: thankyous
+displayHeadings: false
+heading1: null
+heading2: null
 title: Thank yous
 description: People who have generously supported us
-links: 
-  - linkTitle: CED Stone 
-    photo: "/img/thankyous/CEDStoneGroupWeb.jpg"
+links:
+  - linkTitle: CED Stone
+    photo: "/img/thankyous/cedstonegroupweb.jpg"
     url: "https://www.cedstone.co.uk/"
-    linkText: Description goes here but is optional
+    linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
+  - linkTitle: 500 Miles
+    photo: "/img/thankyous/500miles.jpg"
+    url: "http://www.500miles.co.uk/"
+    linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+    featured: true
+  - linkTitle: Aidcamps
+    photo: "/img/thankyous/aidcamps-logo.jpg"
+    url: "https://www.aidcamps.org/home.aspx"
+    linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+    featured: true
+  - linkTitle: Child.org
+    photo: "/img/thankyous/childorg.jpg"
+    url: "https://child.org/"
+    linkText: null
+    featured: false
+  - linkTitle: the corner house
+    photo: "/img/thankyous/corner-house.jpg"
+    url: "https://www.thecornerhouse.org/"
+    linkText: null
+    featured: false
+  - linkTitle: Fatbrain
+    photo: "/img/thankyous/fat-brain.jpg"
+    url: "https://fatbrain.co.uk/"
+    linkText: null
+    featured: false
+  - linkTitle: Love Support Unite
+    photo: "/img/thankyous/love-support-unite.jpg"
+    url: "https://lovesupportunite.org/"
+    linkText: null
+    featured: false
+  - linkTitle: Nigel Bunner (web design & development)
+    photo: "/img/Photo-109-150x150.jpg"
+    url: "https://www.nigelbunner.co.uk"
+    linkText: null
+    featured: false
+  - linkTitle: Alex Walker
+    photo: null
+    url: null
+    linkText: null
+    featured: false
   - linkTitle: All Saints Knitters
-    photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "https://www.nigelbunner.co.uk"
-    linkText: Description goes here but is optional
-    featured: true
+    photo: null
+    url: null
+    linkText: null
+    featured: false
   - linkTitle: Allan and Nesta Ferguson Charitable Trust
-    photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "https://www.nigelbunner.co.uk"
-    linkText: Description goes here but is optional
-    featured: true
+    photo: null
+    url: null
+    linkText: null
+    featured: false
   - linkTitle: Anna Pearson
-    photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "https://www.nigelbunner.co.uk"
-    linkText: Description goes here but is optional
-    featured: true        
-  - linkTitle: another link 1 
-    photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "https://www.nigelbunner.co.uk"
-    linkText: Description goes here but is optional
+    photo: null
+    url: null
+    linkText: null
     featured: false
-  - linkTitle: another link 2 
-    photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "https://www.nigelbunner.co.uk"
-    linkText: Description goes here but is optional
+  - linkTitle: Bobby Wyeth
+    photo: null
+    url: null
+    linkText: null
     featured: false
-  - linkTitle: another link 3 
-    photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "https://www.nigelbunner.co.uk"
-    linkText: Description goes here but is optional
+  - linkTitle: Bob Phillips
+    photo: null
+    url: null
+    linkText: null
     featured: false
-  - linkTitle: another link 4
-    photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "https://www.nigelbunner.co.uk"
-    linkText: Description goes here but is optional
-    featured: false            
-
-
+  - linkTitle: Brian Heywood
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Brian Heywood
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Eileen Speak
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Felix Dyer
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: FOMA (Friends of Malawi Association)
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Gaynor Cook
+    photo: null
+    url: null
+    linkText: null
+    featured: false
 ---
+
 This page celebrates the friends of African Vision Malawi who have been kind enough to support us in activities in the UK and Malawi. The number of people who help us is growing all the time!
 
 We would like to thank:
@@ -57,4 +120,3 @@ All our regular partners, in Malawi and the UK.
 All our [UK partnership schools](https://www.africanvision.org.uk/projects/school-partnerships/#schools), and especially those who have raised money for their Malawian partnership schools.
 
 Thank you so much to:
-
