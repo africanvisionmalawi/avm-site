@@ -1,9 +1,11 @@
 ---
 templateKey: page-photo-links-featured
 pageType: thankyous
-displayHeadings: false
-heading1: null
-heading2: null
+displayOptions:
+  showPageLink: false
+  displayHeadings: false
+  heading1: default
+  heading2: default
 title: Thank yous
 description: People who have generously supported us
 links:

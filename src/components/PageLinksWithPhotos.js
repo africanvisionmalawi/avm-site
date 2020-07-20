@@ -11,14 +11,15 @@ const Heading = styled.h2`
   text-align: center;
 `;
 
-const PageLinks = ({ pagelinks, displayHeading, heading, featured }) => {
+const PageLinks = (props) => {
+  const { pagelinks, displayHeading, heading, featured, showPageLink } = props;
   let headingText = "Find out more";
   if (heading) {
     headingText = heading;
   }
   return (
     <div>
-      {displayHeading && <Heading>{headingText}</Heading>}
+      {displayHeading && <Heading>{heading}</Heading>}
       <div
         className={
           featured === true
@@ -44,10 +45,12 @@ const PageLinks = ({ pagelinks, displayHeading, heading, featured }) => {
                 fluid={pagelink.largeImage.childImageSharp.fluid}
                 alt=""
                 imgStyle={{ objectFit: "contain" }}
+                backgroundColor={true}
+                objectFit="contain"
               />
             );
           } else {
-            largeImage = <img src="/img/default-image.jpg" alt="" />;
+            largeImage = <img src="/img/default-image.jpg" alt="image" />;
           }
           if (pagelink.smallImage) {
             smallImage = (
@@ -55,10 +58,12 @@ const PageLinks = ({ pagelinks, displayHeading, heading, featured }) => {
                 fixed={pagelink.smallImage.childImageSharp.fixed}
                 alt=""
                 imgStyle={{ objectFit: "contain" }}
+                backgroundColor={true}
+                objectFit="contain"
               />
             );
           } else {
-            smallImage = <img src="/img/default-image.jpg" alt="" />;
+            smallImage = <img src="/img/default-image.jpg" alt="image" />;
           }
           return (
             <div
@@ -79,9 +84,11 @@ const PageLinks = ({ pagelinks, displayHeading, heading, featured }) => {
                   <h3>{pagelink.linkTitle}</h3>
 
                   <p>{pagelink.linkText}</p>
-                  <Link to={pagelink.url} className={pageLinksStyles.btn}>
-                    Find out more
-                  </Link>
+                  {showPageLink && (
+                    <Link to={pagelink.url} className={pageLinksStyles.btn}>
+                      Find out more
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>
@@ -105,6 +112,7 @@ const PageLinks = ({ pagelinks, displayHeading, heading, featured }) => {
 
 PageLinks.defaultProps = {
   displayHeading: true,
+  showPageLink: true,
 };
 
 export default PageLinks;

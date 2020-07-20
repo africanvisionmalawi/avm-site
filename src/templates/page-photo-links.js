@@ -43,6 +43,7 @@ export const PagePhotoLinksTemplate = ({
   links,
   contentComponent,
   path,
+  displayOptions,
 }) => {
   const PageContent = contentComponent || Content;
 
@@ -74,7 +75,11 @@ export const PagePhotoLinksTemplate = ({
                 paddingBottom: "30px",
               }}
             >
-              <PageLinksWithPhotos pagelinks={links} displayHeading={false} />
+              <PageLinksWithPhotos
+                pagelinks={links}
+                displayHeading={false}
+                displayOptions={displayOptions}
+              />
             </Section>
           )}
         </article>
