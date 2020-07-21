@@ -1,0 +1,56 @@
+---
+label: PageLinksFeatured
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+  hidden: true
+- type: text
+  name: pageType
+  label: pageType
+  hidden: true
+- type: field_group
+  name: displayOptions
+  label: displayOptions
+  fields:
+  - type: boolean
+    name: showPageLink
+    label: showPageLink
+  - type: boolean
+    name: displayHeadings
+    label: displayHeadings
+  - type: text
+    name: heading1
+    label: heading1
+  - type: text
+    name: heading2
+    label: heading2
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: links
+  label: links
+  fields:
+  - type: text
+    name: linkTitle
+    label: linkTitle
+  - type: file
+    name: photo
+    label: photo
+  - type: text
+    name: url
+    label: url
+  - type: textarea
+    name: linkText
+    label: linkText
+  - type: boolean
+    name: featured
+    label: featured
+pages:
+- src/pages/about-us/thank-yous/index.md
