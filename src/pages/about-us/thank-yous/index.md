@@ -10,17 +10,17 @@ title: Thank yous
 description: People who have generously supported us
 links:
   - linkTitle: CED Stone
-    photo: "/img/thankyous/cedstonegroupweb.jpg"
+    photo: "/img/thankyous/Thompson-Morgan-logo.jpg"
     url: "https://www.cedstone.co.uk/"
     linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
   - linkTitle: 500 Miles
-    photo: "/img/thankyous/500miles.jpg"
+    photo: "/img/thankyous/Thompson-Morgan-logo.jpg"
     url: "http://www.500miles.co.uk/"
     linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
   - linkTitle: Aidcamps
-    photo: "/img/thankyous/aidcamps-logo.jpg"
+    photo: "/img/thankyous/Thompson-Morgan-logo.jpg"
     url: "https://www.aidcamps.org/home.aspx"
     linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
@@ -45,7 +45,7 @@ links:
     linkText: null
     featured: false
   - linkTitle: Nigel Bunner (web design & development)
-    photo: "/img/Photo-109-150x150.jpg"
+    photo: "/img/thankyous/nigel-bunner.jpg"
     url: "https://www.nigelbunner.co.uk"
     linkText: null
     featured: false
