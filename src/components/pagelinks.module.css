@@ -15,6 +15,9 @@
 .card {
   width: 250px;
 }
+.boxBackground {
+  text-align: center;
+}
 .cardWide {
   padding: 0 8%;
   width: 100%;
@@ -29,9 +32,10 @@
   }
 }
 .cardContent {
-  background: #fff;
+  /* background: #fff; */
   padding: 1rem 3px;
 }
+
 .cardImage {
   margin: 0;
 }
@@ -55,3 +59,15 @@
   padding: 8px;
   text-align: center;
 }
+
+/* @media (min-width: 1179px) {
+  .boxBackground {
+    background: #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .cardContentBack {
+    padding: 8px;
+  }
+} */

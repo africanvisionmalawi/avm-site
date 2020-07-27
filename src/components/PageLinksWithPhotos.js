@@ -12,7 +12,14 @@ const Heading = styled.h2`
 `;
 
 const PageLinks = (props) => {
-  const { pagelinks, displayHeading, heading, featured, showPageLink } = props;
+  const {
+    pagelinks,
+    displayHeading,
+    heading,
+    featured,
+    showPageLink,
+    boxBackground,
+  } = props;
   let headingText = "Find out more";
   if (heading) {
     headingText = heading;
@@ -21,11 +28,13 @@ const PageLinks = (props) => {
     <div>
       {displayHeading && <Heading>{heading}</Heading>}
       <div
-        className={
-          featured === true
-            ? pageLinksStyles.cardContWide
-            : pageLinksStyles.cardCont
-        }
+        className={`        
+          ${
+            featured === true
+              ? pageLinksStyles.cardContWide
+              : pageLinksStyles.cardCont
+          }
+        `}
       >
         {pagelinks.map((pagelink) => {
           // let sources = [
@@ -67,11 +76,14 @@ const PageLinks = (props) => {
           }
           return (
             <div
-              className={
-                featured === true
-                  ? pageLinksStyles.cardWide
-                  : pageLinksStyles.card
-              }
+              className={`
+                ${boxBackground === true ? pageLinksStyles.boxBackground : ""}
+                ${
+                  featured === true
+                    ? pageLinksStyles.cardWide
+                    : pageLinksStyles.card
+                }
+              `}
               key={pagelink.linkTitle}
             >
               <Link to={pagelink.url} className="card-image">
@@ -79,7 +91,11 @@ const PageLinks = (props) => {
                   {featured === true ? largeImage : smallImage}
                 </span>
               </Link>
-              <div className={pageLinksStyles.cardContent}>
+              <div
+                className={`${pageLinksStyles.cardContent} ${
+                  boxBackground === true ? pageLinksStyles.cardContentBack : ""
+                }`}
+              >
                 <div className="content">
                   <h3>{pagelink.linkTitle}</h3>
 

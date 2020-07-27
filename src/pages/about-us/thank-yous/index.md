@@ -6,12 +6,13 @@ displayOptions:
   displayHeadings: false
   heading1: default
   heading2: default
+  boxBackground: true
 title: Thank yous
 description: People who have generously supported us
 links:
-  - linkTitle: CED Stone
+  - linkTitle: Thompson & Morgan
     photo: "/img/thankyous/Thompson-Morgan-logo.jpg"
-    url: "https://www.cedstone.co.uk/"
+    url: "https://www.thompson-morgan.com"
     linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
   - linkTitle: 500 Miles

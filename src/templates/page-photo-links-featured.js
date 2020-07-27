@@ -80,6 +80,7 @@ export const PagePhotoLinksFeaturedTemplate = (props) => {
                 showPageLink={displayOptions.showPageLink}
                 heading={displayOptions.heading1}
                 featured={true}
+                boxBackground={displayOptions.boxBackground}
               />
             </Section>
           )}
@@ -91,6 +92,7 @@ export const PagePhotoLinksFeaturedTemplate = (props) => {
                 showPageLink={displayOptions.showPageLink}
                 heading={displayOptions.heading2}
                 featured={false}
+                boxBackground={displayOptions.boxBackground}
               />
             </Section>
           )}
@@ -147,6 +149,7 @@ export const PagePhotoLinksFeaturedQuery = graphql`
           displayHeadings
           heading1
           heading2
+          boxBackground
         }
         description
         links {
