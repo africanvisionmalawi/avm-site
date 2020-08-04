@@ -11,17 +11,17 @@ title: Thank yous
 description: People who have generously supported us
 links:
   - linkTitle: Thompson & Morgan
-    photo: "/img/thankyous/Thompson-Morgan-logo.jpg"
+    photo: "/img/thankyous/thompson-morgan-logo.jpg"
     url: "https://www.thompson-morgan.com"
     linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
   - linkTitle: 500 Miles
-    photo: "/img/thankyous/Thompson-Morgan-logo.jpg"
+    photo: "/img/thankyous/thompson-morgan-logo.jpg"
     url: "http://www.500miles.co.uk/"
     linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
   - linkTitle: Aidcamps
-    photo: "/img/thankyous/Thompson-Morgan-logo.jpg"
+    photo: "/img/thankyous/thompson-morgan-logo.jpg"
     url: "https://www.aidcamps.org/home.aspx"
     linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
     featured: true
