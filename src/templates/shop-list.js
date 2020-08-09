@@ -18,7 +18,7 @@ const Section = styled.section`
 
 const ShopSection = styled.section`
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1180px;
   padding: 5em 1em;
   width: 100%;
 `;
@@ -101,7 +101,7 @@ export const pageQuery = graphql`
             tags
             productImage {
               childImageSharp {
-                fixed(width: 240, height: 240) {
+                fixed(width: 280, height: 280) {
                   ...GatsbyImageSharpFixed
                 }
               }
