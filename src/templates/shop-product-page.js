@@ -13,6 +13,7 @@ import Donate from "../components/Donate";
 import BuyButton from "../components/BuyButton";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import shopStyles from "../components/shop.module.css";
+import Breadcrumbs from "../components/Breadcrumbs";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -56,6 +57,7 @@ export const ShopProductTemplate = ({
   shippingClass,
   tags,
   productImage,
+  path,
 }) => {
   // const { pathname = {} } = location;
   const PageContent = contentComponent || Content;
@@ -63,6 +65,7 @@ export const ShopProductTemplate = ({
 
   return (
     <div>
+      <Breadcrumbs path={path} />
       <ShopSection>
         <article className={shopStyles.product}>
           <h1>{title}</h1>
@@ -137,6 +140,7 @@ const ShopProductPage = ({ data }) => {
         shippingClass={post.frontmatter.shippingClass}
         tags={post.frontmatter.tags}
         productImage={post.frontmatter.productImage}
+        path={post.fields.slug}
       />
     </Layout>
   );
