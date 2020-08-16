@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import { Col } from "antd";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
-// import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+
 import HomepageProjects from "../components/HomepageProjects";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
@@ -26,7 +26,6 @@ const IndexPage = (props) => {
   // const heroMsg =
   //   "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
-  // const { siteUrl } = useSiteMetadata();
 
   return (
     <Layout>
