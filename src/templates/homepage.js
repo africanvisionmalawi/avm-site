@@ -22,8 +22,6 @@ const IndexPage = (props) => {
   const { edges: homeContent } = data.homePage;
   const { edges: homeMeta } = data.homePage;
   const heroImage = data.heroImage;
-  // const heroMsg =
-  //   "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
 
   return (
@@ -196,25 +194,6 @@ const H2Heading = styled.h2`
   margin: 0 0 0.5em;
   text-align: center;
 `;
-
-// const H2HeadingTop = styled.h2`
-//   // font-size: 2.3em;
-// `;
-// const Statement = styled.p`
-//   font-size: 1.3em;
-//   margin: 0 auto 1em;
-//   max-width: 750px;
-// `;
-
-// const SubHeading = styled.p`
-//   text-align: center;
-// `;
-
-// const ContentSection = styled.section`
-//   margin: 0 auto;
-//   max-width: 980px;
-//   width: 100%;
-// `;
 
 const SectionHeading = styled.h2`
   display: block;
