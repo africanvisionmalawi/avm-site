@@ -202,16 +202,6 @@ const SectionHeading = styled.h2`
   padding-right: 12px;
 `;
 
-// const SectionSubHeading = styled.span`
-//   display: block;
-//   font-size: 1.4em;
-//   margin-bottom: 2.5em;
-//   padding-right: 12px;
-//   @media (min-width: 768px) {
-//     margin-bottom: 0;
-//   }
-// `;
-
 const TopVideoSection = styled.div`
   display: flex;
   flex-wrap: wrap;
