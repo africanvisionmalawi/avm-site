@@ -13,4 +13,6 @@ jobs:
       - name: pull-request
         uses: repo-sync/pull-request@v2
         with:
+          source_branch: "dev"
+          pr_label: "admin-update"
           github_token: ${{ secrets.GITHUB_TOKEN }}
