@@ -22,8 +22,6 @@ const IndexPage = (props) => {
   const { edges: homeContent } = data.homePage;
   const { edges: homeMeta } = data.homePage;
   const heroImage = data.heroImage;
-  // const heroMsg =
-  //   "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
 
   return (
