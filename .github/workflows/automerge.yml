@@ -3,13 +3,6 @@ on:
   pull_request:
     types:
       - labeled
-      - unlabeled
-      - synchronize
-      - opened
-      - edited
-      - ready_for_review
-      - reopened
-      - unlocked
   pull_request_review:
     types:
       - submitted
@@ -27,7 +20,7 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 env:
   GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-  MERGE_LABELS: "automerge,!work in progress"
+  MERGE_LABELS: "automerge,!work in progress,admin-update"
   MERGE_REMOVE_LABELS: "automerge"
   MERGE_METHOD: "squash"
   MERGE_COMMIT_MESSAGE: "pull-request-description"
