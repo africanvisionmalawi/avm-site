@@ -23,7 +23,3 @@ Do consider making a donation to Sam's Village as a gift to your loved ones.[![]
 We will send you a gift card which you can personalise and pass on as your present.
 
 When you donate, please mention 'Christmas Present' in your message and of course your address.
-
-[READ ABOUT SAM'S VILLAGE >](https://africanvisionmalawi.cmail19.com/t/y-l-khcjkl-yhyukyqij-d/)
-
-[Click here to Donate](https://africanvisionmalawi.charitycheckout.co.uk/#!/)
