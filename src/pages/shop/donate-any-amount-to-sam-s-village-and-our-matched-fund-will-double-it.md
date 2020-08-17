@@ -18,12 +18,10 @@ shippingClass: ''
 ---
 **A Christmas Present to make a difference**
 
-Do consider making a donation to Sam's Village as a gift to your loved ones.[![](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image-237x300.jpg =237x300)](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image.jpg)
+Do consider making a donation to Sam's Village as a gift to your loved ones.
+
+[![](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image-237x300.jpg =237x300)](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image.jpg)
 
 We will send you a gift card which you can personalise and pass on as your present.
 
 When you donate, please mention 'Christmas Present' in your message and of course your address.
-
-[READ ABOUT SAM'S VILLAGE >](https://africanvisionmalawi.cmail19.com/t/y-l-khcjkl-yhyukyqij-d/)
-
-[Click here to Donate](https://africanvisionmalawi.charitycheckout.co.uk/#!/)
