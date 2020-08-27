@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import { Col } from "antd";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
+import NavbarLower from "../components/NavbarLower";
 import HomepageProjects from "../components/HomepageProjects";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
@@ -32,6 +33,7 @@ const IndexPage = (props) => {
         pathname={"/"}
         article={false}
       />
+      <NavbarLower />
       <HomepageMain>
         <div className="container">
           <HeroImage
