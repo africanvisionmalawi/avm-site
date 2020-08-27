@@ -1,4 +1,5 @@
 var proxy = require("http-proxy-middleware");
+require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
@@ -51,6 +52,14 @@ module.exports = {
     "gatsby-remark-embed-video",
     "gatsby-remark-responsive-iframe",
     "gatsby-plugin-styled-components",
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries: require("./src/utils/algolia-queries"),
+      },
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",

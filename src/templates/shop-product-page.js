@@ -13,7 +13,7 @@ import Donate from "../components/Donate";
 import BuyButton from "../components/BuyButton";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import shopStyles from "../components/shop.module.css";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -65,7 +65,7 @@ export const ShopProductTemplate = ({
 
   return (
     <div>
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <ShopSection>
         <article className={shopStyles.product}>
           <h1>{title}</h1>

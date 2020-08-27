@@ -10,7 +10,7 @@ import HeroImage from "../components/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 // import Img from "gatsby-image";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 import EventDate from "../components/EventDate";
 import { styled } from "linaria/react";
 
@@ -65,7 +65,7 @@ export const EventsPostTemplate = ({
   return (
     <section className="section">
       {helmet || ""}
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <div className="container content">
         <section>
           <HeroImage

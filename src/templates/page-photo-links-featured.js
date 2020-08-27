@@ -9,7 +9,7 @@ import Content, { HTMLContent } from "../components/Content";
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 // import EventsCardLayout from "../components/EventsCardLayout";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
@@ -61,7 +61,7 @@ export const PagePhotoLinksFeaturedTemplate = (props) => {
         paddingBottom: "0",
       }}
     >
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <div className="container">
         <article className="content">
           <div className="columns">
