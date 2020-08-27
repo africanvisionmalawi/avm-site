@@ -9,7 +9,7 @@ import Seo from "../components/seo";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 // import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
@@ -43,7 +43,7 @@ export const PageBasicTemplate = ({
   return (
     <div className="section">
       {/* {helmet || ""} */}
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <div className="container">
         <article className="content">
           <main>

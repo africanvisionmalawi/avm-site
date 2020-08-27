@@ -7,7 +7,7 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 import Seo from "../components/seo";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 import shopStyles from "../components/shop.module.css";
 import styled from "styled-components";
 
@@ -36,7 +36,7 @@ const ShopIndex = ({ data }) => {
         pathname={`${siteUrl}/shop/`}
         article={false}
       />
-      <Breadcrumbs path={`/shop/`} />
+      <NavbarLower path={`/shop/`} />
       <ShopSection>
         <article className="content">
           <h1 className="has-text-weight-semibold is-size-2">
