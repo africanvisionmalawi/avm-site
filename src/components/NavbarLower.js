@@ -29,7 +29,7 @@ const SearchCont = styled.div`
 const NavbarLower = (props) => {
   return (
     <Section>
-      <Breadcrumbs path={props.path} />
+      {props.path && <Breadcrumbs path={props.path} />}
       <SearchCont>
         <Search indices={searchIndices} />
       </SearchCont>
