@@ -1,5 +1,5 @@
 var proxy = require("http-proxy-middleware");
-require("dotenv").config();
+// require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
