@@ -8,7 +8,7 @@ import Seo from "../components/seo";
 // import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 import teamStyles from "../components/team.module.css";
 import TeamList from "../components/team/TeamList";
 import styled from "styled-components";
@@ -50,7 +50,7 @@ export const TeamTemplate = ({
 
   return (
     <>
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <article>
         <main className="column is-8">
           <TextSection>

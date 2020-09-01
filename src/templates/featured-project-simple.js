@@ -15,7 +15,7 @@ import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import HeroMsg from "../components/HeroMsg";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
@@ -65,7 +65,7 @@ export const FeaturedProjectsSimpleTemplate = ({
         paddingBottom: "0",
       }}
     >
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <div className="container">
         <section>
           <HeroImage

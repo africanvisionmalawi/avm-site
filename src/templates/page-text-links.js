@@ -9,7 +9,7 @@ import Content, { HTMLContent } from "../components/Content";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import PageLinks from "../components/PageLinks";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 import Donate from "../components/Donate";
 import styled from "styled-components";
 
@@ -37,7 +37,7 @@ export const PageTextLinksTemplate = ({
   return (
     <div>
       {/* {helmet || ""} */}
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <div className="container">
         <article className="content">
           <TextSection>
