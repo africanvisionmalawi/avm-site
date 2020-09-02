@@ -3,7 +3,7 @@ import useSiteMetadata from "../../hooks/use-site-metadata";
 import Seo from "../../components/seo";
 import Layout from "../../components/Layout";
 import EventsRoll from "../../components/EventsRoll";
-import { getCurrentDate } from "../../utils/helpers";
+// import { getCurrentDate } from "../../utils/helpers";
 // import FeaturedProjectsTiles from "../../components/FeaturedProjectsTiles";
 import Donate from "../../components/Donate";
 // import HeroImage from "../../components/HeroImage";
@@ -11,16 +11,13 @@ import styled from "styled-components";
 
 const Section = styled.section`
   background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
   margin: 0 auto;
-  max-width: 1050px;
-  padding: 2em;
+  max-width: 1180px;
   position: relative;
   width: 100%;
 `;
 
-var currentDate = getCurrentDate();
+// var currentDate = getCurrentDate();
 
 const EventsIndexPage = () => {
   // const heroImage = "/img/hero/retreat-yurt.jpg";

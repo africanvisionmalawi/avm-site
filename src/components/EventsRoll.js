@@ -1,14 +1,20 @@
 import React from "react";
+import CardDouble from "./CardDouble";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import postStyles from "./posts.module.css";
-import CardWide from "./CardWide";
+import pageLinksStyles from "./pagelinks.module.css";
+
 import styled from "styled-components";
 // import Img from "gatsby-image";
 // import EventDate from "./EventDate";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 dayjs.extend(advancedFormat);
+
+const NoEventsNotice = (props) => {
+  return <p>{props.msg}</p>;
+};
 
 const EventsRoll = (props) => {
   const { data } = props;
@@ -28,26 +34,61 @@ const EventsRoll = (props) => {
     }
   });
 
+  console.log("future ", futureEvents);
+
   // console.log(pastEvents);
   // console.log(futureEvents);
 
   return (
-    <section className={postStyles.list}>
+    <div>
       <Heading>Future events</Heading>
-      {futureEvents &&
-        futureEvents.map((event) => (
-          <div className={postStyles.events} key={event.id}>
-            <CardWide content={event} />
-          </div>
-        ))}
+      <div className={pageLinksStyles.cardContWide}>
+        {futureEvents.length ? (
+          futureEvents.map((event) => (
+            <div className={postStyles.events} key={event.id}>
+              {/* <CardWide content={event} /> */}
+              <CardDouble
+                largeImage={event.frontmatter.photo}
+                url={event.fields.slug}
+                title={event.frontmatter.title}
+                linkText={event.excerpt}
+                showPageLink={true}
+                date={event.frontmatter.date}
+                endDate={event.frontmatter.endDate}
+                displayDate={true}
+                location={event.frontmatter.location}
+                displayLocation={true}
+              />
+            </div>
+          ))
+        ) : (
+          <NoEventsNotice msg="Sorry, no events available at present." />
+        )}
+      </div>
       <Heading>Past events</Heading>
-      {pastEvents &&
-        pastEvents.map((event) => (
-          <div className={postStyles.events} key={event.id}>
-            <CardWide content={event} />
-          </div>
-        ))}
-    </section>
+      <div className={pageLinksStyles.cardContWide}>
+        {pastEvents.length ? (
+          pastEvents.map((event) => (
+            <div className={postStyles.events} key={event.id}>
+              <CardDouble
+                largeImage={event.frontmatter.photo}
+                url={event.fields.slug}
+                title={event.frontmatter.title}
+                linkText={event.excerpt}
+                showPageLink={true}
+                date={event.frontmatter.date}
+                endDate={event.frontmatter.endDate}
+                displayDate={true}
+                location={event.frontmatter.location}
+                displayLocation={true}
+              />
+            </div>
+          ))
+        ) : (
+          <NoEventsNotice msg="Sorry, no events available at present." />
+        )}
+      </div>
+    </div>
   );
 };
 
@@ -70,7 +111,7 @@ export default () => (
     query={graphql`
       query EventsRollQuery {
         allMarkdownRemark(
-          sort: { order: ASC, fields: [frontmatter___date] }
+          sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "events-post" } } }
         ) {
           edges {

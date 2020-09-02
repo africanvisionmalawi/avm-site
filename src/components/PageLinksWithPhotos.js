@@ -2,6 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 // import { v4 } from 'uuid'
 import { Link } from "gatsby";
+import CardDouble from "./CardDouble";
 import pageLinksStyles from "./pagelinks.module.css";
 // import ImageFixed from "../components/ImageFixed";
 import Img from "gatsby-image";
@@ -75,39 +76,46 @@ const PageLinks = (props) => {
             smallImage = <img src="/img/default-image.jpg" alt="image" />;
           }
           return (
-            <div
-              className={`
-                ${boxBackground === true ? pageLinksStyles.boxBackground : ""}
-                ${
-                  featured === true
-                    ? pageLinksStyles.cardWide
-                    : pageLinksStyles.card
-                }
-              `}
-              key={pagelink.linkTitle}
-            >
-              <Link to={pagelink.url} className="card-image">
-                <span className={pageLinksStyles.cardImage}>
-                  {featured === true ? largeImage : smallImage}
-                </span>
-              </Link>
-              <div
-                className={`${pageLinksStyles.cardContent} ${
-                  boxBackground === true ? pageLinksStyles.cardContentBack : ""
-                }`}
-              >
-                <div className="content">
-                  <h3>{pagelink.linkTitle}</h3>
+            <CardDouble
+              largeImage={pagelink.largeImage}
+              url={pagelink.url}
+              title={pagelink.title}
+              linkText={pagelink.linkText}
+              showPageLink={showPageLink}
+            />
+            // <div
+            //   className={`
+            //     ${boxBackground === true ? pageLinksStyles.boxBackground : ""}
+            //     ${
+            //       featured === true
+            //         ? pageLinksStyles.cardWide
+            //         : pageLinksStyles.card
+            //     }
+            //   `}
+            //   key={pagelink.linkTitle}
+            // >
+            //   <Link to={pagelink.url} className="card-image">
+            //     <span className={pageLinksStyles.cardImage}>
+            //       {featured === true ? largeImage : smallImage}
+            //     </span>
+            //   </Link>
+            //   <div
+            //     className={`${pageLinksStyles.cardContent} ${
+            //       boxBackground === true ? pageLinksStyles.cardContentBack : ""
+            //     }`}
+            //   >
+            //     <div className="content">
+            //       <h3>{pagelink.linkTitle}</h3>
 
-                  <p>{pagelink.linkText}</p>
-                  {showPageLink && (
-                    <Link to={pagelink.url} className={pageLinksStyles.btn}>
-                      Find out more
-                    </Link>
-                  )}
-                </div>
-              </div>
-            </div>
+            //       <p>{pagelink.linkText}</p>
+            //       {showPageLink && (
+            //         <Link to={pagelink.url} className={pageLinksStyles.btn}>
+            //           Find out more
+            //         </Link>
+            //       )}
+            //     </div>
+            //   </div>
+            // </div>
           );
         })}
       </div>
