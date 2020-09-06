@@ -2,8 +2,8 @@ import React from "react";
 // import PropTypes from "prop-types";
 // import { v4 } from 'uuid'
 import { Link } from "gatsby";
-import CardDouble from "./CardDouble";
-import CardSingle from "./CardSingle";
+import CardDouble from "./card/CardDouble";
+import CardSingle from "./card/CardSingle";
 import pageLinksStyles from "./pagelinks.module.css";
 // import ImageFixed from "../components/ImageFixed";
 import Img from "gatsby-image";

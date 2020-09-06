@@ -1,5 +1,5 @@
 import React from "react";
-import CardDouble from "./CardDouble";
+import CardDouble from "./card/CardDouble";
 import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import postStyles from "./posts.module.css";
