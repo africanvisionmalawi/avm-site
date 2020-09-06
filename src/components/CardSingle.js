@@ -30,19 +30,11 @@ const EventDateCont = styled.div`
 //   text-align: center;
 // `;
 
-const CardDouble = (props) => {
+const CardSingle = (props) => {
   let cardImage;
-  if (props.largeImage) {
-    console.log("largeimage", props.largeImage);
-    cardImage = (
-      <Img
-        fluid={props.largeImage.childImageSharp.fluid}
-        alt=""
-        imgStyle={{ objectFit: "contain" }}
-        backgroundColor={true}
-        objectFit="contain"
-      />
-    );
+  if (props.smallImage) {
+    console.log("smallImage", props.smallImage);
+    cardImage = <Img fixed={props.smallImage.childImageSharp.fixed} alt="" />;
   } else {
     cardImage = <img src="/img/default-image.jpg" alt="image" />;
   }
@@ -79,4 +71,4 @@ const CardDouble = (props) => {
   );
 };
 
-export default CardDouble;
+export default CardSingle;

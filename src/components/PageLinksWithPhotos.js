@@ -3,6 +3,7 @@ import React from "react";
 // import { v4 } from 'uuid'
 import { Link } from "gatsby";
 import CardDouble from "./CardDouble";
+import CardSingle from "./CardSingle";
 import pageLinksStyles from "./pagelinks.module.css";
 // import ImageFixed from "../components/ImageFixed";
 import Img from "gatsby-image";
@@ -47,75 +48,27 @@ const PageLinks = (props) => {
           // ];
           // console.log("sources", sources);
           // console.log("here", pagelink.smallImage.childImageSharp.fluid);
-          let largeImage;
-          let smallImage;
-          if (pagelink.largeImage) {
-            largeImage = (
-              <Img
-                fluid={pagelink.largeImage.childImageSharp.fluid}
-                alt=""
-                imgStyle={{ objectFit: "contain" }}
-                backgroundColor={true}
-                objectFit="contain"
-              />
-            );
-          } else {
-            largeImage = <img src="/img/default-image.jpg" alt="image" />;
-          }
-          if (pagelink.smallImage) {
-            smallImage = (
-              <Img
-                fixed={pagelink.smallImage.childImageSharp.fixed}
-                alt=""
-                imgStyle={{ objectFit: "contain" }}
-                backgroundColor={true}
-                objectFit="contain"
-              />
-            );
-          } else {
-            smallImage = <img src="/img/default-image.jpg" alt="image" />;
-          }
-          return (
-            <CardDouble
-              largeImage={pagelink.largeImage}
-              url={pagelink.url}
-              title={pagelink.title}
-              linkText={pagelink.linkText}
-              showPageLink={showPageLink}
-            />
-            // <div
-            //   className={`
-            //     ${boxBackground === true ? pageLinksStyles.boxBackground : ""}
-            //     ${
-            //       featured === true
-            //         ? pageLinksStyles.cardWide
-            //         : pageLinksStyles.card
-            //     }
-            //   `}
-            //   key={pagelink.linkTitle}
-            // >
-            //   <Link to={pagelink.url} className="card-image">
-            //     <span className={pageLinksStyles.cardImage}>
-            //       {featured === true ? largeImage : smallImage}
-            //     </span>
-            //   </Link>
-            //   <div
-            //     className={`${pageLinksStyles.cardContent} ${
-            //       boxBackground === true ? pageLinksStyles.cardContentBack : ""
-            //     }`}
-            //   >
-            //     <div className="content">
-            //       <h3>{pagelink.linkTitle}</h3>
 
-            //       <p>{pagelink.linkText}</p>
-            //       {showPageLink && (
-            //         <Link to={pagelink.url} className={pageLinksStyles.btn}>
-            //           Find out more
-            //         </Link>
-            //       )}
-            //     </div>
-            //   </div>
-            // </div>
+          return (
+            <>
+              {featured ? (
+                <CardDouble
+                  largeImage={pagelink.largeImage}
+                  url={pagelink.url}
+                  title={pagelink.title}
+                  linkText={pagelink.linkText}
+                  showPageLink={showPageLink}
+                />
+              ) : (
+                <CardSingle
+                  smallImage={pagelink.smallImage}
+                  url={pagelink.url}
+                  title={pagelink.title}
+                  linkText={pagelink.linkText}
+                  showPageLink={showPageLink}
+                />
+              )}
+            </>
           );
         })}
       </div>
