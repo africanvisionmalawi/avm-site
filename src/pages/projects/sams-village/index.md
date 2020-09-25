@@ -51,33 +51,33 @@ links:
       with UNESCO who will be funding bursaries for the next 18 months to train 150
       marginalized people in different vocational skills.
     photo: "/img/page-links/link-building-with-roof.jpg"
-    url: "./projects/sams-village/training-programme/"
+    url: "./training-programme/"
   - linkTitle: Library
     linkText:
       The Sam's Village Library is now open - Monday to Friday all day and Saturday
       mornings.
     photo: "/img/page-links/link-library.jpg"
-    url: "./projects/sams-village/library/"
+    url: "./library/"
   - linkTitle: Permaculture
     linkText: Permaculture gardens cover the Sam's Village site.
     photo: "/img/page-links/link-permaculture.jpg"
-    url: "./projects/sams-village/permaculture/"
+    url: "./permaculture/"
   - linkTitle: Building Programme
     linkText:
       The building programme at Sam's Village is well underway. We build using
       sustainable rammed earth techniques.
     photo: "/img/page-links/link-village-building.jpg"
-    url: "./projects/sams-village/building-programme/"
+    url: "./building-programme/"
   - linkTitle: Biogas
     linkText: The Restaurant and Kitchen will be fuelled by biogas.
     photo: "/img/page-links/link-biogas.jpg"
-    url: "./projects/sams-village/biogas/"
+    url: ".//biogas/"
   - linkTitle: Njewa New Office
     linkText:
       We are building a rammed earth and permaculture showcase site in the Njewa
       suburb of Lilongwe. Email us if you would like to come and visit it!
     photo: "/img/page-links/link-njewa.jpg"
-    url: "./projects/sams-village/njewa-new-office/"
+    url: "./njewa-new-office/"
 ---
 
 Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas. Our first training programme took place in May 2017 followed by a series of one day courses. Residential training over several months started in Spring 2018. The activities are supported through the Skills and Technical Education Programme (STEP), an initiative funded by the European Union (EU) and partially implemented by UNESCO.

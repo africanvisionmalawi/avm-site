@@ -142,3 +142,31 @@
     left: -60px;
   }
 } */
+.mobileMenu {
+  font-size: 1.2em;
+}
+.mobileMenu,
+.mobileMenu ul {
+  list-style-type: none;
+}
+.mobileMenu ul {
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  visibility: hidden;
+}
+.mobileMenu li {
+  margin-bottom: 1.2em;
+}
+.mobileMenu label {
+  color: #b75906;
+  cursor: pointer;
+}
+.mobileMenu input[type="checkbox"] {
+  display: none;
+}
+.mobileMenu input:checked + ul {
+  max-height: 999px;
+  opacity: 1;
+  visibility: visible;
+}

@@ -7,6 +7,7 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 import Seo from "../components/seo";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import NavbarLower from "../components/NavbarLower";
 import shopStyles from "../components/shop.module.css";
 import styled from "styled-components";
 
@@ -18,7 +19,7 @@ const Section = styled.section`
 
 const ShopSection = styled.section`
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1180px;
   padding: 5em 1em;
   width: 100%;
 `;
@@ -35,6 +36,7 @@ const ShopIndex = ({ data }) => {
         pathname={`${siteUrl}/shop/`}
         article={false}
       />
+      <NavbarLower path={`/shop/`} />
       <ShopSection>
         <article className="content">
           <h1 className="has-text-weight-semibold is-size-2">
@@ -101,7 +103,7 @@ export const pageQuery = graphql`
             tags
             productImage {
               childImageSharp {
-                fixed(width: 240, height: 240) {
+                fixed(width: 280, height: 280) {
                   ...GatsbyImageSharpFixed
                 }
               }

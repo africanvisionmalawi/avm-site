@@ -13,19 +13,31 @@ import Donate from "../components/Donate";
 import BuyButton from "../components/BuyButton";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import shopStyles from "../components/shop.module.css";
+import NavbarLower from "../components/NavbarLower";
 import styled from "styled-components";
 
 const Section = styled.section`
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1180px;
   width: 100%;
 `;
 
 const ShopSection = styled.section`
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1180px;
   padding: 5em 2em;
   width: 100%;
+`;
+
+const TagHeading = styled.h3`
+  display: inline-block;
+  font-size: 0.9em;
+  margin-right: 5px;
+`;
+
+const TagItem = styled.span`
+  display: inline-block;
+  font-size: 0.8em;
 `;
 
 export const ShopProductTemplate = ({
@@ -44,7 +56,8 @@ export const ShopProductTemplate = ({
   height,
   shippingClass,
   tags,
-  productImage
+  productImage,
+  path,
 }) => {
   // const { pathname = {} } = location;
   const PageContent = contentComponent || Content;
@@ -52,18 +65,17 @@ export const ShopProductTemplate = ({
 
   return (
     <div>
+      <NavbarLower path={path} />
       <ShopSection>
-        <article className="content">
+        <article className={shopStyles.product}>
+          <h1>{title}</h1>
           <Row>
             <Col xs={24} sm={16}>
-              <div className={shopStyles.product}>
-                <div className={shopStyles.productMain}>
-                  <PreviewCompatibleImage imageInfo={productImage} />
-                </div>
+              <div className={shopStyles.productMain}>
+                <PreviewCompatibleImage imageInfo={productImage} />
               </div>
             </Col>
             <Col xs={24} sm={8}>
-              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
               <div className={shopStyles.productAside}>
                 <span className={shopStyles.price}>&pound;{price}</span>
                 <BuyButton
@@ -75,18 +87,21 @@ export const ShopProductTemplate = ({
                   url={`${siteUrl}${slug}`}
                 />
 
-                <PageContent className="content" content={content} />
-
                 {tags && tags.length ? (
-                  <ul className="taglist">
-                    {tags.map(tag => (
-                      <li key={tag + `tag`}>{tag}</li>
+                  <>
+                    <TagHeading>Tags:</TagHeading>
+
+                    {tags.map((tag) => (
+                      <TagItem key={tag + `tag`}>{tag}</TagItem>
                     ))}
-                  </ul>
+                  </>
                 ) : null}
               </div>
             </Col>
           </Row>
+          <div className={shopStyles.productDetails}>
+            <PageContent className="content" content={content} />
+          </div>
         </article>
       </ShopSection>
       <Donate link="https://www.charitycheckout.co.uk/1113786/" text="Donate" />
@@ -125,6 +140,7 @@ const ShopProductPage = ({ data }) => {
         shippingClass={post.frontmatter.shippingClass}
         tags={post.frontmatter.tags}
         productImage={post.frontmatter.productImage}
+        path={post.fields.slug}
       />
     </Layout>
   );
@@ -133,9 +149,9 @@ const ShopProductPage = ({ data }) => {
 ShopProductPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default ShopProductPage;

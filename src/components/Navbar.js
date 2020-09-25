@@ -236,130 +236,117 @@ const Navbar = () => {
         onClose={onClose}
         visible={drawerVisible}
       >
-        <Menu onClick={handleClick} selectedKeys={[current]} mode="vertical">
-          <SubMenu
-            key="aboutUs"
-            title={
-              <Link
-                className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                to="/about-us"
-              >
-                About us
-              </Link>
-            }
-          >
-            <Link className="navbar-item navbar-single" to="/about-us/malawi">
-              Malawi
-            </Link>
-            <Menu.Item>
-              <Link className="navbar-item" to="/about-us/team">
-                Team
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link className="navbar-item" to="/about-us/where-we-work">
-                Where we work
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link className="navbar-item" to="/about-us/how-we-started">
-                How we started
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link
-                className="navbar-item"
-                to="/about-us/african-vision-malawi-our-new-name"
-              >
-                African Vision Malawi - our new name
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link className="navbar-item" to="/about-us/thank-yous">
-                Thank yous
-              </Link>
-            </Menu.Item>
-          </SubMenu>
-          <SubMenu
-            key="ourWork"
-            title={
-              <Link
-                className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                to="/projects"
-              >
-                Our work
-              </Link>
-            }
-          >
-            <Menu.Item>
-              <Link to="/projects">Projects</Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link to="/events">Events</Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link to="/projects/stories-from-the-field/">
-                Stories from the field
-              </Link>
-            </Menu.Item>
-          </SubMenu>
-          <SubMenu
-            key="getInvolved"
-            title={
-              <Link
-                className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                to="/get-involved"
-              >
-                Get involved
-              </Link>
-            }
-          >
-            <Menu.Item>
-              <Link className="navbar-item" to="/get-involved/donate/">
-                Donate
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link className="navbar-item" to="/get-involved/fundraise/">
-                Fundraise for us
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link
-                className="navbar-item"
-                to="/get-involved/holiday-in-france-for-us/"
-              >
-                Holiday in France for us
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link
-                className="navbar-item"
-                to="/get-involved/fundraise-with-easy-fundraising/"
-              >
-                Shop online for us
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link
-                className="navbar-item"
-                to="/get-involved/use-your-baggage-allowance-to-lilongwe/"
-              >
-                Take a suitcase to Lilongwe for us!
-              </Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link className="navbar-item" to="/get-involved/volunteering/">
-                Volunteer with us
-              </Link>
-            </Menu.Item>
-          </SubMenu>
-          <Menu.Item key="shop">
+        <ul className={navbarStyles.mobileMenu}>
+          <li>
+            <label for="m1">About Us</label>
+            <input type="checkbox" id="m1" />
+            <ul>
+              <li>
+                <Link
+                  className="navbar-item navbar-single"
+                  to="/about-us/malawi"
+                >
+                  Malawi
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/about-us/team">
+                  Team
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/about-us/where-we-work">
+                  Where we work
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/about-us/how-we-started">
+                  How we started
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="navbar-item"
+                  to="/about-us/african-vision-malawi-our-new-name"
+                >
+                  African Vision Malawi - our new name
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/about-us/thank-yous">
+                  Thank yous
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="m2">Our work</label>
+            <input type="checkbox" id="m2" />
+            <ul>
+              <li>
+                <Link to="/projects">Projects</Link>
+              </li>
+              <li>
+                <Link to="/events">Events</Link>
+              </li>
+              <li>
+                <Link to="/projects/stories-from-the-field/">
+                  Stories from the field
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="m3">Get involved</label>
+            <input type="checkbox" id="m3" />
+            <ul>
+              <li>
+                <Link className="navbar-item" to="/get-involved/donate/">
+                  Donate
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/get-involved/fundraise/">
+                  Fundraise for us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="navbar-item"
+                  to="/get-involved/holiday-in-france-for-us/"
+                >
+                  Holiday in France for us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="navbar-item"
+                  to="/get-involved/fundraise-with-easy-fundraising/"
+                >
+                  Shop online for us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="navbar-item"
+                  to="/get-involved/use-your-baggage-allowance-to-lilongwe/"
+                >
+                  Take a suitcase to Lilongwe for us!
+                </Link>
+              </li>
+              <li>
+                <Link className="navbar-item" to="/get-involved/volunteering/">
+                  Volunteer with us
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li>
             <Link className="navbar-item navbar-parent" to="/shop">
               Shop
             </Link>
-          </Menu.Item>
-        </Menu>
+          </li>
+        </ul>
       </Drawer>
     </nav>
   );

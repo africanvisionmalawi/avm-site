@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import { Col } from "antd";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
-// import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import NavbarLower from "../components/NavbarLower";
 import HomepageProjects from "../components/HomepageProjects";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
@@ -23,10 +23,7 @@ const IndexPage = (props) => {
   const { edges: homeContent } = data.homePage;
   const { edges: homeMeta } = data.homePage;
   const heroImage = data.heroImage;
-  // const heroMsg =
-  //   "The people of Malawi want to help themselves. We can empower them to become self-sufficient and independent.";
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
-  // const { siteUrl } = useSiteMetadata();
 
   return (
     <Layout>
@@ -36,6 +33,7 @@ const IndexPage = (props) => {
         pathname={"/"}
         article={false}
       />
+      <NavbarLower />
       <HomepageMain>
         <div className="container">
           <HeroImage
@@ -199,41 +197,12 @@ const H2Heading = styled.h2`
   text-align: center;
 `;
 
-// const H2HeadingTop = styled.h2`
-//   // font-size: 2.3em;
-// `;
-// const Statement = styled.p`
-//   font-size: 1.3em;
-//   margin: 0 auto 1em;
-//   max-width: 750px;
-// `;
-
-// const SubHeading = styled.p`
-//   text-align: center;
-// `;
-
-// const ContentSection = styled.section`
-//   margin: 0 auto;
-//   max-width: 980px;
-//   width: 100%;
-// `;
-
 const SectionHeading = styled.h2`
   display: block;
   // font-size: 1.8em;
   // font-weight: bold;
   padding-right: 12px;
 `;
-
-// const SectionSubHeading = styled.span`
-//   display: block;
-//   font-size: 1.4em;
-//   margin-bottom: 2.5em;
-//   padding-right: 12px;
-//   @media (min-width: 768px) {
-//     margin-bottom: 0;
-//   }
-// `;
 
 const TopVideoSection = styled.div`
   display: flex;

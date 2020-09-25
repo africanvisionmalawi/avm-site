@@ -12,7 +12,7 @@ import Gallery from "../components/Gallery";
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import Videos from "../components/Videos";
 // import FeaturedProjects from "../components/FeaturedProjects";
-import Breadcrumbs from "../components/Breadcrumbs";
+import NavbarLower from "../components/NavbarLower";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 // import { Link } from 'gatsby'
@@ -42,7 +42,7 @@ export const FeaturedProjectsTemplate = ({
         paddingBottom: "0",
       }}
     >
-      <Breadcrumbs path={path} />
+      <NavbarLower path={path} />
       <Container>
         <section>
           <HeroImage

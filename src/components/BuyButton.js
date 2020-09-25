@@ -4,10 +4,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.div`
-  background: #fff;
-  border: 3px solid #58b5d7;
-  color: #58b5d7;
-  border-radius: 7px;
+  background: #ff9a00;
+  color: #fff;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 1.1em;
   font-weight: bold;
@@ -26,7 +25,7 @@ export const BuyButton = ({
   price,
   description,
   image,
-  url
+  url,
 }) => {
   return (
     <Button

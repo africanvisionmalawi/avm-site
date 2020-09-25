@@ -20,47 +20,25 @@ const Breadcrumbs = (props) => {
 
   //   console.log("crumb is " + crumbFiltered);
   return (
-    <Section>
-      <Links>
-        <HomeLink to="/">Home</HomeLink>
-        {crumbFiltered.map((c, i) => (
-          <React.Fragment key={i}>
-            {i < crumbFiltered.length - 1 ? (
-              <CrumbLink to={`${getLinks(c, i)}/`}>
-                {c.replace(/-/g, " ")}
-              </CrumbLink>
-            ) : (
-              <CrumbCurrent>{c.replace(/-/g, " ")}</CrumbCurrent>
-            )}
-          </React.Fragment>
-        ))}
-      </Links>
-    </Section>
+    <Links>
+      <HomeLink to="/">Home</HomeLink>
+      {crumbFiltered.map((c, i) => (
+        <React.Fragment key={i}>
+          {i < crumbFiltered.length - 1 ? (
+            <CrumbLink to={`${getLinks(c, i)}/`}>
+              {c.replace(/-/g, " ")}
+            </CrumbLink>
+          ) : (
+            <CrumbCurrent>{c.replace(/-/g, " ")}</CrumbCurrent>
+          )}
+        </React.Fragment>
+      ))}
+    </Links>
   );
 };
 
-const Section = styled.div`
-  background: #fff;
-  margin: 0 auto;
-  max-width: 750px;
-  padding: 2.5em 12px 0.5em;
-  position: relative;
-  width: 100%;
-  @media (min-width: 480px) {
-    padding: 0.5em 100px 12px;
-  }
-  @media (min-width: 800px) {
-    padding-left: 80px;
-  }
-  @media (min-width: 900px) {
-    padding-left: 12px;
-  }
-  @media (min-width: 992px) {
-    padding-left: 0;
-  }
-`;
-
 const Links = styled.div`
+  max-width: 750px;
   text-transform: capitalize;
 `;
 
