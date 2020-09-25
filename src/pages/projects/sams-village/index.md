@@ -71,7 +71,7 @@ links:
   - linkTitle: Biogas
     linkText: The Restaurant and Kitchen will be fuelled by biogas.
     photo: "/img/page-links/link-biogas.jpg"
-    url: ".//biogas/"
+    url: "./biogas/"
   - linkTitle: Njewa New Office
     linkText:
       We are building a rammed earth and permaculture showcase site in the Njewa
