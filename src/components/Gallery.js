@@ -12,6 +12,11 @@ const Heading = styled.h2`
   text-align: center;
 `;
 
+const Caption = styled.div`
+  font-size: 0.8em;
+  text-align: center;
+`
+
 const Gallery = (props) => {
   const [showLightboxState, setShowLightboxState] = useState(false);
 
@@ -76,6 +81,7 @@ const Gallery = (props) => {
                       gallery[selectedImageState].photo.childImageSharp.fluid
                     }
                   />
+                  <Caption>{gallery[selectedImageState].alt}</Caption>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
