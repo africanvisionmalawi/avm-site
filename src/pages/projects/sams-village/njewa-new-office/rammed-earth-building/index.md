@@ -48,6 +48,7 @@ gallery:
   photo: "/img/rammed-earth/21-Njewa-4.jpg"   
 - alt: The banana tree thriving on the runoff water from the borehole
   photo: "/img/rammed-earth/22-IMG-20160824-WA0013.jpg"             
+
 ---
 
 We build in rammed earth because it is a sustainable and affordable way of building. It is an alternative to brick buildings (firing bricks uses firewood and contributes to deforestation) and an alternative to building from concrete (making cement causes lots of environmental damage).
