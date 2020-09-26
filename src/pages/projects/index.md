@@ -22,7 +22,7 @@ links:
     room The renovation of the pre school."
     linkTitle: Building schools
     photo: "/img/page-links/link-secondary-schools.jpg"
-    url: "./building-schools/"
+    url: "./building-a-school-at-masiye/"
     featured: true
   - linkText:
       "What is a CBCC? A CBCC is a building with a multiple use - as a pre-school
