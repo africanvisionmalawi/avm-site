@@ -12,27 +12,27 @@ Back in 2006, the very first project of African Vision Malawi was to build a sch
 
 Here you can see photos of the initial building work, and of the completed school:
 
-School at Masiye
+![School at Masiye](/img/massiye-school/01-building_the_teachers_houses_.jpg)
+_School at Masiye_
 
-Masiye School
+![Masiye School](/img/massiye-school/02-IMG_6639.jpg)
+_Masiye School_
 
-Masiye School completed
+![Masiye School completed](/img/massiye-school/03-IMG_6638.jpg)
+_Masiye School completed_
 
-Masiye School completed
 
-Masiye School completed
+## Chitsime School Block
 
-Chitsime School Block
+We built a school block at Chitsime, funded by The [Mall School](https://www.themallschool.org.uk/) in Twickenham.
 
-We built a school block at Chitsime, funded by The Mall School in Twickenham.
-
-Chikutu School Block
+## Chikutu School Block
 
 We have built a school block in Chikutu.
 
-Songwe Primary School
+## Songwe Primary School
 
-We are making plans to build a school block in Songwe…. For further details keep your eyes on our Latest News or on our Facebook page!
+We are making plans to build a school block in Songwe…. For further details keep your eyes on our [Latest News](/news/) or on our [Facebook page](https://www.facebook.com/africanvision/)!
 
 Support Education in Malawi
 
