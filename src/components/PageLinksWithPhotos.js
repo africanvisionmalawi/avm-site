@@ -55,7 +55,7 @@ const PageLinks = (props) => {
                 <CardDouble
                   largeImage={pagelink.largeImage}
                   url={pagelink.url}
-                  title={pagelink.title}
+                  title={pagelink.linkTitle}
                   linkText={pagelink.linkText}
                   showPageLink={showPageLink}
                 />
@@ -63,7 +63,7 @@ const PageLinks = (props) => {
                 <CardSingle
                   smallImage={pagelink.smallImage}
                   url={pagelink.url}
-                  title={pagelink.title}
+                  title={pagelink.linkTitle}
                   linkText={pagelink.linkText}
                   showPageLink={showPageLink}
                 />
