@@ -10,25 +10,24 @@ headerImage: "/img/chemex.jpg"
 We have set up 9 feeding centres in our area at our Community Based Children Centres (CBCCs).
 
 The under 5’s are the most vulnerable group in our area. Providing a nutritional meal at our pre-schools not only encourages the children to come to school, it helps them learn more effectively. Their bodies are stronger to fight any infections and diseases and their bodies are not stunted, as many are in our area, due to poor nutrition.
-Boy at M'teza feeding programme
 
-Boy at M’teza feeding programme
+![Boy at M'teza feeding programme](//img/feeding-programme/01-mteza-feeding-programme-3.jpg)
+*Boy at M’teza feeding programme*
 
 We have been working in partnership with Feed The Children and are using new fuel saving ovens. This helps to use less firewood, which is part of our reforestation programme. Feed The Children has been providing the food and African Vision Malawi orgainses the training and operation of the feeding programme. We also provide the fuel saving oven and the bowls and spoons.
 
 Setting up a feeding programme in just one of our schools ensures that all the children who are orphaned, vulnerable or affected by HIV/AIDs are being fed with a nutritional porridge (Likuni Phala) every day. This scheme is for children under the age of 5 as they are the children who are less likely to be able to cope by themselves.
 
-Sustainable Food Gardens
+## Sustainable Food Gardens
 
 Feed The Children are discontinuing their programme to provide nutritional porridge. Alongside the local communities, we have begun to set up sustainable food gardens to grow food for the children at schools.
 
 Can you donate to help feed the under 5’s at pre-school?
-Donate
 
-To set up a feeding programme:
-Children at M'teza feeding programme
+## To set up a feeding programme:
 
-Children at M’teza feeding programme
+![Children at M'teza feeding programme](//img/feeding-programme/02-mteza-feeding-programme-1.jpg)
+*Children at M’teza feeding programme*
 
 The fuel saving oven costs 75,000 MWK which is around £320.
 
