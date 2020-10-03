@@ -32,7 +32,7 @@ links:
       Most of our fundraising takes place in the UK and we recognize we need
       to have a more memorable name which people can identify with .. one which will
       express our vision for the people of Malawi.
-    url: "./about-us/thank-yous/"
+    url: "/get-involved/thank-yous/"
     linkTitle: Thank yous
     photo: "/img/page-links/link-bicycle-ambulance.jpg"
   
