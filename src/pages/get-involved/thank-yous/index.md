@@ -1,8 +1,115 @@
 ---
-templateKey: page-basic
+templateKey: page-photo-links-featured
+pageType: thankyous
+displayOptions:
+  showPageLink: false
+  displayHeadings: false
+  heading1: default
+  heading2: default
+  boxBackground: true
 title: Thank yous
-description: This page celebrates the friends of African Vision Malawi who have been kind enough to support us in activities in the UK and Malawi.
-headerImage: /img/chemex.jpg
+description: People who have generously supported us
+links:
+  - linkTitle: Thompson & Morgan
+    photo: "/img/thankyous/thompson-morgan-logo.jpg"
+    url: "https://www.thompson-morgan.com"
+    linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+    featured: true
+  - linkTitle: 500 Miles
+    photo: "/img/thankyous/thompson-morgan-logo.jpg"
+    url: "http://www.500miles.co.uk/"
+    linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+    featured: true
+  - linkTitle: Aidcamps
+    photo: "/img/thankyous/thompson-morgan-logo.jpg"
+    url: "https://www.aidcamps.org/home.aspx"
+    linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has, mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+    featured: true
+  - linkTitle: Child.org
+    photo: "/img/thankyous/childorg.jpg"
+    url: "https://child.org/"
+    linkText: null
+    featured: false
+  - linkTitle: the corner house
+    photo: "/img/thankyous/corner-house.jpg"
+    url: "https://www.thecornerhouse.org/"
+    linkText: null
+    featured: false
+  - linkTitle: Fatbrain
+    photo: "/img/thankyous/fat-brain.jpg"
+    url: "https://fatbrain.co.uk/"
+    linkText: null
+    featured: false
+  - linkTitle: Love Support Unite
+    photo: "/img/thankyous/love-support-unite.jpg"
+    url: "https://lovesupportunite.org/"
+    linkText: null
+    featured: false
+  - linkTitle: Nigel Bunner (web design & development)
+    photo: "/img/thankyous/nigel-bunner.jpg"
+    url: "https://www.nigelbunner.co.uk"
+    linkText: null
+    featured: false
+  - linkTitle: Alex Walker
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: All Saints Knitters
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Allan and Nesta Ferguson Charitable Trust
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Anna Pearson
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Bobby Wyeth
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Bob Phillips
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Brian Heywood
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Brian Heywood
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Eileen Speak
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Felix Dyer
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: FOMA (Friends of Malawi Association)
+    photo: null
+    url: null
+    linkText: null
+    featured: false
+  - linkTitle: Gaynor Cook
+    photo: null
+    url: null
+    linkText: null
+    featured: false
 ---
 
 This page celebrates the friends of African Vision Malawi who have been kind enough to support us in activities in the UK and Malawi. The number of people who help us is growing all the time!
@@ -13,152 +120,6 @@ All of the individuals and companies who are donors, fundraisers, sponsors and v
 
 All our regular partners, in Malawi and the UK.
 
-All our UK partnership schools, and especially those who have raised money for their Malawian partnership schools.
+All our [UK partnership schools](https://www.africanvision.org.uk/projects/school-partnerships/#schools), and especially those who have raised money for their Malawian partnership schools.
 
 Thank you so much to:
-
-500 Miles
-
-Alex Walker
-
-All Saints Knitters
-
-Allan and Nesta Ferguson Charitable Trust
-
-Anna Pearson
-
-AidCamps
-
-Bobby Wyeth
-
-Bob Phillips
-
-Brian Heywood
-
-Bryony Meek
-
-CED Natural Stone
-
-Child.org (was Seeds for Africa)
-
-cornerHOUSE
-
-Coventry City Football Club
-
-Eileen Speak
-
-Fatbrain
-
-Felix Dyer
-
-FOMA (Friends of Malawi Association)
-
-Gaynor Cook
-
-Gillian Wright
-
-Good News Missions
-
-Graphic Design students at Kingston College
-
-Ian Campbell Consultancy
-
-Inspiration Beauty Spa
-
-Jane Thompson
-
-Jennie Hawley
-
-Jeremy Thorn
-
-Jo & Mike Calvert
-
-Joan Higgs
-
-Jolly Jumpers
-
-Karolanne Lennox and Coverage Care Services
-
-Kerry Jordan Photography
-
-Kingston Rotary Club
-
-Kira Palmer
-
-Lesley Howlett
-
-Lilongwe Round Table
-
-Liz Bartley
-
-Lorraine Mole
-
-Love Support Unite
-
-Lucy Bromley
-
-MAP (Malawi Association for the Physically Handicapped)
-
-Martha Tilston
-
-Mavali Morris
-
-Metropolitan Health Insurance
-
-Mr Fothergills
-
-NICO
-
-Nigel Bunner Web Design and Coding
-
-Noel and Mandy Hayes and Sunbird Hotels
-
-Patrick McMahon
-
-Project4Africa
-
-Raab Vitalfood GmbH
-
-Rainer Struck
-
-Ricoh Print Scotland
-
-Rotary Clubs, Kingston and Surbiton
-
-Safestore, New Malden
-
-Sarah Parsloe
-
-Shaughan Hawks
-
-Sheer Therapy and Nerys Hutchins
-
-Sheffield Enactus
-
-Shelby Spears and US Peace Corps
-
-Simret Brar
-
-St. John’s Church, Kingston
-
-St Matthews Church, Surbiton
-
-Steve Johnson
-
-The Trusthouse Charitable Foundation
-
-Thompson & Morgan
-
-RELX Group (was Reed Elsevier)
-
-Richard North
-
-Rob Tuck and Vegucate
-
-Sarah Rogers
-
-Transaid
-
-Victoriana
-
-If you would like to donate to our projects, please click here:
