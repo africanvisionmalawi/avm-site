@@ -87,7 +87,7 @@ const Navbar = () => {
                         <Menu.Item>
                           <Link
                             className="navbar-item"
-                            to="/about-us/thank-yous"
+                            to="/get-involved/thank-yous"
                           >
                             Thank yous
                           </Link>

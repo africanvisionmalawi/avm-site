@@ -52,5 +52,3 @@ fields:
   - type: boolean
     name: featured
     label: featured
-pages:
-- src/pages/about-us/thank-yous/index.md
