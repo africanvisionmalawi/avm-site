@@ -393,7 +393,7 @@ const DesktopNav = styled.div`
   &.main {
     text-transform: uppercase;
   }
-  @media (min-width: 992px) {
+  @media (min-width: 920px) {
     display: flex;
     &.main {
       margin: 0 1em 0 0;
@@ -417,7 +417,7 @@ const MobileNav = styled.div`
   @media (min-width: 370px) {
     flex-direction: row;
   }
-  @media (min-width: 992px) {
+  @media (min-width: 920px) {
     display: none;
   }
 `;
