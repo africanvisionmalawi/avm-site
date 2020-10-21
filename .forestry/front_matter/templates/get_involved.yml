@@ -16,14 +16,14 @@ fields:
   label: links
   fields:
   - type: text
-    name: url
-    label: url
-  - type: text
     name: linkTitle
     label: linkTitle
   - type: text
     name: linkText
     label: linkText
+  - type: text
+    name: url
+    label: url
   - type: file
     name: photo
     label: photo
