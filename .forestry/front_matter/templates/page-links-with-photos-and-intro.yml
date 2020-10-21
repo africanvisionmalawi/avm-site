@@ -1,5 +1,5 @@
 ---
-label: page-links-with-photos-and-intro
+label: page-links-with-photos-and-md-intro
 hide_body: false
 fields:
 - type: text
@@ -11,8 +11,8 @@ fields:
   label: title
 - type: text
   name: description
-  label: Intro text
-  description: Also used by Google for meta tag
+  label: Meta Description
+  description: Used by Google for meta tag
 - type: field_group_list
   name: links
   label: links
@@ -29,3 +29,12 @@ fields:
   - type: file
     name: photo
     label: photo
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Intro text
