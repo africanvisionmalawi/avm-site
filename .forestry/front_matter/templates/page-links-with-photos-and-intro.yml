@@ -5,12 +5,14 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  hidden: true
 - type: text
   name: title
   label: title
 - type: text
   name: description
-  label: description
+  label: Intro text
+  description: Also used by Google for meta tag
 - type: field_group_list
   name: links
   label: links
