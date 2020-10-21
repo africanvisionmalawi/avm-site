@@ -11,8 +11,8 @@ fields:
   label: title
 - type: text
   name: description
-  label: Intro text
-  description: Also used for Google inside meta tag
+  label: description
+  description: Used for Google inside meta tag
 - type: field_group_list
   name: links
   label: links
