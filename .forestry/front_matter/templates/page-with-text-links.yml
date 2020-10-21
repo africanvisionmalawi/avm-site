@@ -26,5 +26,3 @@ fields:
   - type: textarea
     name: linkText
     label: linkText
-pages:
-- src/pages/about-us/index.md
