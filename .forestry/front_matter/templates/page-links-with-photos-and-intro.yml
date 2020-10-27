@@ -1,0 +1,40 @@
+---
+label: page-links-with-photos-and-md-intro
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: Meta Description
+  description: Used by Google for meta tag
+- type: field_group_list
+  name: links
+  label: links
+  fields:
+  - type: text
+    name: linkTitle
+    label: linkTitle
+  - type: text
+    name: linkText
+    label: linkText
+  - type: text
+    name: url
+    label: url
+  - type: file
+    name: photo
+    label: photo
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Intro text

@@ -1,28 +1,31 @@
 ---
-label: page-with-text-links
-hide_body: true
+label: page-links-photos-intro
+hide_body: false
 fields:
 - type: text
   name: templateKey
   label: templateKey
   hidden: true
-  default: page-text-links
 - type: text
   name: title
   label: title
 - type: text
   name: description
   label: description
+  description: Used for Google inside meta tag
 - type: field_group_list
   name: links
   label: links
   fields:
   - type: text
-    name: url
-    label: url
-  - type: text
     name: linkTitle
     label: linkTitle
-  - type: textarea
+  - type: text
     name: linkText
     label: linkText
+  - type: text
+    name: url
+    label: url
+  - type: file
+    name: photo
+    label: photo

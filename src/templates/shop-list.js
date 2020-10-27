@@ -8,6 +8,7 @@ import Seo from "../components/seo";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import NavbarLower from "../components/NavbarLower";
+import TagsList from "../components/shop/tagsList";
 import shopStyles from "../components/shop.module.css";
 import styled from "styled-components";
 
@@ -55,10 +56,10 @@ const ShopIndex = ({ data }) => {
 
                   <h2 className={shopStyles.itemTitle}>
                     {document.node.frontmatter.title}
-                  </h2>
-                  <span className={shopStyles.tag}>
-                    {document.node.frontmatter.tags}
-                  </span>
+                  </h2>                  
+                  {document.node.frontmatter.tags && document.node.frontmatter.tags.length ? (
+                  <TagsList tags={document.node.frontmatter.tags} />
+                ) : null}
                   <span className={shopStyles.listItemPrice}>
                     &pound;{document.node.frontmatter.price}
                   </span>
@@ -82,7 +83,7 @@ export const pageQuery = graphql`
   query ShopIndex {
     allMarkdownRemark(
       sort: { order: DESC, fields: [id] }
-      filter: { frontmatter: { templateKey: { eq: "shop-product-page" } } }
+      filter: { frontmatter: { templateKey: { eq: "shop-product-page" }, status: { eq: "publish" } } }
     ) {
       edges {
         node {
@@ -95,10 +96,7 @@ export const pageQuery = graphql`
             price
             salePrice
             inStock
-            weight
-            length
-            width
-            height
+            size            
             shippingClass
             tags
             productImage {

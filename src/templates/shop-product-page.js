@@ -50,10 +50,7 @@ export const ShopProductTemplate = ({
   price,
   salePrice,
   inStock,
-  weight,
-  length,
-  width,
-  height,
+  size,
   shippingClass,
   tags,
   productImage,
@@ -87,6 +84,7 @@ export const ShopProductTemplate = ({
                   url={`${siteUrl}${slug}`}
                 />
 
+                <p>Size: {size}</p>  
                 {tags && tags.length ? (
                   <>
                     <TagHeading>Tags:</TagHeading>
@@ -133,10 +131,7 @@ const ShopProductPage = ({ data }) => {
         price={post.frontmatter.price}
         salePrice={post.frontmatter.salePrice}
         inStock={post.frontmatter.inStock}
-        weight={post.frontmatter.weight}
-        length={post.frontmatter.length}
-        width={post.frontmatter.width}
-        height={post.frontmatter.height}
+        size={post.frontmatter.size}        
         shippingClass={post.frontmatter.shippingClass}
         tags={post.frontmatter.tags}
         productImage={post.frontmatter.productImage}
@@ -169,11 +164,8 @@ export const pageBasicQuery = graphql`
         title
         price
         salePrice
-        inStock
-        weight
-        length
-        width
-        height
+        inStock   
+        size      
         shippingClass
         tags
         productImage {

@@ -6,7 +6,7 @@ malawiTeam:
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
-  role: Trustee
+  role: Acting Country Manager
 - order: 2
   photo: "/img/team/William-Nyasulu-photo-150x150.jpg"
   name: William Nyasulu
