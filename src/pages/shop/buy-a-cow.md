@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Buy a Biogas Cow'
 date: '2013-03-31T22:27:40+01:00'
-status: private
+publish: false
 permalink: /product/buy-a-cow
 description: ''
 productId: '2208'

@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Lady by the lake with umbrella postcard'
 date: '2013-03-31T23:00:15+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/lady-by-the-lake-with-umbrella

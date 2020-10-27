@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Black and white postcard'
 date: '2013-03-31T22:57:27+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/black-and-white

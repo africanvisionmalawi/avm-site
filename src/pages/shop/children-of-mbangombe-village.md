@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Children of M&#8217;Bang&#8217;ombe village (Music CD)'
 date: '2013-03-31T15:40:45+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/children-of-mbangombe-village

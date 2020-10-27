@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Buy 10 mosquito nets'
 date: '2013-03-31T22:21:35+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/buy-10-mosquito-nets

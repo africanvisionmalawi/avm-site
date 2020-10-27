@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Christmas Cards &#8211; park of 10 cards, 5 different designs'
 date: '2014-10-13T15:28:56+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/christmas-cards-park-of-10-cards-5-different-designs

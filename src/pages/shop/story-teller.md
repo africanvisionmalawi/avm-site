@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Storyteller postcard'
 date: '2013-03-31T23:05:05+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/story-teller

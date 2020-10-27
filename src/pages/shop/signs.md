@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Signs postcard'
 date: '2013-03-31T23:04:18+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/signs

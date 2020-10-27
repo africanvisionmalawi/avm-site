@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Provide a teacher&#8217;s kit'
 date: '2013-03-31T22:22:25+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/provide-a-teachers-kit

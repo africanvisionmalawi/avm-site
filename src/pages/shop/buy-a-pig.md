@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Buy a pig'
 date: '2013-03-31T22:30:28+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/buy-a-pig
