@@ -9,7 +9,7 @@ fields:
   default: shop-product-page
 - name: status
   type: select
-  default: []
+  default: " publish"
   config:
     required: false
     options:
