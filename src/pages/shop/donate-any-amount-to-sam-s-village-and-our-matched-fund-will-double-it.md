@@ -14,7 +14,6 @@ productImage: "/img/gift-card-image.jpg"
 description: ''
 price: 1000
 shippingClass: ''
-
 ---
 **A Christmas Present to make a difference**
 
