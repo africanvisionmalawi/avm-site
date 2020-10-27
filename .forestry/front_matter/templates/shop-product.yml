@@ -7,24 +7,12 @@ fields:
   label: templateKey
   hidden: true
   default: shop-product-page
-- name: status
-  type: select
-  default: draft
-  config:
-    required: false
-    options:
-    - draft
-    - " publish"
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Status
-  description: published or not
 - type: text
   name: title
   label: title
+- name: status
+  type: boolean
+  label: Published
 - type: text
   name: productId
   label: productId
