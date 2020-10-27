@@ -10,7 +10,7 @@ fields:
 - type: text
   name: title
   label: title
-- name: status
+- name: publish
   type: boolean
   label: Published
 - type: text
@@ -54,6 +54,7 @@ fields:
     - card
     - cd
     - book
+    - dvd
     source:
       type: simple
       section: 
