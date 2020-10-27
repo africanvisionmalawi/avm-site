@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Christmas Cards &#8211; half price for 10 cards'
 date: '2013-11-18T17:24:03+00:00'
-status: publish
+status: true
 price: 1
 salePrice: 0
 permalink: /product/christmas-cards-last-chance-at-halfprice

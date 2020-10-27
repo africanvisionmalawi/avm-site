@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Buy a chicken'
 date: '2013-03-31T22:31:03+01:00'
-status: publish
+status: true
 price: 1
 salePrice: 0
 permalink: /product/buy-a-chicken

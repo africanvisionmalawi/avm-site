@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Provide a school desk and chair'
 date: '2013-03-31T22:23:12+01:00'
-status: publish
+status: true
 price: 1
 salePrice: 0
 permalink: /product/provide-a-school-desk-and-chair

@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Train a carer'
 date: '2013-03-31T21:19:39+01:00'
-status: publish
+status: true
 price: 1
 salePrice: 0
 permalink: /product/train-a-carer

@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Buy a goat'
 date: '2013-03-31T22:29:41+01:00'
-status: publish
+status: true
 price: 1
 salePrice: 0
 permalink: /product/buy-a-goat
