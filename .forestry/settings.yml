@@ -54,7 +54,7 @@ sections:
   path: src/pages/get-involved
   label: Get Involved
   create: all
-  match: "**/*"  
+  match: "**/*"
 - type: directory
   path: src/pages/health
   label: Health
