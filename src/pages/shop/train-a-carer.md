@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Train a carer'
 date: '2013-03-31T21:19:39+01:00'
-status: true
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/train-a-carer
@@ -12,7 +12,7 @@ productId: '2179'
 productImage: "/img/default-image.jpg"
 tags:
   - giftlist
-size: card
+size: "card"
 product_shipping_class: letter
 total_sales:
     - '0'

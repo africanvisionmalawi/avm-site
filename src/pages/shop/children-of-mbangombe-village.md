@@ -10,7 +10,7 @@ permalink: /product/children-of-mbangombe-village
 description: ''
 productId: '2102'
 productImage: "/img/default-image.jpg"
-size: cd
+size: "cd"
 tags:
     - CDs
 ---

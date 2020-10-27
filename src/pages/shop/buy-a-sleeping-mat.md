@@ -13,7 +13,7 @@ productId: 'donateSamsVillage'
 productImage: "/img/gift-card-image.jpg"
 description: ''
 price: 1000
-size: card
+size: "card"
 shippingClass: ''
 ---
 **A Christmas Present to make a difference**

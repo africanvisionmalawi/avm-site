@@ -12,7 +12,7 @@ productId: '2163'
 productImage: "/img/default-image.jpg"
 tags:
   - books
-size: book
+size: "book"
 total_sales:
     - '0'
 ---

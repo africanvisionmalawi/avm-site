@@ -83,7 +83,7 @@ export const pageQuery = graphql`
   query ShopIndex {
     allMarkdownRemark(
       sort: { order: DESC, fields: [id] }
-      filter: { frontmatter: { templateKey: { eq: "shop-product-page" }, status: { eq: true } } }
+      filter: { frontmatter: { templateKey: { eq: "shop-product-page" }, publish: { eq: true } } }
     ) {
       edges {
         node {

@@ -12,7 +12,7 @@ productId: '2826'
 productImage: "/img/default-image.jpg"
 tags:
   - xmas
-size: card
+size: "card"
 product_shipping_class: letter
 total_sales:
     - '25'

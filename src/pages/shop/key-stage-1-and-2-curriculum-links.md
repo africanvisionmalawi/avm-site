@@ -12,7 +12,7 @@ productId: '2158'
 productImage: "/img/default-image.jpg"
 tags:
     - cds
-size: cd
+size: "cd"
 total_sales:
     - '0'
 ---

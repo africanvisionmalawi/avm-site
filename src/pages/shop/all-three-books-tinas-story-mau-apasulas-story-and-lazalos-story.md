@@ -10,7 +10,7 @@ description: ''
 productId: '2160'
 productImage: /img/default-image.jpg
 product_shipping_class: book
-size: book
+size: "book"
 tags:
   - books
 total_sales:

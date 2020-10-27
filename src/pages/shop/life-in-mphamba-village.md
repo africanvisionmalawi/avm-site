@@ -12,6 +12,6 @@ productId: '2099'
 productImage: "/img/default-image.jpg"
 tags:
     - DVDs
-size: dvd
+size: "dvd"
 ---
 DVD about lie in a traditional Malawian village Filmed and edited by Sam Palmer

@@ -12,7 +12,7 @@ productId: '2227'
 productImage: "/img/default-image.jpg"
 tags:
   - postcards
-size: card
+size: "card"
 product_shipping_class: letter
 total_sales:
     - '4'

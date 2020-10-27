@@ -14,7 +14,7 @@ productImage: "/img/gift-card-image.jpg"
 tags:
     - 'Malawi Gifts'
     - xmas
-size: card
+size: "card"
 total_sales:
     - '0'
 ---

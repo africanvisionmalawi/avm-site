@@ -14,7 +14,7 @@ product_visibility:
     - featured
 tags:
   - xmas
-size: card
+size: "card"
 product_shipping_class: letter
 total_sales:
     - '9'

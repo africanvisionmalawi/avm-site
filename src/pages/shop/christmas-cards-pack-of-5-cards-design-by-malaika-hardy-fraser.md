@@ -10,7 +10,7 @@ permalink: /product/christmas-cards-pack-of-5-cards-design-by-malaika-hardy-fras
 description: ''
 productId: '2818'
 productImage: "/img/default-image.jpg"
-size: card
+size: "card"
 tags:
   - xmas
 product_shipping_class: letter

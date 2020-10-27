@@ -13,7 +13,7 @@ productImage: "/img/default-image.jpg"
 tags:
   - postcards
 product_shipping_class: letter
-size: card
+size: "card"
 total_sales:
     - '0'
 ---
