@@ -1,10 +1,20 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { Menu, Row, Col, Drawer } from "antd";
-// import github from '../img/github-icon.svg'
+import { Menu,  Col } from "antd";
+import {
+  useDisclosure,
+  Drawer,
+  DrawerBody,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+  Flex
+} from "@chakra-ui/core";
+
 import CtaButton from "../components/CtaButton";
 import CartLink from "../components/CartLink";
-// import NavBarLinks from "../components/NavBarLinks";
 import navbarStyles from "./navbar.module.css";
 import styled from "styled-components";
 import Search from "./search";
@@ -19,14 +29,8 @@ const Navbar = () => {
     setCurrent(e.key);
   };
 
-  // Mobile nav drawer
-  const showDrawer = () => {
-    setDrawerVisible(true);
-  };
-
-  const onClose = () => {
-    setDrawerVisible(false);
-  };
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const btnRef = React.useRef();
 
   return (
     <div
@@ -35,11 +39,11 @@ const Navbar = () => {
       aria-label="main-navigation"
     >
       <DesktopNav className="main">
-        <Row type="flex" align="middle">
+        <Flex align="center">
           <Col md={24}>
-            <Row justify="space-between" align="middle">
+            <Flex justify="space-between" align="middle">
               <Col sm={24} md={16}>
-                <Row type="flex" align="middle">
+                <Flex align="middle">
                   <div id="navMenu" className="navbar-menu">
                     <Menu
                       onClick={handleClick}
@@ -201,11 +205,11 @@ const Navbar = () => {
                       </Menu.Item>
                     </Menu>
                   </div>
-                </Row>
+                </Flex>
               </Col>                          
-            </Row>
+            </Flex>
           </Col>
-        </Row>
+        </Flex>
       </DesktopNav>      
       <DesktopNav>
         <div className={navbarStyles.navbarBtns}>
@@ -240,7 +244,8 @@ const Navbar = () => {
           <div className={navbarStyles.iconCont}>
             <MobileNavIcon
               type="primary"
-              onClick={showDrawer}
+              onClick={onOpen}
+              ref={btnRef}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -255,11 +260,13 @@ const Navbar = () => {
       </MobileNav>
 
       <Drawer
-        placement="right"
-        closable={true}
+        placement="right"        
         onClose={onClose}
-        visible={drawerVisible}
+        isOpen={isOpen}        
       >
+      <DrawerOverlay />
+      <DrawerContent backgroundColor="#fff">
+        <DrawerCloseButton />
         <ul className={navbarStyles.mobileMenu}>
           <li>
             <label for="m1">About Us</label>
@@ -382,6 +389,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+      </DrawerContent>
       </Drawer>
     </div>
   );

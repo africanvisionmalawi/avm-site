@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Row, Col } from "antd";
+import { Flex, Box } from "@chakra-ui/core";
 import Img from "gatsby-image";
 // import BackgroundImage from "gatsby-background-image";
 import { Link, useStaticQuery, graphql } from "gatsby";
@@ -53,15 +53,14 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
     <Container>
       <TileCont>
         {displayHeading === true ? <Heading>Featured projects</Heading> : ""}
-        <Row className={projectLinkStyles.featuredProjects}>
+        <Flex wrap="wrap" className={projectLinkStyles.featuredProjects}>
           {projects.map((project) => (
             <Tile
               className={
                 project.id === currentProject ? projectLinkStyles.active : ``
               }
-              key={project.id}
-              xs={project.colWidth.xs}
-              sm={project.colWidth.sm}
+              width={[project.colWidth.base, project.colWidth.md]}
+              key={project.id}              
             >
               <TileLink to={project.src}>
                 <Overlay>
@@ -87,7 +86,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
               </TileLink>
             </Tile>
           ))}
-        </Row>
+        </Flex>
       </TileCont>
     </Container>
   );
@@ -106,8 +105,8 @@ const projects = [
     imageIdDesktop: "PhotoVillageDesktop",
     imageIdMobile: "PhotoVillageMobile",
     colWidth: {
-      xs: 24,
-      sm: 24,
+      base: '100%', 
+      md: '100%'
     },
     hasMobileImage: true,
   },
@@ -115,10 +114,10 @@ const projects = [
     id: "water",
     name: "Water",
     src: "/water/",
-    imageId: "PhotoWater",
+    imageId: "PhotoWater",    
     colWidth: {
-      xs: 24,
-      sm: 12,
+      base: '100%', 
+      md: '50%'
     },
     hasMobileImage: false,
   },
@@ -128,8 +127,8 @@ const projects = [
     src: "/health/",
     imageId: "PhotoHealth",
     colWidth: {
-      xs: 24,
-      sm: 12,
+      base: '100%', 
+      md: '50%'
     },
     hasMobileImage: false,
   },
@@ -140,8 +139,8 @@ const projects = [
     imageIdDesktop: "PhotoEducationDesktop",
     imageIdMobile: "PhotoEducationMobile",
     colWidth: {
-      xs: 24,
-      sm: 24,
+      base: '100%', 
+      md: '100%'
     },
     hasMobileImage: true,
   },
@@ -151,8 +150,8 @@ const projects = [
     src: "/environment/",
     imageId: "PhotoEnvironment",
     colWidth: {
-      xs: 24,
-      sm: 12,
+      base: '100%', 
+      md: '50%'
     },
     hasMobileImage: false,
   },
@@ -162,8 +161,8 @@ const projects = [
     src: "/celebrate-and-give/",
     imageId: "PhotoCelebrate",
     colWidth: {
-      xs: 24,
-      sm: 12,
+      base: '100%', 
+      md: '50%'
     },
     hasMobileImage: false,
   },
@@ -178,7 +177,7 @@ const Container = styled.section`
 
 const TileCont = styled.div``;
 
-const Tile = styled(Col)`
+const Tile = styled(Box)`
   overflow: hidden;
   padding: 4px;
   position: relative;

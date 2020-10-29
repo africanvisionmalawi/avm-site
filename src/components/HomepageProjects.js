@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { Col } from "antd";
 import Img from "gatsby-image";
-// import BackgroundImage from "gatsby-background-image";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import projectLinkStyles from "./projects.module.css";
 import styled from "styled-components";
