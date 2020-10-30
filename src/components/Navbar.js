@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { Menu,  Col } from "antd";
+import { Menu } from "antd";
 import {
-  useDisclosure,
+  Box,  
   Drawer,
   DrawerBody,
   DrawerFooter,
@@ -10,7 +10,8 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
-  Flex
+  Flex,
+  useDisclosure
 } from "@chakra-ui/core";
 
 import CtaButton from "../components/CtaButton";
@@ -40,9 +41,9 @@ const Navbar = () => {
     >
       <DesktopNav className="main">
         <Flex align="center">
-          <Col md={24}>
+          <Box width={["100%"]}>
             <Flex justify="space-between" align="middle">
-              <Col sm={24} md={16}>
+              <Box width={'100%', '66.6666%'}>
                 <Flex align="middle">
                   <div id="navMenu" className="navbar-menu">
                     <Menu
@@ -206,9 +207,9 @@ const Navbar = () => {
                     </Menu>
                   </div>
                 </Flex>
-              </Col>                          
+              </Box>                          
             </Flex>
-          </Col>
+          </Box>
         </Flex>
       </DesktopNav>      
       <DesktopNav>
