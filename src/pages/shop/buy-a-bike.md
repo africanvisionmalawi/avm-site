@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Buy a bike'
 date: '2013-03-31T21:18:49+01:00'
-status: publish
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/buy-a-bike
@@ -12,7 +12,7 @@ productId: '2177'
 productImage: "/img/default-image.jpg"
 tags:
   - giftlist
-size: card
+size: "card"
 product_shipping_class: letter
 total_sales:
     - '4'

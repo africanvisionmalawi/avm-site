@@ -10,6 +10,9 @@ fields:
 - type: text
   name: title
   label: title
+- name: publish
+  type: boolean
+  label: Published
 - type: text
   name: productId
   label: productId
@@ -33,26 +36,6 @@ fields:
   name: inStock
   label: inStock
   default: '0'
-- type: number
-  name: weight
-  label: weight
-  default: '0'
-  description: "(weight in g)"
-- type: number
-  name: length
-  label: length
-  default: '0'
-  description: "(mm)"
-- type: number
-  name: width
-  label: width
-  default: '0'
-  description: "(mm)"
-- type: number
-  name: height
-  label: height
-  default: '0'
-  description: "(mm)"
 - type: text
   name: shippingClass
   label: shippingClass
@@ -62,6 +45,23 @@ fields:
   label: Tags
   description: "(e.g. giftlist, christmas, postcards, malawi gifts, education packs,
     books, cds, dvds"
+- name: size
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - card
+    - cd
+    - book
+    - dvd
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
+  description: the size for posting
 pages:
 - src/pages/shop/buy-a-sleeping-mat.md
 - src/pages/shop/donate-any-amount-to-sam-s-village-and-our-matched-fund-will-double-it.md

@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Plant an orphan maize garden'
 date: '2013-03-31T22:28:26+01:00'
-status: publish
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/plant-an-orphan-maize-garden
@@ -12,7 +12,7 @@ productId: '2210'
 productImage: "/img/default-image.jpg"
 tags:
   - giftlist
-size: card
+size: "card"
 product_shipping_class: letter
 total_sales:
     - '1'

@@ -13,7 +13,7 @@ length: 147
 width: 104
 height: 3
 shippingClass: na
-size: card
+size: "card"
 product_shipping_class: letter
 tags:
   - giftlist

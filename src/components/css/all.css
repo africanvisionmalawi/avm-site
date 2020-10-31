@@ -14,11 +14,12 @@ img {
 }
 
 span.gatsby-resp-image-wrapper + em {
-  border-bottom: 1px solid #e7e7e8;
+  /*border-bottom: 1px solid #e7e7e8;*/
   color: #626262;
   display: block;
   font-size: 0.75em;
   padding: 8px 0;
+  text-align: center;
 }
 
 /* h1:after,

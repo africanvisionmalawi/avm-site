@@ -1,0 +1,52 @@
+---
+label: shop-product-new
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+  hidden: true
+- type: text
+  name: productId
+  label: productId
+- type: text
+  name: title
+  label: title
+- type: file
+  name: productImage
+  label: productImage
+- type: text
+  name: description
+  label: description
+- type: number
+  name: price
+  label: price
+- type: number
+  name: salePrice
+  label: salePrice
+- type: number
+  name: inStock
+  label: inStock
+- type: number
+  name: weight
+  label: weight
+- type: number
+  name: length
+  label: length
+- type: number
+  name: width
+  label: width
+- type: number
+  name: height
+  label: height
+- type: text
+  name: shippingClass
+  label: shippingClass
+- type: text
+  name: size
+  label: size
+  description: e.g. card, cd, book
+- type: list
+  name: tags
+  label: tags
+  description: e.g. giftlist, xmas, postcards

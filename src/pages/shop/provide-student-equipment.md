@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Provide student equipment'
 date: '2013-03-31T22:24:59+01:00'
-status: publish
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/provide-student-equipment
@@ -12,7 +12,7 @@ productId: '2200'
 productImage: "/img/default-image.jpg"
 tags:
   - giftlist
-size: card
+size: "card"
 product_shipping_class: letter
 total_sales:
     - '12'

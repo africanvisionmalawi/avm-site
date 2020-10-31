@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Lazalo&#8217;s Story (Book)'
 date: '2013-03-31T20:36:45+01:00'
-status: publish
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/lazalos-story
@@ -12,7 +12,7 @@ productId: '2163'
 productImage: "/img/default-image.jpg"
 tags:
   - books
-size: book
+size: "book"
 total_sales:
     - '0'
 ---

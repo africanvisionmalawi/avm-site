@@ -3,7 +3,7 @@ templateKey: shop-product-page
 inStock: 100
 title: 'Donate any amount to Sam&#8217;s Village and our Matched Fund will double it!'
 date: '2018-11-30T18:12:06+00:00'
-status: publish
+publish: true
 price: 1
 salePrice: 0
 permalink: /product/donate-to-sams-village
@@ -14,7 +14,7 @@ productImage: "/img/gift-card-image.jpg"
 tags:
     - 'Malawi Gifts'
     - xmas
-size: card
+size: "card"
 total_sales:
     - '0'
 ---
