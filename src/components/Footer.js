@@ -48,6 +48,10 @@ const FooterSocial = styled.div`
   }
 `;
 
+const CartLink = styled.span`
+  cursor: pointer;
+`
+
 const Footer = () => (
   <footer className={footerStyles.footer} role="contentinfo">
     <FooterForm />
@@ -115,11 +119,8 @@ const Footer = () => (
                   <a href="/shop/">View all products</a>
                 </li>
                 <li>
-                  <a href="/shop/cart/">View cart</a>
-                </li>
-                <li>
-                  <a href="/shop/checkout/">Checkout</a>
-                </li>
+                  <CartLink className="snipcart-summary snipcart-checkout">View cart</CartLink>
+                </li>                
               </ul>
             </FooterCol>
           </FooterRow>
