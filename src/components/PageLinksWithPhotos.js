@@ -21,11 +21,13 @@ const PageLinks = (props) => {
     featured,
     showPageLink,
     boxBackground,
+    hideOtherPhotos   
   } = props;
   let headingText = "Find out more";
   if (heading) {
     headingText = heading;
   }
+  
   return (
     <div>
       {displayHeading && <Heading>{heading}</Heading>}
@@ -66,6 +68,7 @@ const PageLinks = (props) => {
                   title={pagelink.linkTitle}
                   linkText={pagelink.linkText}
                   showPageLink={showPageLink}
+                  hideOtherPhotos={hideOtherPhotos}
                 />
               )}
             </>

@@ -38,6 +38,7 @@ const CardSingle = (props) => {
   return (
     <div>
       <Link to={props.url} className="card-image">
+      {!props.hideOtherPhotos &&
         <ImageCont>
           {props.displayDate && (
             <EventDateCont>
@@ -48,8 +49,9 @@ const CardSingle = (props) => {
               />
             </EventDateCont>
           )}
-          {cardImage}
+          {cardImage}          
         </ImageCont>
+      }            
       </Link>
       <CardContent
         title={props.title}

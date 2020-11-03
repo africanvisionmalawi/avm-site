@@ -8,6 +8,7 @@ displayOptions:
   heading1: default
   heading2: default
   boxBackground: true
+  hideOtherPhotos: false
 links:
   - linkText:
       The first story is from Anold Mankhambira, Project Accountant. Anold sadly passed away at Chritmas 2017 aged only 37.

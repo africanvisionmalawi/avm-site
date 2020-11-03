@@ -93,6 +93,7 @@ export const PagePhotoLinksFeaturedTemplate = (props) => {
                 heading={displayOptions.heading2}
                 featured={false}
                 boxBackground={displayOptions.boxBackground}
+                hideOtherPhotos={displayOptions.hideOtherPhotos}                
               />
             </Section>
           )}
