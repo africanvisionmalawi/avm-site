@@ -7,6 +7,7 @@ displayOptions:
   heading1: default
   heading2: default
   boxBackground: true
+  hideOtherPhotos: false
 title: Thank yous
 description: People who have generously supported us
 links:
