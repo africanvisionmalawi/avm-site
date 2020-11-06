@@ -64,7 +64,7 @@ malawiTeam:
   name: Chikondi Kanambo
   role: Reception and Admin Officer
 - order: 
-  photo: "/img/Ireen-for-website-150x150.jpg"
+  photo: "/img/irene-mwale.jpg"
   name: Ireen Mwale
   role: Assistant Librarian
 - order: 
