@@ -1,8 +1,8 @@
 import React from "react";
 import { styled } from "linaria/react";
 import Breadcrumbs from "./Breadcrumbs";
-import Search from "./search";
-const searchIndices = [{ name: `Pages`, title: `Pages` }];
+// import Search from "./search";
+// const searchIndices = [{ name: `Pages`, title: `Pages` }];
 
 const Section = styled.div`
   background: #fff;
@@ -16,23 +16,20 @@ const Section = styled.div`
   }
 `;
 
-const SearchCont = styled.div`
-  position: absolute;
-  right: 12px;
-  top: 0;
-  z-index: 100;
-  @media (min-width: 992px) {
-    right: 4px;
-  }
-`;
+// const SearchCont = styled.div`
+//   position: absolute;
+//   right: 12px;
+//   top: 0;
+//   z-index: 100;
+//   @media (min-width: 992px) {
+//     right: 4px;
+//   }
+// `;
 
 const NavbarLower = (props) => {
   return (
     <Section>
-      {props.path && <Breadcrumbs path={props.path} />}
-      <SearchCont>
-        <Search indices={searchIndices} />
-      </SearchCont>
+      {props.path && <Breadcrumbs path={props.path} />}      
     </Section>
   );
 };

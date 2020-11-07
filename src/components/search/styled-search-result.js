@@ -12,7 +12,7 @@ const Popover = css`
   margin-top: 0.5em;
   width: 80vw;
   max-width: 30em;
-  box-shadow: 0 0 5px 0;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
   padding: 1em;
   border-radius: 2px;
   background: ${({ theme }) => theme.background};

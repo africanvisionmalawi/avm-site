@@ -1,12 +1,25 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { Menu, Row, Col, Drawer } from "antd";
-// import github from '../img/github-icon.svg'
+import { Menu } from "antd";
+import {
+  Box,  
+  Drawer,
+  DrawerBody,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+  Flex,
+  useDisclosure
+} from "@chakra-ui/core";
+
 import CtaButton from "../components/CtaButton";
 import CartLink from "../components/CartLink";
-// import NavBarLinks from "../components/NavBarLinks";
 import navbarStyles from "./navbar.module.css";
 import styled from "styled-components";
+import Search from "./search";
+const searchIndices = [{ name: `Pages`, title: `Pages` }];
 const { SubMenu } = Menu;
 
 const Navbar = () => {
@@ -17,27 +30,21 @@ const Navbar = () => {
     setCurrent(e.key);
   };
 
-  // Mobile nav drawer
-  const showDrawer = () => {
-    setDrawerVisible(true);
-  };
-
-  const onClose = () => {
-    setDrawerVisible(false);
-  };
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const btnRef = React.useRef();
 
   return (
-    <nav
+    <div
       className={`navbar is-transparent ${navbarStyles.navbarTop}`}
       role="navigation"
       aria-label="main-navigation"
     >
-      <DesktopNav>
-        <Row type="flex" align="middle">
-          <Col md={24}>
-            <Row justify="space-between" align="middle">
-              <Col sm={24} md={16}>
-                <Row type="flex" align="middle">
+      <DesktopNav className="main">
+        <Flex align="center">
+          <Box width={["100%"]}>
+            <Flex justify="space-between" align="middle">
+              <Box width={'100%', '66.6666%'}>
+                <Flex align="middle">
                   <div id="navMenu" className="navbar-menu">
                     <Menu
                       onClick={handleClick}
@@ -183,6 +190,14 @@ const Navbar = () => {
                             Volunteer with us
                           </Link>
                         </Menu.Item>
+                        <Menu.Item>
+                          <Link
+                            className="navbar-item"
+                            to="/get-involved/thank-yous"
+                          >
+                            Thank yous
+                          </Link>
+                        </Menu.Item>
                       </SubMenu>
                       <Menu.Item key="shop">
                         <Link className="navbar-item navbar-parent" to="/shop">
@@ -191,56 +206,81 @@ const Navbar = () => {
                       </Menu.Item>
                     </Menu>
                   </div>
-                </Row>
-              </Col>
-              <div className={navbarStyles.cartLinkCont}>
-                <CartLink />
-              </div>
-            </Row>
-          </Col>
-        </Row>
-      </DesktopNav>
-      <div className={navbarStyles.navbarBtns}>
-        <CtaButton
-          link="https://fundraise.charitycheckout.co.uk/africanvisionmalawi/fundraising/start#!/"
-          text="Fundraise for us"
-          className={navbarStyles.navBarBtn}
-        />
-        <CtaButton
-          link="https://www.charitycheckout.co.uk/1113786/"
-          text="Donate"
-          className={navbarStyles.navBarBtn}
-        />
-      </div>
-      <MobileNav>
-        <div className={navbarStyles.cartLinkCont}>
-          <CartLink />
-        </div>
-        <MobileNavIcon
-          type="primary"
-          onClick={showDrawer}
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <title>Hamburger</title>
-          <path
-            d="M24,19v2a1,1,0,0,1-1,1H1a.94.94,0,0,1-.7-.3A1,1,0,0,1,0,21V19a1,1,0,0,1,.3-.7A.94.94,0,0,1,1,18H23a1,1,0,0,1,1,1Zm0-8v2a.94.94,0,0,1-.3.7,1,1,0,0,1-.7.3H1a.94.94,0,0,1-.7-.3A.94.94,0,0,1,0,13V11a.94.94,0,0,1,.3-.7A.94.94,0,0,1,1,10H23a1,1,0,0,1,.7.3A.94.94,0,0,1,24,11Zm0-8V5a1,1,0,0,1-1,1H1a.94.94,0,0,1-.7-.3A1,1,0,0,1,0,5V3a.94.94,0,0,1,.3-.7A.94.94,0,0,1,1,2H23a1,1,0,0,1,.7.3A.94.94,0,0,1,24,3Z"
-            fill="#fff"
+                </Flex>
+              </Box>                          
+            </Flex>
+          </Box>
+        </Flex>
+      </DesktopNav>      
+      <DesktopNav>
+        <div className={navbarStyles.navbarBtns}>
+          <CtaButton
+            link="https://fundraise.charitycheckout.co.uk/africanvisionmalawi/fundraising/start#!/"
+            text="Fundraise for us"
+            className={navbarStyles.navBarBtn}
           />
-        </MobileNavIcon>
+          <CtaButton
+            link="https://www.charitycheckout.co.uk/1113786/"
+            text="Donate"
+            className={navbarStyles.navBarBtn}
+          />
+        </div>
+        <NavIcons>
+          <div className={navbarStyles.iconCont}>
+            <Search indices={searchIndices} />                
+          </div>
+          <div className={navbarStyles.iconCont}>
+            <CartLink />
+          </div>            
+        </NavIcons> 
+      </DesktopNav>  
+      <MobileNav>
+        <NavIcons>
+          <div className={navbarStyles.iconCont}>
+            <Search indices={searchIndices} />                
+          </div> 
+          <div className={navbarStyles.iconCont}>
+            <CartLink />
+          </div>          
+          <div className={navbarStyles.iconCont}>
+            <MobileNavIcon
+              type="primary"
+              onClick={onOpen}
+              ref={btnRef}
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>Hamburger</title>
+              <path
+                d="M24,19v2a1,1,0,0,1-1,1H1a.94.94,0,0,1-.7-.3A1,1,0,0,1,0,21V19a1,1,0,0,1,.3-.7A.94.94,0,0,1,1,18H23a1,1,0,0,1,1,1Zm0-8v2a.94.94,0,0,1-.3.7,1,1,0,0,1-.7.3H1a.94.94,0,0,1-.7-.3A.94.94,0,0,1,0,13V11a.94.94,0,0,1,.3-.7A.94.94,0,0,1,1,10H23a1,1,0,0,1,.7.3A.94.94,0,0,1,24,11Zm0-8V5a1,1,0,0,1-1,1H1a.94.94,0,0,1-.7-.3A1,1,0,0,1,0,5V3a.94.94,0,0,1,.3-.7A.94.94,0,0,1,1,2H23a1,1,0,0,1,.7.3A.94.94,0,0,1,24,3Z"
+                fill="#fff"
+              />
+            </MobileNavIcon>
+          </div>
+        </NavIcons>         
       </MobileNav>
 
       <Drawer
-        placement="right"
-        closable={true}
+        placement="right"        
         onClose={onClose}
-        visible={drawerVisible}
+        isOpen={isOpen}        
       >
+      <DrawerOverlay />
+      <DrawerContent backgroundColor="#fff">
+        <DrawerCloseButton />
         <ul className={navbarStyles.mobileMenu}>
           <li>
             <label for="m1">About Us</label>
             <input type="checkbox" id="m1" />
             <ul>
+              <li>
+                <Link
+                  className="navbar-item navbar-single"
+                  to="/about-us/"
+                >
+                  About Us Index
+                </Link>
+              </li>
               <li>
                 <Link
                   className="navbar-item navbar-single"
@@ -282,7 +322,7 @@ const Navbar = () => {
           <li>
             <label for="m2">Our work</label>
             <input type="checkbox" id="m2" />
-            <ul>
+            <ul>              
               <li>
                 <Link to="/projects">Projects</Link>
               </li>
@@ -300,6 +340,9 @@ const Navbar = () => {
             <label for="m3">Get involved</label>
             <input type="checkbox" id="m3" />
             <ul>
+              <li>
+                <Link to="/get-involved/">Get Involved Index</Link>
+              </li>
               <li>
                 <Link className="navbar-item" to="/get-involved/donate/">
                   Donate
@@ -347,26 +390,35 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+      </DrawerContent>
       </Drawer>
-    </nav>
+    </div>
   );
 };
 
-const DesktopNav = styled.nav`
+const DesktopNav = styled.div`
   display: none;
   position: relative;
-  text-transform: uppercase;
-  @media (min-width: 992px) {
+  &.main {
+    text-transform: uppercase;
+  }
+  @media (min-width: 920px) {
     display: flex;
-    margin: 0 1em 0 0;
+    &.main {
+      margin: 0 1em 0 0;
+    }
   }
 `;
 
+
+
 const MobileNav = styled.div`
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
-  height: 68px;
+  flex-wrap: nowrap;
+  height: 48px;
+  // height: 68px;
   justify-content: flex-end;
   margin: 4px 0 0;
   text-transform: uppercase;
@@ -374,10 +426,14 @@ const MobileNav = styled.div`
   @media (min-width: 370px) {
     flex-direction: row;
   }
-  @media (min-width: 992px) {
+  @media (min-width: 920px) {
     display: none;
   }
 `;
+
+const NavIcons = styled.div`
+  display: flex;
+`
 
 const MobileNavIcon = styled.svg`
   cursor: pointer;
