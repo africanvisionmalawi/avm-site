@@ -353,7 +353,6 @@ export const pageQuery = graphql`
               imageId
               excerpt
               featured
-              photo 
             }
           }
           html
