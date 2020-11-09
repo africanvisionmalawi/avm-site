@@ -183,16 +183,6 @@ const LowerSection = styled.section`
   width: 100%;
 `;
 
-// const TopHeroText = styled(Col)`
-//   padding: 30px 0 0;
-//   text-align: center;
-// `;
-
-// const H1Heading = styled.h1`
-//   // font-size: 3.4em;
-//   text-align: center;
-// `;
-
 const H2Heading = styled.h2`
   // font-size: 3.2em;
   margin: 0 0 0.5em;
@@ -272,25 +262,6 @@ export const mdRectImage = graphql`
   }
 `;
 
-// export const mobileCardImage = graphql`
-//   fragment fixedMobileCardIMage on File {
-//     childImageSharp {
-//       fixed(width: 280) {
-//         ...GatsbyImageSharpFixed_withWebp_tracedSVG
-//       }
-//     }
-//   }
-// `;
-
-// export const desktopCardImage = graphql`
-//   fragment desktopCardImage on File {
-//     childImageSharp {
-//       fixed(width: 371, height: 222) {
-//         ...GatsbyImageSharpFixed_withWebp_tracedSVG
-//       }
-//     }
-//   }
-// `;
 
 export const pageQuery = graphql`
   query IndexQuery {
