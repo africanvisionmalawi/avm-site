@@ -4,6 +4,14 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
+  photo: "/img/felix-kalikwala.jpg"
+  name: Felix Kalikwala
+  role: Permaculture instructor
+- order: 
+  photo: "/img/william-chapota.jpg"
+  name: William Chapota
+  role: Maintenance support
+- order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
   role: Acting Country Manager
@@ -50,7 +58,7 @@ malawiTeam:
 - order: 
   photo: "/img/Bokela-for-website-150x150.jpg"
   name: Bokela Gunda
-  role: Sam's Village Site Support
+  role: Sam's Village Maintenance Officer
 - order: 
   photo: "/img/Chikondi-for-website-150x150.jpg"
   name: Chikondi Kanambo
