@@ -11,10 +11,6 @@ malawiTeam:
   photo: "/img/team/William-Nyasulu-photo-150x150.jpg"
   name: William Nyasulu
   role: Trustee
-- order: 
-  photo: "/img/Chrispin-2-150x150.jpg"
-  name: Chrispin Chinunda
-  role: Country Manager
 - order: 4
   photo: "/img/team/Eric-Munthali-150x150.jpg"
   name: Eric Munthali
@@ -35,10 +31,6 @@ malawiTeam:
   photo: "/img/Julie-for-website-150x150.jpg"
   name: Julie Ndalama
   role: Disability Outreach Worker
-- order: 
-  photo: "/img/Atupele-2-150x150.jpg"
-  name: Atupele Mkulichi
-  role: PA to Country Manager
 - order: 
   photo: "/img/Green-150x150.jpg"
   name: Green Phiri
@@ -78,22 +70,14 @@ malawiTeam:
 - order: 
   photo: "/img/Mistone-150x150.png"
   name: Mistone Abison
-  role: Site Officer
+  role: Procurement Officer
 - order: 
   photo: "/img/Chipiliro-150x150.jpg"
   name: Chipiliro Mbiridzi
   role: Office Guard
 - order: 
-  photo: "/img/Overton-Banda-150x150.jpg"
-  name: Overton Banda
-  role: Office Guard
-- order: 
   photo: "/img/Cosmas-1-e1511197451643-150x150.jpg"
   name: Cosmas Mithi
-  role: Office Guard
-- order: 
-  photo: "/img/Ibrahim-e1511197486614-150x150.jpg"
-  name: Ibrahim Bwanali
   role: Office Guard
 - order: 
   photo: "/img/Aziel-Pemba-150x150.jpg"
@@ -102,7 +86,7 @@ malawiTeam:
 - order: 
   photo: "/img/Biton-Mwale-150x150.jpg"
   name: Biton Mwale
-  role: Sam's Village Guard
+  role: Office Guard
 - order: 
   photo: "/img/Fiason-for-website-150x150.jpg"
   name: Fiason Kambizeni
