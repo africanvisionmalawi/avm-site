@@ -4,6 +4,10 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
+  photo: "/img/hezekiah-kunje.jpg"
+  name: Hezekiah Kunje
+  role: Sam's Village Guard
+- order: 
   photo: "/img/felix-kalikwala.jpg"
   name: Felix Kalikwala
   role: Permaculture instructor
