@@ -32,5 +32,3 @@ fields:
     required: true
   label: Promotional Video
   description: enter the full Vimeo or Youtube url here
-pages:
-- src/pages/index.md
