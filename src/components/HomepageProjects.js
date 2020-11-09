@@ -32,6 +32,7 @@ const HomepageProjects = ({ currentProject, displayHeading }) => {
           <ProjectRow className={project.layout} key={project.id}>
             <Tile xs={project.colWidth.xs} sm={project.colWidth.sm}>
               <TileLink to={project.src}>
+              {project.imageId &&
                 <Img
                   fluid={
                     project.hasMobileImage === true
@@ -49,6 +50,7 @@ const HomepageProjects = ({ currentProject, displayHeading }) => {
                   alt=""
                   imgStyle={{ objectFit: "contain" }}
                 />
+              }
               </TileLink>
             </Tile>
             <Excerpt xs={24} sm={14}>

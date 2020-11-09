@@ -26,11 +26,11 @@ const HomepageProjectsCols = (props) => {
   return (    
       <Box>
         {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
-        <SimpleGrid columns={[1, 2, 3]} spacing="1em">
+        <SimpleGrid columns={[1, 1, 3]} spacing="1em">
         {props.ourWork.map((project) => (
           <Box p={2} key={project.id}>
             <Box>  
-              { project.projectImage  &&          
+              {project.imageId  &&          
                 <Img
                   fluid={
                     project.hasMobileImage === true
@@ -53,7 +53,7 @@ const HomepageProjectsCols = (props) => {
               <Excerpt>
                 <h3>{project.name}</h3>
                 <p>{project.excerpt}</p>
-                <Link to={project.src}>Find out more</Link>
+                <Link to={project.url}>Find out more</Link>
               </Excerpt>
             </Box>
           </Box>
@@ -164,7 +164,7 @@ const TileLink = styled(Link)`
 `;
 
 const Heading = styled.h2`
-  // font-size: 3.2em;
+  font-size: 1.8em;
   margin: 0 0 0.5em;
   text-align: center;
 `;

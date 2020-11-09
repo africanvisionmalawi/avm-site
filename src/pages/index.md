@@ -10,7 +10,7 @@ ourWork:
     name: "Sam's Village"
     url: "/projects/sams-village/"
     imageId: "PhotoVillage"
-    projectImage: "/img/mainphoto_village-ver3.jpg"
+    photo: "/img/mainphoto_village-ver3.jpg"
     excerpt:
       "Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas."      
     featured: true
@@ -18,7 +18,7 @@ ourWork:
     name: "Health"
     url: "/health/"
     imageId: "PhotoHealth"
-    projectImage: "/img/mainphoto_health.jpg"   
+    photo: "/img/mainphoto_health.jpg"   
     excerpt:
       "One of our big forthcoming projects is to build a Waiting Home for new mothers at the Maternity Unit. This second stage will provide essential care for pre-term births - which are higher in Malawi than anywhere else in the world. The project will include nutritional permaculture gardens in front of the new wing, and education on good nutrition for new mothers."      
     featured: true	
@@ -26,14 +26,15 @@ ourWork:
     name: "Education"
     url: "/education/"
     imageId: "PhotoEducation"
-    projectImage: "/img/mainphoto_education.jpg"  
+    photo: "/img/mainphoto_education.jpg"  
     featured: true
     excerpt:
       "We have setup 9 Community Based Childcare Centres to date to support the under 5's and support pupils in Primary, Secondary and University/Further Edication."
   - id: "waterandsanitation"
     name: "Water & Sanitation"
     url: "/water/"
-    imageId: ""    
+    imageId: ""
+    photo: "/img/mainphoto_water.jpg"  
     excerpt:
       "Text to go here to be replaced."
     featured: false  
@@ -41,7 +42,7 @@ ourWork:
     name: "Environment"
     url: "/environment/"
     imageId: ""   
-    projectImage: "" 
+    photo: "/img/mainphoto_environment.jpg" 
     excerpt:
       "Text to go here to be replaced."
     featured: false  
@@ -49,7 +50,7 @@ ourWork:
     name: "Celebrate & Give"
     url: "/celebrate-and-give/"
     imageId: ""
-    projectImage: ""   
+    photo: "/img/mainphoto_celebrate.jpg"   
     excerpt:
       "Text to go here to be replaced."
     featured: false  

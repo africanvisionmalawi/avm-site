@@ -353,9 +353,7 @@ export const pageQuery = graphql`
               imageId
               excerpt
               featured
-              projectImage {
-                ...photoTileFixedMdRect
-              }
+              photo 
             }
           }
           html
