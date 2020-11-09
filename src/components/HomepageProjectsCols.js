@@ -6,7 +6,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import projectLinkStyles from "./projects.module.css";
 import styled from "styled-components";
 
-const HomepageProjects = ({ currentProject, displayHeading }) => {
+const HomepageProjectsCols = (props) => {
   const featuredImage = useStaticQuery(
     graphql`
       query {
@@ -23,15 +23,14 @@ const HomepageProjects = ({ currentProject, displayHeading }) => {
     `
   );
 
-  return (
-    <Container>
-      <TileCont>
-        {displayHeading === true ? <Heading>Featured projects</Heading> : ""}
-
-        {projects.map((project) => (
-          <ProjectRow className={project.layout} key={project.id}>
-            <Tile xs={project.colWidth.xs} sm={project.colWidth.sm}>
-              <TileLink to={project.src}>
+  return (    
+      <Box>
+        {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
+        <SimpleGrid columns={[1, 2, 3]} spacing="1em">
+        {props.ourWork.map((project) => (
+          <Box p={2} key={project.id}>
+            <Box>  
+              { project.projectImage  &&          
                 <Img
                   fluid={
                     project.hasMobileImage === true
@@ -48,18 +47,19 @@ const HomepageProjects = ({ currentProject, displayHeading }) => {
                   }
                   alt=""
                   imgStyle={{ objectFit: "contain" }}
-                />
-              </TileLink>
-            </Tile>
-            <Excerpt xs={24} sm={14}>
-              <h3>{project.name}</h3>
-              <p>{project.excerpt}</p>
-              <Link to={project.src}>Find out more</Link>
-            </Excerpt>
-          </ProjectRow>
+                /> }            
+            </Box>
+            <Box mt={{ base: 4}} width="100%">
+              <Excerpt>
+                <h3>{project.name}</h3>
+                <p>{project.excerpt}</p>
+                <Link to={project.src}>Find out more</Link>
+              </Excerpt>
+            </Box>
+          </Box>
         ))}
-      </TileCont>
-    </Container>
+     </SimpleGrid>
+    </Box>    
   );
 };
 
@@ -203,11 +203,11 @@ const Overlay = styled.div`
 `;
 
 const Excerpt = styled.div`
-  padding: 0 30px;
-  width: 100%;
-  @media (min-width: 768px) {
+<!--   padding: 0 30px;
+  width: 100%; -->
+  <!-- @media (min-width: 768px) {
     width: 58.33333333%;
-  }
+  } -->
 `;
 
-export default HomepageProjects;
+export default HomepageProjectsCols;

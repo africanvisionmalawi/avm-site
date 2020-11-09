@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import NavbarLower from "../components/NavbarLower";
 import HomepageProjects from "../components/HomepageProjects";
+import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
 import ReactPlayer from "react-player";
@@ -24,6 +25,7 @@ const IndexPage = (props) => {
   const { edges: homeMeta } = data.homePage;
   const heroImage = data.heroImage;
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
+  const ourWork = homeContent[0].node.frontmatter.ourWork;
 
   return (
     <Layout>
@@ -83,7 +85,7 @@ const IndexPage = (props) => {
             text="Donate"
           />
           <LowerSection>
-            <HomepageProjects currentProject="home" displayHeading={true} />
+            <HomepageProjectsCols currentProject="home" displayHeading={true} ourWork={ourWork} />
           </LowerSection>
 
           <AltTopSection>
@@ -344,6 +346,17 @@ export const pageQuery = graphql`
             title
             description
             promoVideo
+            ourWork {
+              id
+              name
+              url
+              imageId
+              excerpt
+              featured
+              projectImage {
+                ...photoTileFixedMdRect
+              }
+            }
           }
           html
         }

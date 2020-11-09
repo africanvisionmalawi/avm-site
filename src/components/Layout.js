@@ -75,7 +75,7 @@ const Header = styled.div`
 
 const HeaderInner = styled.div`
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1180px;
   position: relative;
   width: 100%;
 `;
