@@ -13,11 +13,17 @@ const LogoLink = styled(Link)`
   top: 0;
   width: auto;
   z-index: 1000;
+  @media (min-width: 768px) {
+    height: 160px;
+  }
 `;
 const LogoImg = styled.img`
   display: block;
   height: 120px;
   width: auto;
+  @media (min-width: 768px) {
+    height: 160px;
+  }
 `;
 
 const NavLogo = styled.figure`

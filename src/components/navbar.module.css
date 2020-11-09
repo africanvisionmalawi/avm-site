@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 980px;
-  padding-left: 78px;
+  max-width: 1180px;
+  padding-left: 108px;
   position: relative;
 }
 
@@ -71,14 +71,16 @@
   margin: 0 15px;
 }
 
-.cartLinkCont {
-  align-items: center;
+
+
+.iconCont {
+ align-items: center;
   display: flex;
   justify-content: center;
   /* position: absolute;
   right: 40px;
   top: 0; */
-  width: 35px;
+  width: 35px; 
 }
 
 @media only screen and (min-width: 375px) {
@@ -142,8 +144,9 @@
     left: -60px;
   }
 } */
-.mobileMenu {
+.mobileMenu {  
   font-size: 1.2em;
+  padding: 2em;
 }
 .mobileMenu,
 .mobileMenu ul {

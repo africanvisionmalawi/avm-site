@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { Col } from "antd";
 import Img from "gatsby-image";
-// import BackgroundImage from "gatsby-background-image";
+import { SimpleGrid, Box } from "@chakra-ui/core";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import projectLinkStyles from "./projects.module.css";
 import styled from "styled-components";
@@ -33,6 +32,7 @@ const HomepageProjects = ({ currentProject, displayHeading }) => {
           <ProjectRow className={project.layout} key={project.id}>
             <Tile xs={project.colWidth.xs} sm={project.colWidth.sm}>
               <TileLink to={project.src}>
+              {project.imageId &&
                 <Img
                   fluid={
                     project.hasMobileImage === true
@@ -50,6 +50,7 @@ const HomepageProjects = ({ currentProject, displayHeading }) => {
                   alt=""
                   imgStyle={{ objectFit: "contain" }}
                 />
+              }
               </TileLink>
             </Tile>
             <Excerpt xs={24} sm={14}>
