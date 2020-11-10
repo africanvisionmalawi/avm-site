@@ -36,7 +36,8 @@ ourWork:
   photo: "/img/mainphoto_education.jpg"
   featured: true
   excerpt: We have setup 9 Community Based Childcare Centres to date to support the
-    under 5's and support pupils in Primary, Secondary and University/Further Edication.
+    under 5's and support pupils in Primary, Secondary and University/Further Education.
+    40 school students / 20 university students … add more ...
 - id: waterandsanitation
   name: Water & Sanitation
   url: "/water/"
