@@ -66,8 +66,8 @@ ourWork:
   excerpt: |-
     Most fundraising comes from personal donations.
 
-    The four most important are: regular monthly donations; leaving a legacy;
-    pledging gifts from a birthday, anniversary or event; running a fundraising event.
+    You can help us through regular monthly donations; leaving a legacy;
+    pledging gifts from a birthday or anniversary; or running a fundraising event.
     Please consider one or more of those as it’s so easy to help.
   featured: false
 
