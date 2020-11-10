@@ -63,7 +63,12 @@ ourWork:
   url: "/celebrate-and-give/"
   imageId: ''
   photo: "/img/mainphoto_celebrate.jpg"
-  excerpt: Text to go here to be replaced.
+  excerpt: |-
+    Most fundraising comes from personal donations.
+
+    The four most important are: regular monthly donations; leaving a legacy;
+    pledging gifts from a birthday, anniversary or event; running a fundraising event.
+    Please consider one or more of those as it’s so easy to help.
   featured: false
 
 ---
