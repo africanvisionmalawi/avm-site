@@ -52,7 +52,11 @@ ourWork:
   url: "/environment/"
   imageId: ''
   photo: "/img/mainphoto_environment.jpg"
-  excerpt: Text to go here to be replaced.
+  excerpt: We all know our immune systems depend on good nutrition. In Malawi people
+    depend on their maize harvest to the exclusion of many highly-nutritious foods.
+    Deforestation on a massive scale leads to Malawi losing about 300km2 of forest
+    land every year. Help us to spread the message as we teach schools how to create
+    vegetable gardens and plant hundreds of trees.
   featured: false
 - id: celebrateandgive
   name: Celebrate & Give
