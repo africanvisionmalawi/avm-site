@@ -36,27 +36,40 @@ ourWork:
   photo: "/img/mainphoto_education.jpg"
   featured: true
   excerpt: We have setup 9 Community Based Childcare Centres to date to support the
-    under 5's and support pupils in Primary, Secondary and University/Further Edication.
+    under 5's and support pupils in Primary, Secondary and University/Further Education.
+    40 school students / 20 university students … add more ...
 - id: waterandsanitation
   name: Water & Sanitation
   url: "/water/"
   imageId: ''
   photo: "/img/mainphoto_water.jpg"
-  excerpt: Text to go here to be replaced.
+  excerpt: |-
+    Today, many of Malawi’s poorest and most marginalised people don’t have clean water to drink, decent toilets or good hygiene. Without these basics, we cannot begin to help them with better education, health and self-sufficiency.
+
+    45,000 people in our area need clean, safe water. With your help we can ensure that everyone in our area has access to clean, safe water.
   featured: false
 - id: environment
   name: Environment
   url: "/environment/"
   imageId: ''
   photo: "/img/mainphoto_environment.jpg"
-  excerpt: Text to go here to be replaced.
+  excerpt: We all know our immune systems depend on good nutrition. In Malawi people
+    depend on their maize harvest to the exclusion of many highly-nutritious foods.
+    Deforestation on a massive scale leads to Malawi losing about 300km2 of forest
+    land every year. Help us to spread the message as we teach schools how to create
+    vegetable gardens and plant hundreds of trees.
   featured: false
 - id: celebrateandgive
   name: Celebrate & Give
   url: "/celebrate-and-give/"
   imageId: ''
   photo: "/img/mainphoto_celebrate.jpg"
-  excerpt: Text to go here to be replaced.
+  excerpt: |-
+    Most fundraising comes from personal donations.
+
+    You can help us through regular monthly donations; leaving a legacy;
+    pledging gifts from a birthday or anniversary; or running a fundraising event.
+    Please consider one or more of those as it’s so easy to help.
   featured: false
 
 ---
