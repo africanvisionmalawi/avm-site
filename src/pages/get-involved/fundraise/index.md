@@ -1,17 +1,19 @@
 ---
 templateKey: page-basic
 title: Fundraise for us
-description: Supporters have organised table top fairs and supermarket bucket collections, abseiled, climbed Mt Kilimangaro, run 10km races, competed in the Lilongwe Triathlon, run the North London Half Marathon and even the London Marathon for us
-headerImage: /img/chemex.jpg
----
+description: Supporters have organised table top fairs and supermarket bucket collections,
+  abseiled, climbed Mt Kilimangaro, run 10km races, competed in the Lilongwe Triathlon,
+  run the North London Half Marathon and even the London Marathon for us
+headerImage: "/img/chemex.jpg"
 
+---
 Can you fundraise for us?
 
 Have a look at who is fundraising for us right now:
 
 [Event Fundraisers](https://africanvisionmalawi.charitycheckout.co.uk/profile)
 
-[Cycle Fundraising Events – Malawi](https://www.givey.com/avm) 
+[Cycle Fundraising Events – Malawi](https://www.givey.com/avm)
 
 In the past supporters have organised table top fairs and supermarket bucket collections, abseiled, climbed Mt Kilimangaro, run 10km races, competed in the Lilongwe Triathlon, run the North London Half Marathon and even the London Marathon for us.
 
@@ -40,13 +42,12 @@ Maybe you’d like to run an activity for kids to raise money, or maybe your chi
 
 Get in touch with us at [info@africanvision.org.uk](mailto:info@africanvision.org.uk ) for a fundraising welcome pack!
 
-
 ![Heather Palmer finishing her first ever 10km race](/img/fundraise/Heather-running.jpg "Heather Palmer finishing her first ever 10km race")
 _Heather Palmer finishing her first ever 10km race_
 
 ## Resources
 
-We find BT mydonate is good for online sponsorship, and we have an African Vision Malawi homepage on it.
+We find Crowdfunder is good for creating your own event and you can set up your page [here ...](https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW)
 
 We have prepared a sponsorship form template for collecting donations offline.
 

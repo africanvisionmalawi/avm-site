@@ -3,23 +3,23 @@ templateKey: page-gallery
 title: Holiday in France for us
 description: Support us whilst holidaying in France
 gallery:
-  - alt: House in France
-    photo: "/img/france/France-1.jpg"
-  - alt: House in France
-    photo: "/img/france/France-2.jpg"
-  - alt: House in France
-    photo: "/img/france/France-3.jpg"
-  - alt: House in France
-    photo: "/img/france/France-4.jpg"
-  - alt: House in France
-    photo: "/img/france/France-5.jpg"
-  - alt: House in France
-    photo: "/img/france/France-8.jpg"
----
+- alt: House in France
+  photo: "/img/france/France-1.jpg"
+- alt: House in France
+  photo: "/img/france/France-2.jpg"
+- alt: House in France
+  photo: "/img/france/France-3.jpg"
+- alt: House in France
+  photo: "/img/france/France-4.jpg"
+- alt: House in France
+  photo: "/img/france/France-5.jpg"
+- alt: House in France
+  photo: "/img/france/France-8.jpg"
 
+---
 ![La Guimarderie in France](/img/france/France-3.jpg "La Guimarderie in France")
 
-Two of our supporters own a beautiful holiday home in the Loire Valley in France and they have offered that all money raised from renting it out goes to African Vision Malawi projects.
+Two of our supporters own a beautiful holiday home in the Loire Valley in France and all proceeds raised from renting it, goes to African Vision Malawi.
 
 For some of the year it is used as a retreat and again the proceeds go to AVM. More details about the retreats [here](https://www.retreattothefarm.co.uk/) …
 
@@ -27,7 +27,7 @@ So, do you fancy a holiday in France?!
 
 _14th Century farmhouse in 1 acre gardens, with heated pool, and in a rural setting in Chinon, in the Loire Valley_
 
-Prices start from £50 per day. Take a look at some of the photos in the gallery at the bottom of this page and then read some details about it below….
+Prices start from £100 per day. Take a look at some of the photos in the gallery at the bottom of this page and then read some details about it below….
 
 This is a peaceful 14th century farmhouse in one acre grounds with extensive gardens and orchard, fully restored. It has a beautiful 16m heated swimming pool and is set between Chinon and Richelieu in chateaux country. There is lots to do: fishing, watersports, horse riding, walking and cycling. Peaceful and quiet. Even better: all rental income is donated to African Vision Malawi!
 
