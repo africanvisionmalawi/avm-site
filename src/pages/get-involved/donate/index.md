@@ -36,7 +36,7 @@ Download the Gift List here:
 
 ## School and University Sponsorship
 
-You can sponsor a [secondary school student](http://www.africanvision.org.uk/projects/secondary-school-sponsorship/) for £20 a month, and make a real difference to an individual's future.
+You can sponsor a [secondary school student](http://www.africanvision.org.uk/projects/secondary-school-sponsorship/) for £25 a month, and make a real difference to an individual's future.
 
 To do so, please download and fill in the forms below:
 
@@ -60,6 +60,6 @@ Many people die without leaving a will, but many people wish that their money co
 
 Thank you!
 
-\* You can make every gift worth 25 per cent more, if you are a UK taxpayer. Please read the statement below and we'll do the rest. The tax reclaimed will be used to help fund our vital work in Malawi.
+\* You can make every gift worth 25% more, if you are a UK taxpayer. Please read the statement below and we'll do the rest. The tax reclaimed will be used to help fund our vital work in Malawi.
 
 "I understand that I must pay an amount of Income Tax and/or Capital Gains Tax for each tax year (6 April one year to 5 April the next) that is at least equal to the amount of tax that all the charities that I donate to will reclaim on my gifts for that tax year. I will tell African Vision Malawi if I am no longer a taxpayer."
