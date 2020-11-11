@@ -2,9 +2,9 @@
 templateKey: page-basic
 title: Donate
 description: Donating to us
-headerImage: /img/chemex.jpg
----
+headerImage: "/img/chemex.jpg"
 
+---
 There are many ways to donate to African Vision Malawi!
 
 ## You can make a one-off or regular donation online:
@@ -17,7 +17,7 @@ Have a browse in the [Shop](/shop/).
 
 ## By Post:
 
-If you prefer you can send us a **cheque** at: African Vision Malawi, P.O. Box 851A, Kingston Upon Thames, KT1 9FD
+If you prefer you can send us a **cheque** to: African Vision Malawi, 31 Upper Brighton Road, Surbiton, Surrey KT6 6QX 
 
 Or you may prefer to fill in a **Standing Order** form and post it to us and your bank to give a regular donation.
 
@@ -25,14 +25,14 @@ Do you pay UK tax? If so we can increase your donation by 25% at no extra cost t
 
 Download a donation form:
 
-- [Donation and Standing Order Form](http://www.africanvision.org.uk/pdfs/forms/AVM-Standing-Order-Form.pdf)
-- [Gift Aid agreement](http://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax *
+* [Donation and Standing Order Form](http://www.africanvision.org.uk/pdfs/forms/AVM-Standing-Order-Form.pdf)
+* [Gift Aid agreement](http://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax *
 
 ## By Post - buy a gift for our Malawi friends, just like in our online shop:
 
 Download the Gift List here:
 
-- [Gift List](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/Gift_List.pdf)
+* [Gift List](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/Gift_List.pdf)
 
 ## School and University Sponsorship
 
@@ -40,9 +40,8 @@ You can sponsor a [secondary school student](http://www.africanvision.org.uk/pro
 
 To do so, please download and fill in the forms below:
 
-- [Secondary School Sponsorship Form](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2017/03/secondary-school-sponsorship-form-2017-AVM.pdf)
-
-- [Gift Aid form](http://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax \*
+* [Secondary School Sponsorship Form](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2017/03/secondary-school-sponsorship-form-2017-AVM.pdf)
+* [Gift Aid form](http://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax *
 
 We are also looking for sponsors for [further education students](http://www.africanvision.org.uk/projects/university-scholarships/). £40 a month goes a long way to support their studies with books, fees and living costs.
 
@@ -56,13 +55,10 @@ Would you like to leave a legacy to African Vision Malawi? Please call us on 020
 
 Many people die without leaving a will, but many people wish that their money could go to a good cause. At that difficult time, when you do have to write your will, please remember us... more information on how to do this [here](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Leaving-a-Gift-in-your-Will.pdf).
 
-- [Legacy form](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Legacy-information.pdf)
-
-- [Leaving a Gift in your Will](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Leaving-a-Gift-in-your-Will.pdf)
+* [Legacy form](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Legacy-information.pdf)
+* [Leaving a Gift in your Will](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Leaving-a-Gift-in-your-Will.pdf)
 
 Thank you!
-
-
 
 \* You can make every gift worth 25 per cent more, if you are a UK taxpayer. Please read the statement below and we'll do the rest. The tax reclaimed will be used to help fund our vital work in Malawi.
 
