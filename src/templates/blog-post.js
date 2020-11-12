@@ -49,7 +49,7 @@ export const BlogPostTemplate = ({
             <p>{description}</p>
             <PostContent content={content} />
             {pdf_upload && pdf_upload !== "" ? (
-              <div class={postStyles.fileDownload}>
+              <div className={postStyles.fileDownload}>
                 <a href={pdfUrl}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

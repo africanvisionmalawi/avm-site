@@ -44,8 +44,8 @@ const Navbar = () => {
           <Box width={["100%"]}>
             <Flex justify="space-between" align="middle">
               <Box width={'100%', '66.6666%'}>
-                <Flex align="middle">
-                  <div id="navMenu" className="navbar-menu">
+                <Flex align="middle" width="100%">
+                  <NavMenu id="navMenu" className="navbar-menu">
                     <Menu
                       onClick={handleClick}
                       selectedKeys={[current]}
@@ -205,7 +205,7 @@ const Navbar = () => {
                         </Link>
                       </Menu.Item>
                     </Menu>
-                  </div>
+                  </NavMenu>
                 </Flex>
               </Box>                          
             </Flex>
@@ -444,5 +444,9 @@ const MobileNavIcon = styled.svg`
   // margin-left: 8px;
   width: 28px;
 `;
+
+const NavMenu = styled.div`
+  min-width: 450px;
+`
 
 export default Navbar;
