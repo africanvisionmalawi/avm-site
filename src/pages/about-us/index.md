@@ -12,10 +12,9 @@ links:
   url: "./where-we-work/"
   linkTitle: Where we work
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
-- linkText: I lived in Malawi, as a child, for 10 years, and, for some time, had wanted
-    to go back. I didn’t, however, want to return to Malawi as a tourist. I had been
-    supporting a charity called “Child Survival in Malawi” for some years and contacted
-    them to see if anything could be done to help while I was there
+- linkText: 'Heather Palmer our founder lived in Malawi as a child, for her first
+    10 years. She talks about the inspiration behind the first trip and how it led
+    to the creation of the Landirani Trust.  '
   url: "./how-we-started/"
   linkTitle: How we started
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
