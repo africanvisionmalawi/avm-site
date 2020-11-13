@@ -13,15 +13,44 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/static/img`,
+        name: "img",
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages",
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/img`,
+        name: "images",
+      },
+    },
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          {
-            resolve: "gatsby-remark-relative-images",
-            options: {
-              name: "uploads",
-            },
-          },
+          // {
+          //   resolve: "gatsby-remark-normalize-paths",
+          //   options: {
+          //     pathFields: [
+          //       "photo",
+          //       "pdf_upload",
+          //       "featuredImage",
+          //       "heroImage",
+          //       "productImage",
+          //     ],
+          //   },
+          // },
+          "gatsby-remark-relative-images",
           {
             resolve: "gatsby-remark-images",
             options: {
@@ -67,10 +96,10 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {
-      resolve: "@bundle-analyzer/gatsby-plugin",
-      options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
-    },
+    // {
+    //   resolve: "@bundle-analyzer/gatsby-plugin",
+    //   options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
+    // },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -101,28 +130,6 @@ module.exports = {
         queries: require("./src/utils/algolia-queries"),
       },
     },
-    {
-      // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/static/img`,
-        name: "img",
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/src/pages`,
-        name: "pages",
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: `${__dirname}/src/img`,
-        name: "images",
-      },
-    },        
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
