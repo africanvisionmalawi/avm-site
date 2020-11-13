@@ -23,7 +23,7 @@ links:
     express our vision for the people of Malawi.
   url: "./african-vision-malawi-our-new-name/"
   linkTitle: African Vision Malawi - our change of name
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/building-programme/11-P1070979-Medium.jpg"
 - linkText: Most of our fundraising takes place in the UK and we recognize we need
     to have a more memorable name which people can identify with .. one which will
     express our vision for the people of Malawi.
