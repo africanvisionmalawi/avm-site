@@ -4,18 +4,6 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/hezekiah-kunje.jpg"
-  name: Hezekiah Kunje
-  role: Sam's Village Guard
-- order: 
-  photo: "/img/felix-kalikwala.jpg"
-  name: Felix Kalikwala
-  role: Permaculture instructor
-- order: 
-  photo: "/img/william-chapota.jpg"
-  name: William Chapota
-  role: Maintenance support
-- order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
   role: Acting Country Manager
@@ -39,6 +27,18 @@ malawiTeam:
   photo: "/img/team/Ruth-Katchere-150x150.jpg"
   name: Ruth Katchere
   role: Finance Officer
+- order: 
+  photo: "/img/felix-kalikwala.jpg"
+  name: Felix Kalikwala
+  role: Permaculture instructor
+- order: 
+  photo: "/img/hezekiah-kunje.jpg"
+  name: Hezekiah Kunje
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/william-chapota.jpg"
+  name: William Chapota
+  role: Maintenance support
 - order: 
   photo: "/img/Julie-for-website-150x150.jpg"
   name: Julie Ndalama
