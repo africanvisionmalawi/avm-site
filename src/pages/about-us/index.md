@@ -13,8 +13,8 @@ links:
   linkTitle: Where we work
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
 - linkText: 'Heather Palmer our founder lived in Malawi as a child, for her first
-    10 years. She talks about the inspiration behind the first trip and how it led
-    to the creation of the Landirani Trust.  '
+    10 years. She talks about the inspiration behind the first trip, the plight of
+    the orphan and vulnerable and how it led to the creation of the Landirani Trust.  '
   url: "./how-we-started/"
   linkTitle: How we started
   photo: "/img/mau-apasula-cerybral-palsy-2006-died-2007-061.jpg"
