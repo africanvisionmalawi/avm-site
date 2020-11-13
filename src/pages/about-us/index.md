@@ -6,7 +6,7 @@ links:
 - linkText: About our teams working in both the UK and Malawi.
   url: "./team/"
   linkTitle: Team
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/p1090502-medium.jpg"
 - linkText: We work in an area some 30km from the capital city, Lilongwe which is
     400km squared and with 45,000 population.
   url: "./where-we-work/"
