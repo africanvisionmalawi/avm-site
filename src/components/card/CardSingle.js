@@ -29,7 +29,7 @@ const EventDateCont = styled.div`
 const CardSingle = (props) => {
   let cardImage;
   if (props.smallImage) {
-    console.log("smallImage", props.smallImage);
+    // console.log("smallImage", props.smallImage);
     cardImage = <Img fixed={props.smallImage.childImageSharp.fixed} alt="" />;
   } else {
     cardImage = <img src="/img/default-image.jpg" alt="image" />;
@@ -38,20 +38,20 @@ const CardSingle = (props) => {
   return (
     <div>
       <Link to={props.url} className="card-image">
-      {!props.hideOtherPhotos &&
-        <ImageCont>
-          {props.displayDate && (
-            <EventDateCont>
-              <EventDate
-                date={props.date}
-                endDate={props.endDate}
-                layout="card"
-              />
-            </EventDateCont>
-          )}
-          {cardImage}          
-        </ImageCont>
-      }            
+        {!props.hideOtherPhotos && (
+          <ImageCont>
+            {props.displayDate && (
+              <EventDateCont>
+                <EventDate
+                  date={props.date}
+                  endDate={props.endDate}
+                  layout="card"
+                />
+              </EventDateCont>
+            )}
+            {cardImage}
+          </ImageCont>
+        )}
       </Link>
       <CardContent
         title={props.title}
