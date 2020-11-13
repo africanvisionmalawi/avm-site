@@ -53,12 +53,15 @@ const Navbar = () => {
           url: "/about-us/how-we-started",
         },
         {
-          name: 'African Vision Malawi - our new name',
-          
-        }
+          name: "African Vision Malawi - our new name",
+          url: "/about-us/african-vision-malawi-our-new-name",
+        },
+        {
+          name: "Than Yous",
+          url: "/get-involved/thank-yous",
+        },
       ],
     ],
-    
   ];
 
   return (
