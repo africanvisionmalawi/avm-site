@@ -17,7 +17,7 @@ links:
     to the creation of the Landirani Trust.  '
   url: "./how-we-started/"
   linkTitle: How we started
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/mau-apasula-cerybral-palsy-2006-died-2007-061.jpg"
 - linkText: Most of our fundraising takes place in the UK and we recognize we need
     to have a more memorable name which people can identify with .. one which will
     express our vision for the people of Malawi.
