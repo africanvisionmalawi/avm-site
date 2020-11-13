@@ -3,7 +3,9 @@ templateKey: page-photo-links
 title: About Us
 description: About African Vision Malawi
 links:
-- linkText: About our teams working in both the UK and Malawi.
+- linkText: Our Malawi staff number around 30, supported by 100 volunteers from the
+    community. We have no paid staff in the UK but a core team of volunteers, some
+    full-time, who support our operations.
   url: "./team/"
   linkTitle: Team
   photo: "/img/p1090502-medium.jpg"
