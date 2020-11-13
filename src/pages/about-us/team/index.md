@@ -195,7 +195,7 @@ Would you like to know more about our staff in Malawi? These are stories from ou
 
 The first story is from [Anold Mankhambira](/about-us/team/staff-stories/anold-mankambira/), Project Accountant. Anold sadly passed away at Chritmas 2017 aged only 37.
 
-[Jack Maduka](/about-us/team/staff-stories/jack-maduka/), Education Manager, had a tough time himself getting his education in his early years and is currently completing his Masters in the USA. He’s glad to be able to give something back now.
+[Jack Maduka](/about-us/team/staff-stories/jack-maduka/), Education Manager, had a tough time himself getting his education in his early years but has now completed his Masters in the USA. He’s glad to be able to give something back now.
 
 [Gift Banda](/about-us/team/staff-stories/gift-banda/) our Monitoring and Evaluation Officer and an orphan himself. He talks about the importance of Education and how it has ultimately got him to where he is today.
 
