@@ -4,18 +4,6 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/hezekiah-kunje.jpg"
-  name: Hezekiah Kunje
-  role: Sam's Village Guard
-- order: 
-  photo: "/img/felix-kalikwala.jpg"
-  name: Felix Kalikwala
-  role: Permaculture instructor
-- order: 
-  photo: "/img/william-chapota.jpg"
-  name: William Chapota
-  role: Maintenance support
-- order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
   role: Acting Country Manager
@@ -39,6 +27,18 @@ malawiTeam:
   photo: "/img/team/Ruth-Katchere-150x150.jpg"
   name: Ruth Katchere
   role: Finance Officer
+- order: 
+  photo: "/img/felix-kalikwala.jpg"
+  name: Felix Kalikwala
+  role: Permaculture instructor
+- order: 
+  photo: "/img/hezekiah-kunje.jpg"
+  name: Hezekiah Kunje
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/william-chapota.jpg"
+  name: William Chapota
+  role: Maintenance support
 - order: 
   photo: "/img/Julie-for-website-150x150.jpg"
   name: Julie Ndalama
@@ -195,7 +195,7 @@ Would you like to know more about our staff in Malawi? These are stories from ou
 
 The first story is from [Anold Mankhambira](/about-us/team/staff-stories/anold-mankambira/), Project Accountant. Anold sadly passed away at Chritmas 2017 aged only 37.
 
-[Jack Maduka](/about-us/team/staff-stories/jack-maduka/), Education Manager, had a tough time himself getting his education in his early years and is currently completing his Masters in the USA. He’s glad to be able to give something back now.
+[Jack Maduka](/about-us/team/staff-stories/jack-maduka/), Education Manager, had a tough time himself getting his education in his early years but has now completed his Masters in the USA. He’s glad to be able to give something back now.
 
 [Gift Banda](/about-us/team/staff-stories/gift-banda/) our Monitoring and Evaluation Officer and an orphan himself. He talks about the importance of Education and how it has ultimately got him to where he is today.
 
