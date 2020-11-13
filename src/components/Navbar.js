@@ -62,6 +62,32 @@ const Navbar = () => {
         },
       ],
     ],
+    [
+      {
+        name: "Our work",
+        url: "/projects/",
+      },
+      [
+        {
+          name: "Projects",
+          url: "/projects/",
+        },
+        {
+          name: "Events",
+          url: "/events/",
+        },
+        {
+          name: "Stories from the field",
+          url: "/projects/stories-from-the-field/",
+        },
+      ],
+    ],
+    [
+      {
+        name: "Shop",
+        url: "/shop/",
+      },
+    ],
   ];
 
   return (
