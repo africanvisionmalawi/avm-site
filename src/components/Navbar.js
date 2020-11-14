@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { Menu } from "antd";
 import {
   Box,
   Drawer,
@@ -20,7 +19,7 @@ import navbarStyles from "./navbar.module.css";
 import styled from "styled-components";
 import Search from "./search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
-const { SubMenu } = Menu;
+// const { SubMenu } = Menu;
 
 const Navbar = () => {
   const [current, setCurrent] = useState("mail");
@@ -84,6 +83,46 @@ const Navbar = () => {
     ],
     [
       {
+        name: "Get involved",
+        url: "/get-involved/",
+      },
+      [
+        {
+          name: "Donate",
+          url: "/get-involved/donate/",
+        },
+        {
+          name: "Fundraise for us",
+          url: "/get-involved/fundraise/",
+        },
+        {
+          name: "Holiday in France for us",
+          url: "/get-involved/holiday-in-france-for-us/",
+        },
+        {
+          name: "Shop online for us",
+          url: "/get-involved/fundraise-with-easy-fundraising/",
+        },
+        {
+          name: "Take a suitcase to Lilongwe for us!",
+          url: "/get-involved/use-your-baggage-allowance-to-lilongwe/",
+        },
+        {
+          name: "Work for us",
+          url: "/get-involved/vacancies/",
+        },
+        {
+          name: "Volunteer with us",
+          url: "/get-involved/volunteering/",
+        },
+        {
+          name: "Thank yous",
+          url: "/get-involved/thank-yous",
+        },
+      ],
+    ],
+    [
+      {
         name: "Shop",
         url: "/shop/",
       },
@@ -100,170 +139,31 @@ const Navbar = () => {
         <Flex align="center">
           <Box width={["100%"]}>
             <Flex justify="space-between" align="middle">
-              <Box width={("100%", "66.6666%")}>
-                <Flex align="middle">
-                  <div id="navMenu" className="navbar-menu">
-                    <Menu
-                      onClick={handleClick}
-                      selectedKeys={[current]}
-                      mode="horizontal"
-                    >
-                      <SubMenu
-                        key="aboutUs"
-                        title={
-                          <Link
-                            className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                            to="/about-us"
-                          >
-                            About us
-                          </Link>
-                        }
-                      >
-                        <Menu.Item>
-                          <Link className="navbar-item" to="/about-us/team">
-                            Team
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/about-us/where-we-work"
-                          >
-                            Where we work
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/about-us/how-we-started"
-                          >
-                            How we started
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/about-us/african-vision-malawi-our-new-name"
-                          >
-                            African Vision Malawi - our new name
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/thank-yous"
-                          >
-                            Thank yous
-                          </Link>
-                        </Menu.Item>
-                      </SubMenu>
-                      <SubMenu
-                        key="ourWork"
-                        title={
-                          <Link
-                            className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                            to="/projects"
-                          >
-                            Our work
-                          </Link>
-                        }
-                      >
-                        <Menu.Item>
-                          <Link to="/projects">Projects</Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link to="/events">Events</Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link to="/projects/stories-from-the-field/">
-                            Stories from the field
-                          </Link>
-                        </Menu.Item>
-                      </SubMenu>
-                      <SubMenu
-                        key="getInvolved"
-                        title={
-                          <Link
-                            className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                            to="/get-involved"
-                          >
-                            Get involved
-                          </Link>
-                        }
-                      >
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/donate/"
-                          >
-                            Donate
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/fundraise/"
-                          >
-                            Fundraise for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/holiday-in-france-for-us/"
-                          >
-                            Holiday in France for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/fundraise-with-easy-fundraising/"
-                          >
-                            Shop online for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/use-your-baggage-allowance-to-lilongwe/"
-                          >
-                            Take a suitcase to Lilongwe for us!
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/vacancies/"
-                          >
-                            Work for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/volunteering/"
-                          >
-                            Volunteer with us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/thank-yous"
-                          >
-                            Thank yous
-                          </Link>
-                        </Menu.Item>
-                      </SubMenu>
-                      <Menu.Item key="shop">
-                        <Link className="navbar-item navbar-parent" to="/shop">
-                          Shop
-                        </Link>
-                      </Menu.Item>
-                    </Menu>
-                  </div>
-                </Flex>
+              <Box width={"100%"}>
+                <div id="navMenu" className="navbar-menu">
+                  <Menu>
+                    {navLinks.map((link, index) => (
+                      <>
+                        {link.length > 1 ? (
+                          <li>
+                            <Link to={link[0].url}>{link[0].name}</Link>
+                            <ul>
+                              {link[1].map((subMenu) => (
+                                <li>
+                                  <Link to={subMenu.url}>{subMenu.name}</Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </li>
+                        ) : (
+                          <li>
+                            <Link to={link[0].url}>{link[0].name}</Link>
+                          </li>
+                        )}
+                      </>
+                    ))}
+                  </Menu>
+                </div>
               </Box>
             </Flex>
           </Box>
@@ -448,6 +348,49 @@ const Navbar = () => {
     </div>
   );
 };
+
+const Menu = styled.ul`
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  min-width: 640px;
+  padding: 0 8px;
+  width: 100%;
+  & a {
+    display: block;
+  }
+  &,
+  & li {
+    list-style-type: none;
+  }
+  & a:link,
+  & a:visited {
+    color: #fff;
+  }
+  & > li {
+    position: relative;
+  }
+
+  & ul {
+    display: none;
+    padding: 1rem;
+    position: absolute;
+    top: 6px;
+    z-index: 1000;
+  }
+  & ul li {
+    background: #c17d3d;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 8px;
+  }
+  & ul li a {
+    background: #c17d3d;
+  }
+  & li:hover ul {
+    display: block;
+  }
+`;
 
 const DesktopNav = styled.div`
   display: none;
