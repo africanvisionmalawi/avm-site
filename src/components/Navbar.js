@@ -472,4 +472,8 @@ const MobileNavIcon = styled.svg`
   width: 28px;
 `;
 
+const NavMenu = styled.div`
+  min-width: 450px;
+`;
+
 export default Navbar;

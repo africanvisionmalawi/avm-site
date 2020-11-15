@@ -1,8 +1,10 @@
 ---
 templateKey: page-basic
 title: Where we work
-description: We work in an area some 30km from the capital city, Lilongwe which is
-  400km squared and with 45,000 population.
+description: We work in an area some 30km from the capital city, Lilongwe. The area
+  we cover is 400km2 with a local population of 45,000. We have built an ecological
+  training and conference centre called Sam's Village in our core area and an office
+  near Lilongwe.
 
 ---
 ![Centres map](/img/centres.png "Centres Map")

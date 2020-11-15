@@ -29,7 +29,7 @@ const EventDateCont = styled.div`
 const CardDouble = (props) => {
   let cardImage;
   if (props.largeImage) {
-    console.log("largeimage", props.largeImage);
+    // console.log("largeimage", props.largeImage);
     cardImage = (
       <Img
         fluid={props.largeImage.childImageSharp.fluid}
