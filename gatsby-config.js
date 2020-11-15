@@ -87,7 +87,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-sass",
-    "gatsby-plugin-antd",
     "gatsby-plugin-linaria",
     "gatsby-plugin-chakra-ui",
     {
@@ -96,10 +95,10 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // {
-    //   resolve: "@bundle-analyzer/gatsby-plugin",
-    //   options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
-    // },
+    {
+      resolve: "@bundle-analyzer/gatsby-plugin",
+      options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
+    },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { Menu } from "antd";
 import {
-  Box,  
+  Box,
   Drawer,
   DrawerBody,
   DrawerFooter,
@@ -11,7 +10,7 @@ import {
   DrawerContent,
   DrawerCloseButton,
   Flex,
-  useDisclosure
+  useDisclosure,
 } from "@chakra-ui/core";
 
 import CtaButton from "../components/CtaButton";
@@ -20,7 +19,7 @@ import navbarStyles from "./navbar.module.css";
 import styled from "styled-components";
 import Search from "./search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
-const { SubMenu } = Menu;
+// const { SubMenu } = Menu;
 
 const Navbar = () => {
   const [current, setCurrent] = useState("mail");
@@ -33,6 +32,103 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
 
+  const navLinks = [
+    [
+      {
+        name: "About us",
+        url: "about-us",
+      },
+      [
+        {
+          name: "Team",
+          url: "/about-us/team",
+        },
+        {
+          name: "Where we work",
+          url: "/about-us/where-we-work",
+        },
+        {
+          name: "How we started",
+          url: "/about-us/how-we-started",
+        },
+        {
+          name: "African Vision Malawi - our new name",
+          url: "/about-us/african-vision-malawi-our-new-name",
+        },
+        {
+          name: "Than Yous",
+          url: "/get-involved/thank-yous",
+        },
+      ],
+    ],
+    [
+      {
+        name: "Our work",
+        url: "/projects/",
+      },
+      [
+        {
+          name: "Projects",
+          url: "/projects/",
+        },
+        {
+          name: "Events",
+          url: "/events/",
+        },
+        {
+          name: "Stories from the field",
+          url: "/projects/stories-from-the-field/",
+        },
+      ],
+    ],
+    [
+      {
+        name: "Get involved",
+        url: "/get-involved/",
+      },
+      [
+        {
+          name: "Donate",
+          url: "/get-involved/donate/",
+        },
+        {
+          name: "Fundraise for us",
+          url: "/get-involved/fundraise/",
+        },
+        {
+          name: "Holiday in France for us",
+          url: "/get-involved/holiday-in-france-for-us/",
+        },
+        {
+          name: "Shop online for us",
+          url: "/get-involved/fundraise-with-easy-fundraising/",
+        },
+        {
+          name: "Take a suitcase to Lilongwe for us!",
+          url: "/get-involved/use-your-baggage-allowance-to-lilongwe/",
+        },
+        {
+          name: "Work for us",
+          url: "/get-involved/vacancies/",
+        },
+        {
+          name: "Volunteer with us",
+          url: "/get-involved/volunteering/",
+        },
+        {
+          name: "Thank yous",
+          url: "/get-involved/thank-yous",
+        },
+      ],
+    ],
+    [
+      {
+        name: "Shop",
+        url: "/shop/",
+      },
+    ],
+  ];
+
   return (
     <div
       className={`navbar is-transparent ${navbarStyles.navbarTop}`}
@@ -43,175 +139,36 @@ const Navbar = () => {
         <Flex align="center">
           <Box width={["100%"]}>
             <Flex justify="space-between" align="middle">
-              <Box width={'100%', '66.6666%'}>
-                <Flex align="middle" width="100%">
-                  <NavMenu id="navMenu" className="navbar-menu">
-                    <Menu
-                      onClick={handleClick}
-                      selectedKeys={[current]}
-                      mode="horizontal"
-                    >
-                      <SubMenu
-                        key="aboutUs"
-                        title={
-                          <Link
-                            className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                            to="/about-us"
-                          >
-                            About us
-                          </Link>
-                        }
-                      >
-                        <Menu.Item>
-                          <Link className="navbar-item" to="/about-us/team">
-                            Team
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/about-us/where-we-work"
-                          >
-                            Where we work
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/about-us/how-we-started"
-                          >
-                            How we started
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/about-us/african-vision-malawi-our-new-name"
-                          >
-                            African Vision Malawi - our new name
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/thank-yous"
-                          >
-                            Thank yous
-                          </Link>
-                        </Menu.Item>
-                      </SubMenu>
-                      <SubMenu
-                        key="ourWork"
-                        title={
-                          <Link
-                            className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                            to="/projects"
-                          >
-                            Our work
-                          </Link>
-                        }
-                      >
-                        <Menu.Item>
-                          <Link to="/projects">Projects</Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link to="/events">Events</Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link to="/projects/stories-from-the-field/">
-                            Stories from the field
-                          </Link>
-                        </Menu.Item>
-                      </SubMenu>
-                      <SubMenu
-                        key="getInvolved"
-                        title={
-                          <Link
-                            className={`navbar-link navbar-parent ${navbarStyles.navbarArrow}`}
-                            to="/get-involved"
-                          >
-                            Get involved
-                          </Link>
-                        }
-                      >
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/donate/"
-                          >
-                            Donate
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/fundraise/"
-                          >
-                            Fundraise for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/holiday-in-france-for-us/"
-                          >
-                            Holiday in France for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/fundraise-with-easy-fundraising/"
-                          >
-                            Shop online for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/use-your-baggage-allowance-to-lilongwe/"
-                          >
-                            Take a suitcase to Lilongwe for us!
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/vacancies/"
-                          >
-                            Work for us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/volunteering/"
-                          >
-                            Volunteer with us
-                          </Link>
-                        </Menu.Item>
-                        <Menu.Item>
-                          <Link
-                            className="navbar-item"
-                            to="/get-involved/thank-yous"
-                          >
-                            Thank yous
-                          </Link>
-                        </Menu.Item>
-                      </SubMenu>
-                      <Menu.Item key="shop">
-                        <Link className="navbar-item navbar-parent" to="/shop">
-                          Shop
-                        </Link>
-                      </Menu.Item>
-                    </Menu>
-                  </NavMenu>
-                </Flex>
-              </Box>                          
+              <Box width={"100%"}>
+                <div id="navMenu" className="navbar-menu">
+                  <Menu>
+                    {navLinks.map((link, index) => (
+                      <>
+                        {link.length > 1 ? (
+                          <li>
+                            <Link to={link[0].url}>{link[0].name}</Link>
+                            <ul>
+                              {link[1].map((subMenu) => (
+                                <li>
+                                  <Link to={subMenu.url}>{subMenu.name}</Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </li>
+                        ) : (
+                          <li>
+                            <Link to={link[0].url}>{link[0].name}</Link>
+                          </li>
+                        )}
+                      </>
+                    ))}
+                  </Menu>
+                </div>
+              </Box>
             </Flex>
           </Box>
         </Flex>
-      </DesktopNav>      
+      </DesktopNav>
       <DesktopNav>
         <div className={navbarStyles.navbarBtns}>
           <CtaButton
@@ -227,21 +184,21 @@ const Navbar = () => {
         </div>
         <NavIcons>
           <div className={navbarStyles.iconCont}>
-            <Search indices={searchIndices} />                
+            <Search indices={searchIndices} />
           </div>
           <div className={navbarStyles.iconCont}>
             <CartLink />
-          </div>            
-        </NavIcons> 
-      </DesktopNav>  
+          </div>
+        </NavIcons>
+      </DesktopNav>
       <MobileNav>
         <NavIcons>
           <div className={navbarStyles.iconCont}>
-            <Search indices={searchIndices} />                
-          </div> 
+            <Search indices={searchIndices} />
+          </div>
           <div className={navbarStyles.iconCont}>
             <CartLink />
-          </div>          
+          </div>
           <div className={navbarStyles.iconCont}>
             <MobileNavIcon
               type="primary"
@@ -257,144 +214,216 @@ const Navbar = () => {
               />
             </MobileNavIcon>
           </div>
-        </NavIcons>         
+        </NavIcons>
       </MobileNav>
 
-      <Drawer
-        placement="right"        
-        onClose={onClose}
-        isOpen={isOpen}        
-      >
-      <DrawerOverlay />
-      <DrawerContent backgroundColor="#fff">
-        <DrawerCloseButton />
-        <ul className={navbarStyles.mobileMenu}>
-          <li>
-            <label for="m1">About Us</label>
-            <input type="checkbox" id="m1" />
-            <ul>
-              <li>
-                <Link
-                  className="navbar-item navbar-single"
-                  to="/about-us/"
-                >
-                  About Us Index
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="navbar-item navbar-single"
-                  to="/about-us/malawi"
-                >
-                  Malawi
-                </Link>
-              </li>
-              <li>
-                <Link className="navbar-item" to="/about-us/team">
-                  Team
-                </Link>
-              </li>
-              <li>
-                <Link className="navbar-item" to="/about-us/where-we-work">
-                  Where we work
-                </Link>
-              </li>
-              <li>
-                <Link className="navbar-item" to="/about-us/how-we-started">
-                  How we started
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="navbar-item"
-                  to="/about-us/african-vision-malawi-our-new-name"
-                >
-                  African Vision Malawi - our new name
-                </Link>
-              </li>
-              <li>
-                <Link className="navbar-item" to="/about-us/thank-yous">
-                  Thank yous
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <label for="m2">Our work</label>
-            <input type="checkbox" id="m2" />
-            <ul>              
-              <li>
-                <Link to="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link to="/events">Events</Link>
-              </li>
-              <li>
-                <Link to="/projects/stories-from-the-field/">
-                  Stories from the field
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <label for="m3">Get involved</label>
-            <input type="checkbox" id="m3" />
-            <ul>
-              <li>
-                <Link to="/get-involved/">Get Involved Index</Link>
-              </li>
-              <li>
-                <Link className="navbar-item" to="/get-involved/donate/">
-                  Donate
-                </Link>
-              </li>
-              <li>
-                <Link className="navbar-item" to="/get-involved/fundraise/">
-                  Fundraise for us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="navbar-item"
-                  to="/get-involved/holiday-in-france-for-us/"
-                >
-                  Holiday in France for us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="navbar-item"
-                  to="/get-involved/fundraise-with-easy-fundraising/"
-                >
-                  Shop online for us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="navbar-item"
-                  to="/get-involved/use-your-baggage-allowance-to-lilongwe/"
-                >
-                  Take a suitcase to Lilongwe for us!
-                </Link>
-              </li>
-              <li>
-                <Link className="navbar-item" to="/get-involved/volunteering/">
-                  Volunteer with us
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link className="navbar-item navbar-parent" to="/shop">
-              Shop
-            </Link>
-          </li>
-        </ul>
-      </DrawerContent>
+      <Drawer placement="right" onClose={onClose} isOpen={isOpen}>
+        <DrawerOverlay />
+        <DrawerContent backgroundColor="#fff">
+          <DrawerCloseButton />
+          <ul className={navbarStyles.mobileMenu}>
+            <li>
+              <label for="m1">About Us</label>
+              <input type="checkbox" id="m1" />
+              <ul>
+                <li>
+                  <Link className="navbar-item navbar-single" to="/about-us/">
+                    About Us Index
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbar-item navbar-single"
+                    to="/about-us/malawi"
+                  >
+                    Malawi
+                  </Link>
+                </li>
+                <li>
+                  <Link className="navbar-item" to="/about-us/team">
+                    Team
+                  </Link>
+                </li>
+                <li>
+                  <Link className="navbar-item" to="/about-us/where-we-work">
+                    Where we work
+                  </Link>
+                </li>
+                <li>
+                  <Link className="navbar-item" to="/about-us/how-we-started">
+                    How we started
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbar-item"
+                    to="/about-us/african-vision-malawi-our-new-name"
+                  >
+                    African Vision Malawi - our new name
+                  </Link>
+                </li>
+                <li>
+                  <Link className="navbar-item" to="/about-us/thank-yous">
+                    Thank yous
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="m2">Our work</label>
+              <input type="checkbox" id="m2" />
+              <ul>
+                <li>
+                  <Link to="/projects">Projects</Link>
+                </li>
+                <li>
+                  <Link to="/events">Events</Link>
+                </li>
+                <li>
+                  <Link to="/projects/stories-from-the-field/">
+                    Stories from the field
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="m3">Get involved</label>
+              <input type="checkbox" id="m3" />
+              <ul>
+                <li>
+                  <Link to="/get-involved/">Get Involved Index</Link>
+                </li>
+                <li>
+                  <Link className="navbar-item" to="/get-involved/donate/">
+                    Donate
+                  </Link>
+                </li>
+                <li>
+                  <Link className="navbar-item" to="/get-involved/fundraise/">
+                    Fundraise for us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbar-item"
+                    to="/get-involved/holiday-in-france-for-us/"
+                  >
+                    Holiday in France for us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbar-item"
+                    to="/get-involved/fundraise-with-easy-fundraising/"
+                  >
+                    Shop online for us
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbar-item"
+                    to="/get-involved/use-your-baggage-allowance-to-lilongwe/"
+                  >
+                    Take a suitcase to Lilongwe for us!
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="navbar-item"
+                    to="/get-involved/volunteering/"
+                  >
+                    Volunteer with us
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link className="navbar-item navbar-parent" to="/shop">
+                Shop
+              </Link>
+            </li>
+          </ul>
+        </DrawerContent>
       </Drawer>
     </div>
   );
 };
+
+const Menu = styled.ul`
+  align-items: center;
+  color: #fff;
+  display: flex;
+  height: 40px;
+  justify-content: flex-start;
+  min-width: 640px;
+  padding: 0 8px;
+  width: 100%;
+  & a {
+    display: block;
+  }
+  &,
+  & li {
+    list-style-type: none;
+  }
+  & a {
+    padding: 0 8px;
+  }
+  & a:link,
+  & a:visited {
+    color: #fff;
+  }
+  & > li {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    margin: 0 12px;
+    position: relative;
+  }
+
+  & ul {
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+      0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    display: block;
+    margin: 0;
+    min-width: 160px;
+    padding: 1rem 0.5rem;
+    position: absolute;
+    transform: translateY(-50%);
+    transition: transform 0.4s ease-in, visiblity 0.4s ease-in-out;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  & ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 8px;
+  }
+  & ul li a {
+    background: #fff;
+    font-size: 0.9em;
+    text-transform: capitalize;
+  }
+  & ul li a:hover {
+  }
+  & li:hover,
+  & li:hover ul {
+    background: #fff;
+    a:link,
+    a:visited {
+      color: #b75906;
+    }
+    a:hover {
+      color: #262626;
+    }
+  }
+  & li:hover ul {
+    display: block;
+    top: 40px;
+    transform: translateY(0);
+    transition: visiblity 0.2s ease-in-out;
+    visibility: visible;
+  }
+`;
 
 const DesktopNav = styled.div`
   display: none;
@@ -409,8 +438,6 @@ const DesktopNav = styled.div`
     }
   }
 `;
-
-
 
 const MobileNav = styled.div`
   align-items: flex-end;
@@ -433,7 +460,7 @@ const MobileNav = styled.div`
 
 const NavIcons = styled.div`
   display: flex;
-`
+`;
 
 const MobileNavIcon = styled.svg`
   cursor: pointer;
@@ -447,6 +474,6 @@ const MobileNavIcon = styled.svg`
 
 const NavMenu = styled.div`
   min-width: 450px;
-`
+`;
 
 export default Navbar;

@@ -10,7 +10,6 @@
     "@reach/dialog": "^0.1.2",
     "@styled-icons/fa-solid": "^10.15.1",
     "algoliasearch": "^4.4.0",
-    "antd": "^4.0.4",
     "babel-plugin-styled-components": "^1.10.0",
     "babel-preset-gatsby": "^0.4.6",
     "core-js": "^3.6.5",

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { Col } from "antd";
+import { Flex, Box } from "@chakra-ui/core";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import NavbarLower from "../components/NavbarLower";
@@ -49,44 +49,53 @@ const IndexPage = (props) => {
 
           <TopSection>
             <TopVideoSection>
-              <Col xs={24} md={12}>
-                <SectionHeading>Our vision...</SectionHeading>
-                <p>
-                  to see a "healthy, educated and self-sufficient community in
-                  Malawi".
-                </p>
-                <SectionHeading>
-                  The people of Malawi want to help themselves.
-                </SectionHeading>
-                <p>
-                  Since 2005 African Vision Malawi has been helping children
-                  &amp; vulnerable people in Malawi, one of the poorest
-                  countries in the world.
-                </p>
-                <p>
-                  We can empower them to become self-sufficient and independent.
-                </p>
-              </Col>
-              <Col xs={24} md={12}>
-                <div className={videoStyles.playerWrapper}>
-                  <ReactPlayer
-                    url={promoVideo}
-                    width="100%"
-                    height="100%"
-                    className={videoStyles.reactPlayer}
-                    controls={true}
-                  />
-                </div>
-              </Col>
+              <Flex>
+                <Box width={["100%", "50%"]}>
+                  <SectionHeading>Our vision...</SectionHeading>
+                  <p>
+                    to see a "healthy, educated and self-sufficient community in
+                    Malawi".
+                  </p>
+                  <SectionHeading>
+                    The people of Malawi want to help themselves.
+                  </SectionHeading>
+                  <p>
+                    Since 2005 African Vision Malawi has been helping children
+                    &amp; vulnerable people in Malawi, one of the poorest
+                    countries in the world.
+                  </p>
+                  <p>
+                    We can empower them to become self-sufficient and
+                    independent.
+                  </p>
+                </Box>
+                <Box width={["100%", "50%"]}>
+                  <div className={videoStyles.playerWrapper}>
+                    <ReactPlayer
+                      url={promoVideo}
+                      width="100%"
+                      height="100%"
+                      className={videoStyles.reactPlayer}
+                      controls={true}
+                    />
+                  </div>
+                </Box>
+              </Flex>
             </TopVideoSection>
           </TopSection>
           <Donate
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"
           />
-          <LowerSection>
-            <HomepageProjectsCols currentProject="home" displayHeading={true} ourWork={ourWork} />
-          </LowerSection>
+          <LowerSectionBB>
+            <LowerSectionInner>
+              <HomepageProjectsCols
+                currentProject="home"
+                displayHeading={true}
+                ourWork={ourWork}
+              />
+            </LowerSectionInner>
+          </LowerSectionBB>
 
           <AltTopSection>
             <div className={`${homepageStyles.latestNewsBox}`}>
@@ -172,10 +181,25 @@ const AltTopSection = styled.section`
   width: 100%;
 `;
 
-const LowerSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+// const LowerSection = styled.section`
+//   background: #fff;
+//   border-top-left-radius: 6px;
+//   border-top-right-radius: 6px;
+//   margin: 0 auto;
+//   max-width: 1180px;
+//   padding: 3em 0;
+//   position: relative;
+//   width: 100%;
+// `;
+
+const LowerSectionBB = styled.section`
+  background: #f7f7f7;
+  border-bottom: 8px solid #fff;
+  width: 100%;
+`;
+
+const LowerSectionInner = styled.div`
+  background: #f7f7f7;
   margin: 0 auto;
   max-width: 1180px;
   padding: 3em 0;
@@ -261,7 +285,6 @@ export const mdRectImage = graphql`
     }
   }
 `;
-
 
 export const pageQuery = graphql`
   query IndexQuery {
