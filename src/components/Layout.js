@@ -34,7 +34,6 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix("/")}img/favicon-16x16.png`}
           sizes="16x16"
         />
-        <div className="main-body">{children}</div>
 
         <link
           rel="mask-icon"
