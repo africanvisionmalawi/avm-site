@@ -400,10 +400,10 @@ const Menu = styled.ul`
   }
   & ul li a {
     background: #fff;
+    font-size: 0.9em;
     text-transform: capitalize;
   }
   & ul li a:hover {
-    color: #262626;
   }
   & li:hover,
   & li:hover ul {
@@ -411,6 +411,9 @@ const Menu = styled.ul`
     a:link,
     a:visited {
       color: #b75906;
+    }
+    a:hover {
+      color: #262626;
     }
   }
   & li:hover ul {

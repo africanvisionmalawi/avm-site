@@ -23,14 +23,14 @@ const HomepageProjectsCols = (props) => {
     `
   );
 
-  return (    
-      <Box>
-        {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
-        <SimpleGrid columns={[1, 1, 3]} spacing="1em">
+  return (
+    <Box>
+      {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
+      <SimpleGrid columns={[1, 1, 3]} spacing="1em">
         {props.ourWork.map((project) => (
-          <Box p={2} key={project.id}>
-            <Box>  
-              {project.imageId  &&          
+          <Box p={2} key={project.id} bg="#fff" borderRadius="8px">
+            <Box>
+              {project.imageId && (
                 <Img
                   fluid={
                     project.hasMobileImage === true
@@ -47,9 +47,10 @@ const HomepageProjectsCols = (props) => {
                   }
                   alt=""
                   imgStyle={{ objectFit: "contain" }}
-                /> }            
+                />
+              )}
             </Box>
-            <Box mt={{ base: 4}} width="100%">
+            <Box mt={{ base: 4 }} width="100%">
               <Excerpt>
                 <h3>{project.name}</h3>
                 <p>{project.excerpt}</p>
@@ -58,8 +59,8 @@ const HomepageProjectsCols = (props) => {
             </Box>
           </Box>
         ))}
-     </SimpleGrid>
-    </Box>    
+      </SimpleGrid>
+    </Box>
   );
 };
 

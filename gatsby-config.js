@@ -18,7 +18,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-sass",
-    "gatsby-plugin-antd",
     "gatsby-plugin-linaria",
     "gatsby-plugin-chakra-ui",
     {

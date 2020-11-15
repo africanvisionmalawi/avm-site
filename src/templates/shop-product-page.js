@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { Row, Col } from "antd";
 import useSiteMetadata from "../hooks/use-site-metadata";
 // import { Location } from "@reach/router";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
+import { Flex, Box } from "@chakra-ui/core";
 import Content, { HTMLContent } from "../components/Content";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
@@ -66,13 +66,13 @@ export const ShopProductTemplate = ({
       <ShopSection>
         <article className={shopStyles.product}>
           <h1>{title}</h1>
-          <Row>
-            <Col xs={24} sm={16}>
+          <Flex>
+            <Box width={["100%", "66.66666%"]}>
               <div className={shopStyles.productMain}>
                 <PreviewCompatibleImage imageInfo={productImage} />
               </div>
-            </Col>
-            <Col xs={24} sm={8}>
+            </Box>
+            <Box width={["100%", "33.333333%"]}>
               <div className={shopStyles.productAside}>
                 <span className={shopStyles.price}>&pound;{price}</span>
                 <BuyButton
@@ -84,7 +84,7 @@ export const ShopProductTemplate = ({
                   url={`${siteUrl}${slug}`}
                 />
 
-                <p>Size: {size}</p>  
+                <p>Size: {size}</p>
                 {tags && tags.length ? (
                   <>
                     <TagHeading>Tags:</TagHeading>
@@ -95,8 +95,8 @@ export const ShopProductTemplate = ({
                   </>
                 ) : null}
               </div>
-            </Col>
-          </Row>
+            </Box>
+          </Flex>
           <div className={shopStyles.productDetails}>
             <PageContent className="content" content={content} />
           </div>
@@ -131,7 +131,7 @@ const ShopProductPage = ({ data }) => {
         price={post.frontmatter.price}
         salePrice={post.frontmatter.salePrice}
         inStock={post.frontmatter.inStock}
-        size={post.frontmatter.size}        
+        size={post.frontmatter.size}
         shippingClass={post.frontmatter.shippingClass}
         tags={post.frontmatter.tags}
         productImage={post.frontmatter.productImage}
@@ -164,8 +164,8 @@ export const pageBasicQuery = graphql`
         title
         price
         salePrice
-        inStock   
-        size      
+        inStock
+        size
         shippingClass
         tags
         productImage {

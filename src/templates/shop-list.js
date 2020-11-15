@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-// import { Row, Col } from "antd";
 import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import useSiteMetadata from "../hooks/use-site-metadata";
@@ -56,10 +55,11 @@ const ShopIndex = ({ data }) => {
 
                   <h2 className={shopStyles.itemTitle}>
                     {document.node.frontmatter.title}
-                  </h2>                  
-                  {document.node.frontmatter.tags && document.node.frontmatter.tags.length ? (
-                  <TagsList tags={document.node.frontmatter.tags} />
-                ) : null}
+                  </h2>
+                  {document.node.frontmatter.tags &&
+                  document.node.frontmatter.tags.length ? (
+                    <TagsList tags={document.node.frontmatter.tags} />
+                  ) : null}
                   <span className={shopStyles.listItemPrice}>
                     &pound;{document.node.frontmatter.price}
                   </span>
@@ -83,7 +83,12 @@ export const pageQuery = graphql`
   query ShopIndex {
     allMarkdownRemark(
       sort: { order: DESC, fields: [id] }
-      filter: { frontmatter: { templateKey: { eq: "shop-product-page" }, publish: { eq: true } } }
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "shop-product-page" }
+          publish: { eq: true }
+        }
+      }
     ) {
       edges {
         node {
@@ -96,7 +101,7 @@ export const pageQuery = graphql`
             price
             salePrice
             inStock
-            size            
+            size
             shippingClass
             tags
             productImage {

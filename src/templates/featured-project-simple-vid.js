@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-// import { Row, Col } from "antd";
 import Layout from "../components/Layout";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Seo from "../components/seo";

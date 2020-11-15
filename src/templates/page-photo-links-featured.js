@@ -1,7 +1,6 @@
 import React from "react";
 // import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-// import { Row, Col } from "antd";
 import Layout from "../components/Layout";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import Seo from "../components/seo";
@@ -93,7 +92,7 @@ export const PagePhotoLinksFeaturedTemplate = (props) => {
                 heading={displayOptions.heading2}
                 featured={false}
                 boxBackground={displayOptions.boxBackground}
-                hideOtherPhotos={displayOptions.hideOtherPhotos}                
+                hideOtherPhotos={displayOptions.hideOtherPhotos}
               />
             </Section>
           )}
