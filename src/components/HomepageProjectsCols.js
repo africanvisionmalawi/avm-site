@@ -52,7 +52,7 @@ const HomepageProjectsCols = (props) => {
             </Box>
             <Box mt={{ base: 4 }} width="100%">
               <Excerpt>
-                <h3>{project.name}</h3>
+                <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>
                 <Link to={project.url}>Find out more</Link>
               </Excerpt>
@@ -125,6 +125,10 @@ const ProjectRow = styled.div`
       flex-direction: row-reverse;
     }
   }
+`;
+
+const Title = styled.h3`
+  font-size: 1.2em;
 `;
 
 const TileCont = styled.div``;

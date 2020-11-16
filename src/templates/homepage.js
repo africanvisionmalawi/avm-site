@@ -14,6 +14,7 @@ import BlogRollCard from "../components/BlogRollCard";
 import EventsRollCard from "../components/EventsRollCard";
 import homepageStyles from "../components/homepage.module.css";
 import Donate from "../components/Donate";
+import Divider from "../components/Divider";
 import { Link } from "gatsby";
 import styled from "styled-components";
 
@@ -95,8 +96,8 @@ const IndexPage = (props) => {
                 ourWork={ourWork}
               />
             </LowerSectionInner>
+            <Divider />
           </LowerSectionBB>
-
           <AltTopSection>
             <div className={`${homepageStyles.latestNewsBox}`}>
               <H2Heading>Latest news</H2Heading>
@@ -195,6 +196,7 @@ const AltTopSection = styled.section`
 const LowerSectionBB = styled.section`
   background: #f7f7f7;
   border-bottom: 8px solid #fff;
+  position: relative;
   width: 100%;
 `;
 
