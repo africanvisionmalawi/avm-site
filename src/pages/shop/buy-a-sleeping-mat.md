@@ -1,6 +1,6 @@
 ---
 templateKey: shop-product-page
-salePrice: 0
+salePrice: 
 inStock: 10
 weight: 0
 length: 0
@@ -8,13 +8,20 @@ width: 0
 height: 0
 tags:
 - christmas
-title: Donate any amount to Sam's Village and our Matched Fund will double it!
-productId: 'donateSamsVillage'
+title: Donate an amount to Sam's Village as a Christmas present this year
+productId: donateSamsVillage
 productImage: "/img/gift-card-image.jpg"
-description: ''
-price: 1000
-size: "card"
+description: 'Sam''s Village supports marginalised students through a 4-month vocational
+  training programme. At the end they come out as accredited carpenters, tailors,
+  mechanics etc. We also give them around £100 of tools to get them started and orders
+  to get them off the ground. £100 goes towards the cost of this, but any amount can
+  be donated by just clicking the Donate button. If you mention "Sam''s Village Christmas
+  Present" and leave your address we will post you gift card too! '
+price: 100
+size: card
 shippingClass: ''
+publish: false
+
 ---
 **A Christmas Present to make a difference**
 
