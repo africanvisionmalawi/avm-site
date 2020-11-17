@@ -95,29 +95,29 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {
-      resolve: "@bundle-analyzer/gatsby-plugin",
-      options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            variants: [`300`, `400`, `700`],
-          },
-          // {
-          //   family: `Raleway`,
-          //   variants: [`300`],
-          // },
-          // {
-          //   family: `Dosis`,
-          //   variants: [`400`, `700`],
-          // },
-        ],
-      },
-    },
+    // {
+    //   resolve: "@bundle-analyzer/gatsby-plugin",
+    //   options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
+    // },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Roboto`,
+    //         variants: [`300`, `400`, `700`],
+    //       },
+    //       // {
+    //       //   family: `Raleway`,
+    //       //   variants: [`300`],
+    //       // },
+    //       // {
+    //       //   family: `Dosis`,
+    //       //   variants: [`400`, `700`],
+    //       // },
+    //     ],
+    //   },
+    // },
     "gatsby-remark-embed-video",
     "gatsby-remark-responsive-iframe",
     "gatsby-plugin-styled-components",
