@@ -1,6 +1,6 @@
 ---
 templateKey: shop-product-page
-salePrice: 0
+salePrice: 
 inStock: 10
 weight: 0
 length: 0
@@ -15,7 +15,7 @@ description: Donate an amount to Sam's Village as a Christmas present this year
 price: 100
 size: card
 shippingClass: ''
-publish: false
+publish: true
 
 ---
 **A Christmas Present to make a difference**
