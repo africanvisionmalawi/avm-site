@@ -170,8 +170,12 @@ const TileLink = styled(Link)`
 `;
 
 const Heading = styled.h2`
+  background: #58b5d7;
+  color: #fff;
+  display: inline-block;
   font-size: 1.8em;
-  margin: 0 0 0.5em;
+  margin: 0px 0px 0.5em;
+  padding: 8px;
   text-align: center;
 `;
 // margin: 2rem 0 1rem;
