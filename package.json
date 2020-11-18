@@ -74,7 +74,7 @@
     "start": "run-p start:**",
     "build:app": "npm run clean && gatsby build",
     "build:lambda": "netlify-lambda build src/lambda",
-    "build": "gatsby build --log-pages",
+    "build": "npm run clean && gatsby build --log-pages",
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
