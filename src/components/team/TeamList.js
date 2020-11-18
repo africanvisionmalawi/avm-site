@@ -44,10 +44,12 @@ const SubHeading = styled.h4`
 
 const TeamPhoto = styled.div`
   border-radius: 50%;
+  max-height: 150px;
   max-width: 150px;
+  overflow: hidden;
   & img {
     border: 1px solid #e5e5e5;
-    border-radius: 50%;
+    // border-radius: 50%;
   }
 `;
 
