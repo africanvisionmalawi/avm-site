@@ -36,7 +36,7 @@ malawiTeam:
   name: Hezekiah Kunje
   role: Sam's Village Guard
 - order: 
-  photo: "/img/william-chapota.jpg"
+  photo: "/img/william-chapota-2.jpg"
   name: William Chapota
   role: Maintenance support
 - order: 
