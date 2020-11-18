@@ -11,29 +11,8 @@ import Donate from "../components/Donate";
 import NavbarLower from "../components/NavbarLower";
 import teamStyles from "../components/team.module.css";
 import TeamList from "../components/team/TeamList";
+import HeadingH1 from "../components/HeadingH1";
 import styled from "styled-components";
-
-// const Section = styled.section`
-//   margin: 0 auto;
-//   max-width: 1050px;
-//   width: 100%;
-// `;
-
-const PictureSection = styled.div`
-  margin: 0 auto;
-  max-width: 1080px;
-  padding: 3em 2em 2em;
-  position: relative;
-  width: 100%;
-`;
-
-const TextSection = styled.div`
-  margin: 0 auto;
-  max-width: 885px;
-  padding: 3em 2em 2em;
-  position: relative;
-  width: 100%;
-`;
 
 export const TeamTemplate = ({
   content,
@@ -52,13 +31,9 @@ export const TeamTemplate = ({
     <>
       <NavbarLower path={path} />
       <article>
-        <main className="column is-8">
-          <TextSection>
-            <h1 className="has-text-weight-semibold is-size-2">
-              Meet the team
-            </h1>
-          </TextSection>
+        <main>
           <PictureSection>
+            <HeadingH1 text="Meet the team" />
             <TeamList heading="Team in Malawi" teamData={malawiTeam} />
             <TextSection>
               <div className={teamStyles.contentBox}>
@@ -131,6 +106,22 @@ TeamPage.propTypes = {
     }),
   }),
 };
+
+const PictureSection = styled.div`
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
+
+const TextSection = styled.div`
+  margin: 0 auto;
+  max-width: 885px;
+  padding: 3em 2em 2em;
+  position: relative;
+  width: 100%;
+`;
 
 export default TeamPage;
 

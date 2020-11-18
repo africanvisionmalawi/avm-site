@@ -14,6 +14,7 @@ import BuyButton from "../components/BuyButton";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import shopStyles from "../components/shop.module.css";
 import NavbarLower from "../components/NavbarLower";
+import HeadingH1 from "../components/HeadingH1";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -65,7 +66,7 @@ export const ShopProductTemplate = ({
       <NavbarLower path={path} />
       <ShopSection>
         <article className={shopStyles.product}>
-          <h1>{title}</h1>
+          <HeadingH1 text={title} />
           <Flex>
             <Box width={["100%", "66.66666%"]}>
               <div className={shopStyles.productMain}>

@@ -12,6 +12,7 @@ import NavbarLower from "../components/NavbarLower";
 // import EventsCardLayout from "../components/EventsCardLayout";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
+import HeadingH1 from "../components/HeadingH1";
 import styled from "styled-components";
 import { getFeaturedLinks } from "../utils/helpers";
 
@@ -66,7 +67,7 @@ export const PagePhotoLinksFeaturedTemplate = (props) => {
           <div className="columns">
             <main className={`column is-9 ${pageBasicStyles.main}`}>
               <TextSection>
-                <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+                <HeadingH1 text={title} />
                 <PageContent className="content" content={content} />{" "}
               </TextSection>
             </main>

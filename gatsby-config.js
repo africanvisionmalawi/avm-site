@@ -88,17 +88,32 @@ module.exports = {
     },
     "gatsby-plugin-sass",
     "gatsby-plugin-linaria",
-    "gatsby-plugin-chakra-ui",
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // {
-    //   resolve: "@bundle-analyzer/gatsby-plugin",
-    //   options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
-    // },
+    // "gatsby-plugin-chakra-ui",
+    {
+      resolve: "gatsby-plugin-chakra-ui",
+      options: {
+        /**
+         * @property {boolean} [isResettingCSS=true]
+         * if false, this plugin will not use `<CSSReset />
+         */
+        isResettingCSS: false,
+        /**
+         * @property {boolean} [isUsingColorMode=true]
+         * if false, this plugin will not use <ColorModeProvider />
+         */
+        isUsingColorMode: false,
+      },
+    },
+    {
+      resolve: "@bundle-analyzer/gatsby-plugin",
+      options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
+    },
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {
@@ -164,6 +179,6 @@ module.exports = {
       },
     },
 
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
+    // "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };

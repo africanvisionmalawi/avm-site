@@ -26,6 +26,10 @@ const ImgCont = styled.div`
   margin-bottom: 0.8em;
 `;
 
+const Heading = styled.h3`
+  margin-bottom: 0;
+`;
+
 const EventsCol = ({ event }) => {
   const sources = [
     event.frontmatter.eventMobileImage.childImageSharp.fixed,
@@ -42,7 +46,7 @@ const EventsCol = ({ event }) => {
             <Img fixed={sources} />
           </ImgCont>
 
-          <h3>{event.frontmatter.title}</h3>
+          <Heading>{event.frontmatter.title}</Heading>
           <span className={postStyles.cardDate}>
             <EventDate
               date={event.frontmatter.date}

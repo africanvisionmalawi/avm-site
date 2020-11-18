@@ -56,7 +56,7 @@ const Navbar = () => {
           url: "/about-us/african-vision-malawi-our-new-name",
         },
         {
-          name: "Than Yous",
+          name: "Thank You's",
           url: "/get-involved/thank-yous",
         },
       ],
@@ -355,6 +355,7 @@ const Menu = styled.ul`
   display: flex;
   height: 40px;
   justify-content: flex-start;
+  margin: 0;
   min-width: 640px;
   padding: 0 8px;
   width: 100%;

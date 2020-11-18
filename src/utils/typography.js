@@ -35,17 +35,13 @@ const typography = new Typography({
   ],
   googleFonts: [
     {
-      name: "Quicksand",
-      styles: ["700", "400"],
-    },
-    {
       name: "Roboto",
       styles: ["300", "300i", "400", "400i", "700", "700i"],
     },
-    {
-      name: "Raleway",
-      styles: ["300", "300", "400", "400i", "700", "700i"],
-    },
+    // {
+    //   name: "Raleway",
+    //   styles: ["300", "300", "400", "400i", "700", "700i"],
+    // },
   ],
 });
 
