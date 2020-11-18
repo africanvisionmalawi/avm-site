@@ -10,6 +10,7 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import NavbarLower from "../components/NavbarLower";
 // import { Link } from 'gatsby'
+import HeadingH1 from "../components/HeadingH1";
 import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
@@ -58,10 +59,8 @@ export const PagePhotoLinksTemplate = ({
         <article className="content">
           <div className="columns">
             <main className={`column is-9 ${pageBasicStyles.main}`}>
-              <TextSection>
-                <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
-                <PageContent className="content" content={content} />{" "}
-              </TextSection>
+              <HeadingH1 text={title} />
+              <PageContent className="content" content={content} />{" "}
             </main>
           </div>
           {links.length && (

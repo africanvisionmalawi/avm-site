@@ -7,10 +7,14 @@ const Content = styled.div`
   padding: 1rem 3px;
 `;
 
+const Heading = styled.h3`
+  margin-bottom: 0;
+`;
+
 const CardContent = (props) => {
   return (
     <Content>
-      <h3>{props.title}</h3>
+      <Heading>{props.title}</Heading>
       {props.displayLocation && <span>{props.location}</span>}
       <p>{props.linkText}</p>
       {props.showPageLink && (

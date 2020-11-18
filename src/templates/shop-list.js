@@ -9,6 +9,7 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import NavbarLower from "../components/NavbarLower";
 import TagsList from "../components/shop/tagsList";
 import shopStyles from "../components/shop.module.css";
+import HeadingH1 from "../components/HeadingH1";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -39,9 +40,7 @@ const ShopIndex = ({ data }) => {
       <NavbarLower path={`/shop/`} />
       <ShopSection>
         <article className="content">
-          <h1 className="has-text-weight-semibold is-size-2">
-            African Vision Malawi Online Shop
-          </h1>
+          <HeadingH1 text="African Vision Malawi Online Shop" />
           <ul className={shopStyles.shopIndexList}>
             {data.allMarkdownRemark.edges.map((document) => (
               <li key={document.node.id}>

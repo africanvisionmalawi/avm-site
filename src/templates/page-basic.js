@@ -9,6 +9,7 @@ import Seo from "../components/seo";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
 import NavbarLower from "../components/NavbarLower";
+import HeadingH1 from "../components/HeadingH1";
 // import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
 
@@ -47,7 +48,7 @@ export const PageBasicTemplate = ({
         <article className="content">
           <main>
             <TextSection>
-              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              <HeadingH1 text={title} />
               <PageContent className="content" content={content} />
             </TextSection>
           </main>

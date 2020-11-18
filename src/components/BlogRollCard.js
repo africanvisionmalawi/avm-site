@@ -20,6 +20,10 @@ const ImgCont = styled.div`
   margin-bottom: 0.8em;
 `;
 
+const Heading = styled.h3`
+  margin-bottom: 0;
+`;
+
 const BlogCard = ({ post }) => {
   let postImage;
   if (post.frontmatter.postMobileImage) {
@@ -48,7 +52,7 @@ const BlogCard = ({ post }) => {
         <article className={postStyles.cardContent}>
           <Link to={post.fields.slug}>
             {postImage}
-            <h3>{post.frontmatter.title}</h3>
+            <Heading>{post.frontmatter.title}</Heading>
             <span className={postStyles.cardDate}>{post.frontmatter.date}</span>
             <p className={postStyles.cardExcerpt}>{post.excerpt}</p>
             <ColLink>Find out more</ColLink>

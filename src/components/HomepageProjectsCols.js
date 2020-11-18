@@ -128,7 +128,8 @@ const ProjectRow = styled.div`
 `;
 
 const Title = styled.h3`
-  font-size: 1.2em;
+  font-size: 1.3em;
+  margin-bottom: 0;
 `;
 
 const TileCont = styled.div``;
