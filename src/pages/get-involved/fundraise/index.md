@@ -11,7 +11,7 @@ Can you fundraise for us?
 
 Have a look at who is fundraising for us right now:
 
-[Event Fundraisers](https://africanvisionmalawi.charitycheckout.co.uk/profile)
+[Event Fundraisers](https://www.crowdfunder.co.uk/african-vision-malawi)
 
 [Cycle Fundraising Events – Malawi](https://www.givey.com/avm)
 
