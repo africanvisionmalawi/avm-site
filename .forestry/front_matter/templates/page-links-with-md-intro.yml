@@ -31,3 +31,5 @@ fields:
   - type: boolean
     name: featured
     label: featured
+pages:
+- src/pages/get-involved/index.md
