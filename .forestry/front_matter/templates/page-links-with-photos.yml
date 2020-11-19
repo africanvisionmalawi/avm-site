@@ -29,5 +29,3 @@ fields:
   - type: file
     name: photo
     label: photo
-pages:
-- src/pages/about-us/index.md

@@ -32,4 +32,5 @@ fields:
     name: featured
     label: featured
 pages:
+- src/pages/about-us/index.md
 - src/pages/get-involved/index.md
