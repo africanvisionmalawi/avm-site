@@ -16,3 +16,5 @@ fields:
   name: headerImage
   label: headerImage
   hidden: true
+pages:
+- src/pages/get-involved/donate/index.md
