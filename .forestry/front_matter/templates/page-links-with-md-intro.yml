@@ -1,6 +1,6 @@
 ---
-label: page-links-with-photos
-hide_body: true
+label: Page Links with Md Intro
+hide_body: false
 fields:
 - type: text
   name: templateKey
@@ -11,21 +11,23 @@ fields:
   label: title
 - type: text
   name: description
-  label: Meta Description
-  description: " Description of the page for Google"
+  label: description (For Google meta tag)
 - type: field_group_list
   name: links
   label: links
   fields:
+  - type: text
+    name: url
+    label: url
   - type: text
     name: linkTitle
     label: linkTitle
   - type: text
     name: linkText
     label: linkText
-  - type: text
-    name: url
-    label: url
   - type: file
     name: photo
     label: photo
+pages:
+- src/pages/about-us/index.md
+- src/pages/get-involved/index.md

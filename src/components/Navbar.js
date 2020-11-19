@@ -172,7 +172,7 @@ const Navbar = () => {
       <DesktopNav>
         <div className={navbarStyles.navbarBtns}>
           <CtaButton
-            link="https://fundraise.charitycheckout.co.uk/africanvisionmalawi/fundraising/start#!/"
+            link="https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW"
             text="Fundraise for us"
             className={navbarStyles.navBarBtn}
           />
