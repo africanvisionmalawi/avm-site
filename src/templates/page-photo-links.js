@@ -30,10 +30,10 @@ const TextSection = styled.section`
   position: relative;
   width: 100%;
   @media (min-width: 768px) {
-    padding: 2em 4em;
+    padding: 1em 4em;
   }
   @media (min-width: 1040px) {
-    padding: 4em 8em;
+    padding: 1em 8em;
   }
 `;
 
@@ -59,8 +59,10 @@ export const PagePhotoLinksTemplate = ({
         <article className="content">
           <div className="columns">
             <main className={`column is-9 ${pageBasicStyles.main}`}>
-              <HeadingH1 text={title} />
-              <PageContent className="content" content={content} />{" "}
+              <TextSection>
+                <HeadingH1 text={title} />
+                <PageContent className="content" content={content} />{" "}
+              </TextSection>
             </main>
           </div>
           {links.length && (
