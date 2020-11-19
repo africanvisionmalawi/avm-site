@@ -1,0 +1,20 @@
+---
+label: Basic page
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description (For Google Meta tags)
+- type: file
+  name: headerImage
+  label: headerImage
+  hidden: true
+pages:
+- src/pages/get-involved/donate/index.md
