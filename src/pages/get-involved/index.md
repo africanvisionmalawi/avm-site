@@ -28,4 +28,4 @@ links:
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
 
 ---
-Raise funds for a sponsored event of your own. Using [BT mydonate](https://mydonate.bt.com/charities/thelandiranitrust) you can start your own fundraising campaign to support the work of African Vision Malawi.
+Raise funds for a sponsored event of your own. Using [Crowdfunder](https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW) you can start your own fundraising campaign to support the work of African Vision Malawi.
