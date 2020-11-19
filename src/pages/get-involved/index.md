@@ -19,14 +19,14 @@ links:
 - url: "./thank-yous/"
   linkTitle: Thank Yous
   linkText: More info here
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/dsc_6124.JPG"
 - url: "./use-your-baggage-allowance-to-lilongwe/"
   linkTitle: Use your baggage allowance to Lilongwe!
   linkText: Many people travelling to Malawi often don't need the full 46kg weight
     allowance offered by some airlines ..... please let us use it by giving you a
     bag of clothes to take out ... we can collect it or you can see how it reaches
     those in need yourself
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/dsc_5749.JPG"
 
 ---
 Raise funds for a sponsored event of your own. Using [Crowdfunder](https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW) you can start your own fundraising campaign to support the work of African Vision Malawi.
