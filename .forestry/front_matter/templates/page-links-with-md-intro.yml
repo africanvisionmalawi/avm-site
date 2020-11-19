@@ -1,0 +1,32 @@
+---
+label: Page Links with Md Intro
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: links
+  label: links
+  fields:
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: linkTitle
+    label: linkTitle
+  - type: text
+    name: linkText
+    label: linkText
+  - type: file
+    name: photo
+    label: photo
+  - type: boolean
+    name: featured
+    label: featured
