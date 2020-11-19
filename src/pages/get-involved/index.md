@@ -6,7 +6,7 @@ links:
 - url: "./donate/"
   linkTitle: Donate
   linkText: Donate online or download one of our donation forms
-  photo: "/img/photofunny.jpg"
+  photo: "/img/cbccs/17-Children-1-with-albinism-eating-their-porridge.jpg"
   featured: true
 - url: "./garden/"
   linkTitle: Hampton Court Flower Show 2015 Garden
