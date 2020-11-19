@@ -19,7 +19,7 @@ links:
 - url: "./thank-yous/"
   linkTitle: Thank Yous
   linkText: More info here
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/dsc_6124.JPG"
 - url: "./use-your-baggage-allowance-to-lilongwe/"
   linkTitle: Use your baggage allowance to Lilongwe!
   linkText: Many people travelling to Malawi often don't need the full 46kg weight
