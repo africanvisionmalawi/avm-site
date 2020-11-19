@@ -5,8 +5,9 @@ description: How to get involved with fundraising and other projects
 links:
 - url: "./donate/"
   linkTitle: Donate
-  linkText: Donate via Paypal or download one of our donation forms
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  linkText: Donate online or download one of our donation forms
+  photo: "/img/photofunny.jpg"
+  featured: true
 - url: "./garden/"
   linkTitle: Hampton Court Flower Show 2015 Garden
   linkText: African Vision Malawi wins Gold at Hampton Court Flower Show
