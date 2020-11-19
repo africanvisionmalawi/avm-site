@@ -11,7 +11,7 @@ links:
 - url: "./garden/"
   linkTitle: Hampton Court Flower Show 2015 Garden
   linkText: African Vision Malawi wins Gold at Hampton Court Flower Show
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/hcfs-6.JPG"
 - url: "./holiday-in-france-for-us/"
   linkTitle: Holiday in France for us
   linkText: More info here
