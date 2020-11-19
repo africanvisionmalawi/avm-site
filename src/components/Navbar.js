@@ -36,7 +36,7 @@ const Navbar = () => {
     [
       {
         name: "About us",
-        url: "about-us",
+        url: "/about-us",
       },
       [
         {
