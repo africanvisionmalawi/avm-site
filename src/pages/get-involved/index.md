@@ -15,7 +15,7 @@ links:
 - url: "./holiday-in-france-for-us/"
   linkTitle: Holiday in France for us
   linkText: More info here
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/france/France-2.jpg"
 - url: "./thank-yous/"
   linkTitle: Thank Yous
   linkText: More info here
