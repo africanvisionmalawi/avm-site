@@ -12,7 +12,7 @@ const LogoLink = styled(Link)`
   position: absolute;
   top: 0;
   width: auto;
-  z-index: 2000;
+  z-index: 1025;
   @media (min-width: 768px) {
     height: 160px;
   }
@@ -30,7 +30,7 @@ const NavLogo = styled.figure`
   margin-bottom: 0;
 `;
 
-const navLogo = Û => (
+const navLogo = (Û) => (
   <LogoLink to="/">
     <NavLogo>
       <LogoImg src={logo} alt="" />
