@@ -50,8 +50,8 @@ const IndexPage = (props) => {
 
           <TopSection>
             <TopVideoSection>
-              <Flex>
-                <Box width={["100%", "50%"]}>
+              <Flex flexwrap="wrap">
+                <Box width={["100%", "100%", "50%"]}>
                   <SectionHeading>Our vision...</SectionHeading>
                   <p>
                     to see a "healthy, educated and self-sufficient community in
@@ -70,7 +70,7 @@ const IndexPage = (props) => {
                     independent.
                   </p>
                 </Box>
-                <Box width={["100%", "50%"]}>
+                <Box width={["100%", "100%", "50%"]}>
                   <div className={videoStyles.playerWrapper}>
                     <ReactPlayer
                       url={promoVideo}
@@ -88,7 +88,7 @@ const IndexPage = (props) => {
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"
           />
-          <LowerSectionBB>
+          <LowerSection>
             <LowerSectionInner>
               <HomepageProjectsCols
                 currentProject="home"
@@ -97,7 +97,7 @@ const IndexPage = (props) => {
               />
             </LowerSectionInner>
             <Divider />
-          </LowerSectionBB>
+          </LowerSection>
           <AltTopSection>
             <div className={`${homepageStyles.latestNewsBox}`}>
               <H2Heading>Latest news</H2Heading>
@@ -193,15 +193,13 @@ const AltTopSection = styled.section`
 //   width: 100%;
 // `;
 
-const LowerSectionBB = styled.section`
-  background: #f7f7f7;
+const LowerSection = styled.section`
   border-bottom: 8px solid #fff;
   position: relative;
   width: 100%;
 `;
 
 const LowerSectionInner = styled.div`
-  background: #f7f7f7;
   margin: 0 auto;
   max-width: 1180px;
   padding: 3em 0;
@@ -267,6 +265,26 @@ const PostsFooterLink = styled(Link)`
 `;
 
 export default IndexPage;
+
+export const heroDesktop = graphql`
+  fragment heroFluidDesktop on File {
+    childImageSharp {
+      fluid(maxWidth: 1918, maxHeight: 540, quality: 60) {
+        ...GatsbyImageSharpFluid_withWebp
+      }
+    }
+  }
+`;
+
+export const heroMobile = graphql`
+  fragment heroFluidMobile on File {
+    childImageSharp {
+      fluid(maxWidth: 480, maxHeight: 300, quality: 60) {
+        ...GatsbyImageSharpFluid_withWebp
+      }
+    }
+  }
+`;
 
 export const lgRectImage = graphql`
   fragment photoTileFixedLgRect on File {

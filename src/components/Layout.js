@@ -1,7 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import SubNavBar from "../components/nav/sub";
+import Navbar from "../components/nav/main";
 import NavLogo from "../components/NavLogo";
 import "./css/all.css";
 import useSiteMetadata from "./SiteMetadata";
@@ -56,6 +57,7 @@ const TemplateWrapper = ({ children }) => {
           <Navbar />
         </HeaderInner>
       </Header>
+      <SubNavBar />
       <Wrapper>
         <div className={layoutStyles.container__top}>
           <div className="main-body">{children}</div>
@@ -68,8 +70,16 @@ const TemplateWrapper = ({ children }) => {
   );
 };
 
+const TopNav = styled.div`
+  background: red;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+`;
+
 const Header = styled.div`
   background: #c27e34;
+  height: auto;
 `;
 
 const HeaderInner = styled.div`

@@ -43,6 +43,11 @@ const BtnLink = styled.a`
     border: 2px solid #fff;
     color: #58b5d7;
   }
+  &.header {
+    font-size: 0.8em;
+    margin: 8px 0.5rem;
+    padding: 4px 8px;
+  }
 `;
 
 export default CtaButton;

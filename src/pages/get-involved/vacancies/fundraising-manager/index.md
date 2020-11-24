@@ -2,6 +2,7 @@
 templateKey: page-basic
 title: Fundraising Manager
 description: Can you help maximize the generation of funds for the charity to allow us to sustain and develop further our support to orphans and vulnerable people in Malawi?
+display: true
 ---
 
 ## African Vision Malawi is looking for new Fundraisers 
