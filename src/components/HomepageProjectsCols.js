@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Img from "gatsby-image";
 import { SimpleGrid, Box } from "@chakra-ui/core";
 import { Link, useStaticQuery, graphql } from "gatsby";
-import projectLinkStyles from "./projects.module.css";
+import styles from "./pagelinks.module.css";
 import styled from "styled-components";
 
 const HomepageProjectsCols = (props) => {
@@ -28,8 +28,8 @@ const HomepageProjectsCols = (props) => {
       {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
       <SimpleGrid columns={[1, 1, 3]} spacing="1em">
         {props.ourWork.map((project) => (
-          <Box p={2} key={project.id} bg="#fff" borderRadius="8px">
-            <Box>
+          <Box p={2} key={project.id} bg="#f7f7f7" borderRadius="8px">
+            <Box borderRadius="4px" overflow="hidden">
               {project.imageId && (
                 <Img
                   fluid={
@@ -54,7 +54,9 @@ const HomepageProjectsCols = (props) => {
               <Excerpt>
                 <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>
-                <Link to={project.url}>Find out more</Link>
+                <Link to={project.url} className={styles.btn}>
+                  Find out more
+                </Link>
               </Excerpt>
             </Box>
           </Box>

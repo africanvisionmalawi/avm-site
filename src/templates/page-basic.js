@@ -5,6 +5,7 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Seo from "../components/seo";
+import BackgroundImage from "gatsby-background-image";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
@@ -12,7 +13,7 @@ import NavbarLower from "../components/NavbarLower";
 import HeadingH1 from "../components/HeadingH1";
 // import pageBasicStyles from "../components/pageBasic.module.css";
 import styled from "styled-components";
-
+import { Box } from "@chakra-ui/core";
 // const Section = styled.section`
 //   margin: 0 auto;
 //   max-width: 1050px;
@@ -34,6 +35,7 @@ const TextSection = styled.section`
 export const PageBasicTemplate = ({
   title,
   description,
+  backgroundImage,
   content,
   contentComponent,
   path,
@@ -47,10 +49,12 @@ export const PageBasicTemplate = ({
       <div className="container">
         <article className="content">
           <main>
-            <TextSection>
-              <HeadingH1 text={title} />
-              <PageContent className="content" content={content} />
-            </TextSection>
+            <Box margin="0 auto" maxW="885px" p="3 2 2" position="relative">
+              <BackgroundImage fluid={backgroundImage}>
+                <HeadingH1 text={title} />
+                <PageContent className="content" content={content} />
+              </BackgroundImage>
+            </Box>
           </main>
         </article>
 
@@ -67,6 +71,7 @@ export const PageBasicTemplate = ({
 PageBasicTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
+  backgroundImage: PropTypes.object,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   pageContext: PropTypes.object,
@@ -90,6 +95,7 @@ const PageBasic = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         description={post.frontmatter.description}
+        backgroundImage={post.frontmatter.backgroundImage}
         path={post.fields.slug}
       />
     </Layout>
@@ -112,6 +118,13 @@ export const pageBasicQuery = graphql`
       frontmatter {
         title
         description
+        backgroundImage {
+          childImageSharp {
+            fluid(maxWidth: 885) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     }
   }

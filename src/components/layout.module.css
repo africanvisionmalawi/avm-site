@@ -12,6 +12,14 @@
 .container__lower {
   flex-shrink: 0;
 }
+/* html {
+  overflow: hidden;
+}
+body {
+  height: 100%;
+  overflow: visible;
+} */
+
 /* body {
   color: #565656;
   font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

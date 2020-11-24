@@ -6,6 +6,7 @@ import EventDate from "../EventDate";
 import CardContent from "./CardContent";
 
 const ImageCont = styled.div`
+  border-radius: 4px;
   margin: 0;
   position: relative;
 `;

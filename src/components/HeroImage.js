@@ -11,6 +11,9 @@ const hero = ({
   heroHeading,
   heroHeadingType,
   displayHeroMsg,
+  hasMobileImage,
+  desktopImage,
+  mobileImage,
 }) => {
   let heroHeadingHtml, heroMsgHtml;
   if (heroHeading) {
@@ -22,6 +25,18 @@ const hero = ({
   }
   if (heroMsg) {
     heroMsgHtml = <HeroMsg>{heroMsg}</HeroMsg>;
+  }
+  let sources;
+  if (heroImage.hasMobileImage === true) {
+    sources = [
+      mobileImage.childImageSharp.fluid,
+      {
+        ...desktopImage.childImageSharp.fluid,
+        media: `(min-width: 625px)`,
+      },
+    ];
+  } else {
+    sources = heroImage.childImageSharp.fluid;
   }
 
   return (
@@ -35,8 +50,9 @@ const hero = ({
             {heroMsgHtml}
           </HeroMsgCont>
         )}
-        <Img fluid={heroImage.childImageSharp.fluid} alt="" />
-        {/* {headingText && <Heading>{headingText}</Heading>} */}
+
+        <Img fluid={sources} alt="" imgStyle={{ objectFit: "contain" }} />
+
         <Overlay />
         {/* {heroMsg !== "null" ? (
           <div className={heroStyles.heroText}>{heroMsg}</div>

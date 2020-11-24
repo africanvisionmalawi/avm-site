@@ -3,7 +3,7 @@ templateKey: page-basic
 title: Donate
 description: Donating to us
 headerImage: "/img/chemex.jpg"
-
+backgroundImage: "/img/page-backgrounds/photo-donate.jpg"
 ---
 There are many ways to donate to African Vision Malawi!
 
