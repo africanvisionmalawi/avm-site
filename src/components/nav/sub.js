@@ -35,12 +35,17 @@ const SubNavBar = () => {
   return (
     <NavCont>
       <Nav>
-        <Flex justify="space-between" flexWrap="nowrap">
+        <Flex
+          justify="space-between"
+          flexWrap="nowrap"
+          display={["none", "block"]}
+        >
           <CtaButton
             link="https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW"
             text="Fundraise for us"
             placement="header"
           />
+
           <CtaButton
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"
@@ -52,6 +57,7 @@ const SubNavBar = () => {
             <CtaButton
               link="https://www.charitycheckout.co.uk/1113786/"
               text="Donate"
+              placement="header"
             />
             <IconsCont>
               <Search indices={searchIndices} />
@@ -70,7 +76,7 @@ const SubNavBar = () => {
                 <title>Hamburger</title>
                 <path
                   d="M24,19v2a1,1,0,0,1-1,1H1a.94.94,0,0,1-.7-.3A1,1,0,0,1,0,21V19a1,1,0,0,1,.3-.7A.94.94,0,0,1,1,18H23a1,1,0,0,1,1,1Zm0-8v2a.94.94,0,0,1-.3.7,1,1,0,0,1-.7.3H1a.94.94,0,0,1-.7-.3A.94.94,0,0,1,0,13V11a.94.94,0,0,1,.3-.7A.94.94,0,0,1,1,10H23a1,1,0,0,1,.7.3A.94.94,0,0,1,24,11Zm0-8V5a1,1,0,0,1-1,1H1a.94.94,0,0,1-.7-.3A1,1,0,0,1,0,5V3a.94.94,0,0,1,.3-.7A.94.94,0,0,1,1,2H23a1,1,0,0,1,.7.3A.94.94,0,0,1,24,3Z"
-                  fill="#fff"
+                  fill="#f99d1c"
                 />
               </MobileNavIcon>
             </IconsCont>
@@ -117,7 +123,7 @@ const NavCont = styled.div`
   background: rgba(255, 255, 255, 0.7);
   position: sticky;
   top: 0;
-  z-index: 1800;
+  z-index: 1020;
 `;
 const Nav = styled.div`
   display: flex;
@@ -172,7 +178,7 @@ const Menu = styled.ul`
 `;
 
 const MobileNav = styled.div`
-  // align-items: flex-end;
+  align-items: flex-end;
   // display: flex;
   // flex-direction: column;
   // flex-wrap: nowrap;
@@ -196,6 +202,7 @@ const MobileNav = styled.div`
 
 const NavIcons = styled.div`
   display: flex;
+  justify-content: flex-end;
 `;
 
 const MobileNavIcon = styled.svg`

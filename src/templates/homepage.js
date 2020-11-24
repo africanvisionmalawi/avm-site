@@ -50,7 +50,7 @@ const IndexPage = (props) => {
 
           <TopSection>
             <TopVideoSection>
-              <Flex flexwrap="wrap">
+              <Flex flexWrap="wrap">
                 <Box width={["100%", "100%", "50%"]}>
                   <SectionHeading>Our vision...</SectionHeading>
                   <p>
