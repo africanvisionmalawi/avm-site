@@ -38,7 +38,7 @@ const SubNavBar = () => {
         <Flex
           justify="space-between"
           flexWrap="nowrap"
-          display={["none", "block"]}
+          display={["none", "flex"]}
         >
           <CtaButton
             link="https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW"
