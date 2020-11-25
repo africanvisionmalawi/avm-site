@@ -7,12 +7,24 @@ import Breadcrumbs from "./Breadcrumbs";
 const Section = styled.div`
   background: #fff;
   margin: 0 auto;
-  max-width: 980px;
+  max-width: 1080px;
   padding: 2.5em 12px 0.5em;
   position: relative;
   width: 100%;
+  & div {
+    display: none;
+  }
   @media (min-width: 480px) {
+    & div {
+      display: block;
+    }
     padding: 0.5em 100px 12px;
+  }
+  @media (min-width: 768px) {
+    padding: 0.5em 0 12px 120px;
+  }
+  @media (min-width: 1140px) {
+    padding: 0.5em 0 12px 80px;
   }
 `;
 
@@ -27,11 +39,7 @@ const Section = styled.div`
 // `;
 
 const NavbarLower = (props) => {
-  return (
-    <Section>
-      {props.path && <Breadcrumbs path={props.path} />}      
-    </Section>
-  );
+  return <Section>{props.path && <Breadcrumbs path={props.path} />}</Section>;
 };
 
 export default NavbarLower;
