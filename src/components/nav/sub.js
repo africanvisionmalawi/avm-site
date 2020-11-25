@@ -147,21 +147,23 @@ const IconsCont = styled.div`
 `;
 
 const Menu = styled.ul`
-  font-size: 1.2em;
-  padding: 2em;
+  font-size: 1em;
+  padding: 1em;
 
   &,
   & ul {
     list-style-type: none;
   }
 
-  max-height: 0;
-  opacity: 0;
-  transition: all 0.5s;
-  visibility: hidden;
+  & ul {
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    visibility: hidden;
+  }
 
   & li {
-    margin-bottom: 1.2em;
+    margin-bottom: 0.5em;
   }
   & label {
     color: #b75906;

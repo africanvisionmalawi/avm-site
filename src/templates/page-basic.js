@@ -35,7 +35,6 @@ const TextSection = styled.section`
 export const PageBasicTemplate = ({
   title,
   description,
-  backgroundImage,
   content,
   contentComponent,
   path,
@@ -50,14 +49,11 @@ export const PageBasicTemplate = ({
         <article className="content">
           <main>
             <Box margin="0 auto" maxW="885px" p="3 2 2" position="relative">
-              <BackgroundImage fluid={backgroundImage}>
-                <HeadingH1 text={title} />
-                <PageContent className="content" content={content} />
-              </BackgroundImage>
+              <HeadingH1 text={title} />
+              <PageContent className="content" content={content} />
             </Box>
           </main>
         </article>
-
         <Donate
           link="https://www.charitycheckout.co.uk/1113786/"
           text="Donate"
@@ -71,7 +67,6 @@ export const PageBasicTemplate = ({
 PageBasicTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
-  backgroundImage: PropTypes.object,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   pageContext: PropTypes.object,
@@ -95,7 +90,6 @@ const PageBasic = ({ data }) => {
         title={post.frontmatter.title}
         content={post.html}
         description={post.frontmatter.description}
-        backgroundImage={post.frontmatter.backgroundImage}
         path={post.fields.slug}
       />
     </Layout>
@@ -118,13 +112,6 @@ export const pageBasicQuery = graphql`
       frontmatter {
         title
         description
-        backgroundImage {
-          childImageSharp {
-            fluid(maxWidth: 885) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
       }
     }
   }
