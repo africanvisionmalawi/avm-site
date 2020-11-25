@@ -111,7 +111,9 @@ const Menu = styled.ul`
   & ul li {
     display: flex;
     flex-wrap: nowrap;
-    padding: 8px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    padding: 8px 0;
   }
   & ul li a {
     background: #fff;
