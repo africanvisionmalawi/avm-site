@@ -27,14 +27,6 @@ links:
     2019, we have been working together as one organisation in Malawi, merging the
     staff into one team.
   featured: false
-- linkTitle: Thompson & Morgan
-  photo: "/img/thankyous/thompson-morgan-logo.jpg"
-  url: https://www.thompson-morgan.com
-  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
-    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
-    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
-    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
-  featured: true
 - linkTitle: Aidcamps
   photo: "/img/thankyous/thompson-morgan-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
@@ -58,6 +50,14 @@ links:
   url: https://fatbrain.co.uk/
   linkText: 
   featured: false
+- linkTitle: Thompson & Morgan
+  photo: "/img/thankyous/thompson-morgan-logo.jpg"
+  url: https://www.thompson-morgan.com
+  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
+    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
+    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
+    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+  featured: true
 - linkTitle: Nigel Bunner (web design & development)
   photo: "/img/thankyous/nigel-bunner.jpg"
   url: https://www.nigelbunner.co.uk
