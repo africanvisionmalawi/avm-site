@@ -30,12 +30,11 @@ links:
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
-  linkText: 'AidCamps International is a small, friendly and well established registered
-    UK charity. We take volunteers from the UK and elsewhere to participate in short-term
-    voluntary projects in developing countries, where our primary purpose is to provide
-    grassroots development aid. Most of our projects focus around the construction
-    of schools, medical centres and other practical buildings to benefit developing
-    communities. '
+  linkText: 'AidCamps International is a small, friendly and well-established registered
+    UK charity. They have provided volunteers from the UK and elsewhere to participate
+    in short-term voluntary projects including the library at Sam''s Village. Most
+    of their projects focus around the construction of schools, medical centres and
+    other practical buildings to benefit developing communities. '
   featured: true
 - linkTitle: Child.org
   photo: "/img/thankyous/childorg.jpg"
