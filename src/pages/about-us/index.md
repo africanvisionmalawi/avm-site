@@ -31,6 +31,6 @@ links:
     express our vision for the people of Malawi.
   url: "/get-involved/thank-yous/"
   linkTitle: Thank yous
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/dsc_6124.JPG"
 
 ---
