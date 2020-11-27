@@ -19,6 +19,14 @@ links:
     at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
     mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
   featured: true
+- linkTitle: Love Support Unite
+  photo: "/img/thankyous/love-support-unite.jpg"
+  url: https://lovesupportunite.org/
+  linkText: We work hand-in-hand with LSU. They are wonderful organisation working
+    in the same area as us, empowering communities to become self-sufficient. Since
+    2019, we have been working together as one organisation in Malawi, merging the
+    staff into one team.
+  featured: false
 - linkTitle: Thompson & Morgan
   photo: "/img/thankyous/thompson-morgan-logo.jpg"
   url: https://www.thompson-morgan.com
@@ -48,11 +56,6 @@ links:
 - linkTitle: Fatbrain
   photo: "/img/thankyous/fat-brain.jpg"
   url: https://fatbrain.co.uk/
-  linkText: 
-  featured: false
-- linkTitle: Love Support Unite
-  photo: "/img/thankyous/love-support-unite.jpg"
-  url: https://lovesupportunite.org/
   linkText: 
   featured: false
 - linkTitle: Nigel Bunner (web design & development)
