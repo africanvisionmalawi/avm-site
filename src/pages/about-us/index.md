@@ -13,7 +13,7 @@ links:
     400km squared and with 45,000 population.
   url: "./where-we-work/"
   linkTitle: Where we work
-  photo: "/img/page-links/link-bicycle-ambulance.jpg"
+  photo: "/img/projects/sams-village-12.jpg"
 - linkText: 'Heather Palmer our founder lived in Malawi as a child, for her first
     10 years. She talks about the inspiration behind the first trip, the plight of
     the orphan and vulnerable and how it led to the creation of the Landirani Trust.  '
