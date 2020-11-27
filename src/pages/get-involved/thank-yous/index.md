@@ -27,13 +27,15 @@ links:
     2019, we have been working together as one organisation in Malawi, merging the
     staff into one team.
   featured: false
-- linkTitle: Aidcamps
-  photo: "/img/thankyous/thompson-morgan-logo.jpg"
+- linkTitle: Aidcamps International
+  photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
-  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
-    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
-    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
-    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+  linkText: 'AidCamps International is a small, friendly and well established registered
+    UK charity. We take volunteers from the UK and elsewhere to participate in short-term
+    voluntary projects in developing countries, where our primary purpose is to provide
+    grassroots development aid. Most of our projects focus around the construction
+    of schools, medical centres and other practical buildings to benefit developing
+    communities. '
   featured: true
 - linkTitle: Child.org
   photo: "/img/thankyous/childorg.jpg"
