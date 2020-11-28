@@ -10,23 +10,14 @@ ourWork:
   url: "/projects/sams-village/"
   imageId: PhotoVillage
   photo: "/img/mainphoto_village-ver3.jpg"
-  excerpt: Sam’s Training Village is a self-sustaining training village, built on
-    a 17-acre site. The construction phase is now almost complete and the objective
-    is to support a move away from hand-outs and to create self-sufficient training
-    programmes that can support thousands of local people. This will improve their
-    lives in terms of creating employment, organic farming, orphan support, reforestation,
-    HIV prevention and many other important areas.
+  excerpt: Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas.
   featured: true
 - id: health
   name: Health
   url: "/health/"
   imageId: PhotoHealth
   photo: "/img/mainphoto_health.jpg"
-  excerpt: One of our big forthcoming projects is to build a Waiting Home for new
-    mothers at the Maternity Unit. This second stage will provide essential care for
-    pre-term births - which are higher in Malawi than anywhere else in the world.
-    The project will include nutritional permaculture gardens in front of the new
-    wing, and education on good nutrition for new mothers.
+  excerpt: One of our big forthcoming projects is to build a Waiting Home for new mothers at the Maternity Unit. This second stage will provide essential care for pre-term births - which are higher in Malawi than anywhere else in the world. The project will include nutritional permaculture gardens in front of the new wing, and education on good nutrition for new mothers.
   featured: true
 - id: education
   name: Education
@@ -34,10 +25,7 @@ ourWork:
   imageId: PhotoEducation
   photo: "/img/mainphoto_education.jpg"
   featured: true
-  excerpt: We have setup 12 Community Based Childcare Centres supporting the under-5's
-    and we support pupils in Primary, Secondary and University/Further Education.
-    We typically support 40 secondary school  and 20 university students at any given
-    time.
+  excerpt: We have setup 12 Community Based Childcare Centres supporting the under-5's and we support pupils in Primary, Secondary and University/Further Education. We typically support 40 secondary school  and 20 university students at any given time.
 - id: waterandsanitation
   name: Water & Sanitation
   url: "/water/"
@@ -53,11 +41,7 @@ ourWork:
   url: "/environment/"
   imageId: ''
   photo: "/img/mainphoto_environment.jpg"
-  excerpt: We all know our immune systems depend on good nutrition. In Malawi people
-    depend on their maize harvest to the exclusion of many highly-nutritious foods.
-    Deforestation on a massive scale leads to Malawi losing about 300km2 of forest
-    land every year. Help us to spread the message as we teach schools how to create
-    vegetable gardens and plant hundreds of trees.
+  excerpt: We all know our immune systems depend on good nutrition. In Malawi people depend on their maize harvest to the exclusion of many highly-nutritious foods. Deforestation on a massive scale leads to Malawi losing about 300km2 of forest land every year. Help us to spread the message as we teach schools how to create vegetable gardens and plant hundreds of trees.
   featured: false
 - id: celebrateandgive
   name: Celebrate & Give
@@ -66,7 +50,6 @@ ourWork:
   photo: "/img/mainphoto_celebrate.jpg"
   excerpt: |-
     Most fundraising comes from personal donations.
-
     You can help us through regular monthly donations; leaving a legacy;
     pledging gifts from a birthday or anniversary; or running a fundraising event.
     Please consider one or more of those as it’s so easy to help.
