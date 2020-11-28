@@ -9,7 +9,7 @@ heroMsg:
   school \nRatio of pupil/teacher is 62/1 in Malawi, it is 17/1 in UK"
 heroMsgSource:
 gallery:
-  - photo: ""
+  - photo: null
     alt: ""
 links:
   - linkTitle: CBCC
