@@ -8,9 +8,11 @@ const TeamList = (props) => (
     <List>
       {props.teamData.map((team) => (
         <li key={team.name}>
-          <TeamPhoto>
-            <PreviewCompatibleImage imageInfo={team.photo} />
-          </TeamPhoto>
+          {team.photo && typeof team.photo === "object" && (
+            <TeamPhoto>
+              <PreviewCompatibleImage imageInfo={team.photo} />
+            </TeamPhoto>
+          )}
           <SubHeading>{team.name}</SubHeading>
           <About>{team.role}</About>
         </li>
