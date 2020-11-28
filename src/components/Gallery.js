@@ -15,17 +15,17 @@ const Heading = styled.h2`
 const Caption = styled.div`
   font-size: 0.8em;
   text-align: center;
-`
+`;
 
 const Gallery = (props) => {
   const [showLightboxState, setShowLightboxState] = useState(false);
 
   const [selectedImageState, setSelectedImageState] = useState(0);
 
-  const showLightboxHandler = (event) => {
-    // console.log("show lightbox");
-    setShowLightboxState(true);
-  };
+  // const showLightboxHandler = (event) => {
+  //   // console.log("show lightbox");
+  //   setShowLightboxState(true);
+  // };
 
   const hideLightboxHandler = (event) => {
     // console.log("hide lightbox");

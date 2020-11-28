@@ -10,8 +10,6 @@ module.exports = {
     baseUrl: "https://www.africanvision.org.uk",
   },
   plugins: [
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -51,9 +49,9 @@ module.exports = {
           //   },
           // },
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: "gatsby-remark-relative-images",
             options: {
-              name: 'uploads',
+              name: "uploads",
             },
           },
           // "gatsby-remark-relative-images",
@@ -85,6 +83,8 @@ module.exports = {
         ],
       },
     },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
@@ -139,7 +139,7 @@ module.exports = {
     //     ],
     //   },
     // },
-    "gatsby-remark-embed-video",
+    // "gatsby-remark-embed-video",
     "gatsby-remark-responsive-iframe",
     "gatsby-plugin-styled-components",
     {

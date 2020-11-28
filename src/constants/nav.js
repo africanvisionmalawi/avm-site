@@ -40,11 +40,16 @@ export const navLinks = [
   ],
   [
     {
-      name: "Our work",
-      url: "/projects/",
+      name: "What we do",
+      url: "/our-work/",
       mobileOnly: false,
     },
     [
+      {
+        name: "Our work",
+        url: "/our-work/",
+        mobileOnly: false,
+      },
       {
         name: "Projects",
         url: "/projects/",
