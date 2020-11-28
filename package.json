@@ -77,6 +77,8 @@
     "build": "npm run clean && gatsby build --log-pages",
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
+    "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0",
+    "forestry:publish": "gatsby build --prefix-paths",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "forestry:preview": "gatsby develop -H 0.0.0.0 -p 8080"
