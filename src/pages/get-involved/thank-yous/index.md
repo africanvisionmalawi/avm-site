@@ -19,21 +19,22 @@ links:
     at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
     mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
   featured: true
-- linkTitle: Thompson & Morgan
-  photo: "/img/thankyous/thompson-morgan-logo.jpg"
-  url: https://www.thompson-morgan.com
-  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
-    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
-    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
-    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
-  featured: true
-- linkTitle: Aidcamps
-  photo: "/img/thankyous/thompson-morgan-logo.jpg"
+- linkTitle: Love Support Unite
+  photo: "/img/thankyous/love-support-unite.jpg"
+  url: https://lovesupportunite.org/
+  linkText: We work hand-in-hand with LSU. They are wonderful organisation working
+    in the same area as us, empowering communities to become self-sufficient. Since
+    2019, we have been working together as one organisation in Malawi, merging the
+    staff into one team.
+  featured: false
+- linkTitle: Aidcamps International
+  photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
-  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
-    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
-    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
-    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+  linkText: 'AidCamps International is a small, friendly and well-established registered
+    UK charity. They have provided volunteers from the UK and elsewhere to participate
+    in short-term voluntary projects including the library at Sam''s Village. Most
+    of their projects focus around the construction of schools, medical centres and
+    other practical buildings to benefit developing communities. '
   featured: true
 - linkTitle: Child.org
   photo: "/img/thankyous/childorg.jpg"
@@ -50,11 +51,14 @@ links:
   url: https://fatbrain.co.uk/
   linkText: 
   featured: false
-- linkTitle: Love Support Unite
-  photo: "/img/thankyous/love-support-unite.jpg"
-  url: https://lovesupportunite.org/
-  linkText: 
-  featured: false
+- linkTitle: Thompson & Morgan
+  photo: "/img/thankyous/thompson-morgan-logo.jpg"
+  url: https://www.thompson-morgan.com
+  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
+    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
+    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
+    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+  featured: true
 - linkTitle: Nigel Bunner (web design & development)
   photo: "/img/thankyous/nigel-bunner.jpg"
   url: https://www.nigelbunner.co.uk
