@@ -46,15 +46,15 @@ const Section = styled.section`
   width: 100%;
 `;
 
-const Heading = styled.h2`
-  background: #58b5d7;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.8em;
-  margin: 0px 0px 0.5em;
-  padding: 8px;
-  text-align: center;
-`;
+// const Heading = styled.h1`
+//   background: #246a73;
+//   color: #fff;
+//   display: inline-block;
+//   font-size: 2em;
+//   margin: 0px 0px 0.5em;
+//   padding: 8px 16px;
+//   text-align: center;
+// `;
 
 export default OurWorkPage;
 
