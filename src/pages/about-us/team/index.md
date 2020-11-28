@@ -128,10 +128,6 @@ malawiTeam:
   name: Takondwa
   role: Sam's Village Guard Dog
 ukTeam:
-- order: 
-  photo: "/img/sam-s-village.JPG"
-  name: Nigel testing
-  role: testing
 - order: 1
   photo: "/img/team/Heather-150x150.jpg"
   name: Heather Palmer
