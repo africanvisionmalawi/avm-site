@@ -61,7 +61,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: src/pages/our-work
+  path: src/pages/our-work/index.md
   label: Our Work
 - type: directory
   path: src/pages/projects
