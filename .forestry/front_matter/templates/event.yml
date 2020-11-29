@@ -16,6 +16,7 @@ fields:
 - type: file
   name: photo
   label: Add a main photo
+  default: "/img/default-image-1.jpg"
 - type: datetime
   name: date
   label: Date of the event
