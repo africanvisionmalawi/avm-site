@@ -6,15 +6,11 @@ links:
 - url: "./donate/"
   linkTitle: Donate
   linkText: Donate online or download one of our donation forms
-  photo: "/img/cbccs/17-Children-1-with-albinism-eating-their-porridge.jpg"  
-- url: "./garden/"
-  linkTitle: Hampton Court Flower Show 2015 Garden
-  linkText: African Vision Malawi wins Gold at Hampton Court Flower Show
-  photo: "/img/hcfs-6.JPG"  
+  photo: "/img/cbccs/17-Children-1-with-albinism-eating-their-porridge.jpg"
 - url: "./holiday-in-france-for-us/"
   linkTitle: Holiday in France for us
   linkText: More info here
-  photo: "/img/france/France-2.jpg"  
+  photo: "/img/france/France-2.jpg"
 - url: "./thank-yous/"
   linkTitle: Thank Yous
   linkText: More info here
