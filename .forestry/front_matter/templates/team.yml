@@ -23,6 +23,7 @@ fields:
   - type: file
     name: photo
     label: photo
+    default: "/img/user.jpg"
   - type: text
     name: name
     label: name
