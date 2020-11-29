@@ -96,7 +96,7 @@ export const navLinks = [
       },
       {
         name: "Shop online for us",
-        url: "/get-involved/fundraise-with-easy-fundraising/",
+        url: "/get-involved/shop-online-for-us/",
         mobileOnly: false,
       },
       {

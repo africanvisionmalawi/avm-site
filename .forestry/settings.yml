@@ -60,6 +60,9 @@ sections:
   label: Health
   create: all
   match: "**/*"
+- type: document
+  path: src/pages/our-work/index.md
+  label: Our Work
 - type: directory
   path: src/pages/projects
   label: Projects
@@ -79,6 +82,8 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_env:
+  - GATSBY_WEBPACK_PUBLICPATH=/
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:10

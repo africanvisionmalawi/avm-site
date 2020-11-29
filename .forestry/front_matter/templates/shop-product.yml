@@ -21,6 +21,7 @@ fields:
 - type: file
   name: productImage
   label: productImage
+  default: "/img/default-image-1.jpg"
 - type: text
   name: description
   label: description

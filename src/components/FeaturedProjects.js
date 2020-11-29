@@ -7,40 +7,40 @@ const projects = [
   {
     id: "village",
     name: "Sam's Village",
-    src: "/projects/sams-village/"
+    src: "/projects/sams-village/",
   },
   {
     id: "water",
     name: "Water",
-    src: "/water/"
+    src: "/water/",
   },
   {
     id: "health",
     name: "Health",
-    src: "/health/"
+    src: "/health/",
   },
   {
     id: "education",
     name: "Education",
-    src: "/education/"
+    src: "/education/",
   },
   {
     id: "environment",
     name: "Environment",
-    src: "/environment/"
+    src: "/environment/",
   },
   {
     id: "celebrate",
     name: "Celebrate & Give",
-    src: "/celebrate-and-give/"
-  }
+    src: "/celebrate-and-give/",
+  },
 ];
 
 const FeaturedProjects = ({ currentProject, displayHeading }) => (
   <div className={projectLinkStyles.featuredProjectsCont}>
-    {displayHeading === true ? <h3>Featured projects</h3> : ""}
+    {displayHeading === true ? <h3>Our work</h3> : ""}
     <ul className={projectLinkStyles.featuredProjects}>
-      {projects.map(project => (
+      {projects.map((project) => (
         <li
           className={
             project.id === currentProject ? projectLinkStyles.active : ``
@@ -56,7 +56,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => (
 
 FeaturedProjects.propTypes = {
   currentProject: PropTypes.string,
-  displayHeading: PropTypes.bool
+  displayHeading: PropTypes.bool,
 };
 
 export default FeaturedProjects;
