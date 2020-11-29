@@ -78,5 +78,6 @@ fields:
   name: tags
   label: tags
 pages:
+- src/pages/events/hampton-court-flower-show-2015-garden.md
 - src/pages/events/landirani-live-fundraiser.md
 - src/pages/events/positive-change-exhibition-jan-2020.md
