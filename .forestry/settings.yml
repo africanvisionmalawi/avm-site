@@ -60,6 +60,10 @@ sections:
   label: Health
   create: all
   match: "**/*"
+- type: document
+  path: our-work
+  label: Our Work
+  match: "**/*"
 - type: directory
   path: src/pages/projects
   label: Projects
