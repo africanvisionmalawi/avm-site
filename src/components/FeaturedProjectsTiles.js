@@ -52,7 +52,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
   return (
     <Container>
       <TileCont>
-        {displayHeading === true ? <Heading>Featured projects</Heading> : ""}
+        {displayHeading === true ? <Heading>Our work</Heading> : ""}
         <Flex wrap="wrap" className={projectLinkStyles.featuredProjects}>
           {projects.map((project) => (
             <Tile
@@ -60,7 +60,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
                 project.id === currentProject ? projectLinkStyles.active : ``
               }
               width={[project.colWidth.base, project.colWidth.md]}
-              key={project.id}              
+              key={project.id}
             >
               <TileLink to={project.src}>
                 <Overlay>
@@ -105,8 +105,8 @@ const projects = [
     imageIdDesktop: "PhotoVillageDesktop",
     imageIdMobile: "PhotoVillageMobile",
     colWidth: {
-      base: '100%', 
-      md: '100%'
+      base: "100%",
+      md: "100%",
     },
     hasMobileImage: true,
   },
@@ -114,10 +114,10 @@ const projects = [
     id: "water",
     name: "Water",
     src: "/water/",
-    imageId: "PhotoWater",    
+    imageId: "PhotoWater",
     colWidth: {
-      base: '100%', 
-      md: '50%'
+      base: "100%",
+      md: "50%",
     },
     hasMobileImage: false,
   },
@@ -127,8 +127,8 @@ const projects = [
     src: "/health/",
     imageId: "PhotoHealth",
     colWidth: {
-      base: '100%', 
-      md: '50%'
+      base: "100%",
+      md: "50%",
     },
     hasMobileImage: false,
   },
@@ -139,8 +139,8 @@ const projects = [
     imageIdDesktop: "PhotoEducationDesktop",
     imageIdMobile: "PhotoEducationMobile",
     colWidth: {
-      base: '100%', 
-      md: '100%'
+      base: "100%",
+      md: "100%",
     },
     hasMobileImage: true,
   },
@@ -150,8 +150,8 @@ const projects = [
     src: "/environment/",
     imageId: "PhotoEnvironment",
     colWidth: {
-      base: '100%', 
-      md: '50%'
+      base: "100%",
+      md: "50%",
     },
     hasMobileImage: false,
   },
@@ -161,8 +161,8 @@ const projects = [
     src: "/celebrate-and-give/",
     imageId: "PhotoCelebrate",
     colWidth: {
-      base: '100%', 
-      md: '50%'
+      base: "100%",
+      md: "50%",
     },
     hasMobileImage: false,
   },
