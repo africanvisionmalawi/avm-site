@@ -29,9 +29,7 @@ ourWork:
   url: "/water/"
   imageId: ""
   photo: "/img/mainphoto_water.jpg"
-  excerpt: |-
-  Today, many of Malawi’s poorest and most marginalised people don’t have clean water to drink, decent toilets or good hygiene. Without these basics, we cannot begin to help them with better education, health and self-sufficiency.
-  45,000 people in our area need clean, safe water. With your help we can ensure that everyone in our area has access to clean, safe water.
+  excerpt: Today, many of Malawi’s poorest and most marginalised people don’t have clean water to drink, decent toilets or good hygiene. Without these basics, we cannot begin to help them with better education, health and self-sufficiency. 45,000 people in our area need clean, safe water. With your help we can ensure that everyone in our area has access to clean, safe water.
   featured: false
 - id: environment
   name: Environment
