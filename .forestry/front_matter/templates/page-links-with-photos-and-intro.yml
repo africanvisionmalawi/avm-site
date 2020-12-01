@@ -38,3 +38,5 @@ fields:
     schema:
       format: markdown
   label: Intro text
+pages:
+- src/pages/get-involved/thank-yous/index.md

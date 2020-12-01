@@ -17,11 +17,11 @@ fields:
   label: links
   fields:
   - type: text
-    name: url
-    label: url
-  - type: text
     name: linkTitle
     label: linkTitle
+  - type: text
+    name: url
+    label: url
   - type: text
     name: linkText
     label: linkText
