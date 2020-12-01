@@ -50,7 +50,7 @@ const FooterSocial = styled.div`
 
 const CartLink = styled.span`
   cursor: pointer;
-`
+`;
 
 const Footer = () => (
   <footer className={footerStyles.footer} role="contentinfo">
@@ -64,7 +64,7 @@ const Footer = () => (
               <h3>Featured Projects</h3>
               <ul className={footerStyles.list}>
                 <li>
-                  <Link to="/projects/sams-village/">Sam's Village</Link>
+                  <Link to="/sams-village/">Sam's Village</Link>
                 </li>
                 <li>
                   <Link to="/water/">Water</Link>
@@ -119,8 +119,10 @@ const Footer = () => (
                   <a href="/shop/">View all products</a>
                 </li>
                 <li>
-                  <CartLink className="snipcart-summary snipcart-checkout">View cart</CartLink>
-                </li>                
+                  <CartLink className="snipcart-summary snipcart-checkout">
+                    View cart
+                  </CartLink>
+                </li>
               </ul>
             </FooterCol>
           </FooterRow>

@@ -1,4 +1,5 @@
 ## education
+
 /education/
 /projects/feeding-programme-in-schools/
 /projects/building-a-school-at-masiye/
@@ -10,6 +11,7 @@
 /projects/secondary-school-sponsorship/
 
 ## health
+
 /health/
 /health/safe-motherhood/
 /health/hivaids/
@@ -20,30 +22,34 @@
 /projects/bicycle-ambulances/
 
 ## Water
+
 /water/
 /water/sanitation/
 /water/water-boreholes/
 
 ## Projects
+
 /projects/
 /projects/water-and-sanitation/
 /projects/funsani-rammed-earth-community-based-childcare-centre-cbcc/
 /projects/distributions/
 
 ## Sams Village
-/projects/sams-village/
-/projects/sams-village/training-programme/
-/projects/sams-village/water-boreholes/
-/projects/sams-village/training-programme/christmas-appeal-to-complete-sams-village/
-/projects/sams-village/njewa-new-office/
-/projects/sams-village/njewa-new-office/rammed-earth-building/
-/projects/sams-village/permaculture/
-/projects/sams-village/library/
+
+/sams-village/
+/sams-village/training-programme/
+/sams-village/water-boreholes/
+/sams-village/training-programme/christmas-appeal-to-complete-sams-village/
+/sams-village/njewa-new-office/
+/sams-village/njewa-new-office/rammed-earth-building/
+/sams-village/permaculture/
+/sams-village/library/
 /projects/project4africa/
-/projects/sams-village/building-programme/
-/projects/sams-village/biogas/
+/sams-village/building-programme/
+/sams-village/biogas/
 
 ## get involved
+
 /get-involved/
 /get-involved/volunteering/volunteering-for-african-vision-malawi/
 /get-involved/vacancies/
@@ -61,6 +67,7 @@
 /get-involved/bt-mydonate/
 
 ## environment
+
 /environment/
 /environment/reforestation/
 /environment/orphan-vegetable-gardens/
@@ -70,6 +77,7 @@
 /environment/fruit-trees/
 
 ## about us
+
 /about-us/where-we-work/
 /about-us/
 /about-us/team/

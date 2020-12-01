@@ -5,7 +5,7 @@ description: Since 2005 African Vision Malawi has been helping children and vuln
 ourWork:
   - id: village
     name: Sam's Village
-    url: "/projects/sams-village/"
+    url: "/sams-village/"
     imageId: PhotoVillage
     photo: "/img/mainphoto_village-ver3.jpg"
     featured: true
