@@ -26,6 +26,7 @@
     "gatsby-plugin-google-fonts": "^0.0.4",
     "gatsby-plugin-linaria": "^2.0.0",
     "gatsby-plugin-netlify": "^2.3.7",
+    "gatsby-plugin-netlify-cms": "^4.5.0",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.0.4",
     "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
@@ -47,6 +48,7 @@
     "linaria": "^1.4.0-beta.3",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
+    "netlify-cms-app": "^2.14.3",
     "node-sass": "^4.11.0",
     "parcel-bundler": "^1.9.4",
     "prop-types": "^15.6.0",
@@ -77,11 +79,10 @@
     "build": "npm run clean && gatsby build --log-pages",
     "develop": "npm run clean && gatsby develop",
     "serve": "gatsby serve",
-    "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0",
+    "forestry:preview": "gatsby develop -H 0.0.0.0 -p 8080",
     "forestry:publish": "gatsby build --prefix-paths",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "forestry:preview": "gatsby develop -H 0.0.0.0 -p 8080"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@bundle-analyzer/gatsby-plugin": "^0.5.1",
