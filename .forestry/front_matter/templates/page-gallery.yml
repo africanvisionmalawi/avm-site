@@ -2,31 +2,28 @@
 label: page-gallery
 hide_body: false
 fields:
+- type: text
+  name: templateKey
+  label: templateKey
+  hidden: true
+  default: page-gallery
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: field_group_list
+  name: gallery
+  label: gallery
+  fields:
   - type: text
-    name: templateKey
-    label: templateKey
-    hidden: true
-    default: page-gallery
-  - type: text
-    name: title
-    label: title
-  - type: textarea
-    name: description
-    label: description
-  - type: field_group_list
-    name: gallery
-    label: gallery
-    fields:
-      - type: text
-        name: alt
-        label: alt
-      - type: file
-        name: photo
-        label: photo
+    name: alt
+    label: alt
+  - type: file
+    name: photo
+    label: photo
 pages:
-  - src/pages/environment/groundnut-farming/index.md
-  - src/pages/environment/kafutwe-food-mill/index.md
-  - src/pages/projects/funsani-rammed-earth-community-based-childcare-centre-cbcc/index.md
-  - src/pages/projects/maternity-unit/index.md
-  - src/pages/sams-village/njewa-new-office/rammed-earth-building/index.md
-  - src/pages/sams-village/training-programme/index.md
+- src/pages/environment/groundnut-farming/index.md
+- src/pages/environment/kafutwe-food-mill/index.md
+- src/pages/projects/funsani-rammed-earth-community-based-childcare-centre-cbcc/index.md
