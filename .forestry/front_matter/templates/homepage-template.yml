@@ -44,5 +44,3 @@ fields:
     name: featured
     label: featured
     hidden: true
-pages:
-- src/pages/index.md
