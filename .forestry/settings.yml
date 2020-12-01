@@ -42,9 +42,11 @@ sections:
 - type: document
   path: src/pages/celebrate-and-give/index.md
   label: Celebrate and Give
-- type: document
-  path: src/pages/education/index.md
+- type: directory
+  path: src/pages/education
   label: Education
+  create: all
+  match: "**/*"
 - type: directory
   path: src/pages/environment
   label: Environment

@@ -70,7 +70,7 @@ const projects = [
   {
     id: "village",
     name: "Sam's Village",
-    src: "/projects/sams-village/",
+    src: "/sams-village/",
     imageId: "PhotoVillage",
     colWidth: {
       xs: 24,

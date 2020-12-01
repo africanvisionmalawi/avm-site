@@ -32,25 +32,25 @@ const HomepageProjects = ({ currentProject, displayHeading }) => {
           <ProjectRow className={project.layout} key={project.id}>
             <Tile xs={project.colWidth.xs} sm={project.colWidth.sm}>
               <TileLink to={project.src}>
-              {project.imageId &&
-                <Img
-                  fluid={
-                    project.hasMobileImage === true
-                      ? [
-                          featuredImage[project.imageIdMobile].childImageSharp
-                            .fluid,
-                          {
-                            ...featuredImage[project.imageIdDesktop]
-                              .childImageSharp.fluid,
-                            media: `(min-width: 576px)`,
-                          },
-                        ]
-                      : featuredImage[project.imageId].childImageSharp.fluid
-                  }
-                  alt=""
-                  imgStyle={{ objectFit: "contain" }}
-                />
-              }
+                {project.imageId && (
+                  <Img
+                    fluid={
+                      project.hasMobileImage === true
+                        ? [
+                            featuredImage[project.imageIdMobile].childImageSharp
+                              .fluid,
+                            {
+                              ...featuredImage[project.imageIdDesktop]
+                                .childImageSharp.fluid,
+                              media: `(min-width: 576px)`,
+                            },
+                          ]
+                        : featuredImage[project.imageId].childImageSharp.fluid
+                    }
+                    alt=""
+                    imgStyle={{ objectFit: "contain" }}
+                  />
+                )}
               </TileLink>
             </Tile>
             <Excerpt xs={24} sm={14}>
@@ -69,7 +69,7 @@ const projects = [
   {
     id: "village",
     name: "Sam's Village",
-    src: "/projects/sams-village/",
+    src: "/sams-village/",
     imageId: "PhotoVillage",
     colWidth: {
       xs: 24,
