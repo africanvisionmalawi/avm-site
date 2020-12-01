@@ -31,4 +31,4 @@ We will send you a gift card which you can personalise and pass on as your prese
 
 When you donate, please mention ‘Sam’s Village gift card’ in your message and of course your address.
 
-[READ ABOUT SAM’S VILLAGE](http://www.africanvision.org.uk/sams-village/)
+[READ ABOUT SAM’S VILLAGE](https://www.africanvision.org.uk/sams-village/)

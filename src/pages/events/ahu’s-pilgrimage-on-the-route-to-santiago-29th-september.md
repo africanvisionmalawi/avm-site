@@ -17,9 +17,9 @@ contact: none
 telephone: 0
 cost: 0
 url: >-
-  http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf
+  https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf
 tags:
   - events
 ---
 
-Ahu is walking 111km over 5 days to support us. Please support her and read about her [amazing pilgrimage here …](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf)
+Ahu is walking 111km over 5 days to support us. Please support her and read about her [amazing pilgrimage here …](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf)
