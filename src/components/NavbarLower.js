@@ -39,7 +39,10 @@ const Section = styled.div`
 // `;
 
 const NavbarLower = (props) => {
-  return <Section>{props.path && <Breadcrumbs path={props.path} />}</Section>;
+  if (props && props.path) {
+    return <Section>{props.path && <Breadcrumbs path={props.path} />}</Section>;
+  }
+  return <Section>...</Section>;
 };
 
 export default NavbarLower;
