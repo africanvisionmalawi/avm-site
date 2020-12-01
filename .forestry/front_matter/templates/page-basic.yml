@@ -2,42 +2,31 @@
 label: page-basic
 hide_body: false
 fields:
-  - type: text
-    name: templateKey
-    label: templateKey
-    hidden: true
-    default: page-basic
-  - type: text
-    name: title
-    label: title
-  - name: description
-    type: text
-    config:
-      required: false
-    label: Description
-    default: African Vision Malawi
+- type: text
+  name: templateKey
+  label: templateKey
+  hidden: true
+  default: page-basic
+- type: text
+  name: title
+  label: title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  default: African Vision Malawi
 pages:
-  - src/pages/about-us/african-vision-malawi-our-new-name/index.md
-  - src/pages/about-us/where-we-work/index.md
-  - src/pages/environment/fruit-trees/index.md
-  - src/pages/environment/fuel-saving-stoves/index.md
-  - src/pages/environment/orphan-vegetable-gardens/index.md
-  - src/pages/environment/reforestation/index.md
-  - src/pages/health/a-child-is-born/index.md
-  - src/pages/health/disability/index.md
-  - src/pages/health/good-nutrition/index.md
-  - src/pages/health/hivaids/index.md
-  - src/pages/health/safe-motherhood/index.md
-  - src/pages/projects/bicycle-ambulances/index.md
-  - src/pages/projects/community-based-childcare-centres-cbccs/index.md
-  - src/pages/projects/distributions/index.md
-  - src/pages/projects/feeding-programme-in-schools/index.md
-  - src/pages/projects/project4africa/index.md
-  - src/pages/sams-village/biogas/index.md
-  - src/pages/sams-village/building-programme/index.md
-  - src/pages/sams-village/library/index.md
-  - src/pages/sams-village/njewa-new-office/index.md
-  - src/pages/sams-village/permaculture/index.md
-  - src/pages/projects/water-and-sanitation/index.md
-  - src/pages/projects/water-boreholes/index.md
-  - src/pages/water/sanitation/index.md
+- src/pages/about-us/african-vision-malawi-our-new-name/index.md
+- src/pages/about-us/where-we-work/index.md
+- src/pages/environment/fruit-trees/index.md
+- src/pages/environment/fuel-saving-stoves/index.md
+- src/pages/environment/orphan-vegetable-gardens/index.md
+- src/pages/environment/reforestation/index.md
+- src/pages/health/a-child-is-born/index.md
+- src/pages/health/disability/index.md
+- src/pages/health/good-nutrition/index.md
+- src/pages/health/hivaids/index.md
+- src/pages/health/safe-motherhood/index.md
+- src/pages/projects/project4africa/index.md
+- src/pages/water/sanitation/index.md
