@@ -24,8 +24,7 @@ ourWork:
   excerpt: Over 10% of children don't reach their 5th birthday with half of deaths
     due to malaria. In 2021 we want to build a Safe Motherhood Unit for new mothers
     at the Maternity Unit. The waiting home will provide nutritional training to mothers
-    in attendance as well as resolve complications which emerge in the latter stages
-    of pregnancy.
+    as well as resolve complications which emerge in the latter stages of pregnancy.
 - id: education
   name: Education
   url: "/education/"
