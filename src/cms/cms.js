@@ -7,7 +7,7 @@ import CMS from "netlify-cms-app";
 // import ProductPagePreview from "./preview-templates/ProductPagePreview";
 // import IndexPagePreview from "./preview-templates/IndexPagePreview";
 
-import TeamPagePreview from "./preview-templates/TeamPagePreview";
+import AboutTeamPreview from "./preview-templates/TeamPagePreview";
 
 // CMS.registerMediaLibrary(uploadcare);
 // CMS.registerMediaLibrary(cloudinary);
