@@ -49,7 +49,8 @@ ourWork:
   imageId: ''
   photo: "/img/mainphoto_environment.jpg"
   featured: false
-  excerpt: We all know our immune systems depend on good nutrition.
+  excerpt: All our buildings are earth-built run on solar with boreholes. We care
+    passionately about the environment offering ecological training at Sam's Village.
 - id: celebrateandgive
   name: Celebrate & Give
   url: "/celebrate-and-give/"
