@@ -57,7 +57,8 @@ ourWork:
   imageId: ''
   photo: "/img/mainphoto_celebrate.jpg"
   featured: false
-  excerpt: Most fundraising comes from personal donations.
+  excerpt: Most of our income comes from personal donations and generous legacies.
+    We have many fundraising activities throughout the year both in the UK and Malawi.
 
 ---
 We work with and through communities to develop long-term and sustainable solutions to the welfare of orphans and vulnerable people in four key areas: self-sufficiency, health, education and water and sanitation. Additionally we are passionate about the environment, paying close attention to ecological building, reforestation and permaculture.
