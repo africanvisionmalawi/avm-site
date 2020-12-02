@@ -11,8 +11,10 @@ ourWork:
   imageId: PhotoVillage
   photo: "/img/mainphoto_village-ver3.jpg"
   featured: true
-  excerpt: Sam’s Training Village is a self-sustaining training village, built on
-    a 17-acre site.
+  excerpt: 'Sam’s Training Village is a self-sustaining training village, built on
+    a 17-acre site. We believe Sam’s Village will become a best-practice example for
+    Malawi (and in time other parts of Africa) of how to encourage and develop sustainable,
+    forward looking and skilled communities. '
 - id: health
   name: Health
   url: "/health/"
