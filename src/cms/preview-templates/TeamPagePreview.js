@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 import { TeamTemplate } from "../../templates/about-team";
 
-const TeamPagePreview = ({ entry, widgetFor }) => (
+const AboutTeamPreview = ({ entry, widgetFor }) => (
   <TeamTemplate
     title={entry.getIn(["data", "title"])}
     content={widgetFor("body")}
@@ -23,4 +23,4 @@ const TeamPagePreview = ({ entry, widgetFor }) => (
 //   widgetFor: PropTypes.func,
 // };
 
-export default TeamPagePreview;
+export default AboutTeamPreview;

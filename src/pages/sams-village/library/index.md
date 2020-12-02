@@ -3,15 +3,11 @@ templateKey: page-basic
 title: Library
 headerImage: "/img/chemex.jpg"
 description: African Vision Malawi
-
----
-The Community Library at Sam’s Village in Lilongwe rural North-West, was officially opened to the public on 1st February 2017. This means that the communities around the 400 km2 of Traditional Authorities M’bang’ombe, Mtema, Chitukula, Kayembe (Dowa district) and Mkukula (Dowa district) can fully access diverse books for their knowledge and personal development. More information about the opening event [here](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2015/11/REPORT-ON-OPENING-LIBRARY-010217.pdf)
+---The Community Library at Sam’s Village in Lilongwe rural North-West, was officially opened to the public on 1st February 2017. This means that the communities around the 400 km2 of Traditional Authorities M’bang’ombe, Mtema, Chitukula, Kayembe (Dowa district) and Mkukula (Dowa district) can fully access diverse books for their knowledge and personal development. More information about the opening event [here](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2015/11/REPORT-ON-OPENING-LIBRARY-010217.pdf)
 
 ![Library opening](/img/report-on-opening-library-2-010217.jpg "Library opening")
 
 ![Library opening](/img/report-on-opening-library-010217.jpg "Library opening")
-
-
 
 The Library at Sam’s Village is open to the public – all day Monday to Friday and Saturday mornings. The Library is in Chigonti village, opposite M’teza School. It is near M’bang’ombe trading centre, on the road from Kamuzu International Airport.
 
@@ -47,10 +43,7 @@ When we spoke to him Andrew was reading Contemporary English Grammar by Jayanthi
 
 Jennie Hawley, a volunteer from London UK, has been doing tremendous work forming **reading groups** with primary school learners, as shown in the pictures, as well as secondary school students. In the picture above they are reading the following children books: Hairy Maclary’s Showbusiness by Iynley Dodd, Why is the Sky Blue by Sally Grindley and Susan Varley and Diego’s Safari Rescue. The picture below shows Jennie helping children how to find words in a childrens dictionary.
 
-
 ![Looking up words in a dictionary](/img/jennie-hawley-and-literacy-1.jpg "Looking up words in a dictionary")
-
-
 
 After school reading group activities are a step towards educating both students and communities on how to use the library and improving research skills, especially for learners. Above all, encouraging the reading culture because most students in Malawi read academic books mostly based on the curriculum which will be examined.
 
@@ -59,8 +52,6 @@ After school reading group activities are a step towards educating both students
 **Violet Chaza** (left) and her sister **Prisca** (right) are both secondary school students. Violet is in form 3 at Bzyanzi Secondary and Prisca is in form 2 at Chitukula Community Day Secondary School. Violet and Prisca are studying Biology and Life Skills respectively in the photo, for their secondary school curriculums.
 
 ![Loness Eliya, photo taken at her college campus in Blantyre](/img/loness-eliya-2.jpg "Loness Eliya, photo taken at her college campus in Blantyre")
-
-
 
 **Loness Eliya**, another scholarship beneficiary, is now doing her 2rd year at Kamuzu College of Nursing, studying Nursing and Midwifery under the umbrella of University of Malawi. During university holidays, Loness assists in teaching children at Community Based Child Care Centre (CBCC) within Sam’s Village premises, where M’teza library is. After teaching the children she goes to assist librarians where needed and has her own time to study.
 
