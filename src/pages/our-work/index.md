@@ -31,10 +31,10 @@ ourWork:
   imageId: PhotoEducation
   photo: "/img/mainphoto_education.jpg"
   featured: true
-  excerpt: We have setup 12 Community Based Childcare Centres supporting the under-5's
+  excerpt: 'We have setup 12 Community Based Childcare Centres supporting the under-5''s
     and we support pupils in Primary, Secondary and University/Further Education.
-    We typically support 40 secondary school and 20 university students at any given
-    time. We partner with 22 UK schools at present.
+    We work with 20 Malawian schools who are linked with 22 UK schools. We financially
+    support 40 secondary school and 20 university students at any given time. '
 - id: waterandsanitation
   name: Water & Sanitation
   url: "/water/"
