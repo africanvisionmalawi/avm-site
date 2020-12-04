@@ -24,7 +24,7 @@ links:
   - linkTitle: Love Support Unite
     photo: "/img/thankyous/love-support-unite.jpg"
     url: https://lovesupportunite.org/
-    featured: false
+    featured: true
     order:
     linkText:
       We work hand-in-hand with LSU. They are wonderful organisation working
@@ -142,8 +142,9 @@ links:
     linkText: ""
     featured: false
     order:
-body: ""
----This page celebrates the friends of African Vision Malawi who have been kind enough to support us in activities in the UK and Malawi. The number of people who help us is growing all the time!
+---
+
+This page celebrates the friends of African Vision Malawi who have been kind enough to support us in activities in the UK and Malawi. The number of people who help us is growing all the time!
 
 We would like to thank:
 
