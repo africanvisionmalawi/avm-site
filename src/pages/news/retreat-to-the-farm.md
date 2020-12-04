@@ -14,7 +14,9 @@ tags:
   - meditation
   - france
   - retreat
----2020 brings another year of wonderful retreats in the heart of the Loire Valley. Choose your week … Yoga; Mindfulness; Breakthrough to Zen; Recharge and Unwind; Reconnect, Rewild, Restore … or try more than one!
+---
+
+2020 brings another year of wonderful retreats in the heart of the Loire Valley. Choose your week … Yoga; Mindfulness; Breakthrough to Zen; Recharge and Unwind; Reconnect, Rewild, Restore … or try more than one!
 
 20% of the income goes to support the orphan and vulnerable children of Malawi, so do please support Sam in these very popular retreats and have a wonderful treat for yourself!
 
