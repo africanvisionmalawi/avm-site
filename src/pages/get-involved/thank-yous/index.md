@@ -60,7 +60,7 @@ links:
 - linkTitle: Thompson & Morgan
   photo: "/img/thankyous/thompson-morgan-logo.jpg"
   url: https://www.thompson-morgan.com
-  featured: true
+  featured: false
   order: 
   linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
     perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
