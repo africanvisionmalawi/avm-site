@@ -50,7 +50,7 @@ links:
     also lose their livelihoods, homes or families.
 - linkTitle: Project4Africa
   featured: true
-  linkText: have funded on a number of projects including 2 school blocks at Namanyanga
+  linkText: have funded  a number of projects including 2 school blocks at Namanyanga
     (in the north-east of our area) and a Maternity Unit in M'Bang'ombe.
   url: ''
   photo: "/img/project4africa.jpg"
