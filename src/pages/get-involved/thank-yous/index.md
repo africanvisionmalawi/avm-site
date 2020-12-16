@@ -85,13 +85,6 @@ links:
   linkText: "(web design & development)"
   featured: false
   order: 
-- linkTitle: All Saints Knitters
-  photo: "/img/malawi-2016-149.JPG"
-  url: https://www.allsaintskingston.co.uk/about-us/community
-  linkText: meet in Kingston every Tuesday and provide knitted blankets and clothing
-    for orphans in our area.
-  featured: false
-  order: 
 - linkTitle: FOMA (Friends of Malawi Association)
   photo: "/img/maize-mill.jpg"
   url: https://www.foma.org.uk/
