@@ -16,7 +16,7 @@ links:
   linkText: have funds on a number of projects including 2 school blocks at Namanyanga
     (in the north-east of our area) and a Maternity Unit in M'Bang'ombe.
   url: ''
-  photo: ''
+  photo: "/img/project4africa.jpg"
 - linkTitle: UNESCO
   featured: true
   linkText: Since 2018 we have been an International Partner with UNESCO who have
