@@ -16,10 +16,11 @@ links:
   url: https://www.500miles.co.uk/
   featured: true
   order: 
-  linkText: supports the development and delivery of prosthetic and orthotic services
-    in Malawi and Zambia. They help people in our community with impaired mobility
-    of all kinds to get moving, as well and as independently as possible, by helping
-    them to get access to and to be able to afford prostheses and orthoses.
+  linkText: helps people in our community with impaired mobility of all kinds to get
+    moving, as well and as independently as possible, by helping them to get access
+    to prostheses and orthoses. When people are born with deformities, lose their
+    limbs or the use of their limbs due to accident, disease or poverty, many of them
+    also lose their livelihoods, homes or families.
 - linkTitle: Love Support Unite
   photo: "/img/thankyous/love-support-unite.jpg"
   url: https://lovesupportunite.org/
