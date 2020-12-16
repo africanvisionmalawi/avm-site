@@ -16,19 +16,18 @@ links:
   url: https://www.500miles.co.uk/
   featured: true
   order: 
-  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
-    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
-    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
-    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
+  linkText: supports the development and delivery of prosthetic and orthotic services
+    in Malawi and Zambia. They help people in our community with impaired mobility
+    of all kinds to get moving, as well and as independently as possible, by helping
+    them to get access to and to be able to afford prostheses and orthoses.
 - linkTitle: Love Support Unite
   photo: "/img/thankyous/love-support-unite.jpg"
   url: https://lovesupportunite.org/
   featured: true
   order: 
-  linkText: We work hand-in-hand with LSU. They are wonderful organisation working
-    in the same area as us, empowering communities to become self-sufficient. Since
-    2019, we have been working together as one organisation in Malawi, merging the
-    staff into one team.
+  linkText: is a key partner of AVM. They are wonderful organisation working in the
+    same area as us, empowering communities to become self-sufficient. Since 2019,
+    we have teamed up as one organisation in Malawi, merging the staff together.
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
@@ -39,15 +38,15 @@ links:
     in short-term voluntary projects including the library at Sam''s Village. Most
     of their projects focus around the construction of schools, medical centres and
     other practical buildings to benefit developing communities. '
-- linkTitle: Child.org
-  photo: "/img/thankyous/childorg.jpg"
-  url: https://child.org/
-  linkText: ''
-  featured: false
-  order: 
 - linkTitle: the corner house
   photo: "/img/thankyous/corner-house.jpg"
   url: https://www.thecornerhouse.org/
+  linkText: ''
+  featured: true
+  order: 
+- linkTitle: Child.org
+  photo: "/img/thankyous/childorg.jpg"
+  url: https://child.org/
   linkText: ''
   featured: false
   order: 
