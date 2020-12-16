@@ -69,11 +69,8 @@ links:
 - linkTitle: The cornerHOUSE
   photo: "/img/thankyous/corner-house.jpg"
   url: https://www.thecornerhouse.org/
-  linkText: " is a community arts centre which showcases a wide range of drama, dance
-    and music from visiting professional companies to that of its own in-house groups.
-    It is run entirely by volunteers. The cornerHOUSE is very supportive of AVM and
-    provides us with many opportunities for fundraising, photographic exhibitions
-    and events."
+  linkText: " is a community arts centre who are very supportive for fundraising,
+    photographic exhibitions and events."
   featured: false
   order: 
 - linkTitle: Nigel Bunner
