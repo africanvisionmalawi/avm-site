@@ -11,12 +11,6 @@ displayOptions:
 title: Thank yous
 description: People who have generously supported us
 links:
-- linkTitle: Project4Africa
-  featured: true
-  linkText: have funds on a number of projects including 2 school blocks at Namanyanga
-    (in the north-east of our area) and a Maternity Unit in M'Bang'ombe.
-  url: ''
-  photo: "/img/project4africa.jpg"
 - linkTitle: UNESCO
   featured: true
   linkText: Since 2018 we have been an International Partner with UNESCO who have
@@ -54,6 +48,12 @@ links:
     to prostheses and orthoses. When people are born with deformities, lose their
     limbs or the use of their limbs due to accident, disease or poverty, many of them
     also lose their livelihoods, homes or families.
+- linkTitle: Project4Africa
+  featured: true
+  linkText: have funds on a number of projects including 2 school blocks at Namanyanga
+    (in the north-east of our area) and a Maternity Unit in M'Bang'ombe.
+  url: ''
+  photo: "/img/project4africa.jpg"
 - linkTitle: Think Malawi
   photo: "/img/think-malawi.jpg"
   url: https://www.thinkmalawi.org/
@@ -65,7 +65,7 @@ links:
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
-  featured: true
+  featured: false
   order: 
   linkText: 'is a small, friendly and well-established UK charity. They provide volunteers
     from the UK and elsewhere to participate in short-term voluntary projects including
