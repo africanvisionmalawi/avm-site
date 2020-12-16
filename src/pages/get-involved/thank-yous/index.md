@@ -30,6 +30,11 @@ links:
     and resources such as clean water and energy these projects aim to break reliance
     on aid and disrupt the cycle of poverty through sustainability. Since 2019, we
     have teamed up as one organisation in Malawi, merging the staff together.
+- linkTitle: ''
+  featured: false
+  linkText: ''
+  url: ''
+  photo: ''
 - linkTitle: 500 Miles
   photo: "/img/photofunny.jpg"
   url: https://www.500miles.co.uk/
@@ -40,6 +45,14 @@ links:
     to prostheses and orthoses. When people are born with deformities, lose their
     limbs or the use of their limbs due to accident, disease or poverty, many of them
     also lose their livelihoods, homes or families.
+- linkTitle: Think Malawi
+  photo: "/img/think-malawi.jpg"
+  url: https://www.thinkmalawi.org/
+  linkText: are a UK based charity who support educational projects in Malawi. Since
+    2019 we have been running a program with them called Girls Education Matters,
+    providing 'girls' packs' and washrooms.
+  featured: true
+  order: 
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
@@ -58,15 +71,7 @@ links:
     It is run entirely by volunteers. The cornerHOUSE is very supportive of AVM and
     provides us with many opportunities for fundraising, photographic exhibitions
     and events."
-  featured: true
-  order: 
-- linkTitle: Think Malawi
-  photo: "/img/think-malawi.jpg"
-  url: https://www.thinkmalawi.org/
-  linkText: are a UK based charity who support educational projects in Malawi. Since
-    2019 we have been running a program with them called Girls Education Matters,
-    providing 'girls' packs' and washrooms.
-  featured: true
+  featured: false
   order: 
 - linkTitle: Nigel Bunner (web design & development)
   photo: "/img/thankyous/nigel-bunner.jpg"
