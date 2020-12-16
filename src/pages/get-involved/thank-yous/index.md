@@ -38,10 +38,14 @@ links:
     voluntary projects including the library at Sam''s Village. Most of their projects
     focus around the construction of schools, medical centres and other practical
     buildings to benefit developing communities. '
-- linkTitle: the corner house
+- linkTitle: The cornerHOUSE
   photo: "/img/thankyous/corner-house.jpg"
   url: https://www.thecornerhouse.org/
-  linkText: ''
+  linkText: " is a community arts centre which showcases a wide range of drama, dance
+    and music from visiting professional companies to that of its own in-house groups.
+    It is run entirely by volunteers. The cornerHOUSE is very supportive of AVM and
+    provides us with many opportunities for fundraising, photographic exhibitions
+    and events."
   featured: true
   order: 
 - linkTitle: Child.org
