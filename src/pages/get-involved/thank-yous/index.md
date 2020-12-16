@@ -20,16 +20,6 @@ links:
     funded by the European Union (EU) and partially implemented by UNESCO.
   url: https://www.stepmalawi.com/
   photo: "/img/avm-step-logo.JPG"
-- linkTitle: 500 Miles
-  photo: "/img/photofunny.jpg"
-  url: https://www.500miles.co.uk/
-  featured: true
-  order: 
-  linkText: helps people in our community with impaired mobility of all kinds to get
-    moving, as well and as independently as possible, by helping them to get access
-    to prostheses and orthoses. When people are born with deformities, lose their
-    limbs or the use of their limbs due to accident, disease or poverty, many of them
-    also lose their livelihoods, homes or families.
 - linkTitle: Love Support Unite
   photo: "/img/thankyous/love-support-unite.jpg"
   url: https://lovesupportunite.org/
@@ -40,6 +30,16 @@ links:
     and resources such as clean water and energy these projects aim to break reliance
     on aid and disrupt the cycle of poverty through sustainability. Since 2019, we
     have teamed up as one organisation in Malawi, merging the staff together.
+- linkTitle: 500 Miles
+  photo: "/img/photofunny.jpg"
+  url: https://www.500miles.co.uk/
+  featured: true
+  order: 
+  linkText: helps people in our community with impaired mobility of all kinds to get
+    moving, as well and as independently as possible, by helping them to get access
+    to prostheses and orthoses. When people are born with deformities, lose their
+    limbs or the use of their limbs due to accident, disease or poverty, many of them
+    also lose their livelihoods, homes or families.
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
@@ -60,11 +60,13 @@ links:
     and events."
   featured: true
   order: 
-- linkTitle: Child.org
-  photo: "/img/thankyous/childorg.jpg"
+- linkTitle: Think Malawi
+  photo: "/img/think-malawi.jpg"
   url: https://child.org/
-  linkText: ''
-  featured: false
+  linkText: are a UK based charity who support educational projects in Malawi. Since
+    2019 we have been running a program with them called Girls Education |Matters,
+    providing 'girls' packs' and washrooms.
+  featured: true
   order: 
 - linkTitle: Nigel Bunner (web design & development)
   photo: "/img/thankyous/nigel-bunner.jpg"
