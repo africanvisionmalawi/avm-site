@@ -30,11 +30,12 @@ links:
     and resources such as clean water and energy these projects aim to break reliance
     on aid and disrupt the cycle of poverty through sustainability. Since 2019, we
     have teamed up as one organisation in Malawi, merging the staff together.
-- linkTitle: ''
-  featured: false
-  linkText: ''
-  url: ''
-  photo: ''
+- linkTitle: Feed the Children
+  featured: true
+  linkText: has worked with AVM for over 10 years, providing Vitameal, a nutritional
+    porridge to 1000 pre-school children every day!
+  url: https://www.feedthechildren.org/
+  photo: "/img/feed-the-children.jpg"
 - linkTitle: 500 Miles
   photo: "/img/photofunny.jpg"
   url: https://www.500miles.co.uk/
