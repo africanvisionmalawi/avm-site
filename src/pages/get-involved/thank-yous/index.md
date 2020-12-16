@@ -79,8 +79,9 @@ links:
 - linkTitle: Nigel Bunner
   photo: "/img/thankyous/nigel-bunner.jpg"
   url: https://www.nigelbunner.co.uk
-  linkText: "(web design & development)"
-  featured: false
+  linkText: "(web design & development) has supported us since the beginning with
+    new and innovative designs and support. Thank you!"
+  featured: true
   order: 
 - linkTitle: FOMA (Friends of Malawi Association)
   photo: "/img/maize-mill.jpg"
