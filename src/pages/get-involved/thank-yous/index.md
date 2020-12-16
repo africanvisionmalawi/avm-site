@@ -80,9 +80,10 @@ links:
   featured: false
   order: 
 - linkTitle: All Saints Knitters
-  photo: ''
-  url: ''
-  linkText: ''
+  photo: "/img/malawi-2016-149.JPG"
+  url: https://www.allsaintskingston.co.uk/about-us/community
+  linkText: meet in Kingston every Tuesday and provide knitted blankets and clothing
+    for orphans in our area.
   featured: false
   order: 
 - linkTitle: Anna Pearson
