@@ -65,7 +65,7 @@ links:
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
-  featured: true
+  featured: false
   order: 
   linkText: 'provide volunteers from the UK and elsewhere to participate in short-term
     voluntary projects including the library at Sam''s Village. '
