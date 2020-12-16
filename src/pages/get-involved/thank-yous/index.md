@@ -65,13 +65,10 @@ links:
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
-  featured: false
+  featured: true
   order: 
-  linkText: 'is a small, friendly and well-established UK charity. They provide volunteers
-    from the UK and elsewhere to participate in short-term voluntary projects including
-    the library at Sam''s Village. Most of their projects focus around the construction
-    of schools, medical centres and other practical buildings to benefit developing
-    communities. '
+  linkText: 'provide volunteers from the UK and elsewhere to participate in short-term
+    voluntary projects including the library at Sam''s Village. '
 - linkTitle: The cornerHOUSE
   photo: "/img/thankyous/corner-house.jpg"
   url: https://www.thecornerhouse.org/
