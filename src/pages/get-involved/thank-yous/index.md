@@ -86,53 +86,11 @@ links:
     for orphans in our area.
   featured: false
   order: 
-- linkTitle: Anna Pearson
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Bobby Wyeth
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Bob Phillips
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Brian Heywood
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Eileen Speak
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Felix Dyer
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
 - linkTitle: FOMA (Friends of Malawi Association)
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Gaynor Cook
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
+  photo: "/img/maize-mill.jpg"
+  url: https://www.foma.org.uk/
+  linkText: kindly helped fund the provision of a maize mill
+  featured: true
   order: 
 body: ''
 
