@@ -90,7 +90,7 @@ links:
   photo: "/img/maize-mill.jpg"
   url: https://www.foma.org.uk/
   linkText: kindly helped fund the provision of a maize mill
-  featured: true
+  featured: false
   order: 
 body: ''
 
