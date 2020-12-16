@@ -84,7 +84,7 @@ links:
   url: https://www.allsaintskingston.co.uk/about-us/community
   linkText: meet in Kingston every Tuesday and provide knitted blankets and clothing
     for orphans in our area.
-  featured: true
+  featured: false
   order: 
 - linkTitle: Anna Pearson
   photo: ''
