@@ -57,30 +57,9 @@ links:
   linkText: ''
   featured: false
   order: 
-- linkTitle: Fatbrain
-  photo: "/img/thankyous/fat-brain.jpg"
-  url: https://fatbrain.co.uk/
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Thompson & Morgan
-  photo: "/img/thankyous/thompson-morgan-logo.jpg"
-  url: https://www.thompson-morgan.com
-  featured: false
-  order: 
-  linkText: Lorem ipsum dolor sit amet, sea ferri populo noluisse id, in mea nostrum
-    perfecto gubergren, no vix animal omittantur. Ei pri graece quodsi placerat, est
-    at exerci tincidunt appellantur. Mei mutat melius denique ad. Minim error ea has,
-    mei vivendum tacimates invenire te, eirmod noluisse efficiendi te his.
 - linkTitle: Nigel Bunner (web design & development)
   photo: "/img/thankyous/nigel-bunner.jpg"
   url: https://www.nigelbunner.co.uk
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Alex Walker
-  photo: ''
-  url: ''
   linkText: ''
   featured: false
   order: 
