@@ -62,9 +62,9 @@ links:
   order: 
 - linkTitle: Think Malawi
   photo: "/img/think-malawi.jpg"
-  url: https://child.org/
+  url: https://www.thinkmalawi.org/
   linkText: are a UK based charity who support educational projects in Malawi. Since
-    2019 we have been running a program with them called Girls Education |Matters,
+    2019 we have been running a program with them called Girls Education Matters,
     providing 'girls' packs' and washrooms.
   featured: true
   order: 
