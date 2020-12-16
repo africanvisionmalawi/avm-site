@@ -32,8 +32,8 @@ links:
     have teamed up as one organisation in Malawi, merging the staff together.
 - linkTitle: Feed the Children
   featured: true
-  linkText: has worked with AVM for over 10 years, providing Vitameal, a nutritional
-    porridge to 1000 pre-school children every day! Established over 40 years ago,
+  linkText: has worked with AVM for over 10 years, providing Vitameal a nutritional
+    porridge, to 1000 pre-school children every day! Established over 40 years ago,
     Feed the Children is one of the leading anti-hunger organizations, raising awareness
     about childhood hunger to make it a thing of the past.
   url: https://www.feedthechildren.org/
