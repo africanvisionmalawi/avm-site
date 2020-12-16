@@ -76,19 +76,13 @@ links:
     and events."
   featured: false
   order: 
-- linkTitle: Nigel Bunner (web design & development)
+- linkTitle: Nigel Bunner
   photo: "/img/thankyous/nigel-bunner.jpg"
   url: https://www.nigelbunner.co.uk
-  linkText: ''
+  linkText: "(web design & development)"
   featured: false
   order: 
 - linkTitle: All Saints Knitters
-  photo: ''
-  url: ''
-  linkText: ''
-  featured: false
-  order: 
-- linkTitle: Allan and Nesta Ferguson Charitable Trust
   photo: ''
   url: ''
   linkText: ''
