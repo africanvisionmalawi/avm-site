@@ -11,6 +11,15 @@ displayOptions:
 title: Thank yous
 description: People who have generously supported us
 links:
+- linkTitle: UNESCO
+  featured: true
+  linkText: Since 2018 we have been an International Partner with UNESCO who have
+    already provided bursaries to train 216 marginalized people in different vocational
+    skills.  We are specifically focusing on a minimum of 50% women attendance and
+    we follow the STEP programme (Skills and Technical Education Programme) an initiative
+    funded by the European Union (EU) and partially implemented by UNESCO.
+  url: https://www.stepmalawi.com/
+  photo: "/img/avm-step-logo.JPG"
 - linkTitle: 500 Miles
   photo: "/img/photofunny.jpg"
   url: https://www.500miles.co.uk/
