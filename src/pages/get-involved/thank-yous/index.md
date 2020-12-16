@@ -85,7 +85,7 @@ links:
 - linkTitle: FOMA (Friends of Malawi Association)
   photo: "/img/maize-mill.jpg"
   url: https://www.foma.org.uk/
-  linkText: kindly helped fund the provision of a maize mill
+  linkText: kindly helped fund the provision of a maize mill for the local community.
   featured: false
   order: 
 body: ''
