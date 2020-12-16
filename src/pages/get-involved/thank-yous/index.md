@@ -26,8 +26,10 @@ links:
   featured: true
   order: 
   linkText: is a key partner of AVM. They are wonderful organisation working in the
-    same area as us, empowering communities to become self-sufficient. Since 2019,
-    we have teamed up as one organisation in Malawi, merging the staff together.
+    same area as us, empowering communities to become self-sufficient. Using infrastructure
+    and resources such as clean water and energy these projects aim to break reliance
+    on aid and disrupt the cycle of poverty through sustainability. Since 2019, we
+    have teamed up as one organisation in Malawi, merging the staff together.
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo.jpg"
   url: https://www.aidcamps.org/home.aspx
