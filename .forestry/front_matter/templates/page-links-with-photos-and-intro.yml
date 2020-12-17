@@ -20,9 +20,15 @@ fields:
   - type: text
     name: linkTitle
     label: linkTitle
+  - name: featured
+    type: boolean
+    label: Featured
   - type: text
     name: linkText
     label: linkText
+    showOnly:
+      field: featured
+      value: true
   - type: text
     name: url
     label: url

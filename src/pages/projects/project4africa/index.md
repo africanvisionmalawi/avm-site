@@ -5,7 +5,6 @@ description: Project4Africa is a group who raise funds to help various projects 
   Africa.
 
 ---
-
 ![Project4Africa](/img/project4africa/01-project4africa.jpg)
 
 Project4Africa is a group who raise funds to help various projects in Africa. Over the years – since 2009 – we have worked with them on a number of projects.
@@ -14,24 +13,23 @@ Projects carried out together include:
 
 At Namanyanga (in the north-east of our area):
 
-- 2 school blocks
-- a pre-school (Community Based Children’s centre)
-- a teacher’s house
+* 2 school blocks
+* a pre-school (Community Based Children’s centre)
+* a teacher’s house
 
 At M’bang’ombe:
 
-- the Maternity Unit
-- a new roof for the Maternity Unit staff accommodation after it was blown off
+* the Maternity Unit
+* a new roof for the Maternity Unit staff accommodation after it was blown off
 
 In 2015 some of the Project4Africa team made a trip from the UK to Malawi to visit the completed Maternity Unit. In fact, a baby was born while they were there!
 Project4Africa team
 
-
 ![Project4Africa team – Steve, Heather, Liz and Tony](/img/project4africa/02-IMG_8944.jpg)
-*Project4Africa team – Steve, Heather, Liz and Tony*
+_Project4Africa team – Steve, Heather, Liz and Tony_
 
 ![Liz and the new born baby!](/img/project4africa/03-IMG_9082.jpg)
-*Liz and the newborn baby!*
+_Liz and the newborn baby!_
 
 It has also become a tradition to hold a Project4Africa v. Namanyanga School football match as often as possible!
 
