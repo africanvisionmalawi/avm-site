@@ -116,10 +116,10 @@ module.exports = {
         isUsingColorMode: false,
       },
     },
-    {
-      resolve: "@bundle-analyzer/gatsby-plugin",
-      options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
-    },
+    // {
+    //   resolve: "@bundle-analyzer/gatsby-plugin",
+    //   options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
+    // },
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {
@@ -184,7 +184,7 @@ module.exports = {
         autopop: true,
       },
     },
-    `gatsby-plugin-netlify-cms`,
+    // `gatsby-plugin-netlify-cms`,
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };
