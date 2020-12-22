@@ -3128,7 +3128,7 @@ babel-plugin-remove-graphql-queries@^2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.13.0.tgz#7e62cb758b247c635565732c4778fc8581cb48b6"
 
-"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.10.0:
+"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.12.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.12.0.tgz#1dec1676512177de6b827211e9eda5a30db4f9b9"
   dependencies:
@@ -4500,7 +4500,7 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.6.5:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
 
-core-js@^3.6.3, core-js@^3.6.5, core-js@^3.8.1:
+core-js@^3.6.3, core-js@^3.6.5:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.8.1.tgz#f51523668ac8a294d1285c3b9db44025fda66d47"
 
@@ -6913,9 +6913,9 @@ gatsby-paginate@^1.0.17:
   dependencies:
     path "^0.12.7"
 
-gatsby-plugin-algolia@^0.11.2:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-0.11.2.tgz#ba3e29ca4be8d3a2a586681f95f9da8719841c5f"
+gatsby-plugin-algolia@^0.16.2:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-algolia/-/gatsby-plugin-algolia-0.16.2.tgz#27004116fd25d7358a5ff0ce8f80ead10bb944d9"
   dependencies:
     algoliasearch "^3.24.5"
     gatsby-cli "^1.1.58"
@@ -7288,7 +7288,7 @@ gatsby-transformer-sharp@^2.1.9:
     semver "^7.3.2"
     sharp "^0.26.3"
 
-gatsby@^2.22.5:
+gatsby@^2.29:
   version "2.29.1"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.29.1.tgz#0b1d7bc8cf434c81086e5a26926394f4181cbb93"
   dependencies:
