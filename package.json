@@ -50,7 +50,6 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "react-instantsearch-dom": "^6.7.0",
     "react-player": "^1.15.2",
     "react-typography": "^0.16.19",
     "styled-components": "^4.1.3",
@@ -80,7 +79,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@bundle-analyzer/gatsby-plugin": "^0.5.1",
     "http-proxy-middleware": "^0.19.1",
     "netlify-lambda": "^1.4.3",
     "npm-run-all": "^4.1.5",
