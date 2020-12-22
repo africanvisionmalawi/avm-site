@@ -20,9 +20,9 @@ links:
       we follow the STEP programme (Skills and Technical Education Programme) an initiative
       funded by the European Union (EU) and partially implemented by UNESCO.
     url: https://www.stepmalawi.com/
-    photo: "/img/avm-step-logo-2.jpg"
+    photo: "/img/avm-step-logo-3.jpg"
   - linkTitle: Love Support Unite
-    photo: "/img/thankyous/love-support-unite.jpg"
+    photo: "/img/thankyous/love-support-unite-2.jpg"
     url: https://lovesupportunite.org/
     featured: true
     order:
@@ -40,9 +40,9 @@ links:
       Feed the Children is one of the leading anti-hunger organizations, raising awareness
       about childhood hunger to make it a thing of the past.
     url: https://www.feedthechildren.org/
-    photo: "/img/feed-the-children.jpg"
+    photo: "/img/feed-the-children-2.jpg"
   - linkTitle: 500 Miles
-    photo: "/img/photofunny.jpg"
+    photo: "/img/photofunny-2.jpg"
     url: https://www.500miles.co.uk/
     featured: true
     order:
@@ -60,7 +60,7 @@ links:
     url: ""
     photo: "/img/project4africa.jpg"
   - linkTitle: Think Malawi
-    photo: "/img/think-malawi.jpg"
+    photo: "/img/think-malawi-2.jpg"
     url: https://www.thinkmalawi.org/
     linkText:
       are a UK based charity who support educational projects in Malawi. Since
@@ -69,7 +69,7 @@ links:
     featured: true
     order:
   - linkTitle: Aidcamps International
-    photo: "/img/aidcamps-logo.jpg"
+    photo: "/img/aidcamps-logo-2.jpg"
     url: https://www.aidcamps.org/home.aspx
     featured: false
     order:
@@ -77,7 +77,7 @@ links:
       "provide volunteers from the UK and elsewhere to participate in short-term
       voluntary projects including the library at Sam's Village. "
   - linkTitle: The cornerHOUSE
-    photo: "/img/thankyous/corner-house.jpg"
+    photo: "/img/thankyous/corner-house-2.jpg"
     url: https://www.thecornerhouse.org/
     linkText:
       " is a community arts centre who are very supportive for fundraising,
