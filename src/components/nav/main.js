@@ -4,7 +4,7 @@ import { Box, Flex, useDisclosure } from "@chakra-ui/core";
 import { navLinks } from "../../constants/nav";
 import CartLink from "../CartLink";
 import styled from "styled-components";
-import Search from "../search";
+// import Search from "../search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
 
@@ -50,9 +50,7 @@ const Navbar = () => {
             ))}
           </Menu>
           <Flex flexWrap="nowrap">
-            <IconCont>
-              <Search indices={searchIndices} />
-            </IconCont>
+            <IconCont>{/* <Search indices={searchIndices} /> */}</IconCont>
             <IconCont>
               <CartLink />
             </IconCont>
