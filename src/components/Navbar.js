@@ -17,7 +17,7 @@ import CtaButton from "../components/CtaButton";
 import CartLink from "../components/CartLink";
 import navbarStyles from "./navbar.module.css";
 import styled from "styled-components";
-import Search from "./search";
+// import Search from "./search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
 
@@ -93,7 +93,7 @@ const Navbar = () => {
         </div>
         <NavIcons>
           <div className={navbarStyles.iconCont}>
-            <Search indices={searchIndices} />
+            {/* <Search indices={searchIndices} /> */}
           </div>
           <div className={navbarStyles.iconCont}>
             <CartLink />
@@ -108,7 +108,7 @@ const Navbar = () => {
             className={navbarStyles.navBarBtn}
           />
           <div className={navbarStyles.iconCont}>
-            <Search indices={searchIndices} />
+            {/* <Search indices={searchIndices} /> */}
           </div>
           <div className={navbarStyles.iconCont}>
             <CartLink />

@@ -17,7 +17,7 @@ import { navLinks } from "../../constants/nav";
 import CtaButton from "../CtaButton";
 import CartLink from "../CartLink";
 import styled from "styled-components";
-import Search from "../search";
+// import Search from "../search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
 
@@ -59,9 +59,7 @@ const SubNavBar = () => {
               text="Donate"
               placement="header"
             />
-            <IconsCont>
-              <Search indices={searchIndices} />
-            </IconsCont>
+            <IconsCont>{/* <Search indices={searchIndices} /> */}</IconsCont>
             <IconsCont>
               <CartLink />
             </IconsCont>
