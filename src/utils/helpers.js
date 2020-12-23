@@ -1,3 +1,7 @@
+import dayjs from "dayjs";
+import advancedFormat from "dayjs/plugin/advancedFormat";
+dayjs.extend(advancedFormat);
+
 export const getFeaturedLinks = (array, featured) => {
   // this gets both featued and non featured links, depending on the value of
   // the second element passed in
@@ -19,4 +23,22 @@ export const getCurrentDate = () => {
     day = `0${day}`;
   }
   return `${d.getFullYear()}-${month}-${day}`;
+};
+
+export const getEvents = (events) => {
+  let futureEvents = [];
+  let pastEvents = [];
+  const allEvents = events.map(({ node: event }) => {
+    if (
+      dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
+        dayjs().format("MMMM DD, YYYY")
+      )
+    ) {
+      futureEvents.push(event);
+    } else {
+      pastEvents.push(event);
+    }
+    const showEvents = { futureEvents, pastEvents };
+    return showEvents;
+  });
 };
