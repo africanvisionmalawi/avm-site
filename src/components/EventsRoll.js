@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import postStyles from "./posts.module.css";
 import pageLinksStyles from "./pagelinks.module.css";
+import getEvents from "../utils/helpers";
 
 import styled from "styled-components";
 // import Img from "gatsby-image";
@@ -34,7 +35,10 @@ const EventsRoll = (props) => {
     }
   });
 
-  console.log("future ", futureEvents);
+  // let findAllEvents = getEvents(events);
+  // console.log("allevents ", findAllEvents);
+
+  // console.log("future ", futureEvents);
 
   // console.log(pastEvents);
   // console.log(futureEvents);
