@@ -21,9 +21,10 @@ fields:
   name: date
   label: Date of the event
   config:
-    export_format: YYYY/MM/DD h:mm A ZZ
+    export_format: YYYY-MM-DD h:mm A ZZ
     date_format: DD/MM/YYYY
     display_utc: false
+  default: now
 - name: multidate_event
   type: boolean
   label: Multidate event?
