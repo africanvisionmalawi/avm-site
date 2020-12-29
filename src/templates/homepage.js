@@ -17,6 +17,9 @@ import Donate from "../components/Donate";
 import Divider from "../components/Divider";
 import { Link } from "gatsby";
 import styled from "styled-components";
+import dayjs from "dayjs";
+import advancedFormat from "dayjs/plugin/advancedFormat";
+dayjs.extend(advancedFormat);
 
 const IndexPage = (props) => {
   const { data } = props;
@@ -27,6 +30,21 @@ const IndexPage = (props) => {
   const heroImage = data.heroImage;
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
   const ourWork = homeContent[0].node.frontmatter.ourWork;
+
+  let futureEvents = [];
+  let pastEvents = [];
+
+  const allEvents = events.map(({ node: event }) => {
+    if (
+      dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
+        dayjs().format("MMMM DD, YYYY")
+      )
+    ) {
+      futureEvents.push(event);
+    } else {
+      pastEvents.push(event);
+    }
+  });
 
   return (
     <Layout>
@@ -124,18 +142,16 @@ const IndexPage = (props) => {
           <PostsFooter>
             <PostsFooterLink to="/news">View all news</PostsFooterLink>
           </PostsFooter>
-          {events && events.length ? (
+          {futureEvents && futureEvents.length ? (
             <section>
               <H2Heading>Upcoming events</H2Heading>
-              <div className={homepageStyles.newsCont}>
-                <div className={homepageStyles.cardCont}>
-                  {events &&
-                    events.map(({ node: event }) => (
-                      <EventsRollCard event={event} key={event.fields.slug} />
-                    ))}
-                </div>
-              </div>
-
+              <NewsCont>
+                <CardCont>
+                  {futureEvents.map(({ node: event }) => (
+                    <EventsRollCard event={event} key={event.fields.slug} />
+                  ))}
+                </CardCont>
+              </NewsCont>
               <PostsFooter>
                 <PostsFooterLink to="/events">View all events</PostsFooterLink>
               </PostsFooter>
@@ -154,6 +170,25 @@ IndexPage.propTypes = {
     }),
   }),
 };
+
+const NewsCont = styled.div`
+  @media (min-width: 1200px) {
+    display: flex;
+    margin: 2rem auto;
+    max-width: 1180px;
+  }
+`;
+
+const CardCont = styled.div`
+  align-items: grid-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 280px);
+  grid-gap: 30px;
+  flex-shrink: 2;
+  justify-content: center;
+  max-width: 1525px;
+  width: 100%;
+`;
 
 const HomepageMain = styled.section`
   background: #fff;
@@ -307,107 +342,107 @@ export const mdRectImage = graphql`
 `;
 
 export const pageQuery = graphql`
-         query IndexQuery {
-           heroImage: file(relativePath: { eq: "hero/homepage-hero-2.jpg" }) {
-             childImageSharp {
-               fluid(maxWidth: 1918, quality: 50) {
-                 ...GatsbyImageSharpFluid_withWebp
-               }
-             }
-           }
-           allMarkdownRemark(
-             sort: { order: DESC, fields: [frontmatter___date] }
-             limit: 6
-             filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-           ) {
-             edges {
-               node {
-                 excerpt(pruneLength: 110)
-                 id
-                 fields {
-                   slug
-                 }
-                 frontmatter {
-                   title
-                   description
-                   published
-                   templateKey
-                   date(formatString: "MMMM DD, YYYY")
-                   postMobileImage: featuredImage {
-                     childImageSharp {
-                       fixed(width: 280, height: 168) {
-                         ...GatsbyImageSharpFixed_withWebp
-                       }
-                     }
-                   }
-                   postDesktopImage: featuredImage {
-                     childImageSharp {
-                       fixed(width: 371, height: 222) {
-                         ...GatsbyImageSharpFixed_withWebp
-                       }
-                     }
-                   }
-                 }
-               }
-             }
-           }
-           homePage: allMarkdownRemark(
-             filter: { frontmatter: { templateKey: { eq: "homepage" } } }
-           ) {
-             edges {
-               node {
-                 frontmatter {
-                   title
-                   description
-                   promoVideo
-                   ourWork {
-                     id
-                     name
-                     url
-                     imageId
-                     excerpt
-                     featured
-                   }
-                 }
-                 html
-               }
-             }
-           }
-           eventsPosts: allMarkdownRemark(
-             sort: { order: ASC, fields: [frontmatter___date] }
-             limit: 6
-             filter: { frontmatter: { templateKey: { eq: "events-post" } } }
-           ) {
-             edges {
-               node {
-                 excerpt(pruneLength: 110)
-                 id
-                 fields {
-                   slug
-                 }
-                 frontmatter {
-                   title
-                   published
-                   templateKey
-                   date
-                   endDate
-                   eventMobileImage: photo {
-                     childImageSharp {
-                       fixed(width: 280) {
-                         ...GatsbyImageSharpFixed_withWebp
-                       }
-                     }
-                   }
-                   eventDesktopImage: photo {
-                     childImageSharp {
-                       fixed(width: 371, height: 222) {
-                         ...GatsbyImageSharpFixed_withWebp
-                       }
-                     }
-                   }
-                 }
-               }
-             }
-           }
-         }
-       `;
+  query IndexQuery {
+    heroImage: file(relativePath: { eq: "hero/homepage-hero-2.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1918, quality: 50) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 6
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 110)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            description
+            published
+            templateKey
+            date(formatString: "MMMM DD, YYYY")
+            postMobileImage: featuredImage {
+              childImageSharp {
+                fixed(width: 280, height: 168) {
+                  ...GatsbyImageSharpFixed_withWebp
+                }
+              }
+            }
+            postDesktopImage: featuredImage {
+              childImageSharp {
+                fixed(width: 371, height: 222) {
+                  ...GatsbyImageSharpFixed_withWebp
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    homePage: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "homepage" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            description
+            promoVideo
+            ourWork {
+              id
+              name
+              url
+              imageId
+              excerpt
+              featured
+            }
+          }
+          html
+        }
+      }
+    }
+    eventsPosts: allMarkdownRemark(
+      sort: { order: ASC, fields: [frontmatter___date] }
+      limit: 6
+      filter: { frontmatter: { templateKey: { eq: "events-post" } } }
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 110)
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            published
+            templateKey
+            date
+            endDate
+            eventMobileImage: photo {
+              childImageSharp {
+                fixed(width: 280) {
+                  ...GatsbyImageSharpFixed_withWebp
+                }
+              }
+            }
+            eventDesktopImage: photo {
+              childImageSharp {
+                fixed(width: 371, height: 222) {
+                  ...GatsbyImageSharpFixed_withWebp
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
