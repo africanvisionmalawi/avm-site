@@ -1,12 +1,12 @@
 ---
 templateKey: events-post
 photo: "/img/default-image-1.jpg"
-endDate: 2020-12-30 12:00 AM +0000
+endDate: 2020-12-30T12:00:43.545+00:00
 contact: none
 telephone: 0
 published: true
 title: Silent Auction Christmas 2020
-date: 2020-12-08 12:00 AM +0000
+date: 2020-12-08T12:00:43.545+00:00
 multidate_event: true
 allDay: true
 description:
