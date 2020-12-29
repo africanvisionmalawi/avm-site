@@ -58,6 +58,8 @@ const IndexPage = (props) => {
     }
   });
 
+  // console.log("future ", futureEvents);
+
   return (
     <Layout>
       <Seo
@@ -159,8 +161,8 @@ const IndexPage = (props) => {
               <H2Heading>Upcoming events</H2Heading>
               <NewsCont>
                 <CardCont>
-                  {futureEvents.map(({ node: event }) => (
-                    <EventsRollCard event={event} key={event.fields.slug} />
+                  {futureEvents.map((event) => (
+                    <EventsRollCard event={event} />
                   ))}
                 </CardCont>
               </NewsCont>
@@ -422,7 +424,6 @@ export const pageQuery = graphql`
     }
     eventsPosts: allMarkdownRemark(
       sort: { order: ASC, fields: [frontmatter___date] }
-      limit: 6
       filter: { frontmatter: { templateKey: { eq: "events-post" } } }
     ) {
       edges {
