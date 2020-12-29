@@ -35,14 +35,26 @@ const IndexPage = (props) => {
   let pastEvents = [];
 
   const allEvents = events.map(({ node: event }) => {
-    if (
-      dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
-        dayjs().format("MMMM DD, YYYY")
-      )
-    ) {
-      futureEvents.push(event);
+    if (event.frontmatter.endDate) {
+      if (
+        dayjs(event.frontmatter.endDate, "MMMM DD, YYYY").isAfter(
+          dayjs().format("MMMM DD, YYYY")
+        )
+      ) {
+        futureEvents.push(event);
+      } else {
+        pastEvents.push(event);
+      }
     } else {
-      pastEvents.push(event);
+      if (
+        dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
+          dayjs().format("MMMM DD, YYYY")
+        )
+      ) {
+        futureEvents.push(event);
+      } else {
+        pastEvents.push(event);
+      }
     }
   });
 
