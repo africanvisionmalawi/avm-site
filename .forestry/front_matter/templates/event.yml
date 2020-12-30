@@ -33,7 +33,7 @@ fields:
 - type: datetime
   name: endDate
   config:
-    export_format: YYYY-MM-DD h:mm A ZZ
+    export_format: ''
     date_format: DD/MM/YYYY
   showOnly:
     field: multidate_event
