@@ -1,7 +1,7 @@
 ---
 templateKey: events-post
 photo: "/img/default-image-1.jpg"
-endDate: 2020-12-30T12:00:43.545+00:00
+endDate: 2020-12-30T12:00:43Z
 contact: none
 telephone: 
 published: true
