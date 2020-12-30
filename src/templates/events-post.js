@@ -68,12 +68,14 @@ export const EventsPostTemplate = ({
       <NavbarLower path={path} />
       <div className="container content">
         <section>
-          <HeroImage
-            heroImage={photo}
-            displayHeroMsg={true}
-            heroHeading={title}
-            heroHeadingType="h1"
-          />
+          {photo && (
+            <HeroImage
+              heroImage={photo}
+              displayHeroMsg={true}
+              heroHeading={title}
+              heroHeadingType="h1"
+            />
+          )}
         </section>
         <article>
           <Main>

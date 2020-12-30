@@ -21,9 +21,10 @@ fields:
   name: date
   label: Date of the event
   config:
-    export_format: YYYY/MM/DD h:mm A ZZ
+    export_format: ''
     date_format: DD/MM/YYYY
     display_utc: false
+  default: now
 - name: multidate_event
   type: boolean
   label: Multidate event?
@@ -32,12 +33,12 @@ fields:
 - type: datetime
   name: endDate
   config:
-    export_format: YYYY/MM/DD h:mm A ZZ
+    export_format: ''
     date_format: DD/MM/YYYY
   showOnly:
     field: multidate_event
     value: true
-  default: '43'
+  default: now
   label: End Date
 - type: boolean
   name: allDay
@@ -82,3 +83,4 @@ pages:
 - src/pages/events/hampton-court-flower-show-2015-garden.md
 - src/pages/events/landirani-live-fundraiser.md
 - src/pages/events/positive-change-exhibition-jan-2020.md
+- src/pages/events/silent-auction-christmas-2020.md

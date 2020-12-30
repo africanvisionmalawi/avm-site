@@ -31,20 +31,29 @@ const Heading = styled.h3`
 `;
 
 const EventsCol = ({ event }) => {
-  const sources = [
-    event.frontmatter.eventMobileImage.childImageSharp.fixed,
-    {
-      ...event.frontmatter.eventDesktopImage.childImageSharp.fixed,
-      media: `(min-width: 414px)`,
-    },
-  ];
+  console.log("event", event);
+  let sources;
+  if (
+    event.frontmatter.eventMobileImage &&
+    event.frontmatter.eventDesktopImage
+  ) {
+    sources = [
+      event.frontmatter.eventMobileImage.childImageSharp.fixed,
+      {
+        ...event.frontmatter.eventDesktopImage.childImageSharp.fixed,
+        media: `(min-width: 414px)`,
+      },
+    ];
+  }
   return (
     <div className={postStyles.card} key={event.fields.slug}>
       <article className={postStyles.cardContent}>
         <Link to={event.fields.slug}>
-          <ImgCont>
-            <Img fixed={sources} />
-          </ImgCont>
+          {sources && (
+            <ImgCont>
+              <Img fixed={sources} />
+            </ImgCont>
+          )}
 
           <Heading>{event.frontmatter.title}</Heading>
           <span className={postStyles.cardDate}>
