@@ -47,12 +47,9 @@ const EventsRoll = (props) => {
     }
   });
 
-  // let findAllEvents = getEvents(events);
-  // console.log("allevents ", findAllEvents);
-
   // console.log("future ", futureEvents);
 
-  // console.log(pastEvents);
+  // console.log("past", pastEvents);
   // console.log(futureEvents);
 
   return (
@@ -117,7 +114,7 @@ EventsRoll.propTypes = {
 };
 
 const Heading = styled.h2`
-  font-size: 3.4em;
+  font-size: 2.4em;
   margin: 0;
   text-align: center;
 `;
