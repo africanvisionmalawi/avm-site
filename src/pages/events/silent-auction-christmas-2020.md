@@ -14,7 +14,8 @@ description: This Christmas, do have a look at our Silent Auction, with wonderfu
 location: ''
 cost: 
 url: ''
-tags: []
+tags:
+- auction
 
 ---
 This Christmas we are holding a Silent Auction. We have been donated some wonderful gifts, some of great value, some as little as £15. Do take the opportunity to look through the items below. There is a guide price below each item which reflects the minimum we expect it to achieve. Bids significantly below this won’t be considered, but those above will! This year we have missed out on £100,000 of funding so please bid generously and help those who are most in need. At this time of year the rains come in Malawi, but people also start to run out of food. Thank you so much for your donation.
