@@ -4,7 +4,10 @@ import { styled } from "linaria/react";
 import pageLinksStyles from "../pagelinks.module.css";
 
 const Content = styled.div`
-  padding: 1rem 3px;
+  padding: 1rem 16px;
+  @media (min-width: 576px) {
+    padding: 1rem 3px;
+  }
 `;
 
 const Heading = styled.h3`
