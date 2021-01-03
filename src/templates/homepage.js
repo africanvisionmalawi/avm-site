@@ -196,12 +196,17 @@ const NewsCont = styled.div`
 const CardCont = styled.div`
   align-items: grid-start;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 373px);
+  grid-template-columns: repeat(auto-fill, 280px);
   grid-gap: 30px;
   flex-shrink: 2;
   justify-content: center;
   max-width: 1525px;
   width: 100%;
+  @media (min-width: 414px) {
+    & {
+      grid-template-columns: repeat(auto-fill, 373px);
+    }
+  }
 `;
 
 const HomepageMain = styled.section`

@@ -43,6 +43,13 @@ const Main = styled.main`
   border-radius: 2px;
 `;
 
+const EventDetails = styled.div`
+  background: #f7f7f7;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 16px 16px 4px;
+`;
+
 export const EventsPostTemplate = ({
   content,
   contentComponent,
@@ -80,16 +87,19 @@ export const EventsPostTemplate = ({
         <article>
           <Main>
             <TextSection>
-              <p>
-                <EventDate
-                  date={date}
-                  endDate={endDate}
-                  hideTime={hideTime}
-                  allDay={allDay}
-                />
-              </p>
-              <p>Location: {location}</p>
-              <p>contact: none telephone: 0 cost: &pound;{cost}</p>
+              <EventDetails>
+                <p>
+                  <EventDate
+                    date={date}
+                    endDate={endDate}
+                    hideTime={hideTime}
+                    allDay={allDay}
+                  />
+                </p>
+
+                {location && <p>Location: {location}</p>}
+                <p>Contact: none telephone: 0 cost: &pound;{cost}</p>
+              </EventDetails>
               <p>{description}</p>
               <PostContent content={content} />
               {tags && tags.length ? (
