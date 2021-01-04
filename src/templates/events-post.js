@@ -66,6 +66,9 @@ export const EventsPostTemplate = ({
   helmet,
   photo,
   path,
+  multidate_event,
+  contact,
+  telephone,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -96,9 +99,10 @@ export const EventsPostTemplate = ({
                     allDay={allDay}
                   />
                 </p>
-
                 {location && <p>Location: {location}</p>}
-                <p>Contact: none telephone: 0 cost: &pound;{cost}</p>
+                {contact && <p>Contact: {contact}</p>}
+                {telephone && <p>Telephone: {telephone}</p>}
+                {cost && <p>&pound;{cost}</p>}
               </EventDetails>
               <p>{description}</p>
               <PostContent content={content} />
@@ -160,6 +164,7 @@ const EventsPost = ({ data }) => {
         url={post.frontmatter.url}
         photo={post.frontmatter.photo}
         path={post.fields.slug}
+        multidate_event={post.frontmatter.multidate_event}
       />
     </Layout>
   );
@@ -184,11 +189,14 @@ export const pageQuery = graphql`
       frontmatter {
         templateKey
         layout
+        contact
+        telephone
+        published
         title
         date
-        endDate
-        hideTime
+        multidate_event
         allDay
+        endDate
         location
         cost
         url
