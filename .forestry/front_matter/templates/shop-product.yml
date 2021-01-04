@@ -65,6 +65,58 @@ fields:
       path: 
   label: Size
   description: the size for posting
+- name: weight
+  type: number
+  label: Weight (g)
+  description: Weight in grammes
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: size
+    value: other
+- name: width
+  type: number
+  label: Width (mm)
+  description: Width in mm
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: size
+    value: other
+- name: height
+  type: number
+  label: Height (mm)
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: size
+    value: other
+- name: depth
+  type: number
+  label: Depth (mm)
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: size
+    value: other
 pages:
 - src/pages/shop/buy-a-sleeping-mat.md
 - src/pages/shop/donate-any-amount-to-sam-s-village-and-our-matched-fund-will-double-it.md
