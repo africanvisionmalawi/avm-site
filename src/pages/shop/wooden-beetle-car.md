@@ -5,13 +5,17 @@ salePrice: 0
 inStock: 99
 tags:
 - gifts
-size: ''
+size: other
 title: Wooden Beetle Car
 publish: true
 productId: wooden-beetle-car
 description: The famous Beetle car handcrafted in Malaw
 price: 15
 shippingClass: ''
+weight: 230
+width: 200
+height: 100
+depth: 100
 
 ---
 The famous Beetle car handcrafted in Malawi approximately 150 mm length
