@@ -24,25 +24,27 @@ const EventsRoll = (props) => {
   let futureEvents = [];
   let pastEvents = [];
   const allEvents = events.map(({ node: event }) => {
-    if (event.frontmatter.endDate) {
-      if (
-        dayjs(event.frontmatter.endDate, "MMMM DD, YYYY").isAfter(
-          dayjs().format("MMMM DD, YYYY")
-        )
-      ) {
-        futureEvents.push(event);
+    if (event.frontmatter.published === true) {
+      if (event.frontmatter.endDate) {
+        if (
+          dayjs(event.frontmatter.endDate, "MMMM DD, YYYY").isAfter(
+            dayjs().format("MMMM DD, YYYY")
+          )
+        ) {
+          futureEvents.push(event);
+        } else {
+          pastEvents.push(event);
+        }
       } else {
-        pastEvents.push(event);
-      }
-    } else {
-      if (
-        dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
-          dayjs().format("MMMM DD, YYYY")
-        )
-      ) {
-        futureEvents.push(event);
-      } else {
-        pastEvents.push(event);
+        if (
+          dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
+            dayjs().format("MMMM DD, YYYY")
+          )
+        ) {
+          futureEvents.push(event);
+        } else {
+          pastEvents.push(event);
+        }
       }
     }
   });
@@ -71,6 +73,10 @@ const EventsRoll = (props) => {
                 displayDate={true}
                 location={event.frontmatter.location}
                 displayLocation={true}
+                multidate_event={event.frontmatter.multidate_event}
+                contact={event.frontmatter.contact}
+                telephone={event.frontmatter.telephone}
+                allDay={event.frontmatter.allDay}
               />
             </div>
           ))
@@ -94,6 +100,10 @@ const EventsRoll = (props) => {
                 displayDate={true}
                 location={event.frontmatter.location}
                 displayLocation={true}
+                multidate_event={event.frontmatter.multidate_event}
+                contact={event.frontmatter.contact}
+                telephone={event.frontmatter.telephone}
+                allDay={event.frontmatter.allDay}
               />
             </div>
           ))
@@ -137,10 +147,13 @@ export default () => (
               frontmatter {
                 templateKey
                 layout
+                contact
+                telephone
+                published
                 title
                 date
                 endDate
-                hideTime
+                multidate_event
                 allDay
                 location
                 cost
