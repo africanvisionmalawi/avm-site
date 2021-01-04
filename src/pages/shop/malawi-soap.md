@@ -5,13 +5,17 @@ salePrice: 0
 inStock: 99
 tags:
 - gifts
-size: soap
+size: other
 title: Malawi soap
 publish: true
 productId: malawi-soap
 description: "  Individual soaps, made at Sam’s Village in Malawi"
 price: 2.5
 shippingClass: ''
+weight: 133
+length: 80
+width: 50
+height: 30
 
 ---
 Individual soaps, all made at Sam’s Village in Malawi. All proceeds will go to vocational training.
