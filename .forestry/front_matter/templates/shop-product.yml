@@ -64,7 +64,8 @@ fields:
       file: 
       path: 
   label: Size
-  description: the size for posting
+  description: Standard sizes for posting. Choose 'other' if no option is available
+    to display separate weight and dimension fields.
 - name: weight
   type: number
   label: Weight (g)
