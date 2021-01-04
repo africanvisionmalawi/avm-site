@@ -78,10 +78,22 @@ fields:
   showOnly:
     field: size
     value: other
+- name: length
+  type: number
+  label: Length (mm)
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: size
+    value: other
 - name: width
   type: number
   label: Width (mm)
-  description: Width in mm
+  description: ''
   default: 0
   required: true
   config:
@@ -94,19 +106,6 @@ fields:
 - name: height
   type: number
   label: Height (mm)
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-  showOnly:
-    field: size
-    value: other
-- name: depth
-  type: number
-  label: Depth (mm)
   description: ''
   default: 0
   required: true
