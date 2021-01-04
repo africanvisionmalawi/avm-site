@@ -5,7 +5,7 @@ salePrice: 0
 inStock: 99
 tags:
 - gifts
-size: ''
+size: soap
 title: Malawi soap
 publish: true
 productId: malawi-soap
