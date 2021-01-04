@@ -57,6 +57,7 @@ fields:
     - book
     - dvd
     - soap
+    - other
     source:
       type: simple
       section: 
