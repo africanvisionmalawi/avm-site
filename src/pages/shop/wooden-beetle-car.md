@@ -13,9 +13,10 @@ description: The famous Beetle car handcrafted in Malaw
 price: 15
 shippingClass: ''
 weight: 230
-width: 200
+width: 100
 height: 100
-depth: 100
+depth: '100'
+length: 200
 
 ---
 The famous Beetle car handcrafted in Malawi approximately 150 mm length
