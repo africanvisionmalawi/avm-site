@@ -11,6 +11,7 @@ import TagsList from "../components/shop/tagsList";
 import shopStyles from "../components/shop.module.css";
 import HeadingH1 from "../components/HeadingH1";
 import styled from "styled-components";
+import { priceFormatted } from "../utils/helpers";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -60,7 +61,8 @@ const ShopIndex = ({ data }) => {
                     <TagsList tags={document.node.frontmatter.tags} />
                   ) : null}
                   <span className={shopStyles.listItemPrice}>
-                    &pound;{document.node.frontmatter.price.toFixed(2)}
+                    &pound;
+                    {priceFormatted(document.node.frontmatter.price)}
                   </span>
                 </Link>
               </li>

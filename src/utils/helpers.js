@@ -42,3 +42,10 @@ export const getEvents = (events) => {
     return showEvents;
   });
 };
+
+export const priceFormatted = (price) => {
+  if (price) {
+    return price.toFixed(2);
+  }
+  return 0.0;
+};
