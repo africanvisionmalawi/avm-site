@@ -16,6 +16,7 @@ import shopStyles from "../components/shop.module.css";
 import NavbarLower from "../components/NavbarLower";
 import HeadingH1 from "../components/HeadingH1";
 import styled from "styled-components";
+import { priceFormatted } from "../utils/helpers";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -80,7 +81,7 @@ export const ShopProductTemplate = ({
             <Box width={["100%", "33.333333%"]}>
               <div className={shopStyles.productAside}>
                 <span className={shopStyles.price}>
-                  &pound;{price.toFixed(2)}
+                  &pound;{priceFormatted(price)}
                 </span>
                 <BuyButton
                   productId={productId}
