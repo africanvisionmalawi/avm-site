@@ -56,10 +56,6 @@ malawiTeam:
   name: Thomas Lighton
   role: Office Assistant / Driver
 - order: 
-  photo: "/img/bizalielo-kalimo.jpg"
-  name: Bizalielo Kalimo
-  role: Sam's Village guard
-- order: 
   photo: "/img/Kondwani-permaculture-small-150x150.jpg"
   name: Kondwani Galanga
   role: Permaculture Officer
@@ -122,6 +118,10 @@ malawiTeam:
 - order: 
   photo: "/img/William-Chapota-150x150.jpg"
   name: William Chapota
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/bizalielo-kalimo.jpg"
+  name: Bizalielo Kalimo
   role: Sam's Village Guard
 - order: 
   photo: "/img/Kazula-and-Sheba-150x150.jpg"
