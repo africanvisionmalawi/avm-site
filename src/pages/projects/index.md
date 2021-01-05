@@ -36,7 +36,7 @@ links:
     the orphans who have nothing. We do regular distributions throughout our area.
     We distribute clothes, toys, sleeping mats, blankets, monsquito nets.
   linkTitle: Distributions
-  photo: "/img/page-links/link-distributions.jpg"
+  photo: "/img/distributions.JPG"
   url: "/health/distributions/"
   featured: true
 - linkText: We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
