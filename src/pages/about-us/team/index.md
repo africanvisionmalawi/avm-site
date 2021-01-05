@@ -55,7 +55,7 @@ malawiTeam:
   photo: "/img/Thomas-Lighton-150x150.jpg"
   name: Thomas Lighton
   role: Office Assistant / Driver
-- order: -25
+- order: 
   photo: "/img/bizalielo-kalimo.jpg"
   name: Bizalielo Kalimo
   role: Sam's Village guard
