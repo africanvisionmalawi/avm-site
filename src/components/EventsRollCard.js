@@ -31,7 +31,6 @@ const Heading = styled.h3`
 `;
 
 const EventsCol = ({ event }) => {
-  console.log("event", event);
   let sources;
   if (
     event.frontmatter.eventMobileImage &&
