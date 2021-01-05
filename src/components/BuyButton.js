@@ -26,6 +26,10 @@ export const BuyButton = ({
   description,
   image,
   url,
+  weight,
+  length,
+  width,
+  height,
 }) => {
   return (
     <Button
@@ -36,6 +40,10 @@ export const BuyButton = ({
       data-item-description={description}
       data-item-image={image}
       data-item-url={url}
+      data-item-length={length}
+      data-item-weight={weight}
+      data-item-width={width}
+      data-item-height={height}
     >
       Add to basket
     </Button>

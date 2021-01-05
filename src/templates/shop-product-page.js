@@ -52,6 +52,10 @@ export const ShopProductTemplate = ({
   salePrice,
   inStock,
   size,
+  weight,
+  length,
+  width,
+  height,
   shippingClass,
   tags,
   productImage,
@@ -75,7 +79,9 @@ export const ShopProductTemplate = ({
             </Box>
             <Box width={["100%", "33.333333%"]}>
               <div className={shopStyles.productAside}>
-                <span className={shopStyles.price}>&pound;{price}</span>
+                <span className={shopStyles.price}>
+                  &pound;{price.toFixed(2)}
+                </span>
                 <BuyButton
                   productId={productId}
                   name={title}
@@ -83,6 +89,10 @@ export const ShopProductTemplate = ({
                   price={price}
                   image={productImage.childImageSharp.fluid.src}
                   url={`${siteUrl}${slug}`}
+                  weight={weight}
+                  length={length}
+                  width={width}
+                  height={height}
                 />
 
                 <p>Size: {size}</p>
@@ -133,6 +143,10 @@ const ShopProductPage = ({ data }) => {
         salePrice={post.frontmatter.salePrice}
         inStock={post.frontmatter.inStock}
         size={post.frontmatter.size}
+        weight={post.frontmatter.weight}
+        length={post.frontmatter.length}
+        width={post.frontmatter.width}
+        height={post.frontmatter.height}
         shippingClass={post.frontmatter.shippingClass}
         tags={post.frontmatter.tags}
         productImage={post.frontmatter.productImage}
@@ -168,6 +182,10 @@ export const pageBasicQuery = graphql`
         inStock
         size
         shippingClass
+        weight
+        length
+        width
+        height
         tags
         productImage {
           childImageSharp {
