@@ -120,6 +120,10 @@ malawiTeam:
   name: William Chapota
   role: Sam's Village Guard
 - order: 
+  photo: "/img/bizalielo-kalimo.jpg"
+  name: Bizalielo Kalimo
+  role: Sam's Village Guard
+- order: 
   photo: "/img/Kazula-and-Sheba-150x150.jpg"
   name: Kazula and Sheba
   role: Office Guard Dogs

@@ -60,7 +60,7 @@ const ShopIndex = ({ data }) => {
                     <TagsList tags={document.node.frontmatter.tags} />
                   ) : null}
                   <span className={shopStyles.listItemPrice}>
-                    &pound;{document.node.frontmatter.price}
+                    &pound;{document.node.frontmatter.price.toFixed(2)}
                   </span>
                 </Link>
               </li>
