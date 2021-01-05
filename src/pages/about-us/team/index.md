@@ -4,6 +4,10 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
+  photo: "/img/bizalielo-kalimo.jpg"
+  name: Bizalielo Kalimo
+  role: Sam's Village guard
+- order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
   role: Acting Country Manager
