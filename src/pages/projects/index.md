@@ -46,9 +46,9 @@ links:
   photo: "/img/page-links/link-feeding.jpg"
   url: "/education/feeding-programme-in-schools/"
   featured: false
-- linkText: Gandys ‘Orphans for Orphans’ has funded the building of a pre-school at
-    Funsani, Lumbadzi Centre. The building was completed in September 2017 and Gandys
-    came out to open it in October.
+- linkText: Gandys ‘Orphans for Orphans’ has funded a pre-school at Funsani, Lumbadzi
+    Centre. The building was completed in September 2017 and was opened by Gandys
+    in October.
   linkTitle: Funsani - Rammed Earth Community Based Childcare Centre (CBCC)
   photo: "/img/page-links/link-crowd-children.jpg"
   url: "./funsani-rammed-earth-community-based-childcare-centre-cbcc/"
