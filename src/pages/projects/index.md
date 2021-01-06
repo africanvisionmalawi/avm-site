@@ -69,28 +69,6 @@ links:
   photo: "/img/page-links/link-project4africa.jpg"
   url: "./project4africa/"
   featured: false
-- linkText: 'Using traditional techniques and resources we will be building a village
-    that will primarily be an education site for agricultural teaching and vocational
-    training. '
-  linkTitle: Sam's Village
-  photo: "/img/page-links/link-village-building.jpg"
-  url: "/sams-village/"
-  featured: false
-- linkText: "..."
-  linkTitle: Biogas
-  photo: "/img/page-links/link-biogas.jpg"
-  url: "/sams-village/biogas/"
-  featured: false
-- linkText: "..."
-  linkTitle: Building Programme
-  photo: "/img/page-links/link-village-building.jpg"
-  url: "./sams-village/building-programme/"
-  featured: false
-- linkText: "..."
-  linkTitle: Library
-  photo: "/img/page-links/link-library.jpg"
-  url: "/sams-village/library/"
-  featured: false
 - linkText: "..."
   linkTitle: Njewa New Office
   photo: "/img/page-links/link-njewa.jpg"
