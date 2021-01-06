@@ -19,9 +19,10 @@ links:
   photo: "/img/bicycle-ambulance.JPG"
   url: "/health/bicycle-ambulances/"
   featured: true
-- linkText: 'Building started 2006 We have completed: Three out of four school blocks
-    (which is 6 classrooms) Two out of four teacher''s houses The kitchen and store
-    room The renovation of the pre school.'
+- linkText: Since 2006 we have completed a number of school building projects including
+    a number of school blocks (typically with 6 classrooms) at various locations as
+    well as five teacher's houses, kitchens and store rooms. We also build and renovate
+    pre-schools.
   linkTitle: Building schools
   photo: "/img/building-schools.JPG"
   url: "/education/building-a-school-at-masiye/"
