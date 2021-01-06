@@ -21,7 +21,7 @@ links:
   featured: true
 - linkText: Since 2006 we have completed a number of school building projects including
     a number of school blocks (typically with 6 classrooms) at various locations as
-    well as five teacher's houses, kitchens and store rooms. We also build and renovate
+    well as five teachers' houses, kitchens and store rooms. We also build and renovate
     pre-schools.
   linkTitle: Building schools
   photo: "/img/building-schools.JPG"
