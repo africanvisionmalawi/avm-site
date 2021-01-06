@@ -36,8 +36,9 @@ links:
   url: "/education/community-based-childcare-centres-cbccs/"
   featured: true
 - linkText: Distributions will always be a big part of our work, and are vital to
-    the orphans who have nothing. We do regular distributions throughout our area.
-    We distribute clothes, toys, sleeping mats, blankets, monsquito nets.
+    the orphans who have nothing. We regularly distribute throughout our area clothes,
+    toys, sleeping mats, blankets, mosquito nets and food to those most in need in
+    the 'hungry months' around February.
   linkTitle: Distributions
   photo: "/img/distributions.JPG"
   url: "/health/distributions/"
