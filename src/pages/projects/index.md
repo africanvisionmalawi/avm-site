@@ -39,11 +39,9 @@ links:
   photo: "/img/distributions.JPG"
   url: "/health/distributions/"
   featured: true
-- linkText: We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
-    and have started using a new fuel saving oven in one of our schools. ‘Feed The
-    Children’ is providing the food and Landirani orgainses the training and operation
-    of the feeding programme. We have to provide the fuel saving oven and the bowls
-    and spoons.
+- linkText: 'We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
+    who provide the food and we organise the training and operation of the feeding
+    programme. '
   linkTitle: Feeding Programme in Schools
   photo: "/img/page-links/link-feeding.jpg"
   url: "/education/feeding-programme-in-schools/"
