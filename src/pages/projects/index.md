@@ -28,7 +28,9 @@ links:
   url: "/education/building-a-school-at-masiye/"
   featured: true
 - linkText: What is a CBCC? A CBCC is a building with a multiple use - as a pre-school
-    and as a feeding station for children 3-5 years old.
+    and as a feeding station for children 3-5 years old. Most children in rural areas
+    cannot access early learning opportunities through pre-schools and are ill-prepared
+    when they start school.
   linkTitle: Community Based Childcare Centres (CBCCs)
   photo: "/img/cbcc-1.jpg"
   url: "/education/community-based-childcare-centres-cbccs/"
