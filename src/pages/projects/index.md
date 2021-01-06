@@ -39,7 +39,7 @@ links:
   photo: "/img/distributions.JPG"
   url: "/health/distributions/"
   featured: true
-- linkText: 'We have been working in partnership with ‘Feed The Children’ (feedthechildren.org)
+- linkText: 'We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
     who provide the food and we organise the training and operation of the feeding
     programme. '
   linkTitle: Feeding Programme in Schools
