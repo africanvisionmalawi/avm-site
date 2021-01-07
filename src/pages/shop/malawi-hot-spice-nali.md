@@ -9,7 +9,7 @@ size: other
 title: Malawi hot spice (Nali)
 publish: true
 productId: malawi-hot-spice-nali
-description: "Nali" - the famous spiced sauce of Malawi – it’s hot!
+description: Nali - the famous spiced sauce of Malawi
 price: 3
 shippingClass: "parcel"
 weight: 1025
