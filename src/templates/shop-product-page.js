@@ -72,13 +72,13 @@ export const ShopProductTemplate = ({
       <ShopSection>
         <article className={shopStyles.product}>
           <HeadingH1 text={title} />
-          <Flex>
-            <Box width={["100%", "66.66666%"]}>
+          <Flex flexWrap="wrap">
+            <Box width={["100%", "100%", "66.66666%"]}>
               <div className={shopStyles.productMain}>
                 <PreviewCompatibleImage imageInfo={productImage} />
               </div>
             </Box>
-            <Box width={["100%", "33.333333%"]}>
+            <Box width={["100%", "100%", "33.333333%"]}>
               <div className={shopStyles.productAside}>
                 <span className={shopStyles.price}>
                   &pound;{priceFormatted(price)}
@@ -96,8 +96,7 @@ export const ShopProductTemplate = ({
                   height={height}
                 />
 
-                <p>Size: {size}</p>
-                {tags && tags.length ? (
+                {/* {tags && tags.length ? (
                   <>
                     <TagHeading>Tags:</TagHeading>
 
@@ -105,13 +104,13 @@ export const ShopProductTemplate = ({
                       <TagItem key={tag + `tag`}>{tag}</TagItem>
                     ))}
                   </>
-                ) : null}
+                ) : null} */}
+                <div className={shopStyles.productDetails}>
+                  <PageContent className="content" content={content} />
+                </div>
               </div>
             </Box>
           </Flex>
-          <div className={shopStyles.productDetails}>
-            <PageContent className="content" content={content} />
-          </div>
         </article>
       </ShopSection>
       <Donate link="https://www.charitycheckout.co.uk/1113786/" text="Donate" />

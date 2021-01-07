@@ -19,38 +19,40 @@ links:
   photo: "/img/bicycle-ambulance.JPG"
   url: "/health/bicycle-ambulances/"
   featured: true
-- linkText: 'Building started 2006 We have completed: Three out of four school blocks
-    (which is 6 classrooms) Two out of four teacher''s houses The kitchen and store
-    room The renovation of the pre school.'
+- linkText: Since 2006 we have completed a number of school building projects including
+    a number of school blocks (typically with 6 classrooms) at various locations as
+    well as five teachers' houses, kitchens and store rooms. We also build and renovate
+    pre-schools.
   linkTitle: Building schools
   photo: "/img/building-schools.JPG"
   url: "/education/building-a-school-at-masiye/"
   featured: true
 - linkText: What is a CBCC? A CBCC is a building with a multiple use - as a pre-school
-    and as a feeding station for children 3-5 years old.
+    and as a feeding station for children 3-5 years old. Most children in rural areas
+    cannot access early learning opportunities through pre-schools and are ill-prepared
+    when they start school.
   linkTitle: Community Based Childcare Centres (CBCCs)
   photo: "/img/cbcc-1.jpg"
   url: "/education/community-based-childcare-centres-cbccs/"
   featured: true
 - linkText: Distributions will always be a big part of our work, and are vital to
-    the orphans who have nothing. We do regular distributions throughout our area.
-    We distribute clothes, toys, sleeping mats, blankets, monsquito nets.
+    the orphans who have nothing. We regularly distribute throughout our area clothes,
+    toys, sleeping mats, blankets, mosquito nets and food to those most in need in
+    the 'hungry months' around February.
   linkTitle: Distributions
   photo: "/img/distributions.JPG"
   url: "/health/distributions/"
   featured: true
-- linkText: We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
-    and have started using a new fuel saving oven in one of our schools. ‘Feed The
-    Children’ is providing the food and Landirani orgainses the training and operation
-    of the feeding programme. We have to provide the fuel saving oven and the bowls
-    and spoons.
+- linkText: 'We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
+    who provide the food and we organise the training and operation of the feeding
+    programme. '
   linkTitle: Feeding Programme in Schools
   photo: "/img/page-links/link-feeding.jpg"
   url: "/education/feeding-programme-in-schools/"
   featured: false
-- linkText: Gandys ‘Orphans for Orphans’ has funded the building of a pre-school at
-    Funsani, Lumbadzi Centre. We will complete the building by September 2017 and
-    Gandys will come out to open it in October.
+- linkText: Gandys ‘Orphans for Orphans’ has funded a pre-school at Funsani, Lumbadzi
+    Centre. The building was completed in September 2017 and was opened by Gandys
+    in October.
   linkTitle: Funsani - Rammed Earth Community Based Childcare Centre (CBCC)
   photo: "/img/page-links/link-crowd-children.jpg"
   url: "./funsani-rammed-earth-community-based-childcare-centre-cbcc/"
@@ -70,28 +72,6 @@ links:
   linkTitle: Project4Africa
   photo: "/img/page-links/link-project4africa.jpg"
   url: "./project4africa/"
-  featured: false
-- linkText: 'Using traditional techniques and resources we will be building a village
-    that will primarily be an education site for agricultural teaching and vocational
-    training. '
-  linkTitle: Sam's Village
-  photo: "/img/page-links/link-village-building.jpg"
-  url: "/sams-village/"
-  featured: false
-- linkText: "..."
-  linkTitle: Biogas
-  photo: "/img/page-links/link-biogas.jpg"
-  url: "/sams-village/biogas/"
-  featured: false
-- linkText: "..."
-  linkTitle: Building Programme
-  photo: "/img/page-links/link-village-building.jpg"
-  url: "./sams-village/building-programme/"
-  featured: false
-- linkText: "..."
-  linkTitle: Library
-  photo: "/img/page-links/link-library.jpg"
-  url: "/sams-village/library/"
   featured: false
 - linkText: "..."
   linkTitle: Njewa New Office

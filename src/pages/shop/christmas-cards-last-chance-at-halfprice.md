@@ -1,11 +1,11 @@
 ---
 templateKey: shop-product-page
-inStock: 100
+inStock: 5
 title: "Christmas Cards &#8211; half price for 10 cards"
 date: "2013-11-18T17:24:03+00:00"
 publish: true
-price: 1
-salePrice: 0
+price: 5
+salePrice: 2.50
 permalink: /product/christmas-cards-last-chance-at-halfprice
 description: ""
 productId: "2659"
@@ -15,6 +15,10 @@ product_visibility:
 tags:
   - xmas
 size: "card"
+weight: 171
+length: 155
+width: 155
+height: 11
 product_shipping_class: letter
 total_sales:
   - "9"
