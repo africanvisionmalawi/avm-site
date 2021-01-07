@@ -77,7 +77,6 @@ fields:
     max: 
     step: 
   showOnly:
-    field: size
     value: other
 - name: length
   type: number
@@ -89,7 +88,6 @@ fields:
     max: 
     step: 
   showOnly:
-    field: size
     value: other
 - name: width
   type: number
@@ -102,7 +100,6 @@ fields:
     max: 
     step: 
   showOnly:
-    field: size
     value: other
 - name: height
   type: number
@@ -115,7 +112,6 @@ fields:
     max: 
     step: 
   showOnly:
-    field: size
     value: other
 pages:
 - src/pages/shop/aeroplane.md
