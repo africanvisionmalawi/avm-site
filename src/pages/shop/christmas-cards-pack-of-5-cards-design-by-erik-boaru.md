@@ -1,7 +1,7 @@
 ---
 templateKey: shop-product-page
 inStock: 100
-title: Christmas Cards, pack of 5 cards, design by Erik Boaru
+title: Christmas Cards pack of 5 cards, design by Erik Boaru
 date: '2014-10-13T13:23:17+01:00'
 publish: true
 price: 2.5
