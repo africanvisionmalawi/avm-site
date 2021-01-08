@@ -7,13 +7,13 @@ description: African Vision Malawi runs 13 Community Based Childcare Centres (CB
 headerImage: "/img/chemex.jpg"
 
 ---
-African Vision Malawi runs 9 Community Based Childcare Centres (CBCCs) across our area. In the UK they would be called pre-schools.
+African Vision Malawi runs 13 Community Based Childcare Centres (CBCCs) across our area. 11 are supported by Feed the Children. In the UK they would be called pre-schools.
 
 They are located in Chipasula, Chiweza II, Kafutwe, Masiye, Mkhambwe, Mlumbwira, Mngwizi, M’teza and Namanyanga.
 Caregiver teaching the children an action game at Namanyanga CBCC
 
 ![Caregiver teaching the children an action game at Namanyanga CBCC](/img/cbccs/01-Caregiver-teaching-the-children-an-action-game-at-Namanyanga-CBCC.jpg)
-*Caregiver teaching the children an action game at Namanyanga CBCC*
+_Caregiver teaching the children an action game at Namanyanga CBCC_
 
 ## What is a CBCC?
 
@@ -30,9 +30,10 @@ This manifests itself later in life – with high drop-out rates at school and l
 **The feeding stations** provide a nutritional porridge 5 times a week. The weight and height of children is monitored on a monthly basis, and all pre-school volunteers have been trained in how to do this. Food is currently provided by Feed the Children, Malawi, but Feed the Children are phasing out this project, and so, hand in hand with the local communities, we are setting up ‘sustainable food gardens’ in the pre-schools to provide the food.
 
 ![Children at the M'teza CBCC feeding programme](/img/cbccs/02-Mteza-feeding-programme-3.jpg)
-*Children at the M’teza CBCC feeding programme*
+_Children at the M’teza CBCC feeding programme_
 
 ## Future Plans
+
 In the future, we intend that the CBCCs will also be used in the afternoons (when pre-schools and feeding programmes are finished) for Adult Education. Parenting courses will be provided to mothers and fathers, from pregnancy through to 3 yrs old, focusing on Early Childhood Development. There will also be adult literacy and numeracy classes and civic education, empowering communities to take action when services are not provided and giving them the skills to feel confident when challenging authority. Our ultimate goal is to build a self-sufficient community.
 
 ## CBCC Renovations
@@ -49,29 +50,27 @@ Donate
 
 Chipasula CBCC is in Lombwa. It was built in 2004 by CPAR and was renovated in 2015, organised by African Vision Malawi with funding from Mazars. Both the classroom and toilet blocks were renovated.
 
-
 ![Chipasula CBCC after renovations](/img/cbccs/03-Chipasula-CBCC-after-renovations.jpg)
-*Chipasula CBCC after renovations in 2015*
-
+_Chipasula CBCC after renovations in 2015_
 
 ![Chipasula CBCC before renovations](/img/cbccs/04-Chipasula-CBCC-before-renovations.jpg)
-*Chipasula CBCC before the renovations*
+_Chipasula CBCC before the renovations_
 
 ![Chipasula CBCC inside classroom](/img/cbccs/05-Chipasula-CBCC-inside-classroom.jpg)
-*Inside the classroom at Chipasula CBCC*
+_Inside the classroom at Chipasula CBCC_
 
 ### Chiweza II
 
 Chiweza II is in Chitsime and was built in 2008 by CPAR. There are about 109 children with two government-trained caregivers out of the five who work there. The Caregivers are very committed, trying to apply what they learned through their training & displayed the learning areas. The community participates in cooking the Vitameal porridge & collecting firewood.
 
 ![Children singing and clapping to a song](/img/cbccs/06-Children-singing-and-clapping-to-a-song.jpg)
-*Children singing and clapping to a song at Chiweza II CBCC*
+_Children singing and clapping to a song at Chiweza II CBCC_
 
 ![Caregiver preparing the Vitameal porridge](/img/cbccs/07-Caregiver-preparing-the-Vitameal-porridge.jpg)
-*Caregiver preparing the Vitameal porridge at Chiweza II CBCC*
+_Caregiver preparing the Vitameal porridge at Chiweza II CBCC_
 
 ![Chiweza II chief with CBCC children](/img/cbccs/08-Chief-with-children.jpg)
-*Chiweza II Chief with CBCC children. The involvement of the local communities in our projects is essential to their success.*
+_Chiweza II Chief with CBCC children. The involvement of the local communities in our projects is essential to their success._
 
 ### Funsani
 
@@ -89,14 +88,14 @@ The main building is in good condition but toilet facilities are needed urgently
 Kafutwe CBCC building
 
 ![Kafutwe](/img/cbccs/09-Kafutwe-CBCC-building.jpg)
-*CBCC at Kafutwe*
+_CBCC at Kafutwe_
 
 ### Masiye
 
 Masiye is in the Masiye district. It was built in 2007 and then renovated by African Vision Malawi. The building is fairly good, needs painting inside & to redo the blackboard but toilets are still needed. The Caregivers know their jobs well and are good at using teaching aids etc.
 
 ![Children learning an action game at Masiye CBCC](/img/cbccs/10-Children-learning-an-action-game-at-Masiye-CBCC.jpg)
-*Children learning an action game at Masiye CBCC*
+_Children learning an action game at Masiye CBCC_
 
 Would you like to contribute to the projects going on at our CBCCs?
 
@@ -107,55 +106,55 @@ Donate
 Mkhambwe CBCC is in Lombwa district. It was built in 2004 by CPAR and has about 100 children. One of the caregivers is government-trained out of the five who work there. In 2015 the classroom, toilets and kitchen unit were all renovated, organised by African Vision Malawi with funding from Mazars.
 
 ![Mkambwe CBCC after renovations](/img/cbccs/11-Mkambwe-CBCC-after-renovations.jpg)
-*Mkambwe CBCC after renovations in 2015*
+_Mkambwe CBCC after renovations in 2015_
 
 ![Mkambwe CBCC before renovations](/img/cbccs/12-Mkambwe-CBCC-before-renovations.jpg)
-*Mkambwe CBCC before renovations*
+_Mkambwe CBCC before renovations_
 
 ![Mkambwe CBCC inside classroom](/img/cbccs/13-Mkambwe-CBCC-inside-classroom.jpg)
-*Inside the classroom at Mkambwe CBCC*
+_Inside the classroom at Mkambwe CBCC_
 
 ![Mkambwe CBCC kitchen unit](/img/cbccs/14-Mkambwe-CBCC-kitchen-unit.jpg)
-*Mkambwe CBCC kitchen unit*
+_Mkambwe CBCC kitchen unit_
 
 ### Mlumbwira
 
 Mlumbwira is in M’bang’ombe area. It was built in 2004 by CPAR and the community.
 
 ![Learning personal hygiene by washing hands](/img/cbccs/15-Being-taught-personal-hygiene-by-washing-hands.jpg)
-*Learning personal hygiene by washing hands*
+_Learning personal hygiene by washing hands_
 
 ![Children playing outside their CBCC](/img/cbccs/16-Children-playing-outside-their-CBCC.jpg)
-*Children playing outside Mlumbwira CBCC*
+_Children playing outside Mlumbwira CBCC_
 
 ![Children, 1 with albinism, eating porridge](/img/cbccs/17-Children-1-with-albinism-eating-their-porridge.jpg)
-*Children, one with albinism, eating porridge*
+_Children, one with albinism, eating porridge_
 
 ### Mngwizi
 
 Mngwizi CBCC is in Chamcholo district. It was built in 2006 by CPAR and the community, and the classroom, toilets and kitchen unit were renovated in 2015 – this project was organised by African Vision Malawi with funding from Mazars. There are about 150 children with two government-trained caregivers out of the five who work there.
 
 ![Mngwizi CBCC inside classroom](/img/cbccs/18-Mngwizi-CBCC-inside-classroom.jpg)
-*Inside the classroom at Mngwizi CBCC*
+_Inside the classroom at Mngwizi CBCC_
 
 ![Mngwizi CBCC after renovations](/img/cbccs/19-Mngwizi-CBCC-after-renovations.jpg)
-*Mngwizi CBCC after renovations*
+_Mngwizi CBCC after renovations_
 
 ![Mngwizi CBCC before renovations](/img/cbccs/20-Mngwizi-CBCC-before-renovations.jpg)
-*Mngwizi CBCC before renovations*
+_Mngwizi CBCC before renovations_
 
 ### M’teza
 
 M’teza CBCC is in M’bang’ombe and it was built in 2012 by African Vision Malawi. It is a permanent structure in excellent condition and is part of African Vision Malawi’s training village – Sam’s Village. M’teza CBCC is twinned with Katey’s House Nursery & Pre-School in Kingston, UK.
 
 ![Children sitting on wooden (not concrete or earth) floor](/img/cbccs/21-Children-on-wooden-floor.jpg)
-*Children sitting on wooden (not concrete or earth) floor at M'teza CBCC*
+_Children sitting on wooden (not concrete or earth) floor at M'teza CBCC_
 
 ### Namanyanga
 
 Namanyanga CBCC is in Namanyanga district and was built in 2010 by African Vision Malawi, funded by Project4Africa. There are about 135 children with two government-trained caregivers out of the three who work there.
 
 ![Children playing on their homemade swing](/img/cbccs/22-Children-playing-on-their-homemade-swing.jpg)
-*Children playing on their homemade swing*
+_Children playing on their homemade swing_
 
 If you would donate towards any of our work at the CBCCs, such as renovations or developing sustainable food gardens, please donate here:
