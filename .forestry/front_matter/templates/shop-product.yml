@@ -22,6 +22,10 @@ fields:
   name: productImage
   label: productImage
   default: "/img/default-image-1.jpg"
+- name: productImages
+  type: image_gallery
+  config: {}
+  label: Product Gallery
 - type: text
   name: description
   label: description
@@ -113,10 +117,6 @@ fields:
     step: 
   showOnly:
     value: other
-- name: productImages
-  type: image_gallery
-  config: {}
-  label: Product Gallery
 pages:
 - src/pages/shop/aeroplane.md
 - src/pages/shop/buy-a-sleeping-mat.md
