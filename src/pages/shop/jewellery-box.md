@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 productImage: "/img/jewellery-box.jpg"
 productImages:
-  - photo: "/img/jewellery-box.jpg"
+  - "/img/jewellery-box.jpg"
 salePrice: 0
 inStock: 3
 tags: []

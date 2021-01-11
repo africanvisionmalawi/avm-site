@@ -3,7 +3,7 @@ templateKey: shop-product-page
 productId: bag-for-life
 productImage: "/img/default-image.jpg"
 productImages:
-  - photo: "/img/default-image.jpg"
+  - "/img/default-image.jpg"
 title: Bag for life
 date: "2013-03-31T22:18:46+01:00"
 description: Folded shopping bag with a button. These are handmade by our graduates from Sam's Village.

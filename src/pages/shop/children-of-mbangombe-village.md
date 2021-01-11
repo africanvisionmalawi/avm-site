@@ -11,7 +11,7 @@ description: ""
 productId: "2102"
 productImage: "/img/default-image.jpg"
 productImages:
-  - photo: "/img/default-image.jpg"
+  - "/img/default-image.jpg"
 size: cd
 weight: 84
 tags:

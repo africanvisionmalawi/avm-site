@@ -10,7 +10,7 @@ description: ""
 productId: "2160"
 productImage: "/img/default-image.jpg"
 productImages:
-  - photo: "/img/default-image.jpg"
+  - "/img/default-image.jpg"
 product_shipping_class: book
 size: book
 weight: 250

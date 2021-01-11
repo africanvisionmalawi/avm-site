@@ -11,7 +11,7 @@ description: ""
 productId: "2239"
 productImage: "/img/default-image.jpg"
 productImages:
-  - photo: "/img/default-image.jpg"
+  - "/img/default-image.jpg"
 tags:
   - postcards
 size: "card"

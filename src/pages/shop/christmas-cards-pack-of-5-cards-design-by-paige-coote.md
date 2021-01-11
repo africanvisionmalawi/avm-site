@@ -11,7 +11,7 @@ description: ""
 productId: "2826"
 productImage: "/img/default-image.jpg"
 productImages:
-  - photo: "/img/default-image.jpg"
+  - "/img/default-image.jpg"
 tags:
   - christmas
 size: card

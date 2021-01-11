@@ -9,7 +9,7 @@ description: ""
 productId: "2208"
 productImage: "/img/default-image.jpg"
 productImages:
-  - photo: "/img/default-image.jpg"
+  - "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

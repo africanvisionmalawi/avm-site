@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 productImage: "/img/hopejoypeace-p1.jpg"
 productImages:
-  - photo: "/img/hopejoypeace-p1.jpg"
+  - "/img/hopejoypeace-p1.jpg"
 salePrice: 0
 inStock: 99
 tags:

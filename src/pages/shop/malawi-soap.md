@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 productImage: "/img/soap-rotated.jpg"
 productImages:
-  - photo: "/img/soap-rotated.jpg"
+  - "/img/soap-rotated.jpg"
 salePrice: 0
 inStock: 99
 tags:
