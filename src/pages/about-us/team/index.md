@@ -44,10 +44,6 @@ malawiTeam:
   name: Stanley Msukunika
   role: M&E / Sustainable Farms Manager
 - order: 
-  photo: "/img/hezekiah-kunje.jpg"
-  name: Hezekiah Kunje
-  role: Sam's Village Guard
-- order: 
   photo: "/img/Julie-for-website-150x150.jpg"
   name: Julie Ndalama
   role: Disability Outreach Worker
@@ -134,6 +130,10 @@ malawiTeam:
 - order: 
   photo: "/img/Paul-Bowa-150x150.jpg"
   name: Paul Bowa
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/hezekiah-kunje.jpg"
+  name: Hezekiah Kunje
   role: Sam's Village Guard
 - order: 
   photo: "/img/Simeon-Lamuel-150x150.jpg"
