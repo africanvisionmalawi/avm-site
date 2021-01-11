@@ -10,6 +10,8 @@ permalink: /product/girl-doorway
 description: ""
 productId: "2239"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - postcards
 size: "card"

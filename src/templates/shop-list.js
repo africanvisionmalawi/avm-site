@@ -112,6 +112,15 @@ export const pageQuery = graphql`
                 }
               }
             }
+            productImages {
+              photo {
+                childImageSharp {
+                  fixed(width: 280, quality: 50) {
+                    ...GatsbyImageSharpFixed
+                  }
+                }
+              }
+            }
           }
         }
       }

@@ -60,6 +60,7 @@ export const ShopProductTemplate = ({
   shippingClass,
   tags,
   productImage,
+  productImages,
   path,
 }) => {
   // const { pathname = {} } = location;
@@ -151,6 +152,7 @@ const ShopProductPage = ({ data }) => {
         tags={post.frontmatter.tags}
         productImage={post.frontmatter.productImage}
         path={post.fields.slug}
+        productImages={post.frontmatter.productImages}
       />
     </Layout>
   );
@@ -191,6 +193,15 @@ export const pageBasicQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 450, quality: 50) {
               ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        productImages {
+          photo {
+            childImageSharp {
+              fluid(maxWidth: 450, quality: 50) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

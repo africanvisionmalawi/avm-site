@@ -10,6 +10,8 @@ permalink: /product/plant-20-trees
 description: ""
 productId: "2181"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

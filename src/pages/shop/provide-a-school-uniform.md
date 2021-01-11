@@ -10,6 +10,8 @@ permalink: /product/provide-a-school-uniform
 description: ""
 productId: "2202"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

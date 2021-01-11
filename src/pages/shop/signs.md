@@ -10,6 +10,8 @@ permalink: /product/signs
 description: ""
 productId: "2247"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - postcards
 size: "card"

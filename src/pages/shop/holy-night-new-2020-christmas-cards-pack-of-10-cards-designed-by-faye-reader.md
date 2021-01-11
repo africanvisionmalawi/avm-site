@@ -1,6 +1,8 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/holy-night-p1.jpg"
+productImages:
+  - photo: "/img/holy-night-p1.jpg"
 salePrice: 0
 inStock: 99
 tags:

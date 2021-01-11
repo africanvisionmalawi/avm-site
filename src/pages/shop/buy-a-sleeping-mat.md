@@ -7,6 +7,8 @@ tags:
 title: Buy a sleeping mat
 productId: BuyASleepingMat
 productImage: "/img/gift-card-image.jpg"
+productImages:
+  - photo: "/img/gift-card-image.jpg"
 description: Give a gift that will make a difference We will send you the gift card/s
 price: 2
 size: card

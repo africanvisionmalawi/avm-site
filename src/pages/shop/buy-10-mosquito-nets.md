@@ -10,6 +10,8 @@ permalink: /product/buy-10-mosquito-nets
 description: ""
 productId: "2194"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

@@ -3,6 +3,8 @@ templateKey: shop-product-page
 productId: buildUpWell
 title: Build up a well
 productImage: "/img/shop/build-a-well-1.jpg"
+productImages:
+  - photo: "/img/shop/build-a-well-1.jpg"
 description: Give a gift that will make a difference...
 price: 100
 salePrice: 100

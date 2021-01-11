@@ -1,6 +1,8 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/wooden-beetles.jpg"
+productImages:
+  - photo: "/img/wooden-beetles.jpg"
 salePrice: 0
 inStock: 99
 tags:

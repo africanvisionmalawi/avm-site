@@ -10,6 +10,8 @@ permalink: /product/provide-gardening-tools
 description: ""
 productId: "2183"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

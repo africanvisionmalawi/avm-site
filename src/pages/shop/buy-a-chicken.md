@@ -10,6 +10,8 @@ permalink: /product/buy-a-chicken
 description: ""
 productId: "2218"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

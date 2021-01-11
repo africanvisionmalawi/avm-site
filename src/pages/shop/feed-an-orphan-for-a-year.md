@@ -10,6 +10,8 @@ permalink: /product/feed-an-orphan-for-a-year
 description: ""
 productId: "2212"
 productImage: "/img/default-image.jpg"
+productImages:
+  - photo: "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"
