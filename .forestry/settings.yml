@@ -71,6 +71,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: src/pages/sams-village
+  label: Sams Village
+  create: all
+  match: "**/*"
+- type: directory
   path: src/pages/water
   label: Water
   create: all
