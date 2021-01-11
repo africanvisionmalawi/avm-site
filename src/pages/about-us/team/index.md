@@ -4,9 +4,9 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/bizalielo-kalimo.jpg"
-  name: Bizaliel Kalimo
-  role: Sam's Village Guard
+  photo: "/img/peter-happy-2.jpeg"
+  name: Peter Happy
+  role: Gardener
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
@@ -75,6 +75,10 @@ malawiTeam:
   photo: "/img/Bokela-for-website-150x150.jpg"
   name: Bokela Gunda
   role: Sam's Village Maintenance Officer
+- order: 
+  photo: "/img/bizalielo-kalimo.jpg"
+  name: Bizaliel Kalimo
+  role: Sam's Village Guard
 - order: 
   photo: "/img/Chikondi-for-website-150x150.jpg"
   name: Chikondi Kanambo
