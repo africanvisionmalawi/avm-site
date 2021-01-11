@@ -113,6 +113,10 @@ fields:
     step: 
   showOnly:
     value: other
+- name: productImages
+  type: image_gallery
+  config: {}
+  label: Product Gallery
 pages:
 - src/pages/shop/aeroplane.md
 - src/pages/shop/buy-a-sleeping-mat.md
