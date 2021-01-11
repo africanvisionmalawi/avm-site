@@ -4,9 +4,9 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/hezekiah-kunje-2.jpeg"
-  name: Hezekiah Kunje
-  role: Sam's Village Guard
+  photo: "/img/sthembile-chandauka-2.jpeg"
+  name: Sthembileh Chandauka
+  role: Admin & Safe Motherhood Officer
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
@@ -126,6 +126,10 @@ malawiTeam:
 - order: 
   photo: "/img/bizalielo-kalimo.jpg"
   name: Bizalielo Kalimo
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/hezekiah-kunje-2.jpeg"
+  name: Hezekiah Kunje
   role: Sam's Village Guard
 - order: 
   photo: "/img/Kazula-and-Sheba-150x150.jpg"
