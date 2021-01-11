@@ -4,9 +4,9 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/sthembile-chandauka-2.jpeg"
-  name: Sthembileh Chandauka
-  role: Admin & Safe Motherhood Officer
+  photo: "/img/emma-katengeza-2.jpeg"
+  name: Emma Katengeza
+  role: Medical Outreach Manager
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
@@ -32,17 +32,13 @@ malawiTeam:
   name: Ruth Katchere
   role: Finance Officer
 - order: 
-  photo: "/img/felix-kalikwala.jpg"
-  name: Felix Kalikwala
-  role: Permaculture instructor
+  photo: "/img/sthembile-chandauka-2.jpeg"
+  name: Sthembileh Chandauka
+  role: Admin & Safe Motherhood Officer
 - order: 
   photo: "/img/hezekiah-kunje.jpg"
   name: Hezekiah Kunje
   role: Sam's Village Guard
-- order: 
-  photo: "/img/william-chapota-2.jpg"
-  name: William Chapota
-  role: Maintenance support
 - order: 
   photo: "/img/Julie-for-website-150x150.jpg"
   name: Julie Ndalama
@@ -55,6 +51,14 @@ malawiTeam:
   photo: "/img/Richard-150x150.jpg"
   name: Richard Chinthochi
   role: Mechanic / Driver
+- order: 
+  photo: "/img/felix-kalikwala.jpg"
+  name: Felix Kalikwala
+  role: Permaculture instructor
+- order: 
+  photo: "/img/william-chapota-2.jpg"
+  name: William Chapota
+  role: Maintenance support
 - order: 
   photo: "/img/Thomas-Lighton-150x150.jpg"
   name: Thomas Lighton
