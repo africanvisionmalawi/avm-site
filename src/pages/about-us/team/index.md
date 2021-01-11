@@ -4,9 +4,9 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/peter-happy-2.jpeg"
-  name: Peter Happy
-  role: Gardener
+  photo: "/img/enock-kadzakumanja-2.jpeg"
+  name: Enock Kadzakumanja
+  role: Sam's Village Guard
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
@@ -83,6 +83,10 @@ malawiTeam:
   photo: "/img/Chikondi-for-website-150x150.jpg"
   name: Chikondi Kanambo
   role: Reception and Admin Officer
+- order: 
+  photo: "/img/peter-happy-2.jpeg"
+  name: Peter Happy
+  role: Gardener
 - order: 
   photo: "/img/irene-mwale-2.jpg"
   name: Ireen Mwale
