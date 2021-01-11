@@ -3,10 +3,10 @@ templateKey: about-team
 title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
-- order: 
-  photo: "/img/enock-kadzakumanja-2.jpeg"
-  name: Enock Kadzakumanja
-  role: Sam's Village Guard
+- photo: "/img/princes-mwale.jpeg"
+  name: Princess Mwale
+  role: ECD & Adult Literacy Manager
+  order: 
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
@@ -146,6 +146,10 @@ malawiTeam:
 - order: 
   photo: "/img/hezekiah-kunje-2.jpeg"
   name: Hezekiah Kunje
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/enock-kadzakumanja-2.jpeg"
+  name: Enock Kadzakumanja
   role: Sam's Village Guard
 - order: 
   photo: "/img/Kazula-and-Sheba-150x150.jpg"
