@@ -48,6 +48,10 @@ malawiTeam:
   name: Julie Ndalama
   role: Disability Outreach Worker
 - order: 
+  photo: "/img/Kondwani-permaculture-small-150x150.jpg"
+  name: Kondwani Galanga
+  role: Permaculture Officer
+- order: 
   photo: "/img/Green-150x150.jpg"
   name: Green Phiri
   role: Agriculture Outreach Worker
@@ -56,6 +60,10 @@ malawiTeam:
   name: Richard Chinthochi
   role: Mechanic / Driver
 - order: 
+  photo: "/img/Thomas-Lighton-150x150.jpg"
+  name: Thomas Lighton
+  role: Office Assistant / Driver
+- order: 
   photo: "/img/felix-kalikwala.jpg"
   name: Felix Kalikwala
   role: Permaculture instructor
@@ -63,14 +71,6 @@ malawiTeam:
   photo: "/img/william-chapota-2.jpg"
   name: William Chapota
   role: Maintenance support
-- order: 
-  photo: "/img/Thomas-Lighton-150x150.jpg"
-  name: Thomas Lighton
-  role: Office Assistant / Driver
-- order: 
-  photo: "/img/Kondwani-permaculture-small-150x150.jpg"
-  name: Kondwani Galanga
-  role: Permaculture Officer
 - order: 
   photo: "/img/Bokela-for-website-150x150.jpg"
   name: Bokela Gunda
