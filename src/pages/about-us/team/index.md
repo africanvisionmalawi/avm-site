@@ -4,9 +4,9 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/emma-katengeza-2.jpeg"
-  name: Emma Katengeza
-  role: Medical Outreach Manager
+  photo: "/img/bizalielo-kalimo.jpg"
+  name: Bizaliel Kalimo
+  role: Sam's Village Guard
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
@@ -31,6 +31,10 @@ malawiTeam:
   photo: "/img/team/Ruth-Katchere-150x150.jpg"
   name: Ruth Katchere
   role: Finance Officer
+- order: 
+  photo: "/img/emma-katengeza-2.jpeg"
+  name: Emma Katengeza
+  role: Medical Outreach Manager
 - order: 
   photo: "/img/sthembile-chandauka-2.jpeg"
   name: Sthembileh Chandauka
