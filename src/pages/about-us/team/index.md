@@ -3,10 +3,10 @@ templateKey: about-team
 title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
-- photo: "/img/princes-mwale.jpeg"
-  name: Princess Mwale
-  role: ECD & Adult Literacy Manager
-  order: 
+- order: 
+  photo: "/img/stanley-msukunika-2.jpeg"
+  name: Stanley Msukunika
+  role: M&E / Sustainable Farms Manager
 - order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
@@ -39,6 +39,10 @@ malawiTeam:
   photo: "/img/sthembile-chandauka-2.jpeg"
   name: Sthembileh Chandauka
   role: Admin & Safe Motherhood Officer
+- photo: "/img/princes-mwale.jpeg"
+  name: Princess Mwale
+  role: ECD & Adult Literacy Manager
+  order: 
 - order: 
   photo: "/img/hezekiah-kunje.jpg"
   name: Hezekiah Kunje
