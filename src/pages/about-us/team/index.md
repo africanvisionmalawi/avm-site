@@ -80,7 +80,7 @@ malawiTeam:
   name: Walter Malikesi
   role: Office Gardener and Support
 - order: 
-  photo: "/img/Mistone-150x150.png"
+  photo: "/img/mistone-abison-2.jpeg"
   name: Mistone Abison
   role: Procurement Officer
 - order: 
