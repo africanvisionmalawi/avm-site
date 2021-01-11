@@ -15,4 +15,6 @@ productId: jewellery-box
 description: Malawian made jewellery box
 price: 8
 shippingClass: ""
----Malawian made jewellery box
+---
+
+Malawian made jewellery box
