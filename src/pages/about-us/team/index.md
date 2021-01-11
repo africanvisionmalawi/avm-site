@@ -4,10 +4,6 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
-  photo: "/img/stanley-msukunika-2.jpeg"
-  name: Stanley Msukunika
-  role: M&E / Sustainable Farms Manager
-- order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
   role: Acting Country Manager
@@ -43,6 +39,10 @@ malawiTeam:
   name: Princess Mwale
   role: ECD & Adult Literacy Manager
   order: 
+- order: 
+  photo: "/img/stanley-msukunika-2.jpeg"
+  name: Stanley Msukunika
+  role: M&E / Sustainable Farms Manager
 - order: 
   photo: "/img/hezekiah-kunje.jpg"
   name: Hezekiah Kunje
