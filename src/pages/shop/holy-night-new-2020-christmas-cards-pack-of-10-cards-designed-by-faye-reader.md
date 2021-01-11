@@ -16,4 +16,6 @@ length: 155
 width: 155
 height: 11
 shippingClass: ""
----A pack of 10 Christmas cards, newly designed by Faye Reader
+---
+
+A pack of 10 Christmas cards, newly designed by Faye Reader
