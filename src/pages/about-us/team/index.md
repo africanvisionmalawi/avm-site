@@ -4,6 +4,10 @@ title: Team
 description: Meet the team - African Vision Malawi
 malawiTeam:
 - order: 
+  photo: "/img/hezekiah-kunje-2.jpeg"
+  name: Hezekiah Kunje
+  role: Sam's Village Guard
+- order: 
   photo: "/img/Kumbukani-2-150x150.jpg"
   name: Kumbukani Kuntiya
   role: Acting Country Manager
