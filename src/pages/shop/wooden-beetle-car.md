@@ -18,4 +18,6 @@ weight: 230
 width: 100
 height: 100
 length: 200
----The famous Beetle car handcrafted in Malawi approximately 150 mm length
+---
+
+The famous Beetle car handcrafted in Malawi approximately 150 mm length
