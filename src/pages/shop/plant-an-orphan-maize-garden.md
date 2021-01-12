@@ -10,6 +10,8 @@ permalink: /product/plant-an-orphan-maize-garden
 description: ""
 productId: "2210"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

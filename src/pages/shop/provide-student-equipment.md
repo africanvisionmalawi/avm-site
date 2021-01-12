@@ -10,6 +10,8 @@ permalink: /product/provide-student-equipment
 description: ""
 productId: "2200"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 weight: 4
 length: 147
 width: 104

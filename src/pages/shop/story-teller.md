@@ -10,6 +10,8 @@ permalink: /product/story-teller
 description: ""
 productId: "2249"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - postcards
 size: "card"

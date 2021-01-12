@@ -10,6 +10,8 @@ permalink: /product/lady-by-the-lake-with-umbrella
 description: ""
 productId: "2235"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - postcards
 size: "card"

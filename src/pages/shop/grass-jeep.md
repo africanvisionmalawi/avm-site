@@ -1,6 +1,8 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 salePrice: 0
 inStock: 2
 tags:
@@ -16,6 +18,8 @@ weight: 280
 width: 200
 height: 120
 length: 150
+relatedProducts:
+  - grass-aeroplane
 ---
 
 Handcrafted in Malawi approximately 150 mm long , made out of Malawian grass.

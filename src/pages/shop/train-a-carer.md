@@ -10,6 +10,8 @@ permalink: /product/train-a-carer
 description: ""
 productId: "2179"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

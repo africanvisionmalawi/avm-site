@@ -28,21 +28,29 @@ malawiTeam:
   name: Ruth Katchere
   role: Finance Officer
 - order: 
-  photo: "/img/felix-kalikwala.jpg"
-  name: Felix Kalikwala
-  role: Permaculture instructor
+  photo: "/img/emma-katengeza-2.jpeg"
+  name: Emma Katengeza
+  role: Medical Outreach Manager
 - order: 
-  photo: "/img/hezekiah-kunje.jpg"
-  name: Hezekiah Kunje
-  role: Sam's Village Guard
+  photo: "/img/sthembile-chandauka-2.jpeg"
+  name: Sthembileh Chandauka
+  role: Admin & Safe Motherhood Officer
+- photo: "/img/princes-mwale.jpeg"
+  name: Princess Mwale
+  role: ECD & Adult Literacy Manager
+  order: 
 - order: 
-  photo: "/img/william-chapota-2.jpg"
-  name: William Chapota
-  role: Maintenance support
+  photo: "/img/stanley-msukunika-2.jpeg"
+  name: Stanley Msukunika
+  role: M&E / Sustainable Farms Manager
 - order: 
   photo: "/img/Julie-for-website-150x150.jpg"
   name: Julie Ndalama
   role: Disability Outreach Worker
+- order: 
+  photo: "/img/Kondwani-permaculture-small-150x150.jpg"
+  name: Kondwani Galanga
+  role: Permaculture Officer
 - order: 
   photo: "/img/Green-150x150.jpg"
   name: Green Phiri
@@ -56,17 +64,29 @@ malawiTeam:
   name: Thomas Lighton
   role: Office Assistant / Driver
 - order: 
-  photo: "/img/Kondwani-permaculture-small-150x150.jpg"
-  name: Kondwani Galanga
-  role: Permaculture Officer
+  photo: "/img/felix-kalikwala.jpg"
+  name: Felix Kalikwala
+  role: Permaculture instructor
+- order: 
+  photo: "/img/william-chapota-2.jpg"
+  name: William Chapota
+  role: Maintenance support
 - order: 
   photo: "/img/Bokela-for-website-150x150.jpg"
   name: Bokela Gunda
   role: Sam's Village Maintenance Officer
 - order: 
+  photo: "/img/bizalielo-kalimo.jpg"
+  name: Bizaliel Kalimo
+  role: Sam's Village Guard
+- order: 
   photo: "/img/Chikondi-for-website-150x150.jpg"
   name: Chikondi Kanambo
   role: Reception and Admin Officer
+- order: 
+  photo: "/img/peter-happy-2.jpeg"
+  name: Peter Happy
+  role: Gardener
 - order: 
   photo: "/img/irene-mwale-2.jpg"
   name: Ireen Mwale
@@ -80,7 +100,7 @@ malawiTeam:
   name: Walter Malikesi
   role: Office Gardener and Support
 - order: 
-  photo: "/img/Mistone-150x150.png"
+  photo: "/img/mistone-abison-2.jpeg"
   name: Mistone Abison
   role: Procurement Officer
 - order: 
@@ -112,6 +132,10 @@ malawiTeam:
   name: Paul Bowa
   role: Sam's Village Guard
 - order: 
+  photo: "/img/hezekiah-kunje.jpg"
+  name: Hezekiah Kunje
+  role: Sam's Village Guard
+- order: 
   photo: "/img/Simeon-Lamuel-150x150.jpg"
   name: Simeon Lamuel
   role: Sam's Village Guard
@@ -122,6 +146,14 @@ malawiTeam:
 - order: 
   photo: "/img/bizalielo-kalimo.jpg"
   name: Bizalielo Kalimo
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/hezekiah-kunje-2.jpeg"
+  name: Hezekiah Kunje
+  role: Sam's Village Guard
+- order: 
+  photo: "/img/enock-kadzakumanja-2.jpeg"
+  name: Enock Kadzakumanja
   role: Sam's Village Guard
 - order: 
   photo: "/img/Kazula-and-Sheba-150x150.jpg"

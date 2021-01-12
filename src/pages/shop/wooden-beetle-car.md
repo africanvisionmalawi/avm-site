@@ -1,7 +1,9 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/wooden-beetles.jpg"
-salePrice: 0
+productImages:
+  - "/img/wooden-beetles.jpg"
+salePrice:
 inStock: 99
 tags:
   - craft

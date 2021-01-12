@@ -10,6 +10,8 @@ permalink: /product/buy-a-goat
 description: ""
 productId: "2214"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

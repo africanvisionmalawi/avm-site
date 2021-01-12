@@ -1,6 +1,8 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 salePrice: 0
 inStock: 8
 tags:

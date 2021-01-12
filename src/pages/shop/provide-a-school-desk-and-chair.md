@@ -10,6 +10,8 @@ permalink: /product/provide-a-school-desk-and-chair
 description: ""
 productId: "2198"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

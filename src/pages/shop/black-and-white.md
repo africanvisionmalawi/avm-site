@@ -10,6 +10,8 @@ permalink: /product/black-and-white
 description: ""
 productId: "2227"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - postcards
 size: "card"

@@ -10,6 +10,8 @@ permalink: /product/plant-a-vegetable-garden
 description: ""
 productId: "2185"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"

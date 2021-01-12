@@ -60,6 +60,7 @@ export const ShopProductTemplate = ({
   shippingClass,
   tags,
   productImage,
+
   path,
 }) => {
   // const { pathname = {} } = location;
@@ -151,6 +152,7 @@ const ShopProductPage = ({ data }) => {
         tags={post.frontmatter.tags}
         productImage={post.frontmatter.productImage}
         path={post.fields.slug}
+        // productImages={post.frontmatter.productImages}
       />
     </Layout>
   );

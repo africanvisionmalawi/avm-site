@@ -10,6 +10,8 @@ permalink: /product/buy-a-bike
 description: ""
 productId: "2177"
 productImage: "/img/default-image.jpg"
+productImages:
+  - "/img/default-image.jpg"
 tags:
   - giftlist
 size: "card"
