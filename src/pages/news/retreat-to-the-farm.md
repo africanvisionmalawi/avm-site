@@ -13,7 +13,7 @@ tags:
 - meditation
 - france
 - retreat
-display_on_homepage: false
+display_on_homepage: true
 homepage_sort_order: 1
 
 ---
