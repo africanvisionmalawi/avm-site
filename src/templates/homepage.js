@@ -30,6 +30,8 @@ const IndexPage = (props) => {
   const heroImage = data.heroImage;
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
   const ourWork = homeContent[0].node.frontmatter.ourWork;
+  const newsItemsLimit = homeContent[0].node.frontmatter.newsItemsLimit;
+  const displayNewsItems = homeContent[0].node.frontmatter.displayNewsItems;
 
   let futureEvents = [];
   let pastEvents = [];
@@ -58,7 +60,12 @@ const IndexPage = (props) => {
     }
   });
 
-  // console.log("future ", futureEvents);
+  const checkNewsLimit = (i) => {
+    if (i + 1 <= newsItemsLimit) {
+      return true;
+    }
+    return false;
+  };
 
   return (
     <Layout>
@@ -141,21 +148,29 @@ const IndexPage = (props) => {
               />
             </div>
           </AltTopSection>
-          <section>
-            <div className={homepageStyles.newsCont}>
-              <div className={homepageStyles.cardCont}>
-                {posts &&
-                  posts.map(({ node: post }) => (
-                    <div key={post.fields.slug}>
-                      <BlogRollCard post={post} />
-                    </div>
-                  ))}
-              </div>
-            </div>
-          </section>
-          <PostsFooter>
-            <PostsFooterLink to="/news">View all news</PostsFooterLink>
-          </PostsFooter>
+          {displayNewsItems && (
+            <>
+              <section>
+                <div className={homepageStyles.newsCont}>
+                  <div className={homepageStyles.cardCont}>
+                    {posts &&
+                      posts.map(({ node: post }, index) => (
+                        <>
+                          {checkNewsLimit(index) && (
+                            <div key={post.fields.slug}>
+                              <BlogRollCard post={post} />
+                            </div>
+                          )}
+                        </>
+                      ))}
+                  </div>
+                </div>
+              </section>
+              <PostsFooter>
+                <PostsFooterLink to="/news">View all news</PostsFooterLink>
+              </PostsFooter>
+            </>
+          )}
           {futureEvents && futureEvents.length ? (
             <section>
               <H2Heading>Upcoming events</H2Heading>
@@ -229,7 +244,7 @@ const AltTopSection = styled.section`
   background: #f7f7f7;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   max-width: 1180px;
   padding: 2.5em 2em 1em;
   position: relative;
@@ -288,7 +303,7 @@ const TopVideoSection = styled.div`
 
 const PostsFooter = styled.div`
   height: 50px;
-  margin: 0 auto 5rem;
+  margin: 0 auto 3rem;
   max-width: 1180px;
   position: relative;
   &::before {
@@ -370,9 +385,14 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___homepage_sort_order] }
       limit: 6
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "blog-post" }
+          display_on_homepage: { eq: true }
+        }
+      }
     ) {
       edges {
         node {
@@ -386,6 +406,8 @@ export const pageQuery = graphql`
             description
             published
             templateKey
+            display_on_homepage
+            homepage_sort_order
             date(formatString: "MMMM DD, YYYY")
             postMobileImage: featuredImage {
               childImageSharp {
@@ -414,6 +436,8 @@ export const pageQuery = graphql`
             title
             description
             promoVideo
+            displayNewsItems
+            newsItemsLimit
             ourWork {
               id
               name
