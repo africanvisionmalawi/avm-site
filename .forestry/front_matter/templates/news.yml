@@ -14,6 +14,17 @@ fields:
 - name: display_on_homepage
   type: boolean
   label: Display on Homepage
+- name: homepage_sort_order
+  type: number
+  label: Homepage sort order
+  description: Add a number here to decide which order posts are displayed on the
+    homepage. Posts with a lower number are displayed first.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: pdf_upload
   type: file
   config:
