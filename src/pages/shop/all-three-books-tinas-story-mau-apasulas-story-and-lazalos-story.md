@@ -18,6 +18,8 @@ tags:
   - books
 total_sales:
   - "0"
+galleryPhotos:
+  - "/img/default-image.jpg"
 relatedProducts:
   - "2163"
   - "2165"
