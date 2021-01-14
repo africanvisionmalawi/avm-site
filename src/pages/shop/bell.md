@@ -15,7 +15,7 @@ product_shipping_class: letter
 size: card
 total_sales:
   - "0"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 ---
 

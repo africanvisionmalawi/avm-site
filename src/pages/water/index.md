@@ -1,7 +1,7 @@
 ---
 templateKey: featured-project-simple-gal
 currentProject: water
-columns: 1
+columns: "1"
 title: Water and sanitation
 description: Details about our various water projects - half of the worlds hospital beds are filled with people suffering from a water-related disease
 heroImage: "/img/mainphoto_water.jpg"

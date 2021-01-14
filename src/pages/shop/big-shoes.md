@@ -9,7 +9,6 @@ salePrice: 0
 permalink: /product/big-shoes
 description: ""
 productId: "2225"
-productImage: "/img/default-image.jpg"
 galleryPhotos:
   - "/img/default-image.jpg"
 tags:

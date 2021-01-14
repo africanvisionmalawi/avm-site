@@ -1,7 +1,7 @@
 ---
 templateKey: featured-project-simple
 currentProject: environment
-columns: 1
+columns: "1"
 title: Environment
 description: Details about our various environment projects
 heroImage: "/img/mainphoto_environment.jpg"
