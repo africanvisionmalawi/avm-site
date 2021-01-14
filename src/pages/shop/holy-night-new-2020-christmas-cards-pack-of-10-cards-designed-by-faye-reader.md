@@ -2,11 +2,11 @@
 templateKey: shop-product-page
 productImage: "/img/holy-night-p1.jpg"
 productImages:
-  - "/img/holy-night-p1.jpg"
-salePrice: 0
+- "/img/holy-night-p1.jpg"
+salePrice: 
 inStock: 99
 tags:
-  - christmas
+- christmas
 size: card
 title: Holy Night, New 2020 Christmas Cards – pack of 10 cards, designed by Faye Reader
 publish: true
@@ -17,7 +17,10 @@ weight: 185
 length: 155
 width: 155
 height: 11
-shippingClass: ""
----
+shippingClass: ''
+galleryPhotos:
+- "/img/holy-night-p1.jpg"
+- "/img/holy-night-back.jpg"
 
+---
 A pack of 10 Christmas cards, newly designed by Faye Reader
