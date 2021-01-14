@@ -1,23 +1,23 @@
 ---
 templateKey: shop-product-page
 inStock: 100
-title: "Bell postcard"
-date: "2013-03-31T22:55:45+01:00"
+title: Bell postcard
+date: '2013-03-31T22:55:45+01:00'
 publish: false
 price: 1
 salePrice: 0
-permalink: /product/bell
-description: ""
+permalink: "/product/bell"
+description: ''
 productId: "2223"
 productImage: "/img/default-image.jpg"
-productImages:
-  - "/img/default-image.jpg"
 tags:
-  - postcards
+- postcards
 product_shipping_class: letter
-size: "card"
+size: card
 total_sales:
-  - "0"
----
+- '0'
+productImages:
+- "/img/default-image.jpg"
 
+---
 Back of postcard blank Photographs by Nicky Hobhouse.
