@@ -3,10 +3,11 @@ templateKey: shop-product-page
 productId: bag-for-life
 productImage: "/img/default-image.jpg"
 productImages:
-  - "/img/default-image.jpg"
+- "/img/default-image.jpg"
 title: Bag for life
-date: "2013-03-31T22:18:46+01:00"
-description: Folded shopping bag with a button. These are handmade by our graduates from Sam's Village.
+date: '2013-03-31T22:18:46+01:00'
+description: Folded shopping bag with a button. These are handmade by our graduates
+  from Sam's Village.
 price: 10
 salePrice: 0
 inStock: 20
@@ -15,12 +16,15 @@ length: 0
 width: 0
 height: 0
 shippingClass: na
-size: "bag"
+size: ''
 product_shipping_class: letter
 tags:
-  - bag
+- bag
 relatedProducts:
-  - zip-bags
----
+- zip-bags
+galleryPhotos:
+- "/img/bag-for-life.jpg"
+publish: true
 
+---
 Folded shopping bag with a button. These are handmade by our graduates from Sam's Village.
