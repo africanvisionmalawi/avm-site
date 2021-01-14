@@ -49,7 +49,6 @@ export const FeaturedProjectsSimpleTemplate = ({
   heroMsgSource,
   title,
   currentProject,
-  columns,
   content,
   links,
   contentComponent,
@@ -89,11 +88,6 @@ export const FeaturedProjectsSimpleTemplate = ({
                 text="Donate"
               />
             </main>
-            {columns === 2 ? (
-              <aside className="column is-5">side col goes here</aside>
-            ) : (
-              ""
-            )}
           </div>
           {links.length && (
             <Section
@@ -127,7 +121,6 @@ FeaturedProjectsSimpleTemplate.propTypes = {
   heroMsgSource: PropTypes.string,
   title: PropTypes.string,
   currentProject: PropTypes.string,
-  columns: PropTypes.number,
   content: PropTypes.string,
   links: PropTypes.array,
 };
@@ -149,7 +142,6 @@ const FeaturedProjectsPageSimple = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         currentProject={post.frontmatter.currentProject}
-        columns={post.frontmatter.columns}
         content={post.html}
         heroImage={post.frontmatter.heroImage}
         heroMsg={post.frontmatter.heroMsg}
@@ -191,7 +183,6 @@ export const FeaturedProjectsPageSimpleQuery = graphql`
         heroMsg
         heroMsgSource
         currentProject
-        columns
         links {
           linkTitle
           smallImage: photo {

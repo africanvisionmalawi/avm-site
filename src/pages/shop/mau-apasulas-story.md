@@ -9,9 +9,6 @@ salePrice: 0
 permalink: "/product/mau-apasulas-story"
 description: ""
 productId: "2165"
-productImage: "/img/default-image.jpg"
-productImages:
-  - "/img/default-image.jpg"
 tags:
   - books
 size: book
@@ -22,6 +19,8 @@ relatedProducts:
   - "2160"
   - "2163"
   - "2168"
+galleryPhotos:
+  - "/img/4b0c288a1b644final-mau-cover.jpg"
 ---
 
 True life stories about some real children Landirani has helped.

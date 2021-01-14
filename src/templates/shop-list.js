@@ -46,12 +46,15 @@ const ShopIndex = ({ data }) => {
             {data.allMarkdownRemark.edges.map((document) => (
               <li key={document.node.id}>
                 <Link to={document.node.fields.slug}>
-                  <Img
-                    fixed={
-                      document.node.frontmatter.productImage.childImageSharp
-                        .fixed
-                    }
-                  />
+                  {document.node.frontmatter.galleryPhotos &&
+                    document.node.frontmatter.galleryPhotos.length && (
+                      <Img
+                        fixed={
+                          document.node.frontmatter.galleryPhotos[0]
+                            .childImageSharp.fixed
+                        }
+                      />
+                    )}
 
                   <h2 className={shopStyles.itemTitle}>
                     {document.node.frontmatter.title}
@@ -105,7 +108,7 @@ export const pageQuery = graphql`
             size
             shippingClass
             tags
-            productImage {
+            galleryPhotos {
               childImageSharp {
                 fixed(width: 280, height: 280) {
                   ...GatsbyImageSharpFixed

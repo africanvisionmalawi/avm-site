@@ -10,7 +10,7 @@ permalink: "/product/christmas-cards-park-of-10-cards-5-different-designs"
 description: ""
 productId: "2830"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - xmas

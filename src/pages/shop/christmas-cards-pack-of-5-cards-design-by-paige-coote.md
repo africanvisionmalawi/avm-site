@@ -9,9 +9,6 @@ salePrice: 0
 permalink: "/product/christmas-cards-pack-of-5-cards-design-by-paige-coote"
 description: ""
 productId: "2826"
-productImage: "/img/default-image.jpg"
-productImages:
-  - "/img/default-image.jpg"
 tags:
   - christmas
 size: card
@@ -22,6 +19,9 @@ width: 155
 height: 11
 total_sales:
   - "25"
+galleryPhotos:
+  - "/img/xmas-card-front-600px-design5.jpg"
+  - "/img/xmas-card-back-600px-design5.jpg"
 ---
 
 A pack of 5 christmas cards, designed by Paige Coote from Kingston College.

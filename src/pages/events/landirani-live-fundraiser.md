@@ -1,7 +1,7 @@
 ---
 templateKey: events-post
 contact: none
-telephone: 0
+telephone: "0"
 published: true
 title: Landirani Live Fundraiser
 photo: "/img/fundraiser-7-june-2019-poster.jpg"

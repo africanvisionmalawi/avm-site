@@ -11,7 +11,7 @@ tags:
 title: Donate any amount to Sam's Village and our Matched Fund will double it!
 productId: donateSamsVillage
 productImage: "/img/gift-card-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/gift-card-image.jpg"
 description: ""
 price: 1000

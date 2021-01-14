@@ -49,7 +49,6 @@ export const FeaturedProjectsSimpleVidTemplate = ({
   heroMsgSource,
   title,
   currentProject,
-  columns,
   content,
   videos,
   links,
@@ -90,11 +89,6 @@ export const FeaturedProjectsSimpleVidTemplate = ({
                 text="Donate"
               />
             </main>
-            {columns === 2 ? (
-              <aside className="column is-4">side col goes here</aside>
-            ) : (
-              ""
-            )}
           </div>
           {videos.length && (
             <Section
@@ -140,7 +134,6 @@ FeaturedProjectsSimpleVidTemplate.propTypes = {
   heroMsg: PropTypes.string,
   title: PropTypes.string,
   currentProject: PropTypes.string,
-  columns: PropTypes.number,
   content: PropTypes.string,
   videos: PropTypes.array,
   links: PropTypes.array,
@@ -163,7 +156,6 @@ const FeaturedProjectsPageSimpleVid = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         currentProject={post.frontmatter.currentProject}
-        columns={post.frontmatter.columns}
         content={post.html}
         heroImage={post.frontmatter.heroImage}
         heroMsg={post.frontmatter.heroMsg}
@@ -206,7 +198,6 @@ export const FeaturedProjectsPageSimpleVidQuery = graphql`
         heroMsg
         heroMsgSource
         currentProject
-        columns
         videos {
           videourl
           videotext

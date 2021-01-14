@@ -8,9 +8,6 @@ price: 18
 salePrice: 0
 description: ""
 productId: "2160"
-productImage: "/img/default-image.jpg"
-productImages:
-  - "/img/default-image.jpg"
 product_shipping_class: book
 size: book
 weight: 250
@@ -18,6 +15,8 @@ tags:
   - books
 total_sales:
   - "0"
+galleryPhotos:
+  - "/img/4b0c05b10c0b0books.jpg"
 relatedProducts:
   - "2163"
   - "2165"

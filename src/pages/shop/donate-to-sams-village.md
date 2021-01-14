@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 productId: donate-to-sams-village
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 title: Donate an amount to Sam's Village instead of a Christmas present
 date: "2013-03-31T22:18:46+01:00"

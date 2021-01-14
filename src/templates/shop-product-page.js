@@ -17,6 +17,7 @@ import NavbarLower from "../components/NavbarLower";
 import HeadingH1 from "../components/HeadingH1";
 import styled from "styled-components";
 import { priceFormatted } from "../utils/helpers";
+import { Carousel } from "../components/Carousel";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -59,14 +60,16 @@ export const ShopProductTemplate = ({
   height,
   shippingClass,
   tags,
-  productImage,
-
+  relatedProducts,
+  galleryPhotos,
   path,
 }) => {
   // const { pathname = {} } = location;
   const PageContent = contentComponent || Content;
   const { siteUrl } = useSiteMetadata();
-
+  // if (galleryPhotos.length) {
+  //   console.log(galleryPhotos[0]);
+  // }
   return (
     <div>
       <NavbarLower path={path} />
@@ -75,9 +78,16 @@ export const ShopProductTemplate = ({
           <HeadingH1 text={title} />
           <Flex flexWrap="wrap">
             <Box width={["100%", "100%", "66.66666%"]}>
-              <div className={shopStyles.productMain}>
-                <PreviewCompatibleImage imageInfo={productImage} />
-              </div>
+              {galleryPhotos && galleryPhotos.length > 1 && (
+                <Box maxW="600px">
+                  <Carousel allSizesImages={galleryPhotos} />
+                </Box>
+              )}
+              {galleryPhotos && galleryPhotos.length === 1 && (
+                <Box maxW="600px">
+                  <PreviewCompatibleImage imageInfo={galleryPhotos[0]} />
+                </Box>
+              )}
             </Box>
             <Box width={["100%", "100%", "33.333333%"]}>
               <div className={shopStyles.productAside}>
@@ -89,7 +99,7 @@ export const ShopProductTemplate = ({
                   name={title}
                   description={title}
                   price={price}
-                  image={productImage.childImageSharp.fluid.src}
+                  image={galleryPhotos[0].childImageSharp.fluid.src}
                   url={`${siteUrl}${slug}`}
                   weight={weight}
                   length={length}
@@ -109,6 +119,7 @@ export const ShopProductTemplate = ({
                 <div className={shopStyles.productDetails}>
                   <PageContent className="content" content={content} />
                 </div>
+                {/* {relatedProducts[0]} */}
               </div>
             </Box>
           </Flex>
@@ -150,7 +161,8 @@ const ShopProductPage = ({ data }) => {
         height={post.frontmatter.height}
         shippingClass={post.frontmatter.shippingClass}
         tags={post.frontmatter.tags}
-        productImage={post.frontmatter.productImage}
+        relatedProducts={post.frontmatter.relatedProducts}
+        galleryPhotos={post.frontmatter.galleryPhotos}
         path={post.fields.slug}
         // productImages={post.frontmatter.productImages}
       />
@@ -189,7 +201,8 @@ export const pageBasicQuery = graphql`
         width
         height
         tags
-        productImage {
+        relatedProducts
+        galleryPhotos {
           childImageSharp {
             fluid(maxWidth: 450, quality: 50) {
               ...GatsbyImageSharpFluid

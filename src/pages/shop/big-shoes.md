@@ -10,7 +10,7 @@ permalink: /product/big-shoes
 description: ""
 productId: "2225"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - postcards

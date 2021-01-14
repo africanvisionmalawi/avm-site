@@ -2,7 +2,7 @@
 templateKey: events-post
 endDate: 2015-06-28T13:05:53.407Z
 contact: none
-telephone: 0
+telephone: "0"
 published: true
 title: Hampton Court Flower Show 2015 Garden
 photo: "/img/garden/mainphoto_garden_show.jpg"

@@ -9,15 +9,14 @@ salePrice: 0
 permalink: "/product/children-of-mbangombe-village"
 description: ""
 productId: "2102"
-productImage: "/img/default-image.jpg"
-productImages:
-  - "/img/default-image.jpg"
 size: cd
 weight: 84
 tags:
   - CDs
 relatedProducts:
   - "2158"
+galleryPhotos:
+  - "/img/4b0bf8178a32bcd.jpg"
 ---
 
 Beautiful singing by the fantastic children in M’Bang’ombe School, Malawi
