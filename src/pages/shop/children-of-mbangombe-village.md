@@ -2,22 +2,24 @@
 templateKey: shop-product-page
 inStock: 100
 title: Children of M'Bang'ombe village (Music CD)
-date: "2013-03-31T15:40:45+01:00"
+date: '2013-03-31T15:40:45+01:00'
 publish: true
 price: 5
 salePrice: 0
 permalink: "/product/children-of-mbangombe-village"
-description: ""
+description: ''
 productId: "2102"
 productImage: "/img/default-image.jpg"
 productImages:
-  - "/img/default-image.jpg"
+- "/img/default-image.jpg"
 size: cd
 weight: 84
 tags:
-  - CDs
+- CDs
 relatedProducts:
-  - "2158"
----
+- '2158'
+galleryPhotos:
+- "/img/4b0bf8178a32bcd.jpg"
 
+---
 Beautiful singing by the fantastic children in M’Bang’ombe School, Malawi
