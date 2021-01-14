@@ -24,7 +24,6 @@ export const FeaturedProjectsTemplate = ({
   heroMsg,
   title,
   currentProject,
-  columns,
   content,
   videos,
   gallery,
@@ -62,11 +61,6 @@ export const FeaturedProjectsTemplate = ({
               text="Donate"
             />
           </Main>
-          {columns === 2 ? (
-            <aside className="column is-4">side col goes here</aside>
-          ) : (
-            ""
-          )}
 
           {videos.length && (
             <Section
@@ -113,7 +107,6 @@ FeaturedProjectsTemplate.propTypes = {
   heroMsg: PropTypes.string,
   title: PropTypes.string,
   currentProject: PropTypes.string,
-  columns: PropTypes.number,
   content: PropTypes.string,
   videos: PropTypes.array,
   gallery: PropTypes.array,
@@ -137,7 +130,6 @@ const FeaturedProjectsPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         currentProject={post.frontmatter.currentProject}
-        columns={post.frontmatter.columns}
         content={post.html}
         heroImage={post.frontmatter.heroImage}
         heroMsg={post.frontmatter.heroMsg}
@@ -223,7 +215,6 @@ export const FeaturedProjectsPageQuery = graphql`
         }
         heroMsg
         currentProject
-        columns
         videos {
           videourl
           videotext
