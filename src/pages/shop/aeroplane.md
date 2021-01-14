@@ -2,11 +2,11 @@
 templateKey: shop-product-page
 productImage: "/img/aeroplane.jpg"
 productImages:
-  - "/img/aeroplane.jpg"
-salePrice: 0
+- "/img/aeroplane.jpg"
+salePrice: 
 inStock: 1
 tags:
-  - craft
+- craft
 size: other
 weight: 350
 length: 350
@@ -15,13 +15,14 @@ height: 180
 title: Aeroplane
 publish: true
 productId: grass-aeroplane
-description:
-  Handcrafted in Malawi approximately 300 mm long, made out of Malawian
+description: Handcrafted in Malawi approximately 300 mm long, made out of Malawian
   grass.
 price: 10
-shippingClass: ""
+shippingClass: ''
 relatedProducts:
-  - grass-jeep
----
+- grass-jeep
+galleryPhotos:
+- "/img/aeroplane.jpg"
 
+---
 Handcrafted in Malawi approximately 300 mm long, made out of Malawian grass.
