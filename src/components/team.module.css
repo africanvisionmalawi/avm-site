@@ -23,7 +23,8 @@
 }
 .teamPhoto {
   border-radius: 50%;
-  max-width: 150px;
+  height: 150px;
+  width: 150px;
 }
 .teamPhoto img {
   border: 1px solid #e5e5e5;

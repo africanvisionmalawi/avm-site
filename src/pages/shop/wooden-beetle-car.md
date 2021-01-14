@@ -1,7 +1,7 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/wooden-beetles.jpg"
-productImages:
+galleryPhotos:
   - "/img/wooden-beetles.jpg"
 salePrice:
 inStock: 99

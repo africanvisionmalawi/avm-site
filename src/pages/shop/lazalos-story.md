@@ -10,7 +10,7 @@ permalink: "/product/lazalos-story"
 description: ""
 productId: "2163"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - books

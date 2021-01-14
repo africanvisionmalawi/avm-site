@@ -10,7 +10,7 @@ permalink: "/product/mau-apasulas-story"
 description: ""
 productId: "2165"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - books

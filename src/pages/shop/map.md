@@ -10,7 +10,7 @@ permalink: /product/map
 description: ""
 productId: "2243"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - postcards

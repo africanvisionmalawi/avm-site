@@ -10,7 +10,7 @@ permalink: /product/help-them-earn-a-living-through-a-microloan-to-set-up-a-busi
 description: ""
 productId: "2174"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - giftlist

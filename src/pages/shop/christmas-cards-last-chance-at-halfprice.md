@@ -10,7 +10,7 @@ permalink: "/product/christmas-cards-last-chance-at-halfprice"
 description: ""
 productId: "2659"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 product_visibility:
   - featured

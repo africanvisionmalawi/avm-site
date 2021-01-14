@@ -10,7 +10,7 @@ permalink: "/product/christmas-cards-pack-of-5-cards-design-by-erik-boaru"
 description: ""
 productId: "2809"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - xmas

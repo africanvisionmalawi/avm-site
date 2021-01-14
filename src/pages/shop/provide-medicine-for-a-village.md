@@ -10,7 +10,7 @@ permalink: /product/provide-medicine-for-a-village
 description: ""
 productId: "2190"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - giftlist

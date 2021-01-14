@@ -1,7 +1,7 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/hopejoypeace-p1.jpg"
-productImages:
+galleryPhotos:
   - "/img/hopejoypeace-p1.jpg"
 salePrice: 0
 inStock: 99

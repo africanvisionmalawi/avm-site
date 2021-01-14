@@ -9,7 +9,7 @@ salePrice: 0
 description: ""
 productId: "2160"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 product_shipping_class: book
 size: book
@@ -18,8 +18,6 @@ tags:
   - books
 total_sales:
   - "0"
-galleryPhotos:
-  - "/img/default-image.jpg"
 relatedProducts:
   - "2163"
   - "2165"

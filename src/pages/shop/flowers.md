@@ -10,7 +10,7 @@ permalink: /product/flowers
 description: ""
 productId: "2221"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - postcards

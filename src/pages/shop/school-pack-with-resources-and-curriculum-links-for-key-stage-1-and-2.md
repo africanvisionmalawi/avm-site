@@ -10,7 +10,7 @@ permalink: "/product/school-pack-with-resources-and-curriculum-links-for-key-sta
 description: ""
 productId: "2171"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - Education Packs

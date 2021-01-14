@@ -10,7 +10,7 @@ permalink: /product/Family
 description: ""
 productId: "2241"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - postcards

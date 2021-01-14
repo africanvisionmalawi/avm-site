@@ -10,7 +10,7 @@ permalink: "/product/tinas-story"
 description: ""
 productId: "2168"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - books

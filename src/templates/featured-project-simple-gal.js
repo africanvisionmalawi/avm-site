@@ -48,7 +48,6 @@ export const FeaturedProjectsSimpleGalTemplate = ({
   heroMsgSource,
   title,
   currentProject,
-  columns,
   content,
   gallery,
   links,
@@ -88,11 +87,7 @@ export const FeaturedProjectsSimpleGalTemplate = ({
               text="Donate"
             />
           </main>
-          {columns === 2 ? (
-            <aside className="column is-5">side col goes here</aside>
-          ) : (
-            ""
-          )}
+
           {links.length && (
             <Section
               className="full-width-container margin-top-0"
@@ -127,7 +122,6 @@ FeaturedProjectsSimpleGalTemplate.propTypes = {
   heroMsgSource: PropTypes.string,
   title: PropTypes.string,
   currentProject: PropTypes.string,
-  columns: PropTypes.number,
   content: PropTypes.string,
   gallery: PropTypes.array,
   links: PropTypes.array,
@@ -150,7 +144,6 @@ const FeaturedProjectsPageSimpleGal = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         currentProject={post.frontmatter.currentProject}
-        columns={post.frontmatter.columns}
         content={post.html}
         heroImage={post.frontmatter.heroImage}
         heroMsg={post.frontmatter.heroMsg}
@@ -193,7 +186,6 @@ export const FeaturedProjectsPageSimpleGalQuery = graphql`
         heroMsg
         heroMsgSource
         currentProject
-        columns
         gallery {
           photo {
             childImageSharp {

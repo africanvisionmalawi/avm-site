@@ -10,7 +10,7 @@ permalink: /product/bell
 description: ""
 productId: "2223"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - postcards

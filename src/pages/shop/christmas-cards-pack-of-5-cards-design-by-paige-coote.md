@@ -10,7 +10,7 @@ permalink: "/product/christmas-cards-pack-of-5-cards-design-by-paige-coote"
 description: ""
 productId: "2826"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - christmas

@@ -10,7 +10,7 @@ allDay: true
 hideTime: false
 location: Malawi
 contact: none
-telephone: 0
+telephone: "0"
 cost: 950
 url: null
 description: some description text here

@@ -1,7 +1,7 @@
 ---
 templateKey: shop-product-page
 productImage: "/img/aeroplane.jpg"
-productImages:
+galleryPhotos:
   - "/img/aeroplane.jpg"
 salePrice: 0
 inStock: 1

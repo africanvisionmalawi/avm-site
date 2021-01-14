@@ -10,7 +10,7 @@ permalink: "/product/children-of-mbangombe-village"
 description: ""
 productId: "2102"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 size: cd
 weight: 84

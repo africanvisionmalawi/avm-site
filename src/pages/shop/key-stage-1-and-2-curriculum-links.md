@@ -10,7 +10,7 @@ permalink: /product/key-stage-1-and-2-curriculum-links
 description: ""
 productId: "2158"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - cds

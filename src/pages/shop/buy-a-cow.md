@@ -8,7 +8,7 @@ permalink: /product/buy-a-cow
 description: ""
 productId: "2208"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - giftlist

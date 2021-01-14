@@ -10,7 +10,7 @@ permalink: /product/buy-a-blanket
 description: ""
 productId: "2204"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - giftlist

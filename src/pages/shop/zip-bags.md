@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 productId: zip-bags
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 title: Zip bags
 date: "2013-03-31T22:18:46+01:00"

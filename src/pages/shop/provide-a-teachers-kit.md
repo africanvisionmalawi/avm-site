@@ -10,7 +10,7 @@ permalink: "/product/provide-a-teachers-kit"
 description: ""
 productId: "2196"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - giftlist

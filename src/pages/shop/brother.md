@@ -10,7 +10,7 @@ permalink: /product/brother
 description: ""
 productId: "2245"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - postcards

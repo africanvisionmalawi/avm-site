@@ -10,7 +10,7 @@ permalink: "/product/life-in-mphamba-village"
 description: ""
 productId: "2099"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - DVDs

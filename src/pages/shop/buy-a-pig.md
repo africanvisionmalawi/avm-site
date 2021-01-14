@@ -10,7 +10,7 @@ permalink: /product/buy-a-pig
 description: ""
 productId: "2216"
 productImage: "/img/default-image.jpg"
-productImages:
+galleryPhotos:
   - "/img/default-image.jpg"
 tags:
   - giftlist
