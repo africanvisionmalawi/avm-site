@@ -2,8 +2,8 @@
 templateKey: shop-product-page
 productImage: "/img/jewellery-box.jpg"
 productImages:
-  - "/img/jewellery-box.jpg"
-salePrice: 0
+- "/img/jewellery-box.jpg"
+salePrice: 
 inStock: 3
 tags: []
 size: other
@@ -16,7 +16,9 @@ publish: true
 productId: jewellery-box
 description: Malawian made jewellery box
 price: 8
-shippingClass: ""
----
+shippingClass: ''
+galleryPhotos:
+- "/img/jewellery-box.jpg"
 
+---
 Malawian made jewellery box
