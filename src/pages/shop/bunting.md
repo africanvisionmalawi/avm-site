@@ -2,22 +2,24 @@
 templateKey: shop-product-page
 productImage: "/img/default-image.jpg"
 productImages:
-  - "/img/default-image.jpg"
+- "/img/default-image.jpg"
 salePrice: 0
 inStock: 2
 tags:
-  - craft
+- craft
 size: other
 title: Bunting
 publish: true
 productId: bunting
 description: Individually made bunting hand crafted by our graduates at Sam’s Village
 price: 10
-shippingClass: "parcel"
+shippingClass: parcel
 weight: 125
 width: 320
 height: 230
 length: 30
----
+galleryPhotos:
+- "/img/bunting.jpg"
 
+---
 Individually made bunting hand crafted by our graduates at Sam’s Village
