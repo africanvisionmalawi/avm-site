@@ -14,7 +14,7 @@ ourWork:
   imageId: PhotoVillage
   photo: "/img/mainphoto_village-ver3.jpg"
   excerpt: Sam’s Training Village is a self-sustaining training village, built on
-    a 17-acre site. The  objective is to support a move away from hand-outs and to
+    a 17-acre site. The objective is to support a move away from hand-outs and to
     train thousands of local people out of poverty.
   featured: true
 - id: health
