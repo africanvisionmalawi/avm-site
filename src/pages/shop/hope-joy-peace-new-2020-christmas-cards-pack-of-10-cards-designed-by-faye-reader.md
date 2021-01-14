@@ -2,14 +2,13 @@
 templateKey: shop-product-page
 productImage: "/img/hopejoypeace-p1.jpg"
 productImages:
-  - "/img/hopejoypeace-p1.jpg"
-salePrice: 0
+- "/img/hopejoypeace-p1.jpg"
+salePrice: 
 inStock: 99
 tags:
-  - christmas
+- christmas
 size: card
-title:
-  Hope Joy Peace, New 2020 Christmas Cards – pack of 10 cards, designed by Faye
+title: Hope Joy Peace, New 2020 Christmas Cards – pack of 10 cards, designed by Faye
   Reader
 publish: true
 productId: hope-joy-peace-10
@@ -19,7 +18,9 @@ weight: 185
 length: 155
 width: 155
 height: 11
-shippingClass: ""
----
+shippingClass: ''
+galleryPhotos:
+- "/img/hopejoypeace-p1.jpg"
 
+---
 A pack of 10 Christmas cards, newly designed by Faye Reader
