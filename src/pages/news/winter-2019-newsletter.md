@@ -9,7 +9,7 @@ description: Our Winter 2019 Newsletter is now out as we approach the end of our
 tags:
 - newsletters
 pdf_upload: "/img/AVM-Newsletter-Winter-2019-Hi_res.pdf"
-display_on_homepage: true
+display_on_homepage: false
 homepage_sort_order: 3
 
 ---
