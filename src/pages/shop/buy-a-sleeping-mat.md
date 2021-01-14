@@ -1,23 +1,25 @@
 ---
 templateKey: shop-product-page
-salePrice:
+salePrice: 
 inStock: 10
 tags:
-  - giftlist
+- giftlist
 title: Buy a sleeping mat
 productId: BuyASleepingMat
 productImage: "/img/gift-card-image.jpg"
 productImages:
-  - "/img/gift-card-image.jpg"
+- "/img/gift-card-image.jpg"
 description: Give a gift that will make a difference We will send you the gift card/s
 price: 2
 size: card
-shippingClass: ""
+shippingClass: ''
 weight: 4
 length: 147
 width: 104
 height: 3
 publish: true
----
+galleryPhotos:
+- "/img/4b0c02b2efd72cnv00023-1.jpg"
 
+---
 Give a gift that will make a difference We will send you the gift card/s
