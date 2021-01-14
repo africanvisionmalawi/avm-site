@@ -4,7 +4,7 @@ photo: "/img/family-cycle-safari-1.jpg"
 date: 2022-03-31T23:00:00Z
 endDate: 2022-04-29T23:00:00Z
 contact: none
-telephone: 
+telephone: '02082878169'
 published: true
 title: Family Cycle Safari April 2022
 multidate_event: true
