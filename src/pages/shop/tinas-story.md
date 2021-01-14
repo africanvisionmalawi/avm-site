@@ -9,9 +9,6 @@ salePrice: 0
 permalink: "/product/tinas-story"
 description: ""
 productId: "2168"
-productImage: "/img/default-image.jpg"
-galleryPhotos:
-  - "/img/default-image.jpg"
 tags:
   - books
 size: book
@@ -21,6 +18,8 @@ total_sales:
 relatedProducts:
   - "2163"
   - "2165"
+galleryPhotos:
+  - "/img/4b0c28c087b69final-tinascover.jpg"
 ---
 
 True life stories about some real children Landirani has helped.

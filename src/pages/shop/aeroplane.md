@@ -1,8 +1,5 @@
 ---
 templateKey: shop-product-page
-productImage: "/img/aeroplane.jpg"
-galleryPhotos:
-  - "/img/aeroplane.jpg"
 salePrice: 0
 inStock: 1
 tags:
@@ -22,6 +19,8 @@ price: 10
 shippingClass: ""
 relatedProducts:
   - grass-jeep
+galleryPhotos:
+  - "/img/aeroplane.jpg"
 ---
 
 Handcrafted in Malawi approximately 300 mm long, made out of Malawian grass.

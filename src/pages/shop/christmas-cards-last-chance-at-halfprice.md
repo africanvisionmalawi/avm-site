@@ -9,9 +9,6 @@ salePrice: 2.5
 permalink: "/product/christmas-cards-last-chance-at-halfprice"
 description: ""
 productId: "2659"
-productImage: "/img/default-image.jpg"
-galleryPhotos:
-  - "/img/default-image.jpg"
 product_visibility:
   - featured
 tags:
@@ -24,8 +21,8 @@ height: 11
 product_shipping_class: letter
 total_sales:
   - "9"
+galleryPhotos:
+  - "/img/4b0bf78ed5988mnyamata.jpg"
 ---
 
 Limited stock available at a reduced price of £2.50 + postage for 10 cards. This is the last batch of Landirani cards as they have been superseded by African Vision Malawi cards.
-
-[![4b0bf78ed5988mnyamata](../../uploads/2013/03/4b0bf78ed5988mnyamata-230x300.jpg)](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2013/03/4b0bf78ed5988mnyamata.jpg)

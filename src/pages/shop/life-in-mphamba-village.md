@@ -9,13 +9,12 @@ salePrice: 0
 permalink: "/product/life-in-mphamba-village"
 description: ""
 productId: "2099"
-productImage: "/img/default-image.jpg"
-galleryPhotos:
-  - "/img/default-image.jpg"
 tags:
   - DVDs
 size: dvd
 weight: 84
+galleryPhotos:
+  - "/img/4b0c05bf60548m_phamba_village1.jpg"
 ---
 
 DVD about lie in a traditional Malawian village Filmed and edited by Sam Palmer

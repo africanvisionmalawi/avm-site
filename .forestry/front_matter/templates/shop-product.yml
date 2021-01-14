@@ -22,6 +22,7 @@ fields:
   name: productImage
   label: productImage
   default: "/img/default-image-1.jpg"
+  hidden: true
 - name: galleryPhotos
   type: image_gallery
   config: {}

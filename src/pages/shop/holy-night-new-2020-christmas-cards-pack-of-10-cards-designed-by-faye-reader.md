@@ -1,9 +1,6 @@
 ---
 templateKey: shop-product-page
-productImage: "/img/holy-night-p1.jpg"
-galleryPhotos:
-  - "/img/holy-night-p1.jpg"
-salePrice: 0
+salePrice:
 inStock: 99
 tags:
   - christmas
@@ -18,6 +15,9 @@ length: 155
 width: 155
 height: 11
 shippingClass: ""
+galleryPhotos:
+  - "/img/holy-night-p1.jpg"
+  - "/img/holy-night-back.jpg"
 ---
 
 A pack of 10 Christmas cards, newly designed by Faye Reader

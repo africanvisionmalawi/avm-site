@@ -1,8 +1,5 @@
 ---
 templateKey: shop-product-page
-productImage: "/img/default-image.jpg"
-galleryPhotos:
-  - "/img/default-image.jpg"
 salePrice: 0
 inStock: 2
 tags:
@@ -13,11 +10,13 @@ publish: true
 productId: wooden-Land-Rover-car-large
 description: Beautifully handcrafted Land Rover made in rural Malawi
 price: 50
-shippingClass: "parcel"
+shippingClass: parcel
 weight: 1025
 width: 250
 height: 150
 length: 200
+galleryPhotos:
+  - "/img/wooden-landrover-large.jpg"
 ---
 
 Beautifully handcrafted Land Rover made in rural Malawi 240mm

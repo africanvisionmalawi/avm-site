@@ -1,8 +1,5 @@
 ---
 templateKey: shop-product-page
-productImage: "/img/default-image.jpg"
-galleryPhotos:
-  - "/img/default-image.jpg"
 salePrice: 0
 inStock: 2
 tags:
@@ -11,15 +8,19 @@ size: other
 title: Grass Jeep
 publish: true
 productId: grass-jeep
-description: Handcrafted in Malawi approximately 150 mm long , made out of Malawian grass.
+description:
+  Handcrafted in Malawi approximately 150 mm long , made out of Malawian
+  grass.
 price: 10
-shippingClass: "parcel"
+shippingClass: parcel
 weight: 280
 width: 200
 height: 120
 length: 150
 relatedProducts:
   - grass-aeroplane
+galleryPhotos:
+  - "/img/grass-jeep.jpg"
 ---
 
 Handcrafted in Malawi approximately 150 mm long , made out of Malawian grass.

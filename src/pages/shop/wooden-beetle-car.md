@@ -1,8 +1,5 @@
 ---
 templateKey: shop-product-page
-productImage: "/img/wooden-beetles.jpg"
-galleryPhotos:
-  - "/img/wooden-beetles.jpg"
 salePrice:
 inStock: 99
 tags:
@@ -18,6 +15,8 @@ weight: 230
 width: 100
 height: 100
 length: 200
+galleryPhotos:
+  - "/img/wooden-beetles.jpg"
 ---
 
 The famous Beetle car handcrafted in Malawi approximately 150 mm length
