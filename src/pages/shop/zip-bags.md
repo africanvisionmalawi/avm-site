@@ -24,6 +24,7 @@ relatedProducts:
 - bag-for-life
 galleryPhotos:
 - "/img/zip-bags.jpg"
+publish: true
 
 ---
 Each of these bags are unique and have been individually made at Sam's Village in Malawi by our graduates. These bags come in three sizes: small, medium and large (medium is about A5 size). Please specify if you have a preference
