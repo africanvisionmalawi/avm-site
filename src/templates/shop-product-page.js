@@ -60,7 +60,6 @@ export const ShopProductTemplate = ({
   height,
   shippingClass,
   tags,
-  productImage,
   relatedProducts,
   galleryPhotos,
   path,
@@ -100,7 +99,7 @@ export const ShopProductTemplate = ({
                   name={title}
                   description={title}
                   price={price}
-                  image={productImage.childImageSharp.fluid.src}
+                  image={galleryPhotos[0].childImageSharp.fluid.src}
                   url={`${siteUrl}${slug}`}
                   weight={weight}
                   length={length}
@@ -163,7 +162,6 @@ const ShopProductPage = ({ data }) => {
         shippingClass={post.frontmatter.shippingClass}
         tags={post.frontmatter.tags}
         relatedProducts={post.frontmatter.relatedProducts}
-        productImage={post.frontmatter.productImage}
         galleryPhotos={post.frontmatter.galleryPhotos}
         path={post.fields.slug}
         // productImages={post.frontmatter.productImages}
@@ -205,13 +203,6 @@ export const pageBasicQuery = graphql`
         tags
         relatedProducts
         galleryPhotos {
-          childImageSharp {
-            fluid(maxWidth: 450, quality: 50) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        productImage {
           childImageSharp {
             fluid(maxWidth: 450, quality: 50) {
               ...GatsbyImageSharpFluid
