@@ -42,6 +42,16 @@ fields:
   name: inStock
   label: inStock
   default: '0'
+- name: total_sales
+  type: number
+  label: Total Sales
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: shippingClass
   label: shippingClass
