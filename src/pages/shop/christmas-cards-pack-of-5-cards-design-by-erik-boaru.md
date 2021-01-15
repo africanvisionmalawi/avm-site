@@ -18,7 +18,7 @@ length: 155
 width: 155
 height: 11
 total_sales:
-  - "13"
+  - 13
 galleryPhotos:
   - "/img/xmas-card-front-600px-design1.jpg"
   - "/img/xmas-card-back-600px-design1.jpg"

@@ -20,7 +20,7 @@ width: 155
 height: 11
 product_shipping_class: letter
 total_sales:
-  - "9"
+  - 9
 galleryPhotos:
   - "/img/4b0bf78ed5988mnyamata.jpg"
 ---

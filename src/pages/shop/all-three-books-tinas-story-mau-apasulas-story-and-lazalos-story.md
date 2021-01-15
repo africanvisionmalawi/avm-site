@@ -14,7 +14,7 @@ weight: 250
 tags:
   - books
 total_sales:
-  - "0"
+  - 0
 galleryPhotos:
   - "/img/4b0c05b10c0b0books.jpg"
 relatedProducts:

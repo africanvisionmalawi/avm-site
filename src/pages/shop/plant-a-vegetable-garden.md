@@ -14,7 +14,7 @@ tags:
 size: card
 product_shipping_class: letter
 total_sales:
-  - "11"
+  - 11
 weight: 4
 length: 147
 width: 104

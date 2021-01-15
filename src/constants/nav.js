@@ -2,38 +2,38 @@ export const navLinks = [
   [
     {
       name: "About us",
-      url: "/about-us",
+      url: "/about-us/",
       mobileOnly: false,
     },
     [
       {
         name: "About us Index",
-        url: "/about-us",
+        url: "/about-us/",
         mobileOnly: true,
       },
       {
         name: "Team",
-        url: "/about-us/team",
+        url: "/about-us/team/",
         mobileOnly: false,
       },
       {
         name: "Where we work",
-        url: "/about-us/where-we-work",
+        url: "/about-us/where-we-work/",
         mobileOnly: false,
       },
       {
         name: "How we started",
-        url: "/about-us/how-we-started",
+        url: "/about-us/how-we-started/",
         mobileOnly: false,
       },
       {
         name: "African Vision Malawi - our new name",
-        url: "/about-us/african-vision-malawi-our-new-name",
+        url: "/about-us/african-vision-malawi-our-new-name/",
         mobileOnly: false,
       },
       {
         name: "Thank You's",
-        url: "/get-involved/thank-yous",
+        url: "/get-involved/thank-yous/",
         mobileOnly: false,
       },
     ],
@@ -62,7 +62,7 @@ export const navLinks = [
       },
       {
         name: "Stories from the field",
-        url: "/projects/stories-from-the-field/",
+        url: "/education/stories-from-the-field/",
         mobileOnly: false,
       },
     ],
@@ -116,7 +116,7 @@ export const navLinks = [
       },
       {
         name: "Thank yous",
-        url: "/get-involved/thank-yous",
+        url: "/get-involved/thank-yous/",
         mobileOnly: false,
       },
     ],

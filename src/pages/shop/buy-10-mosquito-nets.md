@@ -18,7 +18,7 @@ width: 104
 height: 3
 product_shipping_class: letter
 total_sales:
-  - "7"
+  - 7
 galleryPhotos:
   - "/img/4b0bfe714ba00malawi-005-225x300.jpg"
 ---

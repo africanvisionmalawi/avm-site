@@ -18,7 +18,7 @@ length: 147
 width: 104
 height: 3
 total_sales:
-  - "5"
+  - 5
 galleryPhotos:
   - "/img/4b0bfff62a0fcmalawi-oct-2008-sarah-cam-012.jpg"
 ---

@@ -190,7 +190,7 @@ export const FeaturedProjectsPageSimpleGalQuery = graphql`
           photo {
             childImageSharp {
               fluid(maxWidth: 800, quality: 60) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
               }
             }
           }
@@ -201,7 +201,7 @@ export const FeaturedProjectsPageSimpleGalQuery = graphql`
           smallImage: photo {
             childImageSharp {
               fixed(width: 250, height: 125) {
-                ...GatsbyImageSharpFixed_withWebp
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }

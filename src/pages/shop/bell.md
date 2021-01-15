@@ -14,7 +14,7 @@ tags:
 product_shipping_class: letter
 size: card
 total_sales:
-  - "0"
+  - 0
 galleryPhotos:
   - "/img/default-image.jpg"
 ---

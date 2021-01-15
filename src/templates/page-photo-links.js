@@ -134,7 +134,7 @@ export const PagePhotoLinksQuery = graphql`
           smallImage: photo {
             childImageSharp {
               fixed(width: 250, height: 125) {
-                ...GatsbyImageSharpFixed_withWebp
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }

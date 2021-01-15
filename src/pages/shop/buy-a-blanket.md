@@ -18,7 +18,7 @@ length: 147
 width: 104
 height: 3
 total_sales:
-  - "5"
+  - 5
 galleryPhotos:
   - "/img/4b0bfea5653f7malawi-april-2007-347.jpg"
 ---

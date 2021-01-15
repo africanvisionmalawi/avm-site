@@ -38,14 +38,13 @@ const SubNavBar = () => {
         <Flex
           justify="space-between"
           flexWrap="nowrap"
-          display={["none", "flex"]}
+          display={["none", "none", "flex"]}
         >
           <CtaButton
             link="https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW"
             text="Fundraise for us"
             placement="header"
           />
-
           <CtaButton
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"
@@ -54,11 +53,20 @@ const SubNavBar = () => {
         </Flex>
         <MobileNav>
           <NavIcons>
-            <CtaButton
-              link="https://www.charitycheckout.co.uk/1113786/"
-              text="Donate"
-              placement="header"
-            />
+            <Flex justify="space-between" flexWrap="nowrap">
+              <Box display={["none", "flex"]}>
+                <CtaButton
+                  link="https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW"
+                  text="Fundraise for us"
+                  placement="header"
+                />
+              </Box>
+              <CtaButton
+                link="https://www.charitycheckout.co.uk/1113786/"
+                text="Donate"
+                placement="header"
+              />
+            </Flex>
             <IconsCont>{/* <Search indices={searchIndices} /> */}</IconsCont>
             <IconsCont>
               <CartLink />

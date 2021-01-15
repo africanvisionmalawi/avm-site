@@ -14,7 +14,7 @@ tags:
 size: cd
 weight: 100
 total_sales:
-  - "0"
+  - 0
 relatedProducts:
   - "2102"
 galleryPhotos:

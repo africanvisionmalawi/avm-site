@@ -17,7 +17,7 @@ tags:
   - xmas
 product_shipping_class: letter
 total_sales:
-  - "5"
+  - 5
 ---
 
 A pack of 5 christmas cards, designed by Lisa Mason from Kingston College.

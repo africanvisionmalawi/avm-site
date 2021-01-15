@@ -1,13 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Box } from "@chakra-ui/core";
 
 export const HTMLContent = ({ content, className }) => (
-  <div
+  <Box
+    px={["16px", "16px", "8px"]}
     className={className}
     dangerouslySetInnerHTML={{
       __html: content
         ? content.replace("http://www.africanvision.org.uk", ``)
-        : content
+        : content,
     }}
   />
 );
@@ -18,7 +20,7 @@ const Content = ({ content, className }) => (
 
 Content.propTypes = {
   content: PropTypes.node,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 HTMLContent.propTypes = Content.propTypes;

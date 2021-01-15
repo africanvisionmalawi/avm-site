@@ -15,7 +15,7 @@ tags:
 size: "card"
 product_shipping_class: letter
 total_sales:
-  - "0"
+  - 0
 ---
 
 We are going to be building a [biogas digester](https://www.africanvision.org.uk/sams-village/biogas/) at Sam’s Village, which will collect methane gas from cow manure to produce gas for us to cook on sustainably at our Training Village Restaurant. Buy a cow, or more than one, to be a part of our new herd.
