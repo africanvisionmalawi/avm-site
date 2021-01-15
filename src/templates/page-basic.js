@@ -32,23 +32,49 @@ const TextSection = styled.section`
   width: 100%;
 `;
 
+const BackgroundContainer = styled.div`
+  // &,
+  // &:before {
+  //   background-position: 50% 102px;
+  //   background-size: auto;
+  // }
+`;
+
 export const PageBasicTemplate = ({
   title,
-  description,
   content,
   contentComponent,
   path,
+  backgroundImage,
+  published,
 }) => {
   const PageContent = contentComponent || Content;
-
+  if (backgroundImage) {
+    console.log("backgroundImage ", backgroundImage.childImageSharp.fluid.src);
+  }
   return (
-    <div className="section">
+    <div>
       {/* {helmet || ""} */}
       <NavbarLower path={path} />
       <div className="container">
         <article className="content">
-          <main>
-            <Box margin="0 auto" maxW="885px" p="3 2 2" position="relative">
+          <main
+            className={
+              backgroundImage ? "hasBackgroundImage" : "noBackgroundImage"
+            }
+          >
+            <Box
+              margin="0 auto"
+              maxW="885px"
+              p="3 2 2"
+              position="relative"
+              w={[
+                "100%",
+                "100%",
+                backgroundImage ? "75%" : "100%",
+                backgroundImage ? "50%" : "100%",
+              ]}
+            >
               <HeadingH1 text={title} />
               <PageContent className="content" content={content} />
             </Box>
@@ -77,6 +103,39 @@ const PageBasic = ({ data }) => {
   const { siteUrl } = useSiteMetadata();
   const { title } = useSiteMetadata();
 
+  if (post.frontmatter.backgroundImage) {
+    return (
+      <Layout>
+        <Seo
+          title={`${post.frontmatter.title} - ${title}`}
+          description={post.frontmatter.description}
+          pathname={`${siteUrl}${post.fields.slug}`}
+          article={false}
+        />
+        <BackgroundContainer>
+          <BackgroundImage
+            fluid={post.frontmatter.backgroundImage.childImageSharp.fluid}
+            style={{
+              // Defaults are overwrite-able by setting one or each of the following:
+              backgroundSize: "auto",
+              backgroundPosition: "50% 102px",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <PageBasicTemplate
+              contentComponent={HTMLContent}
+              title={post.frontmatter.title}
+              content={post.html}
+              description={post.frontmatter.description}
+              path={post.fields.slug}
+              backgroundImage={post.frontmatter.backgroundImage}
+              published={post.frontmatter.published}
+            />
+          </BackgroundImage>
+        </BackgroundContainer>
+      </Layout>
+    );
+  }
   return (
     <Layout>
       <Seo
@@ -85,12 +144,15 @@ const PageBasic = ({ data }) => {
         pathname={`${siteUrl}${post.fields.slug}`}
         article={false}
       />
+
       <PageBasicTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
         description={post.frontmatter.description}
         path={post.fields.slug}
+        backgroundImage={post.frontmatter.backgroundImage}
+        published={post.frontmatter.published}
       />
     </Layout>
   );
@@ -112,6 +174,14 @@ export const pageBasicQuery = graphql`
       frontmatter {
         title
         description
+        backgroundImage {
+          childImageSharp {
+            fluid(maxWidth: 1140, quality: 50) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        published
       }
     }
   }

@@ -14,7 +14,7 @@ tags:
 size: ""
 weight: 700
 total_sales:
-  - "3"
+  - 3
 galleryPhotos:
   - "/img/49957570609famalawi_april_2007_287.jpg"
 ---

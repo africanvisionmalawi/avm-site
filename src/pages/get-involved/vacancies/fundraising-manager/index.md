@@ -2,18 +2,18 @@
 templateKey: page-basic
 title: Fundraising Manager
 description: Can you help maximize the generation of funds for the charity to allow us to sustain and develop further our support to orphans and vulnerable people in Malawi?
-display: true
+published: true
 ---
 
-## African Vision Malawi is looking for new Fundraisers 
+## African Vision Malawi is looking for new Fundraisers
 
 Can you help maximize the generation of funds for the charity to allow us to sustain and develop further our support to orphans and vulnerable people in Malawi?
 
-Ideally we are looking for this position to be filled on a voluntary basis so that we can focus all our donations on our projects.  However we will consider employing the right person on a commission basis.
+Ideally we are looking for this position to be filled on a voluntary basis so that we can focus all our donations on our projects. However we will consider employing the right person on a commission basis.
 
 If you have some fundraising experience, are interested in the work of the charity and willing to go out to Malawi every few years to see the actual work as it happens, we would be delighted to hear from you.
 
-This is an interesting and varied role working to support our fundraising activities at all levels.  The main duties include but are not limited to:
+This is an interesting and varied role working to support our fundraising activities at all levels. The main duties include but are not limited to:
 
 – Providing advice on our fundraising strategy and its impact on project design and development.
 

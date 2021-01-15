@@ -111,7 +111,7 @@ export const pageQuery = graphql`
             galleryPhotos {
               childImageSharp {
                 fixed(width: 280, height: 280) {
-                  ...GatsbyImageSharpFixed
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
                 }
               }
             }

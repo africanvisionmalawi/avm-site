@@ -18,7 +18,7 @@ length: 147
 width: 104
 height: 3
 total_sales:
-  - "11"
+  - 11
 galleryPhotos:
   - "/img/4b0bfa9cc2330dscf0453.jpg"
 ---

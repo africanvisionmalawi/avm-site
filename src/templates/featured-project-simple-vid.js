@@ -191,7 +191,7 @@ export const FeaturedProjectsPageSimpleVidQuery = graphql`
         heroImage {
           childImageSharp {
             fluid(maxWidth: 1918, maxHeight: 540, quality: 60) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
@@ -207,7 +207,7 @@ export const FeaturedProjectsPageSimpleVidQuery = graphql`
           smallImage: photo {
             childImageSharp {
               fixed(width: 250, height: 125) {
-                ...GatsbyImageSharpFixed_withWebp
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }

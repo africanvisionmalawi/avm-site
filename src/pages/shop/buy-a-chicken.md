@@ -18,7 +18,7 @@ width: 104
 height: 3
 product_shipping_class: letter
 total_sales:
-  - "49"
+  - 49
 galleryPhotos:
   - "/img/4b0bfe4a17334img_5041.jpg"
 ---

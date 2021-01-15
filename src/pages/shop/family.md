@@ -15,7 +15,7 @@ size: card
 product_shipping_class: letter
 weight: 4
 total_sales:
-  - "6"
+  - 6
 galleryPhotos:
   - "/img/4b0bf76a11bdbfamily.jpg"
 ---

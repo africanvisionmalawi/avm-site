@@ -15,7 +15,7 @@ size: card
 weight: 4
 product_shipping_class: letter
 total_sales:
-  - "1"
+  - 1
 galleryPhotos:
   - "/img/4b0bf7b5218a0postcardnthano.jpg"
 ---

@@ -176,7 +176,7 @@ export const FeaturedProjectsPageSimpleQuery = graphql`
         heroImage {
           childImageSharp {
             fluid(maxWidth: 1918, maxHeight: 540, quality: 60) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }

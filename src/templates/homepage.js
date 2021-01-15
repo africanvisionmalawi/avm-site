@@ -339,7 +339,7 @@ export const heroDesktop = graphql`
   fragment heroFluidDesktop on File {
     childImageSharp {
       fluid(maxWidth: 1918, maxHeight: 540, quality: 60) {
-        ...GatsbyImageSharpFluid_withWebp
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }
@@ -349,7 +349,7 @@ export const heroMobile = graphql`
   fragment heroFluidMobile on File {
     childImageSharp {
       fluid(maxWidth: 480, maxHeight: 300, quality: 60) {
-        ...GatsbyImageSharpFluid_withWebp
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG
       }
     }
   }
@@ -380,7 +380,7 @@ export const pageQuery = graphql`
     heroImage: file(relativePath: { eq: "hero/homepage-hero-2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1918, quality: 50) {
-          ...GatsbyImageSharpFluid_withWebp
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
@@ -412,14 +412,14 @@ export const pageQuery = graphql`
             postMobileImage: featuredImage {
               childImageSharp {
                 fixed(width: 280, height: 168) {
-                  ...GatsbyImageSharpFixed_withWebp
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
                 }
               }
             }
             postDesktopImage: featuredImage {
               childImageSharp {
                 fixed(width: 371, height: 222) {
-                  ...GatsbyImageSharpFixed_withWebp
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
                 }
               }
             }
@@ -471,14 +471,14 @@ export const pageQuery = graphql`
             eventMobileImage: photo {
               childImageSharp {
                 fixed(width: 280) {
-                  ...GatsbyImageSharpFixed_withWebp
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
                 }
               }
             }
             eventDesktopImage: photo {
               childImageSharp {
                 fixed(width: 371, height: 222) {
-                  ...GatsbyImageSharpFixed_withWebp
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
                 }
               }
             }

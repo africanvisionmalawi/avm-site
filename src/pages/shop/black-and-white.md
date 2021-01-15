@@ -17,7 +17,7 @@ tags:
 size: "card"
 product_shipping_class: letter
 total_sales:
-  - "4"
+  - 4
 ---
 
 Back of postcard blank Photographs by Nicky Hobhouse.

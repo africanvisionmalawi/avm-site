@@ -158,14 +158,14 @@ export const PagePhotoLinksFeaturedQuery = graphql`
           largeImage: photo {
             childImageSharp {
               fluid(maxWidth: 560, maxHeight: 280) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
               }
             }
           }
           smallImage: photo {
             childImageSharp {
               fixed(width: 250, height: 125) {
-                ...GatsbyImageSharpFixed_withWebp
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }

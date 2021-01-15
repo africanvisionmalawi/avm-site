@@ -14,7 +14,7 @@ tags:
 size: book
 weight: 100
 total_sales:
-  - "0"
+  - 0
 relatedProducts:
   - "2160"
   - "2165"

@@ -99,7 +99,11 @@ export const ShopProductTemplate = ({
                   name={title}
                   description={title}
                   price={price}
-                  image={galleryPhotos[0].childImageSharp.fluid.src}
+                  image={
+                    galleryPhotos && galleryPhotos.length
+                      ? galleryPhotos[0].childImageSharp.fluid.src
+                      : null
+                  }
                   url={`${siteUrl}${slug}`}
                   weight={weight}
                   length={length}

@@ -15,7 +15,7 @@ size: card
 product_shipping_class: letter
 weight: 4
 total_sales:
-  - "3"
+  - 3
 galleryPhotos:
   - "/img/4b0bf78ed5988mnyamata.jpg"
 ---

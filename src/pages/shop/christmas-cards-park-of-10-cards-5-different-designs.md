@@ -17,7 +17,7 @@ tags:
 size: card
 product_shipping_class: letter
 total_sales:
-  - "25"
+  - 25
 ---
 
 New for 2014 – a pack of 10 cards containing 2 of each of the designs made by Kingston College students.

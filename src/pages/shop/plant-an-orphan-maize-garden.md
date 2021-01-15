@@ -18,7 +18,7 @@ width: 104
 height: 3
 product_shipping_class: letter
 total_sales:
-  - "1"
+  - 1
 galleryPhotos:
   - "/img/4b0bfe5c5f3d8maise_field_nr_masiye_school_28-01-08_medium.jpg"
 ---

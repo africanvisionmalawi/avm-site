@@ -18,7 +18,7 @@ tags:
 size: card
 product_shipping_class: letter
 total_sales:
-  - "12"
+  - 12
 galleryPhotos:
   - "/img/4b0bfe3647311img_4746.jpg"
 ---

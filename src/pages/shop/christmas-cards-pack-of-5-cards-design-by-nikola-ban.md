@@ -18,7 +18,7 @@ length: 155
 width: 155
 height: 11
 total_sales:
-  - "6"
+  - 6
 galleryPhotos:
   - "/img/xmas-card-front-300px-design4.jpg"
 ---

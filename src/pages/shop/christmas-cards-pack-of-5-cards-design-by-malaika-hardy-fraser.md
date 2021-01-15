@@ -17,7 +17,7 @@ tags:
   - xmas
 product_shipping_class: letter
 total_sales:
-  - "74"
+  - 74
 ---
 
 A pack of 5 christmas cards, designed by Malaika Hardy-Fraser from Kingston College.
