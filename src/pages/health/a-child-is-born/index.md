@@ -8,7 +8,7 @@ description: We will be building a waiting home for new mothers at the recently 
 ---
 So far we have raised over £13,000 towards the cost of building a Safe Motherhood Unit (SMU) at the maternity unit in M’bang’ombe. Thank you to every single person who contributed so generously. Over the next year we intend to push for the final amount needed of £35,600. We hope to start the extension and renovations in 2021, and we will post updates here and on our Facebook page.
 
-The SMU will be building a waiting home for new mothers at the recently completed maternity unit. We want to reduce risks in childbirth to expectant mothers and their unborn children.
+The SMU will be a waiting home for new mothers at the recently completed maternity unit. We want to reduce risks in childbirth to expectant mothers and their unborn children.
 
 ![New born baby in the Maternity Unit](/img/img_8988.jpg "New born baby in the Maternity Unit")
 
