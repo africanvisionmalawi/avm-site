@@ -830,7 +830,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.12.5", "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.12.5", "@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   dependencies:
@@ -6414,9 +6414,11 @@ gatsby-plugin-slug@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-slug/-/gatsby-plugin-slug-1.1.1.tgz#2628c8256909b9c166717096ec7e701a91392b67"
 
-gatsby-plugin-snipcart@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-snipcart/-/gatsby-plugin-snipcart-1.1.2.tgz#ac2e672ae4fec200ecfce81f267e6e95040131a5"
+gatsby-plugin-snipcart-advanced@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-snipcart-advanced/-/gatsby-plugin-snipcart-advanced-1.0.1.tgz#3709d602245a1306fded3c4e1b7d290f1ba67ec2"
+  dependencies:
+    "@babel/runtime" "^7.9.2"
 
 gatsby-plugin-styled-components@^3.0.4:
   version "3.7.0"

@@ -172,13 +172,28 @@ module.exports = {
     //   }
     // }, // must be after other CSS plugins
     {
-      resolve: "gatsby-plugin-snipcart",
+      resolve: `gatsby-plugin-snipcart-advanced`,
       options: {
-        apiKey:
+        version: "3.0.15",
+        publicApiKey:
           "NDY4OTVmYjMtMDg1My00YzUxLWEyMWMtNmIwYzI2NzUwYWQ3NjM3NDA3NzI3ODk0NjgyMDc2",
-        autopop: true,
+        defaultLang: "en",
+        currency: "gbp",
+        openCartOnAdd: true,
+        // locales: {
+        //   fr: {
+        //     actions: {
+        //       checkout: "Valider le panier",
+        //     },
+        //   },
+        // },
+        innerHTML: `
+            <billing section="bottom">
+                <!-- Customization goes here -->
+            </billing>`,
       },
     },
+
     // {
     //   resolve: `gatsby-plugin-netlify-cms`,
     //   options: {
