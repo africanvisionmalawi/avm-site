@@ -20,7 +20,9 @@ links:
     linkTitle: This is another link
     photo: "/img/jumbotron.jpg"
     url: "/about-us/"
----Most fundraising comes from personal donations.
+---
+
+Most fundraising comes from personal donations.
 
 The four most common are:
 
