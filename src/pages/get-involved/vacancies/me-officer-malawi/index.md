@@ -85,7 +85,7 @@ This is not a job where the primary rewards are financial or material but instea
 
 Applications MUST be made online only using the following:
 
-    CV in English, no longer than 2 sides of A4 and in font no smaller than size 11, and:
+CV in English, no longer than 2 sides of A4 and in font no smaller than size 11, and:
 
 - An accompanying covering letter, which gives details of your evidence of the essential criteria. This letter should contain headings relevant to each indicator, followed by a summary of your evidence in NO MORE THAN 100 WORDS FOR EACH INDICATOR. It must also include details of your current or most recent remuneration package (you will not be eligible for interview without this) and the contact details for 2 referees indicating when these referees can be contacted.
 

@@ -43,6 +43,12 @@ const TagItem = styled.span`
   font-size: 0.8em;
 `;
 
+const displayButtonCheck = (stock, publish) => {
+  if (stock > 0 || publish !== false) {
+    return true;
+  }
+};
+
 export const ShopProductTemplate = ({
   slug,
   id,
@@ -62,6 +68,7 @@ export const ShopProductTemplate = ({
   tags,
   relatedProducts,
   galleryPhotos,
+  publish,
   path,
 }) => {
   // const { pathname = {} } = location;
@@ -94,22 +101,28 @@ export const ShopProductTemplate = ({
                 <span className={shopStyles.price}>
                   &pound;{priceFormatted(price)}
                 </span>
-                <BuyButton
-                  productId={productId}
-                  name={title}
-                  description={title}
-                  price={price}
-                  image={
-                    galleryPhotos && galleryPhotos.length
-                      ? galleryPhotos[0].childImageSharp.fluid.src
-                      : null
-                  }
-                  url={`${siteUrl}${slug}`}
-                  weight={weight}
-                  length={length}
-                  width={width}
-                  height={height}
-                />
+                {displayButtonCheck(inStock, publish) ? (
+                  <BuyButton
+                    productId={productId}
+                    name={title}
+                    description={title}
+                    price={price}
+                    image={
+                      galleryPhotos && galleryPhotos.length
+                        ? galleryPhotos[0].childImageSharp.fluid.src
+                        : null
+                    }
+                    url={`${siteUrl}${slug}`}
+                    weight={weight}
+                    length={length}
+                    width={width}
+                    height={height}
+                  />
+                ) : (
+                  <p>
+                    <strong>Out of stock</strong>
+                  </p>
+                )}
 
                 {/* {tags && tags.length ? (
                   <>
@@ -167,6 +180,7 @@ const ShopProductPage = ({ data }) => {
         tags={post.frontmatter.tags}
         relatedProducts={post.frontmatter.relatedProducts}
         galleryPhotos={post.frontmatter.galleryPhotos}
+        publish={post.frontmatter.publish}
         path={post.fields.slug}
         // productImages={post.frontmatter.productImages}
       />
@@ -205,6 +219,7 @@ export const pageBasicQuery = graphql`
         width
         height
         tags
+        publish
         relatedProducts
         galleryPhotos {
           childImageSharp {

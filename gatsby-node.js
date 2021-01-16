@@ -1,8 +1,23 @@
 const _ = require("lodash");
+// import isMatch from "lodash/isEqual";
+// import kebabCase from "lodash/kebabCase";
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 const createPaginatedPages = require("gatsby-paginate");
+
+// TODO: move into common functions
+const get = (obj, path, defValue) => {
+  // If path is not defined or it has false value
+  if (!path) return undefined;
+  // Check if path is string or array. Regex : ensure that we do not have '.' and brackets.
+  // Regex explained: https://regexr.com/58j0k
+  const pathArray = Array.isArray(path) ? path : path.match(/([^[.\]])+/g);
+  // Find value if exist return otherwise return undefined value;
+  return (
+    pathArray.reduce((prevObj, key) => prevObj && prevObj[key], obj) || defValue
+  );
+};
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
@@ -170,12 +185,12 @@ exports.createPages = ({ actions, graphql }) => {
     let tags = [];
     // Iterate through each post, putting all found tags into `tags`
     postsAndPages.forEach((edge) => {
-      if (_.get(edge, `node.frontmatter.tags`)) {
+      if (get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags);
       }
     });
     // Eliminate duplicate tags
-    tags = _.uniq(tags);
+    tags = [...new Set(tags)];
 
     // Make tag pages
     tags.forEach((tag) => {

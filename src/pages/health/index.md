@@ -17,27 +17,27 @@ links:
   - linkText: Bicycle ambulances — We found one of the major difficulties for people reaching one of our two free government clinics, was the lack of transport. We have introduced bicycle ambulances in our area. The community are trained on the maintenance and recording of the use of the bicycle. Transaid have helped with training and assessments over the years and also donated money for 2 of the latest installed bicycles.
     linkTitle: Bicycle Ambulances
     photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "./health/bicycle-ambulances/"
+    url: "./bicycle-ambulances/"
   - linkText: We have found over the years that people with disabilities are the most poverty stricken and often outcast from their community.
     linkTitle: Disability
     photo: "/img/page-links/link-disability.jpg"
-    url: "./health/disability/"
+    url: "./disability/"
   - linkText: Many children are orphaned due to HIV/AIDS and are left to be looked after by their extended family, often grandparents.
     linkTitle: HIV/AIDS
     photo: "/img/page-links/link-health-room.jpg"
-    url: "./health/hivaids/"
+    url: "./hivaids/"
   - linkText: The under 5's are one of our most vulnerable groups where 11% never reach the age of 5 years old. They often die through disentary from drinking dirty water, or malaria.
     linkTitle: Feeding Programmes
     photo: "/img/page-links/link-feeding.jpg"
-    url: "./education/feeding-programme-in-schools/"
+    url: "/education/feeding-programme-in-schools/"
   - linkText: We work in an area of 45,000 people of which 16,000 go to M'bang'ombe Maternity and 29,000 access N'goni Clinic. Both are very poorly equiped in terms of furnishings, medication, light and running water.
     linkTitle: Safe Motherhood
     photo: "/img/page-links/link-motherhood.jpg"
-    url: "./health/maternity-unit/"
+    url: "./maternity-unit/"
   - linkText: Although we aim to build sustainable communities and projects, unfortunately some times distributions are necessary. Often these link in to our health projects.
     linkTitle: Distributions
     photo: "/img/page-links/link-distributions.jpg"
-    url: "./health/distributions/"
+    url: "./distributions/"
 ---
 
 ## A Child is Born
