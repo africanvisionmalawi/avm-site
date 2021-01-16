@@ -12,7 +12,7 @@ const LogoLink = styled(Link)`
   position: absolute;
   top: 0;
   width: auto;
-  z-index: 1025;
+  z-index: 9;
   @media (min-width: 768px) {
     height: 160px;
   }
