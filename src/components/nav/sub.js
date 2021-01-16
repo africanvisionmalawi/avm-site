@@ -129,7 +129,7 @@ const NavCont = styled.div`
   background: rgba(255, 255, 255, 0.7);
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 7;
 `;
 const Nav = styled.div`
   display: flex;
