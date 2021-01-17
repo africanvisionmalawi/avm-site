@@ -33,15 +33,16 @@ Here Heather Palmer describes a visit in September 2015 with our disability outr
 Sadly the day ended with a negative, where we were in a village visiting an existing patient and asked to see a 4 year old child who was badly burnt in a fire 2 weeks ago. She had gone to Kamuzu Central Hospital, but been discharged after a day. Crazy when you see her burns! She is now being treated with traditional medicine, which I am sure will end up with infections. We offered to take them to another hospital, but the chiefs decided to wait a few days to see what the natural medicines did.
 
 We are soooooo lucky to have the NHS in the UK and if people could see what I have witnessed today, they would realise they have nothing to complain about!”
-Jennifa
+
+![](/img/jennifa.jpg)
 
 Jennifa – proud of her prosthetic leg!
-Lewis
+
+![](/img/lewis.jpg)
 
 Lewis – learning to walk
 
 If you would like to help more children like Jennifa and Lewis then please click here:
-Donate
 
 We are grateful for all our supporters who make this work possible.
 
@@ -54,16 +55,4 @@ You can also follow recent stories of our work and about patients like Jennifa a
     Environment
     Celebrate and Give
 
-Product Categories
-
-    Books
-    Calendars
-    CDs
-    DVDs
-    Education Packs
-    Gift List
-    Malawi Gifts
-    Postcards
-    Soaps
-    Uncategorized
-    Xmas
+    
