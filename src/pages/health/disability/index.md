@@ -13,6 +13,7 @@ We have found over the years that people with disabilities are the most poverty 
 One of the groups we work with closely is 500 Miles, who support the development and delivery of prosthetic and orthotic services. We facilitate regular visits of 500 Miles doctors to hold clinics in the area centres which we serve, we organise check up visits and we transport patients to Kamuzu Central Hospital, Lilongwe when needed.
 
 <iframe src="https://player.vimeo.com/video/161765681" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 _How we help those with disabilities in the rural community._
 
 If you would like to give a donation to buy a prosthetic leg (£50), fund a clinic session in a remote trading centre (£300) or even buy a proper pair of trainers to support a growing child’s feet (£15), then please click here:
