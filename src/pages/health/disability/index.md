@@ -42,17 +42,8 @@ Jennifa – proud of her prosthetic leg!
 
 Lewis – learning to walk
 
-If you would like to help more children like Jennifa and Lewis then please click here:
+If you would like to help more children like Jennifa and Lewis then please click dontate below.
 
 We are grateful for all our supporters who make this work possible.
 
 You can also follow recent stories of our work and about patients like Jennifa and Lewis on Facebook.
-
-    Sam’s Village
-    Water
-    Health
-    Education
-    Environment
-    Celebrate and Give
-
-    
