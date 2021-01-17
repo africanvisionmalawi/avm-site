@@ -75,3 +75,53 @@ Songwe & [Twickenham Prep School](https://twickenhamprep.org.uk/about-us/headmas
 – as an example, you can read all about the [partnership between Chitsime and The Mall](http://www.africanvision.org.uk/education/school-partnerships/school-partnership-chitsime-primary-the-mall-twickenham/)
 
 We do school partnership updates twice a year where we go to the schools in the UK and collect information to take to Malawi; we then collect similar information from the schools in Malawi to bring back to their partners in the UK.
+
+![](/img/mbangombe-24.jpg)
+
+_Update presentation at M'bang'ombe_
+
+The Schools Partnership Programme has been so successful that in 2015 we began linking our Malawian pre-schools (Community Based Children’s Centres) with UK pre-schools.
+
+**Fundraising**
+
+Many of the UK schools have fundraised for projects in their partner schools, which has had a massive positive impact on the students at their partner schools. Here are some examples of just a few recent projects:
+
+* The Mall, Twickenham UK fundraised for a new double classroom school block, learning materials and desks for Chitsime, and also equipment for the feeding programme at the attached pre-school. You can read more about [their partnership here](http://www.africanvision.org.uk/education/school-partnerships/school-partnership-chitsime-primary-the-mall-twickenham/).
+
+
+* Cheam Common Infant UK fundraised around 840,000MKW for Mkunkhu Primary and the money assisted buying building materials and labour for three teachers houses. Two houses were built at the end of 2014 and the remaining one was finished in 2015.
+
+
+* St Paul’s Primary UK fundraised 291,000MKW for Bowa Primary in Mteza Zone and the money assisted buying building materials for one teacher’s house.
+
+
+* Maple Infants Primary UK fundraised 543,000MKW for Chikhutu Primary in Chikhutu Zone, the money assisted buying building materials for one administration block.
+
+
+* Briar Hill Primary UK fundraised 65,000MKW for Kafutwe Primary in Chikhutu Zone which assisted with the purchase of staff room chairs and some text books.
+
+**Donate**
+
+You can support any of our Education projects and make a sustainable difference to the future of Malawi’s children and young people.
+
+Or you may like to [sponsor a secondary school child](http://www.africanvision.org.uk/projects/secondary-school-sponsorship/).
+
+**Teacher Visits**
+
+Often Malawian teachers visit the UK through the partnership and sometimes UK teachers visit Malawi.
+
+[Donate](https://www.charitycheckout.co.uk/1113786/)
+
+You can support a teacher’s visit:
+
+Or you may like to [sponsor a secondary school child](http://www.africanvision.org.uk/projects/secondary-school-sponsorship/).
+
+**Teacher Visits**
+
+Often Malawian teachers visit the UK through the partnership and sometimes UK teachers visit Malawi.
+
+You can support a teacher’s visit:
+
+[Donate](https://www.charitycheckout.co.uk/1113786/)
+
+Thank you!
