@@ -11,11 +11,12 @@ Many children are orphaned due to HIV/AIDS and are left to be looked after by th
 We are encouraging HIV+ support groups to have good nutrition with our ‘well-being programme’. They are trained on the 5 food groups and we assist in helping them to grow a variety of vegetables and fruit trees. We work with 40 HIV + people and they are also linked with NASFAM (National Smallholder Farmers’ Association of Malawi) who now support them.
 
 Here are some photos of one of the HIV+ support groups in their vegetable garden. They both eat the vegetables and sell them, making this a truly sustainable project.
-HIV+ support group in their vegetable garden
+
+![](/img/img_9025.jpg)
 
 HIV+ support group in their vegetable garden
 
-HIV+ support vegetable garden
+![](/img/img_9023.jpg)
 
 HIV+ support vegetable garden
 
