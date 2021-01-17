@@ -1,15 +1,12 @@
 import React from "react";
 import { graphql } from "gatsby";
 import useSiteMetadata from "../hooks/use-site-metadata";
-import { Flex, Box } from "@chakra-ui/core";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import Content, { HTMLContent } from "../components/Content";
 import NavbarLower from "../components/NavbarLower";
 import HomepageProjectsCols from "../components/HomepageProjectsCols";
-import Donate from "../components/Donate";
-import Divider from "../components/Divider";
-import { Link } from "gatsby";
+// import Donate from "../components/Donate";
 import styled from "styled-components";
 
 const OurWorkPage = ({ data }) => {

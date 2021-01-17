@@ -49,9 +49,9 @@ export const PageBasicTemplate = ({
   published,
 }) => {
   const PageContent = contentComponent || Content;
-  if (backgroundImage) {
-    console.log("backgroundImage ", backgroundImage.childImageSharp.fluid.src);
-  }
+  // if (backgroundImage) {
+  //   console.log("backgroundImage ", backgroundImage.childImageSharp.fluid.src);
+  // }
   return (
     <div>
       {/* {helmet || ""} */}
@@ -66,7 +66,7 @@ export const PageBasicTemplate = ({
             <Box
               margin="0 auto"
               maxW="885px"
-              p="3 2 2"
+              p="1rem 0 0"
               position="relative"
               w={[
                 "100%",

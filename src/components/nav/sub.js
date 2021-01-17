@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import {
   Box,
-  Button,
   Drawer,
   DrawerBody,
   DrawerFooter,
