@@ -31,7 +31,7 @@ const TextSection = styled.section`
   min-height: 24rem;
   margin: 0 auto;
   max-width: 1180px;
-  padding: 1em 2em;
+  padding: 1rem;
   position: relative;
   width: 100%;
   @media (min-width: 768px) {

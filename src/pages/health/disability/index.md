@@ -12,7 +12,9 @@ We have found over the years that people with disabilities are the most poverty 
 
 One of the groups we work with closely is 500 Miles, who support the development and delivery of prosthetic and orthotic services. We facilitate regular visits of 500 Miles doctors to hold clinics in the area centres which we serve, we organise check up visits and we transport patients to Kamuzu Central Hospital, Lilongwe when needed.
 
-How we help those with disabilities in the rural community.
+<iframe src="https://player.vimeo.com/video/161765681" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+_How we help those with disabilities in the rural community._
 
 If you would like to give a donation to buy a prosthetic leg (£50), fund a clinic session in a remote trading centre (£300) or even buy a proper pair of trainers to support a growing child’s feet (£15), then please click here:
 Donate
@@ -31,37 +33,17 @@ Here Heather Palmer describes a visit in September 2015 with our disability outr
 Sadly the day ended with a negative, where we were in a village visiting an existing patient and asked to see a 4 year old child who was badly burnt in a fire 2 weeks ago. She had gone to Kamuzu Central Hospital, but been discharged after a day. Crazy when you see her burns! She is now being treated with traditional medicine, which I am sure will end up with infections. We offered to take them to another hospital, but the chiefs decided to wait a few days to see what the natural medicines did.
 
 We are soooooo lucky to have the NHS in the UK and if people could see what I have witnessed today, they would realise they have nothing to complain about!”
-Jennifa
+
+![](/img/jennifa.jpg)
 
 Jennifa – proud of her prosthetic leg!
-Lewis
+
+![](/img/lewis.jpg)
 
 Lewis – learning to walk
 
-If you would like to help more children like Jennifa and Lewis then please click here:
-Donate
+If you would like to help more children like Jennifa and Lewis then please click dontate below.
 
 We are grateful for all our supporters who make this work possible.
 
 You can also follow recent stories of our work and about patients like Jennifa and Lewis on Facebook.
-
-    Sam’s Village
-    Water
-    Health
-    Education
-    Environment
-    Celebrate and Give
-
-Product Categories
-
-    Books
-    Calendars
-    CDs
-    DVDs
-    Education Packs
-    Gift List
-    Malawi Gifts
-    Postcards
-    Soaps
-    Uncategorized
-    Xmas

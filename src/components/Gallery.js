@@ -15,6 +15,9 @@ const Heading = styled.h2`
 const Caption = styled.div`
   font-size: 0.8em;
   text-align: center;
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
 
 const Gallery = (props) => {

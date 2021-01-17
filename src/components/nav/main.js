@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import { Box, Flex, useDisclosure } from "@chakra-ui/core";
+import { Flex, useDisclosure } from "@chakra-ui/core";
 import { navLinks } from "../../constants/nav";
 import CartLink from "../CartLink";
 import styled from "styled-components";
