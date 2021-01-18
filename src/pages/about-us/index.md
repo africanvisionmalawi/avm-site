@@ -8,7 +8,7 @@ links:
     some full-time, who support our operations.
   url: "./team/"
   linkTitle: Team
-  photo: "/img/img_9023.jpg"
+  photo: "/img/p1090502-medium.jpg"
 - linkText: We work in an area some 30km from the capital city, Lilongwe which is
     400km squared and with 45,000 population.
   url: "./where-we-work/"
