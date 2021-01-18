@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { graphql, StaticQuery } from "gatsby";
 import postStyles from "./posts.module.css";
 import pageLinksStyles from "./pagelinks.module.css";
-import getEvents from "../utils/helpers";
+// import getEvents from "../utils/helpers";
 
 import styled from "styled-components";
 // import Img from "gatsby-image";
@@ -23,7 +23,7 @@ const EventsRoll = (props) => {
 
   let futureEvents = [];
   let pastEvents = [];
-  const allEvents = events.map(({ node: event }) => {
+  events.forEach(({ node: event }) => {
     if (event.frontmatter.published === true) {
       if (event.frontmatter.endDate) {
         if (

@@ -32,7 +32,7 @@ const CardSingle = (props) => {
     // console.log("smallImage", props.smallImage);
     cardImage = <Img fixed={props.smallImage.childImageSharp.fixed} alt="" />;
   } else {
-    cardImage = <img src="/img/default-image.jpg" alt="image" />;
+    cardImage = <img src="/img/default-image.jpg" alt="" />;
   }
 
   return (

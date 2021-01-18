@@ -5,7 +5,7 @@ import { Flex, Box } from "@chakra-ui/core";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import NavbarLower from "../components/NavbarLower";
-import HomepageProjects from "../components/HomepageProjects";
+// import HomepageProjects from "../components/HomepageProjects";
 import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import HeroImage from "../components/HeroImage";
 import videoStyles from "../components/videos.module.css";
@@ -36,7 +36,7 @@ const IndexPage = (props) => {
   let futureEvents = [];
   let pastEvents = [];
 
-  const allEvents = events.map(({ node: event }) => {
+  events.forEach(({ node: event }) => {
     if (event.frontmatter.endDate) {
       if (
         dayjs(event.frontmatter.endDate, "MMMM DD, YYYY").isAfter(

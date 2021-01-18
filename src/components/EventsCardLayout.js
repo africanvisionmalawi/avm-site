@@ -16,7 +16,7 @@ const EventsCardLayout = (props) => {
 
   let futureEvents = [];
   let pastEvents = [];
-  const allEvents = events.map(({ node: event }) => {
+  events.forEach(({ node: event }) => {
     if (
       dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
         dayjs().format("MMMM DD, YYYY")

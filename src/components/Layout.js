@@ -70,12 +70,12 @@ const TemplateWrapper = ({ children }) => {
   );
 };
 
-const TopNav = styled.div`
-  background: red;
-  position: sticky;
-  top: 0;
-  z-index: 2000;
-`;
+// const TopNav = styled.div`
+//   background: red;
+//   position: sticky;
+//   top: 0;
+//   z-index: 2000;
+// `;
 
 const Header = styled.div`
   background: #c27e34;
