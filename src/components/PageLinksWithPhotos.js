@@ -1,12 +1,12 @@
 import React from "react";
 // import PropTypes from "prop-types";
 // import { v4 } from 'uuid'
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import CardDouble from "./card/CardDouble";
 import CardSingle from "./card/CardSingle";
 import pageLinksStyles from "./pagelinks.module.css";
 // import ImageFixed from "../components/ImageFixed";
-import Img from "gatsby-image";
+// import Img from "gatsby-image";
 import styled from "styled-components";
 
 const Heading = styled.h2`
@@ -20,14 +20,13 @@ const PageLinks = (props) => {
     heading,
     featured,
     showPageLink,
-    boxBackground,
-    hideOtherPhotos   
+    hideOtherPhotos,
   } = props;
-  let headingText = "Find out more";
-  if (heading) {
-    headingText = heading;
-  }
-  
+  // let headingText = "Find out more";
+  // if (heading) {
+  //   headingText = heading;
+  // }
+
   return (
     <div>
       {displayHeading && <Heading>{heading}</Heading>}

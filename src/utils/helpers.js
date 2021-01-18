@@ -28,7 +28,7 @@ export const getCurrentDate = () => {
 export const getEvents = (events) => {
   let futureEvents = [];
   let pastEvents = [];
-  const allEvents = events.map(({ node: event }) => {
+  events.foreach(({ node: event }) => {
     if (
       dayjs(event.frontmatter.date, "MMMM DD, YYYY").isAfter(
         dayjs().format("MMMM DD, YYYY")

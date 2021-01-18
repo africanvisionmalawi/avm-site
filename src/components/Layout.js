@@ -9,6 +9,9 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import layoutStyles from "./layout.module.css";
 import styled from "styled-components";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/raleway";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -70,12 +73,12 @@ const TemplateWrapper = ({ children }) => {
   );
 };
 
-const TopNav = styled.div`
-  background: red;
-  position: sticky;
-  top: 0;
-  z-index: 2000;
-`;
+// const TopNav = styled.div`
+//   background: red;
+//   position: sticky;
+//   top: 0;
+//   z-index: 2000;
+// `;
 
 const Header = styled.div`
   background: #c27e34;

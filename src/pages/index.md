@@ -12,10 +12,11 @@ ourWork:
   name: Sam's Village
   url: "/sams-village/"
   imageId: PhotoVillage
-  photo: "/img/mainphoto_village-ver3.jpg"
+  photo: "/img/projects/sams-village-13.jpg"
   excerpt: Sam’s Training Village is a self-sustaining training village, built on
     a 17-acre site. The objective is to support a move away from hand-outs and to
-    train thousands of local people out of poverty.
+    train thousands of local people out of poverty. UNESCO through the STEP programme
+    have supported our first 2 years.
   featured: true
 - id: health
   name: Health

@@ -20,17 +20,17 @@ import { Box } from "@chakra-ui/core";
 //   width: 100%;
 // `;
 
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  min-height: 24rem;
-  margin: 0 auto;
-  max-width: 885px;
-  padding: 3em 2em 2em;
-  position: relative;
-  width: 100%;
-`;
+// const TextSection = styled.section`
+//   background: #fff;
+//   border-top-left-radius: 6px;
+//   border-top-right-radius: 6px;
+//   min-height: 24rem;
+//   margin: 0 auto;
+//   max-width: 885px;
+//   padding: 3em 2em 2em;
+//   position: relative;
+//   width: 100%;
+// `;
 
 const BackgroundContainer = styled.div`
   // &,
