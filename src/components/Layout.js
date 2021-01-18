@@ -9,6 +9,9 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import layoutStyles from "./layout.module.css";
 import styled from "styled-components";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/raleway";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();

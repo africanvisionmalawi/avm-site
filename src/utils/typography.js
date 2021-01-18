@@ -1,4 +1,5 @@
 import Typography from "typography";
+
 // import fairyGatesTheme from "typography-theme-fairy-gates";
 
 // const typography = new Typography(fairyGatesTheme);
@@ -12,13 +13,13 @@ const typography = new Typography({
   baseLineHeight: 1.63,
   scaleRatio: 2,
   headerColor: "#246A73",
-  bodyColor: "#333",
+  bodyColor: "#595959",
   headerWeight: 300,
   bodyWeight: 300,
   boldWeight: 400,
 
   headerFontFamily: [
-    "Roboto",
+    "Raleway",
     "Helvetica Neue",
     "Segoe UI",
     "Helvetica",
@@ -32,16 +33,6 @@ const typography = new Typography({
     "Helvetica",
     "Arial",
     "sans-serif",
-  ],
-  googleFonts: [
-    {
-      name: "Roboto",
-      styles: ["300", "300i", "400", "400i", "700", "700i"],
-    },
-    // {
-    //   name: "Raleway",
-    //   styles: ["300", "300", "400", "400i", "700", "700i"],
-    // },
   ],
 });
 

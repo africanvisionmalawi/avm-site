@@ -50,7 +50,7 @@ const HomepageProjectsCols = (props) => {
                 />
               )}
             </Box>
-            <Box mt={{ base: 4 }} width="100%">
+            <Box px="8px" mt={{ base: 4 }} width="100%">
               <Excerpt>
                 <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>
