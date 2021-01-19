@@ -16,7 +16,8 @@ ourWork:
   excerpt: Sam’s Training Village is a self-sustaining training village, built on
     a 17-acre site. The objective is to support a move away from hand-outs and to
     train thousands of local people out of poverty. UNESCO through the STEP programme
-    have supported our first 2 years.
+    have supported our first 2 years running courses including carpentry, tailoring,
+    metalwork and earth-building.
   featured: true
 - id: health
   name: Health
