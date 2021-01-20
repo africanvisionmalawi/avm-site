@@ -10,7 +10,7 @@ permalink: "/product/christmas-cards-pack-of-5-cards-design-by-nikola-ban"
 description: ""
 productId: "2822"
 shoptags:
-  - xmas
+  - christmas
 size: card
 product_shipping_class: letter
 weight: 107

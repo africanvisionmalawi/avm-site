@@ -14,7 +14,7 @@ galleryPhotos:
   - "/img/default-image.jpg"
 size: card
 shoptags:
-  - xmas
+  - christmas
 product_shipping_class: letter
 total_sales:
   - 5

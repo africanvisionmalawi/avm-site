@@ -200,7 +200,7 @@ exports.createPages = ({ actions, graphql }) => {
     // Make shop tag pages
     shopTags.forEach((tag) => {
       const tagPath = `/shop/category/${_.kebabCase(tag)}/`;
-      console.log("shop tags ", tag);
+      // console.log("shop tags ", tag);
       createPage({
         path: tagPath,
         component: path.resolve(`src/templates/shop-tags.js`),

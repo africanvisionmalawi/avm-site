@@ -17,9 +17,9 @@ shippingClass: na
 size: ""
 product_shipping_class: letter
 shoptags:
-  - bag
+  - craft
 relatedProducts:
-  - bag-for-life
+  - craft-for-life
 galleryPhotos:
   - "/img/zip-bags.jpg"
 publish: true

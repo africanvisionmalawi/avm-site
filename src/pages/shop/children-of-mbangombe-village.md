@@ -12,7 +12,7 @@ productId: "2102"
 size: cd
 weight: 84
 shoptags:
-  - CDs
+  - media
 relatedProducts:
   - "2158"
 galleryPhotos:

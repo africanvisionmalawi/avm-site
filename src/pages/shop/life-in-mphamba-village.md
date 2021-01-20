@@ -10,7 +10,7 @@ permalink: "/product/life-in-mphamba-village"
 description: ""
 productId: "2099"
 shoptags:
-  - DVDs
+  - media
 size: dvd
 weight: 84
 galleryPhotos:

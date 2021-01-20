@@ -5,44 +5,36 @@ import React from "react";
 
 const tags = [
   {
-    title: "Giftlist",
-    slug: "giftlist",
+    title: "Books",
+    slug: "books",
   },
   {
     title: "Christmas",
     slug: "christmas",
   },
   {
-    title: "Food",
-    slug: "food",
-  },
-  {
-    title: "Xmas",
-    slug: "xmas",
-  },
-  {
-    title: "Postcards",
-    slug: "postcards",
-  },
-  {
-    title: "Bag",
-    slug: "bag",
+    title: "Craft",
+    slug: "craft",
   },
   {
     title: "Education Packs",
     slug: "education-packs",
   },
   {
-    title: "Books",
-    slug: "books",
+    title: "Food",
+    slug: "food",
   },
   {
-    title: "CDs",
-    slug: "cds",
+    title: "Giftlist",
+    slug: "giftlist",
   },
   {
-    title: "DVDs",
-    slug: "dvds",
+    title: "Media",
+    slug: "media",
+  },
+  {
+    title: "Postcards",
+    slug: "postcards",
   },
 ];
 

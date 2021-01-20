@@ -10,7 +10,7 @@ permalink: "/product/christmas-cards-pack-of-5-cards-design-by-erik-boaru"
 description: ""
 productId: "2809"
 shoptags:
-  - xmas
+  - christmas
 size: card
 product_shipping_class: letter
 weight: 107
