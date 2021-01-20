@@ -5,9 +5,9 @@ pdf_upload: ''
 featuredImage: "/img/retreat-web-145.jpg"
 title: Retreat to the Farm
 date: 2021-01-01T00:00:00Z
-description: 2020 brings another year of wonderful retreats in the heart of the Loire
+description: 2021 brings another year of wonderful retreats in the heart of the Loire
   Valley. Choose your week … Yoga; Mindfulness; Breakthrough to Zen; Recharge and
-  Unwind; Reconnect, Rewild, Restore … or try more than one
+  Unwind; Reconnect, Rewind, Restore … or try more than one
 tags:
 - yoga
 - meditation
