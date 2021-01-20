@@ -13,21 +13,17 @@ ourWork:
   url: "/sams-village/"
   imageId: PhotoVillage
   photo: "/img/projects/sams-village-13.jpg"
-  excerpt: Sam’s Training Village is a self-sustaining training village, built on
+  excerpt: 'Sam’s Training Village is a self-sustaining training village, built on
     a 17-acre site. The objective is to support a move away from hand-outs and to
-    train thousands of local people out of poverty. UNESCO through the STEP programme
-    have supported our first 2 years.
+    train thousands of local people out of poverty. '
   featured: true
 - id: health
   name: Health
   url: "/health/"
   imageId: PhotoHealth
   photo: "/img/mainphoto_health.jpg"
-  excerpt: One of our big forthcoming projects is to build a Waiting Home for new
-    mothers at the Maternity Unit. This second stage will provide essential care for
-    pre-term births - which are higher in Malawi than anywhere else in the world.
-    The project will include nutritional permaculture gardens in front of the new
-    wing, and education on good nutrition for new mothers.
+  excerpt: "11% of children don't reach their 5th birthday\n50% of deaths of under
+    5's is due to malaria\n11% of Malawians are living with HIV/AIDS \n(WHO 2009)"
   featured: true
 - id: education
   name: Education
@@ -35,42 +31,35 @@ ourWork:
   imageId: PhotoEducation
   photo: "/img/mainphoto_education.jpg"
   featured: true
-  excerpt: We have setup 12 Community Based Childcare Centres supporting the under-5's
-    and we support pupils in Primary, Secondary and University/Further Education.
-    We typically support 40 secondary school  and 20 university students at any given
-    time.
+  excerpt: We have 12 centres supporting the under-5's and support pupils in Primary,
+    Secondary and Further Education, typically 40 secondary and 20 university students
+    at any given time.
 - id: waterandsanitation
   name: Water & Sanitation
   url: "/water/"
   imageId: ''
   photo: "/img/mainphoto_water.jpg"
-  excerpt: |-
-    Today, many of Malawi’s poorest and most marginalised people don’t have clean water to drink, decent toilets or good hygiene. Without these basics, we cannot begin to help them with better education, health and self-sufficiency.
-
-    45,000 people in our area need clean, safe water. With your help we can ensure that everyone in our area has access to clean, safe water.
+  excerpt: Today, many of Malawi’s poorest and most marginalised people don’t have
+    clean water to drink, decent toilets or good hygiene. Without these basics, we
+    cannot begin to help them with better education, health and self-sufficiency.
   featured: false
 - id: environment
   name: Environment
   url: "/environment/"
   imageId: ''
   photo: "/img/mainphoto_environment.jpg"
-  excerpt: We all know our immune systems depend on good nutrition. In Malawi people
-    depend on their maize harvest to the exclusion of many highly-nutritious foods.
-    Deforestation on a massive scale leads to Malawi losing about 300km2 of forest
-    land every year. Help us to spread the message as we teach schools how to create
-    vegetable gardens and plant hundreds of trees.
+  excerpt: 'Our immune systems depend on good nutrition. In Malawi people depend on
+    their maize harvest to the exclusion of many highly-nutritious foods. Deforestation
+    on a massive scale leads to Malawi losing about 300km2 of forest land every year. '
   featured: false
 - id: celebrateandgive
   name: Celebrate & Give
   url: "/celebrate-and-give/"
   imageId: ''
   photo: "/img/mainphoto_celebrate.jpg"
-  excerpt: |-
-    Most fundraising comes from personal donations.
-
-    You can help us through regular monthly donations; leaving a legacy;
-    pledging gifts from a birthday or anniversary; or running a fundraising event.
-    Please consider one or more of those as it’s so easy to help.
+  excerpt: Most fundraising comes from personal donations. You can help us through
+    regular monthly giving; leaving a legacy; pledging gifts from a birthday; or running
+    a fundraising event. Please consider one or more of these as it’s so easy to help.
   featured: false
 
 ---
