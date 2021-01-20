@@ -39,21 +39,18 @@ ourWork:
   url: "/water/"
   imageId: ''
   photo: "/img/mainphoto_water.jpg"
-  excerpt: |-
-    Today, many of Malawi’s poorest and most marginalised people don’t have clean water to drink, decent toilets or good hygiene. Without these basics, we cannot begin to help them with better education, health and self-sufficiency.
-
-    45,000 people in our area need clean, safe water. With your help we can ensure that everyone in our area has access to clean, safe water.
+  excerpt: Today, many of Malawi’s poorest and most marginalised people don’t have
+    clean water to drink, decent toilets or good hygiene. Without these basics, we
+    cannot begin to help them with better education, health and self-sufficiency.
   featured: false
 - id: environment
   name: Environment
   url: "/environment/"
   imageId: ''
   photo: "/img/mainphoto_environment.jpg"
-  excerpt: We all know our immune systems depend on good nutrition. In Malawi people
-    depend on their maize harvest to the exclusion of many highly-nutritious foods.
-    Deforestation on a massive scale leads to Malawi losing about 300km2 of forest
-    land every year. Help us to spread the message as we teach schools how to create
-    vegetable gardens and plant hundreds of trees.
+  excerpt: 'Our immune systems depend on good nutrition. In Malawi people depend on
+    their maize harvest to the exclusion of many highly-nutritious foods. Deforestation
+    on a massive scale leads to Malawi losing about 300km2 of forest land every year. '
   featured: false
 - id: celebrateandgive
   name: Celebrate & Give
