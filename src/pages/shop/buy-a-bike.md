@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/buy-a-bike"
 description: ""
 productId: "2177"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

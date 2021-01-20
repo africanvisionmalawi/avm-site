@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/Family"
 description: ""
 productId: "2241"
-tags:
+shoptags:
   - postcards
 size: card
 product_shipping_class: letter

@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice: 0
 inStock: 6
-tags:
+shoptags:
   - craft
 size: other
 title: Wooden Land Rover Car (medium)

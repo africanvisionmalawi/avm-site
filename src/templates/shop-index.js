@@ -1,17 +1,16 @@
+import { graphql } from "gatsby";
 import React from "react";
-import { Link, graphql } from "gatsby";
-import Img from "gatsby-image";
-import Layout from "../components/Layout";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Seo from "../components/seo";
+import styled from "styled-components";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import NavbarLower from "../components/NavbarLower";
-import TagsList from "../components/shop/tagsList";
-import shopStyles from "../components/shop.module.css";
 import HeadingH1 from "../components/HeadingH1";
-import styled from "styled-components";
-import { priceFormatted } from "../utils/helpers";
+import Layout from "../components/Layout";
+import NavbarLower from "../components/NavbarLower";
+import Seo from "../components/seo";
+import shopStyles from "../components/shop.module.css";
+import { ShopListItem } from "../components/shop/shop-list-item";
+import { TagsNav } from "../components/shop/tags-nav";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -42,33 +41,17 @@ const ShopIndex = ({ data }) => {
       <ShopSection>
         <article className="content">
           <HeadingH1 text="African Vision Malawi Online Shop" />
+          <TagsNav />
           <ul className={shopStyles.shopIndexList}>
             {data.allMarkdownRemark.edges.map((document) => (
-              <li key={document.node.id}>
-                <Link to={document.node.fields.slug}>
-                  {document.node.frontmatter.galleryPhotos &&
-                    document.node.frontmatter.galleryPhotos.length && (
-                      <Img
-                        fixed={
-                          document.node.frontmatter.galleryPhotos[0]
-                            .childImageSharp.fixed
-                        }
-                      />
-                    )}
-
-                  <h2 className={shopStyles.itemTitle}>
-                    {document.node.frontmatter.title}
-                  </h2>
-                  {document.node.frontmatter.tags &&
-                  document.node.frontmatter.tags.length ? (
-                    <TagsList tags={document.node.frontmatter.tags} />
-                  ) : null}
-                  <span className={shopStyles.listItemPrice}>
-                    &pound;
-                    {priceFormatted(document.node.frontmatter.price)}
-                  </span>
-                </Link>
-              </li>
+              <ShopListItem
+                id={document.node.id}
+                slug={document.node.fields.slug}
+                photos={document.node.frontmatter.galleryPhotos}
+                title={document.node.frontmatter.title}
+                tags={document.node.frontmatter.shopTags}
+                price={document.node.frontmatter.price}
+              />
             ))}
           </ul>
         </article>
@@ -107,7 +90,7 @@ export const pageQuery = graphql`
             inStock
             size
             shippingClass
-            tags
+            shoptags
             galleryPhotos {
               childImageSharp {
                 fixed(width: 280, height: 280) {

@@ -1,18 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Seo from "../components/seo";
-import Layout from "../components/Layout";
-import HeroImage from "../components/HeroImage";
-import Content, { HTMLContent } from "../components/Content";
-// import Img from "gatsby-image";
-// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import NavbarLower from "../components/NavbarLower";
-import EventDate from "../components/EventDate";
 import { styled } from "linaria/react";
+import { kebabCase } from "lodash";
+import PropTypes from "prop-types";
+import React from "react";
+import Helmet from "react-helmet";
+import Content, { HTMLContent } from "../components/Content";
+import EventDate from "../components/EventDate";
+import HeroImage from "../components/HeroImage";
+import Layout from "../components/Layout";
+import NavbarLower from "../components/NavbarLower";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 // const Section = styled.section`
 //   margin: 0 auto;

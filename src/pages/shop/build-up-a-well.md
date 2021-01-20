@@ -15,7 +15,7 @@ width: 104
 height: 3
 shippingClass: na
 size: "card"
-tags:
+shoptags:
   - giftlist
 ---
 

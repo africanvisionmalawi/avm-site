@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice: 0
 inStock: 8
-tags:
+shoptags:
   - food
 size: other
 title: Malawi hot spice (Nali)

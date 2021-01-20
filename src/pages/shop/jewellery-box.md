@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice:
 inStock: 3
-tags: []
+shoptags: []
 size: other
 weight: 260
 length: 100

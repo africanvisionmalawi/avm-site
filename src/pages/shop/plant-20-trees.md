@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/plant-20-trees"
 description: ""
 productId: "2181"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

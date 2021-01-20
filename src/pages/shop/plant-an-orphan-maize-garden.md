@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/plant-an-orphan-maize-garden"
 description: ""
 productId: "2210"
-tags:
+shoptags:
   - giftlist
 size: card
 weight: 4

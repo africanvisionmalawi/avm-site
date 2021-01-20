@@ -1,13 +1,13 @@
-import React from "react";
 import { graphql } from "gatsby";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Layout from "../components/Layout";
-import Seo from "../components/seo";
-import Content, { HTMLContent } from "../components/Content";
-import NavbarLower from "../components/NavbarLower";
-import HomepageProjectsCols from "../components/HomepageProjectsCols";
+import React from "react";
 // import Donate from "../components/Donate";
 import styled from "styled-components";
+import Content, { HTMLContent } from "../components/Content";
+import HomepageProjectsCols from "../components/HomepageProjectsCols";
+import Layout from "../components/Layout";
+import NavbarLower from "../components/NavbarLower";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 const OurWorkPage = ({ data }) => {
   const { markdownRemark: post } = data;

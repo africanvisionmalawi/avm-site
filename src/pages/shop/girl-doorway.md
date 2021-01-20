@@ -12,7 +12,7 @@ productId: "2239"
 productImage: "/img/default-image.jpg"
 galleryPhotos:
   - "/img/default-image.jpg"
-tags:
+shoptags:
   - postcards
 size: "card"
 product_shipping_class: letter

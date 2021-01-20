@@ -1,16 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import Seo from "../components/seo";
-import useSiteMetadata from "../hooks/use-site-metadata";
+import PropTypes from "prop-types";
+import React from "react";
+import styled from "styled-components";
 import Content, { HTMLContent } from "../components/Content";
+import Donate from "../components/Donate";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import PageLinks from "../components/PageLinks";
+import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Donate from "../components/Donate";
-import styled from "styled-components";
+import PageLinks from "../components/PageLinks";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 const TextSection = styled.section`
   background: #fff;

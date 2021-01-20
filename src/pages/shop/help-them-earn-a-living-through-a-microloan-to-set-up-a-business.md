@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/help-them-earn-a-living-through-a-microloan-to-set-up-a-business"
 description: ""
 productId: "2174"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

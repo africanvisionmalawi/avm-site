@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice:
 inStock: 99
-tags:
+shoptags:
   - craft
 size: other
 title: Wooden Beetle Car

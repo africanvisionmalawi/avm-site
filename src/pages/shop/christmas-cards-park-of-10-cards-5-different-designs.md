@@ -12,7 +12,7 @@ productId: "2830"
 productImage: "/img/default-image.jpg"
 galleryPhotos:
   - "/img/default-image.jpg"
-tags:
+shoptags:
   - xmas
 size: card
 product_shipping_class: letter

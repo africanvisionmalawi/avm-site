@@ -1,4 +1,4 @@
 ---
-templateKey: shop-list
+templateKey: shop-index
 title: Shop
 ---

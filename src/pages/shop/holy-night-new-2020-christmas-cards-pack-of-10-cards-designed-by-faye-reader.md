@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice:
 inStock: 99
-tags:
+shoptags:
   - christmas
 size: card
 title: Holy Night, New 2020 Christmas Cards – pack of 10 cards, designed by Faye Reader

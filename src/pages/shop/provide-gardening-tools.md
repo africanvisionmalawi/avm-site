@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/provide-gardening-tools"
 description: ""
 productId: "2183"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

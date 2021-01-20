@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/provide-medicine-for-a-village"
 description: ""
 productId: "2190"
-tags:
+shoptags:
   - giftlist
 size: card
 weight: 4

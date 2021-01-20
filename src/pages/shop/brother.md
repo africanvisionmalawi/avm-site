@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/brother"
 description: ""
 productId: "2245"
-tags:
+shoptags:
   - postcards
 size: card
 product_shipping_class: letter

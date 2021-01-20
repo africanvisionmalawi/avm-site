@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/buy-10-mosquito-nets"
 description: ""
 productId: "2194"
-tags:
+shoptags:
   - giftlist
 size: card
 weight: 4

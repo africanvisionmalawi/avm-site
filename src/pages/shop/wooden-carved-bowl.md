@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice: 0
 inStock: 5
-tags:
+shoptags:
   - craft
 size: other
 title: Wooden Carved Bowl

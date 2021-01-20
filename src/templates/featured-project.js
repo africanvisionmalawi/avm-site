@@ -1,23 +1,23 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Seo from "../components/seo";
-import Content, { HTMLContent } from "../components/Content";
-import HeroImage from "../components/HeroImage";
-import Gallery from "../components/Gallery";
-// import Lightbox from "../components/lightbox"
-import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import Videos from "../components/Videos";
-// import FeaturedProjects from "../components/FeaturedProjects";
-import NavbarLower from "../components/NavbarLower";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import Donate from "../components/Donate";
 // import { Link } from 'gatsby'
 // import pageBasicStyles from "../components/pageBasic.module.css";
 // import styled from "styled-components";
 import { styled } from "linaria/react";
+import PropTypes from "prop-types";
+import React from "react";
+import Content, { HTMLContent } from "../components/Content";
+import Donate from "../components/Donate";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import Gallery from "../components/Gallery";
+import HeroImage from "../components/HeroImage";
+import Layout from "../components/Layout";
+// import FeaturedProjects from "../components/FeaturedProjects";
+import NavbarLower from "../components/NavbarLower";
+// import Lightbox from "../components/lightbox"
+import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
+import Seo from "../components/seo";
+import Videos from "../components/Videos";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 export const FeaturedProjectsTemplate = ({
   heroImage,

@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/buy-a-goat"
 description: ""
 productId: "2214"
-tags:
+shoptags:
   - giftlist
 size: card
 weight: 9

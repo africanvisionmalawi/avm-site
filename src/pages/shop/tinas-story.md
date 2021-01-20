@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/tinas-story"
 description: ""
 productId: "2168"
-tags:
+shoptags:
   - books
 size: book
 weight: 100

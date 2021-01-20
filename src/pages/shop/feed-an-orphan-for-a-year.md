@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/feed-an-orphan-for-a-year"
 description: ""
 productId: "2212"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

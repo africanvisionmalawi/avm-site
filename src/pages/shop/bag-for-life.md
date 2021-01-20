@@ -16,7 +16,7 @@ height: 0
 shippingClass: na
 size: ""
 product_shipping_class: letter
-tags:
+shoptags:
   - bag
 relatedProducts:
   - zip-bags

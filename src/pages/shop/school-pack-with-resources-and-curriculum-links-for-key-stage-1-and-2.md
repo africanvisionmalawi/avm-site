@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/school-pack-with-resources-and-curriculum-links-for-key-stage-1-and-2"
 description: ""
 productId: "2171"
-tags:
+shoptags:
   - Education Packs
 size: ""
 weight: 700
