@@ -1,15 +1,15 @@
-import React from "react";
-import Layout from "../components/Layout";
 import { Link } from "gatsby";
+import React from "react";
+import styled from "styled-components";
 // import BlogRoll from "../components/BlogRoll";
 import ArticleList from "../components/ArticleList";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Seo from "../components/seo";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
-import postStyles from "../components/posts.module.css";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import Layout from "../components/Layout";
 import paginationStyles from "../components/pagination.module.css";
-import styled from "styled-components";
+import postStyles from "../components/posts.module.css";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 // const Section = styled.section`
 //   margin: 0 auto;

@@ -111,6 +111,7 @@ exports.createPages = ({ actions, graphql }) => {
               title
               published
               tags
+              shoptags
               templateKey
               date(formatString: "MMMM DD, YYYY")
             }
@@ -144,6 +145,7 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
+        shopTags: edge.node.frontmatter.shopTags,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
@@ -154,23 +156,6 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
-
-    // const posts = result.data.allMarkdownRemark.edges;
-
-    // posts.forEach(edge => {
-    //   const id = edge.node.id;
-    //   createPage({
-    //     path: edge.node.fields.slug,
-    //     tags: edge.node.frontmatter.tags,
-    //     component: path.resolve(
-    //       `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
-    //     ),
-    //     // additional data can be passed via context
-    //     context: {
-    //       id
-    //     }
-    //   });
-    // });
 
     createPaginatedPages({
       edges: posts,
@@ -183,22 +168,42 @@ exports.createPages = ({ actions, graphql }) => {
 
     // Tag pages:
     let tags = [];
+    let shopTags = [];
     // Iterate through each post, putting all found tags into `tags`
     postsAndPages.forEach((edge) => {
       if (get(edge, `node.frontmatter.tags`)) {
+        // console.log("adding other tag ");
         tags = tags.concat(edge.node.frontmatter.tags);
+      }
+      if (get(edge, `node.frontmatter.shoptags`)) {
+        // console.log("adding shop tags ");
+        shopTags = shopTags.concat(edge.node.frontmatter.shoptags);
       }
     });
     // Eliminate duplicate tags
     tags = [...new Set(tags)];
+    shopTags = [...new Set(shopTags)];
 
     // Make tag pages
     tags.forEach((tag) => {
       const tagPath = `/tags/${_.kebabCase(tag)}/`;
-
+      // console.log("other tags ", tag);
       createPage({
         path: tagPath,
         component: path.resolve(`src/templates/tags.js`),
+        context: {
+          tag,
+        },
+      });
+    });
+
+    // Make shop tag pages
+    shopTags.forEach((tag) => {
+      const tagPath = `/shop/category/${_.kebabCase(tag)}/`;
+      // console.log("shop tags ", tag);
+      createPage({
+        path: tagPath,
+        component: path.resolve(`src/templates/shop-tags.js`),
         context: {
           tag,
         },

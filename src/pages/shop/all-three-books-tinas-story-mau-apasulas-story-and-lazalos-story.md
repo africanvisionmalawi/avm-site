@@ -11,7 +11,7 @@ productId: "2160"
 product_shipping_class: book
 size: book
 weight: 250
-tags:
+shoptags:
   - books
 total_sales:
   - 0

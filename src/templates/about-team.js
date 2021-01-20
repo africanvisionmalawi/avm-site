@@ -1,18 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Layout from "../components/Layout";
+import PropTypes from "prop-types";
+import React from "react";
+import styled from "styled-components";
 import Content, { HTMLContent } from "../components/Content";
-import Seo from "../components/seo";
-// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import HeadingH1 from "../components/HeadingH1";
+import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
+import Seo from "../components/seo";
 import teamStyles from "../components/team.module.css";
 import TeamList from "../components/team/TeamList";
-import HeadingH1 from "../components/HeadingH1";
-import styled from "styled-components";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 export const TeamTemplate = ({
   content,

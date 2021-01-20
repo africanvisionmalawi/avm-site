@@ -17,7 +17,7 @@ height: 3
 shippingClass: na
 size: "card"
 product_shipping_class: letter
-tags:
+shoptags:
   - giftlist
 ---
 

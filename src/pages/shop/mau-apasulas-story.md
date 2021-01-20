@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/mau-apasulas-story"
 description: ""
 productId: "2165"
-tags:
+shoptags:
   - books
 size: book
 weight: 100

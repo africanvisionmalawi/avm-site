@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice: 0
 inStock: 1
-tags:
+shoptags:
   - craft
 size: other
 weight: 350

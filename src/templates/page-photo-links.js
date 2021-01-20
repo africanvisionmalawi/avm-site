@@ -1,18 +1,18 @@
-import React from "react";
 // import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Seo from "../components/seo";
+import React from "react";
+import styled from "styled-components";
 import Content, { HTMLContent } from "../components/Content";
-import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
-import NavbarLower from "../components/NavbarLower";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 // import { Link } from 'gatsby'
 import HeadingH1 from "../components/HeadingH1";
+import Layout from "../components/Layout";
+import NavbarLower from "../components/NavbarLower";
 import pageBasicStyles from "../components/pageBasic.module.css";
-import styled from "styled-components";
+import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`
   margin: 0 auto;

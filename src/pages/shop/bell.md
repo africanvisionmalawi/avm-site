@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/bell"
 description: ""
 productId: "2223"
-tags:
+shoptags:
   - postcards
 product_shipping_class: letter
 size: card

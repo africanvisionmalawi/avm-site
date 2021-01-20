@@ -10,7 +10,7 @@ productId: "2208"
 productImage: "/img/default-image.jpg"
 galleryPhotos:
   - "/img/default-image.jpg"
-tags:
+shoptags:
   - giftlist
 size: "card"
 product_shipping_class: letter

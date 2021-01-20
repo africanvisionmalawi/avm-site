@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/signs"
 description: ""
 productId: "2247"
-tags:
+shoptags:
   - postcards
 size: card
 product_shipping_class: letter

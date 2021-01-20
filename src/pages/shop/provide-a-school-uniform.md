@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/provide-a-school-uniform"
 description: ""
 productId: "2202"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

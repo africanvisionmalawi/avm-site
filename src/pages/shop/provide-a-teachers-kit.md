@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/provide-a-teachers-kit"
 description: ""
 productId: "2196"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

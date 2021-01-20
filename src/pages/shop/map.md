@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/map"
 description: ""
 productId: "2243"
-tags:
+shoptags:
   - postcards
 size: card
 product_shipping_class: letter

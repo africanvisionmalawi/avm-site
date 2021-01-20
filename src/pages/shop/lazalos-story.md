@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/lazalos-story"
 description: ""
 productId: "2163"
-tags:
+shoptags:
   - books
 size: book
 weight: 100

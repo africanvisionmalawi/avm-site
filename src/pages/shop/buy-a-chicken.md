@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/buy-a-chicken"
 description: ""
 productId: "2218"
-tags:
+shoptags:
   - giftlist
 size: card
 weight: 9

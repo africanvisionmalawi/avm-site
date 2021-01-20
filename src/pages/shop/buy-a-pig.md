@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/buy-a-pig"
 description: ""
 productId: "2216"
-tags:
+shoptags:
   - giftlist
 size: card
 weight: 9

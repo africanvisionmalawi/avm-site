@@ -11,8 +11,8 @@ description: ""
 productId: "2659"
 product_visibility:
   - featured
-tags:
-  - xmas
+shoptags:
+  - christmas
 size: card
 weight: 171
 length: 155

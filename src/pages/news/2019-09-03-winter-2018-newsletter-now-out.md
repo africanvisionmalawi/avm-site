@@ -10,7 +10,7 @@ description:
 tags:
   - newsletters
   - ""
-pdf_upload: ""
+pdf_upload: null
 ---
 
 Our Winter 2018 Newsletter is now out and reports on our first ever UNESCO sponsored training course. Read about how our new graduates are making a living for the first time as carpenters, tailors and electricians.

@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice:
 inStock: 10
-tags:
+shoptags:
   - giftlist
 title: Buy a sleeping mat
 productId: BuyASleepingMat

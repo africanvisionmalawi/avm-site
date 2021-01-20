@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/provide-a-school-desk-and-chair"
 description: ""
 productId: "2198"
-tags:
+shoptags:
   - giftlist
 size: card
 weight: 4

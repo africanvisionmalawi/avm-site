@@ -6,7 +6,7 @@ weight: 0
 length: 0
 width: 0
 height: 0
-tags:
+shoptags:
   - christmas
 title: Donate any amount to Sam's Village and our Matched Fund will double it!
 productId: donateSamsVillage

@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/plant-a-vegetable-garden"
 description: ""
 productId: "2185"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

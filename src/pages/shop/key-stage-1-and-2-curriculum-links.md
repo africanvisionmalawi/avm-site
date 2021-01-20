@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/key-stage-1-and-2-curriculum-links"
 description: ""
 productId: "2158"
-tags:
+shoptags:
   - cds
 size: cd
 weight: 100

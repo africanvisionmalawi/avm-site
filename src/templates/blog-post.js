@@ -1,14 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-// import Helmet from "react-helmet";
-import useSiteMetadata from "../hooks/use-site-metadata";
 import { graphql, Link } from "gatsby";
+import { kebabCase } from "lodash";
+import PropTypes from "prop-types";
+import React from "react";
+import styled from "styled-components";
+import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
-import Content, { HTMLContent } from "../components/Content";
-import postStyles from "../components/posts.module.css";
-import styled from "styled-components";
+import useSiteMetadata from "../hooks/use-site-metadata";
 
 const TextSection = styled.section`
   background: #fff;
@@ -28,15 +26,14 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  pdf_upload,
 }) => {
   const PostContent = contentComponent || Content;
-  var pdfUrl = "";
-  var pdfName = "";
-  if (pdf_upload !== null && pdf_upload !== "") {
-    pdfUrl = pdf_upload.replace("../../../static", "");
-    pdfName = pdf_upload.replace("../../../static/img/", "");
-  }
+  // var pdfUrl = "";
+  // var pdfName = "";
+  // if (pdf_upload !== null && pdf_upload !== "") {
+  //   pdfUrl = pdf_upload.replace("../../../static", "");
+  //   pdfName = pdf_upload.replace("../../../static/img/", "");
+  // }
 
   return (
     <section className="section">
@@ -48,7 +45,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
-            {pdf_upload && pdf_upload !== "" ? (
+            {/* {pdf_upload && pdf_upload !== "" ? (
               <div className={postStyles.fileDownload}>
                 <a href={pdfUrl}>
                   <svg
@@ -61,7 +58,7 @@ export const BlogPostTemplate = ({
                   Download {pdfName}
                 </a>
               </div>
-            ) : null}
+            ) : null} */}
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -86,7 +83,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  pdf_upload: PropTypes.string,
+  // pdf_upload: PropTypes.string,
 };
 
 const BlogPost = ({ data }) => {
@@ -106,7 +103,7 @@ const BlogPost = ({ data }) => {
         description={post.frontmatter.description}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        pdf_upload={post.frontmatter.pdf_upload}
+        // pdf_upload={post.frontmatter.pdf_upload}
       />
     </Layout>
   );
@@ -133,7 +130,6 @@ export const pageQuery = graphql`
         title
         description
         tags
-        pdf_upload
       }
     }
   }

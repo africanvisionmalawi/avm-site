@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/christmas-cards-pack-of-5-cards-design-by-paige-coote"
 description: ""
 productId: "2826"
-tags:
+shoptags:
   - christmas
 size: card
 product_shipping_class: letter

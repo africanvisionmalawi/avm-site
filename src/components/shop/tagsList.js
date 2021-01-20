@@ -1,27 +1,22 @@
-import React from "react";
+import { Stack, Tag } from "@chakra-ui/core";
 import { styled } from "linaria/react";
+import React from "react";
 
 const TagHeading = styled.h3`
   display: inline-block;
   font-size: 0.9em;
-  margin-right: 5px;
+  margin: 1rem 0 0;
 `;
 
-const TagItem = styled.span`
-  display: inline-block;
-  font-size: 0.8em;
-`;
-
-const TagsList = props => {	
-	return (		
-          <>
-            <TagHeading>Tags:</TagHeading>
-            {props.tags.map((tag) => (
-              <TagItem key={tag + `tag`}>{tag}</TagItem>
-            ))}
-          </>        
-	)
-}
-export default TagsList
-
-
+export const TagsList = (props) => {
+  return (
+    <>
+      <TagHeading>Tags:</TagHeading>
+      <Stack spacing="8px" isInline>
+        {props.tags.map((tag) => (
+          <Tag key={tag + `tag`}>{tag}</Tag>
+        ))}
+      </Stack>
+    </>
+  );
+};

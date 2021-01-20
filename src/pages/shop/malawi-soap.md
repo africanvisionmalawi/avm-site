@@ -3,7 +3,7 @@ templateKey: shop-product-page
 productImage: "/img/soap-rotated.jpg"
 salePrice:
 inStock: 99
-tags:
+shoptags:
   - craft
 size: other
 title: Malawi soap

@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/train-a-carer"
 description: ""
 productId: "2179"
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

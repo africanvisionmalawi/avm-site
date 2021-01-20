@@ -1,10 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
+import { Box, SimpleGrid } from "@chakra-ui/core";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
-import { SimpleGrid, Box } from "@chakra-ui/core";
-import { Link, useStaticQuery, graphql } from "gatsby";
-import styles from "./pagelinks.module.css";
+import React from "react";
 import styled from "styled-components";
+import styles from "./pagelinks.module.css";
 
 const HomepageProjectsCols = (props) => {
   const featuredImage = useStaticQuery(
@@ -28,29 +27,31 @@ const HomepageProjectsCols = (props) => {
       {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
       <SimpleGrid columns={[1, 1, 3]} spacing="1em">
         {props.ourWork.map((project) => (
-          <Box p={2} key={project.id} bg="#f7f7f7" borderRadius="8px">
-            <Box borderRadius="4px" overflow="hidden">
-              {project.imageId && (
-                <Img
-                  fluid={
-                    project.hasMobileImage === true
-                      ? [
-                          featuredImage[project.imageIdMobile].childImageSharp
-                            .fluid,
-                          {
-                            ...featuredImage[project.imageIdDesktop]
-                              .childImageSharp.fluid,
-                            media: `(min-width: 576px)`,
-                          },
-                        ]
-                      : featuredImage[project.imageId].childImageSharp.fluid
-                  }
-                  alt=""
-                  imgStyle={{ objectFit: "contain" }}
-                />
-              )}
-            </Box>
-            <Box px="8px" mt={{ base: 4 }} width="100%">
+          <Box pb="1rem" key={project.id} bg="#f7f7f7" borderRadius="8px">
+            <Link to={project.url}>
+              <Box borderRadius="4px 4px 0 0" overflow="hidden">
+                {project.imageId && (
+                  <Img
+                    fluid={
+                      project.hasMobileImage === true
+                        ? [
+                            featuredImage[project.imageIdMobile].childImageSharp
+                              .fluid,
+                            {
+                              ...featuredImage[project.imageIdDesktop]
+                                .childImageSharp.fluid,
+                              media: `(min-width: 576px)`,
+                            },
+                          ]
+                        : featuredImage[project.imageId].childImageSharp.fluid
+                    }
+                    alt=""
+                    imgStyle={{ objectFit: "contain" }}
+                  />
+                )}
+              </Box>
+            </Link>
+            <Box px="16px" mt={{ base: 4 }} width="100%">
               <Excerpt>
                 <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>

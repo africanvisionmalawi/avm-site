@@ -1,19 +1,19 @@
-import React from "react";
 // import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import useSiteMetadata from "../hooks/use-site-metadata";
-import Seo from "../components/seo";
+import React from "react";
+import styled from "styled-components";
 import Content, { HTMLContent } from "../components/Content";
-import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Donate from "../components/Donate";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
+import HeadingH1 from "../components/HeadingH1";
+import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 // import EventsCardLayout from "../components/EventsCardLayout";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
-import HeadingH1 from "../components/HeadingH1";
-import styled from "styled-components";
+import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
+import Seo from "../components/seo";
+import useSiteMetadata from "../hooks/use-site-metadata";
 import { getFeaturedLinks } from "../utils/helpers";
 
 const Section = styled.section`

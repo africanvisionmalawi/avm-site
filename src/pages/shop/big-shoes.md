@@ -11,7 +11,7 @@ description: ""
 productId: "2225"
 galleryPhotos:
   - "/img/default-image.jpg"
-tags:
+shoptags:
   - postcards
 product_shipping_class: letter
 size: "card"

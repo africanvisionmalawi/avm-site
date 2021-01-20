@@ -13,7 +13,7 @@ weight: 4
 length: 147
 width: 104
 height: 3
-tags:
+shoptags:
   - giftlist
 size: card
 product_shipping_class: letter

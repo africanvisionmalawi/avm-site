@@ -16,8 +16,8 @@ height: 0
 shippingClass: na
 size: ""
 product_shipping_class: letter
-tags:
-  - bag
+shoptags:
+  - craft
 relatedProducts:
   - zip-bags
 galleryPhotos:

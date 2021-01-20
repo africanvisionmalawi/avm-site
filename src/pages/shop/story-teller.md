@@ -9,7 +9,7 @@ salePrice: 0
 permalink: "/product/story-teller"
 description: ""
 productId: "2249"
-tags:
+shoptags:
   - postcards
 size: card
 weight: 4

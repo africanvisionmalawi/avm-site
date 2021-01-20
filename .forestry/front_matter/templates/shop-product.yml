@@ -55,7 +55,7 @@ fields:
 - type: text
   name: shippingClass
   label: shippingClass
-- name: tags
+- name: shoptags
   type: tag_list
   default: []
   label: Tags

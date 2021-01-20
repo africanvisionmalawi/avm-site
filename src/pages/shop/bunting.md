@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice: 0
 inStock: 2
-tags:
+shoptags:
   - craft
 size: other
 title: Bunting

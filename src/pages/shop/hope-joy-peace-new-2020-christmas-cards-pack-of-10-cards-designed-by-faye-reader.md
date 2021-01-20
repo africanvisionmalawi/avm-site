@@ -2,7 +2,7 @@
 templateKey: shop-product-page
 salePrice:
 inStock: 99
-tags:
+shoptags:
   - christmas
 size: card
 title:

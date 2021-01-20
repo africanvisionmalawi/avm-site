@@ -16,10 +16,10 @@ height: 0
 shippingClass: na
 size: ""
 product_shipping_class: letter
-tags:
-  - bag
+shoptags:
+  - craft
 relatedProducts:
-  - bag-for-life
+  - craft-for-life
 galleryPhotos:
   - "/img/zip-bags.jpg"
 publish: true

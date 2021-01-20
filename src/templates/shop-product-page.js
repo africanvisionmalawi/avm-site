@@ -1,23 +1,24 @@
-import React from "react";
-import PropTypes from "prop-types";
+import { Box, Flex } from "@chakra-ui/core";
 import { graphql } from "gatsby";
-import useSiteMetadata from "../hooks/use-site-metadata";
-// import { Location } from "@reach/router";
-import Layout from "../components/Layout";
-import Seo from "../components/seo";
-import { Flex, Box } from "@chakra-ui/core";
+import PropTypes from "prop-types";
+import React from "react";
+import styled from "styled-components";
+import BuyButton from "../components/BuyButton";
+import { Carousel } from "../components/Carousel";
 import Content, { HTMLContent } from "../components/Content";
+import Donate from "../components/Donate";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import Donate from "../components/Donate";
-import BuyButton from "../components/BuyButton";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import shopStyles from "../components/shop.module.css";
-import NavbarLower from "../components/NavbarLower";
 import HeadingH1 from "../components/HeadingH1";
-import styled from "styled-components";
+import Layout from "../components/Layout";
+import NavbarLower from "../components/NavbarLower";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import Seo from "../components/seo";
+import shopStyles from "../components/shop.module.css";
+// import { Location } from "@reach/router";
+import { TagsList } from "../components/shop/tagsList";
+import useSiteMetadata from "../hooks/use-site-metadata";
 import { priceFormatted } from "../utils/helpers";
-import { Carousel } from "../components/Carousel";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -124,15 +125,8 @@ export const ShopProductTemplate = ({
                   </p>
                 )}
 
-                {/* {tags && tags.length ? (
-                  <>
-                    <TagHeading>Tags:</TagHeading>
+                {tags && tags.length ? <TagsList tags={tags} /> : null}
 
-                    {tags.map((tag) => (
-                      <TagItem key={tag + `tag`}>{tag}</TagItem>
-                    ))}
-                  </>
-                ) : null} */}
                 <div className={shopStyles.productDetails}>
                   <PageContent className="content" content={content} />
                 </div>
@@ -177,7 +171,7 @@ const ShopProductPage = ({ data }) => {
         width={post.frontmatter.width}
         height={post.frontmatter.height}
         shippingClass={post.frontmatter.shippingClass}
-        tags={post.frontmatter.tags}
+        tags={post.frontmatter.shoptags}
         relatedProducts={post.frontmatter.relatedProducts}
         galleryPhotos={post.frontmatter.galleryPhotos}
         publish={post.frontmatter.publish}
@@ -218,7 +212,7 @@ export const pageBasicQuery = graphql`
         length
         width
         height
-        tags
+        shoptags
         publish
         relatedProducts
         galleryPhotos {
