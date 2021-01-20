@@ -15,4 +15,6 @@ size: dvd
 weight: 84
 galleryPhotos:
   - "/img/4b0c05bf60548m_phamba_village1.jpg"
----DVD about life in a traditional Malawian village Filmed and edited by Sam Palmer
+---
+
+DVD about life in a traditional Malawian village Filmed and edited by Sam Palmer
