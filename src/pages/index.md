@@ -22,11 +22,8 @@ ourWork:
   url: "/health/"
   imageId: PhotoHealth
   photo: "/img/mainphoto_health.jpg"
-  excerpt: One of our big forthcoming projects is to build a Waiting Home for new
-    mothers at the Maternity Unit. This second stage will provide essential care for
-    pre-term births - which are higher in Malawi than anywhere else in the world.
-    The project will include nutritional permaculture gardens in front of the new
-    wing, and education on good nutrition for new mothers.
+  excerpt: "11% of children don't reach their 5th birthday\n50% of deaths of under
+    5's is due to malaria\n11% of Malawians are living with HIV/AIDS \n(WHO 2009)"
   featured: true
 - id: education
   name: Education
