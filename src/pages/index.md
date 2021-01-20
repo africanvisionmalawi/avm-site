@@ -57,9 +57,10 @@ ourWork:
   url: "/celebrate-and-give/"
   imageId: ''
   photo: "/img/mainphoto_celebrate.jpg"
-  excerpt: |-
-    Most fundraising comes from personal donations.You can help us through regular monthly donations; leaving a legacy;
-    pledging gifts from a birthday or anniversary; or running a fundraising event.
+  excerpt: Most fundraising comes from personal donations. You can help us through
+    regular monthly giving; leaving a legacy; pledging gifts from a birthday or anniversary;
+    or running a fundraising event. Please consider one or more of these as it’s so
+    easy to help
   featured: false
 
 ---
