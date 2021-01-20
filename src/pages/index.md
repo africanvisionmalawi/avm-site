@@ -58,9 +58,8 @@ ourWork:
   imageId: ''
   photo: "/img/mainphoto_celebrate.jpg"
   excerpt: Most fundraising comes from personal donations. You can help us through
-    regular monthly giving; leaving a legacy; pledging gifts from a birthday or anniversary;
-    or running a fundraising event. Please consider one or more of these as it’s so
-    easy to help
+    regular monthly giving; leaving a legacy; pledging gifts from a birthday; or running
+    a fundraising event. Please consider one or more of these as it’s so easy to help.
   featured: false
 
 ---
