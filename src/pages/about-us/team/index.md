@@ -48,6 +48,14 @@ malawiTeam:
   name: Julie Ndalama
   role: Disability Outreach Worker
 - order: 
+  photo: "/img/mistone-abison-2.jpeg"
+  name: Mistone Abison
+  role: Procurement Officer
+- order: 
+  photo: "/img/Chikondi-for-website-150x150.jpg"
+  name: Chikondi Kanambo
+  role: Reception and Admin Officer
+- order: 
   photo: "/img/Kondwani-permaculture-small-150x150.jpg"
   name: Kondwani Galanga
   role: Permaculture Officer
@@ -80,10 +88,6 @@ malawiTeam:
   name: Bizaliel Kalimo
   role: Sam's Village Guard
 - order: 
-  photo: "/img/Chikondi-for-website-150x150.jpg"
-  name: Chikondi Kanambo
-  role: Reception and Admin Officer
-- order: 
   photo: "/img/peter-happy-2.jpeg"
   name: Peter Happy
   role: Gardener
@@ -99,10 +103,6 @@ malawiTeam:
   photo: "/img/Walter-2-1-150x150.jpg"
   name: Walter Malikesi
   role: Office Gardener and Support
-- order: 
-  photo: "/img/mistone-abison-2.jpeg"
-  name: Mistone Abison
-  role: Procurement Officer
 - order: 
   photo: "/img/Chipiliro-150x150.jpg"
   name: Chipiliro Mbiridzi
@@ -212,10 +212,6 @@ ukTeam:
   photo: "/img/Kira-150x150.jpg"
   name: Kira Palmer
   role: Social Media Coordinator
-- order: 
-  photo: "/img/JNT-AVM-150x150.jpg"
-  name: Jane Thompson
-  role: Office Support
 malawiTitle: Local Based Committee (LBC) Members
 malawiText: The team also includes 88 volunteers who are members of 14 Locally Based
   Committees and are residents of our focus area.

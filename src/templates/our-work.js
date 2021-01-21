@@ -23,7 +23,7 @@ const OurWorkPage = ({ data }) => {
       />
       <NavbarLower />
       <Section>
-        <h1>Our work</h1>
+        <Heading>Our work</Heading>
         <PageContent className="content" content={post.html} />
         <HomepageProjectsCols
           currentProject="home"
@@ -35,12 +35,20 @@ const OurWorkPage = ({ data }) => {
   );
 };
 
+const Heading = styled.h1`
+  margin-left: 16px;
+  margin-right: 16px;
+`;
+
 const Section = styled.section`
   background: #fff;
-  padding-top: 2.6em;
+  padding-top: 2.6rem;
   margin: 0 auto;
   max-width: 1180px;
   width: 100%;
+  @media (min-width: 768px) {
+    padding: 2.6rem 1rem;
+  }
 `;
 
 // const Heading = styled.h1`

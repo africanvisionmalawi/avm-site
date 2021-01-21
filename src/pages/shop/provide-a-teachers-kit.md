@@ -10,7 +10,7 @@ permalink: "/product/provide-a-teachers-kit"
 description: ""
 productId: "2196"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 weight: 4

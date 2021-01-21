@@ -10,7 +10,7 @@ permalink: "/product/buy-a-blanket"
 description: ""
 productId: "2204"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 weight: 4

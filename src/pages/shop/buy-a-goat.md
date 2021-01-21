@@ -10,7 +10,7 @@ permalink: "/product/buy-a-goat"
 description: ""
 productId: "2214"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 weight: 9
 length: 147

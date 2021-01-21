@@ -1,11 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Flex, Box } from "@chakra-ui/core";
-import Img from "gatsby-image";
+import { Box, Flex } from "@chakra-ui/core";
 // import BackgroundImage from "gatsby-background-image";
-import { Link, useStaticQuery, graphql } from "gatsby";
-import projectLinkStyles from "./projects.module.css";
+import { graphql, Link, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
+import PropTypes from "prop-types";
+import React from "react";
 import styled from "styled-components";
+import projectLinkStyles from "./projects.module.css";
 
 const FeaturedProjects = ({ currentProject, displayHeading }) => {
   const featuredImage = useStaticQuery(
@@ -222,7 +222,7 @@ const SubHeading = styled.span`
   padding: 0 0.6em;
   text-align: center;
   text-shadow: 5px 0px 15px rgba(150, 150, 150, 0.84);
-  z-index: 1000;
+  z-index: 3;
 `;
 
 const Overlay = styled.div`
@@ -235,7 +235,7 @@ const Overlay = styled.div`
   position: absolute;
   top: left;
   width: 100%;
-  z-index: 900;
+  z-index: 2;
   &:hover {
     span {
       font-size: 2.8rem;

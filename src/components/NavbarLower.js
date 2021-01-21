@@ -1,14 +1,16 @@
-import React from "react";
 import { styled } from "linaria/react";
+import React from "react";
 import Breadcrumbs from "./Breadcrumbs";
 // import Search from "./search";
 // const searchIndices = [{ name: `Pages`, title: `Pages` }];
 
 const Section = styled.div`
   background: #fff;
+  // border-top: 1px solid #d7dade;
+  // border-bottom: 1px solid #d7dade;
   margin: 0 auto;
   max-width: 1080px;
-  padding: 2.5em 12px 0.5em;
+  padding: 0.5rem 12px;
   position: relative;
   width: 100%;
   & div {
@@ -18,13 +20,13 @@ const Section = styled.div`
     & div {
       display: block;
     }
-    padding: 0.5em 100px 12px;
+    padding: 0.5rem 100px;
   }
   @media (min-width: 768px) {
-    padding: 0.5em 0 12px 120px;
+    padding-left: 120px;
   }
   @media (min-width: 1140px) {
-    padding: 0.5em 0 12px 80px;
+    padding: 0.5rem 0 0.5rem 90px;
   }
 `;
 

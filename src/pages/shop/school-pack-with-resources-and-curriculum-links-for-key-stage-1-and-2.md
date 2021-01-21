@@ -10,7 +10,7 @@ permalink: "/product/school-pack-with-resources-and-curriculum-links-for-key-sta
 description: ""
 productId: "2171"
 shoptags:
-  - Education Packs
+  - Education
 size: ""
 weight: 700
 total_sales:

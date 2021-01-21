@@ -3,7 +3,7 @@ templateKey: shop-product-page
 salePrice:
 inStock: 10
 shoptags:
-  - giftlist
+  - support-malawi
 title: Buy a sleeping mat
 productId: BuyASleepingMat
 description: Give a gift that will make a difference We will send you the gift card/s

@@ -29,19 +29,12 @@ const Section = styled.section`
 const ShopSection = styled.section`
   margin: 0 auto;
   max-width: 1180px;
-  padding: 5em 2em;
+  padding: 2em 0;
   width: 100%;
 `;
 
-const TagHeading = styled.h3`
-  display: inline-block;
-  font-size: 0.9em;
-  margin-right: 5px;
-`;
-
-const TagItem = styled.span`
-  display: inline-block;
-  font-size: 0.8em;
+const Inner = styled.div`
+  padding: 0 1rem;
 `;
 
 const displayButtonCheck = (stock, publish) => {
@@ -83,53 +76,57 @@ export const ShopProductTemplate = ({
       <NavbarLower path={path} />
       <ShopSection>
         <article className={shopStyles.product}>
-          <HeadingH1 text={title} />
+          <Inner>
+            <HeadingH1 text={title} />
+          </Inner>
           <Flex flexWrap="wrap">
             <Box width={["100%", "100%", "66.66666%"]}>
               {galleryPhotos && galleryPhotos.length > 1 && (
-                <Box maxW="600px">
+                <Box maxW="600px" ml={[0, 0, "1rem"]}>
                   <Carousel allSizesImages={galleryPhotos} />
                 </Box>
               )}
               {galleryPhotos && galleryPhotos.length === 1 && (
-                <Box maxW="600px">
+                <Box maxW="600px" ml={[0, 0, "1rem"]}>
                   <PreviewCompatibleImage imageInfo={galleryPhotos[0]} />
                 </Box>
               )}
             </Box>
             <Box width={["100%", "100%", "33.333333%"]}>
               <div className={shopStyles.productAside}>
-                <span className={shopStyles.price}>
-                  &pound;{priceFormatted(price)}
-                </span>
-                {displayButtonCheck(inStock, publish) ? (
-                  <BuyButton
-                    productId={productId}
-                    name={title}
-                    description={title}
-                    price={price}
-                    image={
-                      galleryPhotos && galleryPhotos.length
-                        ? galleryPhotos[0].childImageSharp.fluid.src
-                        : null
-                    }
-                    url={`${siteUrl}${slug}`}
-                    weight={weight}
-                    length={length}
-                    width={width}
-                    height={height}
-                  />
-                ) : (
-                  <p>
-                    <strong>Out of stock</strong>
-                  </p>
-                )}
+                <Inner>
+                  <span className={shopStyles.price}>
+                    &pound;{priceFormatted(price)}
+                  </span>
+                  {displayButtonCheck(inStock, publish) ? (
+                    <BuyButton
+                      productId={productId}
+                      name={title}
+                      description={title}
+                      price={price}
+                      image={
+                        galleryPhotos && galleryPhotos.length
+                          ? galleryPhotos[0].childImageSharp.fluid.src
+                          : null
+                      }
+                      url={`${siteUrl}${slug}`}
+                      weight={weight}
+                      length={length}
+                      width={width}
+                      height={height}
+                    />
+                  ) : (
+                    <p>
+                      <strong>Out of stock</strong>
+                    </p>
+                  )}
 
-                {tags && tags.length ? <TagsList tags={tags} /> : null}
-
+                  {tags && tags.length ? <TagsList tags={tags} /> : null}
+                </Inner>
                 <div className={shopStyles.productDetails}>
                   <PageContent className="content" content={content} />
                 </div>
+
                 {/* {relatedProducts[0]} */}
               </div>
             </Box>

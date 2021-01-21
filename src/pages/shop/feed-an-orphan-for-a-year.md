@@ -10,7 +10,7 @@ permalink: "/product/feed-an-orphan-for-a-year"
 description: ""
 productId: "2212"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 weight: 4

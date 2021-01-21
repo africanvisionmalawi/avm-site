@@ -1,6 +1,7 @@
 import { Stack, Tag } from "@chakra-ui/core";
 import { styled } from "linaria/react";
 import React from "react";
+// import {Link} from "gatsby";
 
 const TagHeading = styled.h3`
   display: inline-block;

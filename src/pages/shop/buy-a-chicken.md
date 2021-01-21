@@ -10,7 +10,7 @@ permalink: "/product/buy-a-chicken"
 description: ""
 productId: "2218"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 weight: 9
 length: 147

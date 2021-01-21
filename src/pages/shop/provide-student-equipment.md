@@ -14,7 +14,7 @@ length: 147
 width: 104
 height: 3
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 total_sales:

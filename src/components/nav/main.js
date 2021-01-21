@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Link } from "gatsby";
 import { Flex, useDisclosure } from "@chakra-ui/core";
+import { Link } from "gatsby";
+import React, { useState } from "react";
+import styled from "styled-components";
 import { navLinks } from "../../constants/nav";
 import CartLink from "../CartLink";
-import styled from "styled-components";
 // import Search from "../search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       <DesktopNav>
-        <Flex justify="space-between" align="center" ml="120px" width="100%">
+        <Flex justify="space-between" align="center" width="100%">
           <Menu>
             {navLinks.map((link, index) => (
               <>
@@ -138,6 +138,11 @@ const Menu = styled.ul`
     transition: visiblity 0.2s ease-in-out;
     visibility: visible;
   }
+  @media (min-width: 768px) {
+    margin-left: 120px;
+    min-width: 0;
+    width: auto;
+  }
 `;
 
 const DesktopNav = styled.div`
@@ -158,7 +163,6 @@ const IconCont = styled.div`
   justify-content: center;
   right: 40px;
   top: 0;
-  width: 35px;
 `;
 
 const NavIcons = styled.div`

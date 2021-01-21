@@ -11,7 +11,7 @@ productImage: "/img/default-image.jpg"
 galleryPhotos:
   - "/img/default-image.jpg"
 shoptags:
-  - giftlist
+  - support-malawi
 size: "card"
 product_shipping_class: letter
 total_sales:

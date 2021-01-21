@@ -4,6 +4,7 @@ salePrice:
 inStock: 99
 shoptags:
   - craft
+  - support-malawi
 size: other
 title: Wooden Beetle Car
 publish: true
@@ -17,6 +18,6 @@ height: 100
 length: 200
 galleryPhotos:
   - "/img/wooden-beetles.jpg"
----
-
-The famous Beetle car handcrafted in Malawi approximately 150 mm length
+productImage: ""
+total_sales:
+---The famous Beetle car handcrafted in Malawi approximately 150 mm length

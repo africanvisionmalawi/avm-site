@@ -18,7 +18,7 @@ shippingClass: na
 size: "card"
 product_shipping_class: letter
 shoptags:
-  - giftlist
+  - support-malawi
 ---
 
 Give a gift that will make a difference We will send you the gift card/s

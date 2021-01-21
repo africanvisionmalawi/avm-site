@@ -10,7 +10,7 @@ permalink: "/product/help-them-earn-a-living-through-a-microloan-to-set-up-a-bus
 description: ""
 productId: "2174"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 weight: 4

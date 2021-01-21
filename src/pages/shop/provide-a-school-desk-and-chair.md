@@ -10,7 +10,7 @@ permalink: "/product/provide-a-school-desk-and-chair"
 description: ""
 productId: "2198"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 weight: 4
 length: 147
