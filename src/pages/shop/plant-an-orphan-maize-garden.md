@@ -10,7 +10,7 @@ permalink: "/product/plant-an-orphan-maize-garden"
 description: ""
 productId: "2210"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 weight: 4
 length: 147

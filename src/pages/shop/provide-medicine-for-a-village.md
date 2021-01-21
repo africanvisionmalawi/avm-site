@@ -10,7 +10,7 @@ permalink: "/product/provide-medicine-for-a-village"
 description: ""
 productId: "2190"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 weight: 4
 length: 147

@@ -10,7 +10,7 @@ permalink: "/product/buy-10-mosquito-nets"
 description: ""
 productId: "2194"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 weight: 4
 length: 147

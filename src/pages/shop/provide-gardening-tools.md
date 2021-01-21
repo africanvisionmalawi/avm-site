@@ -10,7 +10,7 @@ permalink: "/product/provide-gardening-tools"
 description: ""
 productId: "2183"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 weight: 4

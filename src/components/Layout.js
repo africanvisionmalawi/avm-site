@@ -1,17 +1,17 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import Footer from "../components/Footer";
-import SubNavBar from "../components/nav/sub";
-import Navbar from "../components/nav/main";
-import NavLogo from "../components/NavLogo";
-import "./css/all.css";
-import useSiteMetadata from "./SiteMetadata";
-import { withPrefix } from "gatsby";
-import layoutStyles from "./layout.module.css";
-import styled from "styled-components";
+import "@fontsource/raleway";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
-import "@fontsource/raleway";
+import { withPrefix } from "gatsby";
+import React from "react";
+import { Helmet } from "react-helmet";
+import styled from "styled-components";
+import Footer from "../components/Footer";
+import Navbar from "../components/nav/main";
+import SubNavBar from "../components/nav/sub";
+import NavLogo from "../components/NavLogo";
+import "./css/all.css";
+import layoutStyles from "./layout.module.css";
+import useSiteMetadata from "./SiteMetadata";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -82,6 +82,7 @@ const TemplateWrapper = ({ children }) => {
 
 const Header = styled.div`
   background: #c27e34;
+  box-shadow: inset 0px -4px 8px -5px #482a1e;
   height: auto;
 `;
 

@@ -17,16 +17,20 @@ const tags = [
     slug: "craft",
   },
   {
-    title: "Education Packs",
-    slug: "education-packs",
+    title: "Donated Gifts",
+    slug: "donated-gifts",
+  },
+  {
+    title: "Education",
+    slug: "education",
   },
   {
     title: "Food",
     slug: "food",
   },
   {
-    title: "Giftlist",
-    slug: "giftlist",
+    title: "Support Malawi",
+    slug: "support-malawi",
   },
   {
     title: "Media",

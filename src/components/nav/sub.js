@@ -1,21 +1,18 @@
-import React, { useState } from "react";
-import { Link } from "gatsby";
 import {
   Box,
   Drawer,
-  DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
   DrawerCloseButton,
+  DrawerContent,
+  DrawerOverlay,
   Flex,
   useDisclosure,
 } from "@chakra-ui/core";
-import { navLinks } from "../../constants/nav";
-import CtaButton from "../CtaButton";
-import CartLink from "../CartLink";
+import { Link } from "gatsby";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { navLinks } from "../../constants/nav";
+import CartLink from "../CartLink";
+import CtaButton from "../CtaButton";
 // import Search from "../search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
@@ -68,7 +65,7 @@ const SubNavBar = () => {
             </Flex>
             <IconsCont>{/* <Search indices={searchIndices} /> */}</IconsCont>
             <IconsCont>
-              <CartLink />
+              <CartLink variant="orange" />
             </IconsCont>
             <IconsCont>
               <MobileNavIcon
@@ -148,7 +145,7 @@ const IconsCont = styled.div`
   display: flex;
   justify-content: center;
 
-  width: 35px;
+  // width: 35px;
 `;
 
 const Menu = styled.ul`
@@ -186,18 +183,12 @@ const Menu = styled.ul`
 
 const MobileNav = styled.div`
   align-items: flex-end;
-  // display: flex;
-  // flex-direction: column;
-  // flex-wrap: nowrap;
   height: 48px;
-  // height: 68px;
   justify-content: flex-end;
-  margin: 4px 0 0;
-  // overflow-y: auto;
+  margin: 4px 16px 0 0;
   position: sticky;
   text-transform: uppercase;
   top: 10px;
-  // -webkit-overflow-scrolling: touch;
   width: 100%;
   @media (min-width: 370px) {
     flex-direction: row;
@@ -217,8 +208,6 @@ const MobileNavIcon = styled.svg`
   display: block;
   fill: #fff;
   height: 28px;
-  // margin-right: 15px;
-  // margin-left: 8px;
   width: 28px;
 `;
 

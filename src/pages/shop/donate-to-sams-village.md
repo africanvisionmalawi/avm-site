@@ -18,7 +18,7 @@ shippingClass: na
 size: "card"
 product_shipping_class: letter
 shoptags:
-  - giftlist
+  - support-malawi
 ---
 
 <strong>A Christmas Present to make a difference</strong>

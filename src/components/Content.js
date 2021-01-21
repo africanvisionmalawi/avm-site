@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { Box } from "@chakra-ui/core";
+import PropTypes from "prop-types";
+import React from "react";
 
 export const HTMLContent = ({ content, className }) => (
   <Box
-    px={["16px", "16px", "8px"]}
+    px={["16px", "16px", "16px"]}
     className={className}
     dangerouslySetInnerHTML={{
       __html: content

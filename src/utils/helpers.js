@@ -25,6 +25,14 @@ export const getCurrentDate = () => {
   return `${d.getFullYear()}-${month}-${day}`;
 };
 
+/**
+ * Returns the current date in YYYY-MM-DD format
+ */
+export const getCurrentYear = () => {
+  const d = new Date();
+  return `${d.getFullYear()}`;
+};
+
 export const getEvents = (events) => {
   let futureEvents = [];
   let pastEvents = [];

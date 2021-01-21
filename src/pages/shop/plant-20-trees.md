@@ -10,7 +10,7 @@ permalink: "/product/plant-20-trees"
 description: ""
 productId: "2181"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 weight: 4

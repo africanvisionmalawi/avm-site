@@ -118,7 +118,7 @@ const PageBasic = ({ data }) => {
             style={{
               // Defaults are overwrite-able by setting one or each of the following:
               backgroundSize: "auto",
-              backgroundPosition: "50% 102px",
+              backgroundPosition: "50% 30px",
               backgroundRepeat: "no-repeat",
             }}
           >

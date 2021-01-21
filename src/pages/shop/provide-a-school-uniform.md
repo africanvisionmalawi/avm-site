@@ -10,7 +10,7 @@ permalink: "/product/provide-a-school-uniform"
 description: ""
 productId: "2202"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 weight: 4

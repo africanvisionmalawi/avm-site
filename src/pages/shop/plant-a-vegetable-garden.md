@@ -10,7 +10,7 @@ permalink: "/product/plant-a-vegetable-garden"
 description: ""
 productId: "2185"
 shoptags:
-  - giftlist
+  - support-malawi
 size: card
 product_shipping_class: letter
 total_sales:

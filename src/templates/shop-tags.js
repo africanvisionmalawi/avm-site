@@ -56,7 +56,7 @@ const BrowseAll = styled.div`
 const ShopSection = styled.section`
   margin: 0 auto;
   max-width: 1180px;
-  padding: 5em 1em;
+  padding: 2em 1em;
   width: 100%;
 `;
 
