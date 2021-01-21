@@ -20,4 +20,6 @@ galleryPhotos:
   - "/img/wooden-beetles.jpg"
 productImage: ""
 total_sales:
----The famous Beetle car handcrafted in Malawi approximately 150 mm length
+---
+
+The famous Beetle car handcrafted in Malawi approximately 150 mm length
