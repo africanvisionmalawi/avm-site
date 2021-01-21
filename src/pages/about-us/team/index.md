@@ -212,10 +212,6 @@ ukTeam:
   photo: "/img/Kira-150x150.jpg"
   name: Kira Palmer
   role: Social Media Coordinator
-- order: 
-  photo: "/img/JNT-AVM-150x150.jpg"
-  name: Jane Thompson
-  role: Office Support
 malawiTitle: Local Based Committee (LBC) Members
 malawiText: The team also includes 88 volunteers who are members of 14 Locally Based
   Committees and are residents of our focus area.
