@@ -49,7 +49,7 @@ const Navbar = () => {
               </>
             ))}
           </Menu>
-          <Flex flexWrap="nowrap">
+          <Flex flexWrap="nowrap" height="41px">
             <IconCont>{/* <Search indices={searchIndices} /> */}</IconCont>
             <IconCont>
               <CartLink />
