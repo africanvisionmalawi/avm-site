@@ -143,6 +143,7 @@ const BtnsCont = styled.div`
 const IconsCont = styled.div`
   align-items: center;
   display: flex;
+  height: 41px;
   justify-content: center;
 
   // width: 35px;
