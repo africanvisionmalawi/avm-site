@@ -1,4 +1,5 @@
-import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/core";
+import { ChevronDownIcon } from "@chakra-ui/icons";
+import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
@@ -86,6 +87,7 @@ export const TagsNav = (props) => {
     <TagsNavCont>
       <Inner>
         {tags.map((tag) => {
+          // console.log("active ", props.active);
           return (
             <Tag className={props.active === tag.slug ? "active" : null}>
               <Link to={`/shop/category/${tag.slug}`}>{tag.title}</Link>
@@ -95,7 +97,7 @@ export const TagsNav = (props) => {
       </Inner>
       <MobileMenu>
         <Menu>
-          <MenuButton as={Button} rightIcon="chevron-down">
+          <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
             Select Category:
           </MenuButton>
           <MenuList>

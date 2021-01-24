@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import styled from "styled-components";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
+import { styled } from "linaria/react";
+import PropTypes from "prop-types";
+import React from "react";
 dayjs.extend(advancedFormat);
 
 // todo: tidy up this mess of if satements

@@ -1,5 +1,5 @@
-import React from "react";
 import { Link } from "gatsby";
+import React from "react";
 import styled, { css } from "styled-components";
 
 let crumbLink = "";
@@ -40,6 +40,10 @@ const Breadcrumbs = (props) => {
 const Links = styled.div`
   max-width: 750px;
   text-transform: capitalize;
+  @media (max-width: 767px) {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 `;
 
 const CrumbLinkBase = css`

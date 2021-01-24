@@ -1,10 +1,10 @@
-import { Box, Flex } from "@chakra-ui/core";
+import { Flex } from "@chakra-ui/react";
 // import BackgroundImage from "gatsby-background-image";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
-import styled from "styled-components";
 import projectLinkStyles from "./projects.module.css";
 
 const FeaturedProjects = ({ currentProject, displayHeading }) => {
@@ -59,12 +59,14 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
               className={
                 project.id === currentProject ? projectLinkStyles.active : ``
               }
-              width={[project.colWidth.base, project.colWidth.md]}
+              className={project.fullWidth ? "fullWidth" : "halfSize"}
               key={project.id}
             >
-              <TileLink to={project.src}>
+              <Link to={project.src}>
                 <Overlay>
-                  <SubHeading>{project.name}</SubHeading>
+                  <SubHeading>
+                    {project.name} {project.fullWidth}
+                  </SubHeading>
                 </Overlay>
                 <Img
                   fluid={
@@ -83,7 +85,7 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
                   alt=""
                   imgStyle={{ objectFit: "contain" }}
                 />
-              </TileLink>
+              </Link>
             </Tile>
           ))}
         </Flex>
@@ -108,6 +110,7 @@ const projects = [
       base: "100%",
       md: "100%",
     },
+    fullWidth: true,
     hasMobileImage: true,
   },
   {
@@ -119,6 +122,7 @@ const projects = [
       base: "100%",
       md: "50%",
     },
+    fullWidth: false,
     hasMobileImage: false,
   },
   {
@@ -130,6 +134,7 @@ const projects = [
       base: "100%",
       md: "50%",
     },
+    fullWidth: false,
     hasMobileImage: false,
   },
   {
@@ -142,6 +147,7 @@ const projects = [
       base: "100%",
       md: "100%",
     },
+    fullWidth: true,
     hasMobileImage: true,
   },
   {
@@ -153,6 +159,7 @@ const projects = [
       base: "100%",
       md: "50%",
     },
+    fullWidth: false,
     hasMobileImage: false,
   },
   {
@@ -164,6 +171,7 @@ const projects = [
       base: "100%",
       md: "50%",
     },
+    fullWidth: false,
     hasMobileImage: false,
   },
 ];
@@ -177,12 +185,32 @@ const Container = styled.section`
 
 const TileCont = styled.div``;
 
-const Tile = styled(Box)`
+const Tile = styled.div`
   overflow: hidden;
   padding: 4px;
   position: relative;
   & img {
     border-radius: 4px;
+  }
+  width: 100%;
+  @media (min-width: 480px) {
+    &.fullWidth {
+      width: 100%;
+    }
+    &.halfSize {
+      width: 50%;
+    }
+  }
+  & a {
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    img {
+      border-radius: 4px;
+      height: 100%;
+      width: 100%;
+    }
   }
 `;
 
@@ -193,18 +221,6 @@ const Tile = styled(Box)`
 //   &:hover img {
 //     transform: scale(1.01);
 //   }
-
-const TileLink = styled(Link)`
-  border-radius: 4px;
-  display: block;
-  overflow: hidden;
-  position: relative;
-  & img {
-    border-radius: 4px;
-    height: 100%;
-    width: 100%;
-  }
-`;
 
 const Heading = styled.h2`
   // font-size: 3.2em;

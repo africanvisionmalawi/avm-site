@@ -102,7 +102,7 @@ module.exports = {
     },
     // "gatsby-plugin-chakra-ui",
     {
-      resolve: "gatsby-plugin-chakra-ui",
+      resolve: "@chakra-ui/gatsby-plugin",
       options: {
         /**
          * @property {boolean} [isResettingCSS=true]
@@ -201,6 +201,13 @@ module.exports = {
     //     // stylesPath: `${__dirname}/src/components/css/all.css`,
     //   },
     // },
+    {
+      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      options: {
+        // devMode: true,
+        // disable: true,
+      },
+    },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };

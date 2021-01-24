@@ -1,4 +1,4 @@
-import { Stack, Tag } from "@chakra-ui/core";
+import { Stack, Tag } from "@chakra-ui/react";
 import { styled } from "linaria/react";
 import React from "react";
 // import {Link} from "gatsby";

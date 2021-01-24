@@ -1,15 +1,15 @@
-import React from "react";
-import PropTypes from "prop-types";
-// import { v4 } from 'uuid'
-import { Link } from "gatsby";
-// import eventsColStyles from "./eventsCol.module.css";
-import postStyles from "./posts.module.css";
-import styled from "styled-components";
-// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import Img from "gatsby-image";
-import EventDate from "./EventDate";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
+// import { v4 } from 'uuid'
+import { Link } from "gatsby";
+// import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import Img from "gatsby-image";
+import { styled } from "linaria/react";
+import PropTypes from "prop-types";
+import React from "react";
+import EventDate from "./EventDate";
+// import eventsColStyles from "./eventsCol.module.css";
+import postStyles from "./posts.module.css";
 dayjs.extend(advancedFormat);
 
 const ColLink = styled.span`

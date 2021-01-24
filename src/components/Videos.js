@@ -1,8 +1,8 @@
-import React from "react";
+import { styled } from "linaria/react";
 import PropTypes from "prop-types";
-import videoStyles from "./videos.module.css";
+import React from "react";
 import ReactPlayer from "react-player";
-import styled from "styled-components";
+import videoStyles from "./videos.module.css";
 
 const Container = styled.div`
   display: grid;

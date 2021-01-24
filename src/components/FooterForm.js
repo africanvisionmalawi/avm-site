@@ -1,8 +1,8 @@
-import React from "react";
 // import PropTypes from "prop-types";
 // import { useStaticQuery, graphql } from "gatsby";
 import { navigate } from "gatsby-link";
-import styled from "styled-components";
+import { styled } from "linaria/react";
+import React from "react";
 
 function encode(data) {
   return Object.keys(data)
@@ -36,15 +36,12 @@ export const MailingForm = () => {
     <FormCont>
       <FormContInner>
         <h3>Join our Mailing List</h3>
-
         <form
-          action="https://landirani.createsend.com/t/y/s/jdhiii/"
+          action="/mailing-list-sucess/"
+          name="contact"
           method="post"
-          id="subForm"
-          className="form-inline"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          onSubmit={handleSubmit}
         >
           <FormInner>
             <FormGroup>
@@ -76,7 +73,7 @@ export const MailingForm = () => {
               <input name="bot-field" onChange={handleChange} />
             </label>
           </FormExtra>
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="mailing-list" />
         </form>
       </FormContInner>
     </FormCont>

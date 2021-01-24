@@ -1,7 +1,7 @@
 import { graphql } from "gatsby";
-import React from "react";
 // import postStyles from "../components/posts.module.css";
-import styled from "styled-components";
+import { styled } from "linaria/react";
+import React from "react";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
@@ -24,34 +24,34 @@ const Section = styled.section`
   width: 100%;
 `;
 
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  min-height: 24rem;
-  margin: 0 auto;
-  max-width: 885px;
-  padding: 3em 2em 2em;
-  position: relative;
-  width: 100%;
-`;
+// const TextSection = styled.section`
+//   background: #fff;
+//   border-top-left-radius: 6px;
+//   border-top-right-radius: 6px;
+//   min-height: 24rem;
+//   margin: 0 auto;
+//   max-width: 885px;
+//   padding: 3em 2em 2em;
+//   position: relative;
+//   width: 100%;
+// `;
 
-const List = styled.ul`
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-`;
+// const List = styled.ul`
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+// `;
 
-const ListItem = styled.li`
-  border-bottom: 1px solid #494949;
-  margin: 0;
-  padding: 2.4em 0;
-`;
+// const ListItem = styled.li`
+//   border-bottom: 1px solid #494949;
+//   margin: 0;
+//   padding: 2.4em 0;
+// `;
 
-const BrowseAll = styled.div`
-  margin: 2.4em 0;
-  text-align: center;
-`;
+// const BrowseAll = styled.div`
+//   margin: 2.4em 0;
+//   text-align: center;
+// `;
 
 const ShopSection = styled.section`
   margin: 0 auto;

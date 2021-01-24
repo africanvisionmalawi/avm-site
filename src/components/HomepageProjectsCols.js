@@ -1,8 +1,8 @@
-import { Box, SimpleGrid } from "@chakra-ui/core";
+import { Box, SimpleGrid } from "@chakra-ui/react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
 import React from "react";
-import styled from "styled-components";
 import styles from "./pagelinks.module.css";
 
 const HomepageProjectsCols = (props) => {
@@ -27,7 +27,7 @@ const HomepageProjectsCols = (props) => {
       {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
       <SimpleGrid columns={[1, 1, 3]} spacing="1em">
         {props.ourWork.map((project) => (
-          <Box pb="1rem" key={project.id} bg="#f7f7f7" borderRadius="8px">
+          <Tile>
             <Link to={project.url}>
               <Box borderRadius="4px 4px 0 0" overflow="hidden">
                 {project.imageId && (
@@ -52,15 +52,15 @@ const HomepageProjectsCols = (props) => {
               </Box>
             </Link>
             <Box px="16px" mt={{ base: 4 }} width="100%">
-              <Excerpt>
+              <div>
                 <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>
                 <Link to={project.url} className={styles.btn}>
                   Find out more
                 </Link>
-              </Excerpt>
+              </div>
             </Box>
-          </Box>
+          </Tile>
         ))}
       </SimpleGrid>
     </Box>
@@ -112,45 +112,45 @@ const projects = [
   },
 ];
 
-const Container = styled.section`
-  margin: 0 auto 3rem;
-  max-width: 1080px;
-  position: relative;
-  width: 100%;
-`;
+// const Container = styled.section`
+//   margin: 0 auto 3rem;
+//   max-width: 1080px;
+//   position: relative;
+//   width: 100%;
+// `;
 
-const ProjectRow = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 60px 0 120px;
-  @media (min-width: 768px) {
-    &.alt {
-      flex-direction: row-reverse;
-    }
-  }
-`;
+// const ProjectRow = styled.div`
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin: 60px 0 120px;
+//   @media (min-width: 768px) {
+//     &.alt {
+//       flex-direction: row-reverse;
+//     }
+//   }
+// `;
 
 const Title = styled.h3`
   font-size: 1.3em;
   margin-bottom: 0;
 `;
 
-const TileCont = styled.div``;
+// const TileCont = styled.div``;
 
-const Tile = styled.div`
-  margin-bottom: 1.4em;
-  overflow: hidden;
-  padding: 4px;
-  position: relative;
-  width: 100%;
-  & img {
-    border-radius: 4px;
-  }
-  @media (min-width: 768px) {
-    margin-bottom: 0;
-    width: 41.66666667%;
-  }
-`;
+// const Tile = styled.div`
+//   margin-bottom: 1.4em;
+//   overflow: hidden;
+//   padding: 4px;
+//   position: relative;
+//   width: 100%;
+//   & img {
+//     border-radius: 4px;
+//   }
+//   @media (min-width: 768px) {
+//     margin-bottom: 0;
+//     width: 41.66666667%;
+//   }
+// `;
 
 // & img {
 //     transition: transform 0.8s ease-in-out;
@@ -160,60 +160,58 @@ const Tile = styled.div`
 //     transform: scale(1.01);
 //   }
 
-const TileLink = styled(Link)`
-  border-radius: 4px;
-  display: block;
-  //   overflow: hidden;
-  position: relative;
-  & img {
-    border-radius: 4px;
-    height: 100%;
-    width: 100%;
-  }
+const Tile = styled.div`
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding-bottom: 1rem;
 `;
+
+// const TileLink = styled(Link)`
+//   border-radius: 4px;
+//   display: block;
+//   //   overflow: hidden;
+//   position: relative;
+//   & img {
+//     border-radius: 4px;
+//     height: 100%;
+//     width: 100%;
+//   }
+// `;
 
 const Heading = styled.h2`
   margin: 2rem 0 1rem;
   text-align: center;
 `;
 
-const SubHeading = styled.span`
-  color: #fff;
-  display: inline-block;
-  font-size: 2.4rem;
-  margin: 0 9px;
-  padding: 0 0.6em;
-  text-align: center;
-  text-shadow: 5px 0px 15px rgba(150, 150, 150, 0.84);
-  z-index: 1000;
-`;
+// const SubHeading = styled.span`
+//   color: #fff;
+//   display: inline-block;
+//   font-size: 2.4rem;
+//   margin: 0 9px;
+//   padding: 0 0.6em;
+//   text-align: center;
+//   text-shadow: 5px 0px 15px rgba(150, 150, 150, 0.84);
+//   z-index: 1000;
+// `;
 
-const Overlay = styled.div`
-  align-items: center;
-  background: rgba(0, 0, 0, 0.4);
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  left: 0;
-  position: absolute;
-  top: left;
-  width: 100%;
-  z-index: 900;
-  &:hover {
-    span {
-      font-size: 2.8rem;
-      border-bottom: 1px solid #fff;
-      transition: all 0.5s ease-in-out;
-    }
-  }
-`;
-
-const Excerpt = styled.div`
-<!--   padding: 0 30px;
-  width: 100%; -->
-  <!-- @media (min-width: 768px) {
-    width: 58.33333333%;
-  } -->
-`;
+// const Overlay = styled.div`
+//   align-items: center;
+//   background: rgba(0, 0, 0, 0.4);
+//   display: flex;
+//   height: 100%;
+//   justify-content: center;
+//   left: 0;
+//   position: absolute;
+//   top: left;
+//   width: 100%;
+//   z-index: 900;
+//   &:hover {
+//     span {
+//       font-size: 2.8rem;
+//       border-bottom: 1px solid #fff;
+//       transition: all 0.5s ease-in-out;
+//     }
+//   }
+// `;
 
 export default HomepageProjectsCols;

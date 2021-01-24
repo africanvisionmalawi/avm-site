@@ -1,13 +1,13 @@
-import React from "react";
-import { graphql, StaticQuery } from "gatsby";
-import homepageStyles from "./homepage.module.css";
-import postStyles from "./posts.module.css";
-import EventsRollCard from "./EventsRollCard";
-import styled from "styled-components";
 // import Img from "gatsby-image";
 // import EventDate from "./EventDate";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
+import { graphql, StaticQuery } from "gatsby";
+import { styled } from "linaria/react";
+import React from "react";
+import EventsRollCard from "./EventsRollCard";
+import homepageStyles from "./homepage.module.css";
+import postStyles from "./posts.module.css";
 dayjs.extend(advancedFormat);
 
 const EventsCardLayout = (props) => {

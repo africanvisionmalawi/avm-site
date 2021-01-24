@@ -1,8 +1,8 @@
-import React from "react";
 // import PropTypes from 'prop-types'
 // import { Link } from 'gatsby'
 // import buttonStyles from './button.module.css'
-import styled from "styled-components";
+import { styled } from "linaria/react";
+import React from "react";
 
 const CtaButton = ({ link, text, placement }) => (
   <Btn>

@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
+import { styled } from "linaria/react";
 import React from "react";
-import styled from "styled-components";
 // import BlogRoll from "../components/BlogRoll";
 import ArticleList from "../components/ArticleList";
 import Donate from "../components/Donate";

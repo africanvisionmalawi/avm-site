@@ -1,9 +1,9 @@
-import React from "react";
+import { graphql, Link } from "gatsby";
+import { styled } from "linaria/react";
 import { kebabCase } from "lodash";
+import React from "react";
 import Helmet from "react-helmet";
-import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
-import styled from "styled-components";
 
 const TextSection = styled.section`
   background: #fff;

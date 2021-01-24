@@ -1,8 +1,8 @@
-import { Box, Flex } from "@chakra-ui/core";
+import { Box, Flex } from "@chakra-ui/react";
 import { graphql } from "gatsby";
+import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
-import styled from "styled-components";
 import BuyButton from "../components/BuyButton";
 import { Carousel } from "../components/Carousel";
 import Content, { HTMLContent } from "../components/Content";
@@ -82,7 +82,12 @@ export const ShopProductTemplate = ({
           <Flex flexWrap="wrap">
             <Box width={["100%", "100%", "66.66666%"]}>
               {galleryPhotos && galleryPhotos.length > 1 && (
-                <Box maxW="600px" ml={[0, 0, "1rem"]}>
+                <Box
+                  maxW="600px"
+                  mr={("auto", "auto")}
+                  ml={["auto", "auto", "1rem", "auto"]}
+                  w="85%"
+                >
                   <Carousel allSizesImages={galleryPhotos} />
                 </Box>
               )}

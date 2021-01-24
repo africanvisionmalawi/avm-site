@@ -1,6 +1,6 @@
+import { styled } from "linaria/react";
 import React from "react";
 import CtaButton from "./CtaButton";
-import styled from "styled-components";
 
 const Container = styled.div`
   background: #58b5d7;
