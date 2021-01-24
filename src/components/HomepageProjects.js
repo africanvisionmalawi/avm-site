@@ -1,9 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
-import { SimpleGrid, Box } from "@chakra-ui/core";
-import { Link, useStaticQuery, graphql } from "gatsby";
-import projectLinkStyles from "./projects.module.css";
+import React from "react";
 import styled from "styled-components";
 
 const HomepageProjects = ({ currentProject, displayHeading }) => {

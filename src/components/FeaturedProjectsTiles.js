@@ -1,4 +1,4 @@
-import { Box, Flex } from "@chakra-ui/core";
+import { Box, Flex } from "@chakra-ui/react";
 // import BackgroundImage from "gatsby-background-image";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";

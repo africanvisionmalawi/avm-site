@@ -1,22 +1,19 @@
-import React, { useState } from "react";
-import { Link } from "gatsby";
 import {
   Box,
   Drawer,
-  DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
   DrawerCloseButton,
+  DrawerContent,
+  DrawerOverlay,
   Flex,
   useDisclosure,
-} from "@chakra-ui/core";
-import { navLinks } from "../constants/nav";
-import CtaButton from "../components/CtaButton";
-import CartLink from "../components/CartLink";
-import navbarStyles from "./navbar.module.css";
+} from "@chakra-ui/react";
+import { Link } from "gatsby";
+import React, { useState } from "react";
 import styled from "styled-components";
+import CartLink from "../components/CartLink";
+import CtaButton from "../components/CtaButton";
+import { navLinks } from "../constants/nav";
+import navbarStyles from "./navbar.module.css";
 // import Search from "./search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;

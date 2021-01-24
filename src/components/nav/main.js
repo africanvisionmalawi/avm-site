@@ -1,4 +1,4 @@
-import { Flex, useDisclosure } from "@chakra-ui/core";
+import { Flex, useDisclosure } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import React, { useState } from "react";
 import styled from "styled-components";

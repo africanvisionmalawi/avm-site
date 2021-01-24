@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/core";
+import { Box } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 import BackgroundImage from "gatsby-background-image";
 import PropTypes from "prop-types";

@@ -1,12 +1,13 @@
 import {
   Box,
   Drawer,
+  DrawerBody,
   DrawerCloseButton,
   DrawerContent,
   DrawerOverlay,
   Flex,
   useDisclosure,
-} from "@chakra-ui/core";
+} from "@chakra-ui/react";
 import { Link } from "gatsby";
 import React, { useState } from "react";
 import styled from "styled-components";
@@ -89,31 +90,33 @@ const SubNavBar = () => {
           <DrawerOverlay />
           <DrawerContent backgroundColor="#fff">
             <DrawerCloseButton />
-            <Menu>
-              {navLinks.map((link, i) => (
-                <>
-                  {link.length > 1 ? (
-                    <li>
-                      <label for={`m${i}`}>{link[0].name}</label>
-                      <input type="checkbox" id={`m${i}`} />
-                      <ul>
-                        {link[1].map((subMenu) => (
-                          <>
-                            <li>
-                              <Link to={subMenu.url}>{subMenu.name}</Link>
-                            </li>
-                          </>
-                        ))}
-                      </ul>
-                    </li>
-                  ) : (
-                    <li>
-                      <Link to={link[0].url}>{link[0].name}</Link>
-                    </li>
-                  )}
-                </>
-              ))}
-            </Menu>
+            <DrawerBody>
+              <Menu>
+                {navLinks.map((link, i) => (
+                  <>
+                    {link.length > 1 ? (
+                      <li>
+                        <label for={`m${i}`}>{link[0].name}</label>
+                        <input type="checkbox" id={`m${i}`} />
+                        <ul>
+                          {link[1].map((subMenu) => (
+                            <>
+                              <li>
+                                <Link to={subMenu.url}>{subMenu.name}</Link>
+                              </li>
+                            </>
+                          ))}
+                        </ul>
+                      </li>
+                    ) : (
+                      <li>
+                        <Link to={link[0].url}>{link[0].name}</Link>
+                      </li>
+                    )}
+                  </>
+                ))}
+              </Menu>
+            </DrawerBody>
           </DrawerContent>
         </Drawer>
       </Nav>
