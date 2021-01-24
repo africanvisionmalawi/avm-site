@@ -8,8 +8,8 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
+import { styled } from "linaria/react";
 import React, { useState } from "react";
-import styled from "styled-components";
 import CartLink from "../components/CartLink";
 import CtaButton from "../components/CtaButton";
 import { navLinks } from "../constants/nav";

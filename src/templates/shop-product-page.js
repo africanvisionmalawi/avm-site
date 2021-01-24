@@ -1,8 +1,8 @@
 import { Box, Flex } from "@chakra-ui/react";
 import { graphql } from "gatsby";
+import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
-import styled from "styled-components";
 import BuyButton from "../components/BuyButton";
 import { Carousel } from "../components/Carousel";
 import Content, { HTMLContent } from "../components/Content";

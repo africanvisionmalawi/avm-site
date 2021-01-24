@@ -1,7 +1,7 @@
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
 import React from "react";
-import styled from "styled-components";
 
 const HomepageProjects = ({ currentProject, displayHeading }) => {
   const featuredImage = useStaticQuery(

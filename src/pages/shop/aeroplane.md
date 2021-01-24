@@ -4,7 +4,7 @@ salePrice: 0
 inStock: 1
 shoptags:
   - craft
-  - donated gifts
+  - donated-gifts
 size: other
 weight: 350
 length: 350

@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 import BackgroundImage from "gatsby-background-image";
+// import pageBasicStyles from "../components/pageBasic.module.css";
+import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
-// import pageBasicStyles from "../components/pageBasic.module.css";
-import styled from "styled-components";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 // import FeaturedProjects from "../components/FeaturedProjects";

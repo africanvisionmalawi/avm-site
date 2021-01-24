@@ -1,16 +1,15 @@
-import React from "react";
-import CardDouble from "./card/CardDouble";
-import PropTypes from "prop-types";
-import { graphql, StaticQuery } from "gatsby";
-import postStyles from "./posts.module.css";
-import pageLinksStyles from "./pagelinks.module.css";
-// import getEvents from "../utils/helpers";
-
-import styled from "styled-components";
 // import Img from "gatsby-image";
 // import EventDate from "./EventDate";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
+import { graphql, StaticQuery } from "gatsby";
+// import getEvents from "../utils/helpers";
+import { styled } from "linaria/react";
+import PropTypes from "prop-types";
+import React from "react";
+import CardDouble from "./card/CardDouble";
+import pageLinksStyles from "./pagelinks.module.css";
+import postStyles from "./posts.module.css";
 dayjs.extend(advancedFormat);
 
 const NoEventsNotice = (props) => {

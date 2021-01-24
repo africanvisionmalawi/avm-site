@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { Link } from "gatsby";
 // import postStyles from "./posts.module.css";
-import styled from "styled-components";
+import { styled } from "linaria/react";
+import PropTypes from "prop-types";
+import React from "react";
 // import Img from "gatsby-image";
 
 const Article = styled.article`

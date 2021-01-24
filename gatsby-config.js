@@ -205,7 +205,7 @@ module.exports = {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {
         // devMode: true,
-        disable: true,
+        // disable: true,
       },
     },
     "gatsby-plugin-netlify", // make sure to keep it last in the array

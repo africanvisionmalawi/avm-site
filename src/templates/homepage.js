@@ -2,10 +2,10 @@ import { Box, Flex } from "@chakra-ui/react";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 import { graphql, Link } from "gatsby";
+import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
 import ReactPlayer from "react-player";
-import styled from "styled-components";
 import BlogRollCard from "../components/BlogRollCard";
 import Divider from "../components/Divider";
 import Donate from "../components/Donate";
@@ -166,7 +166,7 @@ const IndexPage = (props) => {
                 </div>
               </section>
               <PostsFooter>
-                <PostsFooterLink to="/news">View all news</PostsFooterLink>
+                <Link to="/news">View all news</Link>
               </PostsFooter>
             </>
           )}
@@ -181,7 +181,7 @@ const IndexPage = (props) => {
                 </CardCont>
               </NewsCont>
               <PostsFooter>
-                <PostsFooterLink to="/events">View all events</PostsFooterLink>
+                <Link to="/events">View all events</Link>
               </PostsFooter>
             </section>
           ) : null}
@@ -313,23 +313,22 @@ const PostsFooter = styled.div`
     width: 100%;
     z-index: 10;
   }
-`;
 
-const PostsFooterLink = styled(Link)`
-  background: #fff;
-  border: 2px solid #b75906;
-  border-radius: 12px;
-  // color: #3273dc;
-  display: inline-block;
-  font-size: 0.8em;
-  left: 50%;
-  margin-left: -80px;
-  padding: 4px 24px;
-  position: absolute;
-  text-align: center;
-  top: 10%;
-  width: 160px;
-  z-index: 20;
+  & a {
+    background: #fff;
+    border: 2px solid #b75906;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 0.8em;
+    left: 50%;
+    margin-left: -80px;
+    padding: 4px 24px;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 160px;
+    z-index: 20;
+  }
 `;
 
 export default IndexPage;

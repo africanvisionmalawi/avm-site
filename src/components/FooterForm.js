@@ -1,8 +1,8 @@
 // import PropTypes from "prop-types";
 // import { useStaticQuery, graphql } from "gatsby";
 import { navigate } from "gatsby-link";
+import { styled } from "linaria/react";
 import React from "react";
-import styled from "styled-components";
 
 function encode(data) {
   return Object.keys(data)

@@ -1,13 +1,13 @@
+// import HeroImage from "../../components/HeroImage";
+import { styled } from "linaria/react";
 import React from "react";
-import useSiteMetadata from "../../hooks/use-site-metadata";
-import Seo from "../../components/seo";
-import Layout from "../../components/Layout";
-import EventsRoll from "../../components/EventsRoll";
 // import { getCurrentDate } from "../../utils/helpers";
 // import FeaturedProjectsTiles from "../../components/FeaturedProjectsTiles";
 import Donate from "../../components/Donate";
-// import HeroImage from "../../components/HeroImage";
-import styled from "styled-components";
+import EventsRoll from "../../components/EventsRoll";
+import Layout from "../../components/Layout";
+import Seo from "../../components/seo";
+import useSiteMetadata from "../../hooks/use-site-metadata";
 
 const Section = styled.section`
   background: #fff;

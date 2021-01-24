@@ -1,7 +1,7 @@
 import { graphql } from "gatsby";
-import React from "react";
 // import Donate from "../components/Donate";
-import styled from "styled-components";
+import { styled } from "linaria/react";
+import React from "react";
 import Content, { HTMLContent } from "../components/Content";
 import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import Layout from "../components/Layout";

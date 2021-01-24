@@ -1,7 +1,7 @@
 import { graphql } from "gatsby";
 // import { Link } from 'gatsby'
 // import pageBasicStyles from "../components/pageBasic.module.css";
-// import styled from "styled-components";
+// import { styled } from "linaria/react";
 import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";

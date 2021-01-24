@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { Link } from "gatsby";
-import postStyles from "./posts.module.css";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
+import PropTypes from "prop-types";
+import React from "react";
 import DefaultImage from "./defaultImage";
-import styled from "styled-components";
+import postStyles from "./posts.module.css";
 
 const ColLink = styled.span`
   // color: #3273dc;

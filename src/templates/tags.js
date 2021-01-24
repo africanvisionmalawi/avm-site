@@ -1,8 +1,8 @@
 import { graphql, Link } from "gatsby";
+// import postStyles from "../components/posts.module.css";
+import { styled } from "linaria/react";
 import React from "react";
 import Helmet from "react-helmet";
-// import postStyles from "../components/posts.module.css";
-import styled from "styled-components";
 import Layout from "../components/Layout";
 
 // const Section = styled.section`

@@ -87,6 +87,7 @@ export const TagsNav = (props) => {
     <TagsNavCont>
       <Inner>
         {tags.map((tag) => {
+          // console.log("active ", props.active);
           return (
             <Tag className={props.active === tag.slug ? "active" : null}>
               <Link to={`/shop/category/${tag.slug}`}>{tag.title}</Link>

@@ -1,6 +1,6 @@
 import { graphql } from "gatsby";
+import { styled } from "linaria/react";
 import React from "react";
-import styled from "styled-components";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";

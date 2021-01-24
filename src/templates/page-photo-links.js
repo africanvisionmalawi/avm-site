@@ -1,7 +1,7 @@
 // import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { styled } from "linaria/react";
 import React from "react";
-import styled from "styled-components";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";

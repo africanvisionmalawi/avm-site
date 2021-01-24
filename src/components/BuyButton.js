@@ -1,7 +1,7 @@
-import React from "react";
 // import PropTypes from "prop-types";
 // import { useStaticQuery, graphql } from "gatsby";
-import styled from "styled-components";
+import { styled } from "linaria/react";
+import React from "react";
 
 const Button = styled.div`
   background: #ff9a00;

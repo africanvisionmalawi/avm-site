@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { v4 } from "uuid";
 import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import { v4 } from "uuid";
 import pageLinksStyles from "./pagelinks.module.css";
-// import styled from "styled-components";
+// import { styled } from "linaria/react";
 
 // const Heading = styled.h2`
 //   text-align: center;
