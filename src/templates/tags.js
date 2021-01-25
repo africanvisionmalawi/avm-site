@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
 import Helmet from "react-helmet";
+import { PostListItem } from "../components/common/PostListItem";
 import Layout from "../components/Layout";
 
 // const Section = styled.section`
@@ -29,11 +30,11 @@ const List = styled.ul`
   padding: 0;
 `;
 
-const ListItem = styled.li`
-  border-bottom: 1px solid #494949;
-  margin: 0;
-  padding: 2.4em 0;
-`;
+// const ListItem = styled.li`
+//   border-bottom: 1px solid #494949;
+//   margin: 0;
+//   padding: 2.4em 0;
+// `;
 
 const BrowseAll = styled.div`
   margin: 2.4em 0;
@@ -42,15 +43,13 @@ const BrowseAll = styled.div`
 
 const TagRoute = (props) => {
   const posts = props.data.allMarkdownRemark.edges;
-  const postLinks = posts.map((post) => (
-    <ListItem key={post.node.fields.slug}>
-      <h3>
-        <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link>
-      </h3>
-      <p>
-        {post.node.excerpt} <Link to={post.node.fields.slug}>Read more</Link>
-      </p>
-    </ListItem>
+  const postLinks = posts.map((post, index) => (
+    <PostListItem
+      id={index}
+      slug={post.node.fields.slug}
+      title={post.node.frontmatter.title}
+      excerpt={post.node.excerpt}
+    />
   ));
   const tag = props.pageContext.tag;
   const tagMetaTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
