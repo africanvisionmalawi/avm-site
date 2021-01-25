@@ -6,7 +6,7 @@ import ArticleList from "../components/ArticleList";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Layout from "../components/Layout";
-import paginationStyles from "../components/pagination.module.css";
+// import paginationStyles from "../components/pagination.module.css";
 import postStyles from "../components/posts.module.css";
 import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
@@ -29,20 +29,46 @@ const TextSection = styled.section`
   width: 100%;
 `;
 
+const Pagination = styled.div`
+  align-items: center;  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
+  & a {          
+      border-radius: 3px;
+      display: inline-block;
+      margin: 4px;
+      padding: 4px;
+    }
+  }
+  & a:link, & a:visited {
+    background: #fff;
+      border: 1px solid #f99d1c;
+      color: #f99d1c;
+  }
+  & a:hover {
+    background: #f99d1c;
+      border: 1px solid #f99d1c;
+      color: #fff;
+  }
+  & span {
+    background: #fff;
+    border:#cacaca;
+    color: #999;
+    cursor: default;
+  }
+`;
+
+const PaginationText = styled.div`
+  text-align: center;
+`;
+
 const PaginationLink = (props) => {
-  if (!props.test) {
-    return (
-      <Link
-        className={paginationStyles.activeLink}
-        to={`/news/${props.url}`}
-      >{`${props.text}`}</Link>
-    );
+  if (!props.active) {
+    return <Link to={`/news/${props.url}`}>{`${props.text}`}</Link>;
   } else {
-    return (
-      <span className={paginationStyles.currentLink} disabled>
-        {props.text}
-      </span>
-    );
+    return <span disabled>{props.text}</span>;
   }
 };
 
@@ -58,7 +84,6 @@ const NewsIndex = ({ location, pageContext }) => {
   const title = "Latest news - African Vision Malawi";
   const description = "Latest news from African Vision Malawi.";
   const pathname = siteUrl + "/news/";
-
   return (
     <Layout>
       <Seo
@@ -77,30 +102,48 @@ const NewsIndex = ({ location, pageContext }) => {
                     Latest news
                   </h1>
                   <ArticleList posts={group} />
-                  <div>
-                    {!first && (
+                  <Pagination>
+                    {first ? (
+                      <PaginationLink
+                        active={true}
+                        test={first}
+                        url={previousUrl}
+                        text="← Prev"
+                      />
+                    ) : (
                       <PaginationLink
                         test={first}
                         url={previousUrl}
                         text="← Prev"
                       />
                     )}
-                    {pageNumbers.map((number) => {
+                    <PaginationText>
+                      page {index} of {pageCount}
+                    </PaginationText>
+                    {/* {pageNumbers.map((number) => {
                       const isActive =
                         location.pathname.indexOf(number) > -1 ||
                         (location.pathname === "/blog/" && number === 1);
-                      return (
+
+                      return number <= 5 || number > pageCount - 5 ? (
                         <PaginationLink
                           test={isActive}
-                          url={`/${number === 1 ? "" : number}/`}
+                          url={`${number === 1 ? "" : number}/`}
                           text={number}
                         />
-                      );
-                    })}
-                    {!last && (
+                      ) : null;
+                    })} */}
+                    {last ? (
+                      <PaginationLink
+                        active={true}
+                        test={last}
+                        url={nextUrl}
+                        text="Next →"
+                      />
+                    ) : (
                       <PaginationLink test={last} url={nextUrl} text="Next →" />
                     )}
-                  </div>
+                  </Pagination>
                 </TextSection>
               </main>
               <Donate
