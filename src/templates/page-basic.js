@@ -66,7 +66,8 @@ export const PageBasicTemplate = ({
             <Box
               margin="0 auto"
               maxW="885px"
-              p="1rem 0 0"
+              pt={["3rem", "3rem", "1rem"]}
+              px={4}
               position="relative"
               w={[
                 "100%",

@@ -18,3 +18,4 @@ fields:
   hidden: true
 pages:
 - src/pages/get-involved/donate/index.md
+- src/pages/get-involved/shop-online-for-us/index.md
