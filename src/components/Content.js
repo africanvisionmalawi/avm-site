@@ -1,10 +1,12 @@
-import { Box } from "@chakra-ui/react";
-import PropTypes from "prop-types";
+import { styled } from "linaria/react";
 import React from "react";
 
+const Container = styled.div`
+  // padding: 0 1rem;
+`;
+
 export const HTMLContent = ({ content, className }) => (
-  <Box
-    px={["16px", "16px", "16px"]}
+  <Container
     className={className}
     dangerouslySetInnerHTML={{
       __html: content
@@ -17,11 +19,6 @@ export const HTMLContent = ({ content, className }) => (
 const Content = ({ content, className }) => (
   <div className={className}>{content}</div>
 );
-
-Content.propTypes = {
-  content: PropTypes.node,
-  className: PropTypes.string,
-};
 
 HTMLContent.propTypes = Content.propTypes;
 

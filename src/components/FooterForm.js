@@ -38,7 +38,7 @@ export const MailingForm = () => {
         <h3>Join our Mailing List</h3>
         <form
           action="/mailing-list-sucess/"
-          name="contact"
+          name="mailing-list"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"

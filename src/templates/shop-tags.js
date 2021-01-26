@@ -2,6 +2,7 @@ import { graphql } from "gatsby";
 // import postStyles from "../components/posts.module.css";
 import { styled } from "linaria/react";
 import React from "react";
+import { NavTags } from "../components/common/nav-tags";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
@@ -10,7 +11,7 @@ import NavbarLower from "../components/NavbarLower";
 import Seo from "../components/seo";
 import shopStyles from "../components/shop.module.css";
 import { ShopListItem } from "../components/shop/shop-list-item";
-import { TagsNav } from "../components/shop/tags-nav";
+import { tags, tagsBase } from "../constants/shop";
 import useSiteMetadata from "../hooks/use-site-metadata";
 // const Section = styled.section`
 //   margin: 0 auto;
@@ -93,7 +94,7 @@ const ShopTagRoute = (props) => {
       <ShopSection>
         <article>
           <HeadingH1 text={tagMetaTitle} />
-          <TagsNav active={tag} />
+          <NavTags tags={tags} tagsBase={tagsBase} active={tag} />
           <ul className={shopStyles.shopIndexList}>{postLinks}</ul>
         </article>
       </ShopSection>

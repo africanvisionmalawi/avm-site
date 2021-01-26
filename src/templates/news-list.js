@@ -3,12 +3,14 @@ import { styled } from "linaria/react";
 import React from "react";
 // import BlogRoll from "../components/BlogRoll";
 import ArticleList from "../components/ArticleList";
+import { NavTags } from "../components/common/nav-tags";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Layout from "../components/Layout";
 // import paginationStyles from "../components/pagination.module.css";
 import postStyles from "../components/posts.module.css";
 import Seo from "../components/seo";
+import { tags, tagsBase } from "../constants/news";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
 // const Section = styled.section`
@@ -16,6 +18,10 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 //   max-width: 1050px;
 //   width: 100%;
 // `;
+
+const Heading = styled.h1`
+  text-align: center;
+`;
 
 const TextSection = styled.section`
   background: #fff;
@@ -98,9 +104,8 @@ const NewsIndex = ({ location, pageContext }) => {
             <div className="columns">
               <main className={`column is-8 ${postStyles.postWide}`}>
                 <TextSection>
-                  <h1 className="has-text-weight-semibold is-size-2">
-                    Latest news
-                  </h1>
+                  <Heading>Latest news</Heading>
+                  <NavTags tags={tags} tagsBase={tagsBase} />
                   <ArticleList posts={group} />
                   <Pagination>
                     {first ? (

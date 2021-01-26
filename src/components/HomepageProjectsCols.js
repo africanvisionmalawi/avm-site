@@ -67,50 +67,50 @@ const HomepageProjectsCols = (props) => {
   );
 };
 
-const projects = [
-  {
-    id: "village",
-    name: "Sam's Village",
-    src: "/sams-village/",
-    imageId: "PhotoVillage",
-    colWidth: {
-      xs: 24,
-      sm: 10,
-    },
-    hasMobileImage: false,
-    layout: "default",
-    excerpt:
-      "Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas.",
-  },
-  {
-    id: "health",
-    name: "Health",
-    src: "/health/",
-    imageId: "PhotoHealth",
-    colWidth: {
-      xs: 24,
-      sm: 10,
-    },
-    hasMobileImage: false,
-    layout: "alt",
-    excerpt:
-      "One of our big forthcoming projects is to build a Waiting Home for new mothers at the Maternity Unit. This second stage will provide essential care for pre-term births - which are higher in Malawi than anywhere else in the world. The project will include nutritional permaculture gardens in front of the new wing, and education on good nutrition for new mothers.",
-  },
-  {
-    id: "education",
-    name: "Education",
-    src: "/education/",
-    imageId: "PhotoEducation",
-    colWidth: {
-      xs: 24,
-      sm: 10,
-    },
-    hasMobileImage: false,
-    layout: "default",
-    excerpt:
-      "We have setup 9 Community Based Childcare Centres to date to support the under 5's and support pupils in Primary, Secondary and University/Further Edication.",
-  },
-];
+// const projects = [
+//   {
+//     id: "village",
+//     name: "Sam's Village",
+//     src: "/sams-village/",
+//     imageId: "PhotoVillage",
+//     colWidth: {
+//       xs: 24,
+//       sm: 10,
+//     },
+//     hasMobileImage: false,
+//     layout: "default",
+//     excerpt:
+//       "Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas.",
+//   },
+//   {
+//     id: "health",
+//     name: "Health",
+//     src: "/health/",
+//     imageId: "PhotoHealth",
+//     colWidth: {
+//       xs: 24,
+//       sm: 10,
+//     },
+//     hasMobileImage: false,
+//     layout: "alt",
+//     excerpt:
+//       "One of our big forthcoming projects is to build a Waiting Home for new mothers at the Maternity Unit. This second stage will provide essential care for pre-term births - which are higher in Malawi than anywhere else in the world. The project will include nutritional permaculture gardens in front of the new wing, and education on good nutrition for new mothers.",
+//   },
+//   {
+//     id: "education",
+//     name: "Education",
+//     src: "/education/",
+//     imageId: "PhotoEducation",
+//     colWidth: {
+//       xs: 24,
+//       sm: 10,
+//     },
+//     hasMobileImage: false,
+//     layout: "default",
+//     excerpt:
+//       "We have setup 9 Community Based Childcare Centres to date to support the under 5's and support pupils in Primary, Secondary and University/Further Edication.",
+//   },
+// ];
 
 // const Container = styled.section`
 //   margin: 0 auto 3rem;

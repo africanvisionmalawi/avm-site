@@ -1,8 +1,10 @@
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
+import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
+import Donate from "../components/Donate";
 import Layout from "../components/Layout";
 import Seo from "../components/seo";
 import { TagsList } from "../components/shop/tagsList";
@@ -10,14 +12,25 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 
 const TextSection = styled.section`
   background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  min-height: 24rem;
   margin: 0 auto;
   max-width: 885px;
-  padding: 3em 2em 2em;
+  padding: 1rem 1rem 2rem;
   position: relative;
   width: 100%;
+  @media (min-width: 580px) {
+    padding-top: 2rem;
+  }
+`;
+
+const HeroCont = styled.div`
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+`;
+
+const ViewAll = styled.div`
+  margin: 2.4em 0;
+  text-align: center;
 `;
 
 export const BlogPostTemplate = ({
@@ -26,6 +39,7 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
+  featuredImage,
 }) => {
   const PostContent = contentComponent || Content;
   // var pdfUrl = "";
@@ -36,13 +50,21 @@ export const BlogPostTemplate = ({
   // }
 
   return (
-    <section className="section">
-      <div className="container">
+    <section>
+      <div>
         <article>
+          {featuredImage && featuredImage !== "" ? (
+            <HeroCont>
+              <HeroImage
+                heroImage={featuredImage}
+                // displayHeroMsg={true}
+                // heroHeading={title}
+                // heroHeadingType="h1"
+              />
+            </HeroCont>
+          ) : null}
           <TextSection>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
+            <h1>{title}</h1>
             <PostContent content={content} />
             {/* {pdf_upload && pdf_upload !== "" ? (
               <div className={postStyles.fileDownload}>
@@ -59,19 +81,18 @@ export const BlogPostTemplate = ({
               </div>
             ) : null} */}
             {tags && tags.length ? <TagsList tags={tags} /> : null}
+            <ViewAll>
+              <Link to="/news/">View all news</Link>
+            </ViewAll>
           </TextSection>
+          <Donate
+            link="https://www.charitycheckout.co.uk/1113786/"
+            text="Donate"
+          />
         </article>
       </div>
     </section>
   );
-};
-
-BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  // pdf_upload: PropTypes.string,
 };
 
 const BlogPost = ({ data }) => {
@@ -91,6 +112,7 @@ const BlogPost = ({ data }) => {
         description={post.frontmatter.description}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        featuredImage={post.frontmatter.featuredImage}
         // pdf_upload={post.frontmatter.pdf_upload}
       />
     </Layout>
@@ -118,6 +140,13 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 1100, maxHeight: 440, quality: 50) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
       }
     }
   }

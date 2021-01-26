@@ -220,7 +220,7 @@ export const pageBasicQuery = graphql`
         galleryPhotos {
           childImageSharp {
             fluid(maxWidth: 450, quality: 50) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
         }
