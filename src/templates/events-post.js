@@ -1,15 +1,15 @@
 import { graphql, Link } from "gatsby";
 import { styled } from "linaria/react";
-import { kebabCase } from "lodash";
 import PropTypes from "prop-types";
 import React from "react";
 import Helmet from "react-helmet";
+import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import EventDate from "../components/EventDate";
-import HeroImage from "../components/HeroImage";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import Seo from "../components/seo";
+import { TagsList } from "../components/shop/tagsList";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
 // const Section = styled.section`
@@ -46,6 +46,11 @@ const EventDetails = styled.div`
   border-radius: 8px;
   margin-bottom: 1rem;
   padding: 16px 16px 4px;
+`;
+
+const BrowseAll = styled.div`
+  margin: 2.4em 0;
+  text-align: center;
 `;
 
 export const EventsPostTemplate = ({
@@ -104,19 +109,10 @@ export const EventsPostTemplate = ({
               </EventDetails>
               <p>{description}</p>
               <PostContent content={content} />
-              {tags && tags.length ? (
-                <div style={{ marginTop: `4rem` }}>
-                  <h4>Tags</h4>
-                  <ul className="taglist">
-                    {tags.map((tag) => (
-                      <li key={tag + `tag`}>
-                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-              <Link to="/events/">View all events</Link>
+              {tags && tags.length ? <TagsList tags={tags} /> : null}
+              <BrowseAll>
+                <Link to="/events/">View all events</Link>
+              </BrowseAll>
             </TextSection>
           </Main>
         </article>
