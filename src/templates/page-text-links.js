@@ -1,7 +1,7 @@
 import { graphql } from "gatsby";
-import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
+import { SectionText } from "../components/common/SectionText";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 // import FeaturedProjects from "../components/FeaturedProjects";
@@ -11,18 +11,6 @@ import NavbarLower from "../components/NavbarLower";
 import PageLinks from "../components/PageLinks";
 import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
-
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  min-height: 24rem;
-  margin: 0 auto;
-  max-width: 885px;
-  padding: 3em 2em 2em;
-  position: relative;
-  width: 100%;
-`;
 
 export const PageTextLinksTemplate = ({
   title,
@@ -39,11 +27,11 @@ export const PageTextLinksTemplate = ({
       <NavbarLower path={path} />
       <div className="container">
         <article className="content">
-          <TextSection>
-            <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+          <SectionText>
+            <h1>{title}</h1>
             <PageContent className="content" content={content} />
             <PageLinks pagelinks={links} />
-          </TextSection>
+          </SectionText>
         </article>
 
         <Donate

@@ -106,8 +106,9 @@ const FormGroup = styled.div`
   flex-wrap: wrap;
   margin: 8px auto 2em;
   width: 90%;
-  @media (min-width: 540px) {
+  @media (min-width: 600px) {
     flex-direction: row;
+    flex-wrap: nowrap;
     width: auto;
   }
 `;
@@ -117,8 +118,21 @@ const FormExtra = styled.div`
 `;
 
 const TextInput = styled.input`
-  font-size: 1em;
+  border: none;
+  display: inline-block;
+  font-size: 1rem;
   padding: 0 8px;
+  width: 100%;
+  &#name {
+    margin-bottom: 6px;
+  }
+  @media (min-width: 600px) {
+    width: auto;
+    &#name {
+      border-right: 4px solid #f7f7f7;
+      margin-bottom: 0;
+    }
+  }
 `;
 
 const Button = styled.button`
@@ -137,7 +151,7 @@ const Button = styled.button`
     background: #58b5d7;
     color: #fff;
   }
-  @media (min-width: 540px) {
+  @media (min-width: 600px) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-top: 0;

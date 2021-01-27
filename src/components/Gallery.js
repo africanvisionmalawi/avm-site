@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import { v4 } from "uuid";
 import { DialogContent, DialogOverlay } from "@reach/dialog";
 import "@reach/dialog/styles.css";
-import galleryStyles from "./gallery.module.css";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Img from "gatsby-image";
+import PropTypes from "prop-types";
+import React, { useState } from "react";
 import styled, { css } from "styled-components";
+import { v4 } from "uuid";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import galleryStyles from "./gallery.module.css";
 
 const Heading = styled.h2`
   text-align: center;
@@ -60,7 +60,7 @@ const Gallery = (props) => {
         <Heading>Photo updates</Heading>
         <div className={galleryStyles.gallery}>
           {gallery.map((gall, i) => (
-            <span
+            <div
               className={galleryStyles.gridCell}
               onClick={() => (
                 setShowLightboxState(true), setSelectedImageState(i)
@@ -73,7 +73,7 @@ const Gallery = (props) => {
               <figure className="image">
                 <PreviewCompatibleImage imageInfo={gall.photo} />
               </figure>
-            </span>
+            </div>
           ))}
           {showLightboxState && (
             <DialogOverlay style={dialogStyles}>

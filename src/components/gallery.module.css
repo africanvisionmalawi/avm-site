@@ -34,7 +34,7 @@
 .grid-cell {
   cursor: pointer;
   display: inline-block;
-  max-height: 121px;
+  max-height: 180px;
   overflow: hidden;
 }
 /* .gridCell {

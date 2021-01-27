@@ -2,6 +2,7 @@ import { graphql } from "gatsby";
 import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
+import { SectionText } from "../components/common/SectionText";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
@@ -32,20 +33,20 @@ export const TeamTemplate = ({
       <article>
         <main>
           <PictureSection>
-            <HeadingH1 text="Meet the team" />
-            <TeamList heading="Team in Malawi" teamData={malawiTeam} />
-            <TextSection>
+            <SectionText>
+              <HeadingH1 text="Meet the team" />
+              <TeamList heading="Team in Malawi" teamData={malawiTeam} />
               <div className={teamStyles.contentBox}>
-                <h2>{malawiTitle}</h2>
+                <SubHeading>{malawiTitle}</SubHeading>
                 <p>{malawiText}</p>
                 <PageContent className="content" content={content} />
               </div>
               <div className={teamStyles.contentBox}>
-                <h2>{ukTitle}</h2>
+                <SubHeading>{ukTitle}</SubHeading>
                 <p>{ukText}</p>
               </div>
-            </TextSection>
-            <TeamList heading="Team in the UK" teamData={ukTeam} />
+              <TeamList heading="Team in the UK" teamData={ukTeam} />
+            </SectionText>
           </PictureSection>
         </main>
         <Donate
@@ -109,17 +110,12 @@ TeamPage.propTypes = {
 const PictureSection = styled.div`
   margin: 0 auto;
   max-width: 1080px;
-  padding: 3em 2em 2em;
   position: relative;
   width: 100%;
 `;
 
-const TextSection = styled.div`
-  margin: 0 auto;
-  max-width: 885px;
-  padding: 3em 2em 2em;
-  position: relative;
-  width: 100%;
+const SubHeading = styled.h2`
+  text-align: center;
 `;
 
 export default TeamPage;

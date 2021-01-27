@@ -72,8 +72,11 @@ const HeroCont = styled.div`
 
 const HeroHeadingH1 = styled.h1`
   font-size: 2em;
-  margin: 0.5em auto 0.5em;
+  margin: 3rem auto 0.5rem;
   text-align: center;
+  @media (min-width: 580px) {
+    margin-top: 2rem;
+  }
   @media (min-width: 1024px) {
     color: #fff;
     font-size: 2.3em;

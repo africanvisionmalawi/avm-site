@@ -4,7 +4,7 @@ import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 const TeamList = (props) => (
   <>
-    <h2>{props.heading}</h2>
+    <Heading>{props.heading}</Heading>
     <List>
       {props.teamData.map((team) => (
         <li key={team.name}>
@@ -29,8 +29,10 @@ const List = styled.ul`
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 1rem;
-  justify-content: flex-start;
+  justify-items: center;
   margin-bottom: 2rem !important;
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px;
   &,
   & li {
@@ -38,6 +40,15 @@ const List = styled.ul`
     margin: 0 !important;
     padding: 0;
   }
+  & li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
+
+const Heading = styled.h2`
+  text-align: center;
 `;
 
 const SubHeading = styled.h4`
