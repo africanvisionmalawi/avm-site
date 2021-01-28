@@ -40,7 +40,7 @@ const TextSection = styled.section`
   }
 `;
 
-export const PagePhotoLinksFeaturedTemplate = (props) => {
+const PagePhotoLinksFeaturedTemplate = (props) => {
   const {
     title,
     content,

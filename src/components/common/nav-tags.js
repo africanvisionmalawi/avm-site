@@ -1,5 +1,3 @@
-import { ChevronDownIcon } from "@chakra-ui/icons";
-import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
@@ -13,7 +11,7 @@ const TagsNavCont = styled.div`
 
 const Tag = styled.span`
   display: block;
-  margin: 8px;
+  margin: 4px;
   & a {
     border: 1px solid #f99d1c;
     border-radius: 4px;
@@ -27,21 +25,26 @@ const Tag = styled.span`
     background: #f99d1c;
     color: #fff;
   }
+  @media (min-width: 579px) {
+    margin: 8px;
+  }
 `;
 
 const Inner = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  @media (max-width: 579px) {
-    display: none;
+  overflow-x: auto;
+  white-space: nowrap;
+  @media (min-width: 579px) {
+    flex-wrap: wrap;
+    overflow-x: visible;
   }
 `;
 
-const MobileMenu = styled.div`
-  @media (min-width: 580px) {
-    display: none;
-  }
-`;
+// const MobileMenu = styled.div`
+//   @media (min-width: 580px) {
+//     display: none;
+//   }
+// `;
 
 export const NavTags = (props) => {
   return (
@@ -56,22 +59,6 @@ export const NavTags = (props) => {
           );
         })}
       </Inner>
-      <MobileMenu>
-        <Menu>
-          <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
-            Select Category:
-          </MenuButton>
-          <MenuList>
-            {props.tags.map((tag) => {
-              return (
-                <MenuItem>
-                  <Link to={`/shop/category/${tag.slug}`}>{tag.title}</Link>
-                </MenuItem>
-              );
-            })}
-          </MenuList>
-        </Menu>
-      </MobileMenu>
     </TagsNavCont>
   );
 };

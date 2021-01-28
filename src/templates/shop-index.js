@@ -22,7 +22,7 @@ const Section = styled.section`
 const ShopSection = styled.section`
   margin: 0 auto;
   max-width: 1180px;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
   width: 100%;
 `;
 

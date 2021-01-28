@@ -6,7 +6,7 @@ import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import Gallery from "../components/Gallery";
+import Gallery from "../components/gallery/Gallery";
 import HeroMsg from "../components/HeroMsg";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
@@ -39,7 +39,7 @@ const TextSection = styled.section`
   }
 `;
 
-export const FeaturedProjectsSimpleGalTemplate = ({
+const FeaturedProjectsSimpleGalTemplate = ({
   heroImage,
   heroMsg,
   heroMsgSource,

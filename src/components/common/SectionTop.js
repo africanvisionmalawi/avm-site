@@ -4,11 +4,11 @@ import React from "react";
 const TextSection = styled.div`
   margin: 0 auto;
   max-width: 885px;
-  padding: 3em 1em;
+  padding: 4rem 1rem;
   position: relative;
   width: 100%;
 `;
 
-export const SectionText = ({ children }) => {
+export const SectionTop = ({ children }) => {
   return <TextSection>{children}</TextSection>;
 };

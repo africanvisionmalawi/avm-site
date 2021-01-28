@@ -40,7 +40,7 @@ const BackgroundContainer = styled.div`
   // }
 `;
 
-export const PageBasicTemplate = ({
+const PageBasicTemplate = ({
   title,
   content,
   contentComponent,

@@ -13,7 +13,7 @@ import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
-// import Gallery from "../components/Gallery";
+// import Gallery from "../components/gallery/Gallery";
 // import Lightbox from "../components/lightbox"
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import Seo from "../components/seo";
@@ -43,7 +43,7 @@ const TextSection = styled.section`
   }
 `;
 
-export const FeaturedProjectsSimpleTemplate = ({
+const FeaturedProjectsSimpleTemplate = ({
   heroImage,
   heroMsg,
   heroMsgSource,

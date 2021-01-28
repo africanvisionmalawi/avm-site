@@ -5,6 +5,8 @@ import PropTypes from "prop-types";
 import React from "react";
 import BuyButton from "../components/BuyButton";
 import { Carousel } from "../components/Carousel";
+import { SectionInner } from "../components/common/SectionInner";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 // import FeaturedProjects from "../components/FeaturedProjects";
@@ -29,13 +31,12 @@ const Section = styled.section`
 const ShopSection = styled.section`
   margin: 0 auto;
   max-width: 1180px;
-  padding: 2em 0;
   width: 100%;
 `;
 
-const Inner = styled.div`
-  padding: 0 1rem;
-`;
+// const Inner = styled.div`
+//   padding: 0 1rem;
+// `;
 
 const displayButtonCheck = (stock, publish) => {
   if (stock > 0 || publish !== false) {
@@ -43,7 +44,7 @@ const displayButtonCheck = (stock, publish) => {
   }
 };
 
-export const ShopProductTemplate = ({
+const ShopProductTemplate = ({
   slug,
   id,
   productId,
@@ -76,9 +77,9 @@ export const ShopProductTemplate = ({
       <NavbarLower path={path} />
       <ShopSection>
         <article className={shopStyles.product}>
-          <Inner>
+          <SectionTop>
             <HeadingH1 text={title} />
-          </Inner>
+          </SectionTop>
           <Flex flexWrap="wrap">
             <Box width={["100%", "100%", "66.66666%"]}>
               {galleryPhotos && galleryPhotos.length > 1 && (
@@ -99,7 +100,7 @@ export const ShopProductTemplate = ({
             </Box>
             <Box width={["100%", "100%", "33.333333%"]}>
               <div className={shopStyles.productAside}>
-                <Inner>
+                <SectionInner>
                   <span className={shopStyles.price}>
                     &pound;{priceFormatted(price)}
                   </span>
@@ -127,10 +128,10 @@ export const ShopProductTemplate = ({
                   )}
 
                   {tags && tags.length ? <TagsList tags={tags} /> : null}
-                </Inner>
-                <div className={shopStyles.productDetails}>
+                </SectionInner>
+                <SectionInner>
                   <PageContent className="content" content={content} />
-                </div>
+                </SectionInner>
 
                 {/* {relatedProducts[0]} */}
               </div>
