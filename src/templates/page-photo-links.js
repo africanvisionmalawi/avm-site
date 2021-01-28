@@ -37,7 +37,7 @@ const TextSection = styled.section`
   }
 `;
 
-export const PagePhotoLinksTemplate = ({
+const PagePhotoLinksTemplate = ({
   title,
   content,
   links,

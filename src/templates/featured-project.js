@@ -9,7 +9,7 @@ import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import Gallery from "../components/Gallery";
+import Gallery from "../components/gallery/Gallery";
 import Layout from "../components/Layout";
 // import FeaturedProjects from "../components/FeaturedProjects";
 import NavbarLower from "../components/NavbarLower";
@@ -19,7 +19,7 @@ import Seo from "../components/seo";
 import Videos from "../components/Videos";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
-export const FeaturedProjectsTemplate = ({
+const FeaturedProjectsTemplate = ({
   heroImage,
   heroMsg,
   title,

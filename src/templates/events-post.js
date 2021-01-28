@@ -53,7 +53,7 @@ const BrowseAll = styled.div`
   text-align: center;
 `;
 
-export const EventsPostTemplate = ({
+const EventsPostTemplate = ({
   content,
   contentComponent,
   description,

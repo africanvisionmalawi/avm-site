@@ -2,7 +2,7 @@ import { graphql } from "gatsby";
 import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
-import { SectionText } from "../components/common/SectionText";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
@@ -14,7 +14,7 @@ import teamStyles from "../components/team.module.css";
 import TeamList from "../components/team/TeamList";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
-export const TeamTemplate = ({
+const TeamTemplate = ({
   content,
   malawiTeam,
   ukTeam,
@@ -33,7 +33,7 @@ export const TeamTemplate = ({
       <article>
         <main>
           <PictureSection>
-            <SectionText>
+            <SectionTop>
               <HeadingH1 text="Meet the team" />
               <TeamList heading="Team in Malawi" teamData={malawiTeam} />
               <div className={teamStyles.contentBox}>
@@ -46,7 +46,7 @@ export const TeamTemplate = ({
                 <p>{ukText}</p>
               </div>
               <TeamList heading="Team in the UK" teamData={ukTeam} />
-            </SectionText>
+            </SectionTop>
           </PictureSection>
         </main>
         <Donate

@@ -43,7 +43,7 @@ const TextSection = styled.section`
   }
 `;
 
-export const FeaturedProjectsSimpleVidTemplate = ({
+const FeaturedProjectsSimpleVidTemplate = ({
   heroImage,
   heroMsg,
   heroMsgSource,

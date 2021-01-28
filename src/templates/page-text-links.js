@@ -1,7 +1,7 @@
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import { SectionText } from "../components/common/SectionText";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 // import FeaturedProjects from "../components/FeaturedProjects";
@@ -12,7 +12,7 @@ import PageLinks from "../components/PageLinks";
 import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
-export const PageTextLinksTemplate = ({
+const PageTextLinksTemplate = ({
   title,
   content,
   contentComponent,
@@ -27,11 +27,11 @@ export const PageTextLinksTemplate = ({
       <NavbarLower path={path} />
       <div className="container">
         <article className="content">
-          <SectionText>
+          <SectionTop>
             <h1>{title}</h1>
             <PageContent className="content" content={content} />
             <PageLinks pagelinks={links} />
-          </SectionText>
+          </SectionTop>
         </article>
 
         <Donate

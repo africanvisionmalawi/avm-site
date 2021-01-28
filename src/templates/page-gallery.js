@@ -5,7 +5,7 @@ import React from "react";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
-import Gallery from "../components/Gallery";
+import Gallery from "../components/gallery/Gallery";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import pageBasicStyles from "../components/pageBasic.module.css";
@@ -30,7 +30,7 @@ const TextSection = styled.section`
   width: 100%;
 `;
 
-export const PageGalleryTemplate = ({
+const PageGalleryTemplate = ({
   title,
   content,
   contentComponent,

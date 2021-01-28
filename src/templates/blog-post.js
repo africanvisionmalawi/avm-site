@@ -33,7 +33,7 @@ const ViewAll = styled.div`
   text-align: center;
 `;
 
-export const BlogPostTemplate = ({
+const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
