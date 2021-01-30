@@ -11,6 +11,7 @@ import NavbarLower from "../components/NavbarLower";
 import Seo from "../components/seo";
 import { TagsList } from "../components/shop/tagsList";
 import useSiteMetadata from "../hooks/use-site-metadata";
+// import {SectionTop} from '../components/common/SectionTop'
 
 // const Section = styled.section`
 //   margin: 0 auto;
@@ -25,7 +26,7 @@ const TextSection = styled.section`
   min-height: 24rem;
   margin: 0 auto;
   max-width: 1180px;
-  padding: 1em 2em;
+  padding: 1rem;
   position: relative;
   width: 100%;
   @media (min-width: 768px) {
