@@ -1,7 +1,7 @@
-import React from "react";
-import { styled } from "linaria/react";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
+import React from "react";
 import EventDate from "../EventDate";
 import CardContent from "./CardContent";
 
@@ -15,7 +15,7 @@ const EventDateCont = styled.div`
   bottom: 12px;
   left: calc(50% - 150px);
   position: absolute;
-  z-index: 100;
+  z-index: 5;
 `;
 
 // const Btn = styled.div`

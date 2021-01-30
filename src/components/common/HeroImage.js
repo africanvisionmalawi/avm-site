@@ -131,13 +131,13 @@ const Overlay = styled.div`
 `;
 
 const HeroMsgCont = styled.div`
+  padding: 1rem;
   @media (min-width: 1024px) {
     // background: rgba(194, 126, 52, 0.9);
     bottom: 60px;
     left: 50%;
     // max-height: 540px;
     max-width: 880px;
-    padding: 15px;
     position: absolute;
     transform: translateX(-50%);
     width: 100%;
@@ -145,6 +145,5 @@ const HeroMsgCont = styled.div`
   }
   @media (min-width: 1280px) {
     max-width: 1080px;
-    padding: 30px;
   }
 `;

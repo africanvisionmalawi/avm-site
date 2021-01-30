@@ -7,6 +7,7 @@ import { graphql, StaticQuery } from "gatsby";
 import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
+// import { SectionTop } from "../components/common/SectionTop";
 import CardDouble from "./card/CardDouble";
 import pageLinksStyles from "./pagelinks.module.css";
 import postStyles from "./posts.module.css";
@@ -55,7 +56,9 @@ const EventsRoll = (props) => {
 
   return (
     <div>
-      <Heading>Future events</Heading>
+      <TopSection>
+        <Heading>Future events</Heading>
+      </TopSection>
       <div className={pageLinksStyles.cardContWide}>
         {futureEvents.length ? (
           futureEvents.map((event) => (
@@ -126,6 +129,10 @@ const Heading = styled.h2`
   font-size: 2.4em;
   margin: 0;
   text-align: center;
+`;
+
+const TopSection = styled.div`
+  margin: 4rem 1rem 1rem;
 `;
 
 export default () => (
