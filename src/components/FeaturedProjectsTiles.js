@@ -3,7 +3,6 @@ import { Flex } from "@chakra-ui/react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import { styled } from "linaria/react";
-import PropTypes from "prop-types";
 import React from "react";
 import projectLinkStyles from "./projects.module.css";
 
@@ -94,10 +93,10 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
   );
 };
 
-FeaturedProjects.propTypes = {
-  currentProject: PropTypes.string,
-  displayHeading: PropTypes.bool,
-};
+// FeaturedProjects.propTypes = {
+//   currentProject: PropTypes.string,
+//   displayHeading: PropTypes.bool,
+// };
 
 const projects = [
   {

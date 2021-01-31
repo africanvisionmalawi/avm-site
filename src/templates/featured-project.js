@@ -21,6 +21,8 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 
 const FeaturedProjectsTemplate = ({
   heroImage,
+  heroImageMobile,
+  hasMobileImage,
   heroMsg,
   title,
   currentProject,
@@ -45,6 +47,9 @@ const FeaturedProjectsTemplate = ({
         <section>
           <HeroImage
             heroImage={heroImage}
+            desktopImage={heroImage}
+            mobileImage={heroImageMobile}
+            hasMobileImage={hasMobileImage}
             displayHeroMsg={true}
             heroHeading={title}
             heroHeadingType="h1"
@@ -59,6 +64,7 @@ const FeaturedProjectsTemplate = ({
             <Donate
               link="https://www.charitycheckout.co.uk/1113786/"
               text="Donate"
+              displayImage
             />
           </Main>
 
@@ -102,16 +108,16 @@ const FeaturedProjectsTemplate = ({
   );
 };
 
-FeaturedProjectsTemplate.propTypes = {
-  heroImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  heroMsg: PropTypes.string,
-  title: PropTypes.string,
-  currentProject: PropTypes.string,
-  content: PropTypes.string,
-  videos: PropTypes.array,
-  gallery: PropTypes.array,
-  links: PropTypes.array,
-};
+// FeaturedProjectsTemplate.propTypes = {
+//   heroImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+//   heroMsg: PropTypes.string,
+//   title: PropTypes.string,
+//   currentProject: PropTypes.string,
+//   content: PropTypes.string,
+//   videos: PropTypes.array,
+//   gallery: PropTypes.array,
+//   links: PropTypes.array,
+// };
 
 const FeaturedProjectsPage = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -132,6 +138,8 @@ const FeaturedProjectsPage = ({ data }) => {
         currentProject={post.frontmatter.currentProject}
         content={post.html}
         heroImage={post.frontmatter.heroImage}
+        heroImageMobile={post.frontmatter.heroImageMobile}
+        hasMobileImage={post.frontmatter.hasMobileImage}
         heroMsg={post.frontmatter.heroMsg}
         videos={post.frontmatter.videos}
         gallery={post.frontmatter.gallery}
@@ -213,7 +221,15 @@ export const FeaturedProjectsPageQuery = graphql`
             }
           }
         }
+        heroImageMobile {
+          childImageSharp {
+            fluid(maxWidth: 625, maxHeight: 540, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
         heroMsg
+        hasMobileImage
         currentProject
         videos {
           videourl

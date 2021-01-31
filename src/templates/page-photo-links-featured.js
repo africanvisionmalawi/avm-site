@@ -2,6 +2,7 @@
 import { graphql } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
@@ -66,10 +67,10 @@ const PagePhotoLinksFeaturedTemplate = (props) => {
         <article className="content">
           <div className="columns">
             <main className={`column is-9 ${pageBasicStyles.main}`}>
-              <TextSection>
+              <SectionTop>
                 <HeadingH1 text={title} />
                 <PageContent className="content" content={content} />{" "}
-              </TextSection>
+              </SectionTop>
             </main>
           </div>
           {featuredLinks.length && (
@@ -101,6 +102,7 @@ const PagePhotoLinksFeaturedTemplate = (props) => {
         <Donate
           link="https://www.charitycheckout.co.uk/1113786/"
           text="Donate"
+          displayImage
         />
 
         <FeaturedProjectsTiles displayHeading={true} />

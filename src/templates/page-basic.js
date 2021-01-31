@@ -67,6 +67,7 @@ const PageBasicTemplate = ({
               margin="0 auto"
               maxW="885px"
               pt={["3rem", "3rem", "1rem"]}
+              pb="2rem"
               px={4}
               position="relative"
               w={[
@@ -84,6 +85,7 @@ const PageBasicTemplate = ({
         <Donate
           link="https://www.charitycheckout.co.uk/1113786/"
           text="Donate"
+          displayImage
         />
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>

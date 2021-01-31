@@ -22,11 +22,13 @@ dayjs.extend(advancedFormat);
 
 const IndexPage = (props) => {
   const { data } = props;
+  console.log("DATA ", data);
   const { edges: posts } = data.allMarkdownRemark;
   const { edges: events } = data.eventsPosts;
   const { edges: homeContent } = data.homePage;
   const { edges: homeMeta } = data.homePage;
   const heroImage = data.heroImage;
+  const heroImageMobile = data.heroImageMobile;
   const promoVideo = homeContent[0].node.frontmatter.promoVideo;
   const ourWork = homeContent[0].node.frontmatter.ourWork;
   const newsItemsLimit = homeContent[0].node.frontmatter.newsItemsLimit;
@@ -78,11 +80,13 @@ const IndexPage = (props) => {
       <HomepageMain>
         <div className="container">
           <HeroImage
-            heroImage={heroImage}
+            desktopImage={heroImage}
+            mobileImage={heroImageMobile}
             displayHeroMsg={true}
             heroHeading="Welcome to African Vision Malawi"
             heroHeadingType="h1"
             heroMsg="(known as The Landirani Trust in Malawi)."
+            hasMobileImage={true}
           />
           {/* <TopHero></TopHero> */}
 
@@ -125,6 +129,7 @@ const IndexPage = (props) => {
           <Donate
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"
+            displayImage
           />
           <LowerSection>
             <LowerSectionInner>
@@ -377,6 +382,15 @@ export const pageQuery = graphql`
     heroImage: file(relativePath: { eq: "hero/homepage-hero-2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1918, quality: 50) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        }
+      }
+    }
+    heroImageMobile: file(
+      relativePath: { eq: "hero/homepage-hero-mobile.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 625, quality: 50) {
           ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
