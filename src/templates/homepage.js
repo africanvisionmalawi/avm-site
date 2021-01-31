@@ -225,7 +225,6 @@ const CardCont = styled.div`
 
 const HomepageMain = styled.section`
   background: #fff;
-  padding-top: 2.6em;
 `;
 
 const TopSection = styled.section`

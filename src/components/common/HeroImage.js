@@ -128,6 +128,9 @@ const Overlay = styled.div`
   top: 0;
   width: 100%;
   z-index: 50;
+  @media (max-width: 1023px) {
+    display: none;
+  }
 `;
 
 const HeroMsgCont = styled.div`
