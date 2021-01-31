@@ -78,13 +78,13 @@ const PaginationLink = (props) => {
   }
 };
 
-const NewsIndex = ({ pageContext }) => {  
+const NewsIndex = ({ pageContext }) => {
   const { group, index, pageCount, first, last } = pageContext;
   const previousUrl = index - 1 === 1 ? "" : (index - 1).toString() + "/";
   const nextUrl = (index + 1).toString() + "/";
-  const pageNumbers = new Array(pageCount)
-    .fill(undefined)
-    .map((_, index) => index + 1);
+  // const pageNumbers = new Array(pageCount)
+  //   .fill(undefined)
+  //   .map((_, index) => index + 1);
   const { siteUrl } = useSiteMetadata();
   const title = "Latest news - African Vision Malawi";
   const description = "Latest news from African Vision Malawi.";
@@ -153,6 +153,7 @@ const NewsIndex = ({ pageContext }) => {
               <Donate
                 link="https://www.charitycheckout.co.uk/1113786/"
                 text="Donate"
+                displayImage
               />
             </div>
           </article>

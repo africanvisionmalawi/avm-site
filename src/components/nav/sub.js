@@ -93,7 +93,7 @@ const SubNavBar = () => {
             <DrawerBody>
               <Menu>
                 {navLinks.map((link, i) => (
-                  <>
+                  <React.Fragment key={i}>
                     {link.length > 1 ? (
                       <li>
                         <label for={`m${i}`}>{link[0].name}</label>
@@ -113,7 +113,7 @@ const SubNavBar = () => {
                         <Link to={link[0].url}>{link[0].name}</Link>
                       </li>
                     )}
-                  </>
+                  </React.Fragment>
                 ))}
               </Menu>
             </DrawerBody>

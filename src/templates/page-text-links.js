@@ -37,6 +37,7 @@ const PageTextLinksTemplate = ({
         <Donate
           link="https://www.charitycheckout.co.uk/1113786/"
           text="Donate"
+          displayImage
         />
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>

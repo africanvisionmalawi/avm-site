@@ -52,6 +52,7 @@ const PageGalleryTemplate = ({
             <Donate
               link="https://www.charitycheckout.co.uk/1113786/"
               text="Donate"
+              displayImage
             />
           </main>
           {gallery.length && (

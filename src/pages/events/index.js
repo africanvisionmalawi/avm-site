@@ -50,6 +50,7 @@ const EventsIndexPage = () => {
         <Donate
           link="https://www.charitycheckout.co.uk/1113786/"
           text="Donate"
+          displayImage
         />
       </div>
     </Layout>

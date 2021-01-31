@@ -88,6 +88,7 @@ const BlogPostTemplate = ({
           <Donate
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"
+            displayImage
           />
         </article>
       </div>

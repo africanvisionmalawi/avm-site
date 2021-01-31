@@ -12,8 +12,9 @@ export const HeroImage = ({
   hasMobileImage,
   desktopImage,
   mobileImage,
+  children,
 }) => {
-  let heroHeadingHtml, heroMsgHtml;
+  let heroHeadingHtml;
   if (heroHeading) {
     if (heroHeadingType === "h1") {
       heroHeadingHtml = <HeroHeadingH1>{heroHeading}</HeroHeadingH1>;
@@ -21,24 +22,33 @@ export const HeroImage = ({
       heroHeadingHtml = <HeroHeadingH2>{heroHeading}</HeroHeadingH2>;
     }
   }
-  if (heroMsg) {
-    heroMsgHtml = <HeroMsg>{heroMsg}</HeroMsg>;
-  }
-  let sources;
-  if (heroImage.hasMobileImage === true) {
-    sources = [
-      mobileImage.childImageSharp.fluid,
-      {
-        ...desktopImage.childImageSharp.fluid,
-        media: `(min-width: 625px)`,
-      },
-    ];
-  } else {
-    sources = heroImage.childImageSharp.fluid;
-  }
+  const heroMsgHtml = heroMsg ? <HeroMsg>{heroMsg}</HeroMsg> : null;
+
+  const sources = hasMobileImage
+    ? [
+        mobileImage.childImageSharp.fluid,
+        {
+          ...desktopImage.childImageSharp.fluid,
+          media: `(min-width: 580px)`,
+        },
+      ]
+    : heroImage.childImageSharp.fluid;
+  // console.log("sources ", sources);
+  // let sources;
+  // if (hasMobileImage === true) {
+  //   sources = [
+  //     mobileImage.childImageSharp.fluid,
+  //     {
+  //       ...desktopImage.childImageSharp.fluid,
+  //       media: `(min-width: 625px)`,
+  //     },
+  //   ];
+  // } else {
+  //   sources = heroImage.childImageSharp.fluid;
+  // }
 
   return (
-    <HeroContainer>
+    <HeroContainer className={children ? "lowerPage" : null}>
       <HeroCont>
         {displayHeroMsg && (
           <HeroMsgCont>
@@ -46,21 +56,60 @@ export const HeroImage = ({
             {heroMsgHtml}
           </HeroMsgCont>
         )}
+        {children && <ChildrenCont>{children}</ChildrenCont>}
 
-        <Img fluid={sources} alt="" imgStyle={{ objectFit: "contain" }} />
+        <Img
+          fluid={sources}
+          alt=""
+          imgStyle={{ objectFit: "contain" }}
+          loading="eager"
+        />
 
-        <Overlay />
+        {children ? null : <Overlay />}
         {/* {heroMsg !== "null" ? (
           <div className={heroStyles.heroText}>{heroMsg}</div>
         ) : null} */}
       </HeroCont>
-      <Divider />
+      {children ? null : <Divider />}
     </HeroContainer>
   );
 };
 
+const ChildrenCont = styled.div`
+  background: #58b5d7;
+
+  bottom: 0;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  left: 0;
+  max-width: 480px;
+  padding: 1rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+  & p {
+    margin-bottom: 0.5rem;
+  }
+  @media (min-width: 580px) {
+    border-radius: 0 8px 0 0;
+  }
+  @media (min-width: 800px) {
+    border-radius: 8px;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+`;
+
 const HeroContainer = styled.div`
   position: relative;
+  &.lowerPage {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 2rem;
+  }
 `;
 
 const HeroCont = styled.div`
@@ -72,7 +121,7 @@ const HeroCont = styled.div`
 
 const HeroHeadingH1 = styled.h1`
   font-size: 2em;
-  margin: 3rem auto 0.5rem;
+  margin: 2rem auto 0.5rem;
   text-align: center;
   @media (min-width: 580px) {
     margin-top: 2rem;
@@ -89,22 +138,22 @@ const HeroHeadingH1 = styled.h1`
 `;
 
 const HeroHeadingH2 = styled.h2`
-  font-size: 2em;
+  font-size: 1.8rem;
   margin: 0.5em auto 0.5em;
   text-align: center;
   @media (min-width: 1024px) {
     color: #fff;
-    font-size: 2.3em;
+    font-size: 2.1rem;
     margin: 0 auto;
     text-shadow: 0 0 20px #000;
   }
   @media (min-width: 1280px) {
-    font-size: 2.5em;
+    font-size: 2.3rem;
   }
 `;
 
 const HeroMsg = styled.p`
-  font-size: 1.3em;
+  font-size: 1.1rem;
   margin: 0 auto;
   text-align: center;
   @media (min-width: 1024px) {
@@ -128,6 +177,9 @@ const Overlay = styled.div`
   top: 0;
   width: 100%;
   z-index: 50;
+  @media (max-width: 1023px) {
+    display: none;
+  }
 `;
 
 const HeroMsgCont = styled.div`

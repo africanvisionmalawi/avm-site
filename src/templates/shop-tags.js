@@ -98,7 +98,11 @@ const ShopTagRoute = (props) => {
           <ul className={shopStyles.shopIndexList}>{postLinks}</ul>
         </article>
       </ShopSection>
-      <Donate link="https://www.charitycheckout.co.uk/1113786/" text="Donate" />
+      <Donate
+        link="https://www.charitycheckout.co.uk/1113786/"
+        text="Donate"
+        displayImage
+      />
       <Section>
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </Section>
