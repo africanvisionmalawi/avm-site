@@ -22,7 +22,6 @@ dayjs.extend(advancedFormat);
 
 const IndexPage = (props) => {
   const { data } = props;
-  console.log("DATA ", data);
   const { edges: posts } = data.allMarkdownRemark;
   const { edges: events } = data.eventsPosts;
   const { edges: homeContent } = data.homePage;

@@ -83,11 +83,6 @@ const FeaturedProjectsSimpleTemplate = ({
                 )}
                 <PageContent className="content" content={content} />{" "}
               </TextSection>
-              <Donate
-                link="https://www.charitycheckout.co.uk/1113786/"
-                text="Donate"
-                displayImage
-              />
             </main>
           </div>
           {links.length && (
@@ -105,6 +100,11 @@ const FeaturedProjectsSimpleTemplate = ({
               </div>
             </Section>
           )}
+          <Donate
+            link="https://www.charitycheckout.co.uk/1113786/"
+            text="Donate"
+            displayImage
+          />
         </article>
 
         <FeaturedProjectsTiles
