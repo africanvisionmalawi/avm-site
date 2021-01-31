@@ -79,11 +79,6 @@ const FeaturedProjectsSimpleGalTemplate = ({
               )}
               <PageContent className="content" content={content} />{" "}
             </TextSection>
-            <Donate
-              link="https://www.charitycheckout.co.uk/1113786/"
-              text="Donate"
-              displayImage
-            />
           </main>
 
           {links.length && (
@@ -103,6 +98,11 @@ const FeaturedProjectsSimpleGalTemplate = ({
           {gallery.length && (
             <Gallery gallery={gallery} initialState={{ showDialog: false }} />
           )}
+          <Donate
+            link="https://www.charitycheckout.co.uk/1113786/"
+            text="Donate"
+            displayImage
+          />
         </article>
 
         <FeaturedProjectsTiles
