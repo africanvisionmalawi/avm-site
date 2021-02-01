@@ -8,17 +8,13 @@ description: We link schools in Malawi with schools in the UK to establish a rel
 headerImage: "/img/chemex.jpg"
 
 ---
-**Partnership Visits**
-
-Read below about a typical partnership visit to distribute goods to our linked schools:
-
-![](/img/2017-10-23-bjff-booklet_page_4.jpg)
-
 **Linking Schools**
 
 We link schools in Malawi with schools in the UK to establish a relationship between the two countries through correspondence. We want the schools in Malawi to learn about and learn from the schools, teachers and children in the UK, and likewise the students in the UK can learn a lot from those in Malawi.
 
-![](/img/chitedze-4.jpg)_School Children at Chitedze_
+![](/img/chitedze-4.jpg)
+
+_School Children at Chitedze_
 
 ![](/img/mbangombe-4.jpg)
 
@@ -100,20 +96,4 @@ Or you may like to [sponsor a secondary school child](http://www.africanvision.o
 
 **Teacher Visits**
 
-Often Malawian teachers visit the UK through the partnership and sometimes UK teachers visit Malawi.
-
-[Donate](https://www.charitycheckout.co.uk/1113786/)
-
-You can support a teacher’s visit:
-
-Or you may like to [sponsor a secondary school child](http://www.africanvision.org.uk/projects/secondary-school-sponsorship/).
-
-**Teacher Visits**
-
-Often Malawian teachers visit the UK through the partnership and sometimes UK teachers visit Malawi.
-
-You can support a teacher’s visit:
-
-[Donate](https://www.charitycheckout.co.uk/1113786/)
-
-Thank you!
+Sometimes Malawian teachers visit the UK through the partnership and often UK teachers visit Malawi.
