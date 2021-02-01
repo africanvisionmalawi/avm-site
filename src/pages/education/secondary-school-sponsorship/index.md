@@ -15,9 +15,9 @@ Education is free to children up to the end of primary school but if they want t
 ![Lyson Kaputa, Dickson Zimba and Madalitso Hardwell - secondary school scholarship students at Mzuzu Government Secondary School](/img/projects/Lyson-Kaputa-form-2-left-Dickson-Zimba-form-1-middle-and-Madalitso-Hardwell-form-4-right-students-at-Mzuzu-Government-Secondary-School-Northern-Region-of-Malawi.jpg)
 _Lyson Kaputa, Dickson Zimba and Madalitso Hardwell – secondary school scholarship students at Mzuzu Government Secondary School_
 
-From September 2016 we sponsored 40 teenagers to go to Secondary School. We are delighted that many of our previous sponsored students have completed school successfully, and some have gone on to university education.
+We are typically sponsoring 40 teenagers to go to Secondary School. We are delighted that many of our previous sponsored students have completed school successfully, and some have gone on to university education.
 
-We are looking for more sponsors for the 2017/18 school year – is that person you? – and we shall be looking for 10 new people to sponsor a child from September 2017.  Please help give a child a chance of education and a way out of poverty.
+We are looking for more sponsors for the next school year – is that person you? Please help give a child a chance of education and a way out of poverty.
 
 ## Sponsor Information
 
