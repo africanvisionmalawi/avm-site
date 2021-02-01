@@ -6,8 +6,6 @@ description: Education is free to children up to the end of primary school but i
   costs £1440 for four years at Secondary School.
 
 ---
-## Sponsor a child through Secondary School
-
 It only costs £360/year (£30/month) to sponsor a child through secondary school
 
 Education is free to children up to the end of primary school but if they want to go on and get a full education (and hopefully go onto university) it costs £1440 for four years at Secondary School. This pays for school fees, exam fees, school materials, boarding fees, food and school uniform.
