@@ -8,23 +8,19 @@ description: We link schools in Malawi with schools in the UK to establish a rel
 headerImage: "/img/chemex.jpg"
 
 ---
-**Partnership Visits**
-
-Read below about a typical partnership visit to distribute goods to our linked schools:
-
-![](/img/2017-10-23-bjff-booklet_page_4.jpg)
-
 **Linking Schools**
 
 We link schools in Malawi with schools in the UK to establish a relationship between the two countries through correspondence. We want the schools in Malawi to learn about and learn from the schools, teachers and children in the UK, and likewise the students in the UK can learn a lot from those in Malawi.
 
-![](/img/chitedze-4.jpg)_School Children at Chitedze_
+![](/img/chitedze-4.jpg)
+
+_School Children at Chitedze_
 
 ![](/img/mbangombe-4.jpg)
 
 _M’bang’ombe School Boy_
 
-As of 2015, African Vision Malawi has partnered nineteen Malawi schools with 22 UK schools. Out of 20, three have double partnerships (M’bang’ombe primary in Mteza Zone and Masiye primary and Kafutwe both in Chikhutu Zone).
+We currently have 20 Malawian schools partnered with 23 schools in the UK. Out of 20, three have double partnerships (M’bang’ombe primary in Mteza Zone and Masiye primary and Kafutwe both in Chikhutu Zone).
 
 Partnerships:
 
@@ -87,17 +83,9 @@ The Schools Partnership Programme has been so successful that in 2015 we began l
 Many of the UK schools have fundraised for projects in their partner schools, which has had a massive positive impact on the students at their partner schools. Here are some examples of just a few recent projects:
 
 * The Mall, Twickenham UK fundraised for a new double classroom school block, learning materials and desks for Chitsime, and also equipment for the feeding programme at the attached pre-school. You can read more about [their partnership here](http://www.africanvision.org.uk/education/school-partnerships/school-partnership-chitsime-primary-the-mall-twickenham/).
-
-
 * Cheam Common Infant UK fundraised around 840,000MKW for Mkunkhu Primary and the money assisted buying building materials and labour for three teachers houses. Two houses were built at the end of 2014 and the remaining one was finished in 2015.
-
-
 * St Paul’s Primary UK fundraised 291,000MKW for Bowa Primary in Mteza Zone and the money assisted buying building materials for one teacher’s house.
-
-
 * Maple Infants Primary UK fundraised 543,000MKW for Chikhutu Primary in Chikhutu Zone, the money assisted buying building materials for one administration block.
-
-
 * Briar Hill Primary UK fundraised 65,000MKW for Kafutwe Primary in Chikhutu Zone which assisted with the purchase of staff room chairs and some text books.
 
 **Donate**
@@ -108,20 +96,4 @@ Or you may like to [sponsor a secondary school child](http://www.africanvision.o
 
 **Teacher Visits**
 
-Often Malawian teachers visit the UK through the partnership and sometimes UK teachers visit Malawi.
-
-[Donate](https://www.charitycheckout.co.uk/1113786/)
-
-You can support a teacher’s visit:
-
-Or you may like to [sponsor a secondary school child](http://www.africanvision.org.uk/projects/secondary-school-sponsorship/).
-
-**Teacher Visits**
-
-Often Malawian teachers visit the UK through the partnership and sometimes UK teachers visit Malawi.
-
-You can support a teacher’s visit:
-
-[Donate](https://www.charitycheckout.co.uk/1113786/)
-
-Thank you!
+Sometimes Malawian teachers visit the UK through the partnership and often UK teachers visit Malawi.

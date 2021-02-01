@@ -213,7 +213,7 @@ ukTeam:
   name: Kira Palmer
   role: Social Media Coordinator
 malawiTitle: Local Based Committee (LBC) Members
-malawiText: The team also includes 88 volunteers who are members of 14 Locally Based
+malawiText: The team also includes 98 volunteers who are members of 14 Locally Based
   Committees and are residents of our focus area.
 ukTitle: UK Staff
 ukText: All of our UK staff are volunteers, so as a supporter you can be sure that
