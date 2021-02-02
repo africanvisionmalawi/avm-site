@@ -1,6 +1,5 @@
 import { graphql } from "gatsby";
 import { styled } from "linaria/react";
-import PropTypes from "prop-types";
 import React from "react";
 import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
@@ -60,18 +59,6 @@ const TeamTemplate = ({
   );
 };
 
-TeamTemplate.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  malawiTeam: PropTypes.array,
-  ukTeam: PropTypes.array,
-  malawiTitle: PropTypes.string,
-  malawiText: PropTypes.string,
-  ukTitle: PropTypes.string,
-  ukText: PropTypes.string,
-  content: PropTypes.string,
-};
-
 const TeamPage = ({ data }) => {
   const { markdownRemark: post } = data;
   const { siteUrl } = useSiteMetadata();
@@ -100,13 +87,13 @@ const TeamPage = ({ data }) => {
   );
 };
 
-TeamPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-};
+// TeamPage.propTypes = {
+//   data: PropTypes.shape({
+//     markdownRemark: PropTypes.shape({
+//       frontmatter: PropTypes.object,
+//     }),
+//   }),
+// };
 
 const PictureSection = styled.div`
   margin: 0 auto;
@@ -138,8 +125,8 @@ export const TeamPageQuery = graphql`
         malawiTeam {
           photo {
             childImageSharp {
-              fluid(maxWidth: 150, quality: 50) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 150, height: 150, quality: 50) {
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }
@@ -149,8 +136,8 @@ export const TeamPageQuery = graphql`
         ukTeam {
           photo {
             childImageSharp {
-              fluid(maxWidth: 150, quality: 50) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 150, height: 150, quality: 50) {
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }

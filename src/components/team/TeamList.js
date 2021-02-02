@@ -1,6 +1,7 @@
+// import PreviewCompatibleImage from "../PreviewCompatibleImage";
+import Img from "gatsby-image";
 import { styled } from "linaria/react";
 import React from "react";
-import PreviewCompatibleImage from "../PreviewCompatibleImage";
 
 const TeamList = (props) => (
   <>
@@ -10,7 +11,7 @@ const TeamList = (props) => (
         <li key={team.name}>
           {team.photo && typeof team.photo === "object" && (
             <TeamPhoto>
-              <PreviewCompatibleImage imageInfo={team.photo} />
+              <Img fixed={team.photo.childImageSharp.fixed} alt={team.name} />
             </TeamPhoto>
           )}
           <SubHeading>{team.name}</SubHeading>
@@ -56,6 +57,7 @@ const SubHeading = styled.h4`
 `;
 
 const TeamPhoto = styled.div`
+  border: 10px solid #fff;
   border-radius: 50%;
   max-height: 150px;
   max-width: 150px;

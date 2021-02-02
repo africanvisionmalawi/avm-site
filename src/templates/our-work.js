@@ -14,6 +14,7 @@ const OurWorkPage = ({ data }) => {
   const { markdownRemark: post } = data;
   const { siteUrl } = useSiteMetadata();
   const PageContent = HTMLContent || Content;
+  const ourWorkData = data.homePage.edges[0].node.frontmatter.ourWork;
   return (
     <Layout>
       <Seo
@@ -31,7 +32,7 @@ const OurWorkPage = ({ data }) => {
         <HomepageProjectsCols
           currentProject="home"
           displayHeading={false}
-          ourWork={post.frontmatter.ourWork}
+          ourWork={ourWorkData}
         />
       </Section>
     </Layout>
@@ -75,13 +76,23 @@ export const OurWorkQuery = graphql`
       frontmatter {
         title
         description
-        ourWork {
-          id
-          name
-          url
-          imageId
-          excerpt
-          featured
+      }
+    }
+    homePage: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "homepage" } } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            ourWork {
+              id
+              name
+              url
+              imageId
+              excerpt
+              featured
+            }
+          }
         }
       }
     }
