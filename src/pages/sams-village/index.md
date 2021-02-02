@@ -79,7 +79,9 @@ links:
       suburb of Lilongwe. Email us if you would like to come and visit it!
     photo: "/img/page-links/link-njewa.jpg"
     url: "./njewa-new-office/"
----Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas. Our first training programme took place in May 2017 followed by a series of one day courses. Residential training over several months started in Spring 2018. The activities are supported through the Skills and Technical Education Programme (STEP), an initiative funded by the European Union (EU) and partially implemented by UNESCO.
+---
+
+Sam’s Training Village is a self-sustaining training village, built on a 17-acre site. The construction phase is now almost complete and the objective is to support a move away from hand-outs and to create self-sufficient training programmes that can support thousands of local people. This will improve their lives in terms of creating employment, organic farming, orphan support, reforestation, HIV prevention and many other important areas. Our first training programme took place in May 2017 followed by a series of one day courses. Residential training over several months started in Spring 2018. The activities are supported through the Skills and Technical Education Programme (STEP), an initiative funded by the European Union (EU) and partially implemented by UNESCO.
 
 Completed so far are: a pre-school for children under 5, [library](/sams-village/library/) and volunteer accommodation,the training workshop, reception and kitchen/restaurant. The trainee accommodation is nearing completion. [Permaculture](/sams-village/permaculture/) gardens are also being cultivated and are well underway.
 
