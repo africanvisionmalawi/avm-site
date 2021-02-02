@@ -36,7 +36,7 @@ links:
   url: "/education/university-scholarships/"
 - linkTitle: Adult Education
   linkText: We have built a self-sustaining training village – Sam’s Village - on
-    a 10-acre site. We also provide Adult Literacy programmes.
+    a 17-acre site. We also provide Adult Literacy programmes.
   photo: "/img/page-links/link-village-map.jpg"
   url: "/sams-village/"
 - linkTitle: Building Schools
