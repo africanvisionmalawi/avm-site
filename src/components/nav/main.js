@@ -1,28 +1,27 @@
-import { Flex, useDisclosure } from "@chakra-ui/react";
 import { Link } from "gatsby";
 import { styled } from "linaria/react";
-import React, { useState } from "react";
+import React from "react";
 import { navLinks } from "../../constants/nav";
 import CartLink from "../CartLink";
 // import Search from "../search";
-const searchIndices = [{ name: `Pages`, title: `Pages` }];
+// const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
 
 const Navbar = () => {
-  const [current, setCurrent] = useState("mail");
-  const [drawerVisible, setDrawerVisible] = useState(false);
+  // const [current, setCurrent] = useState("mail");
+  // const [drawerVisible, setDrawerVisible] = useState(false);
 
-  const handleClick = (e) => {
-    setCurrent(e.key);
-  };
+  // const handleClick = (e) => {
+  //   setCurrent(e.key);
+  // };
 
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const btnRef = React.useRef();
+  // const { isOpen, onOpen, onClose } = useDisclosure();
+  // const btnRef = React.useRef();
 
   return (
     <>
       <DesktopNav>
-        <Flex justify="space-between" align="center" width="100%">
+        <Row>
           <Menu>
             {navLinks.map((link, index) => (
               <>
@@ -49,17 +48,29 @@ const Navbar = () => {
               </>
             ))}
           </Menu>
-          <Flex flexWrap="nowrap" height="41px">
+          <IconRow>
             <IconCont>{/* <Search indices={searchIndices} /> */}</IconCont>
             <IconCont>
               <CartLink />
             </IconCont>
-          </Flex>
-        </Flex>
+          </IconRow>
+        </Row>
       </DesktopNav>
     </>
   );
 };
+
+const IconRow = styled.div`
+  display: flex;
+  flex-wrap: nowrap;
+  height: 41px;
+`;
+
+const Row = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+`;
 
 const Menu = styled.ul`
   align-items: center;
@@ -145,10 +156,9 @@ const Menu = styled.ul`
   }
 `;
 
-const DesktopNav = styled.div`
+const DesktopNav = styled.nav`
   display: none;
   position: relative;
-
   text-transform: uppercase;
 
   @media (min-width: 768px) {
