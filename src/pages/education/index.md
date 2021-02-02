@@ -29,8 +29,8 @@ links:
   photo: "/img/page-links/link-secondary-schools.jpg"
   url: "/education/secondary-school-sponsorship/"
 - linkTitle: Further Education
-  linkText: We currently support 9 university and further education students, who
-    are studying nursing, teaching, journalism and languages.
+  linkText: We typically support at least 10 university and further education students,
+    who are studying nursing, teaching, journalism, medicine, theology and languages.
   photo: "/img/page-links/link-university.jpg"
   url: "/education/university-scholarships/"
 - linkTitle: Adult Education
