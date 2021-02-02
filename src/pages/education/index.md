@@ -12,8 +12,8 @@ gallery:
   alt: ''
 links:
 - linkTitle: CBCC
-  linkText: African Vision Malawi is committed to supporting the under 5's and have
-    set up 9 Community Based Childcare Centres (CBCC) to date.
+  linkText: We support 13 Community Based Childcare Centres (CBCCs) across our area,
+    11 of which are supported by Feed the Children.
   photo: "/img/page-links/link-crowd-children.jpg"
   url: "/education/community-based-childcare-centres-cbccs/"
 - linkTitle: Primary Schools
