@@ -28,7 +28,7 @@ links:
     the fees.
   photo: "/img/page-links/link-secondary-schools.jpg"
   url: "/education/secondary-school-sponsorship/"
-- linkTitle: University and Further Education
+- linkTitle: Further Education
   linkText: We currently support 9 university and further education students, who
     are studying nursing, teaching, journalism and languages.
   photo: "/img/page-links/link-university.jpg"
