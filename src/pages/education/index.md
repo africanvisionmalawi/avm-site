@@ -46,8 +46,8 @@ links:
   url: "/education/building-a-school-at-masiye/"
 - linkTitle: Project4Africa
   linkText: Project4Africa have supported us in raising funds to build Namanyanga
-    School a teachers house and a pre-school with feeding centre. Subsequently they
-    have also funded the M'bang'ombe Maternity Unit.
+    School, a teacher's house and pre-school with feeding centre. They have also funded
+    a Maternity Unit.
   photo: "/img/page-links/link-project4africa.jpg"
   url: "/projects/project4africa/"
 columns: 
