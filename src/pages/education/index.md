@@ -35,8 +35,8 @@ links:
   photo: "/img/page-links/link-university.jpg"
   url: "/education/university-scholarships/"
 - linkTitle: Adult Education
-  linkText: Our vision is to create a self-sustaining training village – Sam’s Village
-    - on a 10 acre site in our area.
+  linkText: We have built a self-sustaining training village – Sam’s Village - on
+    a 10-acre site. We also provide Adult Literacy programmes.
   photo: "/img/page-links/link-village-map.jpg"
   url: "/sams-village/"
 - linkTitle: Building Schools
