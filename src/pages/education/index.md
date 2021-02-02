@@ -4,8 +4,8 @@ currentProject: education
 title: Education
 description: Details about our education projects
 heroImage: "/img/mainphoto_education.jpg"
-heroMsg: "90% of primary school aged children attend school \n25% enroll in secondary
-  school \nRatio of pupil/teacher is 62/1 in Malawi, it is 17/1 in UK"
+heroMsg: "90% of primary school aged children attend school \n25% enrol in secondary
+  school \nThe pupil to teacher ratio is 62/1 in Malawi"
 heroMsgSource: 
 gallery:
 - photo: 
