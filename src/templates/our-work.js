@@ -2,6 +2,7 @@ import { graphql } from "gatsby";
 // import Donate from "../components/Donate";
 import { styled } from "linaria/react";
 import React from "react";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import Layout from "../components/Layout";
@@ -23,8 +24,10 @@ const OurWorkPage = ({ data }) => {
       />
       <NavbarLower />
       <Section>
-        <Heading>Our work</Heading>
-        <PageContent className="content" content={post.html} />
+        <SectionTop>
+          <Heading>Our work</Heading>
+          <PageContent className="content" content={post.html} />
+        </SectionTop>
         <HomepageProjectsCols
           currentProject="home"
           displayHeading={false}
@@ -36,19 +39,18 @@ const OurWorkPage = ({ data }) => {
 };
 
 const Heading = styled.h1`
-  margin-left: 16px;
-  margin-right: 16px;
+  margin: 0 0 1rem;
 `;
 
 const Section = styled.section`
   background: #fff;
-  padding-top: 2.6rem;
+  // padding-top: 2.6rem;
   margin: 0 auto;
   max-width: 1180px;
   width: 100%;
-  @media (min-width: 768px) {
-    padding: 2.6rem 1rem;
-  }
+  // @media (min-width: 768px) {
+  //   padding: 2.6rem 1rem;
+  // }
 `;
 
 // const Heading = styled.h1`
