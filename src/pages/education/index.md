@@ -13,7 +13,8 @@ gallery:
 links:
 - linkTitle: CBCC
   linkText: We support 13 Community Based Childcare Centres (CBCCs) across our area,
-    11 of which are supported by Feed the Children.
+    11 of which are supported by Feed the Children. In the UK they would be called
+    pre-schools.
   photo: "/img/page-links/link-crowd-children.jpg"
   url: "/education/community-based-childcare-centres-cbccs/"
 - linkTitle: Primary Schools
