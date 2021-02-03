@@ -5,19 +5,15 @@ columns: "1"
 title: Celebrate & Give
 description: Ways in which you can donate through gifts
 heroImage: "/img/mainphoto_celebrate.jpg"
-heroMsg: ""
+heroMsg: ''
 gallery:
-  - photo: "/img/chemex.jpg"
-    alt: Kitchen photo
-  - photo: "/img/jumbotron.jpg"
-    alt: Office photo
-links:
-  - linkText: and some link text goes here
-    linkTitle: This is a link
-    photo: "/img/jumbotron.jpg"
-    url: "/about-us/"
----
+- photo: "/img/chemex.jpg"
+  alt: Kitchen photo
+- photo: "/img/jumbotron.jpg"
+  alt: Office photo
+links: []
 
+---
 Most fundraising comes from personal donations.
 
 The four most common are:
