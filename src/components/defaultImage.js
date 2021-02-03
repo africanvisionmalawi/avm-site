@@ -17,7 +17,9 @@ import React from "react";
 const DefaultImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "default-image.jpg" }) {
+      placeholderImage: file(
+        relativePath: { eq: "default/default-landscape.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid

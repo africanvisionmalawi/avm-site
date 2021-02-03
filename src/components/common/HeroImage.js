@@ -176,7 +176,7 @@ const Overlay = styled.div`
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 50;
+  z-index: 5;
   @media (max-width: 1023px) {
     display: none;
   }

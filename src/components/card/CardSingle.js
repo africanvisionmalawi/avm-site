@@ -1,7 +1,7 @@
-import React from "react";
-import { styled } from "linaria/react";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
+import React from "react";
 import EventDate from "../EventDate";
 import CardContent from "./CardContent";
 
@@ -32,7 +32,7 @@ const CardSingle = (props) => {
     // console.log("smallImage", props.smallImage);
     cardImage = <Img fixed={props.smallImage.childImageSharp.fixed} alt="" />;
   } else {
-    cardImage = <img src="/img/default-image.jpg" alt="" />;
+    cardImage = <img src="/img/default/default-landscape.jpg" alt="" />;
   }
 
   return (
