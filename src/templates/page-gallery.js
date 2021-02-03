@@ -1,7 +1,8 @@
 import { graphql } from "gatsby";
-import { styled } from "linaria/react";
+// import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
@@ -18,17 +19,17 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 //   width: 100%;
 // `;
 
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  min-height: 24rem;
-  margin: 0 auto;
-  max-width: 885px;
-  padding: 3em 2em 2em;
-  position: relative;
-  width: 100%;
-`;
+// const TextSection = styled.section`
+//   background: #fff;
+//   border-top-left-radius: 6px;
+//   border-top-right-radius: 6px;
+//   min-height: 24rem;
+//   margin: 0 auto;
+//   max-width: 885px;
+//   padding: 3em 2em 2em;
+//   position: relative;
+//   width: 100%;
+// `;
 
 const PageGalleryTemplate = ({
   title,
@@ -45,10 +46,10 @@ const PageGalleryTemplate = ({
         <NavbarLower path={path} />
         <article className="content">
           <main className={`column is-8 ${pageBasicStyles.main}`}>
-            <TextSection>
+            <SectionTop>
               <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
               <PageContent className="content" content={content} />
-            </TextSection>
+            </SectionTop>
             <Donate
               link="https://www.charitycheckout.co.uk/1113786/"
               text="Donate"
