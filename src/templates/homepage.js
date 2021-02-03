@@ -17,7 +17,7 @@ import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import Seo from "../components/seo";
-import videoStyles from "../components/videos.module.css";
+import videoStyles from "../components/videoPlayer/videos.module.css";
 dayjs.extend(advancedFormat);
 
 const IndexPage = (props) => {

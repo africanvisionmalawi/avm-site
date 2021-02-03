@@ -12,7 +12,10 @@ gallery:
   - photo: "/img/jumbotron.jpg"
     alt: Office photo
 links:
-  -
+  - linkText: and some link text goes here
+    linkTitle: This is a link
+    photo: "/img/jumbotron.jpg"
+    url: "/about-us/"
 ---
 
 Most fundraising comes from personal donations.

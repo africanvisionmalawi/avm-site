@@ -17,6 +17,16 @@ const Heading = styled.h2`
   text-align: center;
 `;
 
+const checkUrl = (url) => {
+  if (url.includes("youtube")) {
+    return "youtube";
+  } else if (url.includes("vimeo")) {
+    return "youtube";
+  } else {
+    return "all";
+  }
+};
+
 const Videos = ({ videos }) => (
   <div>
     <Heading>Videos</Heading>
