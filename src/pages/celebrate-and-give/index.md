@@ -6,11 +6,7 @@ title: Celebrate & Give
 description: Ways in which you can donate through gifts
 heroImage: "/img/mainphoto_celebrate.jpg"
 heroMsg: ''
-gallery:
-- photo: "/img/chemex.jpg"
-  alt: Kitchen photo
-- photo: "/img/jumbotron.jpg"
-  alt: Office photo
+gallery: []
 links: []
 
 ---
