@@ -11,13 +11,6 @@ displayOptions:
 title: Thank yous
 description: People who have generously supported us
 links:
-- linkTitle: Bryanston School
-  featured: true
-  linkText: Many thanks to Bryanston School raising funds to build a Safe Motherhood
-    Unit in Malawi to create a safe and comfortable place for mothers and their new-born
-    babies.
-  url: https://www.bryanston.co.uk/news/?pid=3&nid=57&storyid=1412
-  photo: "/img/dog-trick-bryanston.jpg"
 - linkTitle: UNESCO
   featured: true
   linkText: Since 2018 we have been an International Partner with UNESCO who have
@@ -55,12 +48,13 @@ links:
     to prostheses and orthoses. When people are born with deformities, lose their
     limbs or the use of their limbs due to accident, disease or poverty, many of them
     also lose their livelihoods, homes or families.
-- linkTitle: Project4Africa
+- linkTitle: Bryanston School
   featured: true
-  linkText: have funded  a number of projects including 2 school blocks at Namanyanga
-    (in the north-east of our area) and a Maternity Unit in M'Bang'ombe.
-  url: ''
-  photo: "/img/project4africa.jpg"
+  linkText: Many thanks to Bryanston School raising funds to build a Safe Motherhood
+    Unit in Malawi to create a safe and comfortable place for mothers and their new-born
+    babies.
+  url: https://www.bryanston.co.uk/news/?pid=3&nid=57&storyid=1412
+  photo: "/img/dog-trick-bryanston.jpg"
 - linkTitle: Think Malawi
   photo: "/img/think-malawi-2.jpg"
   url: https://www.thinkmalawi.org/
@@ -69,6 +63,12 @@ links:
     providing 'girls' packs' and washrooms.
   featured: true
   order: 
+- linkTitle: Project4Africa
+  featured: true
+  linkText: have funded  a number of projects including 2 school blocks at Namanyanga
+    (in the north-east of our area) and a Maternity Unit in M'Bang'ombe.
+  url: ''
+  photo: "/img/project4africa.jpg"
 - linkTitle: Aidcamps International
   photo: "/img/aidcamps-logo-2.jpg"
   url: https://www.aidcamps.org/home.aspx
