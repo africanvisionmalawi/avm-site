@@ -109,6 +109,6 @@ All of the individuals and companies who are donors, fundraisers, sponsors and v
 
 All our regular partners, in Malawi and the UK.
 
-All our [UK partnership schools](/education/school-partnerships/#schools), and especially those who have raised money for their Malawian partnership schools.
+All our [UK partnership schools](/education/primary-schools/#schools), and especially those who have raised money for their Malawian partnership schools.
 
 Thank you so much to:
