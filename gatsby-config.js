@@ -194,18 +194,18 @@ module.exports = {
       },
     },
 
-    // {
-    //   resolve: `gatsby-plugin-netlify-cms`,
-    //   options: {
-    //     modulePath: `${__dirname}/src/cms/cms.js`,
-    //     // stylesPath: `${__dirname}/src/components/css/all.css`,
-    //   },
-    // },
     {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {
         // devMode: true,
         // disable: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        // stylesPath: `${__dirname}/src/components/css/all.css`,
       },
     },
     "gatsby-plugin-netlify", // make sure to keep it last in the array

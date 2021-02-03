@@ -77,23 +77,22 @@ export const HeroImage = ({
 
 const ChildrenCont = styled.div`
   background: #58b5d7;
-
-  bottom: 0;
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
     0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
   color: #fff;
-  left: 0;
-  max-width: 480px;
   padding: 1rem;
-  position: absolute;
   text-align: center;
   width: 100%;
   z-index: 10;
   & p {
     margin-bottom: 0.5rem;
   }
-  @media (min-width: 580px) {
+  @media (min-width: 750px) {
     border-radius: 0 8px 0 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    max-width: 480px;
   }
   @media (min-width: 800px) {
     border-radius: 8px;
@@ -117,6 +116,10 @@ const HeroCont = styled.div`
   background-repeat: no-repeat;
   justify-content: center;
   position: relative;
+  @media (max-width: 750px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `;
 
 const HeroHeadingH1 = styled.h1`
@@ -176,7 +179,7 @@ const Overlay = styled.div`
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 50;
+  z-index: 5;
   @media (max-width: 1023px) {
     display: none;
   }

@@ -2,6 +2,7 @@
 import { graphql } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
@@ -20,22 +21,22 @@ const Section = styled.section`
   width: 100%;
 `;
 
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  margin: 0 auto;
-  max-width: 1180px;
-  padding: 1em 2em;
-  position: relative;
-  width: 100%;
-  @media (min-width: 768px) {
-    padding: 1em 4em;
-  }
-  @media (min-width: 1040px) {
-    padding: 1em 8em;
-  }
-`;
+// const TextSection = styled.section`
+//   background: #fff;
+//   border-top-left-radius: 6px;
+//   border-top-right-radius: 6px;
+//   margin: 0 auto;
+//   max-width: 1180px;
+//   padding: 1em 2em;
+//   position: relative;
+//   width: 100%;
+//   @media (min-width: 768px) {
+//     padding: 1em 4em;
+//   }
+//   @media (min-width: 1040px) {
+//     padding: 1em 8em;
+//   }
+// `;
 
 const PagePhotoLinksTemplate = ({
   title,
@@ -59,10 +60,10 @@ const PagePhotoLinksTemplate = ({
         <article className="content">
           <div className="columns">
             <main className={`column is-9 ${pageBasicStyles.main}`}>
-              <TextSection>
+              <SectionTop>
                 <HeadingH1 text={title} />
                 <PageContent className="content" content={content} />{" "}
-              </TextSection>
+              </SectionTop>
             </main>
           </div>
           {links.length && (

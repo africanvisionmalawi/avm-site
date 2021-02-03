@@ -16,10 +16,6 @@ links:
     linkTitle: This is a link
     photo: "/img/jumbotron.jpg"
     url: "/about-us/"
-  - linkText: and some more link text goes here
-    linkTitle: This is another link
-    photo: "/img/jumbotron.jpg"
-    url: "/about-us/"
 ---
 
 Most fundraising comes from personal donations.

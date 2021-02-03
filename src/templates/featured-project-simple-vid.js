@@ -16,7 +16,7 @@ import pageBasicStyles from "../components/pageBasic.module.css";
 // import Lightbox from "../components/lightbox"
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import Seo from "../components/seo";
-import Videos from "../components/Videos";
+import Videos from "../components/videoPlayer/Videos";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`

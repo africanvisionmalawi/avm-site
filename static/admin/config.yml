@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
+local_backend: true  
+
 media_folder: static/img
 public_folder: /img
 publish_mode: editorial_workflow
@@ -119,7 +121,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/about-us/team/index.md"
         label: "Team"
-        name: "§"
+        name: "teamPage"
         fields:
           - {
               label: "Template Key",

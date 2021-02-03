@@ -41,7 +41,7 @@ const CardDouble = (props) => {
       />
     );
   } else {
-    cardImage = <img src="/img/default-image.jpg" alt="" />;
+    cardImage = <img src="/img/default/default-landscape.jpg" alt="" />;
   }
 
   return (
