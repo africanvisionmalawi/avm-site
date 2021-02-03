@@ -28,7 +28,7 @@ const HomepageProjectsCols = (props) => {
       <SimpleGrid columns={[1, 1, 3]} spacing="1em">
         {props.ourWork.map((project) => (
           <Tile>
-            <Link to={project.url}>
+            <Link to={`/${project.url}/`}>
               <Box borderRadius="4px 4px 0 0" overflow="hidden">
                 {project.imageId && (
                   <Img
@@ -55,7 +55,7 @@ const HomepageProjectsCols = (props) => {
               <div>
                 <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>
-                <Link to={project.url} className={styles.btn}>
+                <Link to={`/${project.url}/`} className={styles.btn}>
                   Find out more
                 </Link>
               </div>
