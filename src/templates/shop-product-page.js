@@ -1,7 +1,5 @@
-import { Box, Flex } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 import { styled } from "linaria/react";
-import PropTypes from "prop-types";
 import React from "react";
 import BuyButton from "../components/BuyButton";
 import { Carousel } from "../components/Carousel";
@@ -17,6 +15,8 @@ import NavbarLower from "../components/NavbarLower";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import Seo from "../components/seo";
 import shopStyles from "../components/shop.module.css";
+// import PropTypes from "prop-types";
+import { ShopListItem } from "../components/shop/shop-list-item";
 // import { Location } from "@reach/router";
 import { TagsList } from "../components/shop/tagsList";
 import useSiteMetadata from "../hooks/use-site-metadata";
@@ -38,9 +38,68 @@ const ShopSection = styled.section`
   width: 100%;
 `;
 
-// const Inner = styled.div`
-//   padding: 0 1rem;
-// `;
+const CarouselCont = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  width: 85%;
+  @media (min-width: 768px) {
+    margin-left: 1rem;
+  }
+  @media (min-width: 1024px) {
+    margin-left: auto;
+  }
+`;
+
+const PhotoCont = styled.div`
+  max-width: 600px;
+  margin-left: 0;
+  @media (min-width: 768px) {
+    margin-left: 1rem;
+  }
+`;
+
+const Columns = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+const ColumnMain = styled.div`
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 66.66666%;
+  }
+`;
+const ColumnAside = styled.div`
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 33.333333%;
+  }
+`;
+
+const ShopIndexList = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 280px);
+  grid-gap: 40px;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  & li {
+    list-style-type: none;
+    margin: 8px 0;
+    opacity: 0.9;
+    padding: 0;
+    position: relative;
+  }
+  & li:hover {
+    opacity: 1;
+  }
+`;
+
+const Heading = styled.h2`
+  margin-top: 3rem;
+  text-align: center;
+`;
 
 const displayButtonCheck = (stock, publish) => {
   if (stock > 0 || publish !== false) {
@@ -69,13 +128,29 @@ const ShopProductTemplate = ({
   galleryPhotos,
   publish,
   path,
+  allProducts,
 }) => {
-  // const { pathname = {} } = location;
   const PageContent = contentComponent || Content;
   const { siteUrl } = useSiteMetadata();
-  // if (galleryPhotos.length) {
-  //   console.log(galleryPhotos[0]);
-  // }
+  const relatedProductsList = [];
+
+  allProducts.forEach((product) => {
+    if (
+      product.node.frontmatter.shoptags &&
+      product.node.frontmatter.shoptags.indexOf(tags[0]) !== -1 &&
+      product.node.id !== id
+    ) {
+      relatedProductsList.push({
+        id: product.node.id,
+        slug: product.node.fields.slug,
+        galleryPhotos: product.node.frontmatter.galleryPhotos,
+        price: product.node.frontmatter.price,
+        salePrice: product.node.frontmatter.salePrice,
+        title: product.node.frontmatter.title,
+      });
+    }
+  });
+
   return (
     <div>
       <NavbarLower path={path} />
@@ -84,25 +159,20 @@ const ShopProductTemplate = ({
           <SectionTop>
             <HeadingH1 text={title} />
           </SectionTop>
-          <Flex flexWrap="wrap">
-            <Box width={["100%", "100%", "66.66666%"]}>
+          <Columns>
+            <ColumnMain>
               {galleryPhotos && galleryPhotos.length > 1 && (
-                <Box
-                  maxW="600px"
-                  mr={("auto", "auto")}
-                  ml={["auto", "auto", "1rem", "auto"]}
-                  w="85%"
-                >
+                <CarouselCont>
                   <Carousel allSizesImages={galleryPhotos} />
-                </Box>
+                </CarouselCont>
               )}
               {galleryPhotos && galleryPhotos.length === 1 && (
-                <Box maxW="600px" ml={[0, 0, "1rem"]}>
+                <PhotoCont>
                   <PreviewCompatibleImage imageInfo={galleryPhotos[0]} />
-                </Box>
+                </PhotoCont>
               )}
-            </Box>
-            <Box width={["100%", "100%", "33.333333%"]}>
+            </ColumnMain>
+            <ColumnAside>
               <div className={shopStyles.productAside}>
                 <SectionInner>
                   <span className={shopStyles.price}>
@@ -136,11 +206,29 @@ const ShopProductTemplate = ({
                 <SectionInner>
                   <PageContent className="content" content={content} />
                 </SectionInner>
-
-                {/* {relatedProducts[0]} */}
               </div>
-            </Box>
-          </Flex>
+            </ColumnAside>
+          </Columns>
+          {relatedProductsList.length ? (
+            <>
+              <Heading>Related products</Heading>
+              <ShopIndexList>
+                {relatedProductsList.map((item, i) => (
+                  <React.Fragment key={item.id}>
+                    {i < 3 ? (
+                      <ShopListItem
+                        id={item.id}
+                        slug={item.slug}
+                        photos={item.galleryPhotos}
+                        title={item.title}
+                        price={item.price}
+                      />
+                    ) : null}
+                  </React.Fragment>
+                ))}
+              </ShopIndexList>
+            </>
+          ) : null}
         </article>
       </ShopSection>
       <Donate
@@ -187,19 +275,19 @@ const ShopProductPage = ({ data }) => {
         galleryPhotos={post.frontmatter.galleryPhotos}
         publish={post.frontmatter.publish}
         path={post.fields.slug}
-        // productImages={post.frontmatter.productImages}
+        allProducts={data.shopIndex.edges}
       />
     </Layout>
   );
 };
 
-ShopProductPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-};
+// ShopProductPage.propTypes = {
+//   data: PropTypes.shape({
+//     markdownRemark: PropTypes.shape({
+//       frontmatter: PropTypes.object,
+//     }),
+//   }),
+// };
 
 export default ShopProductPage;
 
@@ -230,6 +318,39 @@ export const pageBasicQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 450, quality: 50) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+      }
+    }
+
+    shopIndex: allMarkdownRemark(
+      sort: { order: DESC, fields: [id] }
+      filter: {
+        frontmatter: {
+          templateKey: { eq: "shop-product-page" }
+          publish: { eq: true }
+        }
+      }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            price
+            salePrice
+            inStock
+            shoptags
+            galleryPhotos {
+              childImageSharp {
+                fixed(width: 280, height: 280) {
+                  ...GatsbyImageSharpFixed_withWebp_tracedSVG
+                }
+              }
             }
           }
         }
