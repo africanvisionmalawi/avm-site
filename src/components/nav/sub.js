@@ -99,12 +99,12 @@ const SubNavBar = () => {
                         <label for={`m${i}`}>{link[0].name}</label>
                         <input type="checkbox" id={`m${i}`} />
                         <ul>
-                          {link[1].map((subMenu) => (
-                            <>
+                          {link[1].map((subMenu, i) => (
+                            <React.Fragment key={i}>
                               <li>
                                 <Link to={subMenu.url}>{subMenu.name}</Link>
                               </li>
-                            </>
+                            </React.Fragment>
                           ))}
                         </ul>
                       </li>

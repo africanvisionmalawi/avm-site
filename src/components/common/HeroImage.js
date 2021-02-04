@@ -100,6 +100,14 @@ const ChildrenCont = styled.div`
     left: 50%;
     transform: translateX(-50%);
   }
+  @media (min-width: 1800px) {
+    max-width: 600px;
+    padding: 40px;
+    & p {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
 `;
 
 const HeroContainer = styled.div`

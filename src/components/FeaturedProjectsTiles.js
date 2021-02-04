@@ -1,4 +1,3 @@
-import { Flex } from "@chakra-ui/react";
 // import BackgroundImage from "gatsby-background-image";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
@@ -50,9 +49,9 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
 
   return (
     <Container>
-      <TileCont>
+      <div>
         {displayHeading === true ? <Heading>Our work</Heading> : ""}
-        <Flex wrap="wrap" className={projectLinkStyles.featuredProjects}>
+        <TileCont className={projectLinkStyles.featuredProjects}>
           {projects.map((project) => (
             <Tile
               className={
@@ -87,8 +86,8 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
               </Link>
             </Tile>
           ))}
-        </Flex>
-      </TileCont>
+        </TileCont>
+      </div>
     </Container>
   );
 };
@@ -182,7 +181,10 @@ const Container = styled.section`
   width: 100%;
 `;
 
-const TileCont = styled.div``;
+const TileCont = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
 
 const Tile = styled.div`
   overflow: hidden;

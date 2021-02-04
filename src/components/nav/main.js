@@ -24,19 +24,19 @@ const Navbar = () => {
         <Row>
           <Menu>
             {navLinks.map((link, index) => (
-              <>
+              <React.Fragment key={index}>
                 {link.length > 1 ? (
                   <li>
                     <Link to={link[0].url}>{link[0].name}</Link>
                     <ul>
-                      {link[1].map((subMenu) => (
-                        <>
+                      {link[1].map((subMenu, i) => (
+                        <React.Fragment key={i}>
                           {!subMenu.mobileOnly && (
                             <li>
                               <Link to={subMenu.url}>{subMenu.name}</Link>
                             </li>
                           )}
-                        </>
+                        </React.Fragment>
                       ))}
                     </ul>
                   </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     <Link to={link[0].url}>{link[0].name}</Link>
                   </li>
                 )}
-              </>
+              </React.Fragment>
             ))}
           </Menu>
           <IconRow>
