@@ -106,7 +106,7 @@ This page celebrates the friends of African Vision Malawi who have been kind eno
 
 We would like to thank:
 
-All of the individuals and companies who are donors, fundraisers, sponsors and volunteers.
+All of the individuals and organisations who are donors, fundraisers, sponsors and volunteers.
 
 All our regular partners, in Malawi and the UK.
 
