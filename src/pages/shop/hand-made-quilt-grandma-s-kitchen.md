@@ -19,6 +19,6 @@ galleryPhotos:
 - "/img/p1100188.JPG"
 description: "‘Grandma’s kitchen’ made by Marilyn Sullivan in 1996 (double)"
 price: 300
-shippingClass: 'Collection '
+shippingClass: Collection
 
 ---
