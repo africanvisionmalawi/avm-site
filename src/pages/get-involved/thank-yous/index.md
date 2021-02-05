@@ -52,9 +52,9 @@ links:
   featured: true
   linkText: Many thanks to Bryanston School for raising funds to build a Safe Motherhood
     Unit in Malawi throughout 2020/21 to create a safe and comfortable place for mothers
-    and their new-born babies. This second stage will provide essential care for pre-term
-    births - which are higher in Malawi than anywhere else in the world.The project
-    will include nutritional permaculture gardens in front of the new wing, and education
+    and their new-born babies. This will provide essential care for pre-term births
+    - which are higher in Malawi than anywhere else in the world. The project will
+    include nutritional permaculture gardens in front of the new wing, and education
     on good nutrition for new mothers.
   url: https://www.bryanston.co.uk/news/?pid=3&nid=57&storyid=1412
   photo: "/img/dog-trick-bryanston.jpg"
