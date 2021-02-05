@@ -7,10 +7,10 @@ total_sales: 0
 shoptags:
 - donated-gifts
 size: other
-weight: 0
-length: 0
-width: 0
-height: 0
+weight: 5000
+length: 400
+width: 300
+height: 300
 title: Hand-made quilt  ‘Grandma’s kitchen’
 publish: true
 productId: Quilt-grandmas-kitchen
