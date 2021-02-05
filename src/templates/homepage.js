@@ -1,4 +1,3 @@
-import { Box, Flex } from "@chakra-ui/react";
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 import { graphql, Link } from "gatsby";
@@ -91,8 +90,8 @@ const IndexPage = (props) => {
 
           <TopSection>
             <TopVideoSection>
-              <Flex flexWrap="wrap">
-                <Box width={["100%", "100%", "50%"]}>
+              <TopVideoSectionInner>
+                <VideoSection>
                   <SectionHeading>Our vision...</SectionHeading>
                   <p>
                     to see a "healthy, educated and self-sufficient community in
@@ -110,8 +109,8 @@ const IndexPage = (props) => {
                     We can empower them to become self-sufficient and
                     independent.
                   </p>
-                </Box>
-                <Box width={["100%", "100%", "50%"]}>
+                </VideoSection>
+                <VideoSection>
                   <div className={videoStyles.playerWrapper}>
                     <ReactPlayer
                       url={promoVideo}
@@ -121,8 +120,8 @@ const IndexPage = (props) => {
                       controls={true}
                     />
                   </div>
-                </Box>
-              </Flex>
+                </VideoSection>
+              </TopVideoSectionInner>
             </TopVideoSection>
           </TopSection>
           <Donate
@@ -202,6 +201,18 @@ IndexPage.propTypes = {
     }),
   }),
 };
+
+const TopVideoSectionInner = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+const VideoSection = styled.div`
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+`;
 
 const NewsCont = styled.div`
   @media (min-width: 1200px) {
