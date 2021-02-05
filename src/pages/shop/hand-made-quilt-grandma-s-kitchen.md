@@ -4,7 +4,8 @@ productImage: "/img/default-image-1.jpg"
 salePrice: 0
 inStock: 1
 total_sales: 0
-shoptags: []
+shoptags:
+- donated-gifts
 size: other
 weight: 0
 length: 0
