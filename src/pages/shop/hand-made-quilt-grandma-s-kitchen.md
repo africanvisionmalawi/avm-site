@@ -11,7 +11,7 @@ length: 0
 width: 0
 height: 0
 title: Hand-made quilt  ‘Grandma’s kitchen’
-publish: false
+publish: true
 productId: Quilt-grandmas-kitchen
 galleryPhotos:
 - "/img/p1100187.JPG"
