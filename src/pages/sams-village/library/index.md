@@ -27,7 +27,7 @@ The Library is used by students, school children and adults from the surrounding
 
 **David Lackson**, one of the Scholarship Programme beneficiaries, has been a regular library user 2 or 3 days a week since he graduated from Secondary School. When interviewed about the books he has been reading, this is what he had to say:
 
-‘I have been reading lots of English and French books in the library. Among them, English A1 book for IB diploma programme by Elizabeth Druce and Hannah Tyson has been interesting to read. I have read this book for good numbers of days. I really like it because most of its content is what I would learn in my English course at university. It has important literature devices such as poetry, drama, commentaries and essays. It is a very good book to read and understand what it discusses. This library is benefitting me, it is like a granary of knowledge of what most people like me are desperate for.’’
+> ‘I have been reading lots of English and French books in the library. Among them, English A1 book for IB diploma programme by Elizabeth Druce and Hannah Tyson has been interesting to read. I have read this book for good numbers of days. I really like it because most of its content is what I would learn in my English course at university. It has important literature devices such as poetry, drama, commentaries and essays. It is a very good book to read and understand what it discusses. This library is benefitting me, it is like a granary of knowledge of what most people like me are desperate for.’’
 
 David has been accepted into University of Malawi at Chancellor College (one of the constituent colleges) from January 2016 to study a four year course for a Bachelor of Education (languages).
 
@@ -37,7 +37,7 @@ David has been accepted into University of Malawi at Chancellor College (one of 
 
 Andrew studied Journalism level two certificate at Malawi Institute of Journalism (MIJ) in 2013. Here is what he said about the library:
 
-‘I often use the library because I would like to improve my English as a language in all the aspects such as grammar and vocabulary, which will help my speaking skills and also both writing and reading skills. I think these are essential skills for someone like me who wants to become a journalist. I think we are lucky people here having a library like this because apart from reading different books I also make use of periodicals such as newspaper to be updated in current affairs.’
+> ‘I often use the library because I would like to improve my English as a language in all the aspects such as grammar and vocabulary, which will help my speaking skills and also both writing and reading skills. I think these are essential skills for someone like me who wants to become a journalist. I think we are lucky people here having a library like this because apart from reading different books I also make use of periodicals such as newspaper to be updated in current affairs.’
 
 When we spoke to him Andrew was reading Contemporary English Grammar by Jayanthi Dakshina Murthy which he said is one of the books he read frequently.
 
