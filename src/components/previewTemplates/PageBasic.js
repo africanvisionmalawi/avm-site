@@ -1,4 +1,3 @@
-import { Box } from "@chakra-ui/react";
 // import pageBasicStyles from "../components/pageBasic.module.css";
 import { styled } from "linaria/react";
 import React from "react";
@@ -35,6 +34,25 @@ const BackgroundContainer = styled.div`
   // }
 `;
 
+const BackgroundCont = styled.div`
+  margin: 0 auto;
+  max-width: 885px;
+  padding: 3rem 1rem 2rem;
+  position: relative;
+  width: 100%;
+  @media (min-width: 768px) {
+    padding-top: 1rem;
+    &.hasBackgroundImage {
+      width: 75%;
+    }
+  }
+  @media (min-width: 1024px) {
+    &.hasBackgroundImage {
+      width: 50%;
+    }
+  }
+`;
+
 export const PageBasicTemplate = ({
   title,
   content,
@@ -58,23 +76,14 @@ export const PageBasicTemplate = ({
               backgroundImage ? "hasBackgroundImage" : "noBackgroundImage"
             }
           >
-            <Box
-              margin="0 auto"
-              maxW="885px"
-              pt={["3rem", "3rem", "1rem"]}
-              pb="2rem"
-              px={4}
-              position="relative"
-              w={[
-                "100%",
-                "100%",
-                backgroundImage ? "75%" : "100%",
-                backgroundImage ? "50%" : "100%",
-              ]}
+            <BackgroundCont
+              className={
+                backgroundImage ? "hasBackgroundImage" : "noBackgroundImage"
+              }
             >
               <HeadingH1 text={title} />
               <PageContent className="content" content={content} />
-            </Box>
+            </BackgroundCont>
           </main>
         </article>
         {/* <Donate

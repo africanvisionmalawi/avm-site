@@ -64,6 +64,7 @@ const ShopSection = styled.section`
 const ShopTagRoute = (props) => {
   const { siteUrl } = useSiteMetadata();
   const posts = props.data.allMarkdownRemark.edges;
+  const tagTitle = posts[0].node.frontmatter.title;
   const postLinks = posts.map((post) => (
     <ShopListItem
       id={post.node.id}
@@ -74,8 +75,11 @@ const ShopTagRoute = (props) => {
       price={post.node.frontmatter.price}
     />
   ));
+
   const tag = props.pageContext.tag;
-  const tagMetaTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
+  const tagTitleCleaned = tag.replace("-", " ");
+  const tagMetaTitle =
+    tagTitleCleaned.charAt(0).toUpperCase() + tagTitleCleaned.slice(1);
   const title = props.data.site.siteMetadata.title;
   const totalCount = props.data.allMarkdownRemark.totalCount;
   const description = `${totalCount} shop product${

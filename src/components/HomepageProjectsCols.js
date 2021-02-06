@@ -1,4 +1,3 @@
-import { Box, SimpleGrid } from "@chakra-ui/react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import { styled } from "linaria/react";
@@ -23,13 +22,13 @@ const HomepageProjectsCols = (props) => {
   );
 
   return (
-    <Box>
+    <>
       {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
-      <SimpleGrid columns={[1, 1, 3]} spacing="1em">
+      <TileGrid>
         {props.ourWork.map((project) => (
           <Tile>
             <Link to={`/${project.url}/`}>
-              <Box borderRadius="4px 4px 0 0" overflow="hidden">
+              <ImageCont>
                 {project.imageId && (
                   <Img
                     fluid={
@@ -49,9 +48,9 @@ const HomepageProjectsCols = (props) => {
                     imgStyle={{ objectFit: "contain" }}
                   />
                 )}
-              </Box>
+              </ImageCont>
             </Link>
-            <Box px="16px" mt={{ base: 4 }} width="100%">
+            <TextCont>
               <div>
                 <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>
@@ -59,13 +58,34 @@ const HomepageProjectsCols = (props) => {
                   Find out more
                 </Link>
               </div>
-            </Box>
+            </TextCont>
           </Tile>
         ))}
-      </SimpleGrid>
-    </Box>
+      </TileGrid>
+    </>
   );
 };
+
+const TileGrid = styled.div`
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+`;
+
+const ImageCont = styled.div`
+  border-radius: 4px 4px 0 0;
+  overflow: hidden;
+`;
+
+const TextCont = styled.div`
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+`;
 
 // const projects = [
 //   {
