@@ -1,11 +1,9 @@
 import {
-  Box,
   Drawer,
   DrawerBody,
   DrawerCloseButton,
   DrawerContent,
   DrawerOverlay,
-  Flex,
   useDisclosure,
 } from "@chakra-ui/react";
 import { Link } from "gatsby";
@@ -32,11 +30,7 @@ const SubNavBar = () => {
   return (
     <NavCont>
       <Nav>
-        <Flex
-          justify="space-between"
-          flexWrap="nowrap"
-          display={["none", "none", "flex"]}
-        >
+        <NavInner>
           <CtaButton
             link="https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW"
             text="Fundraise for us"
@@ -47,23 +41,23 @@ const SubNavBar = () => {
             text="Donate"
             placement="header"
           />
-        </Flex>
+        </NavInner>
         <MobileNav>
           <NavIcons>
-            <Flex justify="space-between" flexWrap="nowrap">
-              <Box display={["none", "flex"]}>
+            <NavIconsInner>
+              <InnerFlex>
                 <CtaButton
                   link="https://www.crowdfunder.co.uk/apf/step/basics/7nPGOrqW"
                   text="Fundraise for us"
                   placement="header"
                 />
-              </Box>
+              </InnerFlex>
               <CtaButton
                 link="https://www.charitycheckout.co.uk/1113786/"
                 text="Donate"
                 placement="header"
               />
-            </Flex>
+            </NavIconsInner>
             <IconsCont>{/* <Search indices={searchIndices} /> */}</IconsCont>
             <IconsCont>
               <CartLink variant="orange" />
@@ -85,44 +79,65 @@ const SubNavBar = () => {
             </IconsCont>
           </NavIcons>
         </MobileNav>
-
-        <Drawer placement="right" onClose={onClose} isOpen={isOpen}>
-          <DrawerOverlay />
-          <DrawerContent backgroundColor="#fff">
-            <DrawerCloseButton />
-            <DrawerBody>
-              <Menu>
-                {navLinks.map((link, i) => (
-                  <React.Fragment key={i}>
-                    {link.length > 1 ? (
-                      <li>
-                        <label for={`m${i}`}>{link[0].name}</label>
-                        <input type="checkbox" id={`m${i}`} />
-                        <ul>
-                          {link[1].map((subMenu, i) => (
-                            <React.Fragment key={i}>
-                              <li>
-                                <Link to={subMenu.url}>{subMenu.name}</Link>
-                              </li>
-                            </React.Fragment>
-                          ))}
-                        </ul>
-                      </li>
-                    ) : (
-                      <li>
-                        <Link to={link[0].url}>{link[0].name}</Link>
-                      </li>
-                    )}
-                  </React.Fragment>
-                ))}
-              </Menu>
-            </DrawerBody>
-          </DrawerContent>
-        </Drawer>
       </Nav>
+      <Drawer placement="right" onClose={onClose} isOpen={isOpen}>
+        <DrawerOverlay />
+        <DrawerContent backgroundColor="#fff">
+          <DrawerCloseButton />
+          <DrawerBody>
+            <Menu>
+              {navLinks.map((link, i) => (
+                <React.Fragment key={i}>
+                  {link.length > 1 ? (
+                    <li>
+                      <label for={`m${i}`}>{link[0].name}</label>
+                      <input type="checkbox" id={`m${i}`} />
+                      <ul>
+                        {link[1].map((subMenu, i) => (
+                          <React.Fragment key={i}>
+                            <li>
+                              <Link to={subMenu.url}>{subMenu.name}</Link>
+                            </li>
+                          </React.Fragment>
+                        ))}
+                      </ul>
+                    </li>
+                  ) : (
+                    <li>
+                      <Link to={link[0].url}>{link[0].name}</Link>
+                    </li>
+                  )}
+                </React.Fragment>
+              ))}
+            </Menu>
+          </DrawerBody>
+        </DrawerContent>
+      </Drawer>
     </NavCont>
   );
 };
+
+const NavInner = styled.div`
+  display: none;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+`;
+
+const NavIconsInner = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+`;
+
+const InnerFlex = styled.div`
+  display: none;
+  @media (min-width: 576px) {
+    display: flex;
+  }
+`;
 
 const NavCont = styled.div`
   background: rgba(255, 255, 255, 0.7);
