@@ -101,22 +101,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // "gatsby-plugin-chakra-ui",
-    {
-      resolve: "@chakra-ui/gatsby-plugin",
-      options: {
-        /**
-         * @property {boolean} [isResettingCSS=true]
-         * if false, this plugin will not use `<CSSReset />
-         */
-        isResettingCSS: false,
-        /**
-         * @property {boolean} [isUsingColorMode=true]
-         * if false, this plugin will not use <ColorModeProvider />
-         */
-        isUsingColorMode: false,
-      },
-    },
     // {
     //   resolve: "@bundle-analyzer/gatsby-plugin",
     //   options: { token: process.env.BUNDLE_ANALYZER_TOKEN },
