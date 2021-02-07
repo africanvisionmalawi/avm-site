@@ -1,4 +1,3 @@
-import {} from "@chakra-ui/react";
 import { Link } from "gatsby";
 import { styled } from "linaria/react";
 import React, { useState } from "react";
