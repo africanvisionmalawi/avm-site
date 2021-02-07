@@ -54,9 +54,6 @@ const FeaturedProjects = ({ currentProject, displayHeading }) => {
         <TileCont className={projectLinkStyles.featuredProjects}>
           {projects.map((project) => (
             <Tile
-              className={
-                project.id === currentProject ? projectLinkStyles.active : ``
-              }
               className={project.fullWidth ? "fullWidth" : "halfSize"}
               key={project.id}
             >

@@ -1,7 +1,5 @@
-import { Box } from "@chakra-ui/react";
 import { graphql } from "gatsby";
 import BackgroundImage from "gatsby-background-image";
-// import pageBasicStyles from "../components/pageBasic.module.css";
 import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
@@ -32,13 +30,32 @@ import useSiteMetadata from "../hooks/use-site-metadata";
 //   width: 100%;
 // `;
 
-const BackgroundContainer = styled.div`
-  // &,
-  // &:before {
-  //   background-position: 50% 102px;
-  //   background-size: auto;
-  // }
+const BackgroundCont = styled.div`
+  margin: 0 auto;
+  max-width: 885px;
+  padding: 3rem 1rem 2rem;
+  position: relative;
+  width: 100%;
+  @media (min-width: 768px) {
+    padding-top: 1rem;
+    &.hasBackgroundImage {
+      width: 75%;
+    }
+  }
+  @media (min-width: 1024px) {
+    &.hasBackgroundImage {
+      width: 50%;
+    }
+  }
 `;
+
+// const BackgroundContainer = styled.div`
+//   // &,
+//   // &:before {
+//   //   background-position: 50% 102px;
+//   //   background-size: auto;
+//   // }
+// `;
 
 const PageBasicTemplate = ({
   title,
@@ -63,23 +80,14 @@ const PageBasicTemplate = ({
               backgroundImage ? "hasBackgroundImage" : "noBackgroundImage"
             }
           >
-            <Box
-              margin="0 auto"
-              maxW="885px"
-              pt={["3rem", "3rem", "1rem"]}
-              pb="2rem"
-              px={4}
-              position="relative"
-              w={[
-                "100%",
-                "100%",
-                backgroundImage ? "75%" : "100%",
-                backgroundImage ? "50%" : "100%",
-              ]}
+            <BackgroundCont
+              className={
+                backgroundImage ? "hasBackgroundImage" : "noBackgroundImage"
+              }
             >
               <HeadingH1 text={title} />
               <PageContent className="content" content={content} />
-            </Box>
+            </BackgroundCont>
           </main>
         </article>
         <Donate
@@ -115,7 +123,7 @@ const PageBasic = ({ data }) => {
           pathname={`${siteUrl}${post.fields.slug}`}
           article={false}
         />
-        <BackgroundContainer>
+        <div>
           <BackgroundImage
             fluid={post.frontmatter.backgroundImage.childImageSharp.fluid}
             style={{
@@ -135,7 +143,7 @@ const PageBasic = ({ data }) => {
               published={post.frontmatter.published}
             />
           </BackgroundImage>
-        </BackgroundContainer>
+        </div>
       </Layout>
     );
   }

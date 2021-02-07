@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/nav/main";
 import SubNavBar from "../components/nav/sub";
-import NavLogo from "../components/NavLogo";
+// import NavLogo from "../components/NavLogo";
 import "./css/all.css";
 import layoutStyles from "./layout.module.css";
 import useSiteMetadata from "./SiteMetadata";
@@ -102,7 +102,6 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Header>
         <HeaderInner>
-          <NavLogo />
           <Navbar />
         </HeaderInner>
       </Header>
