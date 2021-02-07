@@ -1,34 +1,70 @@
-import {
-  Drawer,
-  DrawerBody,
-  DrawerCloseButton,
-  DrawerContent,
-  DrawerOverlay,
-  useDisclosure,
-} from "@chakra-ui/react";
+import {} from "@chakra-ui/react";
 import { Link } from "gatsby";
 import { styled } from "linaria/react";
 import React, { useState } from "react";
 import { navLinks } from "../../constants/nav";
 import CartLink from "../CartLink";
 import CtaButton from "../CtaButton";
+import NavLogo from "../NavLogo";
 // import Search from "../search";
 const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
 
 const SubNavBar = () => {
-  const [current, setCurrent] = useState("mail");
+  // const [current, setCurrent] = useState("mail");
   const [drawerVisible, setDrawerVisible] = useState(false);
 
-  const handleClick = (e) => {
-    setCurrent(e.key);
-  };
+  // const handleClick = (e) => {
+  //   setCurrent(e.key);
+  // };
 
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const btnRef = React.useRef();
+  // const { isOpen, onOpen, onClose } = useDisclosure();
+  // const btnRef = React.useRef();
+
+  // function clicker() {
+  //   console.log(isExpanded); // logs false for the initial render
+  //   setToggleExpansion((prev) => !prev);
+  //   console.log(isExpanded); // logs false for the initial render
+  // }
+
+  const toggleMenu = () => {
+    setDrawerVisible((prev) => !prev);
+    console.log("here", drawerVisible);
+  };
 
   return (
     <NavCont>
+      <Drawer className={drawerVisible ? "open" : ""}>
+        <DrawerOverlay className={drawerVisible ? "open" : ""} />
+        <DrawerContent className={drawerVisible ? "open" : ""}>
+          <CloseBtn onClick={toggleMenu}>X</CloseBtn>
+          <Menu>
+            {navLinks.map((link, i) => (
+              <React.Fragment key={i}>
+                {link.length > 1 ? (
+                  <li>
+                    <label for={`m${i}`}>{link[0].name}</label>
+                    <input type="checkbox" id={`m${i}`} />
+                    <ul>
+                      {link[1].map((subMenu, i) => (
+                        <React.Fragment key={i}>
+                          <li>
+                            <Link to={subMenu.url}>{subMenu.name}</Link>
+                          </li>
+                        </React.Fragment>
+                      ))}
+                    </ul>
+                  </li>
+                ) : (
+                  <li>
+                    <Link to={link[0].url}>{link[0].name}</Link>
+                  </li>
+                )}
+              </React.Fragment>
+            ))}
+          </Menu>
+        </DrawerContent>
+      </Drawer>
       <Nav>
         <NavInner>
           <CtaButton
@@ -43,6 +79,7 @@ const SubNavBar = () => {
           />
         </NavInner>
         <MobileNav>
+          <NavLogo />
           <NavIcons>
             <NavIconsInner>
               <InnerFlex>
@@ -65,8 +102,7 @@ const SubNavBar = () => {
             <IconsCont>
               <MobileNavIcon
                 type="primary"
-                onClick={onOpen}
-                ref={btnRef}
+                onClick={toggleMenu}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
@@ -80,42 +116,75 @@ const SubNavBar = () => {
           </NavIcons>
         </MobileNav>
       </Nav>
-      <Drawer placement="right" onClose={onClose} isOpen={isOpen}>
-        <DrawerOverlay />
-        <DrawerContent backgroundColor="#fff">
-          <DrawerCloseButton />
-          <DrawerBody>
-            <Menu>
-              {navLinks.map((link, i) => (
-                <React.Fragment key={i}>
-                  {link.length > 1 ? (
-                    <li>
-                      <label for={`m${i}`}>{link[0].name}</label>
-                      <input type="checkbox" id={`m${i}`} />
-                      <ul>
-                        {link[1].map((subMenu, i) => (
-                          <React.Fragment key={i}>
-                            <li>
-                              <Link to={subMenu.url}>{subMenu.name}</Link>
-                            </li>
-                          </React.Fragment>
-                        ))}
-                      </ul>
-                    </li>
-                  ) : (
-                    <li>
-                      <Link to={link[0].url}>{link[0].name}</Link>
-                    </li>
-                  )}
-                </React.Fragment>
-              ))}
-            </Menu>
-          </DrawerBody>
-        </DrawerContent>
-      </Drawer>
     </NavCont>
   );
 };
+const CloseBtn = styled.div`
+  color: #aaa;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 100;
+  opacity: 1;
+  position: absolute;
+  right: 8px;
+  top: -3px;
+`;
+
+const DrawerOverlay = styled.div`
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+  width: 100%;
+  z-index: 1300;
+  &.open {
+    opacity: 100;
+    transition: opacity 0.4s ease-in-out;
+  }
+`;
+
+const Drawer = styled.div`
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(200%);
+  transition: transform 0.4s ease-in-out 0.4s;
+  z-index: 100;
+  &.open {
+    transform: translateX(0);
+    transition: transform 0ms ease-in-out;
+  }
+`;
+
+const DrawerContent = styled.div`
+  background-color: #fff;
+  height: 100%;
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  transform: translateX(100%);
+  transition: all 0.4s ease-in-out;
+  z-index: 1400;
+
+  &.open {
+    min-width: 50vw;
+    max-width: calc(100vw - 20px);
+    width: 300px;
+    transform: translateX(0);
+    transition: transform 0.4s ease-in-out;
+  }
+
+  // height: 100%;
+  // min-width: 50vw;
+  // max-width: calc(100vw - 20px);
+  // overflow-y: auto;
+  // position: absolute;
+  // background-color: #fff;
+  // width: 300px;
+  // z-index: 120;
+`;
 
 const NavInner = styled.div`
   display: none;

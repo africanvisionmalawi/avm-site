@@ -3,6 +3,7 @@ import { styled } from "linaria/react";
 import React from "react";
 import { navLinks } from "../../constants/nav";
 import CartLink from "../CartLink";
+import NavLogo from "../NavLogo";
 // import Search from "../search";
 // const searchIndices = [{ name: `Pages`, title: `Pages` }];
 // const { SubMenu } = Menu;
@@ -21,6 +22,7 @@ const Navbar = () => {
   return (
     <>
       <DesktopNav>
+        <NavLogo />
         <Row>
           <Menu>
             {navLinks.map((link, index) => (
