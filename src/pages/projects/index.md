@@ -146,4 +146,6 @@ columns:
 heroImage: ""
 heroMsg: ""
 gallery: []
----Here are links to some of the various projects that we do.
+---
+
+Here are links to some of the various projects that we do.
