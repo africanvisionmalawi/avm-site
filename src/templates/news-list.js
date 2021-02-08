@@ -9,9 +9,7 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Layout from "../components/Layout";
 // import paginationStyles from "../components/pagination.module.css";
 import postStyles from "../components/posts.module.css";
-import Seo from "../components/seo";
 import { tags, tagsBase } from "../constants/news";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 // const Section = styled.section`
 //   margin: 0 auto;
@@ -85,18 +83,12 @@ const NewsIndex = ({ pageContext }) => {
   // const pageNumbers = new Array(pageCount)
   //   .fill(undefined)
   //   .map((_, index) => index + 1);
-  const { siteUrl } = useSiteMetadata();
+
   const title = "Latest news - African Vision Malawi";
   const description = "Latest news from African Vision Malawi.";
-  const pathname = siteUrl + "/news/";
+
   return (
-    <Layout>
-      <Seo
-        title={title}
-        description={description}
-        pathname={pathname}
-        article={false}
-      />
+    <Layout title={title} description={description} article={false}>
       <section className="section section--gradient">
         <div className="container">
           <article className="content">

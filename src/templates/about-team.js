@@ -8,7 +8,6 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Seo from "../components/seo";
 import teamStyles from "../components/team.module.css";
 import TeamList from "../components/team/TeamList";
 import useSiteMetadata from "../hooks/use-site-metadata";
@@ -64,13 +63,11 @@ const TeamPage = ({ data }) => {
   const { siteUrl } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <TeamTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

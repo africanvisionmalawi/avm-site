@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
+import { styled } from "linaria/react";
 import React from "react";
-import styled, { css } from "styled-components";
 
 let crumbLink = "";
 let crumbLinkArray = [];
@@ -21,13 +21,11 @@ const Breadcrumbs = (props) => {
   //   console.log("crumb is " + crumbFiltered);
   return (
     <Links>
-      <HomeLink to="/">Home</HomeLink>
+      <Link to="/">Home</Link>
       {crumbFiltered.map((c, i) => (
         <React.Fragment key={i}>
           {i < crumbFiltered.length - 1 ? (
-            <CrumbLink to={`${getLinks(c, i)}/`}>
-              {c.replace(/-/g, " ")}
-            </CrumbLink>
+            <Link to={`${getLinks(c, i)}/`}>{c.replace(/-/g, " ")}</Link>
           ) : (
             <CrumbCurrent>{c.replace(/-/g, " ")}</CrumbCurrent>
           )}
@@ -44,16 +42,49 @@ const Links = styled.div`
     overflow-x: auto;
     white-space: nowrap;
   }
+  & > a {
+    color: #ababad;
+    display: inline-block;
+    font-size: 0.8em;
+    text-transform: capitalize;
+  }
+  & > a:not(:first-child):before {
+    color: #cacaca;
+    content: ">";
+    display: inline-block;
+    margin: 0 8px;
+  }
 `;
 
-const CrumbLinkBase = css`
+// const CrumbLinkBase = css`
+//   color: #ababad;
+//   display: inline-block;
+//   font-size: 0.8em;
+//   text-transform: capitalize;
+// `;
+
+// const CrumbDividerBase = css`
+//   &:before {
+//     color: #cacaca;
+//     content: ">";
+//     display: inline-block;
+//     margin: 0 8px;
+//   }
+// `;
+
+// const HomeLink = styled(Link)`
+//   ${CrumbLinkBase}
+//   &:link,
+//   &:visited {
+//     color: #ababad;
+//   }
+// `;
+
+const CrumbCurrent = styled.span`
   color: #ababad;
   display: inline-block;
   font-size: 0.8em;
   text-transform: capitalize;
-`;
-
-const CrumbDividerBase = css`
   &:before {
     color: #cacaca;
     content: ">";
@@ -62,26 +93,13 @@ const CrumbDividerBase = css`
   }
 `;
 
-const HomeLink = styled(Link)`
-  ${CrumbLinkBase}
-  &:link,
-  &:visited {
-    color: #ababad;
-  }
-`;
-
-const CrumbCurrent = styled.span`
-  ${CrumbLinkBase}
-  ${CrumbDividerBase}
-`;
-
-const CrumbLink = styled(Link)`
-  ${CrumbLinkBase}
-  ${CrumbDividerBase}
-  &:link,
-  &:visited {
-    color: #ababad;
-  }
-`;
+// const CrumbLink = styled(Link)`
+//   ${CrumbLinkBase}
+//   ${CrumbDividerBase}
+//   &:link,
+//   &:visited {
+//     color: #ababad;
+//   }
+// `;
 
 export default Breadcrumbs;

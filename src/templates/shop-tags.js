@@ -8,7 +8,6 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Seo from "../components/seo";
 import shopStyles from "../components/shop.module.css";
 import { ShopListItem } from "../components/shop/shop-list-item";
 import { tags, tagsBase } from "../constants/shop";
@@ -87,13 +86,11 @@ const ShopTagRoute = (props) => {
   } archive tagged with “${tag}”`;
 
   return (
-    <Layout>
-      <Seo
-        title={`${tagMetaTitle} | ${title}`}
-        description={description}
-        pathname={`${siteUrl}/shop/`}
-        article={false}
-      />
+    <Layout
+      title={`${tagMetaTitle} | ${title}`}
+      description={description}
+      article={false}
+    >
       <NavbarLower path={`/shop/`} />
       <ShopSection>
         <article>

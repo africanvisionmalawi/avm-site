@@ -13,7 +13,6 @@ import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import Seo from "../components/seo";
 import shopStyles from "../components/shop.module.css";
 // import PropTypes from "prop-types";
 import { ShopListItem } from "../components/shop/shop-list-item";
@@ -245,15 +244,13 @@ const ShopProductTemplate = ({
 
 const ShopProductPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
+
   return (
-    <Layout>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <ShopProductTemplate
         id={post.id}
         slug={post.fields.slug}

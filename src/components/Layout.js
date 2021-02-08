@@ -13,14 +13,17 @@ import "./css/all.css";
 import layoutStyles from "./layout.module.css";
 import useSiteMetadata from "./SiteMetadata";
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata();
+const TemplateWrapper = ({ title, description, article, children }) => {
+  const { siteTitle, siteDescription } = useSiteMetadata();
   return (
     <div className={`mainContainer ${layoutStyles.container}`}>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{title ? title + " | " + siteTitle : siteTitle}</title>
+        <meta
+          name="description"
+          content={description ? description : siteDescription}
+        />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -92,7 +95,7 @@ const TemplateWrapper = ({ children }) => {
         />
         <meta name="theme-color" content="#fff" />
 
-        <meta property="og:type" content="business.business" />
+        <meta property="og:type" content="business.charity" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta

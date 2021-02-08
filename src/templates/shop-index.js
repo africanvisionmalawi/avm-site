@@ -7,11 +7,9 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Seo from "../components/seo";
 import shopStyles from "../components/shop.module.css";
 import { ShopListItem } from "../components/shop/shop-list-item";
 import { tags, tagsBase } from "../constants/shop";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -27,17 +25,10 @@ const ShopSection = styled.section`
 `;
 
 const ShopIndex = ({ data }) => {
-  const { siteUrl } = useSiteMetadata();
   const title = "Shop - African Vision Malawi";
   const description = "Welcome to our online shop.";
   return (
-    <Layout>
-      <Seo
-        title={title}
-        description={description}
-        pathname={`${siteUrl}/shop/`}
-        article={false}
-      />
+    <Layout title={title} description={description} article={false}>
       <NavbarLower path={`/shop/`} />
       <ShopSection>
         <article className="content">

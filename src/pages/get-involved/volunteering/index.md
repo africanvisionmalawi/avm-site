@@ -23,7 +23,7 @@ We like to use volunteers to do research, programme proposals, evaluations, impl
 3. Prepare for your trip (book flights, get vaccinations, get insurance, plan activities, raise funds, pack)
 4. Go to Malawi and have an experience of a lifetime by making a difference to a community!
 5. Complete our Volunteer evaluation, so we can make the most of future volunteers’ time and skills in making a difference.
-   
+
 ![Literacy session in Library](/img/volunteer/Jennie-Hawley-literacy-in-library.jpg "Literacy session in the Library")
 _Literacy session in the Library_
 
@@ -37,7 +37,7 @@ Click [here](/pdfs/Volunteer-calculator.xlsx) for the volunteer cost calculator 
 
 You can email us at [info@africanvision.org.uk](mailto:info@africanvision.org.uk) or our phone number in the UK is 020 8287 8169.
 
-You can also read Lucy Bromley’s account of [volunteering for African Vision Malawi](/volunteering/volunteering-for-african-vision-malawi/).
+You can also read Lucy Bromley’s account of [volunteering for African Vision Malawi](/get-involved/volunteering/volunteering-for-african-vision-malawi/).
 
 ## Volunteer Programme Costs:
 

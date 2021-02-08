@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
+import PropTypes from "prop-types";
+import React from "react";
 import Divider from "./Divider";
 import heroStyles from "./heroimage.module.css";
-import styled, { css } from "styled-components";
 
 const hero = ({
   heroImage,
@@ -68,7 +68,13 @@ hero.propTypes = {
   heroMsg: PropTypes.string,
 };
 
-const HeroHeadingCss = css`
+const HeroContainer = styled.div`
+  // max-height: 540px;
+  // overflow: hidden;
+  position: relative;
+`;
+
+const HeroHeadingH1 = styled.h1`
   font-size: 2em;
   margin: 0.5em auto 0.5em;
   text-align: center;
@@ -83,18 +89,19 @@ const HeroHeadingCss = css`
   }
 `;
 
-const HeroContainer = styled.div`
-  // max-height: 540px;
-  // overflow: hidden;
-  position: relative;
-`;
-
-const HeroHeadingH1 = styled.h1`
-  ${HeroHeadingCss}
-`;
-
 const HeroHeadingH2 = styled.h2`
-  ${HeroHeadingCss}
+  font-size: 2em;
+  margin: 0.5em auto 0.5em;
+  text-align: center;
+  @media (min-width: 1024px) {
+    color: #fff;
+    font-size: 2.3em;
+    margin: 0 auto;
+    text-shadow: 0 0 20px #000;
+  }
+  @media (min-width: 1280px) {
+    font-size: 2.5em;
+  }
 `;
 
 const HeroMsg = styled.p`
@@ -126,10 +133,8 @@ const Overlay = styled.div`
 
 const HeroMsgCont = styled.div`
   @media (min-width: 1024px) {
-    // background: rgba(194, 126, 52, 0.9);
     bottom: 60px;
     left: 50%;
-    // max-height: 540px;
     max-width: 880px;
     padding: 15px;
     position: absolute;

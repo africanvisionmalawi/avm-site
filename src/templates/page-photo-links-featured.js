@@ -13,7 +13,6 @@ import NavbarLower from "../components/NavbarLower";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import { getFeaturedLinks } from "../utils/helpers";
 
@@ -113,17 +112,15 @@ const PagePhotoLinksFeaturedTemplate = (props) => {
 
 const PagePhotoLinksFeatured = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
+
   const { title } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <PagePhotoLinksFeaturedTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

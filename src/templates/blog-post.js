@@ -6,9 +6,7 @@ import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import Layout from "../components/Layout";
-import Seo from "../components/seo";
 import { TagsList } from "../components/shop/tagsList";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const TextSection = styled.section`
   background: #fff;
@@ -98,15 +96,13 @@ const BlogPostTemplate = ({
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
+
   return (
-    <Layout>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={true}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={true}
+    >
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}

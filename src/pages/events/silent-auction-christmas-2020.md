@@ -121,7 +121,7 @@ Beautiful handcrafted Land Rover made in rural Malawi 240mm long
 
 _Guide price_ _£50_
 
-![](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2020/11/Wooden-landrover-large-300x225.jpg)(http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2020/11/Wooden-landrover-large.jpg)
+![](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2020/11/Wooden-landrover-large-300x225.jpg)(https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2020/11/Wooden-landrover-large.jpg)
 
 **Bid here for Item 11 – Holiday in the Loire Valley, 14th Century Farmhouse with heated 16m pool**
 
@@ -129,7 +129,7 @@ Holiday in 2021 at _The Farm,_ a beautiful 14th-century farmhouse in the Loire V
 
 _Guide price_ _£1000_
 
-![](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-2-300x300.jpg =300x300)(http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-2.jpg)[![La Guimarderie in France](http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-3-300x200.jpg =300x200)(http://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-3.jpg)
+![](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-2-300x300.jpg =300x300)(https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-2.jpg)[![La Guimarderie in France](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-3-300x200.jpg =300x200)(https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/03/France-3.jpg)
 
 **Bid here for Item 12 – Print with Frame**
 

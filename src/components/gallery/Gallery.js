@@ -1,9 +1,9 @@
 import { DialogContent, DialogOverlay } from "@reach/dialog";
 // import "@reach/dialog/styles.css";
 import Img from "gatsby-image";
+import { styled } from "linaria/react";
 // import { styled } from "linaria/react";
 import React, { useState } from "react";
-import styled from "styled-components";
 import { v4 } from "uuid";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 import galleryStyles from "./gallery.module.css";

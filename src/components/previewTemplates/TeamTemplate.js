@@ -32,7 +32,7 @@ export const TeamTemplate = ({
   path,
 }) => {
   const PageContent = contentComponent || Content;
-
+  console.log("malawiteam ", malawiTeam);
   return (
     <>
       <NavbarLower path={path} />

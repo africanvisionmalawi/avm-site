@@ -15,7 +15,6 @@ import homepageStyles from "../components/homepage.module.css";
 import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Seo from "../components/seo";
 import videoStyles from "../components/videoPlayer/videos.module.css";
 dayjs.extend(advancedFormat);
 
@@ -67,13 +66,11 @@ const IndexPage = (props) => {
   };
 
   return (
-    <Layout>
-      <Seo
-        title={homeMeta[0].node.frontmatter.title}
-        description={homeMeta[0].node.frontmatter.description}
-        pathname={"/"}
-        article={false}
-      />
+    <Layout
+      title={homeMeta[0].node.frontmatter.title}
+      description={homeMeta[0].node.frontmatter.description}
+      article={false}
+    >
       <NavbarLower />
       <HomepageMain>
         <div className="container">
