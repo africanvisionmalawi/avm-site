@@ -9,7 +9,6 @@
     "@fontsource/roboto": "^4.1.0",
     "@reach/dialog": "^0.1.2",
     "@styled-icons/fa-solid": "^10.15.1",
-    "babel-plugin-styled-components": "^1.12.0",
     "babel-preset-gatsby": "^0.9.0",
     "dayjs": "^1.8.17",
     "gatsby": "^2.31",
