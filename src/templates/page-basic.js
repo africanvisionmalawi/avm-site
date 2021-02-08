@@ -10,8 +10,6 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Seo from "../components/seo";
-import useSiteMetadata from "../hooks/use-site-metadata";
 // const Section = styled.section`
 //   margin: 0 auto;
 //   max-width: 1050px;
@@ -111,18 +109,14 @@ PageBasicTemplate.propTypes = {
 
 const PageBasic = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
-  const { title } = useSiteMetadata();
 
   if (post.frontmatter.backgroundImage) {
     return (
-      <Layout>
-        <Seo
-          title={`${post.frontmatter.title} - ${title}`}
-          description={post.frontmatter.description}
-          pathname={`${siteUrl}${post.fields.slug}`}
-          article={false}
-        />
+      <Layout
+        title={`${post.frontmatter.title}`}
+        description={post.frontmatter.description}
+        article={false}
+      >
         <div>
           <BackgroundImage
             fluid={post.frontmatter.backgroundImage.childImageSharp.fluid}
@@ -149,13 +143,6 @@ const PageBasic = ({ data }) => {
   }
   return (
     <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
-
       <PageBasicTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

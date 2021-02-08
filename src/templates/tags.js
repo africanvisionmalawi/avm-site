@@ -2,7 +2,6 @@ import { graphql, Link } from "gatsby";
 // import postStyles from "../components/posts.module.css";
 import { styled } from "linaria/react";
 import React from "react";
-import Helmet from "react-helmet";
 import { PostListItem } from "../components/common/PostListItem";
 import Layout from "../components/Layout";
 
@@ -53,15 +52,18 @@ const TagRoute = (props) => {
   ));
   const tag = props.pageContext.tag;
   const tagMetaTitle = tag.charAt(0).toUpperCase() + tag.slice(1);
-  const title = props.data.site.siteMetadata.title;
+  // const title = props.data.site.siteMetadata.title;
   const totalCount = props.data.allMarkdownRemark.totalCount;
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   } archive tagged with “${tag}”`;
 
   return (
-    <Layout>
-      <Helmet title={`${tagMetaTitle} | ${title}`} />
+    <Layout
+      title={`${tagMetaTitle}`}
+      description={`${tagMetaTitle}`}
+      article={false}
+    >
       <article>
         <TextSection>
           <h1 className="title is-bold-light">{tagHeader}</h1>

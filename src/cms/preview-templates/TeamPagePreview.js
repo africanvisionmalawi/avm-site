@@ -3,7 +3,7 @@ import React from "react";
 import { TeamTemplate } from "../../components/previewTemplates/TeamTemplate";
 // import { TeamTemplate } from "../../templates/about-team.js";
 
-export const TeamPagePreview = ({ entry, widgetFor }) => {
+export const TeamPagePreview = ({ entry, widgetFor, getAsset }) => {
   console.log("entry", entry);
   console.log("widgetFor", widgetFor);
 
@@ -25,6 +25,17 @@ export const TeamPagePreview = ({ entry, widgetFor }) => {
     <TeamTemplate
       title={entry.getIn(["data", "title"])}
       content={widgetFor("body")}
+      // malawiTeam={{
+      //   name: entry.getIn(["data", "malawiTeam", "name"]),
+      //   order: entry.getIn(["data", "malawiTeam", "order"]),
+      //   role: entry.getIn(["data", "malawiTeam", "role"]),
+      //   photo: {
+      //     image: getAsset(
+      //       entry.getIn(["data", "malawiTeam", "photo", "image"])
+      //     ),
+      //     alt: entry.getIn(["data", "malawiTeam", "photo", "alt"]),
+      //   },
+      // }}
       malawiTeam={malawiTeam}
       ukTeam={ukTeam}
       malawiTitle={entry.getIn(["data", "malawiTitle"])}

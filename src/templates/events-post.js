@@ -8,9 +8,7 @@ import Content, { HTMLContent } from "../components/Content";
 import EventDate from "../components/EventDate";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Seo from "../components/seo";
 import { TagsList } from "../components/shop/tagsList";
-import useSiteMetadata from "../hooks/use-site-metadata";
 // import {SectionTop} from '../components/common/SectionTop'
 
 // const Section = styled.section`
@@ -124,15 +122,12 @@ const EventsPostTemplate = ({
 
 const EventsPost = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
   return (
-    <Layout>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={true}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <EventsPostTemplate
         content={post.html}
         contentComponent={HTMLContent}

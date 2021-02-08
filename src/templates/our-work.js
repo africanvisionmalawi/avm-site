@@ -7,7 +7,6 @@ import Content, { HTMLContent } from "../components/Content";
 import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
 const OurWorkPage = ({ data }) => {
@@ -16,13 +15,11 @@ const OurWorkPage = ({ data }) => {
   const PageContent = HTMLContent || Content;
   const ourWorkData = data.homePage.edges[0].node.frontmatter.ourWork;
   return (
-    <Layout>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <NavbarLower />
       <Section>
         <SectionTop>

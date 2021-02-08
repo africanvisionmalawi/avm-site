@@ -10,7 +10,6 @@ import Gallery from "../components/gallery/Gallery";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import pageBasicStyles from "../components/pageBasic.module.css";
-import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
 // const Section = styled.section`
@@ -75,17 +74,14 @@ PageGalleryTemplate.propTypes = {
 
 const PageGallery = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
   const { title } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <PageGalleryTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

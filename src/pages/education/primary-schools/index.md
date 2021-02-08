@@ -21,51 +21,51 @@ We currently have 20 Malawian schools partnered with 23 schools in the UK. Out o
 
 Partnerships:
 
-Bowa & [St Paul’s Primary, Primrose Hill](http://www.stpauls.camden.sch.uk/)
+Bowa & [St Paul’s Primary, Primrose Hill](https://www.stpauls.camden.sch.uk/)
 
 Chibwata & [Tolworth Infants, Tolworth](https://www.sites.google.com/site/tolworthinfantschool/)
 
-Chikhutu & [Maple Infants Primary, Surbiton](http://www.mapleinfants.co.uk/)
+Chikhutu & [Maple Infants Primary, Surbiton](https://www.mapleinfants.co.uk/)
 
-Chikuyakuti & [Christ Church School, Surbiton](http://www.ccp.kingston.sch.uk/)
+Chikuyakuti & [Christ Church School, Surbiton](https://www.ccp.kingston.sch.uk/)
 
-Chimphepo & [Hounslow Town Primary](http://www.hounslowtownprimary.co.uk/)
+Chimphepo & [Hounslow Town Primary](https://www.hounslowtownprimary.co.uk/)
 
-Chitedze & [Lovelace Primary, Kingston upon Thames](http://www.lovelace.kingston.sch.uk/)
+Chitedze & [Lovelace Primary, Kingston upon Thames](https://www.lovelace.kingston.sch.uk/)
 
-Chitsime & [The Mall Prep School, Twickenham](http://www.themallschool.org.uk/)
+Chitsime & [The Mall Prep School, Twickenham](https://www.themallschool.org.uk/)
 
-Kafutwe & [Briar Hill, Leamington Spa](http://www.briarhillstmargarets.co.uk/)
+Kafutwe & [Briar Hill, Leamington Spa](https://www.briarhillstmargarets.co.uk/)
 
 Kafutwe & [Dysart School](https://dysartschool.org/about_us/)
 
-Kakoma & [St.Mary’s Primary School, Warwick](http://stmaryimmaculateschool.co.uk/)
+Kakoma & [St.Mary’s Primary School, Warwick](https://stmaryimmaculateschool.co.uk/)
 
-Masiye & [Holy Ghost Catholic Primary School, Balham](http://www.holyghost.wandsworth.sch.uk/)
+Masiye & [Holy Ghost Catholic Primary School, Balham](https://www.holyghost.wandsworth.sch.uk/)
 
-Masiye & [St Matthews Primary, Surbiton](http://www.stmatthews.kingston.sch.uk/page/default.asp?title=Home&pid=1)
+Masiye & [St Matthews Primary, Surbiton](https://www.stmatthews.kingston.sch.uk/page/default.asp?title=Home&pid=1)
 
-M’bang’ombe & [Long Ditton Infants, Long Ditton](http://longditton.surrey.sch.uk/)
+M’bang’ombe & [Long Ditton Infants, Long Ditton](https://longditton.surrey.sch.uk/)
 
-M’bang’ombe & [Ridgeway School, Leamington Spa](http://www.ridgewaysch.co.uk/)
+M’bang’ombe & [Ridgeway School, Leamington Spa](https://www.ridgewaysch.co.uk/)
 
-M’khalapadzuwa & [St John’s Primary, Kingston](http://www.stjohns.kingston.sch.uk/)
+M’khalapadzuwa & [St John’s Primary, Kingston](https://www.stjohns.kingston.sch.uk/)
 
-Mkhunku & [Cheam Common Infants School, Sutton](http://www.cheamcommoninfants.com/)
+Mkhunku & [Cheam Common Infants School, Sutton](https://www.cheamcommoninfants.com/)
 
-Mlumbwira & [Alexandra Infant School, Kingston upon Thames](http://www.alexandra.kingston.sch.uk/page/default.asp?title=Home&pid=1)
+Mlumbwira & [Alexandra Infant School, Kingston upon Thames](https://www.alexandra.kingston.sch.uk/page/default.asp?title=Home&pid=1)
 
-Mtemambalame & [The Mead Infant School](http://www.mead.surrey.sch.uk/)
+Mtemambalame & [The Mead Infant School](https://www.mead.surrey.sch.uk/)
 
-M’teza & [Knollmead Primary, Tolworth](http://www.knollmeadprimary.co.uk/)
+M’teza & [Knollmead Primary, Tolworth](https://www.knollmeadprimary.co.uk/)
 
-Mtseteza & [Elsenham C of E Primary](http://elsenham.essex.sch.uk/)
+Mtseteza & [Elsenham C of E Primary](https://elsenham.essex.sch.uk/)
 
-Namanyanga & [Coombe Hill Infants’, Kingston](http://www.coombehillinfants.com/page/default.asp?title=Home&pid=1)
+Namanyanga & [Coombe Hill Infants’, Kingston](https://www.coombehillinfants.com/page/default.asp?title=Home&pid=1)
 
 Songwe & [Twickenham Prep School](https://twickenhamprep.org.uk/about-us/headmasters-welcome/)
 
-– as an example, you can read all about the [partnership between Chitsime and The Mall](http://www.africanvision.org.uk/education/primary-schools/school-partnership-chitsime-primary-the-mall-twickenham/)
+– as an example, you can read all about the [partnership between Chitsime and The Mall](https://www.africanvision.org.uk/education/primary-schools/school-partnership-chitsime-primary-the-mall-twickenham/)
 
 We do school partnership updates twice a year where we go to the schools in the UK and collect information to take to Malawi; we then collect similar information from the schools in Malawi to bring back to their partners in the UK.
 
@@ -79,7 +79,7 @@ The Schools Partnership Programme has been so successful that in 2015 we began l
 
 Many of the UK schools have fundraised for projects in their partner schools, which has had a massive positive impact on the students at their partner schools. Here are some examples of just a few recent projects:
 
-- The Mall, Twickenham UK fundraised for a new double classroom school block, learning materials and desks for Chitsime, and also equipment for the feeding programme at the attached pre-school. You can read more about [their partnership here](http://www.africanvision.org.uk/education/primary-schools/school-partnership-chitsime-primary-the-mall-twickenham/).
+- The Mall, Twickenham UK fundraised for a new double classroom school block, learning materials and desks for Chitsime, and also equipment for the feeding programme at the attached pre-school. You can read more about [their partnership here](https://www.africanvision.org.uk/education/primary-schools/school-partnership-chitsime-primary-the-mall-twickenham/).
 - Cheam Common Infant UK fundraised around 840,000MKW for Mkunkhu Primary and the money assisted buying building materials and labour for three teachers houses. Two houses were built at the end of 2014 and the remaining one was finished in 2015.
 - St Paul’s Primary UK fundraised 291,000MKW for Bowa Primary in Mteza Zone and the money assisted buying building materials for one teacher’s house.
 - Maple Infants Primary UK fundraised 543,000MKW for Chikhutu Primary in Chikhutu Zone, the money assisted buying building materials for one administration block.
@@ -89,7 +89,7 @@ Many of the UK schools have fundraised for projects in their partner schools, wh
 
 You can support any of our Education projects and make a sustainable difference to the future of Malawi’s children and young people.
 
-Or you may like to [sponsor a secondary school child](http://www.africanvision.org.uk/projects/secondary-school-sponsorship/).
+Or you may like to [sponsor a secondary school child](https://www.africanvision.org.uk/projects/secondary-school-sponsorship/).
 
 **Teacher Visits**
 

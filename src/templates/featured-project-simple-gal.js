@@ -12,7 +12,6 @@ import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import pageBasicStyles from "../components/pageBasic.module.css";
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`
@@ -131,13 +130,11 @@ const FeaturedProjectsPageSimpleGal = ({ data }) => {
   const { title } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <FeaturedProjectsSimpleGalTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

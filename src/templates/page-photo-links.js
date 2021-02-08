@@ -12,8 +12,6 @@ import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import pageBasicStyles from "../components/pageBasic.module.css";
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import Seo from "../components/seo";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -97,17 +95,13 @@ const PagePhotoLinksTemplate = ({
 
 const PagePhotoLinks = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
-  const { title } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <PagePhotoLinksTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

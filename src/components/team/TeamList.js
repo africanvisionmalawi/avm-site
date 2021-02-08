@@ -3,24 +3,27 @@ import Img from "gatsby-image";
 import { styled } from "linaria/react";
 import React from "react";
 
-const TeamList = (props) => (
-  <>
-    <Heading>{props.heading}</Heading>
-    <List>
-      {props.teamData.map((team) => (
-        <li key={team.name}>
-          {team.photo && typeof team.photo === "object" && (
-            <TeamPhoto>
-              <Img fixed={team.photo.childImageSharp.fixed} alt={team.name} />
-            </TeamPhoto>
-          )}
-          <SubHeading>{team.name}</SubHeading>
-          <About>{team.role}</About>
-        </li>
-      ))}
-    </List>
-  </>
-);
+const TeamList = (props) => {
+  console.log("props", props);
+  return (
+    <>
+      <Heading>{props.heading}</Heading>
+      <List>
+        {props.teamData.map((team) => (
+          <li key={team.name}>
+            {team.photo && typeof team.photo === "object" && (
+              <TeamPhoto>
+                <Img fixed={team.photo.childImageSharp.fixed} alt={team.name} />
+              </TeamPhoto>
+            )}
+            <SubHeading>{team.name}</SubHeading>
+            <About>{team.role}</About>
+          </li>
+        ))}
+      </List>
+    </>
+  );
+};
 
 const List = styled.ul`
   align-items: flex-start;

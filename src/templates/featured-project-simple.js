@@ -16,7 +16,6 @@ import pageBasicStyles from "../components/pageBasic.module.css";
 // import Gallery from "../components/gallery/Gallery";
 // import Lightbox from "../components/lightbox"
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import Seo from "../components/seo";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`
@@ -132,13 +131,11 @@ const FeaturedProjectsPageSimple = ({ data }) => {
   const { title } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <FeaturedProjectsSimpleTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

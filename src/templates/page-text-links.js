@@ -9,8 +9,6 @@ import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import PageLinks from "../components/PageLinks";
-import Seo from "../components/seo";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const PageTextLinksTemplate = ({
   title,
@@ -54,17 +52,13 @@ PageTextLinksTemplate.propTypes = {
 
 const PageTextLinks = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
-  const { title } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <PageTextLinksTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

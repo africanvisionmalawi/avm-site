@@ -15,7 +15,6 @@ import pageBasicStyles from "../components/pageBasic.module.css";
 // import Gallery from '../components/Gallery'
 // import Lightbox from "../components/lightbox"
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import Seo from "../components/seo";
 import Videos from "../components/videoPlayer/Videos";
 import useSiteMetadata from "../hooks/use-site-metadata";
 
@@ -146,13 +145,11 @@ const FeaturedProjectsPageSimpleVid = ({ data }) => {
   const { title } = useSiteMetadata();
 
   return (
-    <Layout>
-      <Seo
-        title={`${post.frontmatter.title} - ${title}`}
-        description={post.frontmatter.description}
-        pathname={`${siteUrl}${post.fields.slug}`}
-        article={false}
-      />
+    <Layout
+      title={`${post.frontmatter.title}`}
+      description={post.frontmatter.description}
+      article={false}
+    >
       <FeaturedProjectsSimpleVidTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
