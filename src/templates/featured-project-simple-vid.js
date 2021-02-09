@@ -16,7 +16,6 @@ import pageBasicStyles from "../components/pageBasic.module.css";
 // import Lightbox from "../components/lightbox"
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import Videos from "../components/videoPlayer/Videos";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const Section = styled.section`
   margin: 0 auto;
@@ -141,8 +140,6 @@ FeaturedProjectsSimpleVidTemplate.propTypes = {
 
 const FeaturedProjectsPageSimpleVid = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
-  const { title } = useSiteMetadata();
 
   return (
     <Layout

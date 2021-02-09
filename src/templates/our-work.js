@@ -7,11 +7,9 @@ import Content, { HTMLContent } from "../components/Content";
 import HomepageProjectsCols from "../components/HomepageProjectsCols";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const OurWorkPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
   const PageContent = HTMLContent || Content;
   const ourWorkData = data.homePage.edges[0].node.frontmatter.ourWork;
   return (

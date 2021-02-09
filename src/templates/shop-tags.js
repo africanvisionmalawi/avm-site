@@ -11,7 +11,6 @@ import NavbarLower from "../components/NavbarLower";
 import shopStyles from "../components/shop.module.css";
 import { ShopListItem } from "../components/shop/shop-list-item";
 import { tags, tagsBase } from "../constants/shop";
-import useSiteMetadata from "../hooks/use-site-metadata";
 // const Section = styled.section`
 //   margin: 0 auto;
 //   max-width: 1050px;
@@ -61,9 +60,8 @@ const ShopSection = styled.section`
 `;
 
 const ShopTagRoute = (props) => {
-  const { siteUrl } = useSiteMetadata();
   const posts = props.data.allMarkdownRemark.edges;
-  const tagTitle = posts[0].node.frontmatter.title;
+
   const postLinks = posts.map((post) => (
     <ShopListItem
       id={post.node.id}

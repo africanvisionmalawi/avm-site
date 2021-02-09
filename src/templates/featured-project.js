@@ -16,7 +16,6 @@ import NavbarLower from "../components/NavbarLower";
 // import Lightbox from "../components/lightbox"
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
 import Videos from "../components/videoPlayer/Videos";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const FeaturedProjectsTemplate = ({
   heroImage,
@@ -120,8 +119,6 @@ const FeaturedProjectsTemplate = ({
 
 const FeaturedProjectsPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
-  const { title } = useSiteMetadata();
 
   return (
     <Layout

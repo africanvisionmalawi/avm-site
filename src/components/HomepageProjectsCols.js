@@ -26,7 +26,7 @@ const HomepageProjectsCols = (props) => {
       {props.displayHeading === true ? <Heading>What we do</Heading> : ""}
       <TileGrid>
         {props.ourWork.map((project) => (
-          <Tile>
+          <Tile key={project.imageId}>
             <Link to={`/${project.url}/`}>
               <ImageCont>
                 {project.imageId && (

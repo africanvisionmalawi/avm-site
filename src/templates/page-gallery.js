@@ -10,7 +10,6 @@ import Gallery from "../components/gallery/Gallery";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import pageBasicStyles from "../components/pageBasic.module.css";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 // const Section = styled.section`
 //   margin: 0 auto;
@@ -74,7 +73,6 @@ PageGalleryTemplate.propTypes = {
 
 const PageGallery = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { title } = useSiteMetadata();
 
   return (
     <Layout
