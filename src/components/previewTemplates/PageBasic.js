@@ -26,13 +26,13 @@ import HeadingH1 from "../HeadingH1";
 //   width: 100%;
 // `;
 
-const BackgroundContainer = styled.div`
-  // &,
-  // &:before {
-  //   background-position: 50% 102px;
-  //   background-size: auto;
-  // }
-`;
+// const BackgroundContainer = styled.div`
+//   // &,
+//   // &:before {
+//   //   background-position: 50% 102px;
+//   //   background-size: auto;
+//   // }
+// `;
 
 const BackgroundCont = styled.div`
   margin: 0 auto;

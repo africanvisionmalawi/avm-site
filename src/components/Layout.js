@@ -8,21 +8,22 @@ import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/nav/main";
 import SubNavBar from "../components/nav/sub";
+import { siteMeta } from "../constants/site";
 // import NavLogo from "../components/NavLogo";
 import "./css/all.css";
 import layoutStyles from "./layout.module.css";
-import useSiteMetadata from "./SiteMetadata";
+// import useSiteMetadata from "./SiteMetadata";
 
 const TemplateWrapper = ({ title, description, article, children }) => {
-  const { siteTitle, siteDescription } = useSiteMetadata();
+  // const { siteTitle, siteDescription } = useSiteMetadata();
   return (
     <div className={`mainContainer ${layoutStyles.container}`}>
       <Helmet>
         <html lang="en" />
-        <title>{title ? title + " | " + siteTitle : siteTitle}</title>
+        <title>{title ? title + " | " + siteMeta.title : siteMeta.title}</title>
         <meta
           name="description"
-          content={description ? description : siteDescription}
+          content={description ? description : siteMeta.description}
         />
         <link
           rel="apple-touch-icon"

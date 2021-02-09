@@ -13,7 +13,6 @@ import NavbarLower from "../components/NavbarLower";
 // import { Link } from 'gatsby'
 import pageBasicStyles from "../components/pageBasic.module.css";
 import PageLinksWithPhotos from "../components/PageLinksWithPhotos";
-import useSiteMetadata from "../hooks/use-site-metadata";
 import { getFeaturedLinks } from "../utils/helpers";
 
 const Section = styled.section`
@@ -112,8 +111,6 @@ const PagePhotoLinksFeaturedTemplate = (props) => {
 
 const PagePhotoLinksFeatured = ({ data }) => {
   const { markdownRemark: post } = data;
-
-  const { title } = useSiteMetadata();
 
   return (
     <Layout

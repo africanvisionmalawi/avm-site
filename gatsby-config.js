@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: "https://www.africanvision.org.uk",
     baseUrl: "https://www.africanvision.org.uk",
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, FAST_REFRESH: true },
   plugins: [
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -177,7 +177,15 @@ module.exports = {
             </billing>`,
       },
     },
-
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        // Exclude specific pages or groups of pages using glob parameters
+        // See: https://github.com/isaacs/minimatch
+        // The example below will exclude the single `path/to/page` and all routes beginning with `category`
+        exclude: [`/mailing-list-sucess/*`],
+      },
+    },
     {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {

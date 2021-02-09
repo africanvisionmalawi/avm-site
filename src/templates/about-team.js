@@ -10,7 +10,6 @@ import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import teamStyles from "../components/team.module.css";
 import TeamList from "../components/team/TeamList";
-import useSiteMetadata from "../hooks/use-site-metadata";
 
 const TeamTemplate = ({
   content,
@@ -60,7 +59,6 @@ const TeamTemplate = ({
 
 const TeamPage = ({ data }) => {
   const { markdownRemark: post } = data;
-  const { siteUrl } = useSiteMetadata();
 
   return (
     <Layout
