@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: "https://www.africanvision.org.uk",
     baseUrl: "https://www.africanvision.org.uk",
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, FAST_REFRESH: true },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -84,6 +84,7 @@ module.exports = {
         ],
       },
     },
+    // `gatsby-plugin-image`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
