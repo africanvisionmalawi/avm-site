@@ -1,5 +1,3 @@
-// import PropTypes from "prop-types";
-// import { useStaticQuery, graphql } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
 

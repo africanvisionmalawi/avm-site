@@ -5,6 +5,7 @@ import { withPrefix } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
 import { Helmet } from "react-helmet";
+import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Footer from "../components/Footer";
 import Navbar from "../components/nav/main";
 import SubNavBar from "../components/nav/sub";
@@ -12,6 +13,7 @@ import { siteMeta } from "../constants/site";
 // import NavLogo from "../components/NavLogo";
 import "./css/all.css";
 import layoutStyles from "./layout.module.css";
+
 // import useSiteMetadata from "./SiteMetadata";
 
 const TemplateWrapper = ({ title, description, article, children }) => {
@@ -113,6 +115,7 @@ const TemplateWrapper = ({ title, description, article, children }) => {
       <Wrapper>
         <div className={layoutStyles.container__top}>
           <div className="main-body">{children}</div>
+          <FeaturedProjectsTiles currentProject="none" displayHeading={true} />
         </div>
         <div className={layoutStyles.container__lower}>
           <Footer />

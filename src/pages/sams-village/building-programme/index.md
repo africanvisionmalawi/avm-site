@@ -28,21 +28,21 @@ _Workshop_
 
 ![photo](/img/building-programme/06-Accommodation-blocks.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/07-adobe-1.jpg)
+![photo](/img/building-programme/07-adobe-1.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/08-adobe-4.jpg)
+![photo](/img/building-programme/08-adobe-4.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/09-staff-accommodation.jpg)
+![photo](/img/building-programme/09-staff-accommodation.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/10-Restaurant-and-kitchen.jpg)
+![photo](/img/building-programme/10-Restaurant-and-kitchen.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/11-P1070979-Medium.jpg)
+![photo](/img/building-programme/11-P1070979-Medium.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/12-P1070983-Medium.jpg)
+![photo](/img/building-programme/12-P1070983-Medium.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/13-Reception.jpg)
+![photo](/img/building-programme/13-Reception.jpg)
 
-![photo](/Users/nigelbunner/Sites/git/avm-site/static/img/building-programme/14-adobe-6.jpg)
+![photo](/img/building-programme/14-adobe-6.jpg)
 
 All the buildings are built using rammed earth techniques. This is a traditional – and sustainable – method of building in Malawi and across the world. Formwork is made from timber and then an earth and lime mixed is rammed between the formwork to create the walls. The walls are plastered and the buildings can either be thatched or tiled. The formwork can be reused. (You can read more about the details of building in rammed earth [here](/sams-village/njewa-new-office/rammed-earth-building/).
 

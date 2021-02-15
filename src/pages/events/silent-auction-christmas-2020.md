@@ -64,7 +64,7 @@ Yellow and white patchwork quilt (small double)
 _Guide price_ _£250_
 
 \*\*  
-**[**_![](/img/events/P1100193-225x300.jpg =225x300)_\*\*](/img/events/P1100193-rotated.jpg)
+**[**_![](/img/events/P1100193-225x300.jpg)_\*\*](/img/events/P1100193-rotated.jpg)
 
 ![](/img/events/P1100194-300x225.jpg)![photo](/img/events/P1100194.jpg)
 
@@ -237,8 +237,6 @@ _Guide price_ _£20_
 Tropic products worth £25. An exotic blend of creamy coconut and vanilla-scented body products plus deep hydration and skin-feast day cream.
 
 _Guide price_ _£25_
-
-![](/img/events/Coconut-1.jpg)![photo](/img/events/Coconut-1.jpg)
 
 **Bid here for Item 25 – Back, Neck and Shoulder Massage**
 

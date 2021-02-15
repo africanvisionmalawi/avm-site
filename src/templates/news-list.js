@@ -5,7 +5,6 @@ import React from "react";
 import ArticleList from "../components/ArticleList";
 import { NavTags } from "../components/common/nav-tags";
 import Donate from "../components/Donate";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Layout from "../components/Layout";
 // import paginationStyles from "../components/pagination.module.css";
 import postStyles from "../components/posts.module.css";
@@ -149,10 +148,6 @@ const NewsIndex = ({ pageContext }) => {
               />
             </div>
           </article>
-          <FeaturedProjectsTiles
-            currentProject="default"
-            displayHeading={true}
-          />
         </div>
       </section>
     </Layout>

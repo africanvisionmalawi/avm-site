@@ -52,7 +52,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-relative-images",
             options: {
-              name: "uploads",
+              staticFolderName: "/static",
             },
           },
           // "gatsby-remark-relative-images",
@@ -62,7 +62,8 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 2048,
+              maxWidth: 885,
+              tracedSVG: true,
             },
           },
           {
@@ -194,13 +195,13 @@ module.exports = {
         // disable: true,
       },
     },
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-        // stylesPath: `${__dirname}/src/components/css/all.css`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-netlify-cms`,
+    //   options: {
+    //     modulePath: `${__dirname}/src/cms/cms.js`,
+    //     // stylesPath: `${__dirname}/src/components/css/all.css`,
+    //   },
+    // },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };

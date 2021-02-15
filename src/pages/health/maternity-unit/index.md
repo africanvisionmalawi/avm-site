@@ -1,40 +1,38 @@
 ---
 templateKey: page-gallery
 title: Maternity unit
-description: Gandys ‘Orphans for Orphans’ has funded the building of a pre-school
-  at Funsani, Lumbadzi Centre. This has been much needed and the community have been
-  asking for support for the last three years.
+description: Gandys ‘Orphans for Orphans’ has funded the building of a pre-school at Funsani, Lumbadzi Centre. This has been much needed and the community have been asking for support for the last three years.
 headerImage: "/img/chemex.jpg"
 gallery:
-- alt: The Plaque Beds made Baby Project4Africa Malawi
-  photo: "/img/The-Plaque.jpg"
-- alt: Baby
-  photo: "/img/Malawi-2-040.jpg"
-- alt: Mother and baby
-  photo: "/img/Malawi-2-036.jpg"
-- alt: Baby
-  photo: "/img/Malawi-2-035.jpg"
-- alt: Baby
-  photo: "/img/Malawi-2-034.jpg"
-- alt: Beds
-  photo: "/img/Beds-made.jpg"
-- alt: Beds
-  photo: "/img/Malawi-2-030.jpg"
-- alt: Maternity Unit
-  photo: "/img/Malawi-2-028.jpg"
-- alt: Baby
-  photo: "/img/Baby-Project4Africa-1.jpg"
-- alt: During building
-  photo: "/img/Maternity1-Oct13.jpg"
-- alt: Roof beam
-  photo: "/img/Roof-beam.jpg"
-- alt: Maternity Unit Foundations
-  photo: "/img/Maternity-Unit-Foundations_sml.jpg"
-
+  - alt: The Plaque Beds made Baby Project4Africa Malawi
+    photo: "/img/The-Plaque.jpg"
+  - alt: Baby
+    photo: "/img/Malawi-2-040.jpg"
+  - alt: Mother and baby
+    photo: "/img/malawi-2-036.jpg"
+  - alt: Baby
+    photo: "/img/Malawi-2-035.jpg"
+  - alt: Baby
+    photo: "/img/Malawi-2-034.jpg"
+  - alt: Beds
+    photo: "/img/Beds-made.jpg"
+  - alt: Beds
+    photo: "/img/Malawi-2-030.jpg"
+  - alt: Maternity Unit
+    photo: "/img/Malawi-2-028.jpg"
+  - alt: Baby
+    photo: "/img/Baby-Project4Africa-1.jpg"
+  - alt: During building
+    photo: "/img/Maternity1-Oct13.jpg"
+  - alt: Roof beam
+    photo: "/img/Roof-beam.jpg"
+  - alt: Maternity Unit Foundations
+    photo: "/img/Maternity-Unit-Foundations_sml.jpg"
 ---
+
 The opening of the Maternity Unit in M’bang’ombe was held on 12th November 2013 and was attended by Dorothy Ngoma, who is the President’s Advisor on Safe Motherhood. Amazingly the first baby was born in the unit that very day! This 10 bed unit is the first in our area to have lighting and internal running water via a solar pump.
 
-![](/img/IMG_4993.jpg)The completed Maternity Unit
+![](/img/img_4993.jpg)The completed Maternity Unit
 
 ![](/img/IMG_8981.jpg)
 
@@ -51,7 +49,7 @@ During our 2015 Christmas Campaign, A Child is Born, we fundraised for resources
 To support our maternity projects, please click here:
 Donate
 
-![](/img/IMG_8988.jpg)
+![](/img/img_8988.jpg)
 
 Newborn baby in maternity unit
 

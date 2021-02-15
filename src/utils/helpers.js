@@ -57,3 +57,7 @@ export const priceFormatted = (price) => {
   }
   return 0.0;
 };
+
+export const slugToTitle = (slug) => {
+  return slug.replace("-", " ");
+};
