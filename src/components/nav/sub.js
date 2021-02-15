@@ -190,11 +190,14 @@ const NavInner = styled.div`
   justify-content: space-between;
   flex-wrap: nowrap;
   @media (min-width: 768px) {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0 0 6px 6px;
     display: flex;
   }
 `;
 
 const NavIconsInner = styled.div`
+  background: rgba(255, 255, 255, 0.7);
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -208,7 +211,6 @@ const InnerFlex = styled.div`
 `;
 
 const NavCont = styled.div`
-  background: rgba(255, 255, 255, 0.7);
   position: sticky;
   top: 0;
   z-index: 7;
@@ -228,11 +230,11 @@ const BtnsCont = styled.div`
 
 const IconsCont = styled.div`
   align-items: center;
+  background: rgba(255, 255, 255, 0.7);
   display: flex;
-  height: 41px;
+  height: 48px;
   justify-content: center;
-
-  // width: 35px;
+  padding: 0 4px;
 `;
 
 const Menu = styled.ul`
