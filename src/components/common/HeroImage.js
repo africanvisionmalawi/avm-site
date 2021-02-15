@@ -83,7 +83,7 @@ const ChildrenCont = styled.div`
   padding: 1rem;
   text-align: center;
   width: 100%;
-  z-index: 10;
+  z-index: 6;
   & p {
     margin-bottom: 0.5rem;
   }

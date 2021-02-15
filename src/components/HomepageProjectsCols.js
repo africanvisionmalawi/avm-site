@@ -27,7 +27,7 @@ const HomepageProjectsCols = (props) => {
       <TileGrid>
         {props.ourWork.map((project) => (
           <Tile key={project.imageId}>
-            <Link to={`/${project.url}/`}>
+            <Link to={`${project.url}`}>
               <ImageCont>
                 {project.imageId && (
                   <Img
@@ -54,7 +54,7 @@ const HomepageProjectsCols = (props) => {
               <div>
                 <Title>{project.name}</Title>
                 <p>{project.excerpt}</p>
-                <Link to={`/${project.url}/`} className={styles.btn}>
+                <Link to={`${project.url}`} className={styles.btn}>
                   Find out more
                 </Link>
               </div>
