@@ -6,7 +6,9 @@ description:
   across our area.  11 are supported by Feed the Children. In the UK they would be
   called pre-schools.
 headerImage: "/img/chemex.jpg"
----African Vision Malawi runs 13 Community Based Childcare Centres (CBCCs) across our area. 11 are supported by Feed the Children. In the UK they would be called pre-schools.
+---
+
+African Vision Malawi runs 13 Community Based Childcare Centres (CBCCs) across our area. 11 are supported by Feed the Children. In the UK they would be called pre-schools.
 
 They are located in Chipasula, Chiweza II, Kafutwe, Masiye, Mkhambwe, Mlumbwira, Mngwizi, M’teza and Namanyanga.
 Caregiver teaching the children an action game at Namanyanga CBCC
