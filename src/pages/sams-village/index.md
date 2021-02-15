@@ -8,7 +8,7 @@ description:
   a 17-acre site. The  objective is to support a move away from hand-outs and to train
   thousands of local people out of poverty.
 heroImage: "/img/mainphoto_village-ver3.jpg"
-heroImageMobile: "/img/mainphoto_village-ver3-mobile.jpg"
+heroImageMobile: "/img/hero/mainphoto_village-ver3-mobile.jpg"
 hasMobileImage: true
 heroMsg: ""
 videos:

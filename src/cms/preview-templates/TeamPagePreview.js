@@ -1,7 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
-import { TeamTemplate } from "../../components/previewTemplates/TeamTemplate";
-// import { TeamTemplate } from "../../templates/about-team.js";
+// import { TeamTemplate } from "../../components/previewTemplates/TeamTemplate";
+import { TeamTemplate } from "../../templates/about-team.js";
 
 export const TeamPagePreview = ({ entry, widgetFor, getAsset }) => {
   console.log("entry", entry);

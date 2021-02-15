@@ -4,8 +4,6 @@ import React from "react";
 import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-// import FeaturedProjects from "../components/FeaturedProjects";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import PageLinks from "../components/PageLinks";
@@ -37,7 +35,6 @@ const PageTextLinksTemplate = ({
           text="Donate"
           displayImage
         />
-        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>
     </div>
   );
