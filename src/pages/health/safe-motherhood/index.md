@@ -19,7 +19,7 @@ Our amazing midwives, Diana and Abiya, with CEO Heather
 
 Our amazing midwives, Diana and Abiya, with CEO Heather
 
-During our 2015 Christmas Campaign, A Child is Born, we fundraised for resources to turn the neighbouring building into a Waiting Home to encourage women to come to the unit earlier than their due date. The building will also include observation rooms and an Under 5’s clinic and we will be running programmes so mothers can learn more about good nutrition. Building work will commence in 2017.
+During our 2015 Christmas Campaign, A Child is Born, we fundraised for resources to turn the neighbouring building into a Safe Motherhood Unit (SMU) to encourage women to come to the unit earlier than their due date. The building will also include observation rooms and an Under 5’s clinic and we will be running programmes so mothers can learn more about good nutrition. Thanks to significant fundraising appeal by [Bryanston School](https://www.bryanston.co.uk/news/?pid=3&nid=57&storyid=1412 "Bryanston School raises money for SMU"), building work will commence in 2021.
 
 1 in 6 women die in childbirth in Malawi. Improving maternity care is so important.
 
