@@ -64,6 +64,6 @@ ourWork:
   featured: false
 
 ---
-Regrettably our bike rides in Malawi have been postponed, although September 2021 is a possibility.   With most of our Fundraising cut back this year, do consider supporting us by a small standing order. We have reduced most of our field activities so that we can minimise the effect on our staff and the most vulnerable, but do please help if you can by Donating above. Thank you!
+Regrettably our bike rides in Malawi have been postponed, although September 2021 is a possibility.   With most of our Fundraising cut back this year, do consider supporting us by a small standing order. We have reduced most of our field activities so that we can minimise the effect on our staff and the most vulnerable, but do please help if you can by donating above. Thank you!
 
 More about our our Upcoming Events [here ...](/events/ "View events")
