@@ -6,7 +6,7 @@ import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import Layout from "../components/Layout";
-import { TagsList } from "../components/shop/tagsList";
+// import { TagsList } from "../components/shop/tagsList";
 
 const TextSection = styled.section`
   background: #fff;
@@ -78,7 +78,7 @@ const BlogPostTemplate = ({
                 </a>
               </div>
             ) : null} */}
-            {tags && tags.length ? <TagsList tags={tags} /> : null}
+            {/* {tags && tags.length ? <TagsList tags={tags} /> : null} */}
             <ViewAll>
               <Link to="/news/">View all news</Link>
             </ViewAll>

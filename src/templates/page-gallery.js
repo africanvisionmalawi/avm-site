@@ -55,7 +55,10 @@ const PageGalleryTemplate = ({
             />
           </main>
           {gallery.length && (
-            <Gallery gallery={gallery} initialState={{ showDialog: false }} />
+            <>
+              <span id="gallery"></span>
+              <Gallery gallery={gallery} initialState={{ showDialog: false }} />
+            </>
           )}
         </article>
         <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
