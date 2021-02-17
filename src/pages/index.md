@@ -23,7 +23,8 @@ ourWork:
   imageId: PhotoHealth
   photo: "/img/mainphoto_health.jpg"
   excerpt: "11% of children don't reach their 5th birthday\n50% of deaths of under
-    5's is due to malaria\n11% of Malawians are living with HIV/AIDS \n(WHO 2009)"
+    5's is due to malaria\n11% of Malawians are living with HIV/AIDS \n(WHO 2009).
+    Read about our new Safe Motherhood Unit for 2021."
   featured: true
 - id: education
   name: Education
