@@ -6,7 +6,7 @@ description: We will be building a waiting home for new mothers at the recently 
   maternity unit.
 
 ---
-So far we have raised over £13,000 towards the cost of building a Safe Motherhood Unit (SMU) at the maternity unit in M’bang’ombe. Thank you to every single person who contributed so generously. Over the next year we intend to push for the final amount needed of £35,600. We hope to start the extension and renovations in 2021, and we will post updates here and on our Facebook page.
+So far we have raised over £20,000 mainly through the efforts of Bryanston School who fundraised during 2020. This will go towards the cost of building a Safe Motherhood Unit (SMU) at the maternity unit in M’bang’ombe. Thank you to every single person who contributed so generously. Over the next year we intend to push for the final amount needed of £35,600. We hope to start the extension and renovations in 2021, and we will post updates here and on social media.
 
 The SMU will be a waiting home for new mothers at the recently completed maternity unit. We want to reduce risks in childbirth to expectant mothers and their unborn children.
 
@@ -22,7 +22,7 @@ In Malawi expectant mothers are not provided with food and support in hospital a
 
 ![Maternity Unit, completed in stage one of the project](/img/img_4993.jpg "Maternity Unit, completed in stage one of the project")
 
-…Therefore, during the second stage of the project, for which we are fundraising through the ‘A Child is Born’ campaign, we are going to build a waiting home, so that expectant mothers can come to the maternity clinic earlier. The building will also include observation rooms and an under 5’s clinic. In front of the building we will plant nutritional permaculture gardens.
+…Therefore, during the second stage of the project, for which we are fundraising through the ‘A Child is Born’ campaign, we are going to build a Safe Motherhood Unit, so that expectant mothers can come to the maternity clinic earlier. The building will also include observation rooms and an under 5’s clinic. In front of the building we will plant nutritional permaculture gardens.
 
 ![New mother and baby](/img/malawi-2-036.jpg "New mother and baby")
 
