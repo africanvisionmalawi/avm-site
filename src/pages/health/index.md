@@ -45,7 +45,7 @@ links:
   photo: "/img/page-links/link-health-room.jpg"
   url: "./hivaids/"
 - linkText: The under 5's are one of our most vulnerable groups where 11% never reach
-    the age of 5 years old. They often die through disentary from drinking dirty water,
+    the age of 5 years old. They often die through dysentery from drinking dirty water,
     or malaria.
   linkTitle: Feeding Programmes
   photo: "/img/page-links/link-feeding.jpg"
