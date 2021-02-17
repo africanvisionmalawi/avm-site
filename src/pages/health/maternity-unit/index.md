@@ -42,32 +42,19 @@ Inside the Maternity Unit
 
 Our amazing midwives, Diana and Abiya, with CEO Heather
 
-During our 2015 Christmas Campaign, A Child is Born, we fundraised for resources to turn the neighbouring building into a Waiting Home to encourage women to come to the unit earlier than their due date. The building will also include observation rooms and an Under 5’s clinic and we will be running programmes so mothers can learn more about good nutrition. Building work will commence in 2017.
+During our 2015 Christmas Campaign, A Child is Born, we fundraised for resources to turn the neighbouring building into a Safe Motherhood Unit (SMU) to encourage women to come to the unit earlier than their due date. The building will also include observation rooms and an Under 5’s clinic and we will be running programmes so mothers can learn more about good nutrition. Thanks to significant fundraising appeal by [Bryanston School](https://www.bryanston.co.uk/news/?pid=3&nid=57&storyid=1412 "Bryanston School raises money for SMU"), building work will commence in 2021.
 
 1 in 6 women die in childbirth in Malawi. Improving maternity care is so important.
 
-To support our maternity projects, please click here:
-Donate
-
 ![](/img/img_8988.jpg)
-
-Newborn baby in maternity unit
 
 Project4Africa raised funds for stage one of the much needed Maternity Unit project. Others involved in supporting this project are Liz Bartley, Sarah Rogers, Richard North, Gaynor Cook, Jo & Mike Calvert, Brian Heywood, Reed Elsevier and The Trusthouse Charitable Foundation. Our grateful thanks all of them for making the Maternity Unit idea become reality.
 M'bangombe Maternity Unit
 
-A selection of more photos of the Maternity Unit:
-The Plaque Beds made Baby Project4Africa Malawi 2 028 Malawi 2 030 Malawi 2 034 Malawi 2 035 Malawi 2 036 Malawi 2 040
+See below for [more photos of the Maternity Unit](#gallery):
 
-The Maternity Unit during building works:
-Maternity Unit at Oct 13 Roof beam Maternity Unit Foundations_sml
+### Can you make a donation to the new Waiting Home wing?
 
-To donate to the new Waiting Home wing and support our projects, please click here:
-Donate
+To donate to the new Waiting Home wing and support our projects, please click Donate below:
 
-And take a look here at some photos of the old maternity unit…. We are so glad we could build the new unit!!
-Maternity UnitMaternity UnitMaternity UnitMaternity UnitMaternity Unit
-
-Can you make a donation to the new Waiting Home wing?
-Donate
 Thank you.
