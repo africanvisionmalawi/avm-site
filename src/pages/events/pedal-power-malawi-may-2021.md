@@ -18,7 +18,7 @@ tags:
 - cycle
 
 ---
-You may have heard about our amazing sponsored bike rides through Malawi over the last few years.                        
+You may have heard about our amazing sponsored bike rides through Malawi over the last few years. Are you up for it?
 
 Would you like to join us next year? After incredible cycle rides in 2018 and 2019, we have 2 more planned for 2020. **THIS WILL NOW TAKE PLACE NEXT YEAR 2021, DATES YET TO BE AGREED.** Get inspired by watching the[ 2019 Video here!!](https://vimeo.com/352330947)
 
