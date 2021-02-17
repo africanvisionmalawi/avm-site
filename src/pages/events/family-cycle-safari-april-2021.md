@@ -19,7 +19,7 @@ url: ''
 tags: []
 
 ---
-**WE NOW EXPECT THIS TO HAPPEN IN 2022, DATES YET TO BE AGREED.** We have developed a new ride – perfect for families or individuals who want a gentle introduction to Africa. This will provide a unique opportunity to experience some amazing African wildlife, bush breakfasts, giant baobab trees and ancient cave paintings, whilst also enabling you to visit some of the Charity’s development projects (the permaculture garden, health clinic and orphan schools) and sleep in Sam’s Village, which is an eco-built training centre, surrounded by traditional Malawi villages.
+We have developed a new ride – perfect for families or individuals who want a gentle introduction to Africa. **WE NOW EXPECT THIS TO HAPPEN IN 2022, DATES YET TO BE AGREED.** This will provide a unique opportunity to experience some amazing African wildlife, bush breakfasts, giant baobab trees and ancient cave paintings, whilst also enabling you to visit some of the Charity’s development projects (the permaculture garden, health clinic and orphan schools) and sleep in Sam’s Village, which is an eco-built training centre, surrounded by traditional Malawi villages.
 
 There is a PDF [available here](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/10/NP-Family-Cycle-Safari-April-2020-Overview.pdf) with more about the trip or just click on the poster below.
 
