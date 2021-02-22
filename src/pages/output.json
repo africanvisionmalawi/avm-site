@@ -1,0 +1,1906 @@
+{
+  "aeroplane": {
+    "templateKey": "shop-product-page",
+    "salePrice": null,
+    "inStock": 1,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "weight": 350,
+    "length": 350,
+    "width": 200,
+    "height": 180,
+    "title": "Aeroplane",
+    "publish": true,
+    "productId": "grass-aeroplane",
+    "description": "Handcrafted in Malawi approximately 300 mm long, made out of Malawian grass.",
+    "price": 10,
+    "shippingClass": "",
+    "relatedProducts": [
+      "grass-jeep"
+    ],
+    "galleryPhotos": [
+      "/img/aeroplane.jpg"
+    ],
+    "productImage": "",
+    "total_sales": null,
+    "preview": "Handcrafted in Malawi approximately 300 mm long, made out of …",
+    "content": "\nHandcrafted in Malawi approximately 300 mm long, made out of Malawian grass.",
+    "basename": "aeroplane"
+  },
+  "all-three-books-tinas-story-mau-apasulas-story-and-lazalos-story": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "All three books: Tina's story, Mau Apasula's story and Lazalo's story.",
+    "date": "2013-03-31T20:31:37+01:00",
+    "publish": true,
+    "price": 18,
+    "salePrice": 0,
+    "description": "",
+    "productId": "2160",
+    "product_shipping_class": "book",
+    "size": "book",
+    "weight": 250,
+    "shoptags": [
+      "books"
+    ],
+    "total_sales": [
+      0
+    ],
+    "galleryPhotos": [
+      "/img/4b0c05b10c0b0books.jpg"
+    ],
+    "relatedProducts": [
+      "2163",
+      "2165",
+      "2168"
+    ],
+    "preview": "True life stories about some real children Landirani has helped. …",
+    "content": "\n\nTrue life stories about some real children Landirani has helped. Written by Heather Palmer and Kafumbi Njewa. Illustrated by Adam Newton\n",
+    "iso8601Date": "2013-03-31T20:31:37+01:00",
+    "basename": "all-three-books-tinas-story-mau-apasulas-story-and-lazalos-story"
+  },
+  "bag-for-life": {
+    "templateKey": "shop-product-page",
+    "productId": "bag-for-life",
+    "title": "Bag for life",
+    "date": "2013-03-31T22:18:46+01:00",
+    "description": "Folded shopping bag with a button. These are handmade by our graduates from Sam's Village.",
+    "price": 10,
+    "salePrice": 0,
+    "inStock": 20,
+    "weight": 0,
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "shippingClass": "na",
+    "size": "",
+    "product_shipping_class": "letter",
+    "shoptags": [
+      "craft"
+    ],
+    "relatedProducts": [
+      "zip-bags"
+    ],
+    "galleryPhotos": [
+      "/img/bag-for-life.jpg"
+    ],
+    "publish": true,
+    "preview": "Folded shopping bag with a button. These are handmade by our …",
+    "content": "\n\nFolded shopping bag with a button. These are handmade by our graduates from Sam's Village.\n",
+    "iso8601Date": "2013-03-31T22:18:46+01:00",
+    "basename": "bag-for-life"
+  },
+  "bell": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Bell postcard",
+    "date": "2013-03-31T22:55:45+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/bell",
+    "description": "",
+    "productId": "2223",
+    "shoptags": [
+      "postcards"
+    ],
+    "product_shipping_class": "letter",
+    "size": "card",
+    "total_sales": [
+      0
+    ],
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "preview": "Back of postcard blank Photographs by Nicky Hobhouse.",
+    "content": "\n\nBack of postcard blank Photographs by Nicky Hobhouse.\n",
+    "iso8601Date": "2013-03-31T22:55:45+01:00",
+    "basename": "bell"
+  },
+  "big-shoes": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Big shoes postcard",
+    "date": "2013-03-31T22:56:34+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/big-shoes",
+    "description": "",
+    "productId": "2225",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "shoptags": [
+      "postcards"
+    ],
+    "product_shipping_class": "letter",
+    "size": "card",
+    "total_sales": [
+      0
+    ],
+    "preview": "Back of postcard blank Photographs by Nicky Hobhouse.",
+    "content": "\n\nBack of postcard blank Photographs by Nicky Hobhouse.\n",
+    "iso8601Date": "2013-03-31T22:56:34+01:00",
+    "basename": "big-shoes"
+  },
+  "black-and-white": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Black and white postcard",
+    "date": "2013-03-31T22:57:27+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/black-and-white",
+    "description": "",
+    "productId": "2227",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      4
+    ],
+    "preview": "Back of postcard blank Photographs by Nicky Hobhouse.",
+    "content": "\n\nBack of postcard blank Photographs by Nicky Hobhouse.\n",
+    "iso8601Date": "2013-03-31T22:57:27+01:00",
+    "basename": "black-and-white"
+  },
+  "brother": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Brother postcard",
+    "date": "2013-03-31T23:03:41+01:00",
+    "publish": true,
+    "price": 0.5,
+    "salePrice": 0,
+    "permalink": "/product/brother",
+    "description": "",
+    "productId": "2245",
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "total_sales": [
+      3
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf78ed5988mnyamata.jpg"
+    ],
+    "preview": "Back of postcard blank Illustrations by Adam Newton.",
+    "content": "\n\nBack of postcard blank Illustrations by Adam Newton.\n",
+    "iso8601Date": "2013-03-31T23:03:41+01:00",
+    "basename": "brother"
+  },
+  "build-a-well-and-pump": {
+    "templateKey": "shop-product-page",
+    "productId": "buildWellPump",
+    "productImage": "/img/4b0c05483d2d6working_borehole.jpg",
+    "galleryPhotos": [
+      "/img/4b0c05483d2d6working_borehole.jpg"
+    ],
+    "title": "Build a well and pump",
+    "date": "2013-03-31T22:18:46+01:00",
+    "description": "Give a gift that will make a difference We will send you the gift card/s",
+    "price": 500,
+    "salePrice": 0,
+    "inStock": 100,
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "shippingClass": "na",
+    "size": "card",
+    "product_shipping_class": "letter",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:18:46+01:00",
+    "basename": "build-a-well-and-pump"
+  },
+  "build-up-a-well": {
+    "templateKey": "shop-product-page",
+    "productId": "buildUpWell",
+    "title": "Build up a well",
+    "productImage": "/img/shop/build-a-well-1.jpg",
+    "galleryPhotos": [
+      "/img/shop/build-a-well-1.jpg"
+    ],
+    "description": "Give a gift that will make a difference...",
+    "price": 100,
+    "salePrice": 100,
+    "inStock": 100,
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "shippingClass": "na",
+    "size": "card",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "preview": "Give a gift that will make a difference When you place this order we …",
+    "content": "\n\nGive a gift that will make a difference When you place this order we will send you a form to fill out with the details of the recipient so we can make a plaque with their name on it to go on the well when we build it. Thank you…\n",
+    "basename": "build-up-a-well"
+  },
+  "bunting": {
+    "templateKey": "shop-product-page",
+    "salePrice": 0,
+    "inStock": 2,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "title": "Bunting",
+    "publish": true,
+    "productId": "bunting",
+    "description": "Individually made bunting hand crafted by our graduates at Sam’s Village",
+    "price": 10,
+    "shippingClass": "parcel",
+    "weight": 125,
+    "width": 320,
+    "height": 230,
+    "length": 30,
+    "galleryPhotos": [
+      "/img/bunting.jpg"
+    ],
+    "preview": "Individually made bunting hand crafted by our graduates at Sam’s …",
+    "content": "\n\nIndividually made bunting hand crafted by our graduates at Sam’s Village\n",
+    "basename": "bunting"
+  },
+  "buy-10-mosquito-nets": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Buy 10 mosquito nets",
+    "date": "2013-03-31T22:21:35+01:00",
+    "publish": true,
+    "price": 10,
+    "salePrice": 0,
+    "permalink": "/product/buy-10-mosquito-nets",
+    "description": "",
+    "productId": "2194",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      7
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfe714ba00malawi-005-225x300.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:21:35+01:00",
+    "basename": "buy-10-mosquito-nets"
+  },
+  "buy-a-bike": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Buy a bike",
+    "date": "2013-03-31T21:18:49+01:00",
+    "publish": true,
+    "price": 35,
+    "salePrice": 0,
+    "permalink": "/product/buy-a-bike",
+    "description": "",
+    "productId": "2177",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      4
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf910a421e_31_0259.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T21:18:49+01:00",
+    "basename": "buy-a-bike"
+  },
+  "buy-a-blanket": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Buy a blanket",
+    "date": "2013-03-31T22:26:20+01:00",
+    "publish": true,
+    "price": 4,
+    "salePrice": 0,
+    "permalink": "/product/buy-a-blanket",
+    "description": "",
+    "productId": "2204",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      5
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfea5653f7malawi-april-2007-347.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:26:20+01:00",
+    "basename": "buy-a-blanket"
+  },
+  "buy-a-chicken": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Buy a chicken",
+    "date": "2013-03-31T22:31:03+01:00",
+    "publish": true,
+    "price": 5,
+    "salePrice": 0,
+    "permalink": "/product/buy-a-chicken",
+    "description": "",
+    "productId": "2218",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "weight": 9,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      49
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfe4a17334img_5041.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:31:03+01:00",
+    "basename": "buy-a-chicken"
+  },
+  "buy-a-cow": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Buy a Biogas Cow",
+    "date": "2013-03-31T22:27:40+01:00",
+    "publish": false,
+    "permalink": "/product/buy-a-cow",
+    "description": "",
+    "productId": "2208",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      0
+    ],
+    "preview": "We are going to be building a [biogas …",
+    "content": "\n\nWe are going to be building a [biogas digester](https://www.africanvision.org.uk/sams-village/biogas/) at Sam’s Village, which will collect methane gas from cow manure to produce gas for us to cook on sustainably at our Training Village Restaurant. Buy a cow, or more than one, to be a part of our new herd.\n\nIf you need to buy a special birthday present for someone, this is the perfect original gift! You will receive a gift card too.\n\nThis is part of our project to create a truly sustainable Training Village at [Sam’s Village](https://www.africanvision.org.uk/sams-village/), and like all our projects, supports orphans and vulnerable people in our focus area.\n\nYou can also buy a [share in a biogas cow](https://www.africanvision.org.uk/product/buy-a-biogas-cow-share/) for £50!\n\nThank you for your support!\n",
+    "iso8601Date": "2013-03-31T22:27:40+01:00",
+    "basename": "buy-a-cow"
+  },
+  "buy-a-goat": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Buy a goat",
+    "date": "2013-03-31T22:29:41+01:00",
+    "publish": true,
+    "price": 25,
+    "salePrice": 0,
+    "permalink": "/product/buy-a-goat",
+    "description": "",
+    "productId": "2214",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "weight": 9,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      18
+    ],
+    "galleryPhotos": [
+      "/img/4b0c392c5c444img_5046.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:29:41+01:00",
+    "basename": "buy-a-goat"
+  },
+  "buy-a-pig": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Buy a pig",
+    "date": "2013-03-31T22:30:28+01:00",
+    "publish": true,
+    "price": 20,
+    "salePrice": 0,
+    "permalink": "/product/buy-a-pig",
+    "description": "",
+    "productId": "2216",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "weight": 9,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      8
+    ],
+    "galleryPhotos": [
+      "/img/4b0c00097eaebpig_2.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:30:28+01:00",
+    "basename": "buy-a-pig"
+  },
+  "buy-a-sleeping-mat": {
+    "templateKey": "shop-product-page",
+    "salePrice": null,
+    "inStock": 10,
+    "shoptags": [
+      "support-malawi"
+    ],
+    "title": "Buy a sleeping mat",
+    "productId": "BuyASleepingMat",
+    "description": "Give a gift that will make a difference We will send you the gift card/s",
+    "price": 2,
+    "size": "card",
+    "shippingClass": "",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "publish": true,
+    "galleryPhotos": [
+      "/img/4b0c02b2efd72cnv00023-1.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "basename": "buy-a-sleeping-mat"
+  },
+  "children-of-mbangombe-village": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Children of M'Bang'ombe village (Music CD)",
+    "date": "2013-03-31T15:40:45+01:00",
+    "publish": true,
+    "price": 5,
+    "salePrice": 0,
+    "permalink": "/product/children-of-mbangombe-village",
+    "description": "",
+    "productId": "2102",
+    "size": "cd",
+    "weight": 84,
+    "shoptags": [
+      "media"
+    ],
+    "relatedProducts": [
+      "2158"
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf8178a32bcd.jpg"
+    ],
+    "preview": "Beautiful singing by the fantastic children in M’Bang’ombe School, …",
+    "content": "\n\nBeautiful singing by the fantastic children in M’Bang’ombe School, Malawi\n",
+    "iso8601Date": "2013-03-31T15:40:45+01:00",
+    "basename": "children-of-mbangombe-village"
+  },
+  "christmas-cards-last-chance-at-halfprice": {
+    "templateKey": "shop-product-page",
+    "inStock": 5,
+    "title": "Christmas Cards half price for 10 cards",
+    "date": "2013-11-18T17:24:03+00:00",
+    "publish": true,
+    "price": 5,
+    "salePrice": 2.5,
+    "permalink": "/product/christmas-cards-last-chance-at-halfprice",
+    "description": "",
+    "productId": "2659",
+    "product_visibility": [
+      "featured"
+    ],
+    "shoptags": [
+      "christmas"
+    ],
+    "size": "card",
+    "weight": 171,
+    "length": 155,
+    "width": 155,
+    "height": 11,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      9
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf78ed5988mnyamata.jpg"
+    ],
+    "preview": "Limited stock available at a reduced price of £2.50 + postage for 10 …",
+    "content": "\n\nLimited stock available at a reduced price of £2.50 + postage for 10 cards. This is the last batch of Landirani cards as they have been superseded by African Vision Malawi cards.\n",
+    "iso8601Date": "2013-11-18T17:24:03+00:00",
+    "basename": "christmas-cards-last-chance-at-halfprice"
+  },
+  "christmas-cards-pack-of-5-cards-design-by-erik-boaru": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Christmas Cards pack of 5 cards, design by Erik Boaru",
+    "date": "2014-10-13T13:23:17+01:00",
+    "publish": true,
+    "price": 2.5,
+    "salePrice": 0,
+    "permalink": "/product/christmas-cards-pack-of-5-cards-design-by-erik-boaru",
+    "description": "",
+    "productId": "2809",
+    "shoptags": [
+      "christmas"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 107,
+    "length": 155,
+    "width": 155,
+    "height": 11,
+    "total_sales": [
+      13
+    ],
+    "galleryPhotos": [
+      "/img/xmas-card-front-600px-design1.jpg",
+      "/img/xmas-card-back-600px-design1.jpg"
+    ],
+    "preview": "A pack of 5 christmas cards, designed by Erik Boaru from Kingston …",
+    "content": "\n\nA pack of 5 christmas cards, designed by Erik Boaru from Kingston College.\n",
+    "iso8601Date": "2014-10-13T13:23:17+01:00",
+    "basename": "christmas-cards-pack-of-5-cards-design-by-erik-boaru"
+  },
+  "christmas-cards-pack-of-5-cards-design-by-lisa-mason": {
+    "templateKey": "shop-product-page",
+    "inStock": 0,
+    "title": "Christmas Cards pack of 5 cards, design by Lisa Mason",
+    "date": "2014-10-13T15:03:51+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/christmas-cards-pack-of-5-cards-design-by-lisa-mason",
+    "description": "",
+    "productId": "2814",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "size": "card",
+    "shoptags": [
+      "christmas"
+    ],
+    "product_shipping_class": "letter",
+    "total_sales": [
+      5
+    ],
+    "preview": "A pack of 5 christmas cards, designed by Lisa Mason from Kingston …",
+    "content": "\n\nA pack of 5 christmas cards, designed by Lisa Mason from Kingston College.\n",
+    "iso8601Date": "2014-10-13T15:03:51+01:00",
+    "basename": "christmas-cards-pack-of-5-cards-design-by-lisa-mason"
+  },
+  "christmas-cards-pack-of-5-cards-design-by-malaika-hardy-fraser": {
+    "templateKey": "shop-product-page",
+    "inStock": 0,
+    "title": "Christmas Cards pack of 5 cards, design by Malaika Hardy-Fraser",
+    "date": "2014-10-13T15:07:53+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/christmas-cards-pack-of-5-cards-design-by-malaika-hardy-fraser",
+    "description": "",
+    "productId": "2818",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "size": "card",
+    "shoptags": [
+      "christmas"
+    ],
+    "product_shipping_class": "letter",
+    "total_sales": [
+      74
+    ],
+    "preview": "A pack of 5 christmas cards, designed by Malaika Hardy-Fraser from …",
+    "content": "\n\nA pack of 5 christmas cards, designed by Malaika Hardy-Fraser from Kingston College.\n",
+    "iso8601Date": "2014-10-13T15:07:53+01:00",
+    "basename": "christmas-cards-pack-of-5-cards-design-by-malaika-hardy-fraser"
+  },
+  "christmas-cards-pack-of-5-cards-design-by-nikola-ban": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Christmas Cards pack of 5 cards, design by Nikola Ban",
+    "date": "2014-10-13T15:10:18+01:00",
+    "publish": true,
+    "price": 2.5,
+    "salePrice": 0,
+    "permalink": "/product/christmas-cards-pack-of-5-cards-design-by-nikola-ban",
+    "description": "",
+    "productId": "2822",
+    "shoptags": [
+      "christmas"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 107,
+    "length": 155,
+    "width": 155,
+    "height": 11,
+    "total_sales": [
+      6
+    ],
+    "galleryPhotos": [
+      "/img/xmas-card-front-300px-design4.jpg"
+    ],
+    "preview": "A pack of 5 christmas cards, designed by Nikola Ban from Kingston …",
+    "content": "\n\nA pack of 5 christmas cards, designed by Nikola Ban from Kingston College.\n",
+    "iso8601Date": "2014-10-13T15:10:18+01:00",
+    "basename": "christmas-cards-pack-of-5-cards-design-by-nikola-ban"
+  },
+  "christmas-cards-pack-of-5-cards-design-by-paige-coote": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Christmas Cards pack of 5 cards, design by Paige Coote",
+    "date": "2014-10-13T15:12:31+01:00",
+    "publish": true,
+    "price": 2.5,
+    "salePrice": 0,
+    "permalink": "/product/christmas-cards-pack-of-5-cards-design-by-paige-coote",
+    "description": "",
+    "productId": "2826",
+    "shoptags": [
+      "christmas"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 107,
+    "length": 155,
+    "width": 155,
+    "height": 11,
+    "total_sales": [
+      25
+    ],
+    "galleryPhotos": [
+      "/img/xmas-card-front-600px-design5.jpg",
+      "/img/xmas-card-back-600px-design5.jpg"
+    ],
+    "preview": "A pack of 5 christmas cards, designed by Paige Coote from Kingston …",
+    "content": "\n\nA pack of 5 christmas cards, designed by Paige Coote from Kingston College.\n",
+    "iso8601Date": "2014-10-13T15:12:31+01:00",
+    "basename": "christmas-cards-pack-of-5-cards-design-by-paige-coote"
+  },
+  "christmas-cards-park-of-10-cards-5-different-designs": {
+    "templateKey": "shop-product-page",
+    "inStock": 0,
+    "title": "Christmas Cards pack of 10 cards, 5 different designs",
+    "date": "2014-10-13T15:28:56+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/christmas-cards-park-of-10-cards-5-different-designs",
+    "description": "",
+    "productId": "2830",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "shoptags": [
+      "christmas"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      25
+    ],
+    "preview": "New for 2014 – a pack of 10 cards containing 2 of each of the …",
+    "content": "\n\nNew for 2014 – a pack of 10 cards containing 2 of each of the designs made by Kingston College students.\n",
+    "iso8601Date": "2014-10-13T15:28:56+01:00",
+    "basename": "christmas-cards-park-of-10-cards-5-different-designs"
+  },
+  "donate-any-amount-to-sam-s-village-and-our-matched-fund-will-double-it": {
+    "templateKey": "shop-product-page",
+    "salePrice": 0,
+    "inStock": 10,
+    "weight": 0,
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "shoptags": [
+      "christmas"
+    ],
+    "title": "Donate any amount to Sam's Village and our Matched Fund will double it!",
+    "productId": "donateSamsVillage",
+    "productImage": "/img/gift-card-image.jpg",
+    "galleryPhotos": [
+      "/img/gift-card-image.jpg"
+    ],
+    "description": "",
+    "price": 1000,
+    "shippingClass": "",
+    "preview": "**A Christmas Present to make a difference**\n\nDo consider making a …",
+    "content": "\n\n**A Christmas Present to make a difference**\n\nDo consider making a donation to Sam's Village as a gift to your loved ones.\n\n[![](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image-237x300.jpg =237x300)](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image.jpg)\n\nWe will send you a gift card which you can personalise and pass on as your present.\n\nWhen you donate, please mention 'Christmas Present' in your message and of course your address.\n",
+    "basename": "donate-any-amount-to-sam-s-village-and-our-matched-fund-will-double-it"
+  },
+  "donate-to-sams-village": {
+    "templateKey": "shop-product-page",
+    "productId": "donate-to-sams-village",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "title": "Donate an amount to Sam's Village instead of a Christmas present",
+    "date": "2013-03-31T22:18:46+01:00",
+    "description": "Do consider making a donation to Sam's Village as a gift to your loved ones.",
+    "price": 10,
+    "salePrice": 0,
+    "inStock": 25,
+    "weight": 0,
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "shippingClass": "na",
+    "size": "card",
+    "product_shipping_class": "letter",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "preview": "<strong>A Christmas Present to make a difference</strong>\n\nDo …",
+    "content": "\n\n<strong>A Christmas Present to make a difference</strong>\n\nDo consider making a donation to Sam's Village as a gift to your loved ones.\n\nWe will send you a gift card which you can personalise and&nbsp;pass on as your present.\n\nWhen you donate,&nbsp;please mention 'Christmas Present' in your message and of course your address.&nbsp;\n\n<a href=\"/projects/sams-village/\">READ ABOUT SAM'S VILLAGE&nbsp;&gt;</a>\n\n<a href=\"https://africanvisionmalawi.charitycheckout.co.uk/#!/\">Click here to Donate</a>\n\n&nbsp;\n\n&nbsp;\n",
+    "iso8601Date": "2013-03-31T22:18:46+01:00",
+    "basename": "donate-to-sams-village"
+  },
+  "family": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Family postcard",
+    "date": "2013-03-31T23:02:20+01:00",
+    "publish": true,
+    "price": 0.5,
+    "salePrice": 0,
+    "permalink": "/product/Family",
+    "description": "",
+    "productId": "2241",
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "total_sales": [
+      6
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf76a11bdbfamily.jpg"
+    ],
+    "preview": "Back of postcard blank Illustrations by Adam Newton.",
+    "content": "\n\nBack of postcard blank Illustrations by Adam Newton.\n",
+    "iso8601Date": "2013-03-31T23:02:20+01:00",
+    "basename": "family"
+  },
+  "feed-an-orphan-for-a-year": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Feed an orphan for a year",
+    "date": "2013-03-31T22:29:09+01:00",
+    "publish": true,
+    "price": 20,
+    "salePrice": 0,
+    "permalink": "/product/feed-an-orphan-for-a-year",
+    "description": "",
+    "productId": "2212",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      11
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfa9cc2330dscf0453.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:29:09+01:00",
+    "basename": "feed-an-orphan-for-a-year"
+  },
+  "flowers": {
+    "templateKey": "shop-product-page",
+    "inStock": 0,
+    "title": "Flowers postcard",
+    "date": "2013-03-31T22:54:53+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/flowers",
+    "description": "",
+    "productId": "2221",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      5
+    ],
+    "preview": "Back of postcard blank Photographs by Nicky Hobhouse.",
+    "content": "\n\nBack of postcard blank Photographs by Nicky Hobhouse.\n",
+    "iso8601Date": "2013-03-31T22:54:53+01:00",
+    "basename": "flowers"
+  },
+  "girl-doorway": {
+    "templateKey": "shop-product-page",
+    "inStock": 0,
+    "title": "Girl doorway postcard",
+    "date": "2013-03-31T23:01:34+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/girl-doorway",
+    "description": "",
+    "productId": "2239",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      8
+    ],
+    "preview": "Back of postcard blank Photographs by Nicky Hobhouse.",
+    "content": "\n\nBack of postcard blank Photographs by Nicky Hobhouse.\n",
+    "iso8601Date": "2013-03-31T23:01:34+01:00",
+    "basename": "girl-doorway"
+  },
+  "grass-jeep": {
+    "templateKey": "shop-product-page",
+    "salePrice": 0,
+    "inStock": 2,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "title": "Grass Jeep",
+    "publish": true,
+    "productId": "grass-jeep",
+    "description": "Handcrafted in Malawi approximately 150 mm long , made out of Malawian grass.",
+    "price": 10,
+    "shippingClass": "parcel",
+    "weight": 280,
+    "width": 200,
+    "height": 120,
+    "length": 150,
+    "relatedProducts": [
+      "grass-aeroplane"
+    ],
+    "galleryPhotos": [
+      "/img/grass-jeep.jpg"
+    ],
+    "preview": "Handcrafted in Malawi approximately 150 mm long , made out of …",
+    "content": "\n\nHandcrafted in Malawi approximately 150 mm long , made out of Malawian grass.\n",
+    "basename": "grass-jeep"
+  },
+  "hand-made-quilt-grandma-s-kitchen": {
+    "templateKey": "shop-product-page",
+    "productImage": "/img/default-image-1.jpg",
+    "salePrice": 0,
+    "inStock": 1,
+    "total_sales": 0,
+    "shoptags": [
+      "donated-gifts"
+    ],
+    "size": "other",
+    "weight": 5000,
+    "length": 400,
+    "width": 300,
+    "height": 300,
+    "title": "Hand-made quilt  ‘Grandma’s kitchen’",
+    "publish": true,
+    "productId": "Quilt-grandmas-kitchen",
+    "galleryPhotos": [
+      "/img/p1100187.JPG",
+      "/img/p1100188.JPG"
+    ],
+    "description": "‘Grandma’s kitchen’ made by Marilyn Sullivan in 1996 (double)",
+    "price": 300,
+    "shippingClass": "Collection",
+    "preview": "",
+    "content": "\n",
+    "basename": "hand-made-quilt-grandma-s-kitchen"
+  },
+  "help-them-earn-a-living-through-a-microloan-to-set-up-a-business": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Help them earn a living through a microloan to set up a business",
+    "date": "2013-03-31T21:11:35+01:00",
+    "publish": true,
+    "price": 50,
+    "salePrice": 0,
+    "permalink": "/product/help-them-earn-a-living-through-a-microloan-to-set-up-a-business",
+    "description": "",
+    "productId": "2174",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      3
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfe850a011malawi-april-2007-007.jpg"
+    ],
+    "preview": "Give a gift that will make a difference. We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference. We will send you the gift card/s.\n",
+    "iso8601Date": "2013-03-31T21:11:35+01:00",
+    "basename": "help-them-earn-a-living-through-a-microloan-to-set-up-a-business"
+  },
+  "holy-night-new-2020-christmas-cards-pack-of-10-cards-designed-by-faye-reader": {
+    "templateKey": "shop-product-page",
+    "salePrice": null,
+    "inStock": 99,
+    "shoptags": [
+      "christmas"
+    ],
+    "size": "card",
+    "title": "Holy Night, New 2020 Christmas Cards – pack of 10 cards, designed by Faye Reader",
+    "publish": true,
+    "productId": "holy-night-cards-10",
+    "description": "A pack of 10 Christmas cards, newly designed by Faye Reader",
+    "price": 5,
+    "weight": 185,
+    "length": 155,
+    "width": 155,
+    "height": 11,
+    "shippingClass": "",
+    "galleryPhotos": [
+      "/img/holy-night-p1.jpg",
+      "/img/holy-night-back.jpg"
+    ],
+    "preview": "A pack of 10 Christmas cards, newly designed by Faye Reader",
+    "content": "\n\nA pack of 10 Christmas cards, newly designed by Faye Reader\n",
+    "basename": "holy-night-new-2020-christmas-cards-pack-of-10-cards-designed-by-faye-reader"
+  },
+  "hope-joy-peace-new-2020-christmas-cards-pack-of-10-cards-designed-by-faye-reader": {
+    "templateKey": "shop-product-page",
+    "salePrice": null,
+    "inStock": 99,
+    "shoptags": [
+      "christmas"
+    ],
+    "size": "card",
+    "title": "Hope Joy Peace, New 2020 Christmas Cards – pack of 10 cards, designed by Faye Reader",
+    "publish": true,
+    "productId": "hope-joy-peace-10",
+    "description": "A pack of 10 Christmas cards, newly designed by Faye Reader",
+    "price": 5,
+    "weight": 185,
+    "length": 155,
+    "width": 155,
+    "height": 11,
+    "shippingClass": "",
+    "galleryPhotos": [
+      "/img/hopejoypeace-p1.jpg"
+    ],
+    "preview": "A pack of 10 Christmas cards, newly designed by Faye Reader",
+    "content": "\n\nA pack of 10 Christmas cards, newly designed by Faye Reader\n",
+    "basename": "hope-joy-peace-new-2020-christmas-cards-pack-of-10-cards-designed-by-faye-reader"
+  },
+  "index": {
+    "templateKey": "shop-index",
+    "title": "Shop",
+    "preview": "",
+    "content": "\n",
+    "basename": "index"
+  },
+  "jewellery-box": {
+    "templateKey": "shop-product-page",
+    "salePrice": null,
+    "inStock": 3,
+    "shoptags": [],
+    "size": "other",
+    "weight": 260,
+    "length": 100,
+    "width": 150,
+    "height": 100,
+    "title": "Jewellery Box",
+    "publish": true,
+    "productId": "jewellery-box",
+    "description": "Malawian made jewellery box",
+    "price": 8,
+    "shippingClass": "",
+    "galleryPhotos": [
+      "/img/jewellery-box.jpg"
+    ],
+    "preview": "Malawian made jewellery box",
+    "content": "\n\nMalawian made jewellery box\n",
+    "basename": "jewellery-box"
+  },
+  "key-stage-1-and-2-curriculum-links": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Key stage 1 and 2 curriculum links",
+    "date": "2013-03-31T20:29:13+01:00",
+    "publish": true,
+    "price": 15,
+    "salePrice": 0,
+    "permalink": "/product/key-stage-1-and-2-curriculum-links",
+    "description": "",
+    "productId": "2158",
+    "shoptags": [
+      "cds"
+    ],
+    "size": "cd",
+    "weight": 100,
+    "total_sales": [
+      0
+    ],
+    "relatedProducts": [
+      "2102"
+    ],
+    "galleryPhotos": [
+      "/img/499542927c252__3_0004.jpg"
+    ],
+    "preview": "A CD with all curriculum links and pictures to be used as a teaching …",
+    "content": "\n\nA CD with all curriculum links and pictures to be used as a teaching aid.\n",
+    "iso8601Date": "2013-03-31T20:29:13+01:00",
+    "basename": "key-stage-1-and-2-curriculum-links"
+  },
+  "lady-by-the-lake-with-umbrella": {
+    "templateKey": "shop-product-page",
+    "inStock": 0,
+    "title": "Lady by the lake with umbrella postcard",
+    "date": "2013-03-31T23:00:15+01:00",
+    "publish": false,
+    "price": 1,
+    "salePrice": 0,
+    "permalink": "/product/lady-by-the-lake-with-umbrella",
+    "description": "",
+    "productId": "2235",
+    "productImage": "/img/default-image.jpg",
+    "galleryPhotos": [
+      "/img/default-image.jpg"
+    ],
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      2
+    ],
+    "preview": "Back of postcard blank Photographs by Nicky Hobhouse.",
+    "content": "\n\nBack of postcard blank Photographs by Nicky Hobhouse.\n",
+    "iso8601Date": "2013-03-31T23:00:15+01:00",
+    "basename": "lady-by-the-lake-with-umbrella"
+  },
+  "lazalos-story": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Lazalo's Story (Book)",
+    "date": "2013-03-31T20:36:45+01:00",
+    "publish": true,
+    "price": 6.99,
+    "salePrice": 0,
+    "permalink": "/product/lazalos-story",
+    "description": "",
+    "productId": "2163",
+    "shoptags": [
+      "books"
+    ],
+    "size": "book",
+    "weight": 100,
+    "total_sales": [
+      0
+    ],
+    "relatedProducts": [
+      "2160",
+      "2165",
+      "2168"
+    ],
+    "galleryPhotos": [
+      "/img/4b0c2872c9415final-lazalo-cover.jpg"
+    ],
+    "preview": "True life stories about some real children Landirani has helped.\n …",
+    "content": "\n\nTrue life stories about some real children Landirani has helped.\n\nWritten by Heather Palmer and Kafumbi Njewa.\n\nIllustrated by Adam Newton\n",
+    "iso8601Date": "2013-03-31T20:36:45+01:00",
+    "basename": "lazalos-story"
+  },
+  "life-in-mphamba-village": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Life in MPhamba Village (Video)",
+    "date": "2013-03-31T14:54:06+01:00",
+    "publish": true,
+    "price": 5,
+    "salePrice": 0,
+    "permalink": "/product/life-in-mphamba-village",
+    "description": "",
+    "productId": "2099",
+    "shoptags": [
+      "media"
+    ],
+    "size": "dvd",
+    "weight": 84,
+    "galleryPhotos": [
+      "/img/4b0c05bf60548m_phamba_village1.jpg"
+    ],
+    "preview": "DVD about life in a traditional Malawian village Filmed and edited …",
+    "content": "\n\nDVD about life in a traditional Malawian village Filmed and edited by Sam Palmer\n",
+    "iso8601Date": "2013-03-31T14:54:06+01:00",
+    "basename": "life-in-mphamba-village"
+  },
+  "malawi-hot-spice-nali": {
+    "templateKey": "shop-product-page",
+    "salePrice": 0,
+    "inStock": 8,
+    "shoptags": [
+      "food"
+    ],
+    "size": "other",
+    "title": "Malawi hot spice (Nali)",
+    "publish": true,
+    "productId": "malawi-hot-spice-nali",
+    "description": "Nali - the famous spiced sauce of Malawi",
+    "price": 3,
+    "shippingClass": "parcel",
+    "weight": 1025,
+    "width": 200,
+    "height": 100,
+    "length": 100,
+    "galleryPhotos": [
+      "/img/malawi-hot-spice-nali.jpg"
+    ],
+    "preview": "\"Nali\" - the famous spiced sauce of Malawi – it’s hot!",
+    "content": "\n\n\"Nali\" - the famous spiced sauce of Malawi – it’s hot!\n",
+    "basename": "malawi-hot-spice-nali"
+  },
+  "malawi-soap": {
+    "templateKey": "shop-product-page",
+    "productImage": "/img/soap-rotated.jpg",
+    "salePrice": null,
+    "inStock": 99,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "title": "Malawi soap",
+    "publish": true,
+    "productId": "malawi-soap",
+    "description": "  Individual soaps, made at Sam’s Village in Malawi",
+    "price": 2.5,
+    "shippingClass": "",
+    "weight": 133,
+    "length": 80,
+    "width": 50,
+    "height": 30,
+    "galleryPhotos": [
+      "/img/soap-rotated.jpg",
+      "/img/kondwani-soap-making-rotated.jpg"
+    ],
+    "preview": "Individual soaps, all made at Sam’s Village in Malawi. All proceeds …",
+    "content": "\n\nIndividual soaps, all made at Sam’s Village in Malawi. All proceeds will go to vocational training.\n\nExcellent as an ethical small gift or for your bathroom or kitchen.\n",
+    "basename": "malawi-soap"
+  },
+  "map": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Map postcard",
+    "date": "2013-03-31T23:03:03+01:00",
+    "publish": true,
+    "price": 0.5,
+    "salePrice": 0,
+    "permalink": "/product/map",
+    "description": "",
+    "productId": "2243",
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "total_sales": [
+      7
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf77d6befcmap.jpg"
+    ],
+    "preview": "Back of postcard blank Illustrations by Adam Newton.",
+    "content": "\n\nBack of postcard blank Illustrations by Adam Newton.\n",
+    "iso8601Date": "2013-03-31T23:03:03+01:00",
+    "basename": "map"
+  },
+  "mau-apasulas-story": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Mau Apasula's Story (Book)",
+    "date": "2013-03-31T20:50:09+01:00",
+    "publish": true,
+    "price": 6.99,
+    "salePrice": 0,
+    "permalink": "/product/mau-apasulas-story",
+    "description": "",
+    "productId": "2165",
+    "shoptags": [
+      "books"
+    ],
+    "size": "book",
+    "weight": 100,
+    "total_sales": [
+      0
+    ],
+    "relatedProducts": [
+      "2160",
+      "2163",
+      "2168"
+    ],
+    "galleryPhotos": [
+      "/img/4b0c288a1b644final-mau-cover.jpg"
+    ],
+    "preview": "True life stories about some real children Landirani has helped.\n …",
+    "content": "\n\nTrue life stories about some real children Landirani has helped.\n\nWritten by Heather Palmer and Kafumbi Njewa.\n\nIllustrated by Adam Newton\n",
+    "iso8601Date": "2013-03-31T20:50:09+01:00",
+    "basename": "mau-apasulas-story"
+  },
+  "pennsylvanian-vintage-quilt": {
+    "templateKey": "shop-product-page",
+    "productImage": "/img/default-image-1.jpg",
+    "salePrice": 0,
+    "inStock": 1,
+    "total_sales": 0,
+    "shoptags": [
+      "donated-gifts"
+    ],
+    "size": "other",
+    "weight": 5000,
+    "length": 400,
+    "width": 300,
+    "height": 300,
+    "title": "Pennsylvanian vintage quilt",
+    "publish": true,
+    "productId": "Pennsylvanian-vintage-quilt",
+    "galleryPhotos": [
+      "/img/p1100189.JPG",
+      "/img/p1100190.JPG"
+    ],
+    "description": "Pennsylvanian vintage quilt approximately 100 years old with some damage (double)",
+    "price": 500,
+    "shippingClass": "Collection",
+    "preview": "",
+    "content": "\n",
+    "basename": "pennsylvanian-vintage-quilt"
+  },
+  "plant-20-trees": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Plant 20 trees",
+    "date": "2013-03-31T21:20:36+01:00",
+    "publish": true,
+    "price": 30,
+    "salePrice": 0,
+    "permalink": "/product/plant-20-trees",
+    "description": "",
+    "productId": "2181",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      5
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfff62a0fcmalawi-oct-2008-sarah-cam-012.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T21:20:36+01:00",
+    "basename": "plant-20-trees"
+  },
+  "plant-a-vegetable-garden": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Plant a vegetable garden",
+    "date": "2013-03-31T21:22:51+01:00",
+    "publish": true,
+    "price": 15,
+    "salePrice": 0,
+    "permalink": "/product/plant-a-vegetable-garden",
+    "description": "",
+    "productId": "2185",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      11
+    ],
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "galleryPhotos": [
+      "/img/4b0bffb46feccmalawi-oct-2008-sarah-cam-010.jpg"
+    ],
+    "preview": "Give a gift that will make a difference. We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference. We will send you the gift card/s.\n",
+    "iso8601Date": "2013-03-31T21:22:51+01:00",
+    "basename": "plant-a-vegetable-garden"
+  },
+  "plant-an-orphan-maize-garden": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Plant an orphan maize garden",
+    "date": "2013-03-31T22:28:26+01:00",
+    "publish": true,
+    "price": 50,
+    "salePrice": 0,
+    "permalink": "/product/plant-an-orphan-maize-garden",
+    "description": "",
+    "productId": "2210",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      1
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfe5c5f3d8maise_field_nr_masiye_school_28-01-08_medium.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:28:26+01:00",
+    "basename": "plant-an-orphan-maize-garden"
+  },
+  "provide-a-school-desk-and-chair": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Provide a school desk and chair",
+    "date": "2013-03-31T22:23:12+01:00",
+    "publish": true,
+    "price": 15,
+    "salePrice": 0,
+    "permalink": "/product/provide-a-school-desk-and-chair",
+    "description": "",
+    "productId": "2198",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      2
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfdadf3494dscf0631.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:23:12+01:00",
+    "basename": "provide-a-school-desk-and-chair"
+  },
+  "provide-a-school-uniform": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Provide a school uniform",
+    "date": "2013-03-31T22:25:44+01:00",
+    "publish": true,
+    "price": 5,
+    "salePrice": 0,
+    "permalink": "/product/provide-a-school-uniform",
+    "description": "",
+    "productId": "2202",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      7
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfef1c7119malawi-oct-2007-189.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:25:44+01:00",
+    "basename": "provide-a-school-uniform"
+  },
+  "provide-a-teachers-kit": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Provide a teacher's kit",
+    "date": "2013-03-31T22:22:25+01:00",
+    "publish": true,
+    "price": 25,
+    "salePrice": 0,
+    "permalink": "/product/provide-a-teachers-kit",
+    "description": "",
+    "productId": "2196",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      1
+    ],
+    "galleryPhotos": [
+      "/img/4b0c3a96442ccimg_4743.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:22:25+01:00",
+    "basename": "provide-a-teachers-kit"
+  },
+  "provide-gardening-tools": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Provide gardening tools",
+    "date": "2013-03-31T21:21:25+01:00",
+    "publish": true,
+    "price": 15,
+    "salePrice": 0,
+    "permalink": "/product/provide-gardening-tools",
+    "description": "",
+    "productId": "2183",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      7
+    ],
+    "galleryPhotos": [
+      "/img/4b0c0177ee6c1_11_0013.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T21:21:25+01:00",
+    "basename": "provide-gardening-tools"
+  },
+  "provide-medicine-for-a-village": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Provide medicine for a village",
+    "date": "2013-03-31T22:19:45+01:00",
+    "publish": true,
+    "price": 50,
+    "salePrice": 0,
+    "permalink": "/product/provide-medicine-for-a-village",
+    "description": "",
+    "productId": "2190",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      5
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf990e4086dscf0215.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:19:45+01:00",
+    "basename": "provide-medicine-for-a-village"
+  },
+  "provide-student-equipment": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Provide student equipment",
+    "date": "2013-03-31T22:24:59+01:00",
+    "publish": true,
+    "price": 10,
+    "salePrice": 0,
+    "permalink": "/product/provide-student-equipment",
+    "description": "",
+    "productId": "2200",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "total_sales": [
+      12
+    ],
+    "galleryPhotos": [
+      "/img/4b0bfe3647311img_4746.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T22:24:59+01:00",
+    "basename": "provide-student-equipment"
+  },
+  "school-pack-with-resources-and-curriculum-links-for-key-stage-1-and-2": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "School pack with resources and curriculum links for Key Stage 1 and 2",
+    "date": "2013-03-31T21:00:36+01:00",
+    "publish": true,
+    "price": 50,
+    "salePrice": 0,
+    "permalink": "/product/school-pack-with-resources-and-curriculum-links-for-key-stage-1-and-2",
+    "description": "",
+    "productId": "2171",
+    "shoptags": [
+      "Education"
+    ],
+    "size": "",
+    "weight": 700,
+    "total_sales": [
+      3
+    ],
+    "galleryPhotos": [
+      "/img/49957570609famalawi_april_2007_287.jpg"
+    ],
+    "preview": "This school pack has been designed to be used with the curriculum …",
+    "content": "\n\nThis school pack has been designed to be used with the curriculum for Key Stage 1 &amp; 2 but can be adapted to use with any age group. The items can be bought together as a whole pack or you can chose some items individually for use or enjoyment.\n",
+    "iso8601Date": "2013-03-31T21:00:36+01:00",
+    "basename": "school-pack-with-resources-and-curriculum-links-for-key-stage-1-and-2"
+  },
+  "signs": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Signs postcard",
+    "date": "2013-03-31T23:04:18+01:00",
+    "publish": true,
+    "price": 0.5,
+    "salePrice": 0,
+    "permalink": "/product/signs",
+    "description": "",
+    "productId": "2247",
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "total_sales": [
+      4
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf7a0e01cbnoeasyroad.jpg"
+    ],
+    "preview": "Back of postcard blank Illustrations by Adam Newton.",
+    "content": "\n\nBack of postcard blank Illustrations by Adam Newton.\n",
+    "iso8601Date": "2013-03-31T23:04:18+01:00",
+    "basename": "signs"
+  },
+  "story-teller": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Storyteller postcard",
+    "date": "2013-03-31T23:05:05+01:00",
+    "publish": true,
+    "price": 0.5,
+    "salePrice": 0,
+    "permalink": "/product/story-teller",
+    "description": "",
+    "productId": "2249",
+    "shoptags": [
+      "postcards"
+    ],
+    "size": "card",
+    "weight": 4,
+    "product_shipping_class": "letter",
+    "total_sales": [
+      1
+    ],
+    "galleryPhotos": [
+      "/img/4b0bf7b5218a0postcardnthano.jpg"
+    ],
+    "preview": "Back of postcard blank Illustrations by Adam Newton.",
+    "content": "\n\nBack of postcard blank Illustrations by Adam Newton.\n",
+    "iso8601Date": "2013-03-31T23:05:05+01:00",
+    "basename": "story-teller"
+  },
+  "tinas-story": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Tina's Story (Book)",
+    "date": "2013-03-31T20:55:09+01:00",
+    "publish": true,
+    "price": 6.99,
+    "salePrice": 0,
+    "permalink": "/product/tinas-story",
+    "description": "",
+    "productId": "2168",
+    "shoptags": [
+      "books"
+    ],
+    "size": "book",
+    "weight": 100,
+    "total_sales": [
+      0
+    ],
+    "relatedProducts": [
+      "2163",
+      "2165"
+    ],
+    "galleryPhotos": [
+      "/img/4b0c28c087b69final-tinascover.jpg"
+    ],
+    "preview": "True life stories about some real children Landirani has helped.\n …",
+    "content": "\n\nTrue life stories about some real children Landirani has helped.\n\nWritten by Heather Palmer and Kafumbi Njewa.\n\nIllustrated by Adam Newton\n",
+    "iso8601Date": "2013-03-31T20:55:09+01:00",
+    "basename": "tinas-story"
+  },
+  "train-a-carer": {
+    "templateKey": "shop-product-page",
+    "inStock": 100,
+    "title": "Train a carer",
+    "date": "2013-03-31T21:19:39+01:00",
+    "publish": true,
+    "price": 25,
+    "salePrice": 0,
+    "permalink": "/product/train-a-carer",
+    "description": "",
+    "productId": "2179",
+    "shoptags": [
+      "support-malawi"
+    ],
+    "size": "card",
+    "product_shipping_class": "letter",
+    "weight": 4,
+    "length": 147,
+    "width": 104,
+    "height": 3,
+    "total_sales": [
+      0
+    ],
+    "galleryPhotos": [
+      "/img/4b0c0207a6593_33_0300.jpg"
+    ],
+    "preview": "Give a gift that will make a difference We will send you the gift …",
+    "content": "\n\nGive a gift that will make a difference We will send you the gift card/s\n",
+    "iso8601Date": "2013-03-31T21:19:39+01:00",
+    "basename": "train-a-carer"
+  },
+  "wooden-beetle-car": {
+    "templateKey": "shop-product-page",
+    "salePrice": null,
+    "inStock": 99,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "title": "Wooden Beetle Car",
+    "publish": true,
+    "productId": "wooden-beetle-car",
+    "description": "The famous Beetle car handcrafted in Malaw",
+    "price": 15,
+    "shippingClass": "",
+    "weight": 230,
+    "width": 100,
+    "height": 100,
+    "length": 200,
+    "galleryPhotos": [
+      "/img/wooden-beetles.jpg"
+    ],
+    "productImage": "",
+    "total_sales": null,
+    "preview": "The famous Beetle car handcrafted in Malawi approximately 150 mm …",
+    "content": "\nThe famous Beetle car handcrafted in Malawi approximately 150 mm length",
+    "basename": "wooden-beetle-car"
+  },
+  "wooden-carved-bowl": {
+    "templateKey": "shop-product-page",
+    "salePrice": 0,
+    "inStock": 5,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "title": "Wooden Carved Bowl",
+    "publish": true,
+    "productId": "wooden-carved-bowl",
+    "description": "Malawian handcrafted wooden bowls approximately 170 - 240 mm",
+    "price": 50,
+    "shippingClass": "parcel",
+    "weight": 350,
+    "width": 300,
+    "height": 100,
+    "length": 100,
+    "galleryPhotos": [
+      "/img/wooden-carved-bowls.jpg"
+    ],
+    "preview": "Beautifully handcrafted Land Rover made in rural Malawi 240mm",
+    "content": "\n\nBeautifully handcrafted Land Rover made in rural Malawi 240mm\n",
+    "basename": "wooden-carved-bowl"
+  },
+  "wooden-land-rover-large": {
+    "templateKey": "shop-product-page",
+    "salePrice": 0,
+    "inStock": 2,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "title": "Wooden Land Rover Car (large)",
+    "publish": true,
+    "productId": "wooden-Land-Rover-car-large",
+    "description": "Beautifully handcrafted Land Rover made in rural Malawi",
+    "price": 50,
+    "shippingClass": "parcel",
+    "weight": 1025,
+    "width": 250,
+    "height": 150,
+    "length": 200,
+    "galleryPhotos": [
+      "/img/wooden-landrover-large.jpg"
+    ],
+    "preview": "Beautifully handcrafted Land Rover made in rural Malawi 240mm",
+    "content": "\n\nBeautifully handcrafted Land Rover made in rural Malawi 240mm\n",
+    "basename": "wooden-land-rover-large"
+  },
+  "wooden-land-rover-medium": {
+    "templateKey": "shop-product-page",
+    "salePrice": 0,
+    "inStock": 6,
+    "shoptags": [
+      "craft"
+    ],
+    "size": "other",
+    "title": "Wooden Land Rover Car (medium)",
+    "publish": true,
+    "productId": "wooden-Land-Rover-car-medium",
+    "description": "Beautifully handcrafted Land Rover made in rural Malawi",
+    "price": 30,
+    "shippingClass": "parcel",
+    "weight": 760,
+    "width": 230,
+    "height": 140,
+    "length": 180,
+    "galleryPhotos": [
+      "/img/wooden-landrover-medium.jpg"
+    ],
+    "preview": "Beautifully handcrafted Land Rover made in rural Malawi 180mm",
+    "content": "\n\nBeautifully handcrafted Land Rover made in rural Malawi 180mm\n",
+    "basename": "wooden-land-rover-medium"
+  },
+  "zip-bags": {
+    "templateKey": "shop-product-page",
+    "productId": "zip-bags",
+    "title": "Zip bags",
+    "date": "2013-03-31T22:18:46+01:00",
+    "description": "Each of these bags are unique and have been individually made at Sam's Village in Malawi by our graduates.",
+    "price": 5,
+    "salePrice": 0,
+    "inStock": 25,
+    "weight": 0,
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "shippingClass": "na",
+    "size": "",
+    "product_shipping_class": "letter",
+    "shoptags": [
+      "craft"
+    ],
+    "relatedProducts": [
+      "craft-for-life"
+    ],
+    "galleryPhotos": [
+      "/img/zip-bags.jpg"
+    ],
+    "publish": true,
+    "preview": "Each of these bags are unique and have been individually made at …",
+    "content": "\n\nEach of these bags are unique and have been individually made at Sam's Village in Malawi by our graduates. These bags come in three sizes: small, medium and large (medium is about A5 size). Please specify if you have a preference\n",
+    "iso8601Date": "2013-03-31T22:18:46+01:00",
+    "basename": "zip-bags"
+  }
+}

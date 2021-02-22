@@ -29,6 +29,7 @@ import NavbarLower from "../components/NavbarLower";
 // `;
 
 const BackgroundCont = styled.div`
+  background: rgba(255, 255, 255, 0.7);
   margin: 0 auto;
   max-width: 885px;
   padding: 3rem 1rem 2rem;
