@@ -5,7 +5,6 @@ import React from "react";
 import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Gallery from "../components/gallery/Gallery";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
@@ -61,7 +60,6 @@ const PageGalleryTemplate = ({
             </>
           )}
         </article>
-        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>
     </div>
   );

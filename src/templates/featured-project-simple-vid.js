@@ -118,11 +118,6 @@ const FeaturedProjectsSimpleVidTemplate = ({
             displayImage
           />
         </article>
-
-        <FeaturedProjectsTiles
-          currentProject={currentProject}
-          displayHeading={true}
-        />
       </div>
     </div>
   );

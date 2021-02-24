@@ -7,8 +7,6 @@ import { SectionInner } from "../components/common/SectionInner";
 import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-// import FeaturedProjects from "../components/FeaturedProjects";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
@@ -235,9 +233,6 @@ const ShopProductTemplate = ({
         text="Donate"
         displayImage
       />
-      <Section>
-        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
-      </Section>
     </div>
   );
 };
