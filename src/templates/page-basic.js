@@ -5,8 +5,6 @@ import PropTypes from "prop-types";
 import React from "react";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-// import FeaturedProjects from "../components/FeaturedProjects";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
@@ -94,7 +92,6 @@ const PageBasicTemplate = ({
           text="Donate"
           displayImage
         />
-        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </div>
     </div>
   );

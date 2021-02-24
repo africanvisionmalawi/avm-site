@@ -8,7 +8,6 @@ import React from "react";
 import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Gallery from "../components/gallery/Gallery";
 import Layout from "../components/Layout";
 // import FeaturedProjects from "../components/FeaturedProjects";
@@ -100,7 +99,6 @@ const FeaturedProjectsTemplate = ({
             <Gallery gallery={gallery} initialState={{ showDialog: false }} />
           )}
         </article>
-        <FeaturedProjectsTiles currentProject="default" displayHeading={true} />
       </Container>
     </div>
   );

@@ -102,11 +102,6 @@ const FeaturedProjectsSimpleGalTemplate = ({
             displayImage
           />
         </article>
-
-        <FeaturedProjectsTiles
-          currentProject={currentProject}
-          displayHeading={true}
-        />
       </div>
     </div>
   );

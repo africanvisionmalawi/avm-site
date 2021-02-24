@@ -5,7 +5,6 @@ import React from "react";
 import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
@@ -103,7 +102,7 @@ const PagePhotoLinksFeaturedTemplate = (props) => {
           displayImage
         />
 
-        <FeaturedProjectsTiles displayHeading={true} />
+        
       </div>
     </div>
   );

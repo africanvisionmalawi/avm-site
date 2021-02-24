@@ -5,7 +5,6 @@ import React from "react";
 import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 // import { Link } from 'gatsby'
 import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
@@ -87,7 +86,6 @@ const PagePhotoLinksTemplate = ({
           text="Donate"
           displayImage
         />
-        <FeaturedProjectsTiles displayHeading={true} />
       </div>
     </div>
   );
