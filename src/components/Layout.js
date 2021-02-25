@@ -16,7 +16,13 @@ import layoutStyles from "./layout.module.css";
 
 // import useSiteMetadata from "./SiteMetadata";
 
-const TemplateWrapper = ({ title, description, article, children }) => {
+const TemplateWrapper = ({
+  title,
+  description,
+  article,
+  children,
+  noIndex,
+}) => {
   // const { siteTitle, siteDescription } = useSiteMetadata();
   return (
     <div className={`mainContainer ${layoutStyles.container}`}>
@@ -104,6 +110,22 @@ const TemplateWrapper = ({ title, description, article, children }) => {
         <meta
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}
+        />
+        <meta
+          name="robots"
+          content={
+            process.env.GATSBY_IS_STAGING || noIndex
+              ? "noindex,follow"
+              : "index,follow"
+          }
+        />
+        <meta
+          name="googlebot"
+          content={
+            process.env.GATSBY_IS_STAGING || noIndex
+              ? "noindex,follow"
+              : "index,follow"
+          }
         />
       </Helmet>
       <Header>

@@ -2,8 +2,7 @@
 templateKey: page-basic
 title: Thank You
 description: Thankyou for your form submission
-seo:
-  - noindex
+noindex: true
 ---
 
 # Thank you for joining our newsletter list
