@@ -60,7 +60,6 @@ const PageBasicTemplate = ({
   contentComponent,
   path,
   backgroundImage,
-  published,
 }) => {
   const PageContent = contentComponent || Content;
   // if (backgroundImage) {
@@ -114,6 +113,7 @@ const PageBasic = ({ data }) => {
         title={`${post.frontmatter.title}`}
         description={post.frontmatter.description}
         article={false}
+        noIndex={post.frontmatter.noindex ? post.frontmatter.noindex : null}
       >
         <div>
           <BackgroundImage
@@ -140,7 +140,9 @@ const PageBasic = ({ data }) => {
     );
   }
   return (
-    <Layout>
+    <Layout
+      noIndex={post.frontmatter.noindex ? post.frontmatter.noindex : null}
+    >
       <PageBasicTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -149,6 +151,7 @@ const PageBasic = ({ data }) => {
         path={post.fields.slug}
         backgroundImage={post.frontmatter.backgroundImage}
         published={post.frontmatter.published}
+        noindex={post.frontmatter.noindex}
       />
     </Layout>
   );
@@ -178,6 +181,7 @@ export const pageBasicQuery = graphql`
           }
         }
         published
+        noindex
       }
     }
   }

@@ -1,12 +1,9 @@
 ---
 templateKey: page-basic
-title: Thank You
+title: Thank you for joining our newsletter list
 description: Thankyou for your form submission
-seo:
-  - noindex
+noindex: true
 ---
-
-# Thank you for joining our newsletter list
 
 You should receive a confirmation email soon.
 
