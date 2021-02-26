@@ -4,11 +4,11 @@ import React from "react";
 import { TeamTemplate } from "../../templates/about-team.js";
 
 export const TeamPagePreview = ({ entry, widgetFor, getAsset }) => {
-  console.log("entry", entry);
-  console.log("widgetFor", widgetFor);
+  // console.log("entry", entry);
+  // console.log("widgetFor", widgetFor);
 
   const data = entry.getIn(["data"]);
-  console.log("data ", data);
+  // console.log("data ", data);
 
   const entryMalawiTeam = entry.getIn(["data", "malawiTeam"]);
   const malawiTeam = entryMalawiTeam ? entryMalawiTeam.toJS() : [];
@@ -17,7 +17,7 @@ export const TeamPagePreview = ({ entry, widgetFor, getAsset }) => {
   const ukTeam = entryukTeam ? entryukTeam.toJS() : [];
 
   // console.log("entryukTeam", entryukTeam);
-  console.log(widgetFor("body"));
+  // console.log(widgetFor("body"));
 
   // console.log(malawiTeam);
   // console.log(ukTeam);
