@@ -16,14 +16,12 @@ videos:
     our search for funds to build a Safe Motherhood Unit in 2021.
 - videourl: https://vimeo.com/56690243
   videotext: A short film looking at the many different types of physical and mental
-    disabilities people face in the rural area in Malawi where African Vision Malawi
-    operates. Similarly, it looks at what the charity is actively doing to improve
-    their situation, through medical referrals and education.
+    disabilities people face in the rural area. Similarly, it looks at what we are
+    doing to improve their situation, through medical referrals and education.
 - videourl: https://vimeo.com/55759417
-  videotext: A short film showing one of our Feeding Centres in action. We are very
-    grateful to the Allan and Nesta Ferguson Charitable Trust for funding this. We
-    provide a nutritious porridge 5 mornings a week to the under 5's in our area,
-    which feeds over 1000 children in total.
+  videotext: One of our Feeding Centres in action. We are very grateful to the Allan
+    and Nesta Ferguson Charitable Trust for funding this. We provide a nutritious
+    porridge 5 mornings a week to the under 5's feeding over 1000 children per day.
 links:
 - linkText: 'We have introduced bicycle ambulances as we found one of the major difficulties
     for people getting to clinics, was lack of transport. '
