@@ -46,8 +46,7 @@ links:
   photo: "/img/page-links/link-feeding.jpg"
   url: "/education/feeding-programme-in-schools/"
 - linkText: We work in an area of 45,000 people of which 16,000 go to M'bang'ombe
-    Maternity and 29,000 access N'goni Clinic. Both are very poorly equiped in terms
-    of furnishings, medication, light and running water.
+    Maternity and 29,000 access N'goni Clinic. Both are very poorly equipped.
   linkTitle: Safe Motherhood
   photo: "/img/page-links/link-motherhood.jpg"
   url: "./maternity-unit/"
