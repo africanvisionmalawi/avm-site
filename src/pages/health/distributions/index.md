@@ -9,7 +9,7 @@ headerImage: "/img/chemex.jpg"
 ---
 Distributions are part of our work, and are vital to the orphans who have nothing. Our projects in general are focussed on building up a more self-sufficient community, for example through our training village, Sam’s Village, and in time we will be able to reduce the distributions.
 
-We do regular distributions throughout our area, often of food, mosquito nets, sleeping mats, clothes and toys.
+We do regular distributions in our area, mainly food, mosquito nets, sleeping mats, clothes and toys.
 
 ![Distribution of jeans, donated by Good News Mission](/img/distributions/01-Jeans-distribution-Good-News-Mission-Eric-Dec-2015-3.jpg)
 _Distribution of jeans, donated by Good News Mission_
