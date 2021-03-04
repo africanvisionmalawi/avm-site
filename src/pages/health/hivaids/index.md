@@ -19,5 +19,3 @@ HIV+ support group in their vegetable garden
 ![](/img/img_9023.jpg)
 
 HIV+ support vegetable garden
-
-If you would like to support our work with HIV+ support groups, please donate here:
