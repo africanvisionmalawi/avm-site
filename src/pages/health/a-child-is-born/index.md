@@ -1,6 +1,6 @@
 ---
 templateKey: page-basic
-title: A child is born
+title: A Child is Born
 headerImage: "/img/chemex.jpg"
 description: We will be building a waiting home for new mothers at the recently completed
   maternity unit.
