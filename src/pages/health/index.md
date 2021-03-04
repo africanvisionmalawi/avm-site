@@ -26,8 +26,8 @@ videos:
     which feeds over 1000 children in total.
 links:
 - linkText: 'Bicycle ambulances — We found one of the major difficulties for people
-    reaching one of our two free government clinics, was the lack of transport. We
-    have introduced bicycle ambulances in our area. '
+    getting to a clinics was the lack of transport. We have introduced bicycle ambulances
+    in our area. '
   linkTitle: Bicycle Ambulances
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
   url: "./bicycle-ambulances/"
