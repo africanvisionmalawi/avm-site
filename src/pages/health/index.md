@@ -40,8 +40,8 @@ links:
   linkTitle: HIV/AIDS
   photo: "/img/page-links/link-health-room.jpg"
   url: "./hivaids/"
-- linkText: The under 5's are one of our most vulnerable groups where 11% never reach
-    the age of 5. They often die through dysentery from drinking dirty water, or malaria.
+- linkText: The under 5's are one of our most vulnerable groups where 11% often die
+    through dysentery or malaria, from drinking dirty water,
   linkTitle: Feeding Programmes
   photo: "/img/page-links/link-feeding.jpg"
   url: "/education/feeding-programme-in-schools/"
