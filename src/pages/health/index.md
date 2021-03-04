@@ -25,8 +25,8 @@ videos:
     provide a nutritious porridge 5 mornings a week to the under 5's in our area,
     which feeds over 1000 children in total.
 links:
-- linkText: 'We have introduced local bicycle ambulances as we found one of the major
-    difficulties for people getting to clinics, was lack of transport. '
+- linkText: 'We have introduced bicycle ambulances as we found one of the major difficulties
+    for people getting to clinics, was lack of transport. '
   linkTitle: Bicycle Ambulances
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
   url: "./bicycle-ambulances/"
@@ -41,8 +41,7 @@ links:
   photo: "/img/page-links/link-health-room.jpg"
   url: "./hivaids/"
 - linkText: The under 5's are one of our most vulnerable groups where 11% never reach
-    the age of 5 years old. They often die through dysentery from drinking dirty water,
-    or malaria.
+    the age of 5. They often die through dysentery from drinking dirty water, or malaria.
   linkTitle: Feeding Programmes
   photo: "/img/page-links/link-feeding.jpg"
   url: "/education/feeding-programme-in-schools/"
