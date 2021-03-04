@@ -16,12 +16,10 @@ _Distribution of jeans, donated by Good News Mission_
 
 One of our regular distributions is to provide some food to the most poverty stricken people during the ‘hungry months’ of February. We select 20 people from each of our 14 centres.
 
-We also do regular orphan lunch days, providing every orphan in a school with a nutritious lunch. In the past we have been donated wheelchairs, which have been distributed to people in our area.
+We also do regular orphan lunch days, providing every orphan in a school with a nutritious lunch. We have donated wheelchairs, to those most in need in our area.
 
 ![distributions](/img/distributions/02-499548a937bcacnv00061.jpg)
 
 ![distributions](/img/distributions/03-4995541229b84picture_4.jpg)
 
 You can buy blankets, sleeping mats, mosquito nets, food and other items through our online shop.
-
-You can also donate to our long term projects
