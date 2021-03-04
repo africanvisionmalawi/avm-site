@@ -1,6 +1,6 @@
 ---
 templateKey: page-basic
-title: hiv / aids
+title: HIV/AIDS
 description: Many children are orphaned due to HIV/AIDS and are left to be looked
   after by their extended family, often their grandparents.
 headerImage: "/img/chemex.jpg"
