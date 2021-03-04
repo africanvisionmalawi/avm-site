@@ -20,7 +20,7 @@ If you would like to give a donation to buy a prosthetic leg (£50), fund a clin
 
 Another group we work close with is 'Malawi Action for Physically handicapped' (MAP). Sometimes referrals from 500 Miles suggest providing a wheelchair or other aid, and MAP make the equipment for us.
 
-A Visit
+**_A Visit_**
 
 Here Heather Palmer describes a visit in September 2015 with our disability outreach programme:
 
