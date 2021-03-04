@@ -25,12 +25,9 @@ videos:
     provide a nutritious porridge 5 mornings a week to the under 5's in our area,
     which feeds over 1000 children in total.
 links:
-- linkText: Bicycle ambulances — We found one of the major difficulties for people
+- linkText: 'Bicycle ambulances — We found one of the major difficulties for people
     reaching one of our two free government clinics, was the lack of transport. We
-    have introduced bicycle ambulances in our area. The community are trained on the
-    maintenance and recording of the use of the bicycle. Transaid have helped with
-    training and assessments over the years and also donated money for 2 of the latest
-    installed bicycles.
+    have introduced bicycle ambulances in our area. '
   linkTitle: Bicycle Ambulances
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
   url: "./bicycle-ambulances/"
