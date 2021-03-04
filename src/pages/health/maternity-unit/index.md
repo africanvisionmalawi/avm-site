@@ -54,9 +54,3 @@ Project4Africa raised funds for stage one of the much needed Maternity Unit proj
 M'bangombe Maternity Unit
 
 See below for [more photos of the Maternity Unit](#gallery):
-
-### Can you make a donation to the new Waiting Home wing?
-
-To donate to the new Waiting Home wing and support our projects, please click Donate below:
-
-Thank you.
