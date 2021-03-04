@@ -6,7 +6,7 @@ description: This project helps to ensure that people can get to a health servic
 headerImage: "/img/chemex.jpg"
 
 ---
-This project helps to ensure that people can get to a health service. In our area of support there is a huge issue with lack of transport to hospital/clinics.
+This project helps to ensure that people can get to a health service. In our area of support there is a huge issue with lack of transport to hospital/clinics.  Transaid have helped with training and assessments over the years and also donated money for two of the latest installed bicycles. The community are trained on the maintenance and record the use of the bicycle.
 
 There are two small Health Centres in our area and they serve a catchment area of 45,000 people!
 
