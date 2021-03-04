@@ -49,7 +49,7 @@ links:
   photo: "/img/page-links/link-motherhood.jpg"
   url: "./maternity-unit/"
 - linkText: Although we aim to build sustainable communities, unfortunately sometimes
-    distributions are necessary, linked with our health projects.
+    distributions, linked with our health projects are necessary
   linkTitle: Distributions
   photo: "/img/page-links/link-distributions.jpg"
   url: "./distributions/"
