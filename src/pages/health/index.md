@@ -25,8 +25,8 @@ videos:
     provide a nutritious porridge 5 mornings a week to the under 5's in our area,
     which feeds over 1000 children in total.
 links:
-- linkText: 'We found one of the major difficulties for people getting to clinics
-    was lack of transport. We have introduced bicycle ambulances in our area. '
+- linkText: 'We have introduced bicycle ambulances in our area as we found one of
+    the major difficulties for people getting to clinics, was lack of transport. '
   linkTitle: Bicycle Ambulances
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
   url: "./bicycle-ambulances/"
