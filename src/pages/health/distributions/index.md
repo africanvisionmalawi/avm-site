@@ -1,9 +1,9 @@
 ---
 templateKey: page-basic
 title: Distributions
-description: Our projects in general are focussed on building up a more self-sufficient
-  community, for example through our training village, Sam’s Village, and in time
-  we will be able to reduce the distributions.
+description: Our projects in general try to build up a more self-sufficient community,
+  for example through our training village, Sam’s Village, reducing the dependency
+  on handouts.
 headerImage: "/img/chemex.jpg"
 
 ---
