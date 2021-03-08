@@ -1,6 +1,6 @@
 ---
 templateKey: page-basic
-title: hiv / aids
+title: HIV/AIDS
 description: Many children are orphaned due to HIV/AIDS and are left to be looked
   after by their extended family, often their grandparents.
 headerImage: "/img/chemex.jpg"
@@ -19,5 +19,3 @@ HIV+ support group in their vegetable garden
 ![](/img/img_9023.jpg)
 
 HIV+ support vegetable garden
-
-If you would like to support our work with HIV+ support groups, please donate here:

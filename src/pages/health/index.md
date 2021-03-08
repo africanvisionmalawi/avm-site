@@ -13,24 +13,18 @@ videos:
 - videourl: https://vimeo.com/186275229
   videotext: This film shows the progress of the recently built Maternity Unit and
     the report back of Project4Africa who very kindly funded it. It also explains
-    our search for funds to build a Safe Motherhood Unit in 2017.
+    our search for funds to build a Safe Motherhood Unit in 2021.
 - videourl: https://vimeo.com/56690243
   videotext: A short film looking at the many different types of physical and mental
-    disabilities people face in the rural area in Malawi where African Vision Malawi
-    operates. Similarly, it looks at what the charity is actively doing to improve
-    their situation, through medical referrals and education.
+    disabilities people face in the rural area. Similarly, it looks at what we are
+    doing to improve their situation, through medical referrals and education.
 - videourl: https://vimeo.com/55759417
-  videotext: A short film showing one of our Feeding Centres in action. We are very
-    grateful to the Allan and Nesta Ferguson Charitable Trust for funding this. We
-    provide a nutritious porridge 5 mornings a week to the under 5's in our area,
-    which feeds over 1000 children in total.
+  videotext: One of our Feeding Centres in action. We are very grateful to the Allan
+    and Nesta Ferguson Charitable Trust for funding this. We provide a nutritious
+    porridge 5 mornings a week to the under 5's feeding over 1000 children per day.
 links:
-- linkText: Bicycle ambulances — We found one of the major difficulties for people
-    reaching one of our two free government clinics, was the lack of transport. We
-    have introduced bicycle ambulances in our area. The community are trained on the
-    maintenance and recording of the use of the bicycle. Transaid have helped with
-    training and assessments over the years and also donated money for 2 of the latest
-    installed bicycles.
+- linkText: 'We have introduced bicycle ambulances as we found one of the major difficulties
+    for people getting to clinics, was lack of transport. '
   linkTitle: Bicycle Ambulances
   photo: "/img/page-links/link-bicycle-ambulance.jpg"
   url: "./bicycle-ambulances/"
@@ -44,20 +38,18 @@ links:
   linkTitle: HIV/AIDS
   photo: "/img/page-links/link-health-room.jpg"
   url: "./hivaids/"
-- linkText: The under 5's are one of our most vulnerable groups where 11% never reach
-    the age of 5 years old. They often die through dysentery from drinking dirty water,
-    or malaria.
+- linkText: The under 5's are one of our most vulnerable groups where 11% often die
+    through dysentery or malaria, from drinking dirty water,
   linkTitle: Feeding Programmes
   photo: "/img/page-links/link-feeding.jpg"
   url: "/education/feeding-programme-in-schools/"
 - linkText: We work in an area of 45,000 people of which 16,000 go to M'bang'ombe
-    Maternity and 29,000 access N'goni Clinic. Both are very poorly equiped in terms
-    of furnishings, medication, light and running water.
+    Maternity and 29,000 access N'goni Clinic. Both are very poorly equipped.
   linkTitle: Safe Motherhood
   photo: "/img/page-links/link-motherhood.jpg"
   url: "./maternity-unit/"
-- linkText: Although we aim to build sustainable communities and projects, unfortunately
-    some times distributions are necessary. Often these link in to our health projects.
+- linkText: Although we aim to build sustainable communities, unfortunately sometimes
+    distributions, linked with our health projects are necessary
   linkTitle: Distributions
   photo: "/img/page-links/link-distributions.jpg"
   url: "./distributions/"
@@ -70,5 +62,3 @@ One of our big forthcoming projects is to build a Waiting Home in 2021 for new m
 The project will include nutritional permaculture gardens in front of the new wing, and education on good nutrition for new mothers.
 
 [**Find out more...**](/health/a-child-is-born/)
-
-You can donate here:

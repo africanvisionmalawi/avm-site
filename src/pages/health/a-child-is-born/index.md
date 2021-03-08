@@ -1,6 +1,6 @@
 ---
 templateKey: page-basic
-title: A child is born
+title: A Child is Born
 headerImage: "/img/chemex.jpg"
 description: We will be building a waiting home for new mothers at the recently completed
   maternity unit.
@@ -22,7 +22,7 @@ In Malawi expectant mothers are not provided with food and support in hospital a
 
 ![Maternity Unit, completed in stage one of the project](/img/img_4993.jpg "Maternity Unit, completed in stage one of the project")
 
-…Therefore, during the second stage of the project, for which we are fundraising through the ‘A Child is Born’ campaign, we are going to build a Safe Motherhood Unit, so that expectant mothers can come to the maternity clinic earlier. The building will also include observation rooms and an under 5’s clinic. In front of the building we will plant nutritional permaculture gardens.
+Therefore, during the second stage of the project, for which we are fundraising through the ‘A Child is Born’ campaign, we are going to build a Safe Motherhood Unit, so that expectant mothers can come to the maternity clinic earlier. The building will also include observation rooms and an under 5’s clinic. In front of the building we will plant nutritional permaculture gardens.
 
 ![New mother and baby](/img/malawi-2-036.jpg "New mother and baby")
 
@@ -30,6 +30,4 @@ In this way, we can make it easier for women to get to the clinic in good time, 
 
 ![Thank you for your support!](/img/paige-card.jpg "Thank you for your support!")
 
-Can you help us to help the women and unborn children of Malawi?
-
-If you would like to support our projects, please just click here:
+Do please help us to help the women and unborn children of Malawi by supporting our projects, thank you.

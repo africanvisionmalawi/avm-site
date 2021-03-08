@@ -4,7 +4,7 @@ import { styled } from "linaria/react";
 import React from "react";
 
 const TeamList = (props) => {
-  console.log("props", props);
+  // console.log("props", props);
   return (
     <>
       <Heading>{props.heading}</Heading>
