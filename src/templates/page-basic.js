@@ -59,12 +59,13 @@ const PageBasicTemplate = ({
   content,
   contentComponent,
   path,
-  backgroundImage,
+  // backgroundImage,
 }) => {
   const PageContent = contentComponent || Content;
   // if (backgroundImage) {
   //   console.log("backgroundImage ", backgroundImage.childImageSharp.fluid.src);
   // }
+  const backgroundImage = null;
   return (
     <div>
       {/* {helmet || ""} */}
@@ -173,16 +174,18 @@ export const pageBasicQuery = graphql`
       frontmatter {
         title
         description
-        backgroundImage {
-          childImageSharp {
-            fluid(maxWidth: 1140, quality: 50) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         published
         noindex
       }
     }
   }
 `;
+
+// taken from frontmatter
+// backgroundImage {
+//   childImageSharp {
+//     fluid(maxWidth: 1140, quality: 50) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }
