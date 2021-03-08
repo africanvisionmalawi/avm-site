@@ -44,7 +44,7 @@ const NavbarLower = (props) => {
   if (props && props.path) {
     return <Section>{props.path && <Breadcrumbs path={props.path} />}</Section>;
   }
-  return <Section>...</Section>;
+  return null;
 };
 
 export default NavbarLower;
