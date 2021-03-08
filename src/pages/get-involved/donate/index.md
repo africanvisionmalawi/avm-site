@@ -50,8 +50,8 @@ Would you like to leave a legacy to African Vision Malawi? Please call us on 020
 
 Many people die without leaving a will, but many people wish that their money could go to a good cause. At that difficult time, when you do have to write your will, please remember us... more information on how to do this [here](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Leaving-a-Gift-in-your-Will.pdf).
 
-* [Legacy form](/img/2021-legacy-form.pdf)
-* [Leaving a Gift in your Will](/img/2021-leaving-a-gift-in-your-will.pdf)
+* [Legacy form](img/2021-legacy-form.pdf)
+* [Leaving a Gift in your Will](img/2021-leaving-a-gift-in-your-will.pdf)
 
 Thank you!
 
