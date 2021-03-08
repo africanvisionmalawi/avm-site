@@ -3,9 +3,8 @@ templateKey: page-basic
 title: Donate
 description: Donating to us
 headerImage: "/img/chemex.jpg"
-backgroundImage: "/img/page-backgrounds/photo-donate.jpg"
-
 ---
+
 There are many ways to donate to African Vision Malawi!
 
 ## You can make a one-off or regular donation online:
@@ -26,8 +25,8 @@ Do you pay UK tax? If so we can increase your donation by 25% at no extra cost t
 
 Download a donation form:
 
-* [Donation and Standing Order Form](https://www.africanvision.org.uk/pdfs/forms/AVM-Standing-Order-Form.pdf)
-* [Gift Aid agreement](https://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax *
+- [Donation and Standing Order Form](https://www.africanvision.org.uk/pdfs/forms/AVM-Standing-Order-Form.pdf)
+- [Gift Aid agreement](https://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax \*
 
 ## School and University Sponsorship
 
@@ -35,8 +34,8 @@ You can sponsor a [secondary school student](https://www.africanvision.org.uk/pr
 
 To do so, please download and fill in the forms below:
 
-* [Secondary School Sponsorship Form](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2017/03/secondary-school-sponsorship-form-2017-AVM.pdf)
-* [Gift Aid form](https://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax *
+- [Secondary School Sponsorship Form](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2017/03/secondary-school-sponsorship-form-2017-AVM.pdf)
+- [Gift Aid form](https://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax \*
 
 We are also looking for sponsors for [further education students](https://www.africanvision.org.uk/projects/university-scholarships/). £40 a month goes a long way to support their studies with books, fees and living costs.
 
@@ -50,8 +49,8 @@ Would you like to leave a legacy to African Vision Malawi? Please call us on 020
 
 Many people die without leaving a will, but many people wish that their money could go to a good cause. At that difficult time, when you do have to write your will, please remember us... more information on how to do this [here](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Leaving-a-Gift-in-your-Will.pdf).
 
-* [Legacy form](img/2021-legacy-form.pdf)
-* [Leaving a Gift in your Will](img/2021-leaving-a-gift-in-your-will.pdf)
+- [Legacy form](img/2021-legacy-form.pdf)
+- [Leaving a Gift in your Will](img/2021-leaving-a-gift-in-your-will.pdf)
 
 Thank you!
 
