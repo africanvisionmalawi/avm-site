@@ -129,6 +129,10 @@ const ShopProductTemplate = ({
 }) => {
   const PageContent = contentComponent || Content;
   const { siteUrl } = useSiteMetadata();
+  // const { devUrl } = useSiteMetadata();
+  const baseUrl = process.env.GATSBY_IS_STAGING
+    ? "https://avm-staging.netlify.app"
+    : siteUrl;
   const relatedProductsList = [];
 
   allProducts.forEach((product) => {
@@ -186,7 +190,7 @@ const ShopProductTemplate = ({
                           ? galleryPhotos[0].childImageSharp.fluid.src
                           : null
                       }
-                      url={`${siteUrl}${slug}`}
+                      url={`${baseUrl}${slug}`}
                       weight={weight}
                       length={length}
                       width={width}

@@ -12,7 +12,7 @@ const Button = styled.div`
   padding: 4px;
   text-align: center;
   :hover {
-    background: #58b5d7;
+    background: #ff7d2f;
     color: #fff;
   }
 `;
