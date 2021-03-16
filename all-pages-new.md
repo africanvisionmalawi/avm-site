@@ -4,10 +4,10 @@
 /projects/feeding-programme-in-schools/
 /projects/building-a-school-at-masiye/
 /projects/community-based-childcare-centres-cbccs/
-/projects/university-scholarships/
-/projects/university-scholarships/loness-eliya-story-of-a-sponsored-university-student/
+/education/university-scholarships/
+/education/university-scholarships/loness-eliya-story-of-a-sponsored-university-student/
 /projects/stories-from-the-field/
-/projects/university-scholarships/lobiner-kanthenga-story-of-a-university-student/
+/education/university-scholarships/lobiner-kanthenga-story-of-a-university-student/
 /projects/secondary-school-sponsorship/
 
 ## health

@@ -7,7 +7,7 @@ publish: true
 price: 0.5
 salePrice: 0
 permalink: "/product/brother"
-description: ""
+description: "Back of postcard blank Illustrations by Adam Newton."
 productId: "2245"
 shoptags:
   - postcards

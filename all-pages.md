@@ -7,12 +7,12 @@
 /shop/donate-any-amount-to-sam-s-village-and-our-matched-fund-will-double-it/
 /shop/
 /projects/
-/projects/university-scholarships/
+/education/university-scholarships/
 /projects/water-boreholes/
-/projects/university-scholarships/loness-eliya-story-of-a-sponsored-university-student/
+/education/university-scholarships/loness-eliya-story-of-a-sponsored-university-student/
 /projects/stories-from-the-field/
 /projects/water-and-sanitation/
-/projects/university-scholarships/lobiner-kanthenga-story-of-a-university-student/
+/education/university-scholarships/lobiner-kanthenga-story-of-a-university-student/
 /projects/secondary-school-sponsorship/
 /sams-village/training-programme/
 /sams-village/

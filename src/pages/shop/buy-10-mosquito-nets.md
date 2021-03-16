@@ -7,7 +7,7 @@ publish: true
 price: 10
 salePrice: 0
 permalink: "/product/buy-10-mosquito-nets"
-description: ""
+description: "Give a gift that will make a difference We will send you the gift card/s"
 productId: "2194"
 shoptags:
   - support-malawi

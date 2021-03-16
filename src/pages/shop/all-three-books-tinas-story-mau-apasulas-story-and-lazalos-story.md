@@ -6,7 +6,7 @@ date: "2013-03-31T20:31:37+01:00"
 publish: true
 price: 18
 salePrice: 0
-description: ""
+description: "True life stories about some real children Landirani has helped. Written by Heather Palmer and Kafumbi Njewa. Illustrated by Adam Newton"
 productId: "2160"
 product_shipping_class: book
 size: book
