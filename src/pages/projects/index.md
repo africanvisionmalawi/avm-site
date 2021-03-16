@@ -84,7 +84,7 @@ links:
   - linkText: "..."
     linkTitle: Njewa New Office
     photo: "/img/page-links/link-njewa.jpg"
-    url: "/projects/njewa-new-office/"
+    url: "/sams-village/njewa-new-office/"
     featured: false
   - linkText: "..."
     linkTitle: Rammed Earth Building
