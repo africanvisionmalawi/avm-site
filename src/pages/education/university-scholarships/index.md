@@ -4,7 +4,9 @@ title: University Scholarships
 description:
   African Vision Malawi currently supports 20 university scholarship students
   at various Universities and colleges throughout Malawi
----African Vision Malawi currently supports 20 university scholarship students including those at the University of Malawi, the Polytechnic, the Kamuzu College of Nursing and at Chancellor College. We support some student for both their study costs and their living costs. Others receive government loans for their study costs and we help with their living costs, like transport, stationary and lodging.
+---
+
+African Vision Malawi currently supports 20 university scholarship students including those at the University of Malawi, the Polytechnic, the Kamuzu College of Nursing and at Chancellor College. We support some student for both their study costs and their living costs. Others receive government loans for their study costs and we help with their living costs, like transport, stationary and lodging.
 
 ## Life Stories:
 
