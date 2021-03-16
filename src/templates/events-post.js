@@ -3,7 +3,7 @@ import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
 import Helmet from "react-helmet";
-import { HeroImage } from "../components/common/HeroImage";
+// import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import EventDate from "../components/EventDate";
 import Layout from "../components/Layout";
@@ -16,6 +16,11 @@ import { TagsList } from "../components/shop/tagsList";
 //   max-width: 1180px;
 //   width: 100%;
 // `;
+
+const Heading = styled.h1`
+  margin: 1rem 0 0;
+  text-align: center;
+`;
 
 const TextSection = styled.section`
   background: #fff;
@@ -52,6 +57,11 @@ const BrowseAll = styled.div`
   text-align: center;
 `;
 
+const EventText = styled.div`
+  font-size: 0.8rem;
+  margin: 0 0 0.5rem;
+`;
+
 const EventsPostTemplate = ({
   content,
   contentComponent,
@@ -80,14 +90,15 @@ const EventsPostTemplate = ({
       <NavbarLower path={path} />
       <div className="container content">
         <section>
-          {photo && (
+          <Heading>{title}</Heading>
+          {/* {photo && (
             <HeroImage
               heroImage={photo}
               displayHeroMsg={true}
               heroHeading={title}
               heroHeadingType="h1"
             />
-          )}
+          )} */}
         </section>
         <article>
           <Main>
@@ -101,12 +112,16 @@ const EventsPostTemplate = ({
                     allDay={allDay}
                   />
                 </p>
-                {location && <p>Location: {location}</p>}
-                {contact && <p>Contact: {contact}</p>}
-                {telephone && <p>Telephone: {telephone}</p>}
-                {cost && <p>&pound;{cost}</p>}
+                {location && <EventText>Location: {location}</EventText>}
+                {contact && <EventText>Contact: {contact}</EventText>}
+                {telephone && <EventText>Telephone: {telephone}</EventText>}
+                {cost && <EventText>Cost: &pound;{cost}</EventText>}
+                {url && (
+                  <EventText>
+                    Url: <a href={url}>{url}</a>
+                  </EventText>
+                )}
               </EventDetails>
-              <p>{description}</p>
               <PostContent content={content} />
               {tags && tags.length ? <TagsList tags={tags} /> : null}
               <BrowseAll>

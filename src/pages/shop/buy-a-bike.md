@@ -7,7 +7,7 @@ publish: true
 price: 35
 salePrice: 0
 permalink: "/product/buy-a-bike"
-description: ""
+description: "Give a gift that will make a difference We will send you the gift card/s"
 productId: "2177"
 shoptags:
   - support-malawi

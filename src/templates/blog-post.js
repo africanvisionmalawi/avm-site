@@ -3,6 +3,7 @@ import { styled } from "linaria/react";
 import PropTypes from "prop-types";
 import React from "react";
 import { HeroImage } from "../components/common/HeroImage";
+import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import Layout from "../components/Layout";
@@ -61,7 +62,7 @@ const BlogPostTemplate = ({
               />
             </HeroCont>
           ) : null}
-          <TextSection>
+          <SectionTop>
             <h1>{title}</h1>
             <PostContent content={content} />
             {/* {pdf_upload && pdf_upload !== "" ? (
@@ -82,7 +83,7 @@ const BlogPostTemplate = ({
             <ViewAll>
               <Link to="/news/">View all news</Link>
             </ViewAll>
-          </TextSection>
+          </SectionTop>
           <Donate
             link="https://www.charitycheckout.co.uk/1113786/"
             text="Donate"

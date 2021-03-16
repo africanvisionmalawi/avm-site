@@ -13,7 +13,7 @@ contact: none
 telephone: "0"
 cost: 950
 url: null
-description: some description text here
+description: Please support us to raise funds as we cycle 500km through Malawi.
 tags: [malawi]
 ---
 
