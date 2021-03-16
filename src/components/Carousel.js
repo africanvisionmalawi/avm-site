@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useCallback } from "react";
+import { styled } from "linaria/react";
+import React, { useCallback, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage"; // import LazyLoadImage from "../../../../../../../lazyLoadImage";
-
-import { styled } from "linaria/react";
 
 const SliderStyles = styled(Slider)`
   box-sizing: border-box;
@@ -33,7 +32,7 @@ const SliderStyles = styled(Slider)`
     text-indent: -1000em;
     background-color: white;
     border-radius: 50%;
-    z-index: 100;
+    z-index: 10;
   }
 
   & .slick-prev {

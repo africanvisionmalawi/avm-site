@@ -7063,7 +7063,7 @@ gatsby-plugin-slug@^1.0.1:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-slug/-/gatsby-plugin-slug-1.1.1.tgz#2628c8256909b9c166717096ec7e701a91392b67"
   integrity sha512-7S0vz/nTcTsgpKims8zNgUd4pNcAYjsuUKUzylvPM1TZVUsEsbB9kzQ8vx4uR4Fo3DSciVoynj+1Sn29fZXx7w==
 
-gatsby-plugin-snipcart-advanced@^1.0.1:
+gatsby-plugin-snipcart-advanced@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-snipcart-advanced/-/gatsby-plugin-snipcart-advanced-1.0.2.tgz#38386fff0b03ecda2886dab340311cacd72e8cde"
   integrity sha512-XKC/C8XJPPtrd2JLUDH1R2F4BTV5VF7Qs/i9JWSB/IloDrNOv/c8QDZBw0HNsohxDt1SJL9ZeTk4xdkihIxyYw==
