@@ -68,7 +68,9 @@ links:
     photo: "/img/page-links/link-distributions.jpg"
     url: "./distributions/"
     hide: false
----## A Child is Born
+---
+
+## A Child is Born
 
 One of our big forthcoming projects is to build a Waiting Home in 2021 for new mothers at the Maternity Unit. Watch the Safe Maternal Care video below to see exactly why we built the Maternity Unit in the first place. This second stage will provide essential care for pre-term births - which are higher in Malawi than anywhere else in the world.
 
