@@ -34,6 +34,7 @@ links:
     at the mill, as well as maize.
   photo: "/img/page-links/link-food-mill.jpg"
   url: "./kafutwe-food-mill/"
+  display: false
 - linkTitle: Vegetable Gardens
   linkText: We are aiming to attach a vegetable garden to each school in our area
     which will be maintained by the children and teachers and provide much needed
