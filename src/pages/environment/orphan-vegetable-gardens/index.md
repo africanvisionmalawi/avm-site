@@ -13,6 +13,6 @@ The barrels we used for the irrigation systems were first put into schools in th
 
 We are aiming to attach a vegetable garden to each school in our area which will be maintained by the children and teachers and provide much needed food to the orphans and children in the schools. We are aware that there a huge number of orphans and vulnerable children who are over 10 years old and so not included in the feeding programmes, so the vegetables grown in the gardens are distributed to these children as priority.
 
-Vegetable garden: £15               Gardening Equipment: £15   Drip-feed irrigation system: £20
+Vegetable garden: £15   Gardening Equipment: £15   Drip-feed irrigation system: £20
 
 If you would like to support these activities you can go to our Store (Support Malawi), or just Donate.
