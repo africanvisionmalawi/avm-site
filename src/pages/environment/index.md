@@ -18,10 +18,9 @@ links:
     a sustainable way of making a real difference to people's lives.
   photo: "/img/page-links/link-groundnut.jpg"
   url: "./groundnut-farming/"
-- linkTitle: Fuel-Saving Stoves
-  linkText: Fuel-saving stoves use less wood, preventing deforestation and saving
-    money. They are also safer - children and epileptic people are less likely to
-    suffer severe burns.
+- linkTitle: Fuel-Saving Ovens
+  linkText: These ovens use less wood, preventing deforestation and saving money.
+    And children and epileptic people are less likely to suffer severe burns.
   photo: "/img/page-links/link-stoves.jpg"
   url: "./fuel-saving-stoves/"
 - linkTitle: Reforestation
