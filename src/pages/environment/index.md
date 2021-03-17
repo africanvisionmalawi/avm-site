@@ -25,7 +25,7 @@ links:
   url: "./fuel-saving-stoves/"
 - linkTitle: Reforestation
   linkText: Wood is the main source of fuel for keeping warm and cooking. Our Reforestation
-    Project is promoting self-sufficiency within our support area.
+    Project is promoting self-sufficiency within our area.
   photo: "/img/page-links/link-reforestation.jpg"
   url: "./reforestation/"
 - linkTitle: Food Mill
