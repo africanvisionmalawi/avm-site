@@ -43,8 +43,7 @@ links:
   display: false
 - linkTitle: Vegetable Gardens
   linkText: We are aiming to attach a vegetable garden to each school in our area
-    which will be maintained by the children and teachers and provide much needed
-    food to the orphans and children in the schools.
+    which will be maintained by the children and teachers.
   photo: "/img/page-links/link-veg-gardens.jpg"
   url: "./orphan-vegetable-gardens/"
   display: true
