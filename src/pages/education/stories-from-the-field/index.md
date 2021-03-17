@@ -6,9 +6,11 @@ links:
   - url: "/education/university-scholarships/loness-eliya-story-of-a-sponsored-university-student/"
     linkTitle: Loness Eliya's Story
     linkText: Nursing student at Kamuzu College of Nursing
+    hide: false
   - url: "/education/university-scholarships/lobiner-kanthenga-story-of-a-university-student/"
     linkTitle: Lobiner Kanthenga's story
     linkText: Studying at Kamuzu College of Nursing for a BSc in Nursing and Midwifer
+    hide: false
 ---
 
 Our University Students are writing their life stories down for us, so that our supporters can better understand the challenges they have faced trying to get an education in rural Malawi.

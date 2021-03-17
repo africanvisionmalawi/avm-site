@@ -5,8 +5,6 @@ import React from "react";
 import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-// import FeaturedProjects from "../components/FeaturedProjects";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import HeroMsg from "../components/HeroMsg";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
@@ -203,6 +201,7 @@ export const FeaturedProjectsPageSimpleVidQuery = graphql`
           }
           linkText
           url
+          hide
         }
       }
     }

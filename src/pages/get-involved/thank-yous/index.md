@@ -21,6 +21,7 @@ links:
       funded by the European Union (EU) and partially implemented by UNESCO.
     url: https://www.stepmalawi.com/
     photo: "/img/avm-step-logo-3.jpg"
+    hide: false
   - linkTitle: Love Support Unite
     photo: "/img/thankyous/love-support-unite-2.jpg"
     url: https://lovesupportunite.org/
@@ -32,6 +33,7 @@ links:
       and resources such as clean water and energy these projects aim to break reliance
       on aid and disrupt the cycle of poverty through sustainability. Since 2019, we
       have teamed up as one organisation in Malawi, merging the staff together.
+    hide: false
   - linkTitle: Feed the Children
     featured: true
     linkText:
@@ -41,6 +43,7 @@ links:
       about childhood hunger to make it a thing of the past.
     url: https://www.feedthechildren.org/
     photo: "/img/feed-the-children-2.jpg"
+    hide: false
   - linkTitle: 500 Miles
     photo: "/img/photofunny-2.jpg"
     url: https://www.500miles.co.uk/
@@ -52,6 +55,7 @@ links:
       to prostheses and orthoses. When people are born with deformities, lose their
       limbs or the use of their limbs due to accident, disease or poverty, many of them
       also lose their livelihoods, homes or families.
+    hide: false
   - linkTitle: Bryanston School
     featured: true
     linkText:
@@ -63,6 +67,7 @@ links:
       on good nutrition for new mothers.
     url: https://www.bryanston.co.uk/news/?pid=3&nid=57&storyid=1412
     photo: "/img/dog-trick-bryanston.jpg"
+    hide: false
   - linkTitle: Think Malawi
     photo: "/img/think-malawi-2.jpg"
     url: https://www.thinkmalawi.org/
@@ -72,6 +77,7 @@ links:
       providing 'girls' packs' and washrooms.
     featured: true
     order:
+    hide: false
   - linkTitle: Project4Africa
     featured: true
     linkText:
@@ -79,6 +85,7 @@ links:
       (in the north-east of our area) and a Maternity Unit in M'Bang'ombe.
     url: ""
     photo: "/img/project4africa.jpg"
+    hide: false
   - linkTitle: Aidcamps International
     photo: "/img/aidcamps-logo-2.jpg"
     url: https://www.aidcamps.org/home.aspx
@@ -87,6 +94,7 @@ links:
     linkText:
       "provide volunteers from the UK and elsewhere to participate in short-term
       voluntary projects including the library at Sam's Village. "
+    hide: false
   - linkTitle: The cornerHOUSE
     photo: "/img/corner-house-2.jpg"
     url: https://www.thecornerhouse.org/
@@ -95,6 +103,7 @@ links:
       photographic exhibitions and events."
     featured: false
     order:
+    hide: false
   - linkTitle: Nigel Bunner
     photo: "/img/thankyous/nigel-bunner.jpg"
     url: https://www.nigelbunner.co.uk
@@ -103,12 +112,14 @@ links:
       new and innovative designs and support. Thank you!"
     featured: false
     order:
+    hide: false
   - linkTitle: FOMA (Friends of Malawi Association)
     photo: "/img/maize-mill.jpg"
     url: https://www.foma.org.uk/
     linkText: kindly helped fund the provision of a maize mill for the local community.
     featured: false
     order:
+    hide: false
 body: ""
 ---
 
