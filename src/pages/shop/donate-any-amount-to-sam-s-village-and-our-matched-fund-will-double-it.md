@@ -22,8 +22,6 @@ shippingClass: ""
 
 Do consider making a donation to Sam's Village as a gift to your loved ones.
 
-[![](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image-237x300.jpg =237x300)](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/Gift-Card-Image.jpg)
-
 We will send you a gift card which you can personalise and pass on as your present.
 
 When you donate, please mention 'Christmas Present' in your message and of course your address.

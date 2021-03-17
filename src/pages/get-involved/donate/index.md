@@ -35,20 +35,20 @@ You can sponsor a [secondary school student](https://www.africanvision.org.uk/pr
 
 To do so, please download and fill in the forms below:
 
-- [Secondary School Sponsorship Form](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2017/03/secondary-school-sponsorship-form-2017-AVM.pdf)
-- [Gift Aid form](https://www.africanvision.org.uk/pdfs/forms/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax \*
+- [Secondary School Sponsorship Form](https://f000.backblazeb2.com/file/avm-wp-uploads/pdfs/secondary-school-sponsorship-form-2017-AVM.pdf)
+- [Gift Aid form](https://f000.backblazeb2.com/file/avm-wp-uploads/pdfs/email-AVM-Gift-Aid-Form.pdf), for anyone who pays UK tax \*
 
-We are also looking for sponsors for [further education students](https://www.africanvision.org.uk/education/university-scholarships/). £40 a month goes a long way to support their studies with books, fees and living costs.
+We are also looking for sponsors for [further education students](/education/university-scholarships/). £40 a month goes a long way to support their studies with books, fees and living costs.
 
 ## Celebrate & Give
 
-You may like to [pledge a gift](https://www.africanvision.org.uk/celebrate-and-give/) from an anniversary, "big birthday", or other celebration.
+You may like to [pledge a gift](/celebrate-and-give/) from an anniversary, "big birthday", or other celebration.
 
 ## Legacies
 
 Would you like to leave a legacy to African Vision Malawi? Please call us on 020 8287 8169 for a no-strings-attached chat.
 
-Many people die without leaving a will, but many people wish that their money could go to a good cause. At that difficult time, when you do have to write your will, please remember us... more information on how to do this [here](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2016/01/Leaving-a-Gift-in-your-Will.pdf).
+Many people die without leaving a will, but many people wish that their money could go to a good cause. At that difficult time, when you do have to write your will, please remember us... more information on how to do this [here](https://f000.backblazeb2.com/file/avm-wp-uploads/pdfs/Leaving-a-Gift-in-your-Will.pdf).
 
 - [Legacy form](/img/2021-legacy-form.pdf)
 - [Leaving a Gift in your Will](/img/2021-leaving-a-gift-in-your-will.pdf)

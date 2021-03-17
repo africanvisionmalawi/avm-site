@@ -17,4 +17,4 @@ Our Winter 2018 Newsletter is now out and reports on our first ever UNESCO spon
 
 It is online now for you to enjoy!
 
-[AVM Newsletter Winter 2018](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2018/11/AVM-Newsletter-November-2018.pdf)
+[AVM Newsletter Winter 2018](https://f000.backblazeb2.com/file/avm-wp-uploads/pdfs/AVM-Newsletter-November-2018.pdf)

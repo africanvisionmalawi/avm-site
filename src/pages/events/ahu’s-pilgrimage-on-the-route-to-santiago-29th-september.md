@@ -14,12 +14,12 @@ location: >-
   Praza do Obradoiro, s/n, 15704
   Santiago de Compostela, A Coruña Spain
 contact: none
-telephone: "0"
+telephone:
 cost: 0
 url: >-
-  https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf
+  https://f000.backblazeb2.com/file/avm-wp-uploads/pdfs/Ahu-pilgrimage-2019.pdf
 tags:
   - events
 ---
 
-Ahu is walking 111km over 5 days to support us. Please support her and read about her [amazing pilgrimage here …](https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/08/Ahu-pilgrimage-2019.pdf)
+Ahu is walking 111km over 5 days to support us. Please support her and read about her [amazing pilgrimage here …](https://f000.backblazeb2.com/file/avm-wp-uploads/pdfs/Ahu-pilgrimage-2019.pdf)

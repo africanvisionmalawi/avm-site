@@ -14,6 +14,6 @@ location:
   "     Masamba Gardens,      Bwaila Road (opp. Simso Filling Station)     Lilongwe
   2, Malawi"
 cost:
-url: https://www.africanvision.org.uk/africa-vision-news/wp-content/uploads/2019/05/Fundraiser-7-june-2019-poster.pdf
+url: https://f000.backblazeb2.com/file/avm-wp-uploads/pdfs/Fundraiser-7-june-2019-poster.pdf
 tags: []
 ---
