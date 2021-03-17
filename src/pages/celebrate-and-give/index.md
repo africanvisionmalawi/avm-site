@@ -14,10 +14,10 @@ Most fundraising comes from personal donations.
 
 The four most common are:
 
-- leaving a legacy
-- pledging gifts from an anniversary or event
-- pledging your birthday
-- regular monthly donations by standing order
+* leaving a legacy
+* pledging gifts from an anniversary or event
+* pledging your birthday
+* regular monthly donations by standing order
 
 Please consider one or more of those as it’s so easy to help:
 
@@ -27,7 +27,11 @@ Many people die without leaving a will, and many people wish that their money co
 
 If you would like to find out more about leaving a legacy, please give us a call on 020 8287 8169 for a no-strings-attached chat. Or you may prefer to send us an email at [info@africanvision.org.uk](mailto:info@africanvision.org.uk "email us")
 
-You can also find useful information on leaving a gift in your will here and request more information here.
+You can also find useful information on leaving a gift in your will below:
+
+[Information on leaving a legacy](/img/2021-leaving-a-gift-in-your-will.pdf "Leaving a Gift in your Will")
+
+[A legacy form to complete](/img/2021-legacy-form.pdf "Legacy Form")
 
 Many thanks!
 
@@ -42,5 +46,3 @@ This year, consider asking your friends and family to donate the money instead t
 ## Regular monthly donations
 
 These are the lifeblood of the charity and allows African Vision Malawi to continue its vital work supporting the orphans and vulnerable, leading them to a position self-sufficiency. Only £2 a month will ensure that one child receives safe, clean drinking water.
-
-You can donate online here:
