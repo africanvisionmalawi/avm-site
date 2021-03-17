@@ -18,16 +18,22 @@ links:
     a sustainable way of making a real difference to people's lives.
   photo: "/img/page-links/link-groundnut.jpg"
   url: "./groundnut-farming/"
+  display: true
+  featured: true
 - linkTitle: Fuel-Saving Ovens
   linkText: These ovens use less wood, preventing deforestation and saving money.
     And children and epileptic people are less likely to suffer severe burns.
   photo: "/img/page-links/link-stoves.jpg"
   url: "./fuel-saving-stoves/"
+  display: true
+  featured: true
 - linkTitle: Reforestation
   linkText: Wood is the main source of fuel for keeping warm and cooking. Our Reforestation
     Project is promoting self-sufficiency within our area.
   photo: "/img/page-links/link-reforestation.jpg"
   url: "./reforestation/"
+  display: true
+  featured: true
 - linkTitle: Food Mill
   linkText: We are building a Food Mill at Kafutwe. This mill will help the local
     people to maintain a sustainable income. Millet, sorghum and legumes can be ground
@@ -41,6 +47,8 @@ links:
     food to the orphans and children in the schools.
   photo: "/img/page-links/link-veg-gardens.jpg"
   url: "./orphan-vegetable-gardens/"
+  display: true
+  featured: true
 - linkTitle: Fruit Trees
   linkText: Hundreds of trees were planted back in 2008 and the trees in Chitsime,
     Masiye and M'bang'ombe are thriving, despite droughts.
