@@ -115,7 +115,11 @@ const EventsPostTemplate = ({
                 {location && <EventText>Location: {location}</EventText>}
                 {contact && <EventText>Contact: {contact}</EventText>}
                 {telephone && <EventText>Telephone: {telephone}</EventText>}
-                {cost && <EventText>Cost: &pound;{cost}</EventText>}
+                {cost ? (
+                  <EventText>
+                    Cost: {cost > 0 ? "&pound;" + cost : "free"}
+                  </EventText>
+                ) : null}
                 {url && (
                   <EventText>
                     Url: <a href={url}>{url}</a>
