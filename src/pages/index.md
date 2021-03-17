@@ -64,7 +64,9 @@ ourWork:
   featured: false
 
 ---
-Welcome to our NEW 2021 Website! We hope you enjoy the look and feel and of course the content! Many thanks to Nigel Bunner for making it possible through many long hours. We are looking at resurrecting our annual Malawi bike rides. The most probable dates are either September 2021 or Spring 2022; do get in touch if you want to know more.
+Welcome to our NEW 2021 Website! We hope you enjoy the look and feel and of course the content! Many thanks to Nigel Bunner for making it possible through many long hours. 
+
+We are now looking at getting our annual Malawi bike rides back on track. The most probable dates are either September 2021 or Spring 2022; do get in touch if you want to know more.
 
 We are putting together runners for the Virtual London Marathon, October 3rd. If you would like one of our places do let us know.
 
