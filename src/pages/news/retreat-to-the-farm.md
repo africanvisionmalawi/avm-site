@@ -17,7 +17,7 @@ display_on_homepage: true
 homepage_sort_order: 1
 
 ---
-2021 takes you to France for Yoga and Mindful Stargazing in August (Covid permitting) Followed by Yoga; Mindfulness; Breakthrough to Zen; Recharge and Unwind; Reconnect, Rewind, Restore … or try more than one!
+2021 takes you to France for Yoga and Mindful Stargazing in August (Covid permitting) Followed by more retreats: Yoga, Mindfulness; Breakthrough to Zen; Recharge and Unwind; Reconnect, Rewind, Restore … or try more than one!
 
 20% of the income goes to support the orphan and vulnerable children of Malawi, so do please support Sam in these very popular retreats and have a wonderful treat for yourself!
 
