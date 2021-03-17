@@ -64,11 +64,11 @@ ourWork:
   featured: false
 
 ---
-Welcome to our NEW 2021 Website! We hope you enjoy the look and feel and of course the content! Many thanks to Nigel Bunner for making it possible through many long hours. 
+Welcome to our NEW 2021 Website. We hope you enjoy the look and feel and of course the content! Many thanks to Nigel Bunner for making it possible through many long hours. 
 
-We are now looking at getting our annual Malawi bike rides back on track. The most probable dates are either September 2021 or Spring 2022; do get in touch if you want to know more.
+We are now looking at getting our annual Malawi bike rides back on track. The most probable dates are either September 2021 or Spring 2022; do get in touch if you want to know more, details below.
 
-We are putting together runners for the Virtual London Marathon, October 3rd. If you would like one of our places do let us know.
+We are putting together runners for the Virtual London Marathon, October 3rd. If you would like one of our places do let us know. Our French retreats are back on from August, (Covid permitting). First one is Yoga and Mindful Stargazing... details below.
 
  With most of our Fundraising cut back this year, do consider supporting us by a small standing order. We have reduced most of our field activities so that we can minimise the effect on our staff and the most vulnerable, but do please help if you can by donating above. Thank you!
 
