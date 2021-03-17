@@ -5,7 +5,6 @@ import React from "react";
 import { HeroImage } from "../components/common/HeroImage";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
-import FeaturedProjectsTiles from "../components/FeaturedProjectsTiles";
 import Gallery from "../components/gallery/Gallery";
 import HeroMsg from "../components/HeroMsg";
 import Layout from "../components/Layout";
@@ -194,6 +193,7 @@ export const FeaturedProjectsPageSimpleGalQuery = graphql`
           }
           linkText
           url
+          hide
         }
       }
     }

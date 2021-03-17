@@ -134,6 +134,7 @@ export const PagePhotoLinksQuery = graphql`
           }
           linkText
           url
+          hide
         }
       }
     }

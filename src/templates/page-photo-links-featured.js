@@ -101,8 +101,6 @@ const PagePhotoLinksFeaturedTemplate = (props) => {
           text="Donate"
           displayImage
         />
-
-        
       </div>
     </div>
   );
@@ -167,6 +165,7 @@ export const PagePhotoLinksFeaturedQuery = graphql`
           linkText
           url
           featured
+          hide
         }
       }
     }

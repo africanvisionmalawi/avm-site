@@ -248,6 +248,7 @@ export const FeaturedProjectsPageQuery = graphql`
           }
           linkText
           url
+          hide
         }
       }
     }

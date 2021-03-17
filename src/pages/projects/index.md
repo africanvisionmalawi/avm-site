@@ -20,6 +20,7 @@ links:
     photo: "/img/bicycle-ambulance.JPG"
     url: "/health/bicycle-ambulances/"
     featured: true
+    hide: false
   - linkText:
       Since 2006 we have completed a number of school building projects including
       a number of school blocks (typically with 6 classrooms) at various locations as
@@ -29,6 +30,7 @@ links:
     photo: "/img/building-schools.JPG"
     url: "/education/building-a-school-at-masiye/"
     featured: true
+    hide: false
   - linkText:
       What is a CBCC? A CBCC is a building with a multiple use - as a pre-school
       and as a feeding station for children 3-5 years old. Most children in rural areas
@@ -38,6 +40,7 @@ links:
     photo: "/img/cbcc-1.jpg"
     url: "/education/community-based-childcare-centres-cbccs/"
     featured: true
+    hide: false
   - linkText:
       Distributions will always be a big part of our work, and are vital to
       the orphans who have nothing. We regularly distribute throughout our area clothes,
@@ -47,6 +50,7 @@ links:
     photo: "/img/distributions-2.jpg"
     url: "/health/distributions/"
     featured: true
+    hide: false
   - linkText:
       "We have been working in partnership with ‘Feed The Children’ (www.feedthechildren.org)
       who provide the food and we organise the training and operation of the feeding
@@ -55,6 +59,7 @@ links:
     photo: "/img/page-links/link-feeding.jpg"
     url: "/education/feeding-programme-in-schools/"
     featured: false
+    hide: false
   - linkText:
       Gandys ‘Orphans for Orphans’ has funded a pre-school at Funsani, Lumbadzi
       Centre. The building was completed in September 2017 and was opened by Gandys
@@ -63,6 +68,7 @@ links:
     photo: "/img/page-links/link-crowd-children.jpg"
     url: "./funsani-rammed-earth-community-based-childcare-centre-cbcc/"
     featured: false
+    hide: false
   - linkText:
       1 in 6 women die in childbirth in Malawi. In April 2010 we filmed in our
       local Clinic and Maternity unit with 8 beds. These serve 13,569 people. There
@@ -72,6 +78,7 @@ links:
     photo: "/img/page-links/link-motherhood.jpg"
     url: "/health/maternity-unit/"
     featured: false
+    hide: false
   - linkText:
       Project4Africa is a group who raise funds to help various projects in
       Africa. This year we are delighted to announce they will be raising money for
@@ -81,26 +88,31 @@ links:
     photo: "/img/page-links/link-project4africa.jpg"
     url: "./project4africa/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: Njewa New Office
     photo: "/img/page-links/link-njewa.jpg"
     url: "/sams-village/njewa-new-office/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: Rammed Earth Building
     photo: "/img/page-links/link-building-with-roof.jpg"
     url: "/sams-village/njewa-new-office/rammed-earth-building/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: Permaculture
     photo: "/img/page-links/link-permaculture.jpg"
     url: "/sams-village/permaculture/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: Training Programme
     photo: "/img/page-links/link-crowd-children.jpg"
     url: "/sams-village/training-programme/"
     featured: false
+    hide: false
   - linkText:
       Education is free to children up to the end of primary school but if they
       want to go on and get a full education (and hopefully go onto university) it costs
@@ -111,21 +123,25 @@ links:
     photo: "/img/page-links/link-secondary-schools.jpg"
     url: "/education/secondary-school-sponsorship/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: University Scholarships
     photo: "/img/page-links/link-university.jpg"
     url: "/education/university-scholarships/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: Lobiner Kanthenga - story of a University Student
     photo: "/img/page-links/link-crowd-children.jpg"
     url: "/education/university-scholarships/lobiner-kanthenga-story-of-a-university-student/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: Loness Eliya - story of a sponsored University
     photo: "/img/page-links/link-crowd-children.jpg"
     url: "/education/university-scholarships/loness-eliya-story-of-a-sponsored-university-student/"
     featured: false
+    hide: false
   - linkText:
       It only costs £150 to build up a well to make it safe a free from contamination.
       This is a great present for your friends and family as it is genuinely saving
@@ -136,11 +152,13 @@ links:
     photo: "/img/page-links/link-water-green-bucket.jpg"
     url: "/water/water-and-sanitation/"
     featured: false
+    hide: false
   - linkText: "..."
     linkTitle: Water boreholes
     photo: "/img/page-links/link-crowd-children.jpg"
     url: "/water/water-boreholes/"
     featured: false
+    hide: false
 currentProject: ""
 columns:
 heroImage: ""

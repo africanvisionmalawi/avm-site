@@ -87,6 +87,7 @@ export const pageBasicQuery = graphql`
           linkTitle
           linkText
           url
+          hide
         }
       }
     }

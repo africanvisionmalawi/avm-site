@@ -49,29 +49,30 @@ const PageLinks = (props) => {
           // ];
           // console.log("sources", sources);
           // console.log("here", pagelink.smallImage.childImageSharp.fluid);
-
-          return (
-            <>
-              {featured ? (
-                <CardDouble
-                  largeImage={pagelink.largeImage}
-                  url={pagelink.url}
-                  title={pagelink.linkTitle}
-                  linkText={pagelink.linkText}
-                  showPageLink={showPageLink}
-                />
-              ) : (
-                <CardSingle
-                  smallImage={pagelink.smallImage}
-                  url={pagelink.url}
-                  title={pagelink.linkTitle}
-                  linkText={pagelink.linkText}
-                  showPageLink={showPageLink}
-                  hideOtherPhotos={hideOtherPhotos}
-                />
-              )}
-            </>
-          );
+          if (!pagelink.hide) {
+            return (
+              <>
+                {featured ? (
+                  <CardDouble
+                    largeImage={pagelink.largeImage}
+                    url={pagelink.url}
+                    title={pagelink.linkTitle}
+                    linkText={pagelink.linkText}
+                    showPageLink={showPageLink}
+                  />
+                ) : (
+                  <CardSingle
+                    smallImage={pagelink.smallImage}
+                    url={pagelink.url}
+                    title={pagelink.linkTitle}
+                    linkText={pagelink.linkText}
+                    showPageLink={showPageLink}
+                    hideOtherPhotos={hideOtherPhotos}
+                  />
+                )}
+              </>
+            );
+          }
         })}
       </div>
     </div>
