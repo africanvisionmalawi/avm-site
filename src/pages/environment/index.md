@@ -24,7 +24,7 @@ links:
   linkText: These ovens use less wood, preventing deforestation and saving money.
     And children and epileptic people are less likely to suffer severe burns.
   photo: "/img/page-links/link-stoves.jpg"
-  url: "./fuel-saving-ovens/"
+  url: "./fuel-saving-stoves/"
   hide: false
   featured: true
 - linkTitle: Reforestation
