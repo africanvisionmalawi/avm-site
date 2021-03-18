@@ -60,4 +60,6 @@ links:
     photo: "/img/page-links/link-fruit-trees.jpg"
     url: "./fruit-trees/"
     hide: true
----We have a number of environmental projects including Groundnut Farming, Fuel-Saving Stoves, Reforestation, Food Mills, Vegetable Gardens and Fruit Trees.
+---
+
+We have a number of environmental projects including Groundnut Farming, Fuel-Saving Stoves, Reforestation, Food Mills, Vegetable Gardens and Fruit Trees.

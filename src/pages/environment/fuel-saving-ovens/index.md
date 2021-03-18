@@ -3,7 +3,9 @@ templateKey: page-basic
 title: Fuel-Saving Ovens
 description: How we help people build fuel efficient stoves
 headerImage: "/img/chemex.jpg"
----Our Agriculture Officer, Green Phiri, teaches people around our area how to build fuel efficient stoves.
+---
+
+Our Agriculture Officer, Green Phiri, teaches people around our area how to build fuel efficient stoves.
 
 Such stoves are excellent because they:
 
