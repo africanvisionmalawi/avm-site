@@ -14,7 +14,7 @@ display_on_homepage: false
 homepage_sort_order: 
 
 ---
-Welcome to our 2018 Newsletter which is now out and reports on our first ever UNESCO sponsored training course. Read about how our new graduates are making a living for the first time as carpenters, tailors and electricians.
+Welcome to our 2018 Newsletter which reports on our first ever UNESCO sponsored training course. Read about how our new graduates are making a living for the first time as carpenters, tailors and electricians.
 
 It is online now for you to enjoy!
 
