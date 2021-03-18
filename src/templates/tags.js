@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby";
 import { styled } from "linaria/react";
 import React from "react";
 import { PostListItem } from "../components/common/PostListItem";
+import { SectionTop } from "../components/common/SectionTop";
 import Layout from "../components/Layout";
 
 // const Section = styled.section`
@@ -18,7 +19,7 @@ const TextSection = styled.section`
   min-height: 24rem;
   margin: 0 auto;
   max-width: 885px;
-  padding: 3em 2em 2em;
+  padding: 0 2em 2em;
   position: relative;
   width: 100%;
 `;
@@ -65,8 +66,10 @@ const TagRoute = (props) => {
       article={false}
     >
       <article>
-        <TextSection>
+        <SectionTop>
           <h1 className="title is-bold-light">{tagHeader}</h1>
+        </SectionTop>
+        <TextSection>
           <List>{postLinks}</List>
           <BrowseAll>
             <Link to="/tags/">Browse all tags</Link>

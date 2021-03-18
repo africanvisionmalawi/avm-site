@@ -1,16 +1,14 @@
 ---
 templateKey: page-basic
-title: Fuel-Saving Stoves
+title: Fuel-Saving Ovens
 description: How we help people build fuel efficient stoves
 headerImage: "/img/chemex.jpg"
-
----
-Our Agriculture Officer, Green Phiri, teaches people around our area how to build fuel efficient stoves.
+---Our Agriculture Officer, Green Phiri, teaches people around our area how to build fuel efficient stoves.
 
 Such stoves are excellent because they:
 
-* Use less firewood, saving money and slowing down deforestation
-* Are much safer, reducing the number of children and epileptic people who suffer burns from stoves.
+- Use less firewood, saving money and slowing down deforestation
+- Are much safer, reducing the number of children and epileptic people who suffer burns from stoves.
 
 Fires in these stoves are also easier to keep alight than the traditional fires where you rest a pot on three bricks.
 
