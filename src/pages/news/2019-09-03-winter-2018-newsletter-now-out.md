@@ -3,17 +3,18 @@ templateKey: blog-post
 published: true
 featuredImage: "/img/avm-newsletter-december-2018_page_1.jpg"
 title: Winter 2018 Newsletter now out!
-date: 2018-11-30T21:48:16Z
-description:
-  Our Winter 2018 Newsletter is now out and reports on our first ever UNESCO
+date: 2018-11-30T21:48:16.000+00:00
+description: Our Winter 2018 Newsletter is now out and reports on our first ever UNESCO
   sponsored training course.
 tags:
-  - newsletters
-  - ""
-pdf_upload: null
----
+- newsletters
+- ''
+pdf_upload: ''
+display_on_homepage: false
+homepage_sort_order: 
 
-Our Winter 2018 Newsletter is now out and reports on our first ever UNESCO sponsored training course. Read about how our new graduates are making a living for the first time as carpenters, tailors and electricians.
+---
+Welcome to our 2018 Newsletter which is now out and reports on our first ever UNESCO sponsored training course. Read about how our new graduates are making a living for the first time as carpenters, tailors and electricians.
 
 It is online now for you to enjoy!
 
