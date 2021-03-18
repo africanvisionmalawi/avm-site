@@ -26,7 +26,7 @@ links:
       These ovens use less wood, preventing deforestation and saving money.
       And children and epileptic people are less likely to suffer severe burns.
     photo: "/img/page-links/link-stoves.jpg"
-    url: "./fuel-saving-stoves/"
+    url: "./fuel-saving-ovens/"
     hide: false
     featured: true
   - linkTitle: Reforestation
@@ -59,7 +59,7 @@ links:
       Masiye and M'bang'ombe are thriving, despite droughts.
     photo: "/img/page-links/link-fruit-trees.jpg"
     url: "./fruit-trees/"
-    hide: false
+    hide: true
 ---
 
 We have a number of environmental projects including Groundnut Farming, Fuel-Saving Stoves, Reforestation, Food Mills, Vegetable Gardens and Fruit Trees.
