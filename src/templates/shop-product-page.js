@@ -19,12 +19,6 @@ import { TagsList } from "../components/shop/tagsList";
 import useSiteMetadata from "../hooks/use-site-metadata";
 import { priceFormatted } from "../utils/helpers";
 
-const Section = styled.section`
-  margin: 0 auto;
-  max-width: 1180px;
-  width: 100%;
-`;
-
 const ShopSection = styled.section`
   margin: 0 auto;
   max-width: 1180px;

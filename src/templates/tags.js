@@ -4,6 +4,7 @@ import { styled } from "linaria/react";
 import React from "react";
 import { PostListItem } from "../components/common/PostListItem";
 import { SectionTop } from "../components/common/SectionTop";
+import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 
 // const Section = styled.section`
@@ -67,7 +68,7 @@ const TagRoute = (props) => {
     >
       <article>
         <SectionTop>
-          <h1 className="title is-bold-light">{tagHeader}</h1>
+          <HeadingH1 text={tagHeader} />
         </SectionTop>
         <TextSection>
           <List>{postLinks}</List>

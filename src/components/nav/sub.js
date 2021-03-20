@@ -5,9 +5,6 @@ import { navLinks } from "../../constants/nav";
 import CartLink from "../CartLink";
 import CtaButton from "../CtaButton";
 import NavLogo from "../NavLogo";
-// import Search from "../search";
-const searchIndices = [{ name: `Pages`, title: `Pages` }];
-// const { SubMenu } = Menu;
 
 const SubNavBar = () => {
   // const [current, setCurrent] = useState("mail");
@@ -28,7 +25,6 @@ const SubNavBar = () => {
 
   const toggleMenu = () => {
     setDrawerVisible((prev) => !prev);
-    console.log("here", drawerVisible);
   };
 
   return (
@@ -174,15 +170,6 @@ const DrawerContent = styled.div`
     transform: translateX(0);
     transition: transform 0.4s ease-in-out;
   }
-
-  // height: 100%;
-  // min-width: 50vw;
-  // max-width: calc(100vw - 20px);
-  // overflow-y: auto;
-  // position: absolute;
-  // background-color: #fff;
-  // width: 300px;
-  // z-index: 120;
 `;
 
 const NavInner = styled.div`
@@ -222,10 +209,6 @@ const Nav = styled.div`
   margin: 0 auto;
   max-width: 1060px;
   width: 100%;
-`;
-
-const BtnsCont = styled.div`
-  display: flex;
 `;
 
 const IconsCont = styled.div`

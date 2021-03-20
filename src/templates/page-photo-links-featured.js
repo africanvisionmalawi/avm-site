@@ -21,23 +21,6 @@ const Section = styled.section`
   width: 100%;
 `;
 
-const TextSection = styled.section`
-  background: #fff;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  margin: 0 auto;
-  max-width: 1180px;
-  padding: 1em 2em;
-  position: relative;
-  width: 100%;
-  @media (min-width: 768px) {
-    padding: 2em 4em;
-  }
-  @media (min-width: 1040px) {
-    padding: 4em 8em;
-  }
-`;
-
 const PagePhotoLinksFeaturedTemplate = (props) => {
   const {
     title,
