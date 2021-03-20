@@ -166,7 +166,7 @@ const IndexPage = (props) => {
                 </div>
               </section>
               <PostsFooter>
-                <Link to="/news">View all news</Link>
+                <Link to="/news/">View all news</Link>
               </PostsFooter>
             </>
           )}
@@ -181,7 +181,7 @@ const IndexPage = (props) => {
                 </CardCont>
               </NewsCont>
               <PostsFooter>
-                <Link to="/events">View all events</Link>
+                <Link to="/events/">View all events</Link>
               </PostsFooter>
             </section>
           ) : null}
