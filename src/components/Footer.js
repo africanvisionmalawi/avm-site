@@ -106,40 +106,40 @@ const Footer = () => (
 
             <FooterCol xs={12} sm={8}>
               <Heading>
-                <a href="/news">News</a>
+                <Link to="/news/">News</Link>
               </Heading>
               <ul className={footerStyles.list}>
                 <li>
-                  <a href="/events/">Events</a>
+                  <Link to="/events/">Events</Link>
                 </li>
                 <li>
-                  <a href="/tags/general/">General News</a>
+                  <Link to="/tags/general/">General News</Link>
                 </li>
                 <li>
-                  <a href="/tags/fundraising/">Fundraising News</a>
+                  <Link to="/tags/fundraising/">Fundraising News</Link>
                 </li>
                 <li>
-                  <a href="/tags/malawi/">News from Malawi</a>
+                  <Link to="/tags/malawi/">News from Malawi</Link>
                 </li>
                 <li>
-                  <a href="/tags/uk/">News from the UK</a>
+                  <Link to="/tags/uk/">News from the UK</Link>
                 </li>
                 <li>
-                  <a href="/tags/reports/">Reports</a>
+                  <Link to="/tags/reports/">Reports</Link>
                 </li>
                 <li>
-                  <a href="/tags/newsletters/">Newsletters</a>
+                  <Link to="/tags/newsletters/">Newsletters</Link>
                 </li>
               </ul>
             </FooterCol>
 
             <FooterCol xs={12} sm={8}>
               <Heading>
-                <a href="/shop/">Shop</a>
+                <Link to="/shop/">Shop</Link>
               </Heading>
               <ul className={footerStyles.list}>
                 <li>
-                  <a href="/shop/">View all products</a>
+                  <Link to="/shop/">View all products</Link>
                 </li>
                 <li>
                   <CartLink className="snipcart-summary snipcart-checkout">
@@ -173,9 +173,7 @@ const Footer = () => (
           <FooterBottomRow>
             <LogoImg src={logo} alt="" />
             <FooterInnerRow>
-              <Heading>
-                <a href="/news">Join us on&hellip;</a>
-              </Heading>
+              <Heading>Join us on&hellip;</Heading>
               <ul className={footerStyles.iconsList}>
                 <li>
                   <a href="https://www.facebook.com/africanvision">

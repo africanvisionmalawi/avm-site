@@ -9,6 +9,9 @@
 .footer a:visited {
   color: #575757;
 }
+.footer a:hover {
+  text-decoration: underline;
+}
 .footerInner {
   /* display: flex;
   justify-content: center; */

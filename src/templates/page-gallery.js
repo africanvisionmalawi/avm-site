@@ -6,6 +6,7 @@ import { SectionTop } from "../components/common/SectionTop";
 import Content, { HTMLContent } from "../components/Content";
 import Donate from "../components/Donate";
 import Gallery from "../components/gallery/Gallery";
+import HeadingH1 from "../components/HeadingH1";
 import Layout from "../components/Layout";
 import NavbarLower from "../components/NavbarLower";
 import pageBasicStyles from "../components/pageBasic.module.css";
@@ -44,7 +45,7 @@ const PageGalleryTemplate = ({
         <article className="content">
           <main className={`column is-8 ${pageBasicStyles.main}`}>
             <SectionTop>
-              <h1 className="has-text-weight-semibold is-size-2">{title}</h1>
+              <HeadingH1 text={title} />
               <PageContent className="content" content={content} />
             </SectionTop>
             <Donate

@@ -9,18 +9,6 @@ import Donate from "../components/Donate";
 import Layout from "../components/Layout";
 // import { TagsList } from "../components/shop/tagsList";
 
-const TextSection = styled.section`
-  background: #fff;
-  margin: 0 auto;
-  max-width: 885px;
-  padding: 1rem 1rem 2rem;
-  position: relative;
-  width: 100%;
-  @media (min-width: 580px) {
-    padding-top: 2rem;
-  }
-`;
-
 const HeroCont = styled.div`
   margin: 0 auto;
   max-width: 1024px;
