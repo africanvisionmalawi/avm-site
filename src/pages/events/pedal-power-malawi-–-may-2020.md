@@ -14,7 +14,7 @@ location: '     Sam’s Village, 13°44''55.7"S 33°43''45.4"E, Lilongwe Malawi 
 contact: Heather
 telephone: "0"
 cost: 1350
-url: "/here/"
+url: ""
 tags:
   - "2020"
   - cycle
