@@ -18,7 +18,7 @@ location: |2-
 contact: none
 telephone: "0"
 cost: 0
-url: /here/
+url:
 tags:
   - malawi
   - cycle
