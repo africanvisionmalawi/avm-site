@@ -66,7 +66,7 @@ links:
       in October.
     linkTitle: Funsani - Rammed Earth Community Based Childcare Centre (CBCC)
     photo: "/img/page-links/link-crowd-children.jpg"
-    url: "./funsani-rammed-earth-community-based-childcare-centre-cbcc/"
+    url: "/projects/funsani-rammed-earth-community-based-childcare-centre-cbcc/"
     featured: false
     hide: false
   - linkText:
@@ -86,7 +86,7 @@ links:
       and staff housing in our area.
     linkTitle: Project4Africa
     photo: "/img/page-links/link-project4africa.jpg"
-    url: "./project4africa/"
+    url: "/projects/project4africa/"
     featured: false
     hide: false
   - linkText: "..."
