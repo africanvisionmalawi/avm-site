@@ -17,4 +17,4 @@
 /projects/sams-village/library/ /sams-village/library/
 /projects/sams-village/building-programme/  /sams-village/building-programme/
 /environment/fuel-saving-stoves/    /environment/fuel-saving-ovens/
-/shop/product/* /shop/:splat
+/product/* /shop/:splat
