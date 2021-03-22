@@ -52,38 +52,38 @@ links:
       with UNESCO who will be funding bursaries for the next 18 months to train 150
       marginalized people in different vocational skills.
     photo: "/img/page-links/link-building-with-roof.jpg"
-    url: "./training-programme/"
+    url: "/sams-village/training-programme/"
     hide: false
   - linkTitle: Library
     linkText:
       The Sam's Village Library is now open - Monday to Friday all day and Saturday
       mornings.
     photo: "/img/page-links/link-library.jpg"
-    url: "./library/"
+    url: "/sams-village/library/"
     hide: false
   - linkTitle: Permaculture
     linkText: Permaculture gardens cover the Sam's Village site.
     photo: "/img/page-links/link-permaculture.jpg"
-    url: "./permaculture/"
+    url: "/sams-village/permaculture/"
     hide: false
   - linkTitle: Building Programme
     linkText:
       The building programme at Sam's Village is well underway. We build using
       sustainable rammed earth techniques.
     photo: "/img/page-links/link-village-building.jpg"
-    url: "./building-programme/"
+    url: "/sams-village/building-programme/"
     hide: false
   - linkTitle: Biogas
     linkText: The Restaurant and Kitchen will be fuelled by biogas.
     photo: "/img/page-links/link-biogas.jpg"
-    url: "./biogas/"
+    url: "/sams-village/biogas/"
     hide: false
   - linkTitle: Njewa New Office
     linkText:
       We are building a rammed earth and permaculture showcase site in the Njewa
       suburb of Lilongwe. Email us if you would like to come and visit it!
     photo: "/img/page-links/link-njewa.jpg"
-    url: "./njewa-new-office/"
+    url: "/sams-village/njewa-new-office/"
     hide: false
 ---
 

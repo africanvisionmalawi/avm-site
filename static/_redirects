@@ -16,5 +16,6 @@
 /projects/sams-village/permaculture/    /sams-village/permaculture/
 /projects/sams-village/library/ /sams-village/library/
 /projects/sams-village/building-programme/  /sams-village/building-programme/
+/projects/sams-village/biogas/   /sams-village/biogas/
 /environment/fuel-saving-stoves/    /environment/fuel-saving-ovens/
 /product/* /shop/:splat

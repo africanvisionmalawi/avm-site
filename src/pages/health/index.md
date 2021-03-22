@@ -31,21 +31,21 @@ links:
       for people getting to clinics, was lack of transport. "
     linkTitle: Bicycle Ambulances
     photo: "/img/page-links/link-bicycle-ambulance.jpg"
-    url: "./bicycle-ambulances/"
+    url: "/health/bicycle-ambulances/"
     hide: false
   - linkText:
       We have found over the years that people with disabilities are the most
       poverty stricken and often outcast from their community.
     linkTitle: Disability
     photo: "/img/page-links/link-disability.jpg"
-    url: "./disability/"
+    url: "/health/disability/"
     hide: false
   - linkText:
       Many children are orphaned due to HIV/AIDS and are left to be looked after
       by their extended family, often grandparents.
     linkTitle: HIV/AIDS
     photo: "/img/page-links/link-health-room.jpg"
-    url: "./hivaids/"
+    url: "/health/hivaids/"
     hide: false
   - linkText:
       The under 5's are one of our most vulnerable groups where 11% often die
@@ -59,14 +59,14 @@ links:
       Maternity and 29,000 access N'goni Clinic. Both are very poorly equipped.
     linkTitle: Safe Motherhood
     photo: "/img/page-links/link-motherhood.jpg"
-    url: "./maternity-unit/"
+    url: "/health/maternity-unit/"
     hide: false
   - linkText:
       Although we aim to build sustainable communities, unfortunately sometimes
       distributions, linked with our health projects are necessary
     linkTitle: Distributions
     photo: "/img/page-links/link-distributions.jpg"
-    url: "./distributions/"
+    url: "/health/distributions/"
     hide: false
 ---
 
