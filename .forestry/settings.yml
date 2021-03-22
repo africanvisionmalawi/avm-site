@@ -91,6 +91,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - GATSBY_WEBPACK_PUBLICPATH=/
+  - GATSBY_IS_STAGING=true
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:10
