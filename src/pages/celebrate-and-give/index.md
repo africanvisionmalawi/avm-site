@@ -31,7 +31,7 @@ You can also find useful information on leaving a gift in your will below:
 
 [Information on leaving a legacy](/img/2021-leaving-a-gift-in-your-will.pdf "Leaving a Gift in your Will")
 
-[A legacy form to complete](/img/2021-legacy-form.pdf "Legacy Form")
+[Get in touch with us by post]()
 
 Many thanks!
 
