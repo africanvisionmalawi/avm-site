@@ -37,7 +37,7 @@ export const MailingForm = () => {
       <FormContInner>
         <h3>Join our Mailing List</h3>
         <form
-          action="http://africanvision.createsend.com/t/y/s/jdhiii/"
+          action="https://africanvision.createsend.com/t/y/s/jdhiii/"
           name="mailing-list"
           method="post"
           data-netlify="true"
