@@ -19,3 +19,4 @@
 /projects/sams-village/biogas/   /sams-village/biogas/
 /environment/fuel-saving-stoves/    /environment/fuel-saving-ovens/
 /product/* /shop/:splat
+/why-malawi/   /about-us/malawi/ 
