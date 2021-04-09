@@ -10,15 +10,18 @@ Wood is the main source of fuel for keeping warm, cooking and firing of bricks f
 
 Our Reforestation Project is promoting self-sufficiency within our support area.
 
-Our aims are:
+* To plant trees and restore the environment
+* To train local people and students in plant care
+* Develop tree and plant nurseries attached to schools
+* Provide seeds, seedling and tools for nursery development.
+* 
 
-    Provide seeds, seedling and tools for nursery development.
-    Develop nurseries attached to schools.
-    To train local people and students in plant care
-
-Over the years, we have planted trees in schools, provided training and set up Growing Clubs.
+Over the years, we have planted tens of thousands of trees in schools and communities, and provided training and set up Growing Clubs.
 
 reforestation reforestation
 
-We have started ‘growing clubs’ in our area where members of the community grow trees from seed. We buy these seedlings as a form of income generating for the community. We have found this approach more successful in local communities than in the schools.
-Acacia trees growing
+We have started ‘growing clubs’ in our area where members of the community grow trees from seed. We buy these seedlings as a form of income generating for the community. We have found this approach particularly successful in local communities.
+
+![](/img/acacia-at-m-bang-ombe-school.jpg)
+
+Acacia trees growing around M'Bang'Ombe school
