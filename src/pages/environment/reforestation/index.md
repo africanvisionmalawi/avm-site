@@ -15,9 +15,11 @@ Our Reforestation Project is promoting self-sufficiency within our support area.
 * Develop tree and plant nurseries attached to schools
 * Provide seeds, seedling and tools for nursery development.
 
-Over the years, we have planted tens of thousands of trees in schools and communities, and provided training and set up Growing Clubs.
+Over the years, we have planted tens of thousands of trees in schools and communities, and provided the necessary training.
 
-reforestation reforestation
+Sam's Village is an eco-village specialising in Permaculture (see picture below) which is taught to all students who stay with us, no matter what else they are learning.
+
+![](/img/permaculture.jpg)
 
 We have started ‘growing clubs’ in our area where members of the community grow trees from seed. We buy these seedlings as a form of income generating for the community. We have found this approach particularly successful in local communities.
 
