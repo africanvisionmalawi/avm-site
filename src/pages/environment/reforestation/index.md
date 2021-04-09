@@ -14,7 +14,6 @@ Our Reforestation Project is promoting self-sufficiency within our support area.
 * To train local people and students in plant care
 * Develop tree and plant nurseries attached to schools
 * Provide seeds, seedling and tools for nursery development.
-* 
 
 Over the years, we have planted tens of thousands of trees in schools and communities, and provided training and set up Growing Clubs.
 
