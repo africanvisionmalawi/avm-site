@@ -45,6 +45,4 @@ Sam’s Village will offer courses on Carpentry, Tailoring and Basic Electronics
 
 For more information please email us.
 
-£10 can help the trainees set up in business after their training.
-
-If you would like to help fund this sustainable training programme, please click here:
+£10 can help the trainees set up in business after their training. Do consider a small donation to help them get started.
