@@ -47,8 +47,8 @@ gallery:
 links:
 - linkTitle: Training programme
   linkText: We are delighted to announce that we have become International Partners
-    with UNESCO. Since 2018 over 200 bursaries have been funded for marginalized people
-    teaching a variety of vocational skills.
+    with UNESCO. Since 2018, over 200 bursaries have been funded for marginalized
+    people teaching a variety of vocational skills.
   photo: "/img/page-links/link-building-with-roof.jpg"
   url: "/sams-village/training-programme/"
   hide: false
@@ -88,7 +88,7 @@ Completed so far are: a pre-school for children under 5, [library](/sams-village
 
 Sam’s Training Village is situated opposite M’teza School in Chigonti village, near to M’bang’ombe trading centre. It is a 30 min drive from Kamuzu International Airport, a 20 minute drive from Lumbadzi trading centre, and the nearest city is Lilongwe (1 hour drive).
 
-We believe the Village will become a best-practice example for Malawi (and in time other parts of Africa) of how to encourage and develop sustainable, forward looking and skilled communities.
+We believe the Village will become a best-practice example for Malawi (and in time other parts of Africa) in how to encourage and develop sustainable, forward-looking and skilled communities.
 
 ## Why is it called Sam’s Village?
 
