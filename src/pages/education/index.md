@@ -4,8 +4,8 @@ currentProject: education
 title: Education
 description: Details about our education projects
 heroImage: "/img/mainphoto_education.jpg"
-heroMsg: "Only 40% of primary school aged children attend school \nThe pupil to teacher
-  ratio is 62/1 in Malawi\nOnly 25% get a place in secondary school \n"
+heroMsg: "Only 40% of primary aged children attend school \nThe pupil to teacher ratio
+  is 62/1 in Malawi\nOnly 25% get a place in secondary school \n"
 heroMsgSource: 
 gallery:
 - photo: 
