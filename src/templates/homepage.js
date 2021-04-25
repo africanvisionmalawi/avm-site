@@ -128,11 +128,13 @@ const IndexPage = (props) => {
           />
           <LowerSection>
             <LowerSectionInner>
-              <HomepageProjectsCols
-                currentProject="home"
-                displayHeading={true}
-                ourWork={ourWork}
-              />
+              <BodySection>
+                <HomepageProjectsCols
+                  currentProject="home"
+                  displayHeading={true}
+                  ourWork={ourWork}
+                />
+              </BodySection>
             </LowerSectionInner>
             <Divider />
           </LowerSection>
@@ -198,6 +200,15 @@ IndexPage.propTypes = {
     }),
   }),
 };
+
+const BodySection = styled.section`
+  @media (min-width: 768px) {
+    padding: 0 1rem;
+  }
+  @media (min-width: 1024px) {
+    padding: 0 0.5rem;
+  }
+`;
 
 const TopVideoSectionInner = styled.div`
   display: flex;
