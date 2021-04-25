@@ -24,15 +24,27 @@ const OurWorkPage = ({ data }) => {
           <Heading>Our work</Heading>
           <PageContent className="content" content={post.html} />
         </SectionTop>
-        <HomepageProjectsCols
-          currentProject="home"
-          displayHeading={false}
-          ourWork={ourWorkData}
-        />
+        <BodySection>
+          <HomepageProjectsCols
+            currentProject="home"
+            displayHeading={false}
+            ourWork={ourWorkData}
+          />
+        </BodySection>
       </Section>
     </Layout>
   );
 };
+
+const BodySection = styled.section`
+  @media (min-width: 768px) {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  @media (min-width: 1024px) {
+    padding: 0 0.5rem;
+  }
+`;
 
 const Heading = styled.h1`
   margin: 0 0 1rem;
