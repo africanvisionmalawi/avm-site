@@ -44,7 +44,7 @@ We have initiated a safe water program and intend to ensure that everyone in our
 
 We support 14 centres, each with a number of satellite villages (anything up to 40).
 
-We also build rammed earth water harvesters. 
+We install purpose-built water collectors (see below) and also build rammed earth water harvesters.
 
 ![](/img/water-harvester.JPG)
 
