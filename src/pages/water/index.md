@@ -50,4 +50,4 @@ We install purpose-built water collectors (see below) and also build rammed eart
 
 _Did you know?_
 
-When we receive 1mm of rain and it falls on 1square metre of roof/land we get one litre of water? 1mm x1m2=1litre. Malawi gets an annual average rainfall of around 800mm per year. If that rain falls on an average class-room of say 100 square metres, then 80,000 litres of rain can be harvested in one season.
+When we receive 1mm of rain and it falls on 1 square metre of roof we get one litre of water.  1mm x1m2=1litre. Malawi gets an annual average rainfall of around 800mm per year.  If that rain falls on an average class-room of say 100 square metres, then 80,000 litres of rain can be harvested in one season.
