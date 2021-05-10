@@ -10,7 +10,7 @@ publish: true
 productId: wooden-beetle-car
 description: The famous Beetle car handcrafted in Malaw
 price: 15
-shippingClass: ''
+shippingClass: SMALL PARCEL
 weight: 230
 width: 100
 height: 100
