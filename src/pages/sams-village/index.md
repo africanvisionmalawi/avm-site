@@ -58,7 +58,8 @@ links:
   url: "/sams-village/library/"
   hide: false
 - linkTitle: Permaculture
-  linkText: Permaculture gardens cover the Sam's Village site.
+  linkText: Permaculture gardens cover the Sam's Village site. All trainees receive
+    permaculture training during their stay with us.
   photo: "/img/page-links/link-permaculture.jpg"
   url: "/sams-village/permaculture/"
   hide: false
