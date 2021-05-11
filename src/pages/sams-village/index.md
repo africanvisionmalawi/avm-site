@@ -52,8 +52,8 @@ links:
   url: "/sams-village/training-programme/"
   hide: false
 - linkTitle: Library
-  linkText: The Sam's Village Library is now open - Monday to Friday all day and Saturday
-    mornings.
+  linkText: The Sam's Village Library is now open to students and visitors - Monday
+    to Friday all day and Saturday mornings.
   photo: "/img/page-links/link-library.jpg"
   url: "/sams-village/library/"
   hide: false
