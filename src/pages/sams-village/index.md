@@ -46,9 +46,8 @@ gallery:
   photo: "/img/projects/sams-village-13.jpg"
 links:
 - linkTitle: Training programme
-  linkText: We are delighted to announce that we have become International Partners
-    with UNESCO. Since 2018, over 200 bursaries have been funded for marginalized
-    people teaching a variety of vocational skills.
+  linkText: Since 2018, working with UNESCO, over 200 bursaries have been funded for
+    marginalized people teaching a variety of vocational skills.
   photo: "/img/page-links/link-building-with-roof.jpg"
   url: "/sams-village/training-programme/"
   hide: false
