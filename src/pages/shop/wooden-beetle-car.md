@@ -1,7 +1,7 @@
 ---
 templateKey: shop-product-page
 salePrice: 
-inStock: 99
+inStock: 4
 shoptags:
 - craft
 size: other
