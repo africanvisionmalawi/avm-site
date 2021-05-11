@@ -1,29 +1,34 @@
 ---
-label: featured-project
+label: Featured-project
 hide_body: false
 fields:
 - type: text
   name: templateKey
   label: templateKey
   hidden: true
-  default: featured-project
 - type: text
   name: currentProject
   label: currentProject
-- type: number
+- type: text
   name: columns
   label: columns
   hidden: true
-  default: '1'
+  default: '0'
 - type: text
   name: title
   label: title
 - type: textarea
   name: description
-  label: description
+  label: Meta description
 - type: file
   name: heroImage
   label: heroImage
+- type: file
+  name: heroImageMobile
+  label: heroImageMobile
+- type: boolean
+  name: hasMobileImage
+  label: hasMobileImage
 - type: text
   name: heroMsg
   label: heroMsg
@@ -63,3 +68,6 @@ fields:
   - type: text
     name: url
     label: url
+  - type: boolean
+    name: hide
+    label: hide
