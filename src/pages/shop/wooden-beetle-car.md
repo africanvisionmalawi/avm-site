@@ -10,7 +10,7 @@ publish: true
 productId: wooden-beetle-car
 description: The famous Beetle car handcrafted in Malaw
 price: 15
-shippingClass: Royal Mail Small Parcel 2nd Class
+shippingClass: 'Royal Mail 2nd Class Small Parcel '
 weight: 230
 width: 100
 height: 100
