@@ -64,8 +64,8 @@ links:
   url: "/sams-village/permaculture/"
   hide: false
 - linkTitle: Building Programme
-  linkText: The building programme at Sam's Village is well underway. We build using
-    sustainable rammed earth techniques.
+  linkText: The building programme at Sam's Village uses thatching and sustainable
+    rammed earth techniques in an environmental way.
   photo: "/img/page-links/link-village-building.jpg"
   url: "/sams-village/building-programme/"
   hide: false
