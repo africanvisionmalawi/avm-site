@@ -46,26 +46,26 @@ gallery:
   photo: "/img/projects/sams-village-13.jpg"
 links:
 - linkTitle: Training programme
-  linkText: We are delighted to announce that we have become International Partners
-    with UNESCO. Since 2018, over 200 bursaries have been funded for marginalized
-    people teaching a variety of vocational skills.
+  linkText: Since 2018, working with UNESCO, over 200 bursaries have been funded for
+    marginalized people teaching a variety of vocational skills.
   photo: "/img/page-links/link-building-with-roof.jpg"
   url: "/sams-village/training-programme/"
   hide: false
 - linkTitle: Library
-  linkText: The Sam's Village Library is now open - Monday to Friday all day and Saturday
-    mornings.
+  linkText: The Sam's Village Library is now open to students and visitors - Monday
+    to Friday all day and Saturday mornings.
   photo: "/img/page-links/link-library.jpg"
   url: "/sams-village/library/"
   hide: false
 - linkTitle: Permaculture
-  linkText: Permaculture gardens cover the Sam's Village site.
+  linkText: Permaculture gardens cover the Sam's Village site. All trainees receive
+    permaculture training during their stay with us.
   photo: "/img/page-links/link-permaculture.jpg"
   url: "/sams-village/permaculture/"
   hide: false
 - linkTitle: Building Programme
-  linkText: The building programme at Sam's Village is well underway. We build using
-    sustainable rammed earth techniques.
+  linkText: The building programme at Sam's Village uses thatching and sustainable
+    rammed earth techniques in an environmental way.
   photo: "/img/page-links/link-village-building.jpg"
   url: "/sams-village/building-programme/"
   hide: false
